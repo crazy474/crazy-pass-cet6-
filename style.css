@@ -2345,3 +2345,165 @@ body.dark-mode .pixel-live-tag {
     right: -10px;
   }
 }
+
+/* ==========================================================================
+   全场景智能备考提醒系统专属样式 (Toast 悬浮提醒 & 提醒中心弹窗)
+   ========================================================================== */
+.toast-container {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: none;
+  max-width: 90vw;
+}
+
+.toast-item {
+  background: rgba(29, 35, 41, 0.94);
+  color: #FFFFFF;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 12px 22px;
+  border-radius: var(--radius-lg);
+  font-size: calc(14px * var(--font-scale));
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: toastSlideDown 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  pointer-events: auto;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+body.dark-mode .toast-item {
+  background: rgba(30, 35, 42, 0.96);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes toastSlideDown {
+  from { opacity: 0; transform: translateY(-16px) scale(0.92); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.reminder-modal-dialog {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  width: 92%;
+  max-width: 580px;
+  box-shadow: var(--shadow-lg);
+  animation: modalScaleUp 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+@keyframes modalScaleUp {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.reminder-section-title {
+  font-size: calc(15px * var(--font-scale));
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reminder-switch-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  margin-bottom: 10px;
+  gap: 12px;
+}
+
+.reminder-switch-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.reminder-switch-name {
+  font-size: calc(14px * var(--font-scale));
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.reminder-switch-desc {
+  font-size: calc(12px * var(--font-scale));
+  color: var(--text-muted);
+}
+
+.reminder-time-input {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 4px 8px;
+  font-size: calc(13.5px * var(--font-scale));
+  font-weight: 700;
+  color: var(--text-main);
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.reminder-time-input:focus {
+  border-color: var(--tomato-red);
+}
+
+.switch-toggle-btn {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.switch-toggle-btn input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: var(--border-hover);
+  transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 24px;
+}
+
+.switch-slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.switch-toggle-btn input:checked + .switch-slider {
+  background-color: var(--sage-green);
+}
+
+.switch-toggle-btn input:checked + .switch-slider:before {
+  transform: translateX(20px);
+}

@@ -47,7 +47,23 @@ let userState = {
   streakDays: 1,
   lastActiveDate: "",
   midnightSnapshots: [],
-  lastMidnightBackup: ""
+  lastMidnightBackup: "",
+  reminders: {
+    enabled: true,
+    systemNotification: false,
+    pomoEnd: true,
+    morningEnabled: true,
+    morningTime: "07:30",
+    daytimeEnabled: true,
+    daytimeTime: "14:00",
+    eveningEnabled: true,
+    eveningTime: "21:00",
+    eyeCareEnabled: true,
+    lastMorningDate: "",
+    lastDaytimeDate: "",
+    lastEveningDate: "",
+    lastEyeCareCheckMins: 0
+  }
 };
 
 // --- 1. 数据存档加载与持久化 ---
@@ -1345,6 +1361,8 @@ window.addEventListener("DOMContentLoaded", () => {
   initExamCountdown();
   checkMidnightCatchUp();
   scheduleMidnightAutoBackup();
+  setInterval(checkScheduledReminders, 30000);
+  checkScheduledReminders();
 });
 
 
@@ -1411,4 +1429,197 @@ function onBrandClick() {
     playChime();
   }
   switchTab("pomodoro");
+}
+
+
+// --- 22. 全场景智能备考提醒系统 (桌面通知 / 定时闹钟 / 护眼关怀) ---
+function showToast(msg, duration = 3500) {
+  let container = document.getElementById("toastContainer");
+  if (!container) {
+    container = document.createElement("div");
+    container.id = "toastContainer";
+    container.className = "toast-container";
+    document.body.appendChild(container);
+  }
+  const item = document.createElement("div");
+  item.className = "toast-item";
+  item.innerHTML = msg;
+  container.appendChild(item);
+  setTimeout(() => {
+    item.style.opacity = "0";
+    item.style.transform = "translateY(-12px) scale(0.95)";
+    item.style.transition = "all 0.3s ease";
+    setTimeout(() => item.remove(), 300);
+  }, duration);
+}
+
+async function requestSystemNotificationPermission() {
+  if (!("Notification" in window)) {
+    showToast("⚠️ 当前环境不支持浏览器系统级通知，已为您启用站内声画弹窗提醒！");
+    return false;
+  }
+  if (Notification.permission === "granted") {
+    userState.reminders.systemNotification = true;
+    saveState();
+    showToast("✅ 系统级桌面通知已处于授权开启状态！");
+    updateReminderModalUI();
+    return true;
+  }
+  try {
+    const perm = await Notification.requestPermission();
+    if (perm === "granted") {
+      userState.reminders.systemNotification = true;
+      saveState();
+      showToast("🎉 授权成功！系统级桌面提醒已开启！");
+    } else {
+      userState.reminders.systemNotification = false;
+      saveState();
+      showToast("ℹ️ 未获得桌面通知权限，系统将自动使用站内声画弹窗提醒。");
+    }
+  } catch (e) {
+    showToast("ℹ️ 浏览器暂未授权系统通知，将采用站内弹窗提醒。");
+  }
+  updateReminderModalUI();
+}
+
+function sendSystemNotification(title, body) {
+  // 1. 站内浮窗 Toast
+  showToast(`🔔 <strong>${title}</strong><br><span style="font-size:12px;opacity:0.9;">${body}</span>`);
+
+  // 2. 空灵声学轻音
+  if (typeof playChime === "function") {
+    playChime();
+  }
+
+  // 3. 系统级桌面推送通知
+  if (userState.reminders && userState.reminders.systemNotification && "Notification" in window && Notification.permission === "granted") {
+    try {
+      new Notification(title, {
+        body: body,
+        icon: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='4' y='12' width='24' height='12' fill='%23E53935'/><rect x='14' y='2' width='4' height='6' fill='%234CAF50'/></svg>"
+      });
+    } catch (e) {
+      console.log("Desktop notification error:", e);
+    }
+  }
+}
+
+function checkScheduledReminders() {
+  if (!userState.reminders || !userState.reminders.enabled) return;
+
+  const now = new Date();
+  const pad = (n) => String(n).padStart(2, "0");
+  const curTime = `${pad(now.getHours())}:${pad(now.getMinutes())}`;
+  const today = now.toISOString().slice(0, 10);
+  const rem = userState.reminders;
+
+  // 晨诵提醒 (默认 07:30)
+  if (rem.morningEnabled && curTime === rem.morningTime && rem.lastMorningDate !== today) {
+    rem.lastMorningDate = today;
+    sendSystemNotification("🌅 疯狂过六级 · 晨诵时间到！", "大声朗读 Unit 核心母词与高频真题句，唤醒英语语感！");
+    saveState();
+  }
+
+  // 日习提醒 (默认 14:00)
+  if (rem.daytimeEnabled && curTime === rem.daytimeTime && rem.lastDaytimeDate !== today) {
+    rem.lastDaytimeDate = today;
+    sendSystemNotification("☀️ 疯狂过六级 · 日习心流时间到！", "开启番茄心流工坊，今日专注攻克高频大纲词！");
+    saveState();
+  }
+
+  // 晚复盘提醒 (默认 21:00)
+  if (rem.eveningEnabled && curTime === rem.eveningTime && rem.lastEveningDate !== today) {
+    rem.lastEveningDate = today;
+    sendSystemNotification("🌙 疯狂过六级 · 晚复盘对账时间到！", "对账今日 9+1 艾宾浩斯记忆矩阵，击溃遗忘曲线！");
+    saveState();
+  }
+
+  // 45分钟久坐与防眼疲劳关怀提醒
+  if (rem.eyeCareEnabled && userState.pomo && userState.pomo.isRunning) {
+    const focusMins = Math.floor(userState.pomo.totalFocusMins || 0);
+    if (focusMins > 0 && focusMins % 45 === 0 && focusMins !== (rem.lastEyeCareCheckMins || 0)) {
+      rem.lastEyeCareCheckMins = focusMins;
+      sendSystemNotification("🍵 护眼与久坐关怀提醒", `您已累计专注 ${focusMins} 分钟！喝口温水、眺望远方或活动眼球，保护视力更高效哦~`);
+      saveState();
+    }
+  }
+}
+
+function openReminderModal() {
+  const modal = document.getElementById("reminderModal");
+  if (modal) {
+    updateReminderModalUI();
+    modal.classList.add("open");
+  }
+}
+
+function closeReminderModal() {
+  const modal = document.getElementById("reminderModal");
+  if (modal) {
+    modal.classList.remove("open");
+  }
+}
+
+function updateReminderModalUI() {
+  if (!userState.reminders) return;
+  const rem = userState.reminders;
+
+  const chkSys = document.getElementById("chkRemSys");
+  const chkPomo = document.getElementById("chkRemPomo");
+  const chkMorn = document.getElementById("chkRemMorning");
+  const timeMorn = document.getElementById("timeRemMorning");
+  const chkDay = document.getElementById("chkRemDaytime");
+  const timeDay = document.getElementById("timeRemDaytime");
+  const chkEve = document.getElementById("chkRemEvening");
+  const timeEve = document.getElementById("timeRemEvening");
+  const chkEye = document.getElementById("chkRemEyeCare");
+  const permBadge = document.getElementById("remPermBadge");
+
+  if (chkSys) chkSys.checked = Boolean(rem.systemNotification);
+  if (chkPomo) chkPomo.checked = Boolean(rem.pomoEnd);
+  if (chkMorn) chkMorn.checked = Boolean(rem.morningEnabled);
+  if (timeMorn) timeMorn.value = rem.morningTime || "07:30";
+  if (chkDay) chkDay.checked = Boolean(rem.daytimeEnabled);
+  if (timeDay) timeDay.value = rem.daytimeTime || "14:00";
+  if (chkEve) chkEve.checked = Boolean(rem.eveningEnabled);
+  if (timeEve) timeEve.value = rem.eveningTime || "21:00";
+  if (chkEye) chkEye.checked = Boolean(rem.eyeCareEnabled);
+
+  if (permBadge) {
+    const isGranted = ("Notification" in window) && Notification.permission === "granted";
+    permBadge.textContent = isGranted ? "已获系统授权" : "未开启系统授权";
+    permBadge.style.color = isGranted ? "#2E7D32" : "var(--text-muted)";
+    permBadge.style.background = isGranted ? "#E8F5E9" : "var(--bg-subtle)";
+  }
+}
+
+function saveReminderSettings() {
+  if (!userState.reminders) userState.reminders = {};
+  const rem = userState.reminders;
+
+  const chkPomo = document.getElementById("chkRemPomo");
+  const chkMorn = document.getElementById("chkRemMorning");
+  const timeMorn = document.getElementById("timeRemMorning");
+  const chkDay = document.getElementById("chkRemDaytime");
+  const timeDay = document.getElementById("timeRemDaytime");
+  const chkEve = document.getElementById("chkRemEvening");
+  const timeEve = document.getElementById("timeRemEvening");
+  const chkEye = document.getElementById("chkRemEyeCare");
+
+  if (chkPomo) rem.pomoEnd = chkPomo.checked;
+  if (chkMorn) rem.morningEnabled = chkMorn.checked;
+  if (timeMorn) rem.morningTime = timeMorn.value;
+  if (chkDay) rem.daytimeEnabled = chkDay.checked;
+  if (timeDay) rem.daytimeTime = timeDay.value;
+  if (chkEve) rem.eveningEnabled = chkEve.checked;
+  if (timeEve) rem.eveningTime = timeEve.value;
+  if (chkEye) rem.eyeCareEnabled = chkEye.checked;
+
+  saveState();
+  showToast("✅ 备考提醒设置已保存生效！");
+  closeReminderModal();
+}
+
+function testReminderNotification() {
+  sendSystemNotification("🎉 提醒功能测试成功！", "听到清脆磬声并看到此弹窗，表明您的备考提醒系统工作完全正常！");
 }
