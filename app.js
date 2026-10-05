@@ -1548,8 +1548,14 @@ function checkScheduledReminders() {
 function openReminderModal() {
   const modal = document.getElementById("reminderModal");
   if (modal) {
-    updateReminderModalUI();
+    try {
+      updateReminderModalUI();
+    } catch (err) {
+      console.warn("updateReminderModalUI error:", err);
+    }
     modal.classList.add("open");
+  } else {
+    alert("提醒设置弹窗加载中，请稍候重试");
   }
 }
 
