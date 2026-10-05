@@ -1718,6 +1718,7 @@ function saveReminderSettings() {
   const chkEve = document.getElementById("chkRemEvening");
   const timeEve = document.getElementById("timeRemEvening");
   const chkEye = document.getElementById("chkRemEyeCare");
+  const chkPlan = document.getElementById("chkRemPlanGoal");
 
   if (chkPomo) rem.pomoEnd = chkPomo.checked;
   if (chkMorn) rem.morningEnabled = chkMorn.checked;
@@ -1727,9 +1728,10 @@ function saveReminderSettings() {
   if (chkEve) rem.eveningEnabled = chkEve.checked;
   if (timeEve) rem.eveningTime = timeEve.value;
   if (chkEye) rem.eyeCareEnabled = chkEye.checked;
+  if (chkPlan && userState.planGoal) userState.planGoal.eveningCheckEnabled = chkPlan.checked;
 
   saveState();
-  showToast("✅ 备考提醒设置已保存生效！");
+  showToast("✅ 全量备考提醒设置已保存生效！");
   closeReminderModal();
 }
 

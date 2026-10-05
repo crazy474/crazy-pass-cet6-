@@ -3519,6 +3519,7 @@ body.dark-mode .perm-badge-denied { background: rgba(244, 67, 54, 0.2); color: #
 
 
   <!-- 全场景智能备考提醒中心弹窗 -->
+    <!-- 全场景智能备考提醒中心弹窗 (全量提醒项完整还原与分类) -->
   <div class="modal-overlay" id="reminderModal" onclick="if(event.target===this)closeReminderModal()">
     <div class="reminder-modal-dialog">
       <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:16px;">
@@ -3529,7 +3530,7 @@ body.dark-mode .perm-badge-denied { background: rgba(244, 67, 54, 0.2); color: #
         <button class="btn-secondary" onclick="closeReminderModal()" style="padding:4px 10px; font-size:14px; border-radius:50%;">✕</button>
       </div>
 
-            <!-- 授权信息提醒与系统推送权限中心 (深度优化) -->
+      <!-- 1. 授权信息提醒与系统推送权限中心 -->
       <div class="perm-card-enhanced" id="remPermCard">
         <div class="perm-status-header">
           <div class="perm-title-group">
@@ -3568,6 +3569,62 @@ body.dark-mode .perm-badge-denied { background: rgba(244, 67, 54, 0.2); color: #
         </div>
       </div>
 
+      <!-- 2. 番茄专注与健康关怀板块 -->
+      <div class="reminder-section-title">🍅 番茄专注与健康关怀</div>
+      
+      <div class="reminder-switch-row">
+        <div class="reminder-switch-info">
+          <span class="reminder-switch-name">🍅 番茄专注结束声画提醒</span>
+          <span class="reminder-switch-desc">倒计时结束时播放空灵颂钵轻音，并弹出小番茄跳舞动画与收获番茄提示</span>
+        </div>
+        <label class="switch-toggle-btn">
+          <input type="checkbox" id="chkRemPomo" checked>
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+
+      <div class="reminder-switch-row">
+        <div class="reminder-switch-info">
+          <span class="reminder-switch-name">🍵 45 分钟久坐与防眼疲劳关怀</span>
+          <span class="reminder-switch-desc">每连续专注 45 分钟，自动温馨提醒喝水、眺望远方或活动眼球</span>
+        </div>
+        <label class="switch-toggle-btn">
+          <input type="checkbox" id="chkRemEyeCare" checked>
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+
+      <!-- 3. 核心词通关计划督学板块 -->
+      <div class="reminder-section-title" style="margin-top:18px;">🎯 核心词通关计划智能督学</div>
+      <div class="reminder-switch-row">
+        <div class="reminder-switch-info">
+          <span class="reminder-switch-name">🎯 每日核心词计划未达标晚间督学提醒</span>
+          <span class="reminder-switch-desc">晚间自动对账，若今日计划背诵词数尚未达成，及时弹出小番茄跳舞激励提醒</span>
+        </div>
+        <label class="switch-toggle-btn">
+          <input type="checkbox" id="chkRemPlanGoal" checked>
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+
+      <!-- 4. 每日备考三大定点闹钟板块 (后台自动巡检对账) -->
+      <div class="reminder-section-title" style="margin-top:18px;">📅 每日备考日程定点闹钟 (支持自由调节时间)</div>
+      
+      <!-- 晨诵提醒 -->
+      <div class="reminder-switch-row">
+        <div class="reminder-switch-info">
+          <span class="reminder-switch-name">🌅 每日晨诵提醒</span>
+          <span class="reminder-switch-desc">大声朗读 Unit 核心母词，唤醒英语语感</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <input type="time" class="reminder-time-input" id="timeRemMorning" value="07:30">
+          <label class="switch-toggle-btn">
+            <input type="checkbox" id="chkRemMorning" checked>
+            <span class="switch-slider"></span>
+          </label>
+        </div>
+      </div>
+
       <!-- 日习提醒 -->
       <div class="reminder-switch-row">
         <div class="reminder-switch-info">
@@ -3577,7 +3634,7 @@ body.dark-mode .perm-badge-denied { background: rgba(244, 67, 54, 0.2); color: #
         <div style="display:flex; align-items:center; gap:8px;">
           <input type="time" class="reminder-time-input" id="timeRemDaytime" value="14:00">
           <label class="switch-toggle-btn">
-            <input type="checkbox" id="chkRemDaytime">
+            <input type="checkbox" id="chkRemDaytime" checked>
             <span class="switch-slider"></span>
           </label>
         </div>
@@ -3592,12 +3649,13 @@ body.dark-mode .perm-badge-denied { background: rgba(244, 67, 54, 0.2); color: #
         <div style="display:flex; align-items:center; gap:8px;">
           <input type="time" class="reminder-time-input" id="timeRemEvening" value="21:00">
           <label class="switch-toggle-btn">
-            <input type="checkbox" id="chkRemEvening">
+            <input type="checkbox" id="chkRemEvening" checked>
             <span class="switch-slider"></span>
           </label>
         </div>
       </div>
 
+      <!-- 5. 底部操作栏 -->
       <div style="display:flex; justify-content:space-between; align-items:center; margin-top:20px; flex-wrap:wrap; gap:10px;">
         <button class="btn-secondary" onclick="testReminderNotification()" style="padding:8px 14px; font-size:13px;">🔔 即刻测试提醒效果</button>
         <div style="display:flex; gap:10px;">
@@ -3606,6 +3664,7 @@ body.dark-mode .perm-badge-denied { background: rgba(244, 67, 54, 0.2); color: #
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <!-- 全局轻量 Toast 悬浮提醒容器 -->
@@ -133750,6 +133809,7 @@ function saveReminderSettings() {
   const chkEve = document.getElementById("chkRemEvening");
   const timeEve = document.getElementById("timeRemEvening");
   const chkEye = document.getElementById("chkRemEyeCare");
+  const chkPlan = document.getElementById("chkRemPlanGoal");
 
   if (chkPomo) rem.pomoEnd = chkPomo.checked;
   if (chkMorn) rem.morningEnabled = chkMorn.checked;
@@ -133759,9 +133819,10 @@ function saveReminderSettings() {
   if (chkEve) rem.eveningEnabled = chkEve.checked;
   if (timeEve) rem.eveningTime = timeEve.value;
   if (chkEye) rem.eyeCareEnabled = chkEye.checked;
+  if (chkPlan && userState.planGoal) userState.planGoal.eveningCheckEnabled = chkPlan.checked;
 
   saveState();
-  showToast("✅ 备考提醒设置已保存生效！");
+  showToast("✅ 全量备考提醒设置已保存生效！");
   closeReminderModal();
 }
 
