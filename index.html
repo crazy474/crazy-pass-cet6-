@@ -318,6 +318,9 @@
       </div>
 
       <!-- 控制工具栏 -->
+      <!-- 紧凑计划进度提醒条 -->
+      <div id="vocabPlanBanner"></div>
+
       <div class="vocab-control-bar">
         <div class="unit-selector-group">
           <label style="font-weight:700; color:var(--text-main); font-size:var(--font-md);">选择单元：</label>
@@ -450,6 +453,9 @@
           </div>
         </div>
       </div>
+      <!-- 核心词与派生词通关计划看板 -->
+      <div id="planGoalDashboard"></div>
+
       <div class="grid-2">
         <div>
           <div class="card" style="margin-bottom:24px;">
@@ -629,6 +635,17 @@
         </div>
         <label class="switch-toggle-btn">
           <input type="checkbox" id="chkRemEyeCare">
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+
+      <div class="reminder-switch-row">
+        <div class="reminder-switch-info">
+          <span class="reminder-switch-name">🎯 每日核心词计划未达标晚间督学提醒</span>
+          <span class="reminder-switch-desc">晚间自动对账，若今日计划背诵词数尚未达成，及时弹出激励提醒</span>
+        </div>
+        <label class="switch-toggle-btn">
+          <input type="checkbox" id="chkRemPlanGoal" checked>
           <span class="switch-slider"></span>
         </label>
       </div>

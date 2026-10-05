@@ -63,6 +63,15 @@ let userState = {
     lastDaytimeDate: "",
     lastEveningDate: "",
     lastEyeCareCheckMins: 0
+  },
+  planGoal: {
+    enabled: true,
+    targetDays: 30,
+    startDate: "",
+    customDays: 30,
+    todayLearnedIds: {},
+    todayDate: "",
+    eveningCheckEnabled: true
   }
 };
 
@@ -720,6 +729,7 @@ function renderVocabSection() {
   });
 
   listEl.innerHTML = cardsHtml;
+  renderVocabPlanBanner();
 }
 
 
@@ -774,6 +784,11 @@ function updateCheck(wordId, stage) {
   // 如果抗遗忘环上所有勾选均已取消，且未加入星标生词本，彻底删除该词的记录，实现精准计数扣减
   if (!isWordLearned(r) && !r.star) {
     delete userState.learned[wordId];
+    if (userState.planGoal && userState.planGoal.todayLearnedIds) {
+      delete userState.planGoal.todayLearnedIds[wordId];
+    }
+  } else if (isWordLearned(r)) {
+    trackDailyPlanCheck(wordId);
   }
 
   saveState();
@@ -1034,6 +1049,7 @@ function renderPlannerSection() {
   if (nightCheck) nightCheck.checked = userState.habits.evening;
 
   updateStreakDisplay();
+  renderPlanGoalDashboard();
 }
 
 function onHabitChange(type, checkbox) {
@@ -1628,4 +1644,208 @@ function saveReminderSettings() {
 
 function testReminderNotification() {
   sendSystemNotification("🎉 提醒功能测试成功！", "听到清脆磬声并看到此弹窗，表明您的备考提醒系统工作完全正常！");
+}
+
+
+// --- 23. 核心词及派生词专属通关计划与智能督学系统 ---
+function initPlanGoal() {
+  if (!userState.planGoal) {
+    userState.planGoal = {
+      enabled: true,
+      targetDays: 30,
+      startDate: new Date().toISOString().slice(0, 10),
+      customDays: 30,
+      todayLearnedIds: {},
+      todayDate: new Date().toISOString().slice(0, 10),
+      eveningCheckEnabled: true
+    };
+  }
+
+  const today = new Date().toISOString().slice(0, 10);
+  if (!userState.planGoal.startDate) {
+    userState.planGoal.startDate = today;
+  }
+  if (!userState.planGoal.todayDate || userState.planGoal.todayDate !== today) {
+    userState.planGoal.todayDate = today;
+    userState.planGoal.todayLearnedIds = {};
+  }
+}
+
+function getPlanStats() {
+  initPlanGoal();
+  const totalCoreWords = 3304; // 10单元40课核心母词与派生词总量
+  const learned = getLearnedWordsCount();
+  const remaining = Math.max(0, totalCoreWords - learned);
+
+  const now = new Date();
+  const start = new Date(userState.planGoal.startDate || now);
+  const diffMs = now.getTime() - start.getTime();
+  const daysElapsed = Math.max(0, Math.floor(diffMs / (1000 * 60 * 60 * 24)));
+  
+  const targetDays = userState.planGoal.targetDays || 30;
+  const daysRemaining = Math.max(1, targetDays - daysElapsed);
+  
+  // 动态重算今日之后每日所需背诵量 (智能自动适配)
+  const dailyQuota = Math.ceil(remaining / daysRemaining);
+
+  // 今日已学打卡词数
+  const todayCheckedCount = Object.keys(userState.planGoal.todayLearnedIds || {}).length;
+
+  // 进度节奏判定 (Pace status)
+  const expectedLearned = Math.min(totalCoreWords, Math.round((totalCoreWords / targetDays) * (daysElapsed + 1)));
+  let paceStatus = "ontrack"; // "ahead", "ontrack", "behind"
+  let paceText = "稳步推进中";
+  let paceClass = "pace-ontrack";
+
+  if (learned >= expectedLearned * 1.05 || (daysRemaining > 0 && dailyQuota <= Math.round(totalCoreWords / targetDays * 0.85))) {
+    paceStatus = "ahead";
+    paceText = "🟢 进度超前";
+    paceClass = "pace-ahead";
+  } else if (learned < expectedLearned * 0.85 || dailyQuota > Math.round(totalCoreWords / targetDays * 1.2)) {
+    paceStatus = "behind";
+    paceText = "🔴 进度落后 (每日指标已智能上调)";
+    paceClass = "pace-behind";
+  } else {
+    paceStatus = "ontrack";
+    paceText = "🟡 节奏正常";
+    paceClass = "pace-ontrack";
+  }
+
+  const progressPercent = Math.min(100, Math.round((learned / totalCoreWords) * 1000) / 10);
+
+  return {
+    totalCoreWords,
+    learned,
+    remaining,
+    targetDays,
+    daysElapsed: daysElapsed + 1,
+    daysRemaining,
+    dailyQuota,
+    todayCheckedCount,
+    paceStatus,
+    paceText,
+    paceClass,
+    progressPercent
+  };
+}
+
+function setPlanDays(days) {
+  initPlanGoal();
+  userState.planGoal.targetDays = parseInt(days);
+  userState.planGoal.customDays = parseInt(days);
+  // 重置起算时间为今日，开启全新周期
+  userState.planGoal.startDate = new Date().toISOString().slice(0, 10);
+  saveState();
+  renderPlanGoalDashboard();
+  renderVocabPlanBanner();
+  showToast(`🎯 已设定 ${days} 天搞定 3304 个核心词及派生词计划！`);
+}
+
+function setCustomPlanDays(days) {
+  days = Math.max(1, Math.min(180, parseInt(days) || 30));
+  setPlanDays(days);
+}
+
+function renderPlanGoalDashboard() {
+  const container = document.getElementById("planGoalDashboard");
+  if (!container) return;
+
+  const s = getPlanStats();
+  const presets = [15, 30, 45, 60];
+
+  container.innerHTML = `
+    <div class="plan-goal-card">
+      <div class="plan-goal-header">
+        <div>
+          <span class="hero-badge" style="background:var(--tomato-soft); color:var(--tomato-dark); border-color:rgba(217,72,52,0.3);">🎯 核心词与派生词通关计划目标</span>
+          <h3 style="font-size:var(--font-xl); font-weight:800; color:var(--text-main); margin-top:4px;">全书 3,304 词智能通关进度与每日任务看板</h3>
+          <p style="font-size:var(--font-sm); color:var(--text-muted); margin-top:2px;">自主选择备考天数，系统根据剩余待学词量实时动态分配每日指标，智能纠偏！</p>
+        </div>
+        <div class="plan-preset-group">
+          <span style="font-size:13px; font-weight:700; color:var(--text-muted);">计划周期：</span>
+          ${presets.map(p => `
+            <button class="plan-preset-btn ${s.targetDays === p ? "active" : ""}" onclick="setPlanDays(${p})">
+              ${p}天 ${p === 15 ? "冲刺" : (p === 30 ? "强化" : (p === 45 ? "稳健" : "从容"))}
+            </button>
+          `).join("")}
+          <div style="display:inline-flex; align-items:center; gap:4px; margin-left:6px;">
+            <input type="number" min="1" max="180" value="${s.targetDays}" class="reminder-time-input" style="width:60px; text-align:center;" onchange="setCustomPlanDays(this.value)" title="自定义目标天数">
+            <span style="font-size:12px; color:var(--text-muted);">天</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 核心指标网格 -->
+      <div class="plan-stats-grid">
+        <div class="plan-stat-box">
+          <div class="plan-stat-val">${s.totalCoreWords}</div>
+          <div class="plan-stat-lbl">词汇总量 (母词+派生)</div>
+        </div>
+        <div class="plan-stat-box">
+          <div class="plan-stat-val" style="color:var(--sage-green);">${s.learned}</div>
+          <div class="plan-stat-lbl">已背诵打卡 (词)</div>
+        </div>
+        <div class="plan-stat-box">
+          <div class="plan-stat-val highlight-val">${s.remaining}</div>
+          <div class="plan-stat-lbl">剩余待背 (词)</div>
+        </div>
+        <div class="plan-stat-box">
+          <div class="plan-stat-val">${s.daysRemaining} / ${s.targetDays}</div>
+          <div class="plan-stat-lbl">剩余天数 / 计划总期</div>
+        </div>
+        <div class="plan-stat-box" style="border-color:var(--tomato-coral); background:var(--tomato-soft);">
+          <div class="plan-stat-val highlight-val" style="font-size:calc(26px * var(--font-scale));">${s.dailyQuota}</div>
+          <div class="plan-stat-lbl" style="color:var(--tomato-dark); font-weight:700;">每日需背指标 (词/天)</div>
+        </div>
+      </div>
+
+      <!-- 总体进度条与节奏状态 -->
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-top:8px; flex-wrap:wrap; gap:8px;">
+        <div style="font-size:13.5px; font-weight:700; color:var(--text-main);">
+          通关总进度：<strong style="color:var(--tomato-red); font-size:16px;">${s.progressPercent}%</strong>
+          <span style="font-size:12px; color:var(--text-muted); margin-left:8px;">(今日已打卡: <strong>${s.todayCheckedCount}</strong> / 目标 ${s.dailyQuota} 词)</span>
+        </div>
+        <div class="plan-pace-badge ${s.paceClass}">${s.paceText}</div>
+      </div>
+      <div class="plan-progress-container">
+        <div class="plan-progress-bar" style="width: ${s.progressPercent}%;"></div>
+      </div>
+    </div>
+  `;
+}
+
+function renderVocabPlanBanner() {
+  const container = document.getElementById("vocabPlanBanner");
+  if (!container) return;
+
+  const s = getPlanStats();
+  container.innerHTML = `
+    <div class="vocab-plan-compact-banner">
+      <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+        <span style="font-size:14px; font-weight:800; color:var(--text-main);">🎯 核心词通关计划 (${s.targetDays}天周期)：</span>
+        <span style="font-size:13px; color:var(--text-body);">
+          今日目标需背 <strong>${s.dailyQuota}</strong> 词 ｜ 今日已打卡 <strong style="color:var(--sage-green);">${s.todayCheckedCount}</strong> 词 ｜ 剩余待学 <strong>${s.remaining}</strong> 词
+        </span>
+      </div>
+      <div style="display:flex; align-items:center; gap:10px;">
+        <div class="plan-pace-badge ${s.paceClass}" style="font-size:12px; padding:2px 10px;">${s.paceText}</div>
+        <button class="btn-secondary" onclick="switchTab('planner')" style="padding:3px 10px; font-size:12px;">调整计划 ⚙️</button>
+      </div>
+    </div>
+  `;
+}
+
+// 记录今日打卡并在达成指标时发声与弹窗激励
+function trackDailyPlanCheck(wordId) {
+  initPlanGoal();
+  if (!userState.planGoal.todayLearnedIds) userState.planGoal.todayLearnedIds = {};
+  userState.planGoal.todayLearnedIds[wordId] = true;
+  saveState();
+
+  const s = getPlanStats();
+  // 检查是否恰好达成今日指标
+  if (s.todayCheckedCount === s.dailyQuota && s.dailyQuota > 0) {
+    if (typeof playChime === "function") playChime();
+    showToast(`🎉 太棒了！今日 ${s.dailyQuota} 词背诵目标已圆满达成！继续保持，疯狂过六级！🏆`);
+  }
 }
