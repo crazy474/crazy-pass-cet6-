@@ -2650,3 +2650,171 @@ body.dark-mode .pace-behind { background: rgba(244, 67, 54, 0.15); color: #E5737
   gap: 12px;
   flex-wrap: wrap;
 }
+
+/* ==========================================================================
+   小番茄人物形象动画提醒专属弹窗与动效 (声画双重沉浸提醒)
+   ========================================================================== */
+.tomato-alert-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: tomatoOverlayFadeIn 0.25s ease-out;
+  padding: 20px;
+}
+
+@keyframes tomatoOverlayFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.tomato-alert-card {
+  background: var(--bg-surface);
+  border: 2px solid var(--tomato-coral);
+  border-radius: var(--radius-xl);
+  padding: 28px 24px;
+  width: 100%;
+  max-width: 440px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(217, 72, 52, 0.3);
+  position: relative;
+  animation: tomatoAlertCardIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes tomatoAlertCardIn {
+  from { opacity: 0; transform: translateY(-40px) scale(0.85); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.tomato-avatar-stage {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.tomato-dancing-svg {
+  width: 72px;
+  height: 72px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(0 4px 10px rgba(183, 28, 28, 0.35));
+  animation: tomatoAlertDance 1s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes tomatoAlertDance {
+  0%, 100% { transform: translateY(0) rotate(0deg) scale(1); }
+  25% { transform: translateY(-14px) rotate(-6deg) scale(1.1); }
+  50% { transform: translateY(0) rotate(0deg) scale(1); }
+  75% { transform: translateY(-14px) rotate(6deg) scale(1.1); }
+}
+
+.pixel-foot-left {
+  animation: footTapLeft 0.5s ease-in-out infinite alternate;
+}
+
+.pixel-foot-right {
+  animation: footTapRight 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes footTapLeft {
+  from { transform: translateY(0); }
+  to { transform: translateY(-2px); }
+}
+
+@keyframes footTapRight {
+  from { transform: translateY(-2px); }
+  to { transform: translateY(0); }
+}
+
+/* 浮动彩色星星与番茄粒子 */
+.tomato-particles-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.tomato-particle {
+  position: absolute;
+  font-size: 18px;
+  animation: particleFloat 1.8s ease-in-out infinite;
+}
+
+.tomato-particle.p1 { top: 0; left: -10px; animation-delay: 0s; }
+.tomato-particle.p2 { top: -10px; right: -5px; animation-delay: 0.4s; }
+.tomato-particle.p3 { bottom: 5px; right: -15px; animation-delay: 0.8s; }
+.tomato-particle.p4 { bottom: 5px; left: -15px; animation-delay: 1.2s; }
+
+@keyframes particleFloat {
+  0%, 100% { transform: translateY(0) scale(1) rotate(0deg); opacity: 0.85; }
+  50% { transform: translateY(-10px) scale(1.25) rotate(15deg); opacity: 1; }
+}
+
+.tomato-alert-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: calc(12px * var(--font-scale));
+  font-weight: 800;
+  padding: 3px 12px;
+  border-radius: 999px;
+  background: var(--tomato-soft);
+  color: var(--tomato-dark);
+  border: 1px solid rgba(217, 72, 52, 0.3);
+  margin-bottom: 8px;
+}
+
+body.dark-mode .tomato-alert-tag {
+  color: var(--tomato-coral);
+}
+
+.tomato-alert-title {
+  font-size: calc(20px * var(--font-scale));
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.tomato-alert-body {
+  font-size: calc(14px * var(--font-scale));
+  color: var(--text-body);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.tomato-alert-confirm-btn {
+  background: linear-gradient(135deg, var(--tomato-coral), var(--tomato-red));
+  color: #FFFFFF;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 10px 28px;
+  font-size: calc(15px * var(--font-scale));
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(217, 72, 52, 0.35);
+  transition: all 0.2s ease;
+}
+
+.tomato-alert-confirm-btn:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 18px rgba(217, 72, 52, 0.45);
+}

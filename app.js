@@ -1499,25 +1499,8 @@ async function requestSystemNotificationPermission() {
 }
 
 function sendSystemNotification(title, body) {
-  // 1. 站内浮窗 Toast
-  showToast(`🔔 <strong>${title}</strong><br><span style="font-size:12px;opacity:0.9;">${body}</span>`);
-
-  // 2. 空灵声学轻音
-  if (typeof playChime === "function") {
-    playChime();
-  }
-
-  // 3. 系统级桌面推送通知
-  if (userState.reminders && userState.reminders.systemNotification && "Notification" in window && Notification.permission === "granted") {
-    try {
-      new Notification(title, {
-        body: body,
-        icon: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='4' y='12' width='24' height='12' fill='%23E53935'/><rect x='14' y='2' width='4' height='6' fill='%234CAF50'/></svg>"
-      });
-    } catch (e) {
-      console.log("Desktop notification error:", e);
-    }
-  }
+  // 触发小番茄人物形象动画弹窗 + 空灵颂钵轻音 + 系统通知
+  showTomatoAlert(title, body);
 }
 
 function checkScheduledReminders() {
@@ -1847,5 +1830,120 @@ function trackDailyPlanCheck(wordId) {
   if (s.todayCheckedCount === s.dailyQuota && s.dailyQuota > 0) {
     if (typeof playChime === "function") playChime();
     showToast(`🎉 太棒了！今日 ${s.dailyQuota} 词背诵目标已圆满达成！继续保持，疯狂过六级！🏆`);
+  }
+}
+
+
+// --- 24. 小番茄人物形象动画提醒专属弹窗 (声画双重沉浸提醒) ---
+let tomatoAlertAutoTimer = null;
+
+function showTomatoAlert(title, body, type = "normal") {
+  // 1. 播放空灵轻音声学反馈
+  if (typeof playChime === "function") {
+    playChime();
+  }
+
+  // 2. 移除已有弹窗
+  closeTomatoAlert();
+
+  // 3. 构建小番茄人物形象专属动画弹窗
+  const overlay = document.createElement("div");
+  overlay.className = "tomato-alert-overlay";
+  overlay.id = "tomatoAlertOverlay";
+  overlay.onclick = function(e) {
+    if (e.target === overlay) closeTomatoAlert();
+  };
+
+  overlay.innerHTML = `
+    <div class="tomato-alert-card" onclick="event.stopPropagation()">
+      <div class="tomato-avatar-stage">
+        <!-- 粒子星星与小番茄 -->
+        <div class="tomato-particles-wrap">
+          <span class="tomato-particle p1">✨</span>
+          <span class="tomato-particle p2">🍅</span>
+          <span class="tomato-particle p3">🌟</span>
+          <span class="tomato-particle p4">🎉</span>
+        </div>
+        <!-- 64x64 欢脱起舞小番茄人物像素画 -->
+        <svg class="tomato-dancing-svg" viewBox="0 0 32 32" shape-rendering="crispEdges">
+          <!-- 绿叶与叶柄 -->
+          <rect x="14" y="2" width="4" height="4" fill="#2E7D32" />
+          <rect x="12" y="4" width="8" height="2" fill="#43A047" />
+          <rect x="10" y="6" width="12" height="2" fill="#66BB6A" />
+          <rect x="8" y="6" width="2" height="2" fill="#388E3C" />
+          <rect x="22" y="6" width="2" height="2" fill="#388E3C" />
+          <rect x="6" y="8" width="4" height="2" fill="#4CAF50" />
+          <rect x="22" y="8" width="4" height="2" fill="#4CAF50" />
+
+          <!-- 番茄身体暗部轮廓 -->
+          <rect x="8" y="8" width="16" height="2" fill="#C62828" />
+          <rect x="6" y="10" width="20" height="2" fill="#D32F2F" />
+          <rect x="4" y="12" width="24" height="12" fill="#E53935" />
+          <rect x="6" y="24" width="20" height="2" fill="#D32F2F" />
+          <rect x="8" y="26" width="16" height="2" fill="#C62828" />
+
+          <!-- 高光亮点 -->
+          <rect x="8" y="12" width="4" height="2" fill="#FF8A80" />
+          <rect x="6" y="14" width="2" height="4" fill="#FF8A80" />
+
+          <!-- 元气星星大眼睛 (眨眼动效) -->
+          <rect class="pixel-eye" x="9" y="14" width="4" height="4" fill="#1A1A1A" />
+          <rect x="9" y="14" width="2" height="2" fill="#FFFFFF" />
+          <rect x="11" y="16" width="1" height="1" fill="#FFFFFF" />
+
+          <rect class="pixel-eye" x="19" y="14" width="4" height="4" fill="#1A1A1A" />
+          <rect x="19" y="14" width="2" height="2" fill="#FFFFFF" />
+          <rect x="21" y="16" width="1" height="1" fill="#FFFFFF" />
+
+          <!-- 元气红晕小腮红 -->
+          <rect x="5" y="18" width="4" height="2" fill="#FF4081" opacity="0.9" />
+          <rect x="23" y="18" width="4" height="2" fill="#FF4081" opacity="0.9" />
+
+          <!-- 兴奋张开的大笑嘴巴 -->
+          <rect x="13" y="18" width="6" height="3" fill="#880E4F" />
+          <rect x="14" y="20" width="4" height="2" fill="#FF5252" />
+
+          <!-- 像素欢脱小脚丫 (欢快踏步) -->
+          <rect class="pixel-foot-left" x="9" y="28" width="4" height="3" fill="#B71C1C" />
+          <rect class="pixel-foot-right" x="19" y="28" width="4" height="3" fill="#B71C1C" />
+        </svg>
+      </div>
+
+      <div class="tomato-alert-tag">🍅 疯狂过六级 · 番茄Q酱提醒</div>
+      <div class="tomato-alert-title">${title}</div>
+      <div class="tomato-alert-body">${body}</div>
+
+      <button class="tomato-alert-confirm-btn" onclick="closeTomatoAlert()">我知道啦！继续加油 ✨</button>
+    </div>
+  `;
+
+  document.body.appendChild(overlay);
+
+  // 4. 自动在 5.5 秒后平滑淡出
+  clearTimeout(tomatoAlertAutoTimer);
+  tomatoAlertAutoTimer = setTimeout(() => {
+    closeTomatoAlert();
+  }, 5500);
+
+  // 5. 触发系统级桌面通知 (如果授权)
+  if (userState.reminders && userState.reminders.systemNotification && "Notification" in window && Notification.permission === "granted") {
+    try {
+      new Notification(title, {
+        body: body,
+        icon: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='4' y='12' width='24' height='12' fill='%23E53935'/><rect x='14' y='2' width='4' height='6' fill='%234CAF50'/></svg>"
+      });
+    } catch (e) {
+      console.log("Desktop notification error:", e);
+    }
+  }
+}
+
+function closeTomatoAlert() {
+  clearTimeout(tomatoAlertAutoTimer);
+  const overlay = document.getElementById("tomatoAlertOverlay");
+  if (overlay) {
+    overlay.style.opacity = "0";
+    overlay.style.transition = "opacity 0.25s ease";
+    setTimeout(() => overlay.remove(), 260);
   }
 }
