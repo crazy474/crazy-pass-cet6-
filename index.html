@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>疯狂过六级 · 极速通关特训站</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 全局顶部导航 (Sticky Header) -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="brand-section" onclick="onBrandClick()" title="点击回到首页 · 可爱番茄伴学君">
+        <div class="brand-logo" id="brandPixelLogo">
+          <svg class="pixel-tomato-svg" viewBox="0 0 32 32" width="38" height="38" shape-rendering="crispEdges">
+            <!-- 绿叶与叶柄 -->
+            <rect x="14" y="2" width="4" height="4" fill="#2E7D32" />
+            <rect x="12" y="4" width="8" height="2" fill="#43A047" />
+            <rect x="10" y="6" width="12" height="2" fill="#66BB6A" />
+            <rect x="8" y="6" width="2" height="2" fill="#388E3C" />
+            <rect x="22" y="6" width="2" height="2" fill="#388E3C" />
+            <rect x="6" y="8" width="4" height="2" fill="#4CAF50" />
+            <rect x="22" y="8" width="4" height="2" fill="#4CAF50" />
+
+            <!-- 番茄身体轮廓 -->
+            <rect x="8" y="8" width="16" height="2" fill="#C62828" />
+            <rect x="6" y="10" width="20" height="2" fill="#D32F2F" />
+            <rect x="4" y="12" width="24" height="12" fill="#E53935" />
+            <rect x="6" y="24" width="20" height="2" fill="#D32F2F" />
+            <rect x="8" y="26" width="16" height="2" fill="#C62828" />
+
+            <!-- 高光亮点 -->
+            <rect x="8" y="12" width="4" height="2" fill="#FF8A80" />
+            <rect x="6" y="14" width="2" height="4" fill="#FF8A80" />
+
+            <!-- 大眼睛 (眨眼动效) -->
+            <rect class="pixel-eye" x="10" y="14" width="3" height="4" fill="#212121" />
+            <rect x="10" y="14" width="1" height="2" fill="#FFFFFF" />
+            <rect class="pixel-eye" x="19" y="14" width="3" height="4" fill="#212121" />
+            <rect x="19" y="14" width="1" height="2" fill="#FFFFFF" />
+
+            <!-- 粉嫩小腮红 -->
+            <rect x="6" y="18" width="3" height="2" fill="#FF80AB" opacity="0.85" />
+            <rect x="23" y="18" width="3" height="2" fill="#FF80AB" opacity="0.85" />
+
+            <!-- 微笑嘴巴 -->
+            <rect x="14" y="18" width="4" height="2" fill="#880E4F" />
+            <rect x="13" y="17" width="1" height="1" fill="#880E4F" />
+            <rect x="18" y="17" width="1" height="1" fill="#880E4F" />
+
+            <!-- 像素小短腿 -->
+            <rect x="10" y="28" width="3" height="3" fill="#B71C1C" />
+            <rect x="19" y="28" width="3" height="3" fill="#B71C1C" />
+          </svg>
+        </div>
+        <div class="brand-info">
+          <h1>疯狂过六级 <span style="font-size:12px; font-weight:800; color:var(--tomato-dark); background:var(--tomato-soft); border:1px solid rgba(217,72,52,0.3); padding:2px 8px; border-radius:6px; margin-left:4px;">Q版伴学站</span></h1>
+          <p>可爱番茄伴学君 · 9+1 艾宾浩斯抗遗忘 ＋ 7375 词乱序闪过卡</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- 字体大小无级缩放控制器 (解决小字看花眼) -->
+        <div class="font-size-widget" title="全局字体缩放 (告别小字体眼疲劳)">
+          <span class="font-widget-label">🔍 字体大小：</span>
+          <button class="font-btn" onclick="zoomFont(-0.1)" title="按步缩小">A-</button>
+          <button class="font-btn active" data-scale="1.0" onclick="setFontScale(1.0)">标准 100%</button>
+          <button class="font-btn" data-scale="1.15" onclick="setFontScale(1.15)">舒适 115%</button>
+          <button class="font-btn" data-scale="1.30" onclick="setFontScale(1.30)">大字 130%</button>
+          <button class="font-btn" data-scale="1.45" onclick="setFontScale(1.45)">关怀 145%</button>
+          <button class="font-btn" onclick="zoomFont(0.1)" title="按步放大">A+</button>
+        </div>
+
+        
+        <!-- 12月12日 六级统考倒计时 -->
+        <div class="header-pill exam-countdown-pill" title="目标时间：12月12日 15:00 大学英语六级统考">
+          ⏳ 距六级考(12.12)：<strong id="headerExamDays">--</strong>天 <span id="headerExamHMS">--:--:--</span>
+        </div>
+        <button class="header-pill" id="btnDarkMode" onclick="toggleDarkMode()">🌙 夜间深黛黑</button>
+        <!-- 可爱番茄 Q 版像素人 (点击趣味互动) -->
+        <div class="pixel-tomato-widget" id="pixelTomatoWidget" onclick="petPixelTomato()" title="点击我和我互动~ 今天也要疯狂过六级！">
+          <div class="pixel-tomato-avatar">
+            <svg class="pixel-tomato-svg" viewBox="0 0 32 32" width="36" height="36" shape-rendering="crispEdges">
+              <!-- 绿叶与叶柄 -->
+              <rect x="14" y="2" width="4" height="4" fill="#2E7D32" />
+              <rect x="12" y="4" width="8" height="2" fill="#43A047" />
+              <rect x="10" y="6" width="12" height="2" fill="#66BB6A" />
+              <rect x="8" y="6" width="2" height="2" fill="#388E3C" />
+              <rect x="22" y="6" width="2" height="2" fill="#388E3C" />
+              <rect x="6" y="8" width="4" height="2" fill="#4CAF50" />
+              <rect x="22" y="8" width="4" height="2" fill="#4CAF50" />
+
+              <!-- 番茄身体轮廓 -->
+              <rect x="8" y="8" width="16" height="2" fill="#C62828" />
+              <rect x="6" y="10" width="20" height="2" fill="#D32F2F" />
+              <rect x="4" y="12" width="24" height="12" fill="#E53935" />
+              <rect x="6" y="24" width="20" height="2" fill="#D32F2F" />
+              <rect x="8" y="26" width="16" height="2" fill="#C62828" />
+
+              <!-- 高光亮点 -->
+              <rect x="8" y="12" width="4" height="2" fill="#FF8A80" />
+              <rect x="6" y="14" width="2" height="4" fill="#FF8A80" />
+
+              <!-- 大眼睛 (眨眼动效) -->
+              <rect class="pixel-eye" x="10" y="14" width="3" height="4" fill="#212121" />
+              <rect x="10" y="14" width="1" height="2" fill="#FFFFFF" />
+              <rect class="pixel-eye" x="19" y="14" width="3" height="4" fill="#212121" />
+              <rect x="19" y="14" width="1" height="2" fill="#FFFFFF" />
+
+              <!-- 粉嫩小腮红 -->
+              <rect x="6" y="18" width="3" height="2" fill="#FF80AB" opacity="0.85" />
+              <rect x="23" y="18" width="3" height="2" fill="#FF80AB" opacity="0.85" />
+
+              <!-- 微笑嘴巴 -->
+              <rect x="14" y="18" width="4" height="2" fill="#880E4F" />
+              <rect x="13" y="17" width="1" height="1" fill="#880E4F" />
+              <rect x="18" y="17" width="1" height="1" fill="#880E4F" />
+
+              <!-- 像素小短腿 -->
+              <rect x="10" y="28" width="3" height="3" fill="#B71C1C" />
+              <rect x="19" y="28" width="3" height="3" fill="#B71C1C" />
+            </svg>
+          </div>
+          <div class="pixel-tomato-info">
+            <div class="pixel-tomato-name">番茄Q酱 <span class="pixel-live-tag">伴学中</span></div>
+            <div class="pixel-tomato-sub">今日收获 <strong id="headerTomatoCount">0</strong> 颗番茄</div>
+          </div>
+          <!-- 悬浮点击鼓励对话气泡 -->
+          <div class="pixel-speech-bubble" id="pixelTomatoBubble">加油！疯狂过六级！🍅</div>
+        </div>
+        <div class="header-pill">🔥 连续打卡：<span id="headerStreakDays">1</span> 天</div>
+
+        <div class="search-box-pill">
+          <input type="text" id="globalSearchInput" placeholder="全局搜索词汇/技巧..." oninput="onVocabSearch(this.value)">
+          <kbd>Ctrl+K</kbd>
+        </div>
+      </div>
+    </div>
+
+    <!-- 药丸 Tab 导航栏 -->
+    <nav class="nav-bar">
+      <div class="nav-tabs">
+        <button class="tab-link active" data-tab="pomodoro" onclick="switchTab('pomodoro')">🍅 番茄心流工坊</button>
+        <button class="tab-link" data-tab="vocab" onclick="switchTab('vocab')">🧠 艾宾浩斯核心词库</button>
+        <button class="tab-link" data-tab="flash" onclick="switchTab('flash')">⚡ 极速闪视 & 3D闪卡</button>
+        <button class="tab-link" data-tab="planner" onclick="switchTab('planner')">📅 7周通关计划</button>
+        <button class="tab-link" data-tab="backup" onclick="switchTab('backup')">💾 数据归档与备份</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- 主体视图容器 -->
+  <main class="main-wrapper">
+
+    <!-- 板块 1：番茄心流工坊 -->
+    <section id="tab-pomodoro" class="tab-content active">
+      <div class="hero-card">
+        <span class="hero-badge">🍅 疯狂过六级 · 物理声学伴学 · 沉浸心流工坊</span>
+        <h1 class="hero-title serif-heading">在平静专注的呼吸里，种下你的六级高分</h1>
+        <p class="hero-desc">
+          基于番茄工作法与植物成长正反馈机制。每一次专注都将见证一颗红番茄破土生长；内置原生物理声学合成环境白噪音（雨声、柴火、微风），免外部音频加载，助你瞬间进入深度学习心流。
+        </p>
+      </div>
+
+      
+      <!-- 12月12日 统考倒计时看板 -->
+      <div class="exam-countdown-banner">
+        <div>
+          <span class="hero-badge" style="background:var(--harvest-soft); color:var(--harvest-gold); border-color:var(--harvest-border);">🎯 决战倒计时 · 12月12日 15:00 统考</span>
+          <h2 style="font-size:var(--font-xl); font-weight:800; color:var(--text-main); margin-top:4px;">距离六级考场决战仅剩：</h2>
+          <p style="font-size:var(--font-sm); color:var(--text-muted); margin-top:2px;">星光不问赶路人，每一个专注番茄与记忆闭环都在为你的高分添砖加瓦！</p>
+        </div>
+        <div class="exam-countdown-grid">
+          <div class="exam-time-box">
+            <div class="exam-time-val" id="pomoExamDays">--</div>
+            <div class="exam-time-lbl">天 DAYS</div>
+          </div>
+          <span class="exam-colon">:</span>
+          <div class="exam-time-box">
+            <div class="exam-time-val" id="pomoExamHours">--</div>
+            <div class="exam-time-lbl">时 HOURS</div>
+          </div>
+          <span class="exam-colon">:</span>
+          <div class="exam-time-box">
+            <div class="exam-time-val" id="pomoExamMins">--</div>
+            <div class="exam-time-lbl">分 MINS</div>
+          </div>
+          <span class="exam-colon">:</span>
+          <div class="exam-time-box">
+            <div class="exam-time-val" id="pomoExamSecs">--</div>
+            <div class="exam-time-lbl">秒 SECS</div>
+          </div>
+        </div>
+      </div>
+      <div class="pomo-container">
+        <div class="pomo-timer-card">
+          <div class="pomo-mode-tabs">
+            <button class="pomo-mode-btn active" data-mode="focus" onclick="setPomoMode('focus')">25m 深度专注</button>
+            <button class="pomo-mode-btn" data-mode="exam" onclick="setPomoMode('exam')">30m 真题限时</button>
+            <button class="pomo-mode-btn" data-mode="short" onclick="setPomoMode('short')">5m 课间短休</button>
+            <button class="pomo-mode-btn" data-mode="long" onclick="setPomoMode('long')">15m 深度长休</button>
+          </div>
+
+          
+          <!-- 自由时长微调控制器 (1~120分钟可调) -->
+          <div class="pomo-duration-adjuster" title="自由调节专注时长">
+            <button class="adjust-step-btn" onclick="adjustPomoMinutes(-5)" title="减少5分钟">-5m</button>
+            <button class="adjust-step-btn" onclick="adjustPomoMinutes(-1)" title="减少1分钟">-1m</button>
+            <div class="adjust-slider-wrap">
+              <input type="range" id="pomoDurationSlider" min="1" max="120" value="25" oninput="onPomoSliderInput(this.value)" onchange="onPomoSliderChange(this.value)">
+              <div class="adjust-val-text"><span id="pomoDurationDisplay">25</span> 分钟 (1~120m 自由滑动)</div>
+            </div>
+            <button class="adjust-step-btn" onclick="adjustPomoMinutes(1)" title="增加1分钟">+1m</button>
+            <button class="adjust-step-btn" onclick="adjustPomoMinutes(5)" title="增加5分钟">+5m</button>
+          </div>
+
+          <div class="pomo-ring-wrap">
+            <svg class="pomo-ring-svg" viewBox="0 0 260 260">
+              <circle class="pomo-ring-bg" cx="130" cy="130" r="116"></circle>
+              <circle class="pomo-ring-prog" id="pomoRingProg" cx="130" cy="130" r="116"></circle>
+            </svg>
+            <div class="pomo-center-info">
+              <div class="plant-emoji-large" id="plantEmojiLarge">🌱</div>
+              <div class="pomo-timer-text" id="pomoTimerText">25:00</div>
+              <span class="plant-stage-badge" id="plantStageBadge">阶段一：播种期 (🌱)</span>
+            </div>
+          </div>
+
+          <div class="pomo-btn-group">
+            <button class="btn-primary" id="pomoStartBtn" onclick="togglePomodoro()">▶️ 开始专注</button>
+            <button class="btn-secondary" onclick="resetPomodoro()">🔄 重置</button>
+            <button class="btn-secondary" onclick="skipPomodoro()">⏭️ 结算收割</button>
+          </div>
+
+          <div style="margin-top: 24px; width: 100%;">
+            <div style="font-size: 14px; font-weight: 700; color: var(--text-muted); margin-bottom: 8px;">
+              🎵 原生环境音合成（Web Audio API 免加载）：
+            </div>
+            <div class="ambient-sound-board">
+              <button class="sound-toggle-btn active" id="btnSoundNone" onclick="setAmbientSound('none')">
+                <span class="icon">🔇</span>
+                <span>静音</span>
+              </button>
+              <button class="sound-toggle-btn" id="btnSoundRain" onclick="setAmbientSound('rain')">
+                <span class="icon">🌧️</span>
+                <span>淅沥细雨</span>
+              </button>
+              <button class="sound-toggle-btn" id="btnSoundFire" onclick="setAmbientSound('fire')">
+                <span class="icon">🪵</span>
+                <span>温暖柴火</span>
+              </button>
+              <button class="sound-toggle-btn" id="btnSoundWind" onclick="setAmbientSound('wind')">
+                <span class="icon">🍃</span>
+                <span>森林微风</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 智能自动调节心流开关 -->
+          <div class="pomo-smart-switches">
+            <label class="smart-toggle-label">
+              <input type="checkbox" id="chkAutoFlow" onchange="toggleAutoFlow(this.checked)">
+              <span>🔄 自动连转模式 (专注结束自动切换休息，休息结束自动启动专注)</span>
+            </label>
+            <label class="smart-toggle-label">
+              <input type="checkbox" id="chkOvertimeCount" onchange="toggleOvertimeCount(this.checked)">
+              <span>🌊 超时心流自增 (倒计时结束不打断，自动正向累加记录延展心流)</span>
+            </label>
+          </div>
+
+        </div>
+
+        <div>
+          <div class="card" style="margin-bottom: var(--space-lg);">
+            <div class="card-title">
+              <span>🧺 今日番茄庄园丰收篮</span>
+              <button class="btn-secondary" onclick="playChime()" style="padding:4px 10px; font-size:12px;">🔔 冥想颂钵磬声</button>
+            </div>
+            <p style="font-size: var(--font-md); line-height: var(--line-height-relaxed); color: var(--text-body); margin-bottom: 12px;" id="harvestBasketDisplay">
+              今日暂未收获番茄，快开启第一个专注吧！
+            </p>
+            <div style="font-size: var(--font-sm); color: var(--text-muted);">
+              💡 备考科学建议：每天完成 4~6 个深度专注番茄钟，结合艾宾浩斯抗遗忘矩阵与技巧实战，六级高分水到渠成。
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <div class="card-title">🌱 5阶段植物生长机制</div>
+              <p style="font-size: var(--font-sm); color: var(--text-muted); line-height: 1.6;">
+                0% 播种 (🌱) -> 25% 发芽 (🌿) -> 50% 开花 (🌼) -> 75% 青果 (🍏) -> 100% 熟果 (🍅)。专注完成自动收割至今日庄园。
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-title">⏱️ 悬浮胶囊随行</div>
+              <p style="font-size: var(--font-sm); color: var(--text-muted); line-height: 1.6;">
+                当你切换到“艾宾浩斯词库”或“技巧工坊”做题时，右下角将常驻悬浮时间胶囊，时刻掌握专注节奏。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 板块 2：艾宾浩斯核心词库 -->
+    <section id="tab-vocab" class="tab-content">
+      <div class="hero-card">
+        <span class="hero-badge">🧠 科学 9+1 艾宾浩斯全周期抗遗忘闭环 (增加14天/21天打卡) · 词以群记抓核心</span>
+        <h1 class="hero-title serif-heading">抗遗忘闭环 · 终结死记硬背</h1>
+        <p class="hero-desc">
+          取材自刘晓艳《六级核心词·艾宾浩斯抗遗忘》与《你还在背单词吗》。通过“短期（初学/5分/30分/12时）+ 长期（1天/2天/4天/7天）”十步阶梯复习排程（短期初学/5分/30分/12时 + 长期1天/2天/4天/7天/14天/21天），配合词群逻辑思维导图与同根派生树，在遗忘临界点将其固化为永久潜意识记忆。
+        </p>
+      </div>
+
+      <!-- 控制工具栏 -->
+      <div class="vocab-control-bar">
+        <div class="unit-selector-group">
+          <label style="font-weight:700; color:var(--text-main); font-size:var(--font-md);">选择单元：</label>
+          <select class="select-styled" id="vocabUnitSelect" onchange="onVocabUnitChange()"></select>
+          <select class="select-styled" id="vocabLessonSelect" onchange="onVocabLessonChange()"></select>
+        </div>
+
+        <div class="vocab-mode-toggles">
+          <button class="toggle-chip active" id="btnToggleMindmap" onclick="toggleMindmap()">🗺️ 词群思维导图</button>
+          <button class="toggle-chip" id="btnMaskMeaning" onclick="toggleMaskMeaning()">👁️ 遮挡中文释义</button>
+          <button class="toggle-chip" id="btnFilterStarred" onclick="toggleStarredFilter()">⭐ 只看星标生词</button>
+          <button class="toggle-chip" id="btnFilterUnlearned" onclick="toggleUnlearnedFilter()">⏳ 只看未掌握</button>
+        </div>
+      </div>
+
+      <!-- 思维导图抽屉 -->
+      <div class="mindmap-drawer open" id="mindmapDrawer"></div>
+
+      <!-- 词汇卡片列表容器 -->
+      <div class="vocab-card-list" id="vocabCardList"></div>
+    </section>
+
+    <!-- 板块 3：极速闪视流与 3D 拟真翻转卡片 (闪过卡 · 纯净单词与词意 · 乱序随机模式) -->
+    <section id="tab-flash" class="tab-content">
+      <div class="hero-card">
+        <span class="hero-badge">⚡ 疯狂过六级 · 纯净闪过卡 · 乱序随机模式</span>
+        <h1 class="hero-title serif-heading">极速闪视流 & 3D 拟真翻转闪卡</h1>
+        <p class="hero-desc">
+          基于刘晓艳《你还在背单词吗》全书全量词库打造。<strong>闪过卡纯净模式仅呈现单词与词意</strong>，顺序全部随机打乱打乱，彻底杜绝位置记忆错觉！<strong>极速闪视流</strong>在屏幕正中大字极速闪现（支持 1.0s / 1.5s / 2.0s / 3.0s 调速），伴随自动朗读与释义延时淡入；<strong>3D 拟真卡片</strong>支持轻敲 [空格键] 3D 翻转背面查看释义，支持随时一键重新洗牌。
+        </p>
+      </div>
+
+      <div class="flash-workspace">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; flex-wrap:wrap; gap:16px;">
+          <div class="flash-mode-bar">
+            <button class="flash-mode-btn active" data-mode="flash" onclick="switchFlashMode('flash')">⚡ 极速闪视流 (Speed Flash)</button>
+            <button class="flash-mode-btn" data-mode="3d" onclick="switchFlashMode('3d')">🃏 3D 拟真翻转卡 (3D Cards)</button>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+            <label style="font-weight:700; color:var(--text-main);">选择题库包：</label>
+            <select class="select-styled" id="flashUnitSelect" onchange="onFlashUnitChange()" style="max-width:380px;"></select>
+            <button class="btn-secondary" onclick="reshuffleCurrentDeck()" title="快捷键 R" style="padding:10px 16px; font-weight:700;">🔀 重新乱序洗牌 (R)</button>
+          </div>
+        </div>
+
+        <!-- 模式 A：极速闪视流舞台 (纯净只要单词与词意) -->
+        <div class="speed-flash-stage" id="speedFlashStage">
+          <div style="position:absolute; top:20px; right:20px; font-size:14px; font-weight:700; color:var(--text-muted);" id="speedProgressHero">第 1 / 7665 词 · 乱序模式</div>
+          <div class="speed-word-hero" id="speedWordHero">abandon</div>
+          <div class="speed-phonetic-hero" id="speedPhoneticHero" style="display:none;"></div>
+          <div class="speed-meaning-hero" id="speedMeaningHero">v. 遗弃，抛弃；中止；放弃</div>
+
+          <div class="speed-control-deck">
+            <button class="btn-secondary" onclick="stepSpeedFlash(-1)">⏮️ 上一个</button>
+            <button class="btn-primary" id="speedPlayBtn" onclick="toggleSpeedFlash()">▶️ 开启闪视流</button>
+            <button class="btn-secondary" onclick="stepSpeedFlash(1)">⏭️ 下一个</button>
+            <button class="btn-secondary" onclick="reshuffleCurrentDeck()" style="margin-left:6px;">🔀 洗牌</button>
+            <span style="font-size:14px; font-weight:700; color:var(--text-muted); margin-left:12px;">调速：</span>
+            <button class="speed-btn-pill" data-speed="1.0" onclick="setSpeedInterval(1.0)">1.0s (极速)</button>
+            <button class="speed-btn-pill active" data-speed="1.5" onclick="setSpeedInterval(1.5)">1.5s (标准)</button>
+            <button class="speed-btn-pill" data-speed="2.0" onclick="setSpeedInterval(2.0)">2.0s (舒适)</button>
+            <button class="speed-btn-pill" data-speed="3.0" onclick="setSpeedInterval(3.0)">3.0s (沉浸)</button>
+          </div>
+        </div>
+
+        <!-- 模式 B：3D 拟真翻转卡片 (正面单词，反面词意) -->
+        <div id="flipCardStage" style="display:none;">
+          <div style="font-size:14px; font-weight:700; color:var(--text-muted); margin-bottom:12px;" id="flipCardProgress">第 1 / 7665 张卡片 · 乱序模式</div>
+          <div class="flip-card-viewport" onclick="flip3DCard()">
+            <div class="flip-card-inner" id="flipCardInner">
+              <div class="flip-card-face">
+                <div style="font-size:44px; font-weight:800; color:var(--text-main); margin-bottom:14px;" id="flipFrontWord">abandon</div>
+                <div style="display:none;" id="flipFrontPhonetic"></div>
+                <div class="flip-hint">💡 轻敲 [空格键] 或点击卡片翻转背面查看释义</div>
+              </div>
+              <div class="flip-card-face flip-card-back">
+                <div style="font-size:26px; font-weight:700; color:var(--tomato-red); margin-bottom:16px; line-height:1.6;" id="flipBackMeaning">v. 遗弃，抛弃；中止；放弃</div>
+                <div class="flip-hint">💡 按 [←] 标记模糊，按 [→] 标记熟记，按 [R] 重新洗牌</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-action-deck">
+            <button class="btn-mark-vague" onclick="mark3DCard('vague')">← 模糊需巩固 (A)</button>
+            <button class="btn-secondary" onclick="reshuffleCurrentDeck()">🔀 重新乱序洗牌 (R)</button>
+            <button class="btn-mark-mastered" onclick="mark3DCard('mastered')">熟记过关 (D) →</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 板块 9：7 周通关计划与习惯打卡 -->
+    <section id="tab-planner" class="tab-content">
+      <div class="hero-card">
+        <span class="hero-badge">📅 疯狂过六级 · 7周全景通关路线图 · 每日能力闭环</span>
+        <h1 class="hero-title serif-heading">拒绝焦虑 · 稳扎稳打形成六级能力闭环</h1>
+        <p class="hero-desc">
+          刘晓艳老师推荐备考节奏：以<strong>7周全景通关路线图</strong>为骨架，每天早晨出声晨诵培养语感，白天深度专注攻克技巧与真题，晚上艾宾浩斯复盘。连续打卡，形成牢不可破的学习飞轮！
+        </p>
+      </div>
+
+      
+      <!-- 12月12日 统考倒计时看板 -->
+      <div class="exam-countdown-banner">
+        <div>
+          <span class="hero-badge" style="background:var(--harvest-soft); color:var(--harvest-gold); border-color:var(--harvest-border);">🎯 决战倒计时 · 12月12日 15:00 统考</span>
+          <h2 style="font-size:var(--font-xl); font-weight:800; color:var(--text-main); margin-top:4px;">距离六级考场决战仅剩：</h2>
+          <p style="font-size:var(--font-sm); color:var(--text-muted); margin-top:2px;">严格遵循 7 周通关节奏，晨诵、日习、晚复盘，稳步推进！</p>
+        </div>
+        <div class="exam-countdown-grid">
+          <div class="exam-time-box">
+            <div class="exam-time-val" id="planExamDays">--</div>
+            <div class="exam-time-lbl">天 DAYS</div>
+          </div>
+          <span class="exam-colon">:</span>
+          <div class="exam-time-box">
+            <div class="exam-time-val" id="planExamHours">--</div>
+            <div class="exam-time-lbl">时 HOURS</div>
+          </div>
+          <span class="exam-colon">:</span>
+          <div class="exam-time-box">
+            <div class="exam-time-val" id="planExamMins">--</div>
+            <div class="exam-time-lbl">分 MINS</div>
+          </div>
+          <span class="exam-colon">:</span>
+          <div class="exam-time-box">
+            <div class="exam-time-val" id="planExamSecs">--</div>
+            <div class="exam-time-lbl">秒 SECS</div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div>
+          <div class="card" style="margin-bottom:24px;">
+            <div class="card-title">
+              <span>📋 今日“疯狂过六级”能力闭环打卡</span>
+              <span style="font-size:14px; font-weight:700; color:var(--sage-green);" id="plannerStreakDays">1 天</span>
+            </div>
+            <p style="font-size:14px; color:var(--text-muted); margin-bottom:16px;">勾选今日已完成的学习任务，自动沉淀至连续打卡记录：</p>
+
+            <div class="habit-loop-card" onclick="document.getElementById('habitMorningCheck').click()">
+              <div>
+                <strong style="font-size:16px; color:var(--text-main);">🌅 晨诵 (0.5小时)</strong>
+                <p style="font-size:13px; color:var(--text-muted); margin-top:2px;">大声朗读 Unit 核心母词、同根派生词及六级真题例句，唤醒语感</p>
+              </div>
+              <input type="checkbox" class="habit-checkbox" id="habitMorningCheck" onclick="event.stopPropagation(); onHabitChange('morning', this)">
+            </div>
+
+            <div class="habit-loop-card" onclick="document.getElementById('habitDayCheck').click()">
+              <div>
+                <strong style="font-size:16px; color:var(--text-main);">☀️ 日习 (2.0小时)</strong>
+                <p style="font-size:13px; color:var(--text-muted); margin-top:2px;">番茄钟深度专注：攻克 19 大技巧库、写作沙盒与翻译仔细阅读真题演练</p>
+              </div>
+              <input type="checkbox" class="habit-checkbox" id="habitDayCheck" onclick="event.stopPropagation(); onHabitChange('daytime', this)">
+            </div>
+
+            <div class="habit-loop-card" onclick="document.getElementById('habitNightCheck').click()">
+              <div>
+                <strong style="font-size:16px; color:var(--text-main);">🌙 晚复盘 (1.5小时)</strong>
+                <p style="font-size:13px; color:var(--text-muted); margin-top:2px;">艾宾浩斯抗遗忘矩阵对账、星标生词本查缺补漏、极速闪视流冲刺回顾</p>
+              </div>
+              <input type="checkbox" class="habit-checkbox" id="habitNightCheck" onclick="event.stopPropagation(); onHabitChange('evening', this)">
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card">
+            <div class="card-title">⏱️ 考场 130 分钟黄金时间分配表</div>
+            <p style="font-size:14px; color:var(--text-muted); margin-bottom:16px;">严格把控答题节奏，严防考场答不完卷：</p>
+            <div style="background:var(--bg-subtle); padding:16px; border-radius:var(--radius-md); font-size:14px; line-height:1.8;">
+              • <strong>15:00 - 15:10 (10m)</strong>：发卷涂卡、快速浏览听力前三题选项预判主旨<br>
+              • <strong>15:10 - 15:40 (30m)</strong>：写作实战（三段式：审题5m + 写作20m + 检查5m）<br>
+              • <strong>15:40 - 16:10 (30m)</strong>：听力考试（边听边涂答题卡，绝不留到听力结束后）<br>
+              • <strong>16:10 - 16:15 (5m)</strong>：收答题卡 1，深呼吸平复心绪<br>
+              • <strong>16:15 - 16:55 (40m)</strong>：仔细阅读（2篇各15m）+ 长篇匹配（10m）<br>
+              • <strong>16:55 - 17:05 (10m)</strong>：选词填空（四大词性归类，快刀斩乱麻）<br>
+              • <strong>17:05 - 17:25 (20m)</strong>：形合翻译（抓主干二态定状，写出高配版本）<br>
+              • <strong>17:25 - 17:30 (5m)</strong>：检查涂卡、查漏补缺、从容交卷
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 板块 10：数据归档与备份 -->
+    <section id="tab-backup" class="tab-content">
+      <div class="hero-card">
+        <span class="hero-badge">💾 疯狂过六级 · 学习数据总览与跨设备备份</span>
+        <h1 class="hero-title serif-heading">学习数据总览与跨设备备份</h1>
+        <p class="hero-desc">
+          所有打卡进度、艾宾浩斯记忆记录、星标生词本及番茄庄园数据均实时保存在浏览器底层。支持<strong>一键导出 JSON 备份</strong>或<strong>跨电脑恢复</strong>，备考数据安全无忧。
+        </p>
+      </div>
+
+      
+      <!-- 凌晨自动归档专属状态看板 -->
+      <div class="snapshot-status-banner">
+        <div>
+          <span class="hero-badge" style="background:var(--sage-soft); color:var(--sage-dark); border-color:var(--sage-border);">🕒 凌晨自动归档运行中 · 零人工操作</span>
+          <h2 style="font-size:var(--font-xl); font-weight:800; color:var(--text-main); margin-top:4px;">每日 00:00:00 自动快照沉淀</h2>
+          <p style="font-size:var(--font-sm); color:var(--text-muted); margin-top:2px;">
+            最近归档：<strong id="lastMidnightTime" style="color:var(--text-main);">--</strong> ｜
+            下次自动快照倒计时：<strong id="nextMidnightCountdown" style="color:var(--sage-green);">--</strong>
+          </p>
+        </div>
+        <div>
+          <button class="btn-primary" onclick="createManualSnapshot()" style="padding:10px 18px; font-size:14px;">⚡ 立即创建当前即时快照</button>
+        </div>
+      </div>
+
+      <!-- 历史快照池卡片 -->
+      <div class="card" style="margin-bottom: var(--space-xl);">
+        <div class="card-title">
+          <span>🕒 凌晨自动快照历史池 (最多滚动保留 30 天)</span>
+          <span style="font-size:13px; color:var(--text-muted);">自动备份 · 支持任意版本一键回滚或导出</span>
+        </div>
+        <div class="snapshot-list" id="midnightSnapshotList"></div>
+      </div>
+
+      <div class="stats-summary-grid">
+        <div class="stat-metric-card">
+          <div class="stat-number" id="statTotalWords">0</div>
+          <div class="stat-label">已学习掌握词汇总数</div>
+        </div>
+        <div class="stat-metric-card">
+          <div class="stat-number" id="statMasteredWords">0</div>
+          <div class="stat-label">已完成抗遗忘闭环词汇 (达7~21天)</div>
+        </div>
+        <div class="stat-metric-card">
+          <div class="stat-number" id="statTotalTomatoes">0</div>
+          <div class="stat-label">累计收获熟透番茄</div>
+        </div>
+        <div class="stat-metric-card">
+          <div class="stat-number" id="statTotalFocusMins">0</div>
+          <div class="stat-label">累计心流专注 (分钟)</div>
+        </div>
+      </div>
+
+      <div class="card" style="text-align:center; padding:36px;">
+        <h3 style="font-size:var(--font-xl); font-weight:700; color:var(--text-main); margin-bottom:12px;">学习存档备份与恢复</h3>
+        <p style="font-size:var(--font-md); color:var(--text-muted); margin-bottom:24px;">可将当前所有打卡记录导出为一个独立的 .json 备份文件，换电脑或重装系统后一键还原：</p>
+        <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+          <button class="btn-primary" onclick="exportUserData()">📥 导出学习档案 (JSON)</button>
+          <label class="btn-secondary" style="cursor:pointer; display:inline-flex; align-items:center;">
+            📤 导入恢复学习档案
+            <input type="file" accept=".json" onchange="importUserData(this)" style="display:none;">
+          </label>
+          <button class="btn-secondary" onclick="resetAllData()" style="color:var(--tomato-red); border-color:rgba(217,72,52,0.3);">🗑️ 清空所有数据</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 右下角常驻悬浮时间胶囊 -->
+  <div class="floating-capsule" id="floatingCapsule" onclick="switchTab('pomodoro')" title="点击直达番茄专注工坊" style="display:none;">
+    <span>🍅</span>
+    <span class="capsule-timer" id="capsuleTimerText">25:00</span>
+    <span style="font-size:12px; color:var(--text-muted);">心流伴学中</span>
+  </div>
+
+  <!-- 引入模块化脚本 -->
+  <script src="words_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
