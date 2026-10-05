@@ -2829,6 +2829,109 @@ body.dark-mode .tomato-alert-tag {
   box-shadow: 0 6px 18px rgba(217, 72, 52, 0.45);
 }
 
+/* ==========================================================================
+   授权信息提醒与权限中心深度优化样式
+   ========================================================================== */
+.perm-card-enhanced {
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 16px 18px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease;
+}
+
+.perm-card-enhanced.granted {
+  border-color: var(--sage-border);
+  background: linear-gradient(135deg, var(--bg-card), var(--sage-soft));
+}
+
+.perm-card-enhanced.denied {
+  border-color: rgba(229, 57, 53, 0.35);
+  background: linear-gradient(135deg, var(--bg-card), var(--tomato-soft));
+}
+
+.perm-status-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.perm-title-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.perm-status-badge {
+  font-size: calc(11.5px * var(--font-scale));
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+
+.perm-badge-granted {
+  background: #E8F5E9;
+  color: #2E7D32;
+  border: 1px solid #A5D6A7;
+}
+
+.perm-badge-default {
+  background: #FFF8E1;
+  color: #F57F17;
+  border: 1px solid #FFE082;
+}
+
+.perm-badge-denied {
+  background: #FFEBEE;
+  color: #C62828;
+  border: 1px solid #FFCDD2;
+}
+
+body.dark-mode .perm-badge-granted { background: rgba(76, 175, 80, 0.2); color: #81C784; border-color: rgba(76, 175, 80, 0.4); }
+body.dark-mode .perm-badge-default { background: rgba(255, 179, 0, 0.2); color: #FFD54F; border-color: rgba(255, 179, 0, 0.4); }
+body.dark-mode .perm-badge-denied { background: rgba(244, 67, 54, 0.2); color: #E57373; border-color: rgba(244, 67, 54, 0.4); }
+
+.perm-desc-text {
+  font-size: calc(12.5px * var(--font-scale));
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.perm-guide-box {
+  display: none;
+  background: var(--bg-surface);
+  border: 1px dashed var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  font-size: calc(12px * var(--font-scale));
+  color: var(--text-body);
+  line-height: 1.7;
+  margin: 10px 0;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.perm-guide-box.open {
+  display: block;
+}
+
+.perm-fallback-note {
+  font-size: calc(11.5px * var(--font-scale));
+  color: var(--text-dim);
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-top: 1px dashed var(--border-color);
+  padding-top: 8px;
+  margin-top: 6px;
+}
+
 </style>
 </head>
 <body>
@@ -3426,66 +3529,42 @@ body.dark-mode .tomato-alert-tag {
         <button class="btn-secondary" onclick="closeReminderModal()" style="padding:4px 10px; font-size:14px; border-radius:50%;">✕</button>
       </div>
 
-      <!-- 系统级桌面通知权限看板 -->
-      <div class="reminder-switch-row" style="background:var(--bg-card); border-color:var(--sage-border); margin-bottom:16px;">
-        <div class="reminder-switch-info">
-          <div style="display:flex; align-items:center; gap:8px;">
-            <span class="reminder-switch-name">🌐 浏览器系统级桌面/手机推送通知</span>
-            <span id="remPermBadge" class="pixel-live-tag" style="font-size:11px;">检测中...</span>
+            <!-- 授权信息提醒与系统推送权限中心 (深度优化) -->
+      <div class="perm-card-enhanced" id="remPermCard">
+        <div class="perm-status-header">
+          <div class="perm-title-group">
+            <span style="font-size:18px;">🌐</span>
+            <strong style="font-size:calc(14.5px * var(--font-scale)); color:var(--text-main);">系统级桌面 / 手机推送通知</strong>
           </div>
-          <span class="reminder-switch-desc">即使浏览器切到后台或最小化，也能在屏幕角落弹出系统提示（需浏览器授权）</span>
+          <span id="remPermBadge" class="perm-status-badge perm-badge-default">检测中...</span>
         </div>
-        <button class="btn-primary" onclick="requestSystemNotificationPermission()" style="padding:6px 14px; font-size:13px; white-space:nowrap;">授权开启</button>
-      </div>
 
-      <div class="reminder-section-title">🍅 番茄专注与健康关怀</div>
-      <div class="reminder-switch-row">
-        <div class="reminder-switch-info">
-          <span class="reminder-switch-name">番茄专注结束声画提醒</span>
-          <span class="reminder-switch-desc">倒计时结束时播放空灵颂钵轻音，并弹出收获番茄提示</span>
+        <div class="perm-desc-text" id="remPermDesc">
+          点击下方按钮授权系统通知。开启后，切屏查资料、查字典或最小化也不会错过心流番茄与备考闹钟！
         </div>
-        <label class="switch-toggle-btn">
-          <input type="checkbox" id="chkRemPomo">
-          <span class="switch-slider"></span>
-        </label>
-      </div>
 
-      <div class="reminder-switch-row">
-        <div class="reminder-switch-info">
-          <span class="reminder-switch-name">🍵 45 分钟久坐与防眼疲劳关怀</span>
-          <span class="reminder-switch-desc">每连续专注 45 分钟，自动温馨提醒喝水、眺望远方或活动眼球</span>
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+          <div id="remPermActionBtn">
+            <button class="btn-primary" onclick="requestSystemNotificationPermission()" style="padding:6px 16px; font-size:13px; font-weight:700;">🔔 一键授权开启系统通知</button>
+          </div>
+          <button class="btn-secondary" id="btnToggleGuide" onclick="togglePermGuide()" style="padding:5px 12px; font-size:12px; display:none;">📖 浏览器解阻指引</button>
         </div>
-        <label class="switch-toggle-btn">
-          <input type="checkbox" id="chkRemEyeCare">
-          <span class="switch-slider"></span>
-        </label>
-      </div>
 
-      <div class="reminder-switch-row">
-        <div class="reminder-switch-info">
-          <span class="reminder-switch-name">🎯 每日核心词计划未达标晚间督学提醒</span>
-          <span class="reminder-switch-desc">晚间自动对账，若今日计划背诵词数尚未达成，及时弹出激励提醒</span>
+        <!-- 浏览器解阻图文指引 (默认折叠) -->
+        <div class="perm-guide-box" id="remPermGuideBox">
+          <strong>💡 如何解除浏览器通知阻止？</strong><br>
+          1. 点击浏览器顶部地址栏最左侧的 <strong>🔒 (或设置/站点信息)</strong> 图标；<br>
+          2. 找到 <strong>“通知 (Notifications)”</strong> 权限选项；<br>
+          3. 将其由“阻止”修改为 <strong>“允许 (Allow)”</strong>；<br>
+          4. 刷新本页面即可自动激活系统级推送！
+          <div style="margin-top:6px; font-size:11px; color:var(--text-muted);">
+            📱 手机端提示：在 iPhone Safari / 安卓 Chrome 菜单中点击“添加到主屏幕”，以原生 App 形式运行推送体验最佳！
+          </div>
         </div>
-        <label class="switch-toggle-btn">
-          <input type="checkbox" id="chkRemPlanGoal" checked>
-          <span class="switch-slider"></span>
-        </label>
-      </div>
 
-      <div class="reminder-section-title" style="margin-top:18px;">📅 每日备考日程定点闹钟 (后台自动对账)</div>
-      
-      <!-- 晨诵提醒 -->
-      <div class="reminder-switch-row">
-        <div class="reminder-switch-info">
-          <span class="reminder-switch-name">🌅 每日晨诵提醒</span>
-          <span class="reminder-switch-desc">大声朗读 Unit 核心母词，唤醒英语语感</span>
-        </div>
-        <div style="display:flex; align-items:center; gap:8px;">
-          <input type="time" class="reminder-time-input" id="timeRemMorning" value="07:30">
-          <label class="switch-toggle-btn">
-            <input type="checkbox" id="chkRemMorning">
-            <span class="switch-slider"></span>
-          </label>
+        <div class="perm-fallback-note">
+          <span>💡</span>
+          <span>温馨保障：即使未开启系统通知，本站也会全自动使用【Q版小番茄跳舞动画 ＋ 空灵颂钵轻音 ＋ 站内气泡】，提醒绝不遗漏！</span>
         </div>
       </div>
 
@@ -133522,7 +133601,7 @@ function updateReminderModalUI() {
   if (!userState.reminders) return;
   const rem = userState.reminders;
 
-  const chkSys = document.getElementById("chkRemSys");
+  // 1. 同步普通选项控件
   const chkPomo = document.getElementById("chkRemPomo");
   const chkMorn = document.getElementById("chkRemMorning");
   const timeMorn = document.getElementById("timeRemMorning");
@@ -133531,9 +133610,8 @@ function updateReminderModalUI() {
   const chkEve = document.getElementById("chkRemEvening");
   const timeEve = document.getElementById("timeRemEvening");
   const chkEye = document.getElementById("chkRemEyeCare");
-  const permBadge = document.getElementById("remPermBadge");
+  const chkPlan = document.getElementById("chkRemPlanGoal");
 
-  if (chkSys) chkSys.checked = Boolean(rem.systemNotification);
   if (chkPomo) chkPomo.checked = Boolean(rem.pomoEnd);
   if (chkMorn) chkMorn.checked = Boolean(rem.morningEnabled);
   if (timeMorn) timeMorn.value = rem.morningTime || "07:30";
@@ -133542,12 +133620,121 @@ function updateReminderModalUI() {
   if (chkEve) chkEve.checked = Boolean(rem.eveningEnabled);
   if (timeEve) timeEve.value = rem.eveningTime || "21:00";
   if (chkEye) chkEye.checked = Boolean(rem.eyeCareEnabled);
+  if (chkPlan && userState.planGoal) chkPlan.checked = Boolean(userState.planGoal.eveningCheckEnabled);
 
-  if (permBadge) {
-    const isGranted = ("Notification" in window) && Notification.permission === "granted";
-    permBadge.textContent = isGranted ? "已获系统授权" : "未开启系统授权";
-    permBadge.style.color = isGranted ? "#2E7D32" : "var(--text-muted)";
-    permBadge.style.background = isGranted ? "#E8F5E9" : "var(--bg-subtle)";
+  // 2. 深度优化系统推送授权看板状态
+  const card = document.getElementById("remPermCard");
+  const badge = document.getElementById("remPermBadge");
+  const desc = document.getElementById("remPermDesc");
+  const btnArea = document.getElementById("remPermActionBtn");
+  const guideBtn = document.getElementById("btnToggleGuide");
+  const guideBox = document.getElementById("remPermGuideBox");
+
+  if (!("Notification" in window)) {
+    if (badge) {
+      badge.textContent = "⚠️ 环境不支持";
+      badge.className = "perm-status-badge perm-badge-default";
+    }
+    if (desc) desc.textContent = "当前浏览器环境不支持系统级通知，系统已全自动降级启用【Q版小番茄跳舞动画 ＋ 颂钵轻音】站内全景提醒。";
+    if (btnArea) btnArea.innerHTML = "";
+    if (guideBtn) guideBtn.style.display = "none";
+    return;
+  }
+
+  const perm = Notification.permission;
+  const sysActive = Boolean(rem.systemNotification) && perm === "granted";
+
+  if (perm === "granted") {
+    if (card) {
+      card.classList.remove("denied");
+      card.classList.add("granted");
+    }
+    if (badge) {
+      badge.textContent = sysActive ? "🟢 系统桌面通知已激活" : "⚪ 已授权 · 处于静音模式";
+      badge.className = "perm-status-badge perm-badge-granted";
+    }
+    if (desc) {
+      desc.textContent = sysActive
+        ? "已成功接入操作系统推送引擎。即使最小化窗口、切换至其他页面或手机息屏，系统也能准时在屏幕角落弹出番茄钟与备考提醒。"
+        : "您已完成系统通知授权，当前处于静音模式（仅触发站内小番茄动画与轻音）。点击右侧可随时恢复系统推送。";
+    }
+    if (btnArea) {
+      btnArea.innerHTML = sysActive
+        ? `<button class="btn-secondary" onclick="toggleSystemNotification(false)" style="padding:6px 14px; font-size:13px;">✅ 切换为仅站内提醒</button>`
+        : `<button class="btn-primary" onclick="toggleSystemNotification(true)" style="padding:6px 14px; font-size:13px;">🔔 恢复系统级桌面推送</button>`;
+    }
+    if (guideBtn) guideBtn.style.display = "none";
+    if (guideBox) guideBox.classList.remove("open");
+  } else if (perm === "denied") {
+    if (card) {
+      card.classList.remove("granted");
+      card.classList.add("denied");
+    }
+    if (badge) {
+      badge.textContent = "🔴 浏览器已静音阻止";
+      badge.className = "perm-status-badge perm-badge-denied";
+    }
+    if (desc) {
+      desc.textContent = "当前浏览器设置了阻止发送通知。如需在后台接收备考闹钟与番茄提醒，请点击右侧查看解除阻止图文指引。";
+    }
+    if (btnArea) {
+      btnArea.innerHTML = `<button class="btn-secondary" onclick="togglePermGuide()" style="padding:6px 14px; font-size:13px; font-weight:700;">📖 查看解除阻止指引</button>`;
+    }
+    if (guideBtn) guideBtn.style.display = "none";
+  } else {
+    // default (待授权)
+    if (card) {
+      card.classList.remove("granted", "denied");
+    }
+    if (badge) {
+      badge.textContent = "🟡 待授权开启";
+      badge.className = "perm-status-badge perm-badge-default";
+    }
+    if (desc) {
+      desc.textContent = "点击下方按钮开启系统通知。授权后，切屏查资料、查字典或最小化也不会错过心流番茄与备考闹钟！";
+    }
+    if (btnArea) {
+      btnArea.innerHTML = `<button class="btn-primary" onclick="requestSystemNotificationPermission()" style="padding:6px 16px; font-size:13px; font-weight:700;">🔔 一键授权开启系统通知</button>`;
+    }
+    if (guideBtn) guideBtn.style.display = "none";
+    if (guideBox) guideBox.classList.remove("open");
+  }
+}
+
+async function requestSystemNotificationPermission() {
+  if (!("Notification" in window)) {
+    showToast("⚠️ 当前环境不支持浏览器系统级通知，已为您启用站内小番茄声画提醒！");
+    return false;
+  }
+  try {
+    const perm = await Notification.requestPermission();
+    if (perm === "granted") {
+      userState.reminders.systemNotification = true;
+      saveState();
+      showTomatoAlert("🎉 系统级桌面通知已激活！", "番茄Q酱已成功获得系统推送权限！今后即使切屏、最小化或息屏，也会准时为您播报心流与备考提醒！");
+    } else {
+      userState.reminders.systemNotification = false;
+      saveState();
+      showToast("🍅 番茄Q酱：未开启系统通知也没关系！本站已全自动启用【小番茄跳舞动画＋颂钵轻音】，依然能准时提醒您！");
+    }
+  } catch (e) {
+    showToast("ℹ️ 浏览器暂未授权系统通知，将采用站内弹窗提醒。");
+  }
+  updateReminderModalUI();
+}
+
+function toggleSystemNotification(enable) {
+  if (!userState.reminders) userState.reminders = {};
+  userState.reminders.systemNotification = enable;
+  saveState();
+  updateReminderModalUI();
+  showToast(enable ? "🔔 已恢复系统级桌面推送！" : "🔕 已切换为仅站内声画提醒，不弹出系统通知。");
+}
+
+function togglePermGuide() {
+  const guideBox = document.getElementById("remPermGuideBox");
+  if (guideBox) {
+    guideBox.classList.toggle("open");
   }
 }
 

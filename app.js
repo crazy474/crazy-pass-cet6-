@@ -1569,7 +1569,7 @@ function updateReminderModalUI() {
   if (!userState.reminders) return;
   const rem = userState.reminders;
 
-  const chkSys = document.getElementById("chkRemSys");
+  // 1. 同步普通选项控件
   const chkPomo = document.getElementById("chkRemPomo");
   const chkMorn = document.getElementById("chkRemMorning");
   const timeMorn = document.getElementById("timeRemMorning");
@@ -1578,9 +1578,8 @@ function updateReminderModalUI() {
   const chkEve = document.getElementById("chkRemEvening");
   const timeEve = document.getElementById("timeRemEvening");
   const chkEye = document.getElementById("chkRemEyeCare");
-  const permBadge = document.getElementById("remPermBadge");
+  const chkPlan = document.getElementById("chkRemPlanGoal");
 
-  if (chkSys) chkSys.checked = Boolean(rem.systemNotification);
   if (chkPomo) chkPomo.checked = Boolean(rem.pomoEnd);
   if (chkMorn) chkMorn.checked = Boolean(rem.morningEnabled);
   if (timeMorn) timeMorn.value = rem.morningTime || "07:30";
@@ -1589,12 +1588,121 @@ function updateReminderModalUI() {
   if (chkEve) chkEve.checked = Boolean(rem.eveningEnabled);
   if (timeEve) timeEve.value = rem.eveningTime || "21:00";
   if (chkEye) chkEye.checked = Boolean(rem.eyeCareEnabled);
+  if (chkPlan && userState.planGoal) chkPlan.checked = Boolean(userState.planGoal.eveningCheckEnabled);
 
-  if (permBadge) {
-    const isGranted = ("Notification" in window) && Notification.permission === "granted";
-    permBadge.textContent = isGranted ? "已获系统授权" : "未开启系统授权";
-    permBadge.style.color = isGranted ? "#2E7D32" : "var(--text-muted)";
-    permBadge.style.background = isGranted ? "#E8F5E9" : "var(--bg-subtle)";
+  // 2. 深度优化系统推送授权看板状态
+  const card = document.getElementById("remPermCard");
+  const badge = document.getElementById("remPermBadge");
+  const desc = document.getElementById("remPermDesc");
+  const btnArea = document.getElementById("remPermActionBtn");
+  const guideBtn = document.getElementById("btnToggleGuide");
+  const guideBox = document.getElementById("remPermGuideBox");
+
+  if (!("Notification" in window)) {
+    if (badge) {
+      badge.textContent = "⚠️ 环境不支持";
+      badge.className = "perm-status-badge perm-badge-default";
+    }
+    if (desc) desc.textContent = "当前浏览器环境不支持系统级通知，系统已全自动降级启用【Q版小番茄跳舞动画 ＋ 颂钵轻音】站内全景提醒。";
+    if (btnArea) btnArea.innerHTML = "";
+    if (guideBtn) guideBtn.style.display = "none";
+    return;
+  }
+
+  const perm = Notification.permission;
+  const sysActive = Boolean(rem.systemNotification) && perm === "granted";
+
+  if (perm === "granted") {
+    if (card) {
+      card.classList.remove("denied");
+      card.classList.add("granted");
+    }
+    if (badge) {
+      badge.textContent = sysActive ? "🟢 系统桌面通知已激活" : "⚪ 已授权 · 处于静音模式";
+      badge.className = "perm-status-badge perm-badge-granted";
+    }
+    if (desc) {
+      desc.textContent = sysActive
+        ? "已成功接入操作系统推送引擎。即使最小化窗口、切换至其他页面或手机息屏，系统也能准时在屏幕角落弹出番茄钟与备考提醒。"
+        : "您已完成系统通知授权，当前处于静音模式（仅触发站内小番茄动画与轻音）。点击右侧可随时恢复系统推送。";
+    }
+    if (btnArea) {
+      btnArea.innerHTML = sysActive
+        ? `<button class="btn-secondary" onclick="toggleSystemNotification(false)" style="padding:6px 14px; font-size:13px;">✅ 切换为仅站内提醒</button>`
+        : `<button class="btn-primary" onclick="toggleSystemNotification(true)" style="padding:6px 14px; font-size:13px;">🔔 恢复系统级桌面推送</button>`;
+    }
+    if (guideBtn) guideBtn.style.display = "none";
+    if (guideBox) guideBox.classList.remove("open");
+  } else if (perm === "denied") {
+    if (card) {
+      card.classList.remove("granted");
+      card.classList.add("denied");
+    }
+    if (badge) {
+      badge.textContent = "🔴 浏览器已静音阻止";
+      badge.className = "perm-status-badge perm-badge-denied";
+    }
+    if (desc) {
+      desc.textContent = "当前浏览器设置了阻止发送通知。如需在后台接收备考闹钟与番茄提醒，请点击右侧查看解除阻止图文指引。";
+    }
+    if (btnArea) {
+      btnArea.innerHTML = `<button class="btn-secondary" onclick="togglePermGuide()" style="padding:6px 14px; font-size:13px; font-weight:700;">📖 查看解除阻止指引</button>`;
+    }
+    if (guideBtn) guideBtn.style.display = "none";
+  } else {
+    // default (待授权)
+    if (card) {
+      card.classList.remove("granted", "denied");
+    }
+    if (badge) {
+      badge.textContent = "🟡 待授权开启";
+      badge.className = "perm-status-badge perm-badge-default";
+    }
+    if (desc) {
+      desc.textContent = "点击下方按钮开启系统通知。授权后，切屏查资料、查字典或最小化也不会错过心流番茄与备考闹钟！";
+    }
+    if (btnArea) {
+      btnArea.innerHTML = `<button class="btn-primary" onclick="requestSystemNotificationPermission()" style="padding:6px 16px; font-size:13px; font-weight:700;">🔔 一键授权开启系统通知</button>`;
+    }
+    if (guideBtn) guideBtn.style.display = "none";
+    if (guideBox) guideBox.classList.remove("open");
+  }
+}
+
+async function requestSystemNotificationPermission() {
+  if (!("Notification" in window)) {
+    showToast("⚠️ 当前环境不支持浏览器系统级通知，已为您启用站内小番茄声画提醒！");
+    return false;
+  }
+  try {
+    const perm = await Notification.requestPermission();
+    if (perm === "granted") {
+      userState.reminders.systemNotification = true;
+      saveState();
+      showTomatoAlert("🎉 系统级桌面通知已激活！", "番茄Q酱已成功获得系统推送权限！今后即使切屏、最小化或息屏，也会准时为您播报心流与备考提醒！");
+    } else {
+      userState.reminders.systemNotification = false;
+      saveState();
+      showToast("🍅 番茄Q酱：未开启系统通知也没关系！本站已全自动启用【小番茄跳舞动画＋颂钵轻音】，依然能准时提醒您！");
+    }
+  } catch (e) {
+    showToast("ℹ️ 浏览器暂未授权系统通知，将采用站内弹窗提醒。");
+  }
+  updateReminderModalUI();
+}
+
+function toggleSystemNotification(enable) {
+  if (!userState.reminders) userState.reminders = {};
+  userState.reminders.systemNotification = enable;
+  saveState();
+  updateReminderModalUI();
+  showToast(enable ? "🔔 已恢复系统级桌面推送！" : "🔕 已切换为仅站内声画提醒，不弹出系统通知。");
+}
+
+function togglePermGuide() {
+  const guideBox = document.getElementById("remPermGuideBox");
+  if (guideBox) {
+    guideBox.classList.toggle("open");
   }
 }
 

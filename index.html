@@ -604,66 +604,42 @@
         <button class="btn-secondary" onclick="closeReminderModal()" style="padding:4px 10px; font-size:14px; border-radius:50%;">✕</button>
       </div>
 
-      <!-- 系统级桌面通知权限看板 -->
-      <div class="reminder-switch-row" style="background:var(--bg-card); border-color:var(--sage-border); margin-bottom:16px;">
-        <div class="reminder-switch-info">
-          <div style="display:flex; align-items:center; gap:8px;">
-            <span class="reminder-switch-name">🌐 浏览器系统级桌面/手机推送通知</span>
-            <span id="remPermBadge" class="pixel-live-tag" style="font-size:11px;">检测中...</span>
+            <!-- 授权信息提醒与系统推送权限中心 (深度优化) -->
+      <div class="perm-card-enhanced" id="remPermCard">
+        <div class="perm-status-header">
+          <div class="perm-title-group">
+            <span style="font-size:18px;">🌐</span>
+            <strong style="font-size:calc(14.5px * var(--font-scale)); color:var(--text-main);">系统级桌面 / 手机推送通知</strong>
           </div>
-          <span class="reminder-switch-desc">即使浏览器切到后台或最小化，也能在屏幕角落弹出系统提示（需浏览器授权）</span>
+          <span id="remPermBadge" class="perm-status-badge perm-badge-default">检测中...</span>
         </div>
-        <button class="btn-primary" onclick="requestSystemNotificationPermission()" style="padding:6px 14px; font-size:13px; white-space:nowrap;">授权开启</button>
-      </div>
 
-      <div class="reminder-section-title">🍅 番茄专注与健康关怀</div>
-      <div class="reminder-switch-row">
-        <div class="reminder-switch-info">
-          <span class="reminder-switch-name">番茄专注结束声画提醒</span>
-          <span class="reminder-switch-desc">倒计时结束时播放空灵颂钵轻音，并弹出收获番茄提示</span>
+        <div class="perm-desc-text" id="remPermDesc">
+          点击下方按钮授权系统通知。开启后，切屏查资料、查字典或最小化也不会错过心流番茄与备考闹钟！
         </div>
-        <label class="switch-toggle-btn">
-          <input type="checkbox" id="chkRemPomo">
-          <span class="switch-slider"></span>
-        </label>
-      </div>
 
-      <div class="reminder-switch-row">
-        <div class="reminder-switch-info">
-          <span class="reminder-switch-name">🍵 45 分钟久坐与防眼疲劳关怀</span>
-          <span class="reminder-switch-desc">每连续专注 45 分钟，自动温馨提醒喝水、眺望远方或活动眼球</span>
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+          <div id="remPermActionBtn">
+            <button class="btn-primary" onclick="requestSystemNotificationPermission()" style="padding:6px 16px; font-size:13px; font-weight:700;">🔔 一键授权开启系统通知</button>
+          </div>
+          <button class="btn-secondary" id="btnToggleGuide" onclick="togglePermGuide()" style="padding:5px 12px; font-size:12px; display:none;">📖 浏览器解阻指引</button>
         </div>
-        <label class="switch-toggle-btn">
-          <input type="checkbox" id="chkRemEyeCare">
-          <span class="switch-slider"></span>
-        </label>
-      </div>
 
-      <div class="reminder-switch-row">
-        <div class="reminder-switch-info">
-          <span class="reminder-switch-name">🎯 每日核心词计划未达标晚间督学提醒</span>
-          <span class="reminder-switch-desc">晚间自动对账，若今日计划背诵词数尚未达成，及时弹出激励提醒</span>
+        <!-- 浏览器解阻图文指引 (默认折叠) -->
+        <div class="perm-guide-box" id="remPermGuideBox">
+          <strong>💡 如何解除浏览器通知阻止？</strong><br>
+          1. 点击浏览器顶部地址栏最左侧的 <strong>🔒 (或设置/站点信息)</strong> 图标；<br>
+          2. 找到 <strong>“通知 (Notifications)”</strong> 权限选项；<br>
+          3. 将其由“阻止”修改为 <strong>“允许 (Allow)”</strong>；<br>
+          4. 刷新本页面即可自动激活系统级推送！
+          <div style="margin-top:6px; font-size:11px; color:var(--text-muted);">
+            📱 手机端提示：在 iPhone Safari / 安卓 Chrome 菜单中点击“添加到主屏幕”，以原生 App 形式运行推送体验最佳！
+          </div>
         </div>
-        <label class="switch-toggle-btn">
-          <input type="checkbox" id="chkRemPlanGoal" checked>
-          <span class="switch-slider"></span>
-        </label>
-      </div>
 
-      <div class="reminder-section-title" style="margin-top:18px;">📅 每日备考日程定点闹钟 (后台自动对账)</div>
-      
-      <!-- 晨诵提醒 -->
-      <div class="reminder-switch-row">
-        <div class="reminder-switch-info">
-          <span class="reminder-switch-name">🌅 每日晨诵提醒</span>
-          <span class="reminder-switch-desc">大声朗读 Unit 核心母词，唤醒英语语感</span>
-        </div>
-        <div style="display:flex; align-items:center; gap:8px;">
-          <input type="time" class="reminder-time-input" id="timeRemMorning" value="07:30">
-          <label class="switch-toggle-btn">
-            <input type="checkbox" id="chkRemMorning">
-            <span class="switch-slider"></span>
-          </label>
+        <div class="perm-fallback-note">
+          <span>💡</span>
+          <span>温馨保障：即使未开启系统通知，本站也会全自动使用【Q版小番茄跳舞动画 ＋ 空灵颂钵轻音 ＋ 站内气泡】，提醒绝不遗漏！</span>
         </div>
       </div>
 

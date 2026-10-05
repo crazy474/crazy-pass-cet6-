@@ -2818,3 +2818,106 @@ body.dark-mode .tomato-alert-tag {
   transform: translateY(-2px) scale(1.04);
   box-shadow: 0 6px 18px rgba(217, 72, 52, 0.45);
 }
+
+/* ==========================================================================
+   授权信息提醒与权限中心深度优化样式
+   ========================================================================== */
+.perm-card-enhanced {
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 16px 18px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease;
+}
+
+.perm-card-enhanced.granted {
+  border-color: var(--sage-border);
+  background: linear-gradient(135deg, var(--bg-card), var(--sage-soft));
+}
+
+.perm-card-enhanced.denied {
+  border-color: rgba(229, 57, 53, 0.35);
+  background: linear-gradient(135deg, var(--bg-card), var(--tomato-soft));
+}
+
+.perm-status-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.perm-title-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.perm-status-badge {
+  font-size: calc(11.5px * var(--font-scale));
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+
+.perm-badge-granted {
+  background: #E8F5E9;
+  color: #2E7D32;
+  border: 1px solid #A5D6A7;
+}
+
+.perm-badge-default {
+  background: #FFF8E1;
+  color: #F57F17;
+  border: 1px solid #FFE082;
+}
+
+.perm-badge-denied {
+  background: #FFEBEE;
+  color: #C62828;
+  border: 1px solid #FFCDD2;
+}
+
+body.dark-mode .perm-badge-granted { background: rgba(76, 175, 80, 0.2); color: #81C784; border-color: rgba(76, 175, 80, 0.4); }
+body.dark-mode .perm-badge-default { background: rgba(255, 179, 0, 0.2); color: #FFD54F; border-color: rgba(255, 179, 0, 0.4); }
+body.dark-mode .perm-badge-denied { background: rgba(244, 67, 54, 0.2); color: #E57373; border-color: rgba(244, 67, 54, 0.4); }
+
+.perm-desc-text {
+  font-size: calc(12.5px * var(--font-scale));
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.perm-guide-box {
+  display: none;
+  background: var(--bg-surface);
+  border: 1px dashed var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  font-size: calc(12px * var(--font-scale));
+  color: var(--text-body);
+  line-height: 1.7;
+  margin: 10px 0;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.perm-guide-box.open {
+  display: block;
+}
+
+.perm-fallback-note {
+  font-size: calc(11.5px * var(--font-scale));
+  color: var(--text-dim);
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-top: 1px dashed var(--border-color);
+  padding-top: 8px;
+  margin-top: 6px;
+}
