@@ -1275,7 +1275,7 @@ function renderMidnightSnapshotList() {
 
   const snapshots = userState.midnightSnapshots || [];
   if (snapshots.length === 0) {
-    container.innerHTML = `<p style="font-size:14px; color:var(--text-muted); text-align:center; padding:20px;">系统运行中，将在今夜 00:00:00 自动生成第一份凌晨快照...</p>`;
+    container.innerHTML = `<p style="font-size:14px; color:var(--text-muted); text-align:center; padding:20px;">历史池当前为空，系统将在今夜 00:00:00 自动生成第一份凌晨快照...</p>`;
     return;
   }
 
@@ -1283,7 +1283,7 @@ function renderMidnightSnapshotList() {
   snapshots.forEach((snap, idx) => {
     const isLatest = idx === 0;
     html += `
-      <div class="snapshot-item-card">
+      <div class="snapshot-item-card" id="snap_card_${snap.id}">
         <div>
           <div style="display:flex; align-items:center; gap:8px;">
             <span class="snapshot-tag">${isLatest ? "⭐ 最新快照" : "📁 历史快照"}</span>
@@ -1297,9 +1297,10 @@ function renderMidnightSnapshotList() {
             连续打卡: ${snap.stats.streakDays} 天
           </div>
         </div>
-        <div style="display:flex; gap:8px;">
-          <button class="btn-secondary" onclick="restoreSnapshot(${snap.id})" style="padding:6px 12px; font-size:13px;">🔄 恢复此版本</button>
-          <button class="btn-secondary" onclick="downloadSnapshot(${snap.id})" style="padding:6px 12px; font-size:13px;">📥 导出JSON</button>
+        <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+          <button class="btn-secondary" onclick="restoreSnapshot(${snap.id})" style="padding:6px 12px; font-size:13px;" title="恢复到该快照的学习进度">🔄 恢复此版本</button>
+          <button class="btn-secondary" onclick="downloadSnapshot(${snap.id})" style="padding:6px 12px; font-size:13px;" title="将该快照导出为独立JSON文件">📥 导出JSON</button>
+          <button class="btn-secondary btn-snap-del" onclick="deleteMidnightSnapshot(${snap.id})" style="padding:6px 12px; font-size:13px; color:var(--tomato-red); border-color:rgba(217,72,52,0.3);" title="删除此份历史快照">🗑️ 删除</button>
         </div>
       </div>
     `;
@@ -1330,6 +1331,34 @@ function downloadSnapshot(snapId) {
   dlAnchor.setAttribute("href", dataStr);
   dlAnchor.setAttribute("download", `疯狂过六级_凌晨快照_${snap.dateStr}.json`);
   dlAnchor.click();
+}
+
+
+// 删除指定单份历史快照
+function deleteMidnightSnapshot(snapId) {
+  const snap = (userState.midnightSnapshots || []).find(s => s.id === snapId);
+  if (!snap) return;
+
+  if (confirm(`⚠️ 确定要删除 [${snap.timestampStr}] 这份历史快照吗？\n删除后该快照将被永久移除。`)) {
+    userState.midnightSnapshots = userState.midnightSnapshots.filter(s => s.id !== snapId);
+    saveState();
+    renderMidnightSnapshotList();
+    showToast("🗑️ 已成功删除该份历史快照！");
+  }
+}
+
+// 一键清空全部历史快照
+function clearAllMidnightSnapshots() {
+  if (!userState.midnightSnapshots || userState.midnightSnapshots.length === 0) {
+    showToast("ℹ️ 当前历史池为空，无需清空。");
+    return;
+  }
+  if (confirm("⚠️ 确定要清空历史池中的全部快照记录吗？此操作无法撤销！")) {
+    userState.midnightSnapshots = [];
+    saveState();
+    renderMidnightSnapshotList();
+    showToast("🗑️ 已成功清空全部凌晨历史快照！");
+  }
 }
 
 function createManualSnapshot() {

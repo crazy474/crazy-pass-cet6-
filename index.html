@@ -546,7 +546,10 @@
       <div class="card" style="margin-bottom: var(--space-xl);">
         <div class="card-title">
           <span>🕒 凌晨自动快照历史池 (最多滚动保留 30 天)</span>
-          <span style="font-size:13px; color:var(--text-muted);">自动备份 · 支持任意版本一键回滚或导出</span>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:13px; color:var(--text-muted);">自动备份 · 支持独立删除、回滚或导出</span>
+            <button class="btn-secondary" onclick="clearAllMidnightSnapshots()" style="padding:2px 8px; font-size:11.5px; color:var(--tomato-red); border-color:rgba(217,72,52,0.3);" title="清空全部历史快照">🗑️ 清空历史池</button>
+          </div>
         </div>
         <div class="snapshot-list" id="midnightSnapshotList"></div>
       </div>

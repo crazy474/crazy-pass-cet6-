@@ -3078,3 +3078,10 @@ body.dark-mode .calendar-day-badge {
   margin: 14px 0;
   font-family: inherit;
 }
+
+
+.btn-snap-del:hover {
+  background: #FFF0F0 !important;
+  color: var(--tomato-dark) !important;
+  border-color: var(--tomato-red) !important;
+}
