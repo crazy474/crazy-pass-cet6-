@@ -3001,6 +3001,8 @@ body.dark-mode .due-tag-badge {
 }
 
 .calendar-day-box {
+  cursor: pointer; /* calendar-clickable */
+  user-select: none;
   background: var(--bg-subtle);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
@@ -3621,6 +3623,17 @@ body.dark-mode .streak-shield-capsule {
   background: rgba(79, 162, 242, 0.15);
   color: #79B8FF;
   border-color: rgba(79, 162, 242, 0.35);
+}
+
+.calendar-day-box:hover:not(.empty-day) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-color: var(--accent-gold);
+}
+
+.calendar-day-box.active-day:hover {
+  border-color: var(--tomato-red);
+  box-shadow: 0 4px 14px rgba(224, 90, 71, 0.22);
 }
 
 </style>
@@ -132871,6 +132884,14 @@ window.CET6_DATA = {
 
 </script>
   <script>
+// 高精度本地日期工具函数 (避免中国标准时间 UTC+8 凌晨 00:00~08:00 与 UTC 产生跨天漂移)
+function getLocalDateStr(d = new Date()) {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
 // ==========================================================================
 // 26英语六级通关学习站 · 旗舰全能版 (前端核心交互驱动引擎)
 // 借鉴 Google, GitHub, Notion 优秀交互与排版设计
@@ -135244,7 +135265,7 @@ function renderStreakCalendar() {
   const now = new Date();
   const year = now.getFullYear();
   const month = now.getMonth();
-  const todayStr = now.toISOString().slice(0, 10);
+  const todayStr = getLocalDateStr(now);
 
   const daysInMonth = new Date(year, month + 1, 0).getDate();
   const firstDayOfWeek = new Date(year, month, 1).getDay();
@@ -135331,7 +135352,7 @@ function renderStreakCalendar() {
     if (isToday) boxClass += " today-day";
 
     html += `
-      <div class="${boxClass}" onclick="handleCalendarDayClick('${dStr}')" title="${dStr}${hasStudy ? '：已打卡保卫连胜' : ''}">
+      <div class="${boxClass}" onclick="handleCalendarDayClick('${dStr}')" title="${dStr}${hasStudy ? (rec && rec.isMakeup ? '：❄️补卡保卫（点击可撤销并退还盾牌）' : '：🔥已打卡保卫（点击可撤销）') : (isToday ? '：今日打卡' : '：未打卡（点击可使用盾牌补签）')}">
         <span class="calendar-day-num">${d}</span>
         ${hasStudy ? `<span class="calendar-day-badge">${badgeText}</span>` : (isToday && !isDefended ? '<span style="font-size:10px; color:var(--tomato-red);">待续火</span>' : '')}
       </div>
@@ -135347,22 +135368,38 @@ function renderStreakCalendar() {
 }
 
 // 补卡挽救机制
+// 补卡挽救机制 (支持月历点击撤回退盾)
 function useStreakFreeze() {
   if (!userState.streakFreezes || userState.streakFreezes <= 0) {
-    showToast("⚠️ 本月连胜补签卡已用完，下月自动补满！请继续保持今日打卡！");
+    showToast("⚠️ 当前没有剩余的能量保卫盾啦！每周坚持学习可自动获赠！");
     return;
   }
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+  const yesterdayDate = new Date();
+  yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+  const yesterday = getLocalDateStr(yesterdayDate);
+
   if (!userState.streakHistory) userState.streakHistory = {};
-  if (!userState.streakHistory[yesterday]) {
-    userState.streakHistory[yesterday] = { words: 50, pomo: 2 };
+  if (userState.streakHistory[yesterday] && isDateStreakDefended(yesterday)) {
+    showToast(`ℹ️ 昨日（${yesterday}）已处于保卫状态，无需补签。`);
+    return;
   }
+
+  userState.streakHistory[yesterday] = {
+    words: 20,
+    pomo: 1,
+    flash: 15,
+    morning: true,
+    daytime: true,
+    evening: true,
+    isMakeup: true
+  };
   userState.streakFreezes--;
-  userState.streakDays = (userState.streakDays || 1) + 1;
+  userState.streakDays = calculateCurrentStreak();
   saveState();
   renderStreakCalendar();
-  updateHeaderStats();
-  showToast("🎉 补签成功！已消耗 1 张补签卡，为您成功守卫连胜天数！🔥");
+  updateStreakDisplay();
+  if (typeof playChime === "function") playChime();
+  showToast(`🎉 补签成功！已消耗 1 张保卫盾，为您成功守卫连胜天数！（月历点击该日可随时撤销退盾）🔥`);
 }
 
 // 4. 今日打卡成就战报海报弹窗
@@ -135999,7 +136036,7 @@ function calculateCurrentStreak() {
   let historyCount = 0;
   while (historyCount < 365) {
     historyCount++;
-    const dStr = d.toISOString().slice(0, 10);
+    const dStr = getLocalDateStr(d);
     if (isDateStreakDefended(dStr)) {
       streak++;
       d.setDate(d.getDate() - 1);
@@ -136155,82 +136192,124 @@ function cancelTodayCheckin() {
 }
 
 // 扩展日历点击逻辑，支持点击已打卡日期直接取消/撤销打卡
+// 扩展日历点击逻辑，支持点击已打卡日期直接取消/撤销打卡与退还保卫盾牌
 function handleCalendarDayClick(dateStr) {
-  const todayStr = new Date().toISOString().slice(0, 10);
+  const todayStr = getLocalDateStr();
   const history = userState.streakHistory || {};
   const rec = history[dateStr];
 
-  // 1. 如果点击的是【今日】，且今日已经打卡，弹出“取消今日打卡”确认！
+  // 1. 如果点击的是【今日】
   if (dateStr === todayStr) {
-    if (isTodayStreakDefended() || (rec && (rec.morning || rec.daytime || rec.evening))) {
+    if (isTodayStreakDefended() || (rec && (rec.morning || rec.daytime || rec.evening || (rec.words && rec.words > 0) || (rec.pomo && rec.pomo > 0)))) {
       cancelTodayCheckin();
       return;
     } else {
-      showToast("📝 今日尚未打卡，完成背词、番茄钟或习惯即可自动打卡保卫连胜！");
+      showToast("📝 今日尚未打卡，完成背词、番茄钟或能力闭环即可自动打卡保卫连胜！");
       return;
     }
   }
 
-  // 2. 如果点击的是【历史补卡日】，允许撤销补卡并退还保卫盾牌！
-  if (rec && rec.isMakeup) {
-    if (confirm(`是否撤销【${dateStr}】的补卡记录，并将消耗的 1 张能量保卫盾退还？`)) {
-      rec.isMakeup = false;
-      rec.morning = false;
-      rec.daytime = false;
-      rec.evening = false;
-      userState.streakFreezes = (userState.streakFreezes || 0) + 1;
-      userState.streakDays = calculateCurrentStreak();
-      saveState();
-      renderStreakCalendar();
-      updateStreakDisplay();
-      showToast(`↺ 已撤销【${dateStr}】的补卡，能量保卫盾牌已退还 (+1)！`);
-      return;
-    }
-    return;
-  }
-
-  // 3. 如果点击的是【已完成的真实历史日】
-  const isCompleted = rec && (rec.morning && rec.daytime && rec.evening || (rec.words && rec.words >= 10));
-  if (isCompleted) {
-    showToast(`📅 ${dateStr} 已于当时真实打卡完成（背词 ${rec.words || 0} 词，番茄 ${rec.pomo || 0} 个）！`);
-    return;
-  }
-
-  // 4. 未来日期不可打卡
+  // 2. 如果点击的是【未来日期】
   if (dateStr > todayStr) {
     showToast("⏳ 该日期为未来日期，请按计划稳步推进！");
     return;
   }
 
-  // 5. 点击未打卡的断签历史日 -> 触发补卡
-  const diffDays = Math.round((new Date(todayStr) - new Date(dateStr)) / 86400000);
-  if (diffDays > 5) {
-    showToast("⚠️ 能量保卫盾仅支持补签最近 5 天以内的记录哦！");
+  // 3. 如果点击的是【已打卡或已补卡的历史日期】
+  const isDefended = rec && Boolean(
+    rec.isMakeup ||
+    (rec.words && rec.words >= 10) ||
+    (rec.pomo && rec.pomo >= 1) ||
+    (rec.flash && rec.flash >= 15) ||
+    (rec.morning && rec.daytime && rec.evening)
+  );
+
+  if (isDefended) {
+    const isMakeupDay = Boolean(rec.isMakeup);
+    const confirmMsg = isMakeupDay
+      ? `⚠️ 确定要撤销【${dateStr}】的补卡记录吗？\n\n点击“确定”将彻底撤销该日补签，并将此前消耗的 1 张【能量保卫盾牌】全额退还 (+1)！`
+      : `⚠️ 确定要撤销【${dateStr}】的历史打卡记录吗？\n（当时记录：背词 ${rec.words || 0} 词，专注番茄 ${rec.pomo || 0} 个）\n\n点击“确定”后该日期将恢复为未打卡状态，连胜天数将重新核算。 `;
+
+    if (confirm(confirmMsg)) {
+      // 备份以便 8 秒急救撤回
+      const savedRec = JSON.parse(JSON.stringify(rec));
+      const wasMakeup = isMakeupDay;
+
+      // 彻底删除该日打卡记录，确保月历和连胜核算彻底恢复未打卡
+      delete userState.streakHistory[dateStr];
+
+      // 若为补签卡，全额退还保卫盾牌
+      if (wasMakeup) {
+        userState.streakFreezes = (userState.streakFreezes || 0) + 1;
+      }
+
+      // 重新高精度核算连续打卡天数
+      userState.streakDays = calculateCurrentStreak();
+      saveState();
+      renderStreakCalendar();
+      updateStreakDisplay();
+      if (typeof renderPlanGoalDashboard === "function") renderPlanGoalDashboard();
+
+      // 注册 8 秒反悔急救胶囊
+      registerUndoAction(`已撤销【${dateStr}】${wasMakeup ? "补卡" : "打卡"}`, () => {
+        if (!userState.streakHistory) userState.streakHistory = {};
+        userState.streakHistory[dateStr] = savedRec;
+        if (wasMakeup) {
+          userState.streakFreezes = Math.max(0, (userState.streakFreezes || 1) - 1);
+        }
+        userState.streakDays = calculateCurrentStreak();
+        saveState();
+        renderStreakCalendar();
+        updateStreakDisplay();
+        if (typeof renderPlanGoalDashboard === "function") renderPlanGoalDashboard();
+      }, 8000);
+
+      const successToast = wasMakeup
+        ? `↺ 已成功撤销【${dateStr}】补卡！能量保卫盾牌已退还 (+1)！`
+        : `↺ 已成功撤销【${dateStr}】的打卡记录！`;
+      showToast(successToast);
+      return;
+    }
+    return;
+  }
+
+  // 4. 如果点击的是【未打卡的历史日期】 -> 触发补签
+  const dayMs = 86400000;
+  const todayDate = new Date(todayStr + "T00:00:00");
+  const targetDate = new Date(dateStr + "T00:00:00");
+  const diffDays = Math.round((todayDate - targetDate) / dayMs);
+
+  if (diffDays > 31) {
+    showToast("⚠️ 能量保卫盾仅支持补签 30 天以内的历史记录哦！");
     return;
   }
 
   if ((userState.streakFreezes || 0) <= 0) {
-    showToast("❌ 当前没有剩余的【能量保卫盾】啦！每周坚持连续学习可再获赠！");
+    showToast("❌ 当前没有剩余的【能量保卫盾】啦！每周坚持学习可自动获赠！");
     return;
   }
 
-  if (confirm(`是否消耗 1 张能量保卫盾，补签【${dateStr}】并拯救连续打卡天数？`)) {
+  if (confirm(`是否消耗 1 张能量保卫盾，补签【${dateStr}】并拯救连续打卡天数？\n\n（提示：补签后若误触，再次点击该日期即可随时撤销并全额退还盾牌！）`)) {
     userState.streakFreezes--;
-    if (!userState.streakHistory[dateStr]) userState.streakHistory[dateStr] = {};
-    userState.streakHistory[dateStr].isMakeup = true;
-    userState.streakHistory[dateStr].morning = true;
-    userState.streakHistory[dateStr].daytime = true;
-    userState.streakHistory[dateStr].evening = true;
+    if (!userState.streakHistory) userState.streakHistory = {};
+    userState.streakHistory[dateStr] = {
+      words: 20,
+      pomo: 1,
+      flash: 15,
+      morning: true,
+      daytime: true,
+      evening: true,
+      isMakeup: true
+    };
 
     userState.streakDays = calculateCurrentStreak();
     saveState();
     renderStreakCalendar();
     updateStreakDisplay();
     if (typeof playChime === "function") playChime();
-    showToast(`✨ 补卡成功！连续打卡天数已成功拯救为 ${userState.streakDays} 天！`);
+    showToast(`✨ 补卡成功！连续打卡天数已成功拯救为 ${userState.streakDays} 天！（再次点击此日可随时撤销退盾）`);
   }
 }
-
 </script>
 
   <!-- 全局智能撤销悬浮胶囊中枢 (支持 Ctrl+Z 一键撤回) -->

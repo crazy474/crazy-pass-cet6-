@@ -2991,6 +2991,8 @@ body.dark-mode .due-tag-badge {
 }
 
 .calendar-day-box {
+  cursor: pointer; /* calendar-clickable */
+  user-select: none;
   background: var(--bg-subtle);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
@@ -3611,4 +3613,15 @@ body.dark-mode .streak-shield-capsule {
   background: rgba(79, 162, 242, 0.15);
   color: #79B8FF;
   border-color: rgba(79, 162, 242, 0.35);
+}
+
+.calendar-day-box:hover:not(.empty-day) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-color: var(--accent-gold);
+}
+
+.calendar-day-box.active-day:hover {
+  border-color: var(--tomato-red);
+  box-shadow: 0 4px 14px rgba(224, 90, 71, 0.22);
 }
