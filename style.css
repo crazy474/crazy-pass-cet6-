@@ -3085,3 +3085,254 @@ body.dark-mode .calendar-day-badge {
   color: var(--tomato-dark) !important;
   border-color: var(--tomato-red) !important;
 }
+
+/* ==========================================================================
+   Spotlight 全局指挥台搜索系统专属样式 (Raycast / Linear 风格)
+   ========================================================================== */
+.search-modal-dialog {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 0;
+  width: 92%;
+  max-width: 680px;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
+  animation: modalScaleUp 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.search-input-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-surface);
+}
+
+.search-input-icon {
+  font-size: 22px;
+  color: var(--text-muted);
+}
+
+.search-spotlight-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: calc(17px * var(--font-scale));
+  font-weight: 600;
+  color: var(--text-main);
+  font-family: inherit;
+}
+
+.search-spotlight-input::placeholder {
+  color: var(--text-dim);
+}
+
+.search-meta-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 22px;
+  background: var(--bg-subtle);
+  border-bottom: 1px solid var(--border-color);
+  font-size: calc(12.5px * var(--font-scale));
+  color: var(--text-muted);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.search-tag-pills {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.search-tag-pill {
+  font-size: calc(12px * var(--font-scale));
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  color: var(--text-body);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.search-tag-pill:hover {
+  background: var(--tomato-soft);
+  color: var(--tomato-red);
+  border-color: var(--tomato-coral);
+}
+
+.search-results-list {
+  padding: 10px 14px;
+  overflow-y: auto;
+  max-height: 52vh;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.search-result-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  gap: 14px;
+}
+
+.search-result-item:hover,
+.search-result-item.active-focused {
+  background: var(--bg-subtle);
+  border-color: var(--border-color);
+  transform: translateX(2px);
+}
+
+body.dark-mode .search-result-item:hover,
+body.dark-mode .search-result-item.active-focused {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.search-item-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.search-item-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.search-item-word {
+  font-size: calc(18px * var(--font-scale));
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.search-item-phonetic {
+  font-size: calc(13px * var(--font-scale));
+  color: var(--text-muted);
+  font-family: Consolas, monospace;
+}
+
+.search-item-pos {
+  font-size: calc(12px * var(--font-scale));
+  font-style: italic;
+  font-weight: 700;
+  color: var(--tech-blue);
+}
+
+.search-item-meaning {
+  font-size: calc(13.5px * var(--font-scale));
+  color: var(--text-body);
+  line-height: 1.5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-item-tip {
+  font-size: calc(12px * var(--font-scale));
+  color: var(--harvest-gold);
+  background: var(--harvest-soft);
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 2px;
+  width: fit-content;
+}
+
+.search-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.search-locate-btn {
+  padding: 6px 12px;
+  font-size: calc(12px * var(--font-scale));
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  background: var(--tomato-soft);
+  color: var(--tomato-dark);
+  border: 1px solid rgba(217, 72, 52, 0.25);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.search-locate-btn:hover {
+  background: var(--tomato-red);
+  color: #FFFFFF;
+}
+
+.search-footer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: var(--bg-subtle);
+  border-top: 1px solid var(--border-color);
+  font-size: calc(11.5px * var(--font-scale));
+  color: var(--text-dim);
+}
+
+.search-kbd-shortcuts {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.search-kbd-shortcuts kbd {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+/* 关键词高亮 */
+.search-highlight {
+  background: #FFE082;
+  color: #5D4037;
+  padding: 0 2px;
+  border-radius: 2px;
+  font-weight: 800;
+}
+
+body.dark-mode .search-highlight {
+  background: #FFB300;
+  color: #212121;
+}
+
+/* 页面卡片平滑定位脉冲高亮 */
+.search-pulse-focus {
+  animation: pulseFocusGlow 2.5s ease-out;
+  border-color: var(--tomato-red) !important;
+}
+
+@keyframes pulseFocusGlow {
+  0% { box-shadow: 0 0 0 0 rgba(217, 72, 52, 0.6); transform: scale(1.02); }
+  50% { box-shadow: 0 0 0 14px rgba(217, 72, 52, 0); transform: scale(1); }
+  100% { box-shadow: none; }
+}

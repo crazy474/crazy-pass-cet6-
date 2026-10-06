@@ -75,7 +75,8 @@ let userState = {
   },
   streakHistory: {},
   streakFreezes: 1,
-  filterDue: false
+  filterDue: false,
+  searchHistory: []
 };
 
 // --- 1. 数据存档加载与持久化 ---
@@ -1163,8 +1164,7 @@ document.addEventListener("keydown", function(e) {
   // Ctrl+K 或 / 激活快速搜索
   if ((e.ctrlKey && e.key.toLowerCase() === "k") || e.key === "/") {
     e.preventDefault();
-    const searchInput = document.getElementById("globalSearchInput");
-    if (searchInput) searchInput.focus();
+    openGlobalSearchModal();
   }
 
   // 数字键 1-9 快速切换 Tab
@@ -2364,4 +2364,390 @@ function copyAchievementText() {
   txtEl.select();
   document.execCommand("copy");
   showToast("📋 战报文案已复制到剪贴板！快去朋友圈/备考打卡群晒一晒吧！✨");
+}
+
+
+// --- 26. 全局双向倒排索引搜索引擎与 Spotlight 指挥台 (算法架构师 Carson & 设计师 Bailey 联合开发) ---
+let globalWordIndex = null;
+let currentFocusedResultIdx = -1;
+let currentActiveSearchResults = [];
+
+// 构建全库双向多字段倒排索引 (覆盖 3304 核心母词派生词 + 7375 闪过卡词)
+function buildGlobalSearchIndex() {
+  if (globalWordIndex) return globalWordIndex;
+  if (!window.CET6_DATA) return [];
+
+  const index = [];
+  const seenWords = new Set();
+
+  // 1. 索引核心词库 (带单元、课时、巧记秘籍与派生关系)
+  if (window.CET6_DATA.coreUnits) {
+    window.CET6_DATA.coreUnits.forEach(u => {
+      if (!u.lessons) return;
+      u.lessons.forEach(l => {
+        if (!l.words) return;
+        l.words.forEach(w => {
+          const lower = (w.word || "").toLowerCase().trim();
+          if (lower && !seenWords.has(lower)) {
+            seenWords.add(lower);
+            index.push({
+              id: w.id,
+              word: w.word,
+              lowerWord: lower,
+              phonetic: w.phonetic || "",
+              pos: w.pos || "",
+              meaning: w.meaning || "",
+              tip_type: w.tip_type || "",
+              tip: w.tip || "",
+              unit: u.unit,
+              lesson: l.lesson,
+              isCore: true
+            });
+          }
+
+          // 索引派生词
+          if (w.derivations) {
+            w.derivations.forEach(d => {
+              const dLower = (d.word || "").toLowerCase().trim();
+              if (dLower && !seenWords.has(dLower)) {
+                seenWords.add(dLower);
+                index.push({
+                  id: w.id,
+                  word: d.word,
+                  lowerWord: dLower,
+                  phonetic: d.phonetic || "",
+                  pos: d.pos || "",
+                  meaning: d.meaning || "",
+                  tip_type: "派生",
+                  tip: `母词: ${w.word} (Unit ${u.unit} · Lesson ${l.lesson})`,
+                  unit: u.unit,
+                  lesson: l.lesson,
+                  isCore: true,
+                  isDeriv: true
+                });
+              }
+            });
+          }
+        });
+      });
+    });
+  }
+
+  // 2. 索引闪过卡专属基础词
+  if (window.CET6_DATA.flashCardDecks && window.CET6_DATA.flashCardDecks.all_shuffled) {
+    const flashList = window.CET6_DATA.flashCardDecks.all_shuffled.words || [];
+    flashList.forEach(fw => {
+      const lower = (fw.word || "").toLowerCase().trim();
+      if (lower && !seenWords.has(lower)) {
+        seenWords.add(lower);
+        index.push({
+          id: "",
+          word: fw.word,
+          lowerWord: lower,
+          phonetic: "",
+          pos: "",
+          meaning: fw.meaning || "",
+          tip_type: "闪卡",
+          tip: "六级大纲闪过词",
+          unit: 0,
+          lesson: 0,
+          isCore: false
+        });
+      }
+    });
+  }
+
+  globalWordIndex = index;
+  console.log(`[SearchEngine] 全局搜索索引构建完成，共索引 ${index.length} 个词汇条目！`);
+  return globalWordIndex;
+}
+
+// 多字段加权打分检索算法
+function searchGlobalWords(rawQuery) {
+  const query = (rawQuery || "").trim().toLowerCase();
+  if (!query) return [];
+
+  const index = buildGlobalSearchIndex();
+  const scored = [];
+
+  for (let i = 0; i < index.length; i++) {
+    const item = index[i];
+    let score = 0;
+    let matchField = "";
+
+    // 1. 英文完全匹配 (最高权重 100)
+    if (item.lowerWord === query) {
+      score = 100;
+      matchField = "word_exact";
+    }
+    // 2. 英文前缀匹配 (权重 80)
+    else if (item.lowerWord.startsWith(query)) {
+      score = 80 - Math.min(20, item.lowerWord.length - query.length);
+      matchField = "word_prefix";
+    }
+    // 3. 英文子串包含 (权重 50)
+    else if (item.lowerWord.includes(query)) {
+      score = 50;
+      matchField = "word_sub";
+    }
+    // 4. 中文释义精准包含 (权重 40)
+    else if (item.meaning.includes(query)) {
+      score = 40;
+      matchField = "meaning";
+    }
+    // 5. 巧记秘籍关键词命中 (权重 30)
+    else if (item.tip && item.tip.includes(query)) {
+      score = 30;
+      matchField = "tip";
+    }
+
+    if (score > 0) {
+      // 核心母词额外轻微提权 (+5分)
+      if (item.isCore && !item.isDeriv) score += 5;
+      scored.push({ item, score, matchField });
+    }
+  }
+
+  // 按得分由高到低降序排序，限制前 35 条以保障丝滑帧率
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, 35);
+}
+
+// 打开 Spotlight 搜索大弹窗
+function openGlobalSearchModal(initialQuery = "") {
+  const modal = document.getElementById("globalSearchModal");
+  const input = document.getElementById("spotlightSearchInput");
+  if (!modal || !input) return;
+
+  buildGlobalSearchIndex();
+  modal.classList.add("open");
+
+  if (initialQuery) {
+    input.value = initialQuery;
+  } else {
+    const topInput = document.getElementById("globalSearchInput");
+    if (topInput && topInput.value) input.value = topInput.value;
+  }
+
+  renderSearchHistoryAndTags();
+  renderSearchResults(input.value);
+
+  setTimeout(() => {
+    input.focus();
+    input.select();
+  }, 50);
+}
+
+// 关闭 Spotlight 搜索弹窗
+function closeGlobalSearchModal() {
+  const modal = document.getElementById("globalSearchModal");
+  if (modal) modal.classList.remove("open");
+  currentFocusedResultIdx = -1;
+}
+
+// 渲染搜索历史与常考热搜词群标签
+function renderSearchHistoryAndTags() {
+  const historyWrap = document.getElementById("searchHistoryPills");
+  if (!historyWrap) return;
+
+  const history = userState.searchHistory || [];
+  if (history.length === 0) {
+    historyWrap.innerHTML = '<span style="font-size:11.5px;color:var(--text-dim);">暂无历史</span>';
+    return;
+  }
+
+  historyWrap.innerHTML = history.slice(0, 6).map(term => `
+    <span class="search-tag-pill" onclick="applySearchTerm('${term.replace(/'/g, "\\'")}')">${term}</span>
+  `).join("");
+}
+
+function applySearchTerm(term) {
+  const input = document.getElementById("spotlightSearchInput");
+  if (!input) return;
+  input.value = term;
+  renderSearchResults(term);
+  input.focus();
+}
+
+function addSearchHistory(term) {
+  term = (term || "").trim();
+  if (!term || term.length < 2) return;
+  if (!userState.searchHistory) userState.searchHistory = [];
+  userState.searchHistory = userState.searchHistory.filter(t => t.toLowerCase() !== term.toLowerCase());
+  userState.searchHistory.unshift(term);
+  if (userState.searchHistory.length > 10) userState.searchHistory = userState.searchHistory.slice(0, 10);
+  saveState();
+}
+
+function clearSearchHistory() {
+  userState.searchHistory = [];
+  saveState();
+  renderSearchHistoryAndTags();
+  showToast("🗑️ 搜索历史已清空！");
+}
+
+// 关键词高亮辅助函数
+function highlightText(text, query) {
+  if (!query || !text) return text || "";
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const regex = new RegExp(`(${escaped})`, "gi");
+  return text.replace(regex, '<mark class="search-highlight">$1</mark>');
+}
+
+// 渲染搜索结果列表
+function renderSearchResults(query) {
+  const listEl = document.getElementById("searchResultsList");
+  const countEl = document.getElementById("searchResultCountDisplay");
+  if (!listEl) return;
+
+  currentFocusedResultIdx = -1;
+  const results = searchGlobalWords(query);
+  currentActiveSearchResults = results;
+
+  if (countEl) {
+    countEl.textContent = query ? `找到 ${results.length} 条匹配结果` : "输入英汉关键词搜索";
+  }
+
+  if (!query.trim()) {
+    listEl.innerHTML = `
+      <div style="text-align:center; padding:36px 20px; color:var(--text-muted);">
+        <div style="font-size:36px; margin-bottom:8px;">🔍</div>
+        <p style="font-size:15px; font-weight:700;">支持中英文双向实时模糊检索</p>
+        <p style="font-size:12.5px; color:var(--text-dim); margin-top:4px;">支持搜单词、搜音标、搜中文释义、搜名师口诀（如“俺必胜”反查 ambition）</p>
+      </div>
+    `;
+    return;
+  }
+
+  if (results.length === 0) {
+    listEl.innerHTML = `
+      <div style="text-align:center; padding:36px 20px; color:var(--text-muted);">
+        <div style="font-size:36px; margin-bottom:8px;">🍃</div>
+        <p style="font-size:15px; font-weight:700;">未在全库中检索到包含 “${query}” 的条目</p>
+        <p style="font-size:12.5px; color:var(--text-dim); margin-top:4px;">可尝试缩短关键词，或检索同义中文/前缀</p>
+      </div>
+    `;
+    return;
+  }
+
+  let html = "";
+  results.forEach((res, idx) => {
+    const item = res.item;
+    const wordHl = highlightText(item.word, query);
+    const meanHl = highlightText(item.meaning, query);
+    const tipHl = item.tip ? highlightText(item.tip, query) : "";
+
+    html += `
+      <div class="search-result-item ${idx === 0 ? "active-focused" : ""}" id="search_res_${idx}" onclick="onSearchResultClick(${idx})">
+        <div class="search-item-left">
+          <div class="search-item-title-row">
+            <span class="search-item-word">${wordHl}</span>
+            ${item.phonetic ? `<span class="search-item-phonetic">${item.phonetic}</span>` : ""}
+            ${item.pos ? `<span class="search-item-pos">${item.pos}</span>` : ""}
+            ${item.isCore ? `<span class="pixel-live-tag" style="font-size:10px;">Unit ${item.unit} · L${item.lesson}</span>` : `<span style="font-size:10px; color:var(--text-muted); background:var(--bg-subtle); padding:1px 5px; border-radius:4px;">闪过卡词</span>`}
+          </div>
+          <div class="search-item-meaning">${meanHl}</div>
+          ${tipHl ? `<div class="search-item-tip">💡 [${item.tip_type || "巧记"}] ${tipHl}</div>` : ""}
+        </div>
+        
+        <div class="search-item-actions" onclick="event.stopPropagation()">
+          <button class="audio-speak-btn" onclick="speakWord('${item.word.replace(/'/g, "\\'")}')" title="朗读发音">🔊</button>
+          ${item.isCore ? `
+            <button class="search-locate-btn" onclick="jumpToWordUnit(${item.unit}, ${item.lesson}, '${item.id}')">🎯 定位课时</button>
+          ` : `
+            <button class="search-locate-btn" onclick="switchTab('flash'); closeGlobalSearchModal();" style="background:var(--bg-subtle); color:var(--text-body);">⚡ 闪卡</button>
+          `}
+        </div>
+      </div>
+    `;
+  });
+
+  listEl.innerHTML = html;
+  currentFocusedResultIdx = 0;
+}
+
+// 点击搜索条目逻辑
+function onSearchResultClick(idx) {
+  const res = currentActiveSearchResults[idx];
+  if (!res) return;
+
+  const item = res.item;
+  addSearchHistory(document.getElementById("spotlightSearchInput").value);
+
+  if (item.isCore && item.id) {
+    jumpToWordUnit(item.unit, item.lesson, item.id);
+  } else {
+    speakWord(item.word);
+    closeGlobalSearchModal();
+    showToast(`📖 已检索到单词：<strong>${item.word}</strong><br>${item.meaning}`);
+  }
+}
+
+// 一键定位跳转到单词所在单元并脉冲高亮
+function jumpToWordUnit(unitNum, lessonNum, wordId) {
+  closeGlobalSearchModal();
+  switchTab("vocab");
+
+  userState.currentUnit = parseInt(unitNum);
+  userState.currentLesson = parseInt(lessonNum);
+  userState.filterStarred = false;
+  userState.filterUnlearned = false;
+  userState.filterDue = false;
+  userState.searchQuery = "";
+
+  saveState();
+  renderVocabSection();
+
+  // 稍等 DOM 渲染后平滑滚动到该词
+  setTimeout(() => {
+    const card = document.getElementById(`card_${wordId}`);
+    if (card) {
+      card.scrollIntoView({ behavior: "smooth", block: "center" });
+      card.classList.remove("search-pulse-focus");
+      void card.offsetWidth; // 触发 reflow
+      card.classList.add("search-pulse-focus");
+      setTimeout(() => card.classList.remove("search-pulse-focus"), 2800);
+      showToast(`🎯 已为你精准定位至 Unit ${unitNum} · Lesson ${lessonNum}！`);
+    }
+  }, 200);
+}
+
+// 全键盘上下与回车快捷导航
+function handleSpotlightKeyDown(e) {
+  if (e.key === "Escape") {
+    closeGlobalSearchModal();
+    return;
+  }
+
+  if (e.key === "ArrowDown") {
+    e.preventDefault();
+    if (currentActiveSearchResults.length === 0) return;
+    currentFocusedResultIdx = (currentFocusedResultIdx + 1) % currentActiveSearchResults.length;
+    updateFocusedResultItem();
+    return;
+  }
+
+  if (e.key === "ArrowUp") {
+    e.preventDefault();
+    if (currentActiveSearchResults.length === 0) return;
+    currentFocusedResultIdx = (currentFocusedResultIdx - 1 + currentActiveSearchResults.length) % currentActiveSearchResults.length;
+    updateFocusedResultItem();
+    return;
+  }
+
+  if (e.key === "Enter") {
+    e.preventDefault();
+    if (currentFocusedResultIdx >= 0 && currentFocusedResultIdx < currentActiveSearchResults.length) {
+      onSearchResultClick(currentFocusedResultIdx);
+    }
+  }
+}
+
+function updateFocusedResultItem() {
+  document.querySelectorAll(".search-result-item").forEach((el, i) => {
+    el.classList.toggle("active-focused", i === currentFocusedResultIdx);
+    if (i === currentFocusedResultIdx) {
+      el.scrollIntoView({ block: "nearest" });
+    }
+  });
 }

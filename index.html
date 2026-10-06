@@ -135,8 +135,8 @@
         </div>
         <div class="header-pill" onclick="showAchievementReport()" title="点击生成今日打卡战报海报" style="cursor:pointer;">🔥 连续打卡：<span id="headerStreakDays">1</span> 天 <span class="pixel-live-tag" style="font-size:10px;">战报</span></div>
 
-        <div class="search-box-pill">
-          <input type="text" id="globalSearchInput" placeholder="全局搜索词汇/技巧..." oninput="onVocabSearch(this.value)">
+        <div class="search-box-pill" onclick="openGlobalSearchModal()" style="cursor:pointer;" title="快捷键 Ctrl+K 或 /">
+          <input type="text" id="globalSearchInput" placeholder="全局搜索词汇/释义/巧记..." readonly style="cursor:pointer;">
           <kbd>Ctrl+K</kbd>
         </div>
       </div>
@@ -600,6 +600,56 @@
   
 
   
+
+
+  
+  <!-- Spotlight 全局指挥台搜索弹窗 (Raycast / Linear 风格) -->
+  <div class="modal-overlay" id="globalSearchModal" onclick="if(event.target===this)closeGlobalSearchModal()">
+    <div class="search-modal-dialog" onclick="event.stopPropagation()">
+      <!-- 搜索输入头 -->
+      <div class="search-input-header">
+        <span class="search-input-icon">🔍</span>
+        <input type="text" class="search-spotlight-input" id="spotlightSearchInput" 
+               placeholder="输入英汉关键词搜索全库 7,665 词 (如: ambition、雄心、俺必胜)..." 
+               autocomplete="off" 
+               oninput="renderSearchResults(this.value)" 
+               onkeydown="handleSpotlightKeyDown(event)">
+        <kbd style="font-size:11px; padding:3px 7px; background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:4px; color:var(--text-muted); cursor:pointer;" onclick="closeGlobalSearchModal()">Esc</kbd>
+      </div>
+
+      <!-- 搜索辅助与历史条 -->
+      <div class="search-meta-bar">
+        <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+          <span style="font-size:12px; font-weight:700; color:var(--text-muted);">历史与常考词群：</span>
+          <div class="search-tag-pills" id="searchHistoryPills"></div>
+          <div class="search-tag-pills">
+            <span class="search-tag-pill" onclick="applySearchTerm('ambition')">🌟 抱负</span>
+            <span class="search-tag-pill" onclick="applySearchTerm('economic')">📈 经济</span>
+            <span class="search-tag-pill" onclick="applySearchTerm('environment')">🌱 生态</span>
+            <span class="search-tag-pill" onclick="applySearchTerm('technology')">⚡ 科技</span>
+          </div>
+        </div>
+        <div style="font-size:12px; font-weight:700; color:var(--text-dim);" id="searchResultCountDisplay">
+          输入英汉关键词搜索
+        </div>
+      </div>
+
+      <!-- 检索结果列表容器 -->
+      <div class="search-results-list" id="searchResultsList"></div>
+
+      <!-- 底部快捷键提示 -->
+      <div class="search-footer-bar">
+        <div class="search-kbd-shortcuts">
+          <span><kbd>↑</kbd> <kbd>↓</kbd> 切换选项</span>
+          <span><kbd>Enter</kbd> 定位单元/播放</span>
+          <span><kbd>Esc</kbd> 退出</span>
+        </div>
+        <div>
+          <button class="btn-secondary" onclick="clearSearchHistory()" style="padding:2px 8px; font-size:11px;">清空历史</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- 全场景智能备考提醒中心弹窗 -->
