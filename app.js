@@ -3512,6 +3512,17 @@ function playPixelSound(type) {
       gain.connect(ctx.destination);
       osc.start(now);
       osc.stop(now + 0.25);
+        } else if (type === "tick") {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(800, now);
+      gain.gain.setValueAtTime(0.12, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.08);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.08);
     } else if (type === "celebrate") {
       const notes = [523.25, 659.25, 783.99, 1046.50];
       notes.forEach((freq, idx) => {
@@ -3749,173 +3760,21 @@ function closeTomatoPetModal() {
   if (modal) modal.classList.remove("open");
 }
 
-// 4. 每日欧气 · 六级刮刮乐盲盒系统 (Lucky Vocab Scratch Card)
-let scratchCardData = null;
-
-function showLuckyScratchModal() {
-  const modal = document.getElementById("luckyScratchModal");
-  if (!modal) return;
-
-  initTodayLuckyWord();
-  modal.classList.add("open");
-  setTimeout(initScratchCanvas, 100);
-  playPixelSound("coin");
-}
-
-function closeLuckyScratchModal() {
-  const modal = document.getElementById("luckyScratchModal");
-  if (modal) modal.classList.remove("open");
-}
-
-function initTodayLuckyWord() {
-  const today = getLocalDateStr();
-  if (userState.luckyScratch && userState.luckyScratch.date === today) {
-    scratchCardData = userState.luckyScratch;
-  } else {
-    let luckyWord = {
-      word: "conquer",
-      phonetic: "/ˈkɒŋkə(r)/",
-      meaning: "v. 征服，战胜；攻克",
-      tip: "【巧记】con(全部) + quer(寻求) -> 彻底寻求征服六级！"
-    };
-
-    if (window.CET6_DATA && window.CET6_DATA.coreUnits) {
-      const allWords = [];
-      window.CET6_DATA.coreUnits.forEach(u => {
-        if (u.lessons) u.lessons.forEach(l => {
-          if (l.words) l.words.forEach(w => allWords.push(w));
-        });
-      });
-      if (allWords.length > 0) {
-        luckyWord = allWords[Math.floor(Math.random() * allWords.length)];
-      }
-    }
-
-    const prophecies = [
-      "🔥 欧气爆棚 99.8%！今日听力抓主旨题如有神助！",
-      "✨ 考神附体 100%！仔细阅读定位证据链一眼识破！",
-      "🌟 锦鲤加持 98.5%！写作高级复合句灵感泉涌！",
-      "🍅 心流大开 99.0%！背词速度翻倍，抗遗忘过目不忘！"
-    ];
-
-    scratchCardData = {
-      date: today,
-      word: luckyWord.word,
-      phonetic: luckyWord.phonetic || "",
-      meaning: luckyWord.meaning || "",
-      tip: luckyWord.tip || "核心母词，高频常考！",
-      prophecy: prophecies[Math.floor(Math.random() * prophecies.length)],
-      claimed: false
-    };
-
-    userState.luckyScratch = scratchCardData;
-    saveState();
-  }
-
-  const wordEl = document.getElementById("scratchRevealWord");
-  const phoneticEl = document.getElementById("scratchRevealPhonetic");
-  const meaningEl = document.getElementById("scratchRevealMeaning");
-  const tipEl = document.getElementById("scratchRevealTip");
-  const propEl = document.getElementById("scratchRevealProphecy");
-
-  if (wordEl) wordEl.textContent = scratchCardData.word;
-  if (phoneticEl) phoneticEl.textContent = scratchCardData.phonetic;
-  if (meaningEl) meaningEl.textContent = scratchCardData.meaning;
-  if (tipEl) tipEl.textContent = scratchCardData.tip;
-  if (propEl) propEl.textContent = scratchCardData.prophecy;
-}
-
-function initScratchCanvas() {
-  const canvas = document.getElementById("scratchSurfaceCanvas");
-  if (!canvas) return;
-
-  const w = canvas.offsetWidth || 340;
-  const h = canvas.offsetHeight || 180;
-  canvas.width = w;
-  canvas.height = h;
-
-  const ctx = canvas.getContext("2d");
-  const grad = ctx.createLinearGradient(0, 0, w, h);
-  grad.addColorStop(0, "#C5A059");
-  grad.addColorStop(0.5, "#E6C280");
-  grad.addColorStop(1, "#A67C38");
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, w, h);
-
-  ctx.fillStyle = "rgba(255, 255, 255, 0.25)";
-  for (let x = 0; x < w; x += 16) {
-    for (let y = 0; y < h; y += 16) {
-      if ((x + y) % 32 === 0) ctx.fillRect(x, y, 8, 8);
-    }
-  }
-
-  ctx.fillStyle = "#FFFFFF";
-  ctx.font = "bold 16px 'Noto Serif SC', sans-serif";
-  ctx.textAlign = "center";
-  ctx.textBaseline = "middle";
-  ctx.fillText("🎁 手指或鼠标滑动刮开欧气 🎁", w / 2, h / 2 - 10);
-  ctx.font = "12px sans-serif";
-  ctx.fillStyle = "rgba(255, 255, 255, 0.85)";
-  ctx.fillText("揭晓今日压轴锦鲤考词与神运预言", w / 2, h / 2 + 16);
-
-  let isDrawing = false;
-  let scratchedPixels = 0;
-
-  function scratch(e) {
-    if (!isDrawing) return;
-    const rect = canvas.getBoundingClientRect();
-    const x = (e.clientX || (e.touches && e.touches[0].clientX)) - rect.left;
-    const y = (e.clientY || (e.touches && e.touches[0].clientY)) - rect.top;
-
-    ctx.globalCompositeOperation = "destination-out";
-    ctx.beginPath();
-    ctx.arc(x, y, 24, 0, Math.PI * 2);
-    ctx.fill();
-
-    scratchedPixels++;
-    if (scratchedPixels === 20) {
-      revealScratchPrize();
-    }
-  }
-
-  canvas.onmousedown = (e) => { isDrawing = true; scratch(e); };
-  window.onmouseup = () => { isDrawing = false; };
-  canvas.onmousemove = scratch;
-
-  canvas.ontouchstart = (e) => { isDrawing = true; scratch(e); };
-  canvas.ontouchend = () => { isDrawing = false; };
-  canvas.ontouchmove = scratch;
-}
-
-function revealScratchPrize() {
-  const canvas = document.getElementById("scratchSurfaceCanvas");
-  if (canvas) {
-    canvas.style.transition = "opacity 0.5s ease";
-    canvas.style.opacity = "0";
-    setTimeout(() => { canvas.style.display = "none"; }, 500);
-  }
-
-  if (scratchCardData && !scratchCardData.claimed) {
-    scratchCardData.claimed = true;
-    userState.streakFreezes = (userState.streakFreezes || 0) + 1;
-    saveState();
-    if (typeof renderStreakCalendar === "function") renderStreakCalendar();
-    triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
-    showToast("🎉 欧气大爆发！已成功获赠 1 张【能量保卫盾牌】与今日锦鲤词！");
-  } else {
-    triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
-  }
-}
-
-// 5. 30秒极速词霸大挑战竞技场 (30-Second Word Blitz Arena)
+// =========================================================================
+// 4. 30秒极速词霸大挑战竞技场 (Enlarged & Optimized Speed Word Blitz)
+// 包含：倒计时、急促音效、Combo连击加成、键盘快捷键(A/B/←/→)、本轮词汇复盘清单
+// =========================================================================
 let blitzState = {
   active: false,
   timeLeft: 30,
   score: 0,
   combo: 0,
   maxCombo: 0,
+  correctCount: 0,
+  totalAnswered: 0,
   currentQuestion: null,
-  timerInterval: null
+  timerInterval: null,
+  roundReview: [] // 记录本轮测试的所有单词，用于对决结束后深度复盘
 };
 
 function showWordBlitzModal() {
@@ -3946,6 +3805,9 @@ function startWordBlitzGame() {
   blitzState.score = 0;
   blitzState.combo = 0;
   blitzState.maxCombo = 0;
+  blitzState.correctCount = 0;
+  blitzState.totalAnswered = 0;
+  blitzState.roundReview = [];
 
   document.getElementById("blitzLobbyScreen").style.display = "none";
   document.getElementById("blitzArenaScreen").style.display = "block";
@@ -3958,6 +3820,11 @@ function startWordBlitzGame() {
   blitzState.timerInterval = setInterval(() => {
     blitzState.timeLeft--;
     updateBlitzUI();
+
+    // 剩余最后 5 秒触发心跳脉动警报音效
+    if (blitzState.timeLeft <= 5 && blitzState.timeLeft > 0) {
+      playPixelSound("tick");
+    }
 
     if (blitzState.timeLeft <= 0) {
       endWordBlitzGame();
@@ -3974,15 +3841,30 @@ function updateBlitzUI() {
   const comboEl = document.getElementById("blitzComboLive");
 
   if (timeEl) timeEl.textContent = blitzState.timeLeft;
-  if (timeBarEl) timeBarEl.style.width = `${Math.max(0, (blitzState.timeLeft / 30) * 100)}%`;
+  if (timeBarEl) {
+    const pct = Math.max(0, (blitzState.timeLeft / 30) * 100);
+    timeBarEl.style.width = pct + "%";
+    timeBarEl.classList.toggle("urgent", blitzState.timeLeft <= 8);
+  }
   if (scoreEl) scoreEl.textContent = blitzState.score;
+
   if (comboEl) {
-    if (blitzState.combo > 1) {
-      comboEl.textContent = `🔥 COMBO x${blitzState.combo}!`;
+    if (blitzState.combo >= 2) {
+      let comboText = `🔥 COMBO x${blitzState.combo}!`;
+      if (blitzState.combo >= 8) comboText = `👑 COMBO x${blitzState.combo} 考神降临!`;
+      else if (blitzState.combo >= 5) comboText = `⚡ COMBO x${blitzState.combo} 超凡绝伦!`;
+      else if (blitzState.combo >= 3) comboText = `🌟 COMBO x${blitzState.combo} 渐入佳境!`;
+      comboEl.textContent = comboText;
       comboEl.style.display = "inline-block";
     } else {
       comboEl.style.display = "none";
     }
+  }
+}
+
+function speakCurrentBlitzWord() {
+  if (blitzState.currentQuestion && typeof speakWord === "function") {
+    speakWord(blitzState.currentQuestion.word);
   }
 }
 
@@ -4011,6 +3893,7 @@ function generateNextBlitzQuestion() {
 
   blitzState.currentQuestion = {
     word: qWord.word,
+    phonetic: qWord.phonetic || "",
     correctMeaning: qWord.meaning,
     optA: optA,
     optB: optB,
@@ -4018,46 +3901,58 @@ function generateNextBlitzQuestion() {
   };
 
   const wordEl = document.getElementById("blitzQuestionWord");
+  const phonEl = document.getElementById("blitzQuestionPhonetic");
+  const txtA = document.getElementById("blitzTextOptA");
+  const txtB = document.getElementById("blitzTextOptB");
   const btnA = document.getElementById("blitzBtnOptA");
   const btnB = document.getElementById("blitzBtnOptB");
 
   if (wordEl) wordEl.textContent = qWord.word;
-  if (btnA) {
-    btnA.textContent = `A. ${optA}`;
-    btnA.className = "blitz-choice-btn";
-  }
-  if (btnB) {
-    btnB.textContent = `B. ${optB}`;
-    btnB.className = "blitz-choice-btn";
-  }
+  if (phonEl) phonEl.textContent = qWord.phonetic || "";
+  if (txtA) txtA.textContent = optA;
+  if (txtB) txtB.textContent = optB;
+
+  if (btnA) btnA.className = "blitz-choice-card";
+  if (btnB) btnB.className = "blitz-choice-card";
 }
 
 function handleBlitzAnswer(choice) {
   if (!blitzState.active || !blitzState.currentQuestion) return;
 
+  blitzState.totalAnswered++;
   const isCorrect = choice === blitzState.currentQuestion.correctChoice;
   const btn = choice === "A" ? document.getElementById("blitzBtnOptA") : document.getElementById("blitzBtnOptB");
 
+  // 记录本轮复盘清单
+  blitzState.roundReview.push({
+    word: blitzState.currentQuestion.word,
+    phonetic: blitzState.currentQuestion.phonetic,
+    correctMeaning: blitzState.currentQuestion.correctMeaning,
+    isCorrect: isCorrect
+  });
+
   if (isCorrect) {
+    blitzState.correctCount++;
     blitzState.combo++;
     if (blitzState.combo > blitzState.maxCombo) {
       blitzState.maxCombo = blitzState.combo;
     }
-    const comboBonus = Math.min(25, (blitzState.combo - 1) * 5);
+    const comboBonus = Math.min(30, (blitzState.combo - 1) * 5);
     blitzState.score += (10 + comboBonus);
 
     if (btn) btn.classList.add("correct-flash");
-    playPixelSound(blitzState.combo > 2 ? "combo" : "correct");
+    playPixelSound(blitzState.combo >= 3 ? "combo" : "correct");
+
     if (typeof recordStreakActivity === "function") recordStreakActivity(1);
   } else {
     blitzState.combo = 0;
-    blitzState.timeLeft = Math.max(0, blitzState.timeLeft - 2);
+    blitzState.timeLeft = Math.max(0, blitzState.timeLeft - 2); // 答错扣 2 秒
     if (btn) btn.classList.add("wrong-flash");
     playPixelSound("wrong");
   }
 
   updateBlitzUI();
-  setTimeout(generateNextBlitzQuestion, 180);
+  setTimeout(generateNextBlitzQuestion, 160);
 }
 
 function endWordBlitzGame() {
@@ -4071,10 +3966,13 @@ function endWordBlitzGame() {
   const maxComboEl = document.getElementById("blitzFinalCombo");
   const rankStampEl = document.getElementById("blitzRankStamp");
   const recordTipEl = document.getElementById("blitzRecordTip");
+  const reviewListEl = document.getElementById("blitzReviewList");
 
   if (finalScoreEl) finalScoreEl.textContent = blitzState.score;
-  if (maxComboEl) maxComboEl.textContent = `🔥 最高连击：${blitzState.maxCombo}`;
+  const accRate = blitzState.totalAnswered > 0 ? Math.round((blitzState.correctCount / blitzState.totalAnswered) * 100) : 0;
+  if (maxComboEl) maxComboEl.textContent = `🔥 巅峰连击：${blitzState.maxCombo} ｜ 答对：${blitzState.correctCount}/${blitzState.totalAnswered} 题 (正确率 ${accRate}%)`;
 
+  // 评级大印章
   let rank = "B";
   let rankColor = "#2A9D8F";
   let rankTitle = "🌱 潜力新星";
@@ -4088,33 +3986,70 @@ function endWordBlitzGame() {
     rankStampEl.style.color = rankColor;
   }
 
+  // 破纪录判定
   const oldHigh = userState.blitzHighScore || 0;
   if (blitzState.score > oldHigh) {
     userState.blitzHighScore = blitzState.score;
     saveState();
-    if (recordTipEl) recordTipEl.innerHTML = `🎉 <strong>创造全新历史最高纪录！</strong> (前纪录 ${oldHigh} 分)`;
+    if (recordTipEl) recordTipEl.innerHTML = `🎉 <strong>恭喜打破历史最高纪录！</strong> (前纪录 ${oldHigh} 分 ｜ 荣获称号：${rankTitle})`;
     triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
   } else {
-    if (recordTipEl) recordTipEl.innerHTML = `当前历史纪录：${oldHigh} 分 ｜ 称号：${rankTitle}`;
+    if (recordTipEl) recordTipEl.innerHTML = `当前历史最高纪录：${oldHigh} 分 ｜ 本轮战绩：${rankTitle}`;
     playPixelSound("celebrate");
+  }
+
+  // 渲染本轮对决词汇深度复盘清单
+  if (reviewListEl) {
+    if (blitzState.roundReview.length === 0) {
+      reviewListEl.innerHTML = "<div style='color:var(--text-muted); font-size:13px; text-align:center;'>本轮暂无答题记录</div>";
+    } else {
+      let revHtml = "";
+      blitzState.roundReview.forEach((item, idx) => {
+        revHtml += `
+          <div class="blitz-review-item ${item.isCorrect ? 'is-correct' : 'is-wrong'}">
+            <div style="display:flex; align-items:center; gap:8px;">
+              <span style="font-weight:800; color:var(--text-main);">#${idx + 1} ${item.word}</span>
+              <span style="font-size:12px; color:var(--text-muted);">${item.phonetic || ''}</span>
+              <button type="button" class="audio-speak-btn" onclick="speakWord('${item.word}')" style="padding:2px 8px; font-size:11px;">🔊</button>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px;">
+              <span style="color:var(--text-body); font-size:13px;">${item.correctMeaning}</span>
+              <span style="font-weight:900; font-size:13px; color:${item.isCorrect ? 'var(--sage-green)' : 'var(--tomato-red)'};">
+                ${item.isCorrect ? '✅ 答对' : '❌ 答错'}
+              </span>
+            </div>
+          </div>
+        `;
+      });
+      reviewListEl.innerHTML = revHtml;
+    }
   }
 
   updateTomatoPetBadge();
 }
 
-// 暴露全局
-if (typeof window !== "undefined") {
-  window.playPixelSound = playPixelSound;
-  window.triggerConfettiBurst = triggerConfettiBurst;
-  window.updateTomatoPetBadge = updateTomatoPetBadge;
-  window.onTomatoPetClick = onTomatoPetClick;
-  window.showTomatoPetModal = showTomatoPetModal;
-  window.closeTomatoPetModal = closeTomatoPetModal;
-  window.showLuckyScratchModal = showLuckyScratchModal;
-  window.closeLuckyScratchModal = closeLuckyScratchModal;
-  window.revealScratchPrize = revealScratchPrize;
-  window.showWordBlitzModal = showWordBlitzModal;
-  window.closeWordBlitzModal = closeWordBlitzModal;
-  window.startWordBlitzGame = startWordBlitzGame;
-  window.handleBlitzAnswer = handleBlitzAnswer;
+// 键盘快捷键监听：支持 A / B 选项与空格键快速挑战
+if (typeof document !== "undefined") {
+  document.addEventListener("keydown", function(e) {
+    const modal = document.getElementById("wordBlitzModal");
+    if (!modal || !modal.classList.contains("open")) return;
+
+    // 空格键：在大厅或结算页面一键开始/再战一把
+    if (e.code === "Space" && !blitzState.active) {
+      e.preventDefault();
+      startWordBlitzGame();
+      return;
+    }
+
+    // 竞技场答题快捷键
+    if (blitzState.active) {
+      if (e.key === "a" || e.key === "A" || e.key === "ArrowLeft" || e.key === "1") {
+        e.preventDefault();
+        handleBlitzAnswer("A");
+      } else if (e.key === "b" || e.key === "B" || e.key === "ArrowRight" || e.key === "2") {
+        e.preventDefault();
+        handleBlitzAnswer("B");
+      }
+    }
+  });
 }
