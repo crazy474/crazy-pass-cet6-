@@ -816,6 +816,8 @@ function updateCheck(wordId, stage) {
   while (r.long.length < 6) r.long.push(false);
   if (!r.short) r.short = [false, false, false];
 
+  const wasLearned = isWordLearned(r);
+
   if (stage === "first") r.first = !r.first;
   else if (stage === "s0") r.short[0] = !r.short[0];
   else if (stage === "s1") r.short[1] = !r.short[1];
@@ -827,20 +829,31 @@ function updateCheck(wordId, stage) {
   else if (stage === "l4") r.long[4] = !r.long[4];
   else if (stage === "l5") r.long[5] = !r.long[5];
 
+  const isNowLearned = isWordLearned(r);
+
   // 如果抗遗忘环上所有勾选均已取消，且未加入星标生词本，彻底删除该词的记录，实现精准计数扣减
-  if (!isWordLearned(r) && !r.star) {
+  if (!isNowLearned && !r.star) {
     delete userState.learned[wordId];
     if (userState.planGoal && userState.planGoal.todayLearnedIds) {
       delete userState.planGoal.todayLearnedIds[wordId];
     }
-  } else if (isWordLearned(r)) {
+  } else if (isNowLearned) {
     trackDailyPlanCheck(wordId);
+  }
+
+  // 连胜活动统计与打卡增减处理
+  if (wasLearned && !isNowLearned) {
+    recordStreakActivity(-1);
+  } else if (!wasLearned && isNowLearned) {
+    recordStreakActivity(1);
+    defendTodayStreak("word", 1);
   }
 
   saveState();
   renderVocabSection();
-  recordStreakActivity(1);
-  defendTodayStreak("word", 1);
+  if (typeof renderBackupSection === "function") renderBackupSection();
+  if (typeof renderPlanGoalDashboard === "function") renderPlanGoalDashboard();
+  if (typeof updateStreakDisplay === "function") updateStreakDisplay();
 }
 
 function toggleStar(wordId) {
@@ -1121,13 +1134,40 @@ function renderPlannerSection() {
 }
 
 function onHabitChange(type, checkbox) {
-  userState.habits[type] = checkbox.checked;
-  // 检查是否三项全完成
-  if (userState.habits.morning && userState.habits.daytime && userState.habits.evening) {
-    playChime();
-    alert("🎉 🎉 太棒了！今日【疯狂过六级】能力闭环打卡全部完成！连续打卡天数 +1！");
+  const isChecked = checkbox.checked;
+  userState.habits[type] = isChecked;
+
+  const habitNames = { morning: "晨诵", daytime: "日习", evening: "晚复盘" };
+  const hName = habitNames[type] || type;
+
+  const today = new Date().toISOString().slice(0, 10);
+  if (!userState.streakHistory) userState.streakHistory = {};
+  if (!userState.streakHistory[today]) {
+    userState.streakHistory[today] = { words: 0, pomo: 0, morning: false, daytime: false, evening: false, isMakeup: false };
   }
+  userState.streakHistory[today][type] = isChecked;
+
+  if (isChecked) {
+    // 勾选打卡
+    if (typeof playChime === "function") playChime();
+    showToast(`✅ 已完成【${hName}】打卡！`);
+
+    // 检查是否三项全满贯
+    if (userState.habits.morning && userState.habits.daytime && userState.habits.evening) {
+      defendTodayStreak("habit", 1);
+      if (typeof showAchievementReportModal === "function") {
+        showAchievementReportModal();
+      }
+    }
+  } else {
+    // 取消打卡
+    showToast(`↺ 已取消【${hName}】打卡！`);
+    // 重新核算连胜状态
+    userState.streakDays = calculateCurrentStreak();
+  }
+
   updateStreakDisplay();
+  renderStreakCalendar();
   saveState();
 }
 
@@ -3053,7 +3093,57 @@ function getStreakTier(days) {
 }
 
 // 检查今日连胜是否已经成功保卫
+// 判定指定日期是否已达到续火/保卫标准
+function isDateStreakDefended(dateStr) {
+  if (!userState.streakHistory) return false;
+  const r = userState.streakHistory[dateStr];
+  if (!r) return false;
+  return Boolean(
+    (r.words && r.words >= 10) ||
+    (r.pomo && r.pomo >= 1) ||
+    (r.flash && r.flash >= 15) ||
+    (r.morning && r.daytime && r.evening) ||
+    r.isMakeup
+  );
+}
+
+// 检查今日连胜是否已经成功保卫
 function isTodayStreakDefended() {
+  const today = new Date().toISOString().slice(0, 10);
+  return isDateStreakDefended(today);
+}
+
+// 动态高精度计算当前连续打卡天数
+function calculateCurrentStreak() {
+  const today = new Date().toISOString().slice(0, 10);
+  const isDefendedToday = isTodayStreakDefended();
+
+  // 如果历史打卡池有记录，计算回溯连续天数
+  let streak = isDefendedToday ? 1 : 0;
+  const d = new Date();
+  d.setDate(d.getDate() - 1);
+
+  let historyCount = 0;
+  while (historyCount < 365) {
+    historyCount++;
+    const dStr = d.toISOString().slice(0, 10);
+    if (isDateStreakDefended(dStr)) {
+      streak++;
+      d.setDate(d.getDate() - 1);
+    } else {
+      break;
+    }
+  }
+
+  // 若历史打卡库刚开始记录，且历史推算值小于现有天数，则以安全基线结合今日状态计算
+  if (streak <= 1 && userState.streakDays && userState.streakDays > 1) {
+    return isDefendedToday ? userState.streakDays : Math.max(1, userState.streakDays - 1);
+  }
+
+  return Math.max(1, streak);
+}
+
+function _unused_isTodayStreakDefended() {
   const today = new Date().toISOString().slice(0, 10);
   const r = userState.streakHistory && userState.streakHistory[today];
   if (!r) return false;
@@ -3107,5 +3197,163 @@ function defendTodayStreak(channel, delta = 1) {
     saveState();
     updateStreakDisplay();
     renderStreakCalendar();
+  }
+}
+
+
+// --- 29. 取消打卡与连胜反悔中枢 (支持撤销今日打卡 / 撤销补卡) ---
+
+// 一键取消今日全部打卡状态
+function cancelTodayCheckin() {
+  const today = new Date().toISOString().slice(0, 10);
+  const hadHabits = Boolean(userState.habits && (userState.habits.morning || userState.habits.daytime || userState.habits.evening));
+  const hadHistory = Boolean(userState.streakHistory && userState.streakHistory[today] && (
+    userState.streakHistory[today].words > 0 ||
+    userState.streakHistory[today].pomo > 0 ||
+    userState.streakHistory[today].flash > 0 ||
+    userState.streakHistory[today].morning ||
+    userState.streakHistory[today].daytime ||
+    userState.streakHistory[today].evening ||
+    userState.streakHistory[today].isMakeup
+  ));
+
+  if (!hadHabits && !hadHistory && !isTodayStreakDefended()) {
+    showToast("ℹ️ 今日尚未打卡，无需取消。");
+    return;
+  }
+
+  if (confirm("⚠️ 确定要取消今日的所有打卡记录吗？\n此操作将重置今日晨诵/日习/晚复盘打卡与连胜续火状态，今日连胜火苗将恢复为【待续火】。")) {
+    // 备份快照以便撤回 (Undo)
+    const savedHabits = { ...(userState.habits || {}) };
+    const savedHistory = userState.streakHistory ? JSON.parse(JSON.stringify(userState.streakHistory[today] || {})) : null;
+    const savedDays = userState.streakDays || 1;
+
+    // 1. 重置今日习惯打卡
+    userState.habits.morning = false;
+    userState.habits.daytime = false;
+    userState.habits.evening = false;
+
+    const mChk = document.getElementById("habitMorningCheck");
+    const dChk = document.getElementById("habitDayCheck");
+    const nChk = document.getElementById("habitNightCheck");
+    if (mChk) mChk.checked = false;
+    if (dChk) dChk.checked = false;
+    if (nChk) nChk.checked = false;
+
+    // 2. 清零今日连胜历史记录中的习惯与续火量
+    if (userState.streakHistory && userState.streakHistory[today]) {
+      userState.streakHistory[today].morning = false;
+      userState.streakHistory[today].daytime = false;
+      userState.streakHistory[today].evening = false;
+      userState.streakHistory[today].words = 0;
+      userState.streakHistory[today].pomo = 0;
+      userState.streakHistory[today].flash = 0;
+      userState.streakHistory[today].isMakeup = false;
+    }
+
+    // 3. 重新核算连续天数
+    userState.streakDays = calculateCurrentStreak();
+    saveState();
+    updateStreakDisplay();
+    renderStreakCalendar();
+    if (typeof renderPlannerSection === "function") renderPlannerSection();
+    if (typeof renderPlanGoalDashboard === "function") renderPlanGoalDashboard();
+
+    // 4. 注册 8 秒反悔急救胶囊 (支持一键撤销取消操作)
+    registerUndoAction("已取消今日打卡状态", () => {
+      userState.habits = savedHabits;
+      if (mChk) mChk.checked = Boolean(savedHabits.morning);
+      if (dChk) dChk.checked = Boolean(savedHabits.daytime);
+      if (nChk) nChk.checked = Boolean(savedHabits.evening);
+      if (savedHistory && userState.streakHistory) {
+        userState.streakHistory[today] = savedHistory;
+      }
+      userState.streakDays = savedDays;
+      saveState();
+      updateStreakDisplay();
+      renderStreakCalendar();
+      if (typeof renderPlannerSection === "function") renderPlannerSection();
+      if (typeof renderPlanGoalDashboard === "function") renderPlanGoalDashboard();
+      showToast("✨ 已恢复今日打卡记录与连胜火苗！");
+    }, 8000);
+
+    showToast("↺ 已成功取消今日全部打卡状态！火苗已恢复为待续火。");
+  }
+}
+
+// 扩展日历点击逻辑，支持点击已打卡日期直接取消/撤销打卡
+function handleCalendarDayClick(dateStr) {
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const history = userState.streakHistory || {};
+  const rec = history[dateStr];
+
+  // 1. 如果点击的是【今日】，且今日已经打卡，弹出“取消今日打卡”确认！
+  if (dateStr === todayStr) {
+    if (isTodayStreakDefended() || (rec && (rec.morning || rec.daytime || rec.evening))) {
+      cancelTodayCheckin();
+      return;
+    } else {
+      showToast("📝 今日尚未打卡，完成背词、番茄钟或习惯即可自动打卡保卫连胜！");
+      return;
+    }
+  }
+
+  // 2. 如果点击的是【历史补卡日】，允许撤销补卡并退还保卫盾牌！
+  if (rec && rec.isMakeup) {
+    if (confirm(`是否撤销【${dateStr}】的补卡记录，并将消耗的 1 张能量保卫盾退还？`)) {
+      rec.isMakeup = false;
+      rec.morning = false;
+      rec.daytime = false;
+      rec.evening = false;
+      userState.streakFreezes = (userState.streakFreezes || 0) + 1;
+      userState.streakDays = calculateCurrentStreak();
+      saveState();
+      renderStreakCalendar();
+      updateStreakDisplay();
+      showToast(`↺ 已撤销【${dateStr}】的补卡，能量保卫盾牌已退还 (+1)！`);
+      return;
+    }
+    return;
+  }
+
+  // 3. 如果点击的是【已完成的真实历史日】
+  const isCompleted = rec && (rec.morning && rec.daytime && rec.evening || (rec.words && rec.words >= 10));
+  if (isCompleted) {
+    showToast(`📅 ${dateStr} 已于当时真实打卡完成（背词 ${rec.words || 0} 词，番茄 ${rec.pomo || 0} 个）！`);
+    return;
+  }
+
+  // 4. 未来日期不可打卡
+  if (dateStr > todayStr) {
+    showToast("⏳ 该日期为未来日期，请按计划稳步推进！");
+    return;
+  }
+
+  // 5. 点击未打卡的断签历史日 -> 触发补卡
+  const diffDays = Math.round((new Date(todayStr) - new Date(dateStr)) / 86400000);
+  if (diffDays > 5) {
+    showToast("⚠️ 能量保卫盾仅支持补签最近 5 天以内的记录哦！");
+    return;
+  }
+
+  if ((userState.streakFreezes || 0) <= 0) {
+    showToast("❌ 当前没有剩余的【能量保卫盾】啦！每周坚持连续学习可再获赠！");
+    return;
+  }
+
+  if (confirm(`是否消耗 1 张能量保卫盾，补签【${dateStr}】并拯救连续打卡天数？`)) {
+    userState.streakFreezes--;
+    if (!userState.streakHistory[dateStr]) userState.streakHistory[dateStr] = {};
+    userState.streakHistory[dateStr].isMakeup = true;
+    userState.streakHistory[dateStr].morning = true;
+    userState.streakHistory[dateStr].daytime = true;
+    userState.streakHistory[dateStr].evening = true;
+
+    userState.streakDays = calculateCurrentStreak();
+    saveState();
+    renderStreakCalendar();
+    updateStreakDisplay();
+    if (typeof playChime === "function") playChime();
+    showToast(`✨ 补卡成功！连续打卡天数已成功拯救为 ${userState.streakDays} 天！`);
   }
 }

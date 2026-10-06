@@ -472,7 +472,10 @@
           <div class="card" style="margin-bottom:24px;">
             <div class="card-title">
               <span>📋 今日“疯狂过六级”能力闭环打卡</span>
-              <span style="font-size:14px; font-weight:700; color:var(--sage-green);" id="plannerStreakDays">1 天</span>
+              <div style="display:flex; align-items:center; gap:10px;">
+                <span style="font-size:14px; font-weight:700; color:var(--sage-green);" id="plannerStreakDays">1 天</span>
+                <button type="button" class="btn-subtle" onclick="cancelTodayCheckin()" title="若误触打卡，可点击此处一键重置今日打卡状态" style="padding:4px 10px; font-size:12px; border-radius:6px; color:var(--text-muted); border:1px solid var(--border-light); cursor:pointer;">↺ 取消今日打卡</button>
+              </div>
             </div>
             <p style="font-size:14px; color:var(--text-muted); margin-bottom:16px;">勾选今日已完成的学习任务，自动沉淀至连续打卡记录：</p>
 
@@ -498,6 +501,11 @@
                 <p style="font-size:13px; color:var(--text-muted); margin-top:2px;">艾宾浩斯抗遗忘矩阵对账、星标生词本查缺补漏、极速闪视流冲刺回顾</p>
               </div>
               <input type="checkbox" class="habit-checkbox" id="habitNightCheck" onclick="event.stopPropagation(); onHabitChange('evening', this)">
+            </div>
+
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-top:14px; padding-top:10px; border-top:1px dashed var(--border-light);">
+              <span style="font-size:12px; color:var(--text-muted);">💡 提示：点击勾选框可直接打卡，再次点击或点击右侧按钮即可撤回/取消</span>
+              <button type="button" class="btn-subtle" onclick="cancelTodayCheckin()" style="padding:4px 12px; font-size:12px; color:var(--tomato-red); border:1px solid rgba(224,90,71,0.25); border-radius:6px; background:rgba(224,90,71,0.06); cursor:pointer; font-weight:600;">↺ 取消今日打卡</button>
             </div>
           </div>
         </div>
