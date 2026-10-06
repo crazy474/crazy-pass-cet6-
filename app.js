@@ -423,6 +423,7 @@ function onPomoComplete() {
   const wasFocus = userState.pomo.mode !== "short" && userState.pomo.mode !== "long";
   if (wasFocus) {
     userState.pomo.todayTomatoes = (userState.pomo.todayTomatoes || 0) + 1;
+    defendTodayStreak("pomo", 1);
   }
   updateHeaderStats();
 
@@ -611,6 +612,7 @@ function onVocabSearch(query) {
   userState.searchQuery = query.trim().toLowerCase();
   renderVocabSection();
   recordStreakActivity(1);
+  defendTodayStreak("word", 1);
 }
 
 function renderVocabSection() {
@@ -838,6 +840,7 @@ function updateCheck(wordId, stage) {
   saveState();
   renderVocabSection();
   recordStreakActivity(1);
+  defendTodayStreak("word", 1);
 }
 
 function toggleStar(wordId) {
@@ -861,6 +864,7 @@ function toggleStar(wordId) {
   saveState();
   renderVocabSection();
   recordStreakActivity(1);
+  defendTodayStreak("word", 1);
 }
 
 // --- 9. 极速闪视流与 3D 拟真翻转卡片 (Speed Flash & 3D Flashcards - 只要单词与词意，乱序随机模式) ---
@@ -1128,8 +1132,30 @@ function onHabitChange(type, checkbox) {
 }
 
 function updateStreakDisplay() {
-  const el = document.getElementById("plannerStreakDays");
-  if (el) el.textContent = `${userState.streakDays} 天`;
+  const days = userState.streakDays || 1;
+  const isDefended = isTodayStreakDefended();
+  const tier = getStreakTier(days);
+
+  // 顶栏徽章更新
+  const flameEl = document.getElementById("headerFlameIcon");
+  const daysEl = document.getElementById("headerStreakDays");
+  const tierEl = document.getElementById("headerStreakBadge");
+
+  if (flameEl) {
+    flameEl.className = isDefended ? "streak-flame-icon on-fire" : "streak-flame-icon";
+    flameEl.title = isDefended ? `🔥 今日连胜已保卫！正在燃烧：${days} 天连胜` : `⚠️ 今日连胜未保卫，完成背词或番茄钟即可点亮！`;
+  }
+  if (daysEl) daysEl.textContent = days;
+  if (tierEl) {
+    tierEl.textContent = tier.name;
+    tierEl.className = isDefended ? "pixel-live-tag" : "pixel-live-tag";
+  }
+
+  // 计划页数字与说明
+  const plannerDaysEl = document.getElementById("plannerStreakDays");
+  if (plannerDaysEl) {
+    plannerDaysEl.innerHTML = `<span style="color:var(--tomato-red);">${days} 天</span> <span style="font-size:12px; font-weight:600; color:var(--text-muted);">[${tier.name}]</span>`;
+  }
 }
 
 // --- 16. 数据备份与归档模块 (Data Backup & JSON Archive) ---
@@ -2230,6 +2256,7 @@ function toggleDueFilter() {
   if (btn) btn.classList.toggle("active", userState.filterDue);
   renderVocabSection();
   recordStreakActivity(1);
+  defendTodayStreak("word", 1);
 }
 
 // 2. 整课一键批量打卡与清空
@@ -2283,6 +2310,7 @@ function batchCheckCurrentLesson(markAll) {
   saveState();
   renderVocabSection();
   recordStreakActivity(1);
+  defendTodayStreak("word", 1);
 }
 
 // 记录当日打卡历史活动
@@ -2302,25 +2330,54 @@ function renderStreakCalendar() {
 
   const now = new Date();
   const year = now.getFullYear();
-  const month = now.getMonth(); // 0-indexed
+  const month = now.getMonth();
   const todayStr = now.toISOString().slice(0, 10);
 
-  const firstDayOfWeek = new Date(year, month, 1).getDay(); // 0 for Sunday
   const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const firstDayOfWeek = new Date(year, month, 1).getDay();
 
   const weekdays = ["日", "一", "二", "三", "四", "五", "六"];
+  const days = userState.streakDays || 1;
+  const tier = getStreakTier(days);
+  const isDefended = isTodayStreakDefended();
 
   let html = `
     <div class="streak-calendar-card">
+      <!-- 连胜段位与今日状态横幅 -->
+      <div class="streak-tier-banner">
+        <div class="streak-tier-left">
+          <div class="streak-tier-icon-wrap">
+            <span class="streak-flame-icon ${isDefended ? "on-fire" : ""}">${tier.icon}</span>
+          </div>
+          <div class="streak-tier-info">
+            <div class="streak-tier-name">
+              <span>当前段位：【${tier.name}】</span>
+              <span class="streak-defense-status-badge ${isDefended ? "defense-active" : "defense-risk"}">
+                ${isDefended ? "🔥 今日连胜已保卫" : "⚠️ 今日待续火"}
+              </span>
+            </div>
+            <div class="streak-tier-sub">
+              已连续打卡 <strong>${days}</strong> 天 ｜ ${tier.desc}
+              ${tier.nextTier ? ` ｜ 距【${tier.nextTier.name}】还差 <strong>${tier.daysToNext}</strong> 天` : ""}
+            </div>
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <div class="streak-shield-capsule" title="断签时可用于拯救连胜记录">
+            <span>❄️ 保卫盾牌：<strong id="makeupCardBalance">${userState.streakFreezes || 1}</strong> 张</span>
+          </div>
+          <button class="btn-primary" onclick="showAchievementReportModal()" style="padding:6px 14px; font-size:13px;">🏆 今日战报</button>
+        </div>
+      </div>
+
       <div class="calendar-header">
         <div>
-          <span class="hero-badge" style="background:var(--sage-soft); color:var(--sage-dark); border-color:var(--sage-border);">📅 疯狂过六级 · 连续打卡足迹月历</span>
-          <h3 style="font-size:var(--font-xl); font-weight:800; color:var(--text-main); margin-top:4px;">${year} 年 ${month + 1} 月学习连胜打卡看板</h3>
-          <p style="font-size:var(--font-sm); color:var(--text-muted); margin-top:2px;">每一抹绿意都是你攻克六级的坚实脚印！保持连胜，形成无坚不摧的备考飞轮！</p>
+          <h4 style="font-size:var(--font-md); font-weight:800; color:var(--text-main);">
+            🗓️ ${year} 年 ${month + 1} 月备考打卡足迹
+          </h4>
         </div>
-        <div style="display:flex; align-items:center; gap:10px;">
-          <div class="header-pill" style="font-size:13px;">🔥 连胜记录：<strong>${userState.streakDays || 1}</strong> 天</div>
-          <button class="btn-primary" onclick="showAchievementReport()" style="padding:6px 14px; font-size:13px;">🏆 查看今日战报</button>
+        <div style="font-size:12px; color:var(--text-muted);">
+          完成背词、番茄钟、闪卡或计划任务，均可全自动续火！
         </div>
       </div>
 
@@ -2333,37 +2390,42 @@ function renderStreakCalendar() {
     html += `<div class="calendar-day-box empty-day"></div>`;
   }
 
-  // 每一天
+  // 渲染日期格
   for (let d = 1; d <= daysInMonth; d++) {
     const dStr = `${year}-${String(month + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
     const isToday = dStr === todayStr;
-    const activity = userState.streakHistory ? userState.streakHistory[dStr] : null;
-    const hasStudy = activity && activity.words > 0;
+    const isFuture = dStr > todayStr;
+    const rec = userState.streakHistory ? userState.streakHistory[dStr] : null;
 
+    let hasStudy = false;
+    let badgeText = "";
     let boxClass = "calendar-day-box";
-    if (hasStudy) boxClass += " active-day";
+
+    if (isFuture) {
+      boxClass += " empty-day";
+    } else if (rec) {
+      if (rec.isMakeup) {
+        boxClass += " active-day";
+        hasStudy = true;
+        badgeText = "❄️ 补签";
+      } else if ((rec.words && rec.words >= 10) || (rec.pomo && rec.pomo >= 1) || (rec.morning && rec.daytime && rec.evening)) {
+        boxClass += " active-day";
+        hasStudy = true;
+        badgeText = rec.pomo > 0 ? `🍅 ${rec.pomo}个` : (rec.words ? `${rec.words}词` : "🔥 达标");
+      }
+    }
+
     if (isToday) boxClass += " today-day";
 
     html += `
-      <div class="${boxClass}" title="${dStr}${hasStudy ? `：已背 ${activity.words} 词` : ""}">
+      <div class="${boxClass}" onclick="handleCalendarDayClick('${dStr}')" title="${dStr}${hasStudy ? '：已打卡保卫连胜' : ''}">
         <span class="calendar-day-num">${d}</span>
-        ${hasStudy ? `<span class="calendar-day-badge">🍅 ${activity.words}词</span>` : (isToday ? '<span style="font-size:10px; color:var(--tomato-red);">今日</span>' : '')}
+        ${hasStudy ? `<span class="calendar-day-badge">${badgeText}</span>` : (isToday && !isDefended ? '<span style="font-size:10px; color:var(--tomato-red);">待续火</span>' : '')}
       </div>
     `;
   }
 
   html += `
-      </div>
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-top:16px; font-size:12.5px; color:var(--text-muted); flex-wrap:wrap; gap:10px;">
-        <div>
-          <span>图例：</span>
-          <span style="display:inline-block; width:12px; height:12px; background:#E8F5E9; border:1px solid #81C784; border-radius:2px; vertical-align:middle; margin:0 4px 0 8px;"></span>已打卡日
-          <span style="display:inline-block; width:12px; height:12px; border:2px solid var(--tomato-red); border-radius:2px; vertical-align:middle; margin:0 4px 0 8px;"></span>今日
-        </div>
-        <div>
-          <span>🔥 连胜保卫补签卡：剩余 <strong>${userState.streakFreezes || 1}</strong> 次</span>
-          <button class="btn-secondary" onclick="useStreakFreeze()" style="padding:2px 8px; font-size:11.5px; margin-left:6px;">🩹 连胜补卡</button>
-        </div>
       </div>
     </div>
   `;
@@ -2965,4 +3027,85 @@ function undoLastFlashcardMark() {
   if (typeof playChime === "function") playChime();
   showToast(`↺ 已回退至上一个单词：【${lastFlashcardState.prevWord}】`);
   lastFlashcardState = null;
+}
+
+
+// --- 28. 连胜打卡全场景深度优化系统 (段位火苗 / 双态保卫 / 全自动续火 / 历程图腾) ---
+const STREAK_TIERS = [
+  { min: 1, max: 3, name: "新芽破土", icon: "🌱", desc: "连胜起点，破土而出", color: "#4CAF50" },
+  { min: 4, max: 7, name: "习惯初成", icon: "🔥", desc: "连续一周，炽热火苗", color: "#FF7043" },
+  { min: 8, max: 14, name: "飞轮自驱", icon: "⚡", desc: "连续双周，心流蓝焰", color: "#29B6F6" },
+  { min: 15, max: 21, name: "潜意识固化", icon: "💎", desc: "连续三周，永久神经突触", color: "#AB47BC" },
+  { min: 22, max: 9999, name: "传奇封神", icon: "👑", desc: "月度全满贯，六级战神！", color: "#FBC02D" }
+];
+
+function getStreakTier(days) {
+  days = Math.max(1, parseInt(days) || 1);
+  for (let i = 0; i < STREAK_TIERS.length; i++) {
+    const t = STREAK_TIERS[i];
+    if (days >= t.min && days <= t.max) {
+      const nextTier = STREAK_TIERS[i + 1] || null;
+      const daysToNext = nextTier ? nextTier.min - days : 0;
+      return { ...t, nextTier, daysToNext };
+    }
+  }
+  return { ...STREAK_TIERS[0], nextTier: STREAK_TIERS[1], daysToNext: 3 };
+}
+
+// 检查今日连胜是否已经成功保卫
+function isTodayStreakDefended() {
+  const today = new Date().toISOString().slice(0, 10);
+  const r = userState.streakHistory && userState.streakHistory[today];
+  if (!r) return false;
+  return Boolean(
+    (r.words && r.words >= 10) ||
+    (r.pomo && r.pomo >= 1) ||
+    (r.morning && r.daytime && r.evening) ||
+    r.isMakeup
+  );
+}
+
+// 全场景多通道自动续火保卫 (背词 / 番茄 / 闪卡 / 习惯任一达成即自动点亮)
+function defendTodayStreak(channel, delta = 1) {
+  const today = new Date().toISOString().slice(0, 10);
+  if (!userState.streakHistory) userState.streakHistory = {};
+  if (!userState.streakHistory[today]) {
+    userState.streakHistory[today] = { words: 0, pomo: 0, flash: 0, isMakeup: false };
+  }
+  const rec = userState.streakHistory[today];
+
+  const wasDefendedBefore = isTodayStreakDefended();
+
+  // 累加对应维度的活动量
+  if (channel === 'word') rec.words = (rec.words || 0) + delta;
+  if (channel === 'pomo') rec.pomo = (rec.pomo || 0) + delta;
+  if (channel === 'flash') rec.flash = (rec.flash || 0) + delta;
+
+  const isNowDefended = isTodayStreakDefended();
+
+  // 今日首次成功点亮续火！
+  if (!wasDefendedBefore && isNowDefended) {
+    const oldTier = getStreakTier(userState.streakDays || 1);
+    userState.streakDays = calculateCurrentStreak();
+    const newTier = getStreakTier(userState.streakDays);
+
+    saveState();
+    updateStreakDisplay();
+    renderStreakCalendar();
+
+    if (typeof playChime === "function") playChime();
+
+    // 检查是否晋升新段位
+    if (newTier.name !== oldTier.name) {
+      if (typeof showTomatoAlert === "function") {
+        showTomatoAlert(`🏆 恭喜晋升连胜段位【${newTier.name}】！`, `已达成连续打卡 ${userState.streakDays} 天！${newTier.desc}，继续保持势头！`);
+      }
+    } else {
+      showToast(`🔥 叮！今日连胜已成功点亮续火！已达成 <strong>${userState.streakDays}</strong> 天连胜！`);
+    }
+  } else {
+    saveState();
+    updateStreakDisplay();
+    renderStreakCalendar();
+  }
 }

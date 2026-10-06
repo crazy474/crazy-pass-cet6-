@@ -133,7 +133,11 @@
           <!-- 悬浮点击鼓励对话气泡 -->
           <div class="pixel-speech-bubble" id="pixelTomatoBubble">加油！疯狂过六级！🍅</div>
         </div>
-        <div class="header-pill" onclick="showAchievementReport()" title="点击生成今日打卡战报海报" style="cursor:pointer;">🔥 连续打卡：<span id="headerStreakDays">1</span> 天 <span class="pixel-live-tag" style="font-size:10px;">战报</span></div>
+        <div class="header-pill header-streak-pill" onclick="showAchievementReportModal()" title="点击查看连胜战报与段位">
+          <span class="streak-flame-icon" id="headerFlameIcon">🔥</span>
+          <span id="headerStreakDays">1</span> 天连胜
+          <span class="pixel-live-tag" id="headerStreakBadge" style="font-size:10px;">新芽破土</span>
+        </div>
 
         <div class="search-box-pill" onclick="openGlobalSearchModal()" style="cursor:pointer;" title="快捷键 Ctrl+K 或 /">
           <input type="text" id="globalSearchInput" placeholder="全局搜索词汇/释义/巧记..." readonly style="cursor:pointer;">
