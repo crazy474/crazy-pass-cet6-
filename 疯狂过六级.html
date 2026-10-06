@@ -5317,6 +5317,153 @@ body.dark-mode .blitz-timer-container {
   border-left: 4px solid var(--tomato-red);
 }
 
+
+
+/* =========================================================================
+   32. 30秒词霸战专属高能图标按钮 (Blitz Hero Icon Button)
+   ========================================================================= */
+
+.blitz-hero-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 14px 5px 10px;
+  background: linear-gradient(135deg, #FFFDF8 0%, #FFF6EB 100%);
+  border: 1.5px solid #F59E0B;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 3px 10px rgba(245, 158, 11, 0.2);
+  user-select: none;
+  position: relative;
+  overflow: visible;
+}
+
+body.dark-mode .blitz-hero-icon-btn {
+  background: linear-gradient(135deg, #24201A 0%, #2A231C 100%);
+  border-color: #D97706;
+  box-shadow: 0 3px 12px rgba(217, 119, 6, 0.25);
+}
+
+.blitz-hero-icon-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 6px 18px rgba(245, 158, 11, 0.38);
+  border-color: #EF4444;
+}
+
+.blitz-hero-icon-btn:active {
+  transform: scale(0.97);
+}
+
+.blitz-btn-icon-wrap {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(245, 158, 11, 0.15);
+  border-radius: 50%;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  flex-shrink: 0;
+}
+
+body.dark-mode .blitz-btn-icon-wrap {
+  background: rgba(245, 158, 11, 0.22);
+}
+
+.blitz-btn-svg {
+  filter: drop-shadow(0 2px 4px rgba(245, 158, 11, 0.4));
+  animation: boltVibrate 2.4s infinite ease-in-out;
+}
+
+@keyframes boltVibrate {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  5% { transform: scale(1.15) rotate(-6deg); }
+  10% { transform: scale(1.1) rotate(6deg); }
+  15% { transform: scale(1.2) rotate(0deg); }
+  20% { transform: scale(1); }
+}
+
+.blitz-sparkle-dot {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 8px;
+  height: 8px;
+  background: #EF4444;
+  border: 1.5px solid #FFF;
+  border-radius: 50%;
+  animation: sparkleBeacon 1.5s infinite alternate;
+}
+
+@keyframes sparkleBeacon {
+  0% { transform: scale(0.85); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  100% { transform: scale(1.2); box-shadow: 0 0 0 5px rgba(239, 68, 68, 0); }
+}
+
+.blitz-btn-text-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.2;
+}
+
+.blitz-btn-title {
+  font-size: 13.5px;
+  font-weight: 900;
+  color: var(--text-main);
+  letter-spacing: 0.2px;
+}
+
+.blitz-btn-subtag {
+  font-size: 11px;
+  font-weight: 700;
+  color: #D97706;
+  margin-top: 1px;
+  transition: color 0.2s ease;
+}
+
+body.dark-mode .blitz-btn-subtag {
+  color: #FBBF24;
+}
+
+/* 番茄钟板块极速推荐卡片 */
+.blitz-recommend-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, rgba(254, 243, 199, 0.4) 0%, rgba(254, 226, 226, 0.35) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.35);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+body.dark-mode .blitz-recommend-card {
+  background: linear-gradient(135deg, rgba(50, 40, 20, 0.45) 0%, rgba(55, 30, 25, 0.45) 100%);
+  border-color: rgba(217, 119, 6, 0.45);
+}
+
+.blitz-recommend-card:hover {
+  transform: translateY(-2px);
+  border-color: #F59E0B;
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.18);
+}
+
+.blitz-rec-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.blitz-rec-icon {
+  font-size: 32px;
+  animation: petHeartBeat 2.5s infinite ease-in-out;
+}
+
 </style>
 </head>
 <body>
@@ -5387,8 +5534,25 @@ body.dark-mode .blitz-timer-container {
         
 
         <!-- 30秒极速词霸大挑战入口 -->
-        <button type="button" class="header-fun-btn" onclick="showWordBlitzModal()" title="30秒高能极速词汇反应挑战">
-          <span>⚡</span> 30秒词霸战
+        <!-- 30秒极速词霸大挑战专属图标按钮 (带有高能闪电微动效与动态纪录徽标) -->
+        <button type="button" class="blitz-hero-icon-btn" onclick="showWordBlitzModal()" title="30秒高能极速词汇反应挑战（点击开启竞技场）">
+          <div class="blitz-btn-icon-wrap">
+            <svg class="blitz-btn-svg" viewBox="0 0 24 24" width="22" height="22" fill="none">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="url(#blitzBoltGrad)" stroke="#D97706" stroke-width="1.5" stroke-linejoin="round"/>
+              <defs>
+                <linearGradient id="blitzBoltGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#FBBF24"/>
+                  <stop offset="50%" stop-color="#F59E0B"/>
+                  <stop offset="100%" stop-color="#EF4444"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <span class="blitz-sparkle-dot"></span>
+          </div>
+          <div class="blitz-btn-text-col">
+            <span class="blitz-btn-title">30秒词霸战</span>
+            <span class="blitz-btn-subtag" id="headerBlitzScoreTag">⚡ 极速对决</span>
+          </div>
         </button>
 
         <!-- 字体大小无级缩放控制器 (解决小字看花眼) -->
@@ -138862,7 +139026,7 @@ function endWordBlitzGame() {
     }
   }
 
-  updateTomatoPetBadge();
+  updateTomatoPetBadge(); if (typeof updateHeaderBlitzBadge === 'function') updateHeaderBlitzBadge();
 }
 
 // 键盘快捷键监听：支持 A / B 选项与空格键快速挑战
@@ -138889,6 +139053,20 @@ if (typeof document !== "undefined") {
       }
     }
   });
+}
+
+
+
+// 动态更新顶栏图标按钮副标题 (显示用户历史战报)
+function updateHeaderBlitzBadge() {
+  const tagEl = document.getElementById("headerBlitzScoreTag");
+  if (!tagEl) return;
+  const high = userState.blitzHighScore || 0;
+  if (high > 0) {
+    tagEl.textContent = `🏆 纪录: ${high}分`;
+  } else {
+    tagEl.textContent = "⚡ 极速对决";
+  }
 }
 
 </script>

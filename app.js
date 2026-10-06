@@ -4025,7 +4025,7 @@ function endWordBlitzGame() {
     }
   }
 
-  updateTomatoPetBadge();
+  updateTomatoPetBadge(); if (typeof updateHeaderBlitzBadge === 'function') updateHeaderBlitzBadge();
 }
 
 // 键盘快捷键监听：支持 A / B 选项与空格键快速挑战
@@ -4052,4 +4052,18 @@ if (typeof document !== "undefined") {
       }
     }
   });
+}
+
+
+
+// 动态更新顶栏图标按钮副标题 (显示用户历史战报)
+function updateHeaderBlitzBadge() {
+  const tagEl = document.getElementById("headerBlitzScoreTag");
+  if (!tagEl) return;
+  const high = userState.blitzHighScore || 0;
+  if (high > 0) {
+    tagEl.textContent = `🏆 纪录: ${high}分`;
+  } else {
+    tagEl.textContent = "⚡ 极速对决";
+  }
 }

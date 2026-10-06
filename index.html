@@ -77,8 +77,25 @@
         
 
         <!-- 30秒极速词霸大挑战入口 -->
-        <button type="button" class="header-fun-btn" onclick="showWordBlitzModal()" title="30秒高能极速词汇反应挑战">
-          <span>⚡</span> 30秒词霸战
+        <!-- 30秒极速词霸大挑战专属图标按钮 (带有高能闪电微动效与动态纪录徽标) -->
+        <button type="button" class="blitz-hero-icon-btn" onclick="showWordBlitzModal()" title="30秒高能极速词汇反应挑战（点击开启竞技场）">
+          <div class="blitz-btn-icon-wrap">
+            <svg class="blitz-btn-svg" viewBox="0 0 24 24" width="22" height="22" fill="none">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="url(#blitzBoltGrad)" stroke="#D97706" stroke-width="1.5" stroke-linejoin="round"/>
+              <defs>
+                <linearGradient id="blitzBoltGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#FBBF24"/>
+                  <stop offset="50%" stop-color="#F59E0B"/>
+                  <stop offset="100%" stop-color="#EF4444"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <span class="blitz-sparkle-dot"></span>
+          </div>
+          <div class="blitz-btn-text-col">
+            <span class="blitz-btn-title">30秒词霸战</span>
+            <span class="blitz-btn-subtag" id="headerBlitzScoreTag">⚡ 极速对决</span>
+          </div>
         </button>
 
         <!-- 字体大小无级缩放控制器 (解决小字看花眼) -->
