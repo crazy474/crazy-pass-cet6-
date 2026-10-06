@@ -135403,25 +135403,26 @@ function useStreakFreeze() {
 }
 
 // 4. 今日打卡成就战报海报弹窗
-function showAchievementReport() {
+function showAchievementReportModal() {
   const modal = document.getElementById("achievementModal");
   if (!modal) return;
 
-  const today = new Date().toISOString().slice(0, 10);
+  const today = getLocalDateStr();
   const totalLearned = getLearnedWordsCount();
   const mastered = getMasteredWordsCount();
   const tomatoes = userState.pomo ? userState.pomo.todayTomatoes : 0;
   const streak = userState.streakDays || 1;
-  const todayWords = (userState.streakHistory && userState.streakHistory[today]) ? userState.streakHistory[today].words : 0;
+  const tier = getStreakTier(streak);
+  const todayWords = (userState.streakHistory && userState.streakHistory[today]) ? (userState.streakHistory[today].words || 0) : 0;
 
-  const posterText = `【🔥 疯狂过六级 · 今日打卡战报】\n📅 日期：${today}\n🎯 连续打卡：${streak} 天\n📖 今日学习：${todayWords} 词 (累计已学 ${totalLearned} 词)\n🍅 收获番茄：${tomatoes} 颗\n🌟 9+1闭环深层掌握：${mastered} 词\n💬 战鼓长鸣：星光不问赶路人，12月12日稳稳过关！`;
+  const posterText = `【🔥 疯狂过六级 · 今日通关战报】\n📅 日期：${today}\n🎯 连续打卡：${streak} 天【${tier.name}】\n📖 今日学习：${todayWords} 词 (累计已学 ${totalLearned} 词)\n🍅 收获番茄：${tomatoes} 颗\n🌟 9+1闭环深层掌握：${mastered} 词\n💬 战鼓长鸣：星光不问赶路人，12月12日稳稳过关！`;
 
   const txtEl = document.getElementById("achievementShareText");
   const numEl = document.getElementById("posterTodayWords");
   const streakEl = document.getElementById("posterStreakDays");
   const pomoEl = document.getElementById("posterTomatoes");
 
-  if (txtEl) txtEl.value = posterText.replace(/\\n/g, "\n");
+  if (txtEl) txtEl.value = posterText;
   if (numEl) numEl.textContent = todayWords;
   if (streakEl) streakEl.textContent = `${streak} 天`;
   if (pomoEl) pomoEl.textContent = `${tomatoes} 颗`;
@@ -135438,9 +135439,29 @@ function closeAchievementModal() {
 function copyAchievementText() {
   const txtEl = document.getElementById("achievementShareText");
   if (!txtEl) return;
-  txtEl.select();
-  document.execCommand("copy");
-  showToast("📋 战报文案已复制到剪贴板！快去朋友圈/备考打卡群晒一晒吧！✨");
+  const text = txtEl.value;
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => {
+      showToast("📋 战报文案已复制到剪贴板！快去朋友圈/备考打卡群晒一晒吧！✨");
+    }).catch(() => {
+      txtEl.select();
+      document.execCommand("copy");
+      showToast("📋 战报文案已复制到剪贴板！快去朋友圈/备考打卡群晒一晒吧！✨");
+    });
+  } else {
+    txtEl.select();
+    document.execCommand("copy");
+    showToast("📋 战报文案已复制到剪贴板！快去朋友圈/备考打卡群晒一晒吧！✨");
+  }
+}
+
+// 别名与全局函数挂载，保证任何方式调用均 100% 触发弹窗
+const showAchievementReport = showAchievementReportModal;
+if (typeof window !== "undefined") {
+  window.showAchievementReportModal = showAchievementReportModal;
+  window.showAchievementReport = showAchievementReportModal;
+  window.closeAchievementModal = closeAchievementModal;
+  window.copyAchievementText = copyAchievementText;
 }
 
 
