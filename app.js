@@ -72,7 +72,10 @@ let userState = {
     todayLearnedIds: {},
     todayDate: "",
     eveningCheckEnabled: true
-  }
+  },
+  streakHistory: {},
+  streakFreezes: 1,
+  filterDue: false
 };
 
 // --- 1. 数据存档加载与持久化 ---
@@ -578,6 +581,7 @@ function toggleUnlearnedFilter() {
 function onVocabSearch(query) {
   userState.searchQuery = query.trim().toLowerCase();
   renderVocabSection();
+  recordStreakActivity(1);
 }
 
 function renderVocabSection() {
@@ -638,6 +642,16 @@ function renderVocabSection() {
     words = words.filter(w => !isWordLearned(userState.learned[w.id]));
   }
 
+  if (userState.filterDue) {
+    words = words.filter(w => Boolean(getWordDueStage(w.id)));
+  }
+
+  // 更新到期复习计数显示
+  const dueCountEl = document.getElementById("dueWordsCount");
+  if (dueCountEl) dueCountEl.textContent = getDueReviewWordsCount();
+  const btnFilterDue = document.getElementById("btnFilterDue");
+  if (btnFilterDue) btnFilterDue.classList.toggle("due-alert-chip", getDueReviewWordsCount() > 0);
+
   if (words.length === 0) {
     listEl.innerHTML = `
       <div class="card" style="text-align:center; padding: 48px;">
@@ -675,6 +689,7 @@ function renderVocabSection() {
             <span class="vocab-english-word">${w.word}</span>
             <span class="vocab-phonetic">${w.phonetic || ""}</span>
             <span class="vocab-pos-badge">${w.pos || ""}</span>
+            ${getWordDueStage(w.id) ? `<span class="due-tag-badge">⏰ 到期建议复习: ${getWordDueStage(w.id)}</span>` : ""}
             <button class="audio-speak-btn" onclick="speakWord('${w.word}')" title="发音朗读">🔊 朗读</button>
           </div>
           <button class="star-btn ${record.star ? "starred" : ""}" onclick="toggleStar('${w.id}')" title="加入生词本">★</button>
@@ -793,6 +808,7 @@ function updateCheck(wordId, stage) {
 
   saveState();
   renderVocabSection();
+  recordStreakActivity(1);
 }
 
 function toggleStar(wordId) {
@@ -815,6 +831,7 @@ function toggleStar(wordId) {
 
   saveState();
   renderVocabSection();
+  recordStreakActivity(1);
 }
 
 // --- 9. 极速闪视流与 3D 拟真翻转卡片 (Speed Flash & 3D Flashcards - 只要单词与词意，乱序随机模式) ---
@@ -1050,6 +1067,7 @@ function renderPlannerSection() {
 
   updateStreakDisplay();
   renderPlanGoalDashboard();
+  renderStreakCalendar();
 }
 
 function onHabitChange(type, checkbox) {
@@ -2056,4 +2074,265 @@ function closeTomatoAlert() {
     overlay.style.transition = "opacity 0.25s ease";
     setTimeout(() => overlay.remove(), 260);
   }
+}
+
+
+// --- 25. 打卡系统专项优化 (整课一键打卡 / 到期复习池 / 月历看板 / 成就战报) ---
+
+// 1. 艾宾浩斯各周期时间窗口常量 (毫秒)
+const EBING_INTERVALS = [
+  { key: "s0", name: "5分", ms: 5 * 60 * 1000 },
+  { key: "s1", name: "30分", ms: 30 * 60 * 1000 },
+  { key: "s2", name: "12时", ms: 12 * 60 * 60 * 1000 },
+  { key: "l0", name: "1天", ms: 24 * 60 * 60 * 1000 },
+  { key: "l1", name: "2天", ms: 2 * 24 * 60 * 60 * 1000 },
+  { key: "l2", name: "4天", ms: 4 * 24 * 60 * 60 * 1000 },
+  { key: "l3", name: "7天", ms: 7 * 24 * 60 * 60 * 1000 },
+  { key: "l4", name: "14天", ms: 14 * 24 * 60 * 60 * 1000 },
+  { key: "l5", name: "21天", ms: 21 * 24 * 60 * 60 * 1000 }
+];
+
+// 检测单个单词是否有已到期且未复习的节点
+function getWordDueStage(wordId) {
+  const r = userState.learned ? userState.learned[wordId] : null;
+  if (!r || !r.first || !r.firstTime) return null;
+
+  const elapsed = Date.now() - r.firstTime;
+  for (let i = 0; i < EBING_INTERVALS.length; i++) {
+    const item = EBING_INTERVALS[i];
+    let isChecked = false;
+    if (item.key.startsWith("s")) {
+      const idx = parseInt(item.key.slice(1));
+      isChecked = r.short && r.short[idx];
+    } else {
+      const idx = parseInt(item.key.slice(1));
+      isChecked = r.long && r.long[idx];
+    }
+    // 如果已到达该时间节点但尚未勾选，返回此建议节点
+    if (elapsed >= item.ms && !isChecked) {
+      return item.name;
+    }
+  }
+  return null;
+}
+
+// 统计全库当前到期需复习的单词总数
+function getDueReviewWordsCount() {
+  if (!window.CET6_DATA || !window.CET6_DATA.coreUnits) return 0;
+  let count = 0;
+  window.CET6_DATA.coreUnits.forEach(u => {
+    u.lessons.forEach(l => {
+      l.words.forEach(w => {
+        if (getWordDueStage(w.id)) count++;
+      });
+    });
+  });
+  return count;
+}
+
+function toggleDueFilter() {
+  userState.filterDue = !userState.filterDue;
+  const btn = document.getElementById("btnFilterDue");
+  if (btn) btn.classList.toggle("active", userState.filterDue);
+  renderVocabSection();
+  recordStreakActivity(1);
+}
+
+// 2. 整课一键批量打卡与清空
+function batchCheckCurrentLesson(markAll) {
+  if (!window.CET6_DATA || !window.CET6_DATA.coreUnits) return;
+  const currentU = window.CET6_DATA.coreUnits.find(u => u.unit === userState.currentUnit);
+  if (!currentU) return;
+  const currentL = currentU.lessons.find(l => l.lesson === userState.currentLesson);
+  if (!currentL || !currentL.words) return;
+
+  const wordCount = currentL.words.length;
+  if (markAll) {
+    currentL.words.forEach(w => {
+      if (!userState.learned[w.id]) {
+        userState.learned[w.id] = {
+          first: true,
+          firstTime: Date.now(),
+          short: [false, false, false],
+          long: [false, false, false, false, false, false],
+          star: false
+        };
+      } else {
+        userState.learned[w.id].first = true;
+        if (!userState.learned[w.id].firstTime) userState.learned[w.id].firstTime = Date.now();
+      }
+      trackDailyPlanCheck(w.id);
+    });
+
+    // 记录今日足迹
+    recordStreakActivity(wordCount);
+
+    if (typeof playChime === "function") playChime();
+    showToast(`⚡ 成功完成 Lesson ${userState.currentLesson} 整课一键打卡！共打卡 ${wordCount} 词！🎉`);
+  } else {
+    if (confirm(`确定要清空 Lesson ${userState.currentLesson} 当前课时所有单词的打卡标记吗？`)) {
+      currentL.words.forEach(w => {
+        if (userState.learned[w.id]) {
+          if (!userState.learned[w.id].star) {
+            delete userState.learned[w.id];
+          } else {
+            userState.learned[w.id].first = false;
+            userState.learned[w.id].short = [false, false, false];
+            userState.learned[w.id].long = [false, false, false, false, false, false];
+          }
+        }
+      });
+      showToast(`🔄 已清空当前课时的打卡标记。`);
+    }
+  }
+
+  saveState();
+  renderVocabSection();
+  recordStreakActivity(1);
+}
+
+// 记录当日打卡历史活动
+function recordStreakActivity(wordDelta = 1) {
+  const today = new Date().toISOString().slice(0, 10);
+  if (!userState.streakHistory) userState.streakHistory = {};
+  if (!userState.streakHistory[today]) {
+    userState.streakHistory[today] = { words: 0, pomo: 0 };
+  }
+  userState.streakHistory[today].words += wordDelta;
+}
+
+// 3. 动态渲染打卡足迹月历看板
+function renderStreakCalendar() {
+  const container = document.getElementById("streakCalendarContainer");
+  if (!container) return;
+
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = now.getMonth(); // 0-indexed
+  const todayStr = now.toISOString().slice(0, 10);
+
+  const firstDayOfWeek = new Date(year, month, 1).getDay(); // 0 for Sunday
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+  const weekdays = ["日", "一", "二", "三", "四", "五", "六"];
+
+  let html = `
+    <div class="streak-calendar-card">
+      <div class="calendar-header">
+        <div>
+          <span class="hero-badge" style="background:var(--sage-soft); color:var(--sage-dark); border-color:var(--sage-border);">📅 疯狂过六级 · 连续打卡足迹月历</span>
+          <h3 style="font-size:var(--font-xl); font-weight:800; color:var(--text-main); margin-top:4px;">${year} 年 ${month + 1} 月学习连胜打卡看板</h3>
+          <p style="font-size:var(--font-sm); color:var(--text-muted); margin-top:2px;">每一抹绿意都是你攻克六级的坚实脚印！保持连胜，形成无坚不摧的备考飞轮！</p>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div class="header-pill" style="font-size:13px;">🔥 连胜记录：<strong>${userState.streakDays || 1}</strong> 天</div>
+          <button class="btn-primary" onclick="showAchievementReport()" style="padding:6px 14px; font-size:13px;">🏆 查看今日战报</button>
+        </div>
+      </div>
+
+      <div class="calendar-grid">
+        ${weekdays.map(w => `<div class="calendar-weekday-title">周${w}</div>`).join("")}
+  `;
+
+  // 空白占位
+  for (let i = 0; i < firstDayOfWeek; i++) {
+    html += `<div class="calendar-day-box empty-day"></div>`;
+  }
+
+  // 每一天
+  for (let d = 1; d <= daysInMonth; d++) {
+    const dStr = `${year}-${String(month + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+    const isToday = dStr === todayStr;
+    const activity = userState.streakHistory ? userState.streakHistory[dStr] : null;
+    const hasStudy = activity && activity.words > 0;
+
+    let boxClass = "calendar-day-box";
+    if (hasStudy) boxClass += " active-day";
+    if (isToday) boxClass += " today-day";
+
+    html += `
+      <div class="${boxClass}" title="${dStr}${hasStudy ? `：已背 ${activity.words} 词` : ""}">
+        <span class="calendar-day-num">${d}</span>
+        ${hasStudy ? `<span class="calendar-day-badge">🍅 ${activity.words}词</span>` : (isToday ? '<span style="font-size:10px; color:var(--tomato-red);">今日</span>' : '')}
+      </div>
+    `;
+  }
+
+  html += `
+      </div>
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-top:16px; font-size:12.5px; color:var(--text-muted); flex-wrap:wrap; gap:10px;">
+        <div>
+          <span>图例：</span>
+          <span style="display:inline-block; width:12px; height:12px; background:#E8F5E9; border:1px solid #81C784; border-radius:2px; vertical-align:middle; margin:0 4px 0 8px;"></span>已打卡日
+          <span style="display:inline-block; width:12px; height:12px; border:2px solid var(--tomato-red); border-radius:2px; vertical-align:middle; margin:0 4px 0 8px;"></span>今日
+        </div>
+        <div>
+          <span>🔥 连胜保卫补签卡：剩余 <strong>${userState.streakFreezes || 1}</strong> 次</span>
+          <button class="btn-secondary" onclick="useStreakFreeze()" style="padding:2px 8px; font-size:11.5px; margin-left:6px;">🩹 连胜补卡</button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  container.innerHTML = html;
+}
+
+// 补卡挽救机制
+function useStreakFreeze() {
+  if (!userState.streakFreezes || userState.streakFreezes <= 0) {
+    showToast("⚠️ 本月连胜补签卡已用完，下月自动补满！请继续保持今日打卡！");
+    return;
+  }
+  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+  if (!userState.streakHistory) userState.streakHistory = {};
+  if (!userState.streakHistory[yesterday]) {
+    userState.streakHistory[yesterday] = { words: 50, pomo: 2 };
+  }
+  userState.streakFreezes--;
+  userState.streakDays = (userState.streakDays || 1) + 1;
+  saveState();
+  renderStreakCalendar();
+  updateHeaderStats();
+  showToast("🎉 补签成功！已消耗 1 张补签卡，为您成功守卫连胜天数！🔥");
+}
+
+// 4. 今日打卡成就战报海报弹窗
+function showAchievementReport() {
+  const modal = document.getElementById("achievementModal");
+  if (!modal) return;
+
+  const today = new Date().toISOString().slice(0, 10);
+  const totalLearned = getLearnedWordsCount();
+  const mastered = getMasteredWordsCount();
+  const tomatoes = userState.pomo ? userState.pomo.todayTomatoes : 0;
+  const streak = userState.streakDays || 1;
+  const todayWords = (userState.streakHistory && userState.streakHistory[today]) ? userState.streakHistory[today].words : 0;
+
+  const posterText = `【🔥 疯狂过六级 · 今日打卡战报】\n📅 日期：${today}\n🎯 连续打卡：${streak} 天\n📖 今日学习：${todayWords} 词 (累计已学 ${totalLearned} 词)\n🍅 收获番茄：${tomatoes} 颗\n🌟 9+1闭环深层掌握：${mastered} 词\n💬 战鼓长鸣：星光不问赶路人，12月12日稳稳过关！`;
+
+  const txtEl = document.getElementById("achievementShareText");
+  const numEl = document.getElementById("posterTodayWords");
+  const streakEl = document.getElementById("posterStreakDays");
+  const pomoEl = document.getElementById("posterTomatoes");
+
+  if (txtEl) txtEl.value = posterText.replace(/\\n/g, "\n");
+  if (numEl) numEl.textContent = todayWords;
+  if (streakEl) streakEl.textContent = `${streak} 天`;
+  if (pomoEl) pomoEl.textContent = `${tomatoes} 颗`;
+
+  modal.classList.add("open");
+  if (typeof playChime === "function") playChime();
+}
+
+function closeAchievementModal() {
+  const modal = document.getElementById("achievementModal");
+  if (modal) modal.classList.remove("open");
+}
+
+function copyAchievementText() {
+  const txtEl = document.getElementById("achievementShareText");
+  if (!txtEl) return;
+  txtEl.select();
+  document.execCommand("copy");
+  showToast("📋 战报文案已复制到剪贴板！快去朋友圈/备考打卡群晒一晒吧！✨");
 }

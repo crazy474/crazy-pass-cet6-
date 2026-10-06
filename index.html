@@ -133,7 +133,7 @@
           <!-- 悬浮点击鼓励对话气泡 -->
           <div class="pixel-speech-bubble" id="pixelTomatoBubble">加油！疯狂过六级！🍅</div>
         </div>
-        <div class="header-pill">🔥 连续打卡：<span id="headerStreakDays">1</span> 天</div>
+        <div class="header-pill" onclick="showAchievementReport()" title="点击生成今日打卡战报海报" style="cursor:pointer;">🔥 连续打卡：<span id="headerStreakDays">1</span> 天 <span class="pixel-live-tag" style="font-size:10px;">战报</span></div>
 
         <div class="search-box-pill">
           <input type="text" id="globalSearchInput" placeholder="全局搜索词汇/技巧..." oninput="onVocabSearch(this.value)">
@@ -332,6 +332,9 @@
           <button class="toggle-chip active" id="btnToggleMindmap" onclick="toggleMindmap()">🗺️ 词群思维导图</button>
           <button class="toggle-chip" id="btnMaskMeaning" onclick="toggleMaskMeaning()">👁️ 遮挡中文释义</button>
           <button class="toggle-chip" id="btnFilterStarred" onclick="toggleStarredFilter()">⭐ 只看星标生词</button>
+          <button class="toggle-chip" id="btnFilterDue" onclick="toggleDueFilter()" title="筛选到达遗忘临界点急需复习的词汇">⏰ 到期待复习 (<span id="dueWordsCount">0</span>)</button>
+          <button class="toggle-chip" onclick="batchCheckCurrentLesson(true)" title="一键将本课全部单词标记为初学已打卡">⚡ 整课初学一键打卡</button>
+          <button class="toggle-chip" onclick="batchCheckCurrentLesson(false)" title="清空本课全部单词打卡标记" style="color:var(--tomato-red);">🔄 清空本课打卡</button>
           <button class="toggle-chip" id="btnFilterUnlearned" onclick="toggleUnlearnedFilter()">⏳ 只看未掌握</button>
         </div>
       </div>
@@ -455,6 +458,9 @@
       </div>
       <!-- 核心词与派生词通关计划看板 -->
       <div id="planGoalDashboard"></div>
+
+      <!-- 连续打卡足迹月历与连胜看板 -->
+      <div id="streakCalendarContainer"></div>
 
       <div class="grid-2">
         <div>
@@ -740,6 +746,29 @@
       </div>
     </div>
   </div>
+  </div>
+
+  
+  <!-- 今日成就打卡战报海报弹窗 -->
+  <div class="modal-overlay" id="achievementModal" onclick="if(event.target===this)closeAchievementModal()">
+    <div class="achievement-poster-dialog" onclick="event.stopPropagation()">
+      <div style="font-size:42px; margin-bottom:4px;">🍅✨</div>
+      <div class="hero-badge" style="background:var(--harvest-soft); color:var(--harvest-gold); border-color:var(--harvest-border);">🔥 疯狂过六级 · 今日通关战报</div>
+      <div class="poster-score-badge" id="posterStreakDays">1 天</div>
+      <p style="font-size:14px; font-weight:700; color:var(--text-main); margin-bottom:6px;">保持心流连胜 · 六级高分触手可及！</p>
+      
+      <div style="display:flex; justify-content:center; gap:20px; margin:14px 0; font-size:13.5px; color:var(--text-muted);">
+        <div>今日打卡：<strong id="posterTodayWords" style="color:var(--sage-green); font-size:16px;">0</strong> 词</div>
+        <div>今日番茄：<strong id="posterTomatoes" style="color:var(--tomato-red); font-size:16px;">0</strong> 颗</div>
+      </div>
+
+      <textarea class="poster-share-textarea" id="achievementShareText" readonly></textarea>
+
+      <div style="display:flex; justify-content:center; gap:12px;">
+        <button class="btn-primary" onclick="copyAchievementText()" style="padding:10px 22px; font-size:14px;">📋 一键复制战报文案</button>
+        <button class="btn-secondary" onclick="closeAchievementModal()" style="padding:10px 18px; font-size:14px;">关闭</button>
+      </div>
+    </div>
   </div>
 
   <!-- 全局轻量 Toast 悬浮提醒容器 -->

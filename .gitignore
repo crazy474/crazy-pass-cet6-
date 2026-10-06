@@ -1,3 +1,6 @@
+# Large binaries (exceeds GitHub 100MB limit)
+*.pdf
+
 # OS metadata
 Thumbs.db
 ehthumbs.db
