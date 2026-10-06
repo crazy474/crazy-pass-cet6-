@@ -381,6 +381,14 @@ function togglePomodoro() {
 }
 
 function resetPomodoro() {
+  const studiedSecs = userState.pomo.totalTime - userState.pomo.timeLeft;
+  const savedState = {
+    timeLeft: userState.pomo.timeLeft,
+    totalTime: userState.pomo.totalTime,
+    overtimeSecs: userState.pomo.overtimeSecs || 0,
+    wasRunning: userState.pomo.isRunning
+  };
+
   clearInterval(pomoTimerInterval);
   userState.pomo.isRunning = false;
   userState.pomo.overtimeSecs = 0;
@@ -388,6 +396,20 @@ function resetPomodoro() {
   const startBtn = document.getElementById("pomoStartBtn");
   if (startBtn) startBtn.innerHTML = "▶️ 开始专注";
   updatePomoDisplay();
+
+  // 如果已经专注了超过 30 秒，提供撤销急救胶囊！
+  if (studiedSecs >= 30) {
+    const mins = Math.floor(savedState.timeLeft / 60);
+    const secs = savedState.timeLeft % 60;
+    const pad = (n) => String(n).padStart(2, "0");
+    registerUndoAction(`已重置番茄钟 (原剩 ${pad(mins)}:${pad(secs)})`, () => {
+      userState.pomo.timeLeft = savedState.timeLeft;
+      userState.pomo.totalTime = savedState.totalTime;
+      userState.pomo.overtimeSecs = savedState.overtimeSecs;
+      updatePomoDisplay();
+      if (savedState.wasRunning) togglePomodoro();
+    }, 8000);
+  }
 }
 
 function skipPomodoro() {
@@ -1054,8 +1076,25 @@ function flip3DCard() {
 
 function mark3DCard(status) {
   const words = getFlashWords();
-  userState.speedFlash.currentIndex = (userState.speedFlash.currentIndex + 1) % words.length;
+  if (words.length === 0) return;
+  const curIdx = userState.speedFlash.currentIndex;
+  const curWord = words[curIdx] ? words[curIdx].word : "";
+
+  // 记录上一步快照
+  lastFlashcardState = {
+    prevIndex: curIdx,
+    prevWord: curWord,
+    status: status
+  };
+
+  userState.speedFlash.currentIndex = (curIdx + 1) % words.length;
   renderCurrent3DCard();
+
+  const label = status === "mastered" ? "熟记过关" : "模糊巩固";
+  registerUndoAction(`已将 [${curWord}] 标为${label}`, () => {
+    userState.speedFlash.currentIndex = curIdx;
+    renderCurrent3DCard();
+  }, 5000);
 }
 
 function shuffle3DCards() {
@@ -1146,6 +1185,19 @@ function resetAllData() {
 // --- 17. 全局键盘快捷键与系统就绪启动 ---
 document.addEventListener("keydown", function(e) {
   if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+  // 全局撤销快捷键 Ctrl+Z
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z") {
+    e.preventDefault();
+    triggerGlobalUndo();
+    return;
+  }
+  // 闪卡模式下单按 Z 撤销上一个单词
+  if (e.key.toLowerCase() === "z" && userState.currentTab === "flash" && userState.speedFlash.mode === "3d") {
+    e.preventDefault();
+    undoLastFlashcardMark();
+    return;
+  }
+
 
   // Space 翻转卡片
   if (e.code === "Space") {
@@ -1345,11 +1397,18 @@ function deleteMidnightSnapshot(snapId) {
   const snap = (userState.midnightSnapshots || []).find(s => s.id === snapId);
   if (!snap) return;
 
-  if (confirm(`⚠️ 确定要删除 [${snap.timestampStr}] 这份历史快照吗？\n删除后该快照将被永久移除。`)) {
+  if (confirm(`⚠️ 确定要删除 [${snap.timestampStr}] 这份历史快照吗？`)) {
+    const backupSnap = JSON.parse(JSON.stringify(snap));
     userState.midnightSnapshots = userState.midnightSnapshots.filter(s => s.id !== snapId);
     saveState();
     renderMidnightSnapshotList();
-    showToast("🗑️ 已成功删除该份历史快照！");
+    
+    registerUndoAction(`已删除快照 [${backupSnap.timestampStr}]`, () => {
+      userState.midnightSnapshots.unshift(backupSnap);
+      userState.midnightSnapshots.sort((a, b) => b.id - a.id);
+      saveState();
+      renderMidnightSnapshotList();
+    }, 8000);
   }
 }
 
@@ -2817,4 +2876,93 @@ function updateFocusedResultItem() {
       el.scrollIntoView({ block: "nearest" });
     }
   });
+}
+
+
+// --- 27. 全局智能撤销中枢与防误触回退系统 (Carson & Bailey 联合研发) ---
+let globalUndoStack = []; // [{ id, description, undoFn }]
+let undoCapsuleTimer = null;
+let lastFlashcardState = null; // 记录闪卡上一张卡片状态
+
+// 注册一项可撤回的操作 (在屏幕底部唤起优雅悬浮撤销胶囊)
+function registerUndoAction(description, undoFn, timeoutMs = 6000) {
+  const action = {
+    id: Date.now(),
+    description: description,
+    undoFn: undoFn
+  };
+  globalUndoStack.push(action);
+  // 保留最多 5 条撤销记录
+  if (globalUndoStack.length > 5) globalUndoStack.shift();
+
+  showUndoCapsule(action, timeoutMs);
+}
+
+// 触发撤回上一步操作
+function triggerGlobalUndo() {
+  if (globalUndoStack.length === 0) {
+    showToast("ℹ️ 当前没有可撤销的操作");
+    return;
+  }
+  const action = globalUndoStack.pop();
+  if (action && typeof action.undoFn === "function") {
+    action.undoFn();
+    hideUndoCapsule();
+    if (typeof playChime === "function") playChime();
+    showToast(`↺ 已成功撤回操作：“${action.description}”！`);
+  }
+}
+
+// 显示底部悬浮撤销胶囊
+function showUndoCapsule(action, timeoutMs = 6000) {
+  let capsule = document.getElementById("undoFloatingCapsule");
+  if (!capsule) {
+    capsule = document.createElement("div");
+    capsule.id = "undoFloatingCapsule";
+    capsule.className = "undo-floating-capsule";
+    document.body.appendChild(capsule);
+  }
+
+  capsule.innerHTML = `
+    <span class="undo-capsule-text">
+      <span>⚡</span>
+      <span>${action.description}</span>
+    </span>
+    <button class="undo-capsule-btn" onclick="triggerGlobalUndo()" title="快捷键 Ctrl+Z">
+      <span>↺ 撤回</span>
+      <kbd style="font-size:10px; opacity:0.85; margin-left:2px;">Ctrl+Z</kbd>
+    </button>
+    <button class="undo-capsule-close" onclick="hideUndoCapsule()" title="关闭">✕</button>
+  `;
+
+  capsule.classList.remove("active");
+  void capsule.offsetWidth; // 触发 reflow
+  capsule.classList.add("active");
+
+  clearTimeout(undoCapsuleTimer);
+  undoCapsuleTimer = setTimeout(() => {
+    hideUndoCapsule();
+  }, timeoutMs);
+}
+
+function hideUndoCapsule() {
+  clearTimeout(undoCapsuleTimer);
+  const capsule = document.getElementById("undoFloatingCapsule");
+  if (capsule) {
+    capsule.classList.remove("active");
+  }
+}
+
+// 1. 3D 闪卡专用回退撤销
+function undoLastFlashcardMark() {
+  if (!lastFlashcardState) {
+    showToast("ℹ️ 暂无可撤回的闪卡记录");
+    return;
+  }
+  userState.speedFlash.currentIndex = lastFlashcardState.prevIndex;
+  renderCurrent3DCard();
+  hideUndoCapsule();
+  if (typeof playChime === "function") playChime();
+  showToast(`↺ 已回退至上一个单词：【${lastFlashcardState.prevWord}】`);
+  lastFlashcardState = null;
 }

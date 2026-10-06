@@ -409,7 +409,8 @@
 
           <div class="flip-action-deck">
             <button class="btn-mark-vague" onclick="mark3DCard('vague')">← 模糊需巩固 (A)</button>
-            <button class="btn-secondary" onclick="reshuffleCurrentDeck()">🔀 重新乱序洗牌 (R)</button>
+            <button class="btn-secondary" onclick="undoLastFlashcardMark()" title="撤回上一个卡片标记 (快捷键 Z 或 Ctrl+Z)" style="font-weight:700;">↺ 撤销标记 (Z)</button>
+            <button class="btn-secondary" onclick="reshuffleCurrentDeck()" title="快捷键 R">🔀 重新洗牌 (R)</button>
             <button class="btn-mark-mastered" onclick="mark3DCard('mastered')">熟记过关 (D) →</button>
           </div>
         </div>
@@ -825,5 +826,9 @@
 
   <script src="words_data.js"></script>
   <script src="app.js"></script>
+
+  <!-- 全局智能撤销悬浮胶囊中枢 (支持 Ctrl+Z 一键撤回) -->
+  <div class="undo-floating-capsule" id="undoFloatingCapsule"></div>
+
 </body>
 </html>
