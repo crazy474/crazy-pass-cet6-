@@ -361,13 +361,13 @@ body.dark-mode .header-pill.tomato-pill {
   color: var(--text-muted);
 }
 
-/* 顶部二级导航：药丸状横向滚动 Tab 栏 */
+/* 顶部二级导航：全宽平铺排开 5 大核心模块 Tab 栏 (均匀等宽分栏铺展) */
 .nav-bar {
   background: var(--bg-surface);
   border-top: 1px solid var(--border-color);
-  overflow-x: auto;
-  white-space: nowrap;
-  scrollbar-width: none;
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  width: 100%;
 }
 
 .nav-bar::-webkit-scrollbar {
@@ -375,43 +375,67 @@ body.dark-mode .header-pill.tomato-pill {
 }
 
 .nav-tabs {
-  display: flex;
-  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 1360px;
   margin: 0 auto;
-  padding: 6px 20px;
-  gap: 6px;
+  padding: 10px 24px;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .tab-link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   gap: 8px;
-  padding: 8px 16px;
-  border-radius: var(--radius-md);
-  font-size: calc(14.5px * var(--font-scale));
-  font-weight: 600;
+  padding: 12px 14px;
+  border-radius: var(--radius-lg);
+  font-size: calc(15.5px * var(--font-scale));
+  font-weight: 700;
   color: var(--text-muted);
-  border: 1px solid transparent;
-  background: transparent;
+  border: 1.5px solid var(--border-color);
+  background: var(--bg-card);
   cursor: pointer;
-  transition: all 0.18s ease;
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  user-select: none;
 }
 
 .tab-link:hover {
   color: var(--text-main);
-  background: var(--bg-subtle);
+  background: var(--bg-hover);
+  border-color: var(--accent-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .tab-link.active {
-  color: var(--tomato-red);
-  background: var(--tomato-soft);
-  border-color: rgba(217, 72, 52, 0.25);
+  color: #FFFFFF !important;
+  background: linear-gradient(135deg, var(--tomato-red) 0%, #E05A47 100%) !important;
+  border-color: var(--tomato-red) !important;
+  box-shadow: 0 4px 16px rgba(217, 72, 52, 0.35);
+  transform: translateY(-1px);
+}
+
+body.dark-mode .tab-link {
+  background: #20242B;
+  border-color: #343C48;
+}
+
+body.dark-mode .tab-link:hover {
+  background: #282E37;
+  border-color: #556275;
 }
 
 body.dark-mode .tab-link.active {
-  color: var(--tomato-coral);
-  background: rgba(255, 102, 80, 0.15);
-  border-color: rgba(255, 102, 80, 0.35);
+  color: #FFFFFF !important;
+  background: linear-gradient(135deg, #D94834 0%, #B53624 100%) !important;
+  border-color: #EF5350 !important;
+  box-shadow: 0 4px 18px rgba(217, 72, 52, 0.45);
 }
 
 /* ==========================================================================
