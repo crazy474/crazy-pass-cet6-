@@ -64,6 +64,26 @@
       </div>
 
       <div class="header-actions">
+
+        <!-- 趣味游戏化：番茄Q酱养成状态胶囊 -->
+        <div class="tomato-pet-pill" onclick="showTomatoPetModal()" title="点击查看番茄Q酱成长手帐与进化等级">
+          <span class="pet-icon-bounce" id="headerPetIcon" onclick="onTomatoPetClick(event)">🌱</span>
+          <span style="font-size:13px; font-weight:800; color:var(--text-main);" id="headerPetBadge">LV.1 萌芽小番茄</span>
+          <div class="pet-xp-bar-wrap">
+            <div class="pet-xp-bar-fill" id="headerPetXpBar" style="width:10%;"></div>
+          </div>
+        </div>
+
+        <!-- 每日欧气刮刮乐入口 -->
+        <button type="button" class="header-fun-btn" onclick="showLuckyScratchModal()" title="刮开今日压轴锦鲤考词与欧气预言">
+          <span>🎁</span> 欧气刮刮乐
+        </button>
+
+        <!-- 30秒极速词霸大挑战入口 -->
+        <button type="button" class="header-fun-btn" onclick="showWordBlitzModal()" title="30秒高能极速词汇反应挑战">
+          <span>⚡</span> 30秒词霸战
+        </button>
+
         <!-- 字体大小无级缩放控制器 (解决小字看花眼) -->
         <div class="font-size-widget" title="全局字体缩放 (告别小字体眼疲劳)">
           <span class="font-widget-label">🔍 字体大小：</span>
@@ -834,6 +854,127 @@
   </div>
 
   <!-- 全局轻量 Toast 悬浮提醒容器 -->
+  
+  <!-- 1. 番茄Q酱成长手札手帐弹窗 -->
+  <div class="modal-overlay" id="petGrowthModal" onclick="if(event.target===this)closeTomatoPetModal()">
+    <div class="modal-dialog" style="max-width:440px; text-align:center;">
+      <div style="font-size:52px; margin-bottom:8px;" id="petModalStageIcon">🌱</div>
+      <h3 style="font-size:22px; font-weight:800; color:var(--text-main);" id="petModalStageName">LV.1 【萌芽小番茄】</h3>
+      <p style="font-size:14px; color:var(--text-muted); margin:6px 0 18px;" id="petModalStageDesc">刚刚破土新生，渴望六级词汇甘霖！</p>
+
+      <div style="background:var(--bg-subtle); padding:16px; border-radius:var(--radius-md); text-align:left; font-size:14px; line-height:1.8; margin-bottom:18px;">
+        <div style="display:flex; justify-content:space-between;">
+          <span>🌟 当前总成长值：</span>
+          <strong id="petModalTotalXp" style="color:var(--harvest-gold); font-size:16px;">0 XP</strong>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--text-muted);">
+          <span>• 词汇掌握积攒：</span>
+          <span id="petModalWordsXp">+0 XP</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--text-muted);">
+          <span>• 深度专注番茄：</span>
+          <span id="petModalPomoXp">+0 XP</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--text-muted);">
+          <span>• 连续打卡守卫：</span>
+          <span id="petModalStreakXp">+0 XP</span>
+        </div>
+        <div style="margin-top:8px; padding-top:8px; border-top:1px dashed var(--border-color); font-size:12.5px; color:var(--tomato-red);" id="petModalNextXp">
+          距下一级还需 100 XP
+        </div>
+      </div>
+
+      <div style="display:flex; justify-content:center; gap:12px;">
+        <button type="button" class="btn-primary" onclick="onTomatoPetClick(); closeTomatoPetModal();" style="padding:10px 20px;">🍅 听晓燕金句</button>
+        <button type="button" class="btn-secondary" onclick="closeTomatoPetModal()" style="padding:10px 18px;">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. 每日欧气 · 六级刮刮乐盲盒弹窗 -->
+  <div class="modal-overlay" id="luckyScratchModal" onclick="if(event.target===this)closeLuckyScratchModal()">
+    <div class="modal-dialog" style="max-width:440px; text-align:center;">
+      <div style="font-size:36px; margin-bottom:4px;">🎰✨</div>
+      <h3 style="font-size:22px; font-weight:800; color:var(--text-main);">每日欧气 · 六级压轴刮刮乐</h3>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:12px;">滑动涂层刮开今日锦鲤词，领考神预言与能量保卫盾牌！</p>
+
+      <div class="scratch-card-box">
+        <div class="scratch-reveal-content">
+          <div style="font-size:12px; font-weight:800; color:var(--harvest-gold); margin-bottom:4px;" id="scratchRevealProphecy">🔥 欧气爆棚 99.8%！</div>
+          <div style="font-size:24px; font-weight:900; color:var(--tomato-red);" id="scratchRevealWord">conquer</div>
+          <div style="font-size:13px; color:var(--text-muted);" id="scratchRevealPhonetic">/ˈkɒŋkə/</div>
+          <div style="font-size:14px; font-weight:700; color:var(--text-main); margin-top:4px;" id="scratchRevealMeaning">v. 征服，战胜；攻克</div>
+          <div style="font-size:12px; color:var(--sage-green); margin-top:4px;" id="scratchRevealTip">【巧记】con(全部) + quer(寻求) -> 彻底征服六级！</div>
+        </div>
+        <canvas id="scratchSurfaceCanvas"></canvas>
+      </div>
+
+      <div style="display:flex; justify-content:center; gap:12px; margin-top:16px;">
+        <button type="button" class="btn-primary" onclick="revealScratchPrize()" style="padding:10px 20px;">✨ 一键刮开</button>
+        <button type="button" class="btn-secondary" onclick="closeLuckyScratchModal()" style="padding:10px 18px;">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. 30秒极速词霸挑战竞技场弹窗 -->
+  <div class="modal-overlay" id="wordBlitzModal" onclick="if(event.target===this)closeWordBlitzModal()">
+    <div class="modal-dialog" style="max-width:480px; text-align:center;">
+      <!-- 大厅页面 -->
+      <div id="blitzLobbyScreen">
+        <div style="font-size:48px; margin-bottom:8px;">⚡🥊</div>
+        <h3 style="font-size:24px; font-weight:900; color:var(--text-main);">30秒极速词霸大挑战</h3>
+        <p style="font-size:14px; color:var(--text-muted); margin:8px 0 20px;">30秒快问快答！考验核心词瞬间反射弧，连击越高得分越炸裂！</p>
+        
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:var(--radius-md); margin-bottom:20px; font-size:14px;">
+          🏆 你的历史最高纪录：<strong id="blitzHighScoreText" style="color:var(--tomato-red); font-size:18px;">0</strong> 分
+        </div>
+
+        <div style="display:flex; justify-content:center; gap:12px;">
+          <button type="button" class="btn-primary" onclick="startWordBlitzGame()" style="padding:12px 28px; font-size:16px;">🔥 开始极速挑战</button>
+          <button type="button" class="btn-secondary" onclick="closeWordBlitzModal()" style="padding:12px 20px;">稍后再战</button>
+        </div>
+      </div>
+
+      <!-- 答题对决竞技场 -->
+      <div id="blitzArenaScreen" style="display:none;">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <span style="font-size:14px; font-weight:700;">⏱️ 倒计时：<strong id="blitzTimerNumber" style="color:var(--tomato-red); font-size:18px;">30</strong>s</span>
+          <span id="blitzComboLive" style="color:var(--harvest-gold); font-weight:900; font-size:15px; display:none;">🔥 COMBO x2!</span>
+          <span style="font-size:14px; font-weight:700;">得分：<strong id="blitzScoreLive" style="color:var(--sage-green); font-size:18px;">0</strong></span>
+        </div>
+
+        <div class="blitz-timer-container">
+          <div class="blitz-timer-bar" id="blitzTimerBar" style="width:100%;"></div>
+        </div>
+
+        <div class="blitz-word-display" id="blitzQuestionWord">abandon</div>
+
+        <div class="blitz-choices-grid">
+          <button type="button" class="blitz-choice-btn" id="blitzBtnOptA" onclick="handleBlitzAnswer('A')">A. 选项加载中...</button>
+          <button type="button" class="blitz-choice-btn" id="blitzBtnOptB" onclick="handleBlitzAnswer('B')">B. 选项加载中...</button>
+        </div>
+      </div>
+
+      <!-- 结算成绩页面 -->
+      <div id="blitzResultScreen" style="display:none;">
+        <div style="font-size:36px; margin-bottom:4px;">🏁</div>
+        <h3 style="font-size:22px; font-weight:800; color:var(--text-main);">挑战结算！</h3>
+        <div class="blitz-rank-stamp" id="blitzRankStamp">S</div>
+        <div style="font-size:28px; font-weight:900; color:var(--tomato-red); margin-bottom:6px;">
+          <span id="blitzFinalScore">0</span> <span style="font-size:16px;">分</span>
+        </div>
+        <div style="font-size:14px; font-weight:700; color:var(--harvest-gold);" id="blitzFinalCombo">🔥 最高连击：0</div>
+        <p style="font-size:13.5px; color:var(--text-muted); margin:12px 0 20px;" id="blitzRecordTip"></p>
+
+        <div style="display:flex; justify-content:center; gap:12px;">
+          <button type="button" class="btn-primary" onclick="startWordBlitzGame()" style="padding:10px 22px;">🔄 再战一把</button>
+          <button type="button" class="btn-secondary" onclick="closeWordBlitzModal()" style="padding:10px 18px;">返回</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <div class="toast-container" id="toastContainer"></div>
 
   <script src="words_data.js"></script>

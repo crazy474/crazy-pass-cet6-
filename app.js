@@ -3445,3 +3445,676 @@ function handleCalendarDayClick(dateStr) {
     showToast(`✨ 补卡成功！连续打卡天数已成功拯救为 ${userState.streakDays} 天！（再次点击此日可随时撤销退盾）`);
   }
 }
+
+// --- 30. 趣味性与互动游戏化系统 ---
+
+// =========================================================================
+// 《疯狂过六级》趣味性与互动游戏化核心引擎 (Fun & Gamification Engine)
+// 包含：番茄Q酱5级成长树、8-bit复古音效合成、每日欧气刮刮乐盲盒、30秒极速词霸战、Canvas彩带
+// 架构师：游戏化与内容交互架构师 Bailey & 网站总工程师
+// =========================================================================
+
+// 1. 纯 Web Audio 8-bit 复古像素音效引擎 (零外部音频依赖，100%离线顺畅运行)
+function playPixelSound(type) {
+  try {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) return;
+    const ctx = new AudioContextClass();
+    const now = ctx.currentTime;
+
+    if (type === "coin") {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(987.77, now);
+      osc.frequency.setValueAtTime(1318.51, now + 0.08);
+      gain.gain.setValueAtTime(0.18, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.35);
+    } else if (type === "correct") {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = "triangle";
+      osc.frequency.setValueAtTime(523.25, now);
+      osc.frequency.setValueAtTime(659.25, now + 0.08);
+      osc.frequency.setValueAtTime(783.99, now + 0.16);
+      gain.gain.setValueAtTime(0.18, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.4);
+    } else if (type === "wrong") {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = "sawtooth";
+      osc.frequency.setValueAtTime(220, now);
+      osc.frequency.setValueAtTime(164.81, now + 0.12);
+      gain.gain.setValueAtTime(0.15, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.3);
+    } else if (type === "combo") {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = "sine";
+      const baseFreq = 440 + Math.min(600, (blitzState.combo || 1) * 60);
+      osc.frequency.setValueAtTime(baseFreq, now);
+      osc.frequency.exponentialRampToValueAtTime(baseFreq * 1.5, now + 0.15);
+      gain.gain.setValueAtTime(0.2, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.25);
+    } else if (type === "celebrate") {
+      const notes = [523.25, 659.25, 783.99, 1046.50];
+      notes.forEach((freq, idx) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = "triangle";
+        osc.frequency.setValueAtTime(freq, now + idx * 0.09);
+        gain.gain.setValueAtTime(0.18, now + idx * 0.09);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.09 + 0.22);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now + idx * 0.09);
+        osc.stop(now + idx * 0.09 + 0.22);
+      });
+    }
+  } catch (e) {}
+}
+
+// 2. 全屏 Canvas 七彩纸屑粒子喷泉动画 (Confetti Particle Burst)
+function triggerConfettiBurst(originX, originY) {
+  let canvas = document.getElementById("confettiCanvas");
+  if (!canvas) {
+    canvas = document.createElement("canvas");
+    canvas.id = "confettiCanvas";
+    canvas.style.position = "fixed";
+    canvas.style.top = "0";
+    canvas.style.left = "0";
+    canvas.style.width = "100vw";
+    canvas.style.height = "100vh";
+    canvas.style.pointerEvents = "none";
+    canvas.style.zIndex = "99999";
+    document.body.appendChild(canvas);
+  }
+
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  const ctx = canvas.getContext("2d");
+
+  const startX = originX || window.innerWidth / 2;
+  const startY = originY || window.innerHeight / 2;
+
+  const colors = ["#E05A47", "#5B8C5A", "#D4A373", "#F4A261", "#E76F51", "#2A9D8F", "#FFD166", "#06D6A0"];
+  const particles = [];
+  const particleCount = 80;
+
+  for (let i = 0; i < particleCount; i++) {
+    const angle = Math.random() * Math.PI * 2;
+    const speed = Math.random() * 8 + 4;
+    particles.push({
+      x: startX,
+      y: startY,
+      vx: Math.cos(angle) * speed,
+      vy: Math.sin(angle) * speed - 3,
+      size: Math.random() * 8 + 4,
+      color: colors[Math.floor(Math.random() * colors.length)],
+      rotation: Math.random() * 360,
+      vRotation: (Math.random() - 0.5) * 10,
+      alpha: 1,
+      gravity: 0.22
+    });
+  }
+
+  playPixelSound("celebrate");
+
+  let animationFrame;
+  function update() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    let alive = 0;
+
+    particles.forEach(p => {
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += p.gravity;
+      p.rotation += p.vRotation;
+      p.alpha -= 0.012;
+
+      if (p.alpha > 0) {
+        alive++;
+        ctx.save();
+        ctx.globalAlpha = Math.max(0, p.alpha);
+        ctx.translate(p.x, p.y);
+        ctx.rotate((p.rotation * Math.PI) / 180);
+        ctx.fillStyle = p.color;
+        ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+        ctx.restore();
+      }
+    });
+
+    if (alive > 0) {
+      animationFrame = requestAnimationFrame(update);
+    } else {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      cancelAnimationFrame(animationFrame);
+    }
+  }
+
+  update();
+}
+
+// 3. 番茄Q酱养成成长体系 (Tomato Pet Tamagotchi)
+const TOMATO_PET_STAGES = [
+  { level: 1, name: "萌芽小番茄", icon: "🌱", minXP: 0, maxXP: 100, desc: "刚破土新生，渴望六级词汇甘霖！" },
+  { level: 2, name: "抽枝小番茄", icon: "🌿", minXP: 100, maxXP: 300, desc: "枝繁叶茂，已掌握大量同根词汇！" },
+  { level: 3, name: "翡翠青番茄", icon: "🍏", minXP: 300, maxXP: 600, desc: "青翠茁壮，听力阅读如入无人之境！" },
+  { level: 4, name: "烈火红番茄", icon: "🍅", minXP: 600, maxXP: 1000, desc: "红润饱满，3304核心词信手拈来！" },
+  { level: 5, name: "考神博士番茄", icon: "👑", minXP: 1000, maxXP: 99999, desc: "头戴博士帽，手持晓燕魔杖，600+稳过！" }
+];
+
+const TOMATO_MASCOT_QUOTES = [
+  "“连单词都背不下来，你还怎么征服星辰大海？冲！”",
+  "“晓燕老师说了：同根派生一网打尽，六级核心词根本不用死记硬背！”",
+  "“刚才的番茄钟专注很棒！你的脑细胞正在光速建立神经连接！”",
+  "“12月12日你就是考场上做题最快、涂卡最帅的仔！”",
+  "“抗遗忘矩阵对账走起！战胜艾宾浩斯，六级高分稳稳拿捏！”",
+  "“学累了吗？快来玩一把【30秒极速词霸大挑战】给大脑热热身！”",
+  "“坚持连胜打卡，我的能量保卫盾牌时刻为你保驾护航！”",
+  "“听说今天去【欧气刮刮乐】刮卡，能抽中今日压轴锦鲤考词哦！”",
+  "“星光不问赶路人，时光不负有心人！加油！”",
+  "“核心词母词搞定，阅读理解长难句一眼就能看透谓语动词！”"
+];
+
+function calculatePetXP() {
+  const words = typeof getLearnedWordsCount === "function" ? getLearnedWordsCount() : 0;
+  const tomatoes = userState.pomo ? (userState.pomo.todayTomatoes || 0) : 0;
+  const streak = userState.streakDays || 1;
+  const blitzScore = userState.blitzHighScore || 0;
+  return (words * 2) + (tomatoes * 15) + (streak * 20) + Math.floor(blitzScore / 5);
+}
+
+function getPetCurrentStage(xp) {
+  for (let i = TOMATO_PET_STAGES.length - 1; i >= 0; i--) {
+    if (xp >= TOMATO_PET_STAGES[i].minXP) {
+      return TOMATO_PET_STAGES[i];
+    }
+  }
+  return TOMATO_PET_STAGES[0];
+}
+
+function updateTomatoPetBadge() {
+  const xp = calculatePetXP();
+  const stage = getPetCurrentStage(xp);
+
+  const badgeEl = document.getElementById("headerPetBadge");
+  const iconEl = document.getElementById("headerPetIcon");
+  const xpBarEl = document.getElementById("headerPetXpBar");
+
+  if (badgeEl) badgeEl.textContent = `LV.${stage.level} ${stage.name}`;
+  if (iconEl) iconEl.textContent = stage.icon;
+
+  if (xpBarEl) {
+    let progress = 100;
+    if (stage.level < 5) {
+      const range = stage.maxXP - stage.minXP;
+      const current = xp - stage.minXP;
+      progress = Math.min(100, Math.max(0, Math.round((current / range) * 100)));
+    }
+    xpBarEl.style.width = `${progress}%`;
+    xpBarEl.title = `经验值：${xp} XP (本级进度 ${progress}%)`;
+  }
+}
+
+function onTomatoPetClick(event) {
+  if (event) event.stopPropagation();
+  playPixelSound("coin");
+
+  const quote = TOMATO_MASCOT_QUOTES[Math.floor(Math.random() * TOMATO_MASCOT_QUOTES.length)];
+
+  let bubble = document.getElementById("petSpeechBubble");
+  if (!bubble) {
+    bubble = document.createElement("div");
+    bubble.id = "petSpeechBubble";
+    bubble.className = "pet-speech-bubble";
+    document.body.appendChild(bubble);
+  }
+
+  const target = event ? event.currentTarget : document.querySelector(".tomato-pet-pill");
+  const rect = target ? target.getBoundingClientRect() : { top: 70, left: 200, width: 60 };
+
+  bubble.innerHTML = `
+    <div style="font-weight:800; font-size:12px; color:var(--tomato-red); margin-bottom:4px;">🍅 番茄Q酱的悄悄话：</div>
+    <div style="font-size:13.5px; line-height:1.6; color:var(--text-main);">${quote}</div>
+  `;
+
+  bubble.style.top = `${rect.top + window.scrollY + 45}px`;
+  bubble.style.left = `${Math.max(10, Math.min(window.innerWidth - 280, rect.left + window.scrollX - 40))}px`;
+  bubble.classList.add("show");
+
+  clearTimeout(bubble._hideTimer);
+  bubble._hideTimer = setTimeout(() => {
+    bubble.classList.remove("show");
+  }, 4500);
+}
+
+function showTomatoPetModal() {
+  const xp = calculatePetXP();
+  const stage = getPetCurrentStage(xp);
+  const words = typeof getLearnedWordsCount === "function" ? getLearnedWordsCount() : 0;
+  const streak = userState.streakDays || 1;
+  const tomatoes = userState.pomo ? (userState.pomo.todayTomatoes || 0) : 0;
+
+  const modal = document.getElementById("petGrowthModal");
+  if (!modal) return;
+
+  const stageIcon = document.getElementById("petModalStageIcon");
+  const stageName = document.getElementById("petModalStageName");
+  const stageDesc = document.getElementById("petModalStageDesc");
+  const totalXpEl = document.getElementById("petModalTotalXp");
+  const wordsXpEl = document.getElementById("petModalWordsXp");
+  const pomoXpEl = document.getElementById("petModalPomoXp");
+  const streakXpEl = document.getElementById("petModalStreakXp");
+  const nextXpEl = document.getElementById("petModalNextXp");
+
+  if (stageIcon) stageIcon.textContent = stage.icon;
+  if (stageName) stageName.textContent = `LV.${stage.level} 【${stage.name}】`;
+  if (stageDesc) stageDesc.textContent = stage.desc;
+  if (totalXpEl) totalXpEl.textContent = `${xp} XP`;
+  if (wordsXpEl) wordsXpEl.textContent = `+${words * 2} XP (${words}词)`;
+  if (pomoXpEl) pomoXpEl.textContent = `+${tomatoes * 15} XP (${tomatoes}番茄)`;
+  if (streakXpEl) streakXpEl.textContent = `+${streak * 20} XP (${streak}天连胜)`;
+
+  if (nextXpEl) {
+    if (stage.level >= 5) {
+      nextXpEl.textContent = "已达最高考神等级！👑";
+    } else {
+      nextXpEl.textContent = `距下一级还需 ${Math.max(0, stage.maxXP - xp)} XP`;
+    }
+  }
+
+  modal.classList.add("open");
+  playPixelSound("coin");
+}
+
+function closeTomatoPetModal() {
+  const modal = document.getElementById("petGrowthModal");
+  if (modal) modal.classList.remove("open");
+}
+
+// 4. 每日欧气 · 六级刮刮乐盲盒系统 (Lucky Vocab Scratch Card)
+let scratchCardData = null;
+
+function showLuckyScratchModal() {
+  const modal = document.getElementById("luckyScratchModal");
+  if (!modal) return;
+
+  initTodayLuckyWord();
+  modal.classList.add("open");
+  setTimeout(initScratchCanvas, 100);
+  playPixelSound("coin");
+}
+
+function closeLuckyScratchModal() {
+  const modal = document.getElementById("luckyScratchModal");
+  if (modal) modal.classList.remove("open");
+}
+
+function initTodayLuckyWord() {
+  const today = getLocalDateStr();
+  if (userState.luckyScratch && userState.luckyScratch.date === today) {
+    scratchCardData = userState.luckyScratch;
+  } else {
+    let luckyWord = {
+      word: "conquer",
+      phonetic: "/ˈkɒŋkə(r)/",
+      meaning: "v. 征服，战胜；攻克",
+      tip: "【巧记】con(全部) + quer(寻求) -> 彻底寻求征服六级！"
+    };
+
+    if (window.CET6_DATA && window.CET6_DATA.coreUnits) {
+      const allWords = [];
+      window.CET6_DATA.coreUnits.forEach(u => {
+        if (u.lessons) u.lessons.forEach(l => {
+          if (l.words) l.words.forEach(w => allWords.push(w));
+        });
+      });
+      if (allWords.length > 0) {
+        luckyWord = allWords[Math.floor(Math.random() * allWords.length)];
+      }
+    }
+
+    const prophecies = [
+      "🔥 欧气爆棚 99.8%！今日听力抓主旨题如有神助！",
+      "✨ 考神附体 100%！仔细阅读定位证据链一眼识破！",
+      "🌟 锦鲤加持 98.5%！写作高级复合句灵感泉涌！",
+      "🍅 心流大开 99.0%！背词速度翻倍，抗遗忘过目不忘！"
+    ];
+
+    scratchCardData = {
+      date: today,
+      word: luckyWord.word,
+      phonetic: luckyWord.phonetic || "",
+      meaning: luckyWord.meaning || "",
+      tip: luckyWord.tip || "核心母词，高频常考！",
+      prophecy: prophecies[Math.floor(Math.random() * prophecies.length)],
+      claimed: false
+    };
+
+    userState.luckyScratch = scratchCardData;
+    saveState();
+  }
+
+  const wordEl = document.getElementById("scratchRevealWord");
+  const phoneticEl = document.getElementById("scratchRevealPhonetic");
+  const meaningEl = document.getElementById("scratchRevealMeaning");
+  const tipEl = document.getElementById("scratchRevealTip");
+  const propEl = document.getElementById("scratchRevealProphecy");
+
+  if (wordEl) wordEl.textContent = scratchCardData.word;
+  if (phoneticEl) phoneticEl.textContent = scratchCardData.phonetic;
+  if (meaningEl) meaningEl.textContent = scratchCardData.meaning;
+  if (tipEl) tipEl.textContent = scratchCardData.tip;
+  if (propEl) propEl.textContent = scratchCardData.prophecy;
+}
+
+function initScratchCanvas() {
+  const canvas = document.getElementById("scratchSurfaceCanvas");
+  if (!canvas) return;
+
+  const w = canvas.offsetWidth || 340;
+  const h = canvas.offsetHeight || 180;
+  canvas.width = w;
+  canvas.height = h;
+
+  const ctx = canvas.getContext("2d");
+  const grad = ctx.createLinearGradient(0, 0, w, h);
+  grad.addColorStop(0, "#C5A059");
+  grad.addColorStop(0.5, "#E6C280");
+  grad.addColorStop(1, "#A67C38");
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, w, h);
+
+  ctx.fillStyle = "rgba(255, 255, 255, 0.25)";
+  for (let x = 0; x < w; x += 16) {
+    for (let y = 0; y < h; y += 16) {
+      if ((x + y) % 32 === 0) ctx.fillRect(x, y, 8, 8);
+    }
+  }
+
+  ctx.fillStyle = "#FFFFFF";
+  ctx.font = "bold 16px 'Noto Serif SC', sans-serif";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillText("🎁 手指或鼠标滑动刮开欧气 🎁", w / 2, h / 2 - 10);
+  ctx.font = "12px sans-serif";
+  ctx.fillStyle = "rgba(255, 255, 255, 0.85)";
+  ctx.fillText("揭晓今日压轴锦鲤考词与神运预言", w / 2, h / 2 + 16);
+
+  let isDrawing = false;
+  let scratchedPixels = 0;
+
+  function scratch(e) {
+    if (!isDrawing) return;
+    const rect = canvas.getBoundingClientRect();
+    const x = (e.clientX || (e.touches && e.touches[0].clientX)) - rect.left;
+    const y = (e.clientY || (e.touches && e.touches[0].clientY)) - rect.top;
+
+    ctx.globalCompositeOperation = "destination-out";
+    ctx.beginPath();
+    ctx.arc(x, y, 24, 0, Math.PI * 2);
+    ctx.fill();
+
+    scratchedPixels++;
+    if (scratchedPixels === 20) {
+      revealScratchPrize();
+    }
+  }
+
+  canvas.onmousedown = (e) => { isDrawing = true; scratch(e); };
+  window.onmouseup = () => { isDrawing = false; };
+  canvas.onmousemove = scratch;
+
+  canvas.ontouchstart = (e) => { isDrawing = true; scratch(e); };
+  canvas.ontouchend = () => { isDrawing = false; };
+  canvas.ontouchmove = scratch;
+}
+
+function revealScratchPrize() {
+  const canvas = document.getElementById("scratchSurfaceCanvas");
+  if (canvas) {
+    canvas.style.transition = "opacity 0.5s ease";
+    canvas.style.opacity = "0";
+    setTimeout(() => { canvas.style.display = "none"; }, 500);
+  }
+
+  if (scratchCardData && !scratchCardData.claimed) {
+    scratchCardData.claimed = true;
+    userState.streakFreezes = (userState.streakFreezes || 0) + 1;
+    saveState();
+    if (typeof renderStreakCalendar === "function") renderStreakCalendar();
+    triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
+    showToast("🎉 欧气大爆发！已成功获赠 1 张【能量保卫盾牌】与今日锦鲤词！");
+  } else {
+    triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
+  }
+}
+
+// 5. 30秒极速词霸大挑战竞技场 (30-Second Word Blitz Arena)
+let blitzState = {
+  active: false,
+  timeLeft: 30,
+  score: 0,
+  combo: 0,
+  maxCombo: 0,
+  currentQuestion: null,
+  timerInterval: null
+};
+
+function showWordBlitzModal() {
+  const modal = document.getElementById("wordBlitzModal");
+  if (!modal) return;
+
+  const highScoreEl = document.getElementById("blitzHighScoreText");
+  if (highScoreEl) highScoreEl.textContent = userState.blitzHighScore || 0;
+
+  document.getElementById("blitzLobbyScreen").style.display = "block";
+  document.getElementById("blitzArenaScreen").style.display = "none";
+  document.getElementById("blitzResultScreen").style.display = "none";
+
+  modal.classList.add("open");
+  playPixelSound("coin");
+}
+
+function closeWordBlitzModal() {
+  clearInterval(blitzState.timerInterval);
+  blitzState.active = false;
+  const modal = document.getElementById("wordBlitzModal");
+  if (modal) modal.classList.remove("open");
+}
+
+function startWordBlitzGame() {
+  blitzState.active = true;
+  blitzState.timeLeft = 30;
+  blitzState.score = 0;
+  blitzState.combo = 0;
+  blitzState.maxCombo = 0;
+
+  document.getElementById("blitzLobbyScreen").style.display = "none";
+  document.getElementById("blitzArenaScreen").style.display = "block";
+  document.getElementById("blitzResultScreen").style.display = "none";
+
+  updateBlitzUI();
+  generateNextBlitzQuestion();
+
+  clearInterval(blitzState.timerInterval);
+  blitzState.timerInterval = setInterval(() => {
+    blitzState.timeLeft--;
+    updateBlitzUI();
+
+    if (blitzState.timeLeft <= 0) {
+      endWordBlitzGame();
+    }
+  }, 1000);
+
+  playPixelSound("coin");
+}
+
+function updateBlitzUI() {
+  const timeEl = document.getElementById("blitzTimerNumber");
+  const timeBarEl = document.getElementById("blitzTimerBar");
+  const scoreEl = document.getElementById("blitzScoreLive");
+  const comboEl = document.getElementById("blitzComboLive");
+
+  if (timeEl) timeEl.textContent = blitzState.timeLeft;
+  if (timeBarEl) timeBarEl.style.width = `${Math.max(0, (blitzState.timeLeft / 30) * 100)}%`;
+  if (scoreEl) scoreEl.textContent = blitzState.score;
+  if (comboEl) {
+    if (blitzState.combo > 1) {
+      comboEl.textContent = `🔥 COMBO x${blitzState.combo}!`;
+      comboEl.style.display = "inline-block";
+    } else {
+      comboEl.style.display = "none";
+    }
+  }
+}
+
+function generateNextBlitzQuestion() {
+  let list = window.CET6_FLASH_DATA || [];
+  if (list.length < 5 && window.CET6_DATA && window.CET6_DATA.coreUnits) {
+    list = [];
+    window.CET6_DATA.coreUnits.forEach(u => {
+      if (u.lessons) u.lessons.forEach(l => {
+        if (l.words) l.words.forEach(w => list.push(w));
+      });
+    });
+  }
+
+  if (list.length === 0) return;
+
+  const qWord = list[Math.floor(Math.random() * list.length)];
+  let wrongWord = list[Math.floor(Math.random() * list.length)];
+  while (wrongWord.meaning === qWord.meaning) {
+    wrongWord = list[Math.floor(Math.random() * list.length)];
+  }
+
+  const isOptionACorrect = Math.random() > 0.5;
+  const optA = isOptionACorrect ? qWord.meaning : wrongWord.meaning;
+  const optB = isOptionACorrect ? wrongWord.meaning : qWord.meaning;
+
+  blitzState.currentQuestion = {
+    word: qWord.word,
+    correctMeaning: qWord.meaning,
+    optA: optA,
+    optB: optB,
+    correctChoice: isOptionACorrect ? "A" : "B"
+  };
+
+  const wordEl = document.getElementById("blitzQuestionWord");
+  const btnA = document.getElementById("blitzBtnOptA");
+  const btnB = document.getElementById("blitzBtnOptB");
+
+  if (wordEl) wordEl.textContent = qWord.word;
+  if (btnA) {
+    btnA.textContent = `A. ${optA}`;
+    btnA.className = "blitz-choice-btn";
+  }
+  if (btnB) {
+    btnB.textContent = `B. ${optB}`;
+    btnB.className = "blitz-choice-btn";
+  }
+}
+
+function handleBlitzAnswer(choice) {
+  if (!blitzState.active || !blitzState.currentQuestion) return;
+
+  const isCorrect = choice === blitzState.currentQuestion.correctChoice;
+  const btn = choice === "A" ? document.getElementById("blitzBtnOptA") : document.getElementById("blitzBtnOptB");
+
+  if (isCorrect) {
+    blitzState.combo++;
+    if (blitzState.combo > blitzState.maxCombo) {
+      blitzState.maxCombo = blitzState.combo;
+    }
+    const comboBonus = Math.min(25, (blitzState.combo - 1) * 5);
+    blitzState.score += (10 + comboBonus);
+
+    if (btn) btn.classList.add("correct-flash");
+    playPixelSound(blitzState.combo > 2 ? "combo" : "correct");
+    if (typeof recordStreakActivity === "function") recordStreakActivity(1);
+  } else {
+    blitzState.combo = 0;
+    blitzState.timeLeft = Math.max(0, blitzState.timeLeft - 2);
+    if (btn) btn.classList.add("wrong-flash");
+    playPixelSound("wrong");
+  }
+
+  updateBlitzUI();
+  setTimeout(generateNextBlitzQuestion, 180);
+}
+
+function endWordBlitzGame() {
+  clearInterval(blitzState.timerInterval);
+  blitzState.active = false;
+
+  document.getElementById("blitzArenaScreen").style.display = "none";
+  document.getElementById("blitzResultScreen").style.display = "block";
+
+  const finalScoreEl = document.getElementById("blitzFinalScore");
+  const maxComboEl = document.getElementById("blitzFinalCombo");
+  const rankStampEl = document.getElementById("blitzRankStamp");
+  const recordTipEl = document.getElementById("blitzRecordTip");
+
+  if (finalScoreEl) finalScoreEl.textContent = blitzState.score;
+  if (maxComboEl) maxComboEl.textContent = `🔥 最高连击：${blitzState.maxCombo}`;
+
+  let rank = "B";
+  let rankColor = "#2A9D8F";
+  let rankTitle = "🌱 潜力新星";
+  if (blitzState.score >= 180) { rank = "SSS"; rankColor = "#D4AF37"; rankTitle = "👑 词霸封神"; }
+  else if (blitzState.score >= 120) { rank = "S"; rankColor = "#E05A47"; rankTitle = "🍅 单词收割机"; }
+  else if (blitzState.score >= 70) { rank = "A"; rankColor = "#5B8C5A"; rankTitle = "🌿 进阶达人"; }
+
+  if (rankStampEl) {
+    rankStampEl.textContent = rank;
+    rankStampEl.style.borderColor = rankColor;
+    rankStampEl.style.color = rankColor;
+  }
+
+  const oldHigh = userState.blitzHighScore || 0;
+  if (blitzState.score > oldHigh) {
+    userState.blitzHighScore = blitzState.score;
+    saveState();
+    if (recordTipEl) recordTipEl.innerHTML = `🎉 <strong>创造全新历史最高纪录！</strong> (前纪录 ${oldHigh} 分)`;
+    triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
+  } else {
+    if (recordTipEl) recordTipEl.innerHTML = `当前历史纪录：${oldHigh} 分 ｜ 称号：${rankTitle}`;
+    playPixelSound("celebrate");
+  }
+
+  updateTomatoPetBadge();
+}
+
+// 暴露全局
+if (typeof window !== "undefined") {
+  window.playPixelSound = playPixelSound;
+  window.triggerConfettiBurst = triggerConfettiBurst;
+  window.updateTomatoPetBadge = updateTomatoPetBadge;
+  window.onTomatoPetClick = onTomatoPetClick;
+  window.showTomatoPetModal = showTomatoPetModal;
+  window.closeTomatoPetModal = closeTomatoPetModal;
+  window.showLuckyScratchModal = showLuckyScratchModal;
+  window.closeLuckyScratchModal = closeLuckyScratchModal;
+  window.revealScratchPrize = revealScratchPrize;
+  window.showWordBlitzModal = showWordBlitzModal;
+  window.closeWordBlitzModal = closeWordBlitzModal;
+  window.startWordBlitzGame = startWordBlitzGame;
+  window.handleBlitzAnswer = handleBlitzAnswer;
+}

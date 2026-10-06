@@ -3636,6 +3636,1429 @@ body.dark-mode .streak-shield-capsule {
   box-shadow: 0 4px 14px rgba(224, 90, 71, 0.22);
 }
 
+
+﻿/* ==========================================================================
+   《疯狂过六级》趣味性与互动游戏化系统样式表 (Fun & Gamification UI)
+   设计风格：极简纸质沉浸 (Zen Linen & Sage Green) + 活力番茄像素红 (Tomato Accent)
+   工程师：创意前端与动画特效工程师 Carson
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   0. 全局变量与设计规范
+   -------------------------------------------------------------------------- */
+:root {
+  --fg-font-scale: var(--font-scale, 1);
+
+  /* 基础字号衍生 */
+  --fg-fs-xs: calc(12.5px * var(--fg-font-scale));
+  --fg-fs-sm: calc(14px * var(--fg-font-scale));
+  --fg-fs-base: calc(16px * var(--fg-font-scale));
+  --fg-fs-md: calc(18px * var(--fg-font-scale));
+  --fg-fs-lg: calc(21px * var(--fg-font-scale));
+  --fg-fs-xl: calc(26px * var(--fg-font-scale));
+  --fg-fs-2xl: calc(32px * var(--fg-font-scale));
+  --fg-fs-3xl: calc(40px * var(--fg-font-scale));
+
+  /* 色彩系统 - 纸质浅色模式 (Zen Linen & Tomato) */
+  --fg-bg-canvas: var(--bg-canvas, #FAF8F5);
+  --fg-bg-surface: var(--bg-surface, #FFFFFF);
+  --fg-bg-card: var(--bg-card, #FFFFFF);
+  --fg-bg-subtle: var(--bg-subtle, #F4EFE6);
+  --fg-bg-hover: var(--bg-hover, #ECE6DA);
+
+  --fg-border: var(--border-color, #E2DAD0);
+  --fg-border-hover: var(--border-hover, #D1C5B7);
+  --fg-border-strong: var(--border-strong, #BAAA97);
+  --fg-border-gold: #ECC880;
+
+  --fg-text-main: var(--text-main, #1D2329);
+  --fg-text-body: var(--text-body, #333C48);
+  --fg-text-muted: var(--text-muted, #5E6977);
+  --fg-text-dim: var(--text-dim, #8B96A3);
+
+  /* 主题色 - 活力番茄像素红 */
+  --fg-tomato: var(--tomato-red, #D94834);
+  --fg-tomato-coral: var(--tomato-coral, #E85B46);
+  --fg-tomato-soft: var(--tomato-soft, #FDEEEB);
+  --fg-tomato-dark: var(--tomato-dark, #B53624);
+
+  /* 辅助色 - 鼠尾草绿与丰收金 */
+  --fg-sage: var(--sage-green, #376E55);
+  --fg-sage-soft: var(--sage-soft, #EBF4EF);
+  --fg-sage-border: var(--sage-border, #B7D9C7);
+  --fg-sage-dark: var(--sage-dark, #285440);
+
+  --fg-gold: var(--harvest-gold, #C07F15);
+  --fg-gold-soft: var(--harvest-soft, #FEF7E9);
+  --fg-gold-border: var(--harvest-border, #E8D3A7);
+  --fg-gold-bright: #F5A623;
+
+  /* 阴影与圆角 */
+  --fg-shadow-sm: 0 2px 10px rgba(30, 35, 42, 0.05);
+  --fg-shadow-md: 0 8px 26px -4px rgba(30, 35, 42, 0.08);
+  --fg-shadow-lg: 0 18px 48px -10px rgba(30, 35, 42, 0.14);
+  --fg-shadow-gold: 0 12px 36px -6px rgba(192, 127, 21, 0.28);
+  --fg-shadow-tomato: 0 10px 30px -4px rgba(217, 72, 52, 0.32);
+
+  --fg-radius-sm: 8px;
+  --fg-radius-md: 14px;
+  --fg-radius-lg: 20px;
+  --fg-radius-xl: 28px;
+  --fg-radius-full: 9999px;
+}
+
+/* 深色模式映射 (body.dark-mode) */
+body.dark-mode {
+  --fg-bg-canvas: #121519;
+  --fg-bg-surface: #1A1F26;
+  --fg-bg-card: #1A1F26;
+  --fg-bg-subtle: #222933;
+  --fg-bg-hover: #2B3340;
+
+  --fg-border: #2F3947;
+  --fg-border-hover: #3E4B5E;
+  --fg-border-strong: #54647C;
+  --fg-border-gold: #8C6A28;
+
+  --fg-text-main: #F0F4F8;
+  --fg-text-body: #D3DCE6;
+  --fg-text-muted: #95A3B3;
+  --fg-text-dim: #6B7887;
+
+  --fg-tomato: #FF6650;
+  --fg-tomato-coral: #FF7D6B;
+  --fg-tomato-soft: #301E1B;
+  --fg-tomato-dark: #E04E3A;
+
+  --fg-sage: #74D2A3;
+  --fg-sage-soft: #1B2E24;
+  --fg-sage-border: #2C4D3C;
+  --fg-sage-dark: #58A880;
+
+  --fg-gold: #FFB300;
+  --fg-gold-soft: #332612;
+  --fg-gold-border: #6B5120;
+  --fg-gold-bright: #FFCA28;
+
+  --fg-shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.3);
+  --fg-shadow-md: 0 8px 26px -4px rgba(0, 0, 0, 0.45);
+  --fg-shadow-lg: 0 18px 48px -10px rgba(0, 0, 0, 0.6);
+  --fg-shadow-gold: 0 12px 36px -6px rgba(255, 179, 0, 0.2);
+  --fg-shadow-tomato: 0 10px 30px -4px rgba(255, 102, 80, 0.25);
+}
+
+/* ==========================================================================
+   1. 番茄Q酱养成互动挂件 & 气泡弹窗
+   ========================================================================== */
+
+/* 挂件卡片布局 (可嵌入仪表盘或侧边栏) */
+.fg-pet-card {
+  position: relative;
+  background: var(--fg-bg-card);
+  border: 1px solid var(--fg-border);
+  border-radius: var(--fg-radius-xl);
+  padding: 24px;
+  box-shadow: var(--fg-shadow-md);
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fg-pet-card:hover {
+  border-color: var(--fg-border-hover);
+  box-shadow: var(--fg-shadow-lg);
+}
+
+/* 悬浮桌面小番茄挂件 (位于屏幕右下角) */
+.fg-pet-floating {
+  position: fixed;
+  right: 28px;
+  bottom: 32px;
+  z-index: 8888;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  pointer-events: none;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.fg-pet-floating > * {
+  pointer-events: auto;
+}
+
+.fg-pet-floating.minimized {
+  transform: translateY(calc(100% - 24px));
+  opacity: 0.85;
+}
+
+/* 番茄形象主体容器 */
+.fg-pet-avatar-wrap {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fg-pet-avatar {
+  width: 88px;
+  height: 88px;
+  transform-origin: center bottom;
+  transition: transform 0.15s ease;
+  filter: drop-shadow(0 8px 16px rgba(217, 72, 52, 0.24));
+  animation: tomatoIdle 3.2s ease-in-out infinite;
+}
+
+/* 动效：果冻弹跳 (jellyBounce) */
+.fg-pet-avatar.is-bouncing,
+.fg-anim-jelly {
+  animation: jellyBounce 0.72s cubic-bezier(0.28, 0.84, 0.42, 1) forwards !important;
+}
+
+/* 动效：开心摇摆 (happyWiggle) */
+.fg-pet-avatar.is-wiggling,
+.fg-anim-wiggle {
+  animation: happyWiggle 0.65s cubic-bezier(0.36, 0.07, 0.19, 0.97) forwards !important;
+}
+
+/* 动效：爱心飞出粒子容器与粒子 (heartFloat) */
+.fg-pet-heart-emitter {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.fg-pet-heart-particle {
+  position: absolute;
+  font-size: 20px;
+  color: #FF3366;
+  opacity: 0;
+  pointer-events: none;
+  animation: heartFloat 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* 幽默金句气泡框样式 */
+.fg-quote-bubble {
+  position: relative;
+  background: #FFFDF8;
+  border: 1.5px solid var(--fg-border-gold);
+  border-radius: var(--fg-radius-lg);
+  padding: 14px 18px;
+  box-shadow: 0 10px 28px -4px rgba(30, 35, 42, 0.1), 0 2px 8px rgba(192, 127, 21, 0.08);
+  font-size: var(--fg-fs-sm);
+  color: var(--fg-text-main);
+  line-height: 1.6;
+  max-width: 290px;
+  margin-bottom: 12px;
+  transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  backdrop-filter: blur(8px);
+}
+
+body.dark-mode .fg-quote-bubble {
+  background: #202630;
+  border-color: var(--fg-border-gold);
+  box-shadow: 0 10px 28px -4px rgba(0, 0, 0, 0.45), 0 2px 8px rgba(255, 179, 0, 0.1);
+  color: var(--fg-text-main);
+}
+
+/* 气泡指示角箭头 (指向番茄) */
+.fg-quote-bubble::after,
+.fg-quote-bubble::before {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  right: 36px;
+  border-width: 9px 8px 0 8px;
+  border-style: solid;
+  border-color: var(--fg-border-gold) transparent transparent transparent;
+  display: block;
+  width: 0;
+}
+
+.fg-quote-bubble::after {
+  bottom: -7.5px;
+  border-color: #FFFDF8 transparent transparent transparent;
+}
+
+body.dark-mode .fg-quote-bubble::after {
+  border-color: #202630 transparent transparent transparent;
+}
+
+/* 气泡头部标题与小标签 */
+.fg-bubble-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: var(--fg-fs-xs);
+  font-weight: 700;
+  color: var(--fg-tomato);
+  letter-spacing: 0.5px;
+}
+
+.fg-bubble-action {
+  font-size: 11px;
+  color: var(--fg-text-muted);
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: var(--fg-radius-sm);
+  transition: background 0.15s ease;
+}
+
+.fg-bubble-action:hover {
+  background: var(--fg-bg-subtle);
+  color: var(--fg-tomato);
+}
+
+.fg-bubble-text {
+  font-size: var(--fg-fs-sm);
+  color: var(--fg-text-body);
+  font-weight: 500;
+}
+
+/* 气泡淡出淡入过渡状态 */
+.fg-bubble-fade-in {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.fg-bubble-fade-out {
+  opacity: 0;
+  transform: translateY(8px) scale(0.96);
+  pointer-events: none;
+}
+
+/* 番茄等级成长进度条 (LV1~LV5 像素胶囊) */
+.fg-level-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fg-level-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fg-level-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--fg-tomato-soft);
+  color: var(--fg-tomato);
+  border: 1px solid rgba(217, 72, 52, 0.22);
+  padding: 4px 12px;
+  border-radius: var(--fg-radius-full);
+  font-size: var(--fg-fs-xs);
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+body.dark-mode .fg-level-badge {
+  background: rgba(255, 102, 80, 0.16);
+  border-color: rgba(255, 102, 80, 0.32);
+}
+
+.fg-exp-text {
+  font-size: var(--fg-fs-xs);
+  color: var(--fg-text-muted);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 5 阶段像素胶囊指示槽 */
+.fg-capsule-steps {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+.fg-capsule-item {
+  position: relative;
+  height: 28px;
+  background: var(--fg-bg-subtle);
+  border: 1px solid var(--fg-border);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fg-fs-xs);
+  font-weight: 700;
+  color: var(--fg-text-muted);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  overflow: hidden;
+  user-select: none;
+}
+
+.fg-capsule-item:hover {
+  border-color: var(--fg-tomato);
+  transform: translateY(-1px);
+}
+
+.fg-capsule-item.completed {
+  background: var(--fg-sage-soft);
+  border-color: var(--fg-sage-border);
+  color: var(--fg-sage);
+}
+
+body.dark-mode .fg-capsule-item.completed {
+  background: rgba(116, 210, 163, 0.16);
+  border-color: rgba(116, 210, 163, 0.35);
+  color: #74D2A3;
+}
+
+.fg-capsule-item.active {
+  background: var(--fg-tomato);
+  border-color: var(--fg-tomato-dark);
+  color: #FFFFFF;
+  box-shadow: 0 3px 10px rgba(217, 72, 52, 0.35);
+}
+
+body.dark-mode .fg-capsule-item.active {
+  background: var(--fg-tomato);
+  color: #FFFFFF;
+}
+
+/* 经验百分比渐变光效进度条 */
+.fg-exp-bar-track {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: var(--fg-bg-subtle);
+  border-radius: var(--fg-radius-full);
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.fg-exp-bar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: var(--fg-radius-full);
+  background: linear-gradient(90deg, #E85B46 0%, #D94834 60%, #FFA726 100%);
+  background-size: 200% 100%;
+  box-shadow: 0 0 12px rgba(217, 72, 52, 0.5);
+  transition: width 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation: expShimmer 2.4s linear infinite;
+}
+
+/* 喂养/互动小工具条 */
+.fg-pet-action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.fg-pet-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px;
+  font-size: var(--fg-fs-xs);
+  font-weight: 700;
+  border-radius: var(--fg-radius-md);
+  border: 1px solid var(--fg-border);
+  background: var(--fg-bg-surface);
+  color: var(--fg-text-body);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.fg-pet-btn:hover {
+  background: var(--fg-bg-hover);
+  border-color: var(--fg-border-hover);
+  transform: translateY(-1.5px);
+}
+
+.fg-pet-btn:active {
+  transform: translateY(1px) scale(0.97);
+}
+
+.fg-pet-btn.primary {
+  background: var(--fg-tomato);
+  color: #FFFFFF;
+  border-color: var(--fg-tomato-dark);
+  box-shadow: 0 4px 14px rgba(217, 72, 52, 0.28);
+}
+
+.fg-pet-btn.primary:hover {
+  background: var(--fg-tomato-coral);
+  box-shadow: 0 6px 18px rgba(217, 72, 52, 0.38);
+}
+
+
+/* ==========================================================================
+   2. 每日欧气刮刮乐海报卡片 (Daily Lucky Scratch-off)
+   ========================================================================== */
+.fg-scratch-card {
+  position: relative;
+  background: var(--fg-bg-card);
+  border: 2px solid var(--fg-border-gold);
+  border-radius: var(--fg-radius-xl);
+  padding: 28px;
+  box-shadow: var(--fg-shadow-gold);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fg-scratch-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 50px -10px rgba(192, 127, 21, 0.35);
+}
+
+/* 磨砂金边与闪烁微光效果 */
+.fg-scratch-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    transparent,
+    rgba(255, 215, 0, 0.15),
+    transparent 30%
+  );
+  animation: goldGlimmer 8s linear infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* 卡片头部 */
+.fg-scratch-header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fg-scratch-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fg-scratch-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--fg-radius-md);
+  background: linear-gradient(135deg, #FFE082, #FFB300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  box-shadow: 0 4px 12px rgba(255, 179, 0, 0.35);
+}
+
+.fg-scratch-title {
+  font-size: var(--fg-fs-lg);
+  font-weight: 800;
+  color: var(--fg-text-main);
+  letter-spacing: -0.2px;
+}
+
+.fg-scratch-subtitle {
+  font-size: var(--fg-fs-xs);
+  color: var(--fg-text-muted);
+}
+
+.fg-scratch-badge-top {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--fg-gold-soft);
+  color: var(--fg-gold);
+  border: 1px solid var(--fg-gold-border);
+  padding: 4px 10px;
+  border-radius: var(--fg-radius-full);
+  font-size: var(--fg-fs-xs);
+  font-weight: 700;
+}
+
+body.dark-mode .fg-scratch-badge-top {
+  background: rgba(255, 179, 0, 0.14);
+  border-color: rgba(255, 179, 0, 0.32);
+  color: var(--fg-gold-bright);
+}
+
+/* 卡片抽奖视口与 Canvas 涂层容器 */
+.fg-scratch-viewport {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 230px;
+  border-radius: var(--fg-radius-lg);
+  overflow: hidden;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1.5px dashed var(--fg-border-gold);
+  background: var(--fg-bg-subtle);
+  user-select: none;
+}
+
+/* 刮开后的高亮大奖区域 (底层内容) */
+.fg-scratch-prize {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background: radial-gradient(circle at center, #FFF9E6 0%, #FFF3CC 70%, #FFEAA7 100%);
+  color: #5D4037;
+  overflow: hidden;
+}
+
+body.dark-mode .fg-scratch-prize {
+  background: radial-gradient(circle at center, #2C2416 0%, #201A0E 70%, #17130A 100%);
+  color: #FFE082;
+}
+
+/* 金色徽章 “⭐ 今日考神附体” */
+.fg-prize-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #FFD54F, #FFB300, #FFA000);
+  color: #3E2723;
+  font-size: var(--fg-fs-md);
+  font-weight: 900;
+  padding: 8px 22px;
+  border-radius: var(--fg-radius-full);
+  box-shadow: 0 6px 20px rgba(255, 160, 0, 0.45);
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+  animation: prizeBadgePulse 2.4s ease-in-out infinite;
+}
+
+.fg-prize-blessing {
+  font-size: var(--fg-fs-base);
+  font-weight: 800;
+  color: #D84315;
+  margin-bottom: 6px;
+  letter-spacing: 0.2px;
+}
+
+body.dark-mode .fg-prize-blessing {
+  color: #FF8A65;
+}
+
+.fg-prize-quote {
+  font-size: var(--fg-fs-sm);
+  color: #6D4C41;
+  line-height: 1.5;
+  max-width: 320px;
+  font-weight: 500;
+}
+
+body.dark-mode .fg-prize-quote {
+  color: #D7CCC8;
+}
+
+.fg-prize-stars {
+  font-size: 16px;
+  color: #FFB300;
+  margin-top: 8px;
+  letter-spacing: 4px;
+}
+
+/* Canvas 涂层容器 */
+.fg-scratch-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Ccircle cx='14' cy='14' r='12' fill='%23FFD54F' stroke='%23C07F15' stroke-width='2'/%3E%3Ctext x='14' y='18' font-size='12' font-weight='bold' text-anchor='middle' fill='%236D4C41'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E") 14 14, crosshair;
+  transition: opacity 0.5s ease;
+  touch-action: none;
+}
+
+.fg-scratch-canvas.revealed {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* 刮奖底部操作按钮与欧气说明 */
+.fg-scratch-actions {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.fg-scratch-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 18px;
+  border-radius: var(--fg-radius-md);
+  font-size: var(--fg-fs-sm);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  border: 1px solid var(--fg-border);
+}
+
+.fg-scratch-btn.primary {
+  background: linear-gradient(135deg, #FFB300, #F57C00);
+  color: #FFFFFF;
+  border: none;
+  box-shadow: 0 4px 16px rgba(245, 124, 0, 0.35);
+}
+
+.fg-scratch-btn.primary:hover {
+  background: linear-gradient(135deg, #FFCA28, #FB8C00);
+  box-shadow: 0 6px 20px rgba(245, 124, 0, 0.45);
+  transform: translateY(-1.5px);
+}
+
+.fg-scratch-btn.secondary {
+  background: var(--fg-bg-surface);
+  color: var(--fg-text-body);
+}
+
+.fg-scratch-btn.secondary:hover {
+  background: var(--fg-bg-hover);
+  border-color: var(--fg-border-hover);
+}
+
+.fg-scratch-btn:active {
+  transform: translateY(1px) scale(0.97);
+}
+
+.fg-scratch-lore {
+  position: relative;
+  z-index: 2;
+  font-size: var(--fg-fs-xs);
+  color: var(--fg-text-muted);
+  line-height: 1.5;
+  background: var(--fg-bg-subtle);
+  border-radius: var(--fg-radius-md);
+  padding: 10px 14px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.fg-scratch-lore-icon {
+  font-size: 15px;
+  color: var(--fg-gold);
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+
+/* ==========================================================================
+   3. 30秒极速词霸大挑战竞技场 Modal (Arena Modal)
+   ========================================================================== */
+
+/* 全屏模态蒙层 */
+.fg-arena-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  background: rgba(18, 21, 25, 0.72);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.fg-arena-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* 竞技场主对话框 */
+.fg-arena-modal {
+  position: relative;
+  width: 100%;
+  max-width: 580px;
+  background: var(--fg-bg-card);
+  border: 2px solid var(--fg-border);
+  border-radius: var(--fg-radius-xl);
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  transform: scale(0.92) translateY(15px);
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.fg-arena-backdrop.active .fg-arena-modal {
+  transform: scale(1) translateY(0);
+}
+
+/* 竞技场顶部状态栏 */
+.fg-arena-header {
+  padding: 20px 24px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--fg-bg-subtle);
+  border-bottom: 1px solid var(--fg-border);
+}
+
+.fg-arena-header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.fg-arena-title {
+  font-size: var(--fg-fs-md);
+  font-weight: 800;
+  color: var(--fg-text-main);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.fg-arena-score-pill {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  font-size: var(--fg-fs-sm);
+  font-weight: 700;
+  color: var(--fg-tomato);
+  background: var(--fg-tomato-soft);
+  padding: 4px 12px;
+  border-radius: var(--fg-radius-full);
+}
+
+.fg-arena-score-num {
+  font-size: var(--fg-fs-lg);
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+}
+
+.fg-arena-close-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: var(--fg-text-muted);
+  cursor: pointer;
+  padding: 6px;
+  border-radius: var(--fg-radius-sm);
+  transition: all 0.15s ease;
+  line-height: 1;
+}
+
+.fg-arena-close-btn:hover {
+  background: var(--fg-bg-hover);
+  color: var(--fg-text-main);
+}
+
+/* 竞技场倒计时高能进度条 (timerPulse 红色高能心跳闪烁) */
+.fg-timer-container {
+  position: relative;
+  width: 100%;
+  height: 12px;
+  background: var(--fg-bg-subtle);
+  overflow: hidden;
+}
+
+.fg-timer-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #376E55, #E85B46, #D94834);
+  background-size: 200% 100%;
+  transition: width 0.1s linear;
+}
+
+/* 紧急倒计时高能脉冲状态 (最后 10 秒触发) */
+.fg-timer-bar.is-critical {
+  background: #FF1744 !important;
+  box-shadow: 0 0 16px #FF1744;
+  animation: timerPulse 0.48s ease-in-out infinite alternate !important;
+}
+
+/* 连击徽章动画 (comboPop, 伴随金色火焰外发光) */
+.fg-combo-wrap {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.fg-combo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #FFB300 0%, #FF6F00 50%, #D84315 100%);
+  color: #FFFFFF;
+  padding: 6px 20px;
+  border-radius: var(--fg-radius-full);
+  font-size: var(--fg-fs-base);
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 20px rgba(255, 143, 0, 0.75), 0 0 40px rgba(216, 67, 21, 0.4);
+  transform-origin: center center;
+  user-select: none;
+}
+
+.fg-combo-badge.is-popping {
+  animation: comboPop 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* 题目展示卡片 */
+.fg-arena-body {
+  padding: 18px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fg-question-card {
+  background: var(--fg-bg-subtle);
+  border: 1px solid var(--fg-border);
+  border-radius: var(--fg-radius-lg);
+  padding: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 140px;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.fg-question-word {
+  font-size: var(--fg-fs-2xl);
+  font-weight: 900;
+  color: var(--fg-text-main);
+  letter-spacing: -0.5px;
+}
+
+.fg-question-phonetic {
+  font-size: var(--fg-fs-sm);
+  color: var(--fg-text-muted);
+  font-family: serif, 'Times New Roman', Times;
+}
+
+.fg-question-hint {
+  font-size: var(--fg-fs-xs);
+  color: var(--fg-text-dim);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+/* A / B 两个大幅面触控按键 (移动端触控友好 + Q弹按压反馈) */
+.fg-arena-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.fg-arena-btn {
+  position: relative;
+  min-height: 84px;
+  padding: 16px 18px;
+  background: var(--fg-bg-surface);
+  border: 2px solid var(--fg-border);
+  border-radius: var(--fg-radius-lg);
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(30, 35, 42, 0.05);
+  transition: transform 0.12s cubic-bezier(0.34, 1.56, 0.64, 1),
+              background 0.15s ease,
+              border-color 0.15s ease,
+              box-shadow 0.15s ease;
+}
+
+.fg-arena-btn:hover {
+  border-color: var(--fg-tomato);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(217, 72, 52, 0.16);
+}
+
+.fg-arena-btn:active {
+  transform: scale(0.95) translateY(2px);
+}
+
+.fg-arena-btn-key {
+  font-size: var(--fg-fs-xs);
+  font-weight: 800;
+  color: var(--fg-text-dim);
+  background: var(--fg-bg-subtle);
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
+.fg-arena-btn-text {
+  font-size: var(--fg-fs-base);
+  font-weight: 700;
+  color: var(--fg-text-main);
+  line-height: 1.35;
+}
+
+/* 按钮答对/答错反馈动效 */
+.fg-arena-btn.is-correct {
+  background: var(--fg-sage-soft) !important;
+  border-color: var(--fg-sage) !important;
+  color: var(--fg-sage) !important;
+  box-shadow: 0 0 24px rgba(55, 110, 85, 0.4) !important;
+  animation: correctBounce 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.fg-arena-btn.is-wrong {
+  background: var(--fg-tomato-soft) !important;
+  border-color: var(--fg-tomato) !important;
+  color: var(--fg-tomato) !important;
+  animation: shakeWrong 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
+/* 结算画面 (Settlement Overlay) 与 S/A/B/C 评级大印章 */
+.fg-settlement-view {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  background: var(--fg-bg-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.fg-settlement-view.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* S/A/B/C 评级大印章 */
+.fg-stamp-wrap {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fg-rating-stamp {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  border: 4px dashed #D94834;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #D94834;
+  font-weight: 900;
+  transform: rotate(-12deg);
+  opacity: 0;
+  user-select: none;
+}
+
+.fg-rating-stamp.stamp-s {
+  border-color: #D94834;
+  color: #D94834;
+  box-shadow: inset 0 0 0 3px rgba(217, 72, 52, 0.2);
+}
+
+.fg-rating-stamp.stamp-a {
+  border-color: #FF8F00;
+  color: #FF8F00;
+  box-shadow: inset 0 0 0 3px rgba(255, 143, 0, 0.2);
+}
+
+.fg-rating-stamp.stamp-b {
+  border-color: #376E55;
+  color: #376E55;
+  box-shadow: inset 0 0 0 3px rgba(55, 110, 85, 0.2);
+}
+
+.fg-rating-stamp.stamp-c {
+  border-color: #5E6977;
+  color: #5E6977;
+  box-shadow: inset 0 0 0 3px rgba(94, 105, 119, 0.2);
+}
+
+.fg-rating-stamp.is-stamped {
+  animation: stampSlam 0.5s cubic-bezier(0.2, 0.9, 0.3, 1) forwards;
+}
+
+.fg-stamp-grade {
+  font-size: 58px;
+  line-height: 1;
+  font-family: Impact, Arial Black, sans-serif;
+  letter-spacing: -2px;
+}
+
+.fg-stamp-label {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* 结算战报数据网格 */
+.fg-settlement-title {
+  font-size: var(--fg-fs-xl);
+  font-weight: 900;
+  color: var(--fg-text-main);
+  margin-bottom: 4px;
+}
+
+.fg-settlement-subtitle {
+  font-size: var(--fg-fs-sm);
+  color: var(--fg-text-muted);
+  margin-bottom: 20px;
+}
+
+.fg-settlement-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  width: 100%;
+  max-width: 440px;
+  margin-bottom: 24px;
+}
+
+.fg-stat-box {
+  background: var(--fg-bg-subtle);
+  border: 1px solid var(--fg-border);
+  border-radius: var(--fg-radius-md);
+  padding: 12px 8px;
+}
+
+.fg-stat-val {
+  font-size: var(--fg-fs-xl);
+  font-weight: 900;
+  color: var(--fg-text-main);
+  font-variant-numeric: tabular-nums;
+}
+
+.fg-stat-lbl {
+  font-size: var(--fg-fs-xs);
+  color: var(--fg-text-muted);
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+/* 结算操作按键 */
+.fg-settlement-actions {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  max-width: 440px;
+}
+
+.fg-settlement-btn {
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: var(--fg-radius-md);
+  font-size: var(--fg-fs-base);
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+}
+
+.fg-settlement-btn.replay {
+  background: var(--fg-tomato);
+  color: #FFFFFF;
+  box-shadow: 0 6px 20px rgba(217, 72, 52, 0.35);
+}
+
+.fg-settlement-btn.replay:hover {
+  background: var(--fg-tomato-coral);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(217, 72, 52, 0.45);
+}
+
+.fg-settlement-btn.exit {
+  background: var(--fg-bg-subtle);
+  color: var(--fg-text-body);
+  border: 1px solid var(--fg-border);
+}
+
+.fg-settlement-btn.exit:hover {
+  background: var(--fg-bg-hover);
+}
+
+
+/* ==========================================================================
+   4. 全屏 Confetti Canvas 容器
+   ========================================================================== */
+#fg-confetti-canvas,
+.fg-confetti-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  pointer-events: none;
+  user-select: none;
+}
+
+
+/* ==========================================================================
+   5. 关键帧动画定义 (Keyframes)
+   ========================================================================== */
+
+/* 果冻弹跳动画 */
+@keyframes jellyBounce {
+  0% { transform: scale(1, 1); }
+  25% { transform: scale(1.25, 0.75); }
+  40% { transform: scale(0.78, 1.22); }
+  55% { transform: scale(1.15, 0.85); }
+  70% { transform: scale(0.92, 1.08); }
+  85% { transform: scale(1.05, 0.95); }
+  100% { transform: scale(1, 1); }
+}
+
+/* 开心摇摆动画 */
+@keyframes happyWiggle {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  15% { transform: rotate(-15deg) scale(1.08); }
+  30% { transform: rotate(13deg) scale(1.08); }
+  45% { transform: rotate(-10deg) scale(1.04); }
+  60% { transform: rotate(8deg) scale(1.02); }
+  75% { transform: rotate(-4deg); }
+}
+
+/* 爱心向上飘动粒子 */
+@keyframes heartFloat {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.4) rotate(-15deg);
+  }
+  15% {
+    opacity: 1;
+    transform: translate(var(--hx, -16px), -24px) scale(1.2) rotate(10deg);
+  }
+  75% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--hx-end, -32px), -84px) scale(0.85) rotate(var(--h-rot, -25deg));
+  }
+}
+
+/* 番茄自然呼吸微动效 */
+@keyframes tomatoIdle {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-5px) scale(1.02, 0.98);
+  }
+}
+
+/* 经验条光效流光扫射 */
+@keyframes expShimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* 磨砂金边闪烁微光 */
+@keyframes goldGlimmer {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 刮奖金色徽章轻微心跳 */
+@keyframes prizeBadgePulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 6px 20px rgba(255, 160, 0, 0.45);
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 8px 26px rgba(255, 160, 0, 0.65);
+  }
+}
+
+/* 倒计时最后阶段红色高能心跳闪烁 */
+@keyframes timerPulse {
+  0% {
+    opacity: 0.65;
+    transform: scaleY(1);
+    filter: drop-shadow(0 0 6px rgba(255, 23, 68, 0.6));
+  }
+  100% {
+    opacity: 1;
+    transform: scaleY(1.25);
+    filter: drop-shadow(0 0 16px rgba(255, 23, 68, 0.95));
+  }
+}
+
+/* 连击徽章弹出动画 */
+@keyframes comboPop {
+  0% {
+    transform: scale(0.55) rotate(-10deg);
+  }
+  45% {
+    transform: scale(1.35) rotate(7deg);
+  }
+  70% {
+    transform: scale(0.92) rotate(-3deg);
+  }
+  85% {
+    transform: scale(1.06) rotate(1deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+/* 答对轻微弹跳 */
+@keyframes correctBounce {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* 答错剧烈晃动反馈 */
+@keyframes shakeWrong {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-8px); }
+  40% { transform: translateX(8px); }
+  60% { transform: translateX(-6px); }
+  80% { transform: translateX(6px); }
+}
+
+/* 评级印章重砸动画 */
+@keyframes stampSlam {
+  0% {
+    opacity: 0;
+    transform: scale(3) rotate(-35deg);
+    filter: blur(4px);
+  }
+  55% {
+    opacity: 1;
+    transform: scale(0.9) rotate(-14deg);
+    filter: blur(0);
+  }
+  75% {
+    transform: scale(1.08) rotate(-11deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(-12deg);
+  }
+}
+
+/* 气泡平滑淡入淡出关键帧 */
+@keyframes bubbleFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* 响应式适配 (移动端竖屏) */
+@media (max-width: 640px) {
+  .fg-pet-floating {
+    right: 16px;
+    bottom: 20px;
+  }
+  
+  .fg-pet-avatar-wrap {
+    width: 80px;
+    height: 80px;
+  }
+
+  .fg-pet-avatar {
+    width: 72px;
+    height: 72px;
+  }
+
+  .fg-quote-bubble {
+    max-width: 240px;
+    font-size: var(--fg-fs-xs);
+    padding: 10px 14px;
+  }
+
+  .fg-arena-options {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .fg-arena-btn {
+    min-height: 68px;
+    padding: 12px 14px;
+  }
+
+  .fg-settlement-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fg-settlement-actions {
+    flex-direction: column;
+  }
+}
 </style>
 </head>
 <body>
@@ -3693,6 +5116,26 @@ body.dark-mode .streak-shield-capsule {
       </div>
 
       <div class="header-actions">
+
+        <!-- 趣味游戏化：番茄Q酱养成状态胶囊 -->
+        <div class="tomato-pet-pill" onclick="showTomatoPetModal()" title="点击查看番茄Q酱成长手帐与进化等级">
+          <span class="pet-icon-bounce" id="headerPetIcon" onclick="onTomatoPetClick(event)">🌱</span>
+          <span style="font-size:13px; font-weight:800; color:var(--text-main);" id="headerPetBadge">LV.1 萌芽小番茄</span>
+          <div class="pet-xp-bar-wrap">
+            <div class="pet-xp-bar-fill" id="headerPetXpBar" style="width:10%;"></div>
+          </div>
+        </div>
+
+        <!-- 每日欧气刮刮乐入口 -->
+        <button type="button" class="header-fun-btn" onclick="showLuckyScratchModal()" title="刮开今日压轴锦鲤考词与欧气预言">
+          <span>🎁</span> 欧气刮刮乐
+        </button>
+
+        <!-- 30秒极速词霸大挑战入口 -->
+        <button type="button" class="header-fun-btn" onclick="showWordBlitzModal()" title="30秒高能极速词汇反应挑战">
+          <span>⚡</span> 30秒词霸战
+        </button>
+
         <!-- 字体大小无级缩放控制器 (解决小字看花眼) -->
         <div class="font-size-widget" title="全局字体缩放 (告别小字体眼疲劳)">
           <span class="font-widget-label">🔍 字体大小：</span>
@@ -4463,6 +5906,127 @@ body.dark-mode .streak-shield-capsule {
   </div>
 
   <!-- 全局轻量 Toast 悬浮提醒容器 -->
+  
+  <!-- 1. 番茄Q酱成长手札手帐弹窗 -->
+  <div class="modal-overlay" id="petGrowthModal" onclick="if(event.target===this)closeTomatoPetModal()">
+    <div class="modal-dialog" style="max-width:440px; text-align:center;">
+      <div style="font-size:52px; margin-bottom:8px;" id="petModalStageIcon">🌱</div>
+      <h3 style="font-size:22px; font-weight:800; color:var(--text-main);" id="petModalStageName">LV.1 【萌芽小番茄】</h3>
+      <p style="font-size:14px; color:var(--text-muted); margin:6px 0 18px;" id="petModalStageDesc">刚刚破土新生，渴望六级词汇甘霖！</p>
+
+      <div style="background:var(--bg-subtle); padding:16px; border-radius:var(--radius-md); text-align:left; font-size:14px; line-height:1.8; margin-bottom:18px;">
+        <div style="display:flex; justify-content:space-between;">
+          <span>🌟 当前总成长值：</span>
+          <strong id="petModalTotalXp" style="color:var(--harvest-gold); font-size:16px;">0 XP</strong>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--text-muted);">
+          <span>• 词汇掌握积攒：</span>
+          <span id="petModalWordsXp">+0 XP</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--text-muted);">
+          <span>• 深度专注番茄：</span>
+          <span id="petModalPomoXp">+0 XP</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--text-muted);">
+          <span>• 连续打卡守卫：</span>
+          <span id="petModalStreakXp">+0 XP</span>
+        </div>
+        <div style="margin-top:8px; padding-top:8px; border-top:1px dashed var(--border-color); font-size:12.5px; color:var(--tomato-red);" id="petModalNextXp">
+          距下一级还需 100 XP
+        </div>
+      </div>
+
+      <div style="display:flex; justify-content:center; gap:12px;">
+        <button type="button" class="btn-primary" onclick="onTomatoPetClick(); closeTomatoPetModal();" style="padding:10px 20px;">🍅 听晓燕金句</button>
+        <button type="button" class="btn-secondary" onclick="closeTomatoPetModal()" style="padding:10px 18px;">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. 每日欧气 · 六级刮刮乐盲盒弹窗 -->
+  <div class="modal-overlay" id="luckyScratchModal" onclick="if(event.target===this)closeLuckyScratchModal()">
+    <div class="modal-dialog" style="max-width:440px; text-align:center;">
+      <div style="font-size:36px; margin-bottom:4px;">🎰✨</div>
+      <h3 style="font-size:22px; font-weight:800; color:var(--text-main);">每日欧气 · 六级压轴刮刮乐</h3>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:12px;">滑动涂层刮开今日锦鲤词，领考神预言与能量保卫盾牌！</p>
+
+      <div class="scratch-card-box">
+        <div class="scratch-reveal-content">
+          <div style="font-size:12px; font-weight:800; color:var(--harvest-gold); margin-bottom:4px;" id="scratchRevealProphecy">🔥 欧气爆棚 99.8%！</div>
+          <div style="font-size:24px; font-weight:900; color:var(--tomato-red);" id="scratchRevealWord">conquer</div>
+          <div style="font-size:13px; color:var(--text-muted);" id="scratchRevealPhonetic">/ˈkɒŋkə/</div>
+          <div style="font-size:14px; font-weight:700; color:var(--text-main); margin-top:4px;" id="scratchRevealMeaning">v. 征服，战胜；攻克</div>
+          <div style="font-size:12px; color:var(--sage-green); margin-top:4px;" id="scratchRevealTip">【巧记】con(全部) + quer(寻求) -> 彻底征服六级！</div>
+        </div>
+        <canvas id="scratchSurfaceCanvas"></canvas>
+      </div>
+
+      <div style="display:flex; justify-content:center; gap:12px; margin-top:16px;">
+        <button type="button" class="btn-primary" onclick="revealScratchPrize()" style="padding:10px 20px;">✨ 一键刮开</button>
+        <button type="button" class="btn-secondary" onclick="closeLuckyScratchModal()" style="padding:10px 18px;">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. 30秒极速词霸挑战竞技场弹窗 -->
+  <div class="modal-overlay" id="wordBlitzModal" onclick="if(event.target===this)closeWordBlitzModal()">
+    <div class="modal-dialog" style="max-width:480px; text-align:center;">
+      <!-- 大厅页面 -->
+      <div id="blitzLobbyScreen">
+        <div style="font-size:48px; margin-bottom:8px;">⚡🥊</div>
+        <h3 style="font-size:24px; font-weight:900; color:var(--text-main);">30秒极速词霸大挑战</h3>
+        <p style="font-size:14px; color:var(--text-muted); margin:8px 0 20px;">30秒快问快答！考验核心词瞬间反射弧，连击越高得分越炸裂！</p>
+        
+        <div style="background:var(--bg-subtle); padding:16px; border-radius:var(--radius-md); margin-bottom:20px; font-size:14px;">
+          🏆 你的历史最高纪录：<strong id="blitzHighScoreText" style="color:var(--tomato-red); font-size:18px;">0</strong> 分
+        </div>
+
+        <div style="display:flex; justify-content:center; gap:12px;">
+          <button type="button" class="btn-primary" onclick="startWordBlitzGame()" style="padding:12px 28px; font-size:16px;">🔥 开始极速挑战</button>
+          <button type="button" class="btn-secondary" onclick="closeWordBlitzModal()" style="padding:12px 20px;">稍后再战</button>
+        </div>
+      </div>
+
+      <!-- 答题对决竞技场 -->
+      <div id="blitzArenaScreen" style="display:none;">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <span style="font-size:14px; font-weight:700;">⏱️ 倒计时：<strong id="blitzTimerNumber" style="color:var(--tomato-red); font-size:18px;">30</strong>s</span>
+          <span id="blitzComboLive" style="color:var(--harvest-gold); font-weight:900; font-size:15px; display:none;">🔥 COMBO x2!</span>
+          <span style="font-size:14px; font-weight:700;">得分：<strong id="blitzScoreLive" style="color:var(--sage-green); font-size:18px;">0</strong></span>
+        </div>
+
+        <div class="blitz-timer-container">
+          <div class="blitz-timer-bar" id="blitzTimerBar" style="width:100%;"></div>
+        </div>
+
+        <div class="blitz-word-display" id="blitzQuestionWord">abandon</div>
+
+        <div class="blitz-choices-grid">
+          <button type="button" class="blitz-choice-btn" id="blitzBtnOptA" onclick="handleBlitzAnswer('A')">A. 选项加载中...</button>
+          <button type="button" class="blitz-choice-btn" id="blitzBtnOptB" onclick="handleBlitzAnswer('B')">B. 选项加载中...</button>
+        </div>
+      </div>
+
+      <!-- 结算成绩页面 -->
+      <div id="blitzResultScreen" style="display:none;">
+        <div style="font-size:36px; margin-bottom:4px;">🏁</div>
+        <h3 style="font-size:22px; font-weight:800; color:var(--text-main);">挑战结算！</h3>
+        <div class="blitz-rank-stamp" id="blitzRankStamp">S</div>
+        <div style="font-size:28px; font-weight:900; color:var(--tomato-red); margin-bottom:6px;">
+          <span id="blitzFinalScore">0</span> <span style="font-size:16px;">分</span>
+        </div>
+        <div style="font-size:14px; font-weight:700; color:var(--harvest-gold);" id="blitzFinalCombo">🔥 最高连击：0</div>
+        <p style="font-size:13.5px; color:var(--text-muted); margin:12px 0 20px;" id="blitzRecordTip"></p>
+
+        <div style="display:flex; justify-content:center; gap:12px;">
+          <button type="button" class="btn-primary" onclick="startWordBlitzGame()" style="padding:10px 22px;">🔄 再战一把</button>
+          <button type="button" class="btn-secondary" onclick="closeWordBlitzModal()" style="padding:10px 18px;">返回</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <div class="toast-container" id="toastContainer"></div>
 
   <script>
@@ -136331,6 +137895,680 @@ function handleCalendarDayClick(dateStr) {
     showToast(`✨ 补卡成功！连续打卡天数已成功拯救为 ${userState.streakDays} 天！（再次点击此日可随时撤销退盾）`);
   }
 }
+
+// --- 30. 趣味性与互动游戏化系统 ---
+
+// =========================================================================
+// 《疯狂过六级》趣味性与互动游戏化核心引擎 (Fun & Gamification Engine)
+// 包含：番茄Q酱5级成长树、8-bit复古音效合成、每日欧气刮刮乐盲盒、30秒极速词霸战、Canvas彩带
+// 架构师：游戏化与内容交互架构师 Bailey & 网站总工程师
+// =========================================================================
+
+// 1. 纯 Web Audio 8-bit 复古像素音效引擎 (零外部音频依赖，100%离线顺畅运行)
+function playPixelSound(type) {
+  try {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) return;
+    const ctx = new AudioContextClass();
+    const now = ctx.currentTime;
+
+    if (type === "coin") {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(987.77, now);
+      osc.frequency.setValueAtTime(1318.51, now + 0.08);
+      gain.gain.setValueAtTime(0.18, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.35);
+    } else if (type === "correct") {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = "triangle";
+      osc.frequency.setValueAtTime(523.25, now);
+      osc.frequency.setValueAtTime(659.25, now + 0.08);
+      osc.frequency.setValueAtTime(783.99, now + 0.16);
+      gain.gain.setValueAtTime(0.18, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.4);
+    } else if (type === "wrong") {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = "sawtooth";
+      osc.frequency.setValueAtTime(220, now);
+      osc.frequency.setValueAtTime(164.81, now + 0.12);
+      gain.gain.setValueAtTime(0.15, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.3);
+    } else if (type === "combo") {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = "sine";
+      const baseFreq = 440 + Math.min(600, (blitzState.combo || 1) * 60);
+      osc.frequency.setValueAtTime(baseFreq, now);
+      osc.frequency.exponentialRampToValueAtTime(baseFreq * 1.5, now + 0.15);
+      gain.gain.setValueAtTime(0.2, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.25);
+    } else if (type === "celebrate") {
+      const notes = [523.25, 659.25, 783.99, 1046.50];
+      notes.forEach((freq, idx) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = "triangle";
+        osc.frequency.setValueAtTime(freq, now + idx * 0.09);
+        gain.gain.setValueAtTime(0.18, now + idx * 0.09);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.09 + 0.22);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now + idx * 0.09);
+        osc.stop(now + idx * 0.09 + 0.22);
+      });
+    }
+  } catch (e) {}
+}
+
+// 2. 全屏 Canvas 七彩纸屑粒子喷泉动画 (Confetti Particle Burst)
+function triggerConfettiBurst(originX, originY) {
+  let canvas = document.getElementById("confettiCanvas");
+  if (!canvas) {
+    canvas = document.createElement("canvas");
+    canvas.id = "confettiCanvas";
+    canvas.style.position = "fixed";
+    canvas.style.top = "0";
+    canvas.style.left = "0";
+    canvas.style.width = "100vw";
+    canvas.style.height = "100vh";
+    canvas.style.pointerEvents = "none";
+    canvas.style.zIndex = "99999";
+    document.body.appendChild(canvas);
+  }
+
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  const ctx = canvas.getContext("2d");
+
+  const startX = originX || window.innerWidth / 2;
+  const startY = originY || window.innerHeight / 2;
+
+  const colors = ["#E05A47", "#5B8C5A", "#D4A373", "#F4A261", "#E76F51", "#2A9D8F", "#FFD166", "#06D6A0"];
+  const particles = [];
+  const particleCount = 80;
+
+  for (let i = 0; i < particleCount; i++) {
+    const angle = Math.random() * Math.PI * 2;
+    const speed = Math.random() * 8 + 4;
+    particles.push({
+      x: startX,
+      y: startY,
+      vx: Math.cos(angle) * speed,
+      vy: Math.sin(angle) * speed - 3,
+      size: Math.random() * 8 + 4,
+      color: colors[Math.floor(Math.random() * colors.length)],
+      rotation: Math.random() * 360,
+      vRotation: (Math.random() - 0.5) * 10,
+      alpha: 1,
+      gravity: 0.22
+    });
+  }
+
+  playPixelSound("celebrate");
+
+  let animationFrame;
+  function update() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    let alive = 0;
+
+    particles.forEach(p => {
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += p.gravity;
+      p.rotation += p.vRotation;
+      p.alpha -= 0.012;
+
+      if (p.alpha > 0) {
+        alive++;
+        ctx.save();
+        ctx.globalAlpha = Math.max(0, p.alpha);
+        ctx.translate(p.x, p.y);
+        ctx.rotate((p.rotation * Math.PI) / 180);
+        ctx.fillStyle = p.color;
+        ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+        ctx.restore();
+      }
+    });
+
+    if (alive > 0) {
+      animationFrame = requestAnimationFrame(update);
+    } else {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      cancelAnimationFrame(animationFrame);
+    }
+  }
+
+  update();
+}
+
+// 3. 番茄Q酱养成成长体系 (Tomato Pet Tamagotchi)
+const TOMATO_PET_STAGES = [
+  { level: 1, name: "萌芽小番茄", icon: "🌱", minXP: 0, maxXP: 100, desc: "刚破土新生，渴望六级词汇甘霖！" },
+  { level: 2, name: "抽枝小番茄", icon: "🌿", minXP: 100, maxXP: 300, desc: "枝繁叶茂，已掌握大量同根词汇！" },
+  { level: 3, name: "翡翠青番茄", icon: "🍏", minXP: 300, maxXP: 600, desc: "青翠茁壮，听力阅读如入无人之境！" },
+  { level: 4, name: "烈火红番茄", icon: "🍅", minXP: 600, maxXP: 1000, desc: "红润饱满，3304核心词信手拈来！" },
+  { level: 5, name: "考神博士番茄", icon: "👑", minXP: 1000, maxXP: 99999, desc: "头戴博士帽，手持晓燕魔杖，600+稳过！" }
+];
+
+const TOMATO_MASCOT_QUOTES = [
+  "“连单词都背不下来，你还怎么征服星辰大海？冲！”",
+  "“晓燕老师说了：同根派生一网打尽，六级核心词根本不用死记硬背！”",
+  "“刚才的番茄钟专注很棒！你的脑细胞正在光速建立神经连接！”",
+  "“12月12日你就是考场上做题最快、涂卡最帅的仔！”",
+  "“抗遗忘矩阵对账走起！战胜艾宾浩斯，六级高分稳稳拿捏！”",
+  "“学累了吗？快来玩一把【30秒极速词霸大挑战】给大脑热热身！”",
+  "“坚持连胜打卡，我的能量保卫盾牌时刻为你保驾护航！”",
+  "“听说今天去【欧气刮刮乐】刮卡，能抽中今日压轴锦鲤考词哦！”",
+  "“星光不问赶路人，时光不负有心人！加油！”",
+  "“核心词母词搞定，阅读理解长难句一眼就能看透谓语动词！”"
+];
+
+function calculatePetXP() {
+  const words = typeof getLearnedWordsCount === "function" ? getLearnedWordsCount() : 0;
+  const tomatoes = userState.pomo ? (userState.pomo.todayTomatoes || 0) : 0;
+  const streak = userState.streakDays || 1;
+  const blitzScore = userState.blitzHighScore || 0;
+  return (words * 2) + (tomatoes * 15) + (streak * 20) + Math.floor(blitzScore / 5);
+}
+
+function getPetCurrentStage(xp) {
+  for (let i = TOMATO_PET_STAGES.length - 1; i >= 0; i--) {
+    if (xp >= TOMATO_PET_STAGES[i].minXP) {
+      return TOMATO_PET_STAGES[i];
+    }
+  }
+  return TOMATO_PET_STAGES[0];
+}
+
+function updateTomatoPetBadge() {
+  const xp = calculatePetXP();
+  const stage = getPetCurrentStage(xp);
+
+  const badgeEl = document.getElementById("headerPetBadge");
+  const iconEl = document.getElementById("headerPetIcon");
+  const xpBarEl = document.getElementById("headerPetXpBar");
+
+  if (badgeEl) badgeEl.textContent = `LV.${stage.level} ${stage.name}`;
+  if (iconEl) iconEl.textContent = stage.icon;
+
+  if (xpBarEl) {
+    let progress = 100;
+    if (stage.level < 5) {
+      const range = stage.maxXP - stage.minXP;
+      const current = xp - stage.minXP;
+      progress = Math.min(100, Math.max(0, Math.round((current / range) * 100)));
+    }
+    xpBarEl.style.width = `${progress}%`;
+    xpBarEl.title = `经验值：${xp} XP (本级进度 ${progress}%)`;
+  }
+}
+
+function onTomatoPetClick(event) {
+  if (event) event.stopPropagation();
+  playPixelSound("coin");
+
+  const quote = TOMATO_MASCOT_QUOTES[Math.floor(Math.random() * TOMATO_MASCOT_QUOTES.length)];
+
+  let bubble = document.getElementById("petSpeechBubble");
+  if (!bubble) {
+    bubble = document.createElement("div");
+    bubble.id = "petSpeechBubble";
+    bubble.className = "pet-speech-bubble";
+    document.body.appendChild(bubble);
+  }
+
+  const target = event ? event.currentTarget : document.querySelector(".tomato-pet-pill");
+  const rect = target ? target.getBoundingClientRect() : { top: 70, left: 200, width: 60 };
+
+  bubble.innerHTML = `
+    <div style="font-weight:800; font-size:12px; color:var(--tomato-red); margin-bottom:4px;">🍅 番茄Q酱的悄悄话：</div>
+    <div style="font-size:13.5px; line-height:1.6; color:var(--text-main);">${quote}</div>
+  `;
+
+  bubble.style.top = `${rect.top + window.scrollY + 45}px`;
+  bubble.style.left = `${Math.max(10, Math.min(window.innerWidth - 280, rect.left + window.scrollX - 40))}px`;
+  bubble.classList.add("show");
+
+  clearTimeout(bubble._hideTimer);
+  bubble._hideTimer = setTimeout(() => {
+    bubble.classList.remove("show");
+  }, 4500);
+}
+
+function showTomatoPetModal() {
+  const xp = calculatePetXP();
+  const stage = getPetCurrentStage(xp);
+  const words = typeof getLearnedWordsCount === "function" ? getLearnedWordsCount() : 0;
+  const streak = userState.streakDays || 1;
+  const tomatoes = userState.pomo ? (userState.pomo.todayTomatoes || 0) : 0;
+
+  const modal = document.getElementById("petGrowthModal");
+  if (!modal) return;
+
+  const stageIcon = document.getElementById("petModalStageIcon");
+  const stageName = document.getElementById("petModalStageName");
+  const stageDesc = document.getElementById("petModalStageDesc");
+  const totalXpEl = document.getElementById("petModalTotalXp");
+  const wordsXpEl = document.getElementById("petModalWordsXp");
+  const pomoXpEl = document.getElementById("petModalPomoXp");
+  const streakXpEl = document.getElementById("petModalStreakXp");
+  const nextXpEl = document.getElementById("petModalNextXp");
+
+  if (stageIcon) stageIcon.textContent = stage.icon;
+  if (stageName) stageName.textContent = `LV.${stage.level} 【${stage.name}】`;
+  if (stageDesc) stageDesc.textContent = stage.desc;
+  if (totalXpEl) totalXpEl.textContent = `${xp} XP`;
+  if (wordsXpEl) wordsXpEl.textContent = `+${words * 2} XP (${words}词)`;
+  if (pomoXpEl) pomoXpEl.textContent = `+${tomatoes * 15} XP (${tomatoes}番茄)`;
+  if (streakXpEl) streakXpEl.textContent = `+${streak * 20} XP (${streak}天连胜)`;
+
+  if (nextXpEl) {
+    if (stage.level >= 5) {
+      nextXpEl.textContent = "已达最高考神等级！👑";
+    } else {
+      nextXpEl.textContent = `距下一级还需 ${Math.max(0, stage.maxXP - xp)} XP`;
+    }
+  }
+
+  modal.classList.add("open");
+  playPixelSound("coin");
+}
+
+function closeTomatoPetModal() {
+  const modal = document.getElementById("petGrowthModal");
+  if (modal) modal.classList.remove("open");
+}
+
+// 4. 每日欧气 · 六级刮刮乐盲盒系统 (Lucky Vocab Scratch Card)
+let scratchCardData = null;
+
+function showLuckyScratchModal() {
+  const modal = document.getElementById("luckyScratchModal");
+  if (!modal) return;
+
+  initTodayLuckyWord();
+  modal.classList.add("open");
+  setTimeout(initScratchCanvas, 100);
+  playPixelSound("coin");
+}
+
+function closeLuckyScratchModal() {
+  const modal = document.getElementById("luckyScratchModal");
+  if (modal) modal.classList.remove("open");
+}
+
+function initTodayLuckyWord() {
+  const today = getLocalDateStr();
+  if (userState.luckyScratch && userState.luckyScratch.date === today) {
+    scratchCardData = userState.luckyScratch;
+  } else {
+    let luckyWord = {
+      word: "conquer",
+      phonetic: "/ˈkɒŋkə(r)/",
+      meaning: "v. 征服，战胜；攻克",
+      tip: "【巧记】con(全部) + quer(寻求) -> 彻底寻求征服六级！"
+    };
+
+    if (window.CET6_DATA && window.CET6_DATA.coreUnits) {
+      const allWords = [];
+      window.CET6_DATA.coreUnits.forEach(u => {
+        if (u.lessons) u.lessons.forEach(l => {
+          if (l.words) l.words.forEach(w => allWords.push(w));
+        });
+      });
+      if (allWords.length > 0) {
+        luckyWord = allWords[Math.floor(Math.random() * allWords.length)];
+      }
+    }
+
+    const prophecies = [
+      "🔥 欧气爆棚 99.8%！今日听力抓主旨题如有神助！",
+      "✨ 考神附体 100%！仔细阅读定位证据链一眼识破！",
+      "🌟 锦鲤加持 98.5%！写作高级复合句灵感泉涌！",
+      "🍅 心流大开 99.0%！背词速度翻倍，抗遗忘过目不忘！"
+    ];
+
+    scratchCardData = {
+      date: today,
+      word: luckyWord.word,
+      phonetic: luckyWord.phonetic || "",
+      meaning: luckyWord.meaning || "",
+      tip: luckyWord.tip || "核心母词，高频常考！",
+      prophecy: prophecies[Math.floor(Math.random() * prophecies.length)],
+      claimed: false
+    };
+
+    userState.luckyScratch = scratchCardData;
+    saveState();
+  }
+
+  const wordEl = document.getElementById("scratchRevealWord");
+  const phoneticEl = document.getElementById("scratchRevealPhonetic");
+  const meaningEl = document.getElementById("scratchRevealMeaning");
+  const tipEl = document.getElementById("scratchRevealTip");
+  const propEl = document.getElementById("scratchRevealProphecy");
+
+  if (wordEl) wordEl.textContent = scratchCardData.word;
+  if (phoneticEl) phoneticEl.textContent = scratchCardData.phonetic;
+  if (meaningEl) meaningEl.textContent = scratchCardData.meaning;
+  if (tipEl) tipEl.textContent = scratchCardData.tip;
+  if (propEl) propEl.textContent = scratchCardData.prophecy;
+}
+
+function initScratchCanvas() {
+  const canvas = document.getElementById("scratchSurfaceCanvas");
+  if (!canvas) return;
+
+  const w = canvas.offsetWidth || 340;
+  const h = canvas.offsetHeight || 180;
+  canvas.width = w;
+  canvas.height = h;
+
+  const ctx = canvas.getContext("2d");
+  const grad = ctx.createLinearGradient(0, 0, w, h);
+  grad.addColorStop(0, "#C5A059");
+  grad.addColorStop(0.5, "#E6C280");
+  grad.addColorStop(1, "#A67C38");
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, w, h);
+
+  ctx.fillStyle = "rgba(255, 255, 255, 0.25)";
+  for (let x = 0; x < w; x += 16) {
+    for (let y = 0; y < h; y += 16) {
+      if ((x + y) % 32 === 0) ctx.fillRect(x, y, 8, 8);
+    }
+  }
+
+  ctx.fillStyle = "#FFFFFF";
+  ctx.font = "bold 16px 'Noto Serif SC', sans-serif";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillText("🎁 手指或鼠标滑动刮开欧气 🎁", w / 2, h / 2 - 10);
+  ctx.font = "12px sans-serif";
+  ctx.fillStyle = "rgba(255, 255, 255, 0.85)";
+  ctx.fillText("揭晓今日压轴锦鲤考词与神运预言", w / 2, h / 2 + 16);
+
+  let isDrawing = false;
+  let scratchedPixels = 0;
+
+  function scratch(e) {
+    if (!isDrawing) return;
+    const rect = canvas.getBoundingClientRect();
+    const x = (e.clientX || (e.touches && e.touches[0].clientX)) - rect.left;
+    const y = (e.clientY || (e.touches && e.touches[0].clientY)) - rect.top;
+
+    ctx.globalCompositeOperation = "destination-out";
+    ctx.beginPath();
+    ctx.arc(x, y, 24, 0, Math.PI * 2);
+    ctx.fill();
+
+    scratchedPixels++;
+    if (scratchedPixels === 20) {
+      revealScratchPrize();
+    }
+  }
+
+  canvas.onmousedown = (e) => { isDrawing = true; scratch(e); };
+  window.onmouseup = () => { isDrawing = false; };
+  canvas.onmousemove = scratch;
+
+  canvas.ontouchstart = (e) => { isDrawing = true; scratch(e); };
+  canvas.ontouchend = () => { isDrawing = false; };
+  canvas.ontouchmove = scratch;
+}
+
+function revealScratchPrize() {
+  const canvas = document.getElementById("scratchSurfaceCanvas");
+  if (canvas) {
+    canvas.style.transition = "opacity 0.5s ease";
+    canvas.style.opacity = "0";
+    setTimeout(() => { canvas.style.display = "none"; }, 500);
+  }
+
+  if (scratchCardData && !scratchCardData.claimed) {
+    scratchCardData.claimed = true;
+    userState.streakFreezes = (userState.streakFreezes || 0) + 1;
+    saveState();
+    if (typeof renderStreakCalendar === "function") renderStreakCalendar();
+    triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
+    showToast("🎉 欧气大爆发！已成功获赠 1 张【能量保卫盾牌】与今日锦鲤词！");
+  } else {
+    triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
+  }
+}
+
+// 5. 30秒极速词霸大挑战竞技场 (30-Second Word Blitz Arena)
+let blitzState = {
+  active: false,
+  timeLeft: 30,
+  score: 0,
+  combo: 0,
+  maxCombo: 0,
+  currentQuestion: null,
+  timerInterval: null
+};
+
+function showWordBlitzModal() {
+  const modal = document.getElementById("wordBlitzModal");
+  if (!modal) return;
+
+  const highScoreEl = document.getElementById("blitzHighScoreText");
+  if (highScoreEl) highScoreEl.textContent = userState.blitzHighScore || 0;
+
+  document.getElementById("blitzLobbyScreen").style.display = "block";
+  document.getElementById("blitzArenaScreen").style.display = "none";
+  document.getElementById("blitzResultScreen").style.display = "none";
+
+  modal.classList.add("open");
+  playPixelSound("coin");
+}
+
+function closeWordBlitzModal() {
+  clearInterval(blitzState.timerInterval);
+  blitzState.active = false;
+  const modal = document.getElementById("wordBlitzModal");
+  if (modal) modal.classList.remove("open");
+}
+
+function startWordBlitzGame() {
+  blitzState.active = true;
+  blitzState.timeLeft = 30;
+  blitzState.score = 0;
+  blitzState.combo = 0;
+  blitzState.maxCombo = 0;
+
+  document.getElementById("blitzLobbyScreen").style.display = "none";
+  document.getElementById("blitzArenaScreen").style.display = "block";
+  document.getElementById("blitzResultScreen").style.display = "none";
+
+  updateBlitzUI();
+  generateNextBlitzQuestion();
+
+  clearInterval(blitzState.timerInterval);
+  blitzState.timerInterval = setInterval(() => {
+    blitzState.timeLeft--;
+    updateBlitzUI();
+
+    if (blitzState.timeLeft <= 0) {
+      endWordBlitzGame();
+    }
+  }, 1000);
+
+  playPixelSound("coin");
+}
+
+function updateBlitzUI() {
+  const timeEl = document.getElementById("blitzTimerNumber");
+  const timeBarEl = document.getElementById("blitzTimerBar");
+  const scoreEl = document.getElementById("blitzScoreLive");
+  const comboEl = document.getElementById("blitzComboLive");
+
+  if (timeEl) timeEl.textContent = blitzState.timeLeft;
+  if (timeBarEl) timeBarEl.style.width = `${Math.max(0, (blitzState.timeLeft / 30) * 100)}%`;
+  if (scoreEl) scoreEl.textContent = blitzState.score;
+  if (comboEl) {
+    if (blitzState.combo > 1) {
+      comboEl.textContent = `🔥 COMBO x${blitzState.combo}!`;
+      comboEl.style.display = "inline-block";
+    } else {
+      comboEl.style.display = "none";
+    }
+  }
+}
+
+function generateNextBlitzQuestion() {
+  let list = window.CET6_FLASH_DATA || [];
+  if (list.length < 5 && window.CET6_DATA && window.CET6_DATA.coreUnits) {
+    list = [];
+    window.CET6_DATA.coreUnits.forEach(u => {
+      if (u.lessons) u.lessons.forEach(l => {
+        if (l.words) l.words.forEach(w => list.push(w));
+      });
+    });
+  }
+
+  if (list.length === 0) return;
+
+  const qWord = list[Math.floor(Math.random() * list.length)];
+  let wrongWord = list[Math.floor(Math.random() * list.length)];
+  while (wrongWord.meaning === qWord.meaning) {
+    wrongWord = list[Math.floor(Math.random() * list.length)];
+  }
+
+  const isOptionACorrect = Math.random() > 0.5;
+  const optA = isOptionACorrect ? qWord.meaning : wrongWord.meaning;
+  const optB = isOptionACorrect ? wrongWord.meaning : qWord.meaning;
+
+  blitzState.currentQuestion = {
+    word: qWord.word,
+    correctMeaning: qWord.meaning,
+    optA: optA,
+    optB: optB,
+    correctChoice: isOptionACorrect ? "A" : "B"
+  };
+
+  const wordEl = document.getElementById("blitzQuestionWord");
+  const btnA = document.getElementById("blitzBtnOptA");
+  const btnB = document.getElementById("blitzBtnOptB");
+
+  if (wordEl) wordEl.textContent = qWord.word;
+  if (btnA) {
+    btnA.textContent = `A. ${optA}`;
+    btnA.className = "blitz-choice-btn";
+  }
+  if (btnB) {
+    btnB.textContent = `B. ${optB}`;
+    btnB.className = "blitz-choice-btn";
+  }
+}
+
+function handleBlitzAnswer(choice) {
+  if (!blitzState.active || !blitzState.currentQuestion) return;
+
+  const isCorrect = choice === blitzState.currentQuestion.correctChoice;
+  const btn = choice === "A" ? document.getElementById("blitzBtnOptA") : document.getElementById("blitzBtnOptB");
+
+  if (isCorrect) {
+    blitzState.combo++;
+    if (blitzState.combo > blitzState.maxCombo) {
+      blitzState.maxCombo = blitzState.combo;
+    }
+    const comboBonus = Math.min(25, (blitzState.combo - 1) * 5);
+    blitzState.score += (10 + comboBonus);
+
+    if (btn) btn.classList.add("correct-flash");
+    playPixelSound(blitzState.combo > 2 ? "combo" : "correct");
+    if (typeof recordStreakActivity === "function") recordStreakActivity(1);
+  } else {
+    blitzState.combo = 0;
+    blitzState.timeLeft = Math.max(0, blitzState.timeLeft - 2);
+    if (btn) btn.classList.add("wrong-flash");
+    playPixelSound("wrong");
+  }
+
+  updateBlitzUI();
+  setTimeout(generateNextBlitzQuestion, 180);
+}
+
+function endWordBlitzGame() {
+  clearInterval(blitzState.timerInterval);
+  blitzState.active = false;
+
+  document.getElementById("blitzArenaScreen").style.display = "none";
+  document.getElementById("blitzResultScreen").style.display = "block";
+
+  const finalScoreEl = document.getElementById("blitzFinalScore");
+  const maxComboEl = document.getElementById("blitzFinalCombo");
+  const rankStampEl = document.getElementById("blitzRankStamp");
+  const recordTipEl = document.getElementById("blitzRecordTip");
+
+  if (finalScoreEl) finalScoreEl.textContent = blitzState.score;
+  if (maxComboEl) maxComboEl.textContent = `🔥 最高连击：${blitzState.maxCombo}`;
+
+  let rank = "B";
+  let rankColor = "#2A9D8F";
+  let rankTitle = "🌱 潜力新星";
+  if (blitzState.score >= 180) { rank = "SSS"; rankColor = "#D4AF37"; rankTitle = "👑 词霸封神"; }
+  else if (blitzState.score >= 120) { rank = "S"; rankColor = "#E05A47"; rankTitle = "🍅 单词收割机"; }
+  else if (blitzState.score >= 70) { rank = "A"; rankColor = "#5B8C5A"; rankTitle = "🌿 进阶达人"; }
+
+  if (rankStampEl) {
+    rankStampEl.textContent = rank;
+    rankStampEl.style.borderColor = rankColor;
+    rankStampEl.style.color = rankColor;
+  }
+
+  const oldHigh = userState.blitzHighScore || 0;
+  if (blitzState.score > oldHigh) {
+    userState.blitzHighScore = blitzState.score;
+    saveState();
+    if (recordTipEl) recordTipEl.innerHTML = `🎉 <strong>创造全新历史最高纪录！</strong> (前纪录 ${oldHigh} 分)`;
+    triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
+  } else {
+    if (recordTipEl) recordTipEl.innerHTML = `当前历史纪录：${oldHigh} 分 ｜ 称号：${rankTitle}`;
+    playPixelSound("celebrate");
+  }
+
+  updateTomatoPetBadge();
+}
+
+// 暴露全局
+if (typeof window !== "undefined") {
+  window.playPixelSound = playPixelSound;
+  window.triggerConfettiBurst = triggerConfettiBurst;
+  window.updateTomatoPetBadge = updateTomatoPetBadge;
+  window.onTomatoPetClick = onTomatoPetClick;
+  window.showTomatoPetModal = showTomatoPetModal;
+  window.closeTomatoPetModal = closeTomatoPetModal;
+  window.showLuckyScratchModal = showLuckyScratchModal;
+  window.closeLuckyScratchModal = closeLuckyScratchModal;
+  window.revealScratchPrize = revealScratchPrize;
+  window.showWordBlitzModal = showWordBlitzModal;
+  window.closeWordBlitzModal = closeWordBlitzModal;
+  window.startWordBlitzGame = startWordBlitzGame;
+  window.handleBlitzAnswer = handleBlitzAnswer;
+}
+
 </script>
 
   <!-- 全局智能撤销悬浮胶囊中枢 (支持 Ctrl+Z 一键撤回) -->
