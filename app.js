@@ -76,7 +76,13 @@ let userState = {
   streakHistory: {},
   streakFreezes: 1,
   filterDue: false,
-  searchHistory: []
+  searchHistory: [],
+  hotSearchTags: [
+    { label: "🌟 抱负", term: "ambition" },
+    { label: "📈 经济", term: "economic" },
+    { label: "🌱 生态", term: "environment" },
+    { label: "⚡ 科技", term: "technology" }
+  ]
 };
 
 // --- 1. 数据存档加载与持久化 ---
@@ -2546,19 +2552,80 @@ function closeGlobalSearchModal() {
 }
 
 // 渲染搜索历史与常考热搜词群标签
+// 渲染搜索历史与常考热搜词群标签 (支持逐项独立删除)
 function renderSearchHistoryAndTags() {
   const historyWrap = document.getElementById("searchHistoryPills");
+  const hotTagsWrap = document.getElementById("searchHotTagsPills");
   if (!historyWrap) return;
 
+  // 1. 渲染历史搜索词 (带 ✕ 删除按钮)
   const history = userState.searchHistory || [];
   if (history.length === 0) {
-    historyWrap.innerHTML = '<span style="font-size:11.5px;color:var(--text-dim);">暂无历史</span>';
-    return;
+    historyWrap.innerHTML = '<span style="font-size:11.5px;color:var(--text-dim);">无历史</span>';
+  } else {
+    historyWrap.innerHTML = history.slice(0, 6).map(term => `
+      <span class="search-tag-pill" onclick="applySearchTerm('${term.replace(/'/g, "\'")}')" title="点击填入搜索">
+        <span>${term}</span>
+        <button class="pill-del-btn" onclick="deleteSingleSearchHistory('${term.replace(/'/g, "\'")}', event)" title="删除此条历史记录">✕</button>
+      </span>
+    `).join("");
   }
 
-  historyWrap.innerHTML = history.slice(0, 6).map(term => `
-    <span class="search-tag-pill" onclick="applySearchTerm('${term.replace(/'/g, "\\'")}')">${term}</span>
-  `).join("");
+  // 2. 渲染常考词群标签 (带 ✕ 删除与重置能力)
+  if (hotTagsWrap) {
+    if (!userState.hotSearchTags) {
+      userState.hotSearchTags = [
+        { label: "🌟 抱负", term: "ambition" },
+        { label: "📈 经济", term: "economic" },
+        { label: "🌱 生态", term: "environment" },
+        { label: "⚡ 科技", term: "technology" }
+      ];
+    }
+    const tags = userState.hotSearchTags;
+    if (tags.length === 0) {
+      hotTagsWrap.innerHTML = '<button class="btn-secondary" onclick="resetDefaultHotTags()" style="padding:1px 6px; font-size:11px; border-radius:4px;">🔄 恢复预设词群</button>';
+    } else {
+      hotTagsWrap.innerHTML = tags.map((t, idx) => `
+        <span class="search-tag-pill" onclick="applySearchTerm('${t.term.replace(/'/g, "\'")}')" title="点击搜索该词群核心词">
+          <span>${t.label}</span>
+          <button class="pill-del-btn" onclick="deleteHotSearchTag(${idx}, event)" title="移除此词群标签">✕</button>
+        </span>
+      `).join("");
+    }
+  }
+}
+
+// 单条删除历史搜索词
+function deleteSingleSearchHistory(term, e) {
+  if (e) e.stopPropagation();
+  if (!userState.searchHistory) return;
+  userState.searchHistory = userState.searchHistory.filter(t => t !== term);
+  saveState();
+  renderSearchHistoryAndTags();
+  showToast(`🗑️ 已移除搜索词：“${term}”`);
+}
+
+// 单条删除常考词群标签
+function deleteHotSearchTag(idx, e) {
+  if (e) e.stopPropagation();
+  if (!userState.hotSearchTags) return;
+  const removed = userState.hotSearchTags.splice(idx, 1);
+  saveState();
+  renderSearchHistoryAndTags();
+  showToast(`🗑️ 已移除词群标签：“${removed[0] ? removed[0].label : ""}”`);
+}
+
+// 恢复默认预设常考词群标签
+function resetDefaultHotTags() {
+  userState.hotSearchTags = [
+    { label: "🌟 抱负", term: "ambition" },
+    { label: "📈 经济", term: "economic" },
+    { label: "🌱 生态", term: "environment" },
+    { label: "⚡ 科技", term: "technology" }
+  ];
+  saveState();
+  renderSearchHistoryAndTags();
+  showToast("✨ 已恢复默认常考词群标签！");
 }
 
 function applySearchTerm(term) {

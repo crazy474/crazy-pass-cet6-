@@ -619,15 +619,11 @@
 
       <!-- 搜索辅助与历史条 -->
       <div class="search-meta-bar">
-        <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+        <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
           <span style="font-size:12px; font-weight:700; color:var(--text-muted);">历史与常考词群：</span>
           <div class="search-tag-pills" id="searchHistoryPills"></div>
-          <div class="search-tag-pills">
-            <span class="search-tag-pill" onclick="applySearchTerm('ambition')">🌟 抱负</span>
-            <span class="search-tag-pill" onclick="applySearchTerm('economic')">📈 经济</span>
-            <span class="search-tag-pill" onclick="applySearchTerm('environment')">🌱 生态</span>
-            <span class="search-tag-pill" onclick="applySearchTerm('technology')">⚡ 科技</span>
-          </div>
+          <div class="search-tag-pills" id="searchHotTagsPills"></div>
+          <button class="btn-secondary" onclick="clearSearchHistory()" style="padding:1px 6px; font-size:11px; border-radius:4px; color:var(--tomato-red);" title="清空全部历史记录">🗑️ 清空历史</button>
         </div>
         <div style="font-size:12px; font-weight:700; color:var(--text-dim);" id="searchResultCountDisplay">
           输入英汉关键词搜索
