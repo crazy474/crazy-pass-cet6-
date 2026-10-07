@@ -5477,3 +5477,54 @@ body.dark-mode .blitz-recommend-card {
   font-size: 32px;
   animation: petHeartBeat 2.5s infinite ease-in-out;
 }
+
+
+
+/* 30秒极速词霸大挑战 移动端与平板自适应超宽容适配 */
+@media (max-width: 680px) {
+  .blitz-large-dialog {
+    max-width: 96vw !important;
+    width: 96vw !important;
+    padding: 22px 16px !important;
+    min-height: auto !important;
+    border-radius: 18px !important;
+  }
+  .blitz-word-display {
+    font-size: 34px !important;
+    letter-spacing: 0.5px !important;
+  }
+  .blitz-stats-banner {
+    flex-direction: column !important;
+    gap: 12px !important;
+    padding: 14px 16px !important;
+  }
+  .blitz-choice-card {
+    min-height: 66px !important;
+    padding: 14px 16px !important;
+    gap: 12px !important;
+  }
+  .blitz-opt-badge {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 14px !important;
+  }
+  .blitz-opt-text {
+    font-size: 16px !important;
+  }
+  .blitz-arena-header {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .blitz-timer-pill, .blitz-score-pill {
+    padding: 4px 10px !important;
+  }
+  .blitz-timer-pill strong, .blitz-score-pill strong {
+    font-size: 24px !important;
+  }
+}
+
+/* 全站焦点可访问性增强 (A11y focus-visible) */
+button:focus-visible, a:focus-visible, input:focus-visible {
+  outline: 2px solid var(--tomato-red) !important;
+  outline-offset: 2px !important;
+}

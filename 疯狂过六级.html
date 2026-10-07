@@ -5488,6 +5488,57 @@ body.dark-mode .blitz-recommend-card {
   animation: petHeartBeat 2.5s infinite ease-in-out;
 }
 
+
+
+/* 30秒极速词霸大挑战 移动端与平板自适应超宽容适配 */
+@media (max-width: 680px) {
+  .blitz-large-dialog {
+    max-width: 96vw !important;
+    width: 96vw !important;
+    padding: 22px 16px !important;
+    min-height: auto !important;
+    border-radius: 18px !important;
+  }
+  .blitz-word-display {
+    font-size: 34px !important;
+    letter-spacing: 0.5px !important;
+  }
+  .blitz-stats-banner {
+    flex-direction: column !important;
+    gap: 12px !important;
+    padding: 14px 16px !important;
+  }
+  .blitz-choice-card {
+    min-height: 66px !important;
+    padding: 14px 16px !important;
+    gap: 12px !important;
+  }
+  .blitz-opt-badge {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 14px !important;
+  }
+  .blitz-opt-text {
+    font-size: 16px !important;
+  }
+  .blitz-arena-header {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .blitz-timer-pill, .blitz-score-pill {
+    padding: 4px 10px !important;
+  }
+  .blitz-timer-pill strong, .blitz-score-pill strong {
+    font-size: 24px !important;
+  }
+}
+
+/* 全站焦点可访问性增强 (A11y focus-visible) */
+button:focus-visible, a:focus-visible, input:focus-visible {
+  outline: 2px solid var(--tomato-red) !important;
+  outline-offset: 2px !important;
+}
+
 </style>
 </head>
 <body>
@@ -135288,7 +135339,9 @@ function switchTab(tabId) {
   if (tabId === "planner") renderPlannerSection();
   if (tabId === "backup") renderBackupSection();
 
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  if (typeof window !== "undefined" && typeof window.scrollTo === "function") {
+    try { window.scrollTo({ top: 0, behavior: "smooth" }); } catch (e) { try { window.scrollTo(0, 0); } catch(e2){} }
+  }
   saveState();
 }
 
@@ -136579,18 +136632,28 @@ function initExamCountdown() {
   setInterval(update, 1000);
 }
 
-window.addEventListener("DOMContentLoaded", () => {
-  loadState();
-  setFontScale(userState.fontScale || 1.0);
-  if (userState.darkMode) document.body.classList.add("dark-mode");
-  switchTab(userState.currentTab || "pomodoro");
-  updatePomoDisplay();
-  initExamCountdown();
-  checkMidnightCatchUp();
-  scheduleMidnightAutoBackup();
-  setInterval(checkScheduledReminders, 30000);
-  checkScheduledReminders();
-});
+function initApp() {
+  try { loadState(); } catch (e) { console.warn("loadState warning:", e); }
+  try { setFontScale(userState.fontScale || 1.0); } catch (e) { console.warn("setFontScale warning:", e); }
+  try { if (userState.darkMode && document.body && document.body.classList) document.body.classList.add("dark-mode"); } catch (e) {}
+  try { switchTab(userState.currentTab || "pomodoro"); } catch (e) { console.warn("switchTab warning:", e); }
+  try { updatePomoDisplay(); } catch (e) { console.warn("updatePomoDisplay warning:", e); }
+  try { initExamCountdown(); } catch (e) { console.warn("initExamCountdown warning:", e); }
+  try { checkMidnightCatchUp(); } catch (e) {}
+  try { scheduleMidnightAutoBackup(); } catch (e) {}
+  try { setInterval(checkScheduledReminders, 30000); checkScheduledReminders(); } catch (e) {}
+  try { if (typeof updateTomatoPetBadge === "function") updateTomatoPetBadge(); } catch (e) {}
+  try { if (typeof updateHeaderBlitzBadge === "function") updateHeaderBlitzBadge(); } catch (e) {}
+}
+
+if (typeof window !== "undefined") {
+  window.initApp = initApp;
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initApp);
+  } else {
+    initApp();
+  }
+}
 
 
 // --- 21. 可爱番茄 Q 版像素人互动引擎 ---
@@ -137770,12 +137833,25 @@ function openGlobalSearchModal(initialQuery = "") {
   renderSearchResults(input.value);
 
   setTimeout(() => {
-    input.focus();
-    input.select();
+    try {
+      if (input && typeof input.focus === "function") input.focus();
+      if (input && typeof input.select === "function") input.select();
+    } catch (e) {}
   }, 50);
 }
 
 // 关闭 Spotlight 搜索弹窗
+
+// 全局搜索弹窗函数双向别名与 window 挂载
+const openGlobalSearch = openGlobalSearchModal;
+const closeGlobalSearch = closeGlobalSearchModal;
+if (typeof window !== "undefined") {
+  window.openGlobalSearchModal = openGlobalSearchModal;
+  window.openGlobalSearch = openGlobalSearchModal;
+  window.closeGlobalSearchModal = closeGlobalSearchModal;
+  window.closeGlobalSearch = closeGlobalSearchModal;
+}
+
 function closeGlobalSearchModal() {
   const modal = document.getElementById("globalSearchModal");
   if (modal) modal.classList.remove("open");
@@ -138000,7 +138076,7 @@ function jumpToWordUnit(unitNum, lessonNum, wordId) {
   setTimeout(() => {
     const card = document.getElementById(`card_${wordId}`);
     if (card) {
-      card.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (card && typeof card.scrollIntoView === "function") { try { card.scrollIntoView({ behavior: "smooth", block: "center" }); } catch(e){ card.scrollIntoView(); } }
       card.classList.remove("search-pulse-focus");
       void card.offsetWidth; // 触发 reflow
       card.classList.add("search-pulse-focus");
@@ -138045,7 +138121,7 @@ function updateFocusedResultItem() {
   document.querySelectorAll(".search-result-item").forEach((el, i) => {
     el.classList.toggle("active-focused", i === currentFocusedResultIdx);
     if (i === currentFocusedResultIdx) {
-      el.scrollIntoView({ block: "nearest" });
+      if (el && typeof el.scrollIntoView === "function") { try { el.scrollIntoView({ block: "nearest" }); } catch(e){} }
     }
   });
 }
@@ -138480,11 +138556,26 @@ function handleCalendarDayClick(dateStr) {
 // =========================================================================
 
 // 1. 纯 Web Audio 8-bit 复古像素音效引擎 (零外部音频依赖，100%离线顺畅运行)
+let sharedPixelAudioCtx = null;
+function getSharedAudioContext() {
+  try {
+    if (!sharedPixelAudioCtx) {
+      const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+      if (AudioContextClass) sharedPixelAudioCtx = new AudioContextClass();
+    }
+    if (sharedPixelAudioCtx && sharedPixelAudioCtx.state === "suspended") {
+      sharedPixelAudioCtx.resume().catch(() => {});
+    }
+    return sharedPixelAudioCtx;
+  } catch (e) {
+    return null;
+  }
+}
+
 function playPixelSound(type) {
   try {
-    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContextClass) return;
-    const ctx = new AudioContextClass();
+    const ctx = getSharedAudioContext();
+    if (!ctx) return;
     const now = ctx.currentTime;
 
     if (type === "coin") {
@@ -138568,83 +138659,96 @@ function playPixelSound(type) {
 
 // 2. 全屏 Canvas 七彩纸屑粒子喷泉动画 (Confetti Particle Burst)
 function triggerConfettiBurst(originX, originY) {
-  let canvas = document.getElementById("confettiCanvas");
-  if (!canvas) {
-    canvas = document.createElement("canvas");
-    canvas.id = "confettiCanvas";
-    canvas.style.position = "fixed";
-    canvas.style.top = "0";
-    canvas.style.left = "0";
-    canvas.style.width = "100vw";
-    canvas.style.height = "100vh";
-    canvas.style.pointerEvents = "none";
-    canvas.style.zIndex = "99999";
-    document.body.appendChild(canvas);
-  }
-
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-  const ctx = canvas.getContext("2d");
-
-  const startX = originX || window.innerWidth / 2;
-  const startY = originY || window.innerHeight / 2;
-
-  const colors = ["#E05A47", "#5B8C5A", "#D4A373", "#F4A261", "#E76F51", "#2A9D8F", "#FFD166", "#06D6A0"];
-  const particles = [];
-  const particleCount = 80;
-
-  for (let i = 0; i < particleCount; i++) {
-    const angle = Math.random() * Math.PI * 2;
-    const speed = Math.random() * 8 + 4;
-    particles.push({
-      x: startX,
-      y: startY,
-      vx: Math.cos(angle) * speed,
-      vy: Math.sin(angle) * speed - 3,
-      size: Math.random() * 8 + 4,
-      color: colors[Math.floor(Math.random() * colors.length)],
-      rotation: Math.random() * 360,
-      vRotation: (Math.random() - 0.5) * 10,
-      alpha: 1,
-      gravity: 0.22
-    });
-  }
-
-  playPixelSound("celebrate");
-
-  let animationFrame;
-  function update() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    let alive = 0;
-
-    particles.forEach(p => {
-      p.x += p.vx;
-      p.y += p.vy;
-      p.vy += p.gravity;
-      p.rotation += p.vRotation;
-      p.alpha -= 0.012;
-
-      if (p.alpha > 0) {
-        alive++;
-        ctx.save();
-        ctx.globalAlpha = Math.max(0, p.alpha);
-        ctx.translate(p.x, p.y);
-        ctx.rotate((p.rotation * Math.PI) / 180);
-        ctx.fillStyle = p.color;
-        ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
-        ctx.restore();
+  try {
+    let canvas = document.getElementById("confettiCanvas");
+    if (!canvas) {
+      canvas = document.createElement("canvas");
+      canvas.id = "confettiCanvas";
+      canvas.style.position = "fixed";
+      canvas.style.top = "0";
+      canvas.style.left = "0";
+      canvas.style.width = "100vw";
+      canvas.style.height = "100vh";
+      canvas.style.pointerEvents = "none";
+      canvas.style.zIndex = "99999";
+      if (document.body && typeof document.body.appendChild === "function") {
+        document.body.appendChild(canvas);
       }
-    });
-
-    if (alive > 0) {
-      animationFrame = requestAnimationFrame(update);
-    } else {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      cancelAnimationFrame(animationFrame);
     }
-  }
 
-  update();
+    if (!canvas || typeof canvas.getContext !== "function") return;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    canvas.width = window.innerWidth || 1440;
+    canvas.height = window.innerHeight || 900;
+
+    const startX = originX || (canvas.width / 2);
+    const startY = originY || (canvas.height / 2);
+
+    const colors = ["#E05A47", "#5B8C5A", "#D4A373", "#F4A261", "#E76F51", "#2A9D8F", "#FFD166", "#06D6A0"];
+    const particles = [];
+    const particleCount = 70;
+
+    for (let i = 0; i < particleCount; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const speed = Math.random() * 8 + 4;
+      particles.push({
+        x: startX,
+        y: startY,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed - 3,
+        size: Math.random() * 8 + 4,
+        color: colors[Math.floor(Math.random() * colors.length)],
+        rotation: Math.random() * 360,
+        vRotation: (Math.random() - 0.5) * 10,
+        alpha: 1,
+        gravity: 0.22
+      });
+    }
+
+    if (typeof playPixelSound === "function") playPixelSound("celebrate");
+
+    let animationFrame;
+    function update() {
+      try {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        let alive = 0;
+
+        particles.forEach(p => {
+          p.x += p.vx;
+          p.y += p.vy;
+          p.vy += p.gravity;
+          p.rotation += p.vRotation;
+          p.alpha -= 0.012;
+
+          if (p.alpha > 0) {
+            alive++;
+            ctx.save();
+            ctx.globalAlpha = Math.max(0, p.alpha);
+            ctx.translate(p.x, p.y);
+            ctx.rotate((p.rotation * Math.PI) / 180);
+            ctx.fillStyle = p.color;
+            ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+            ctx.restore();
+          }
+        });
+
+        if (alive > 0 && typeof window.requestAnimationFrame === "function") {
+          animationFrame = window.requestAnimationFrame(update);
+        } else {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          if (typeof window.cancelAnimationFrame === "function") {
+            window.cancelAnimationFrame(animationFrame);
+          }
+        }
+      } catch (errLoop) {}
+    }
+
+    update();
+  } catch (errBurst) {
+    console.warn("triggerConfettiBurst fallback warning:", errBurst);
+  }
 }
 
 // 3. 番茄Q酱养成成长体系 (Tomato Pet Tamagotchi)
@@ -138908,7 +139012,9 @@ function generateNextBlitzQuestion() {
 
   const qWord = list[Math.floor(Math.random() * list.length)];
   let wrongWord = list[Math.floor(Math.random() * list.length)];
-  while (wrongWord.meaning === qWord.meaning) {
+  let searchTries = 0;
+  while (wrongWord.meaning === qWord.meaning && searchTries < 25) {
+    searchTries++;
     wrongWord = list[Math.floor(Math.random() * list.length)];
   }
 
