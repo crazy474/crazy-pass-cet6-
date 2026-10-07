@@ -137887,7 +137887,7 @@ function clearSearchHistory() {
 // 关键词高亮辅助函数
 function highlightText(text, query) {
   if (!query || !text) return text || "";
-  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, "\\<script src="app.js"></script>");
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const regex = new RegExp(`(${escaped})`, "gi");
   return text.replace(regex, '<mark class="search-highlight">$1</mark>');
 }
