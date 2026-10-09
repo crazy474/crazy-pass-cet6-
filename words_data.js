@@ -1,7 +1,3 @@
-// ==========================================================================
-// 疯狂过六级 · 极速通关特训站 (Crazy Pass CET-6) (全量核心词及闪过卡知识库 · 纯正名师巧记深度校准版)
-// 包含：刘晓艳名师核心词权威巧记秘籍 (谐音/联想/构词/对照) 100%全覆盖入库 (消除所有识别杂质)
-// ==========================================================================
 window.CET6_DATA = {
   "coreUnits": [
     {
@@ -130,7 +126,7 @@ window.CET6_DATA = {
               "highlight": "n.议会",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ment（名词后缀，表动作或结果）→ 掌握其六级同根派生变换",
+              "tip": "parl(谈话，商议，联想parley) + -ia- + -ment(名词后缀) → 众人坐在一起商议国家大事的机构 → n.议会，国会",
               "derivations": []
             },
             {
@@ -206,7 +202,7 @@ window.CET6_DATA = {
               "highlight": "adj.突出的",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "pro-（提前）+minent（联想eminent）→",
+              "tip": "pro-(向前) + min(伸出，突出) + -ent(形容词后缀) → 向前挺拔突出显眼 → adj.突出的；卓越的，著名的；重要的",
               "derivations": [
                 {
                   "word": "prominence",
@@ -243,7 +239,7 @@ window.CET6_DATA = {
               "highlight": "n.言论",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(一再，反复) + mark(标记，留意) → 反复标记值得注意的事物并加以谈论 → n.言论；评论 v.谈到；评论",
               "derivations": [
                 {
                   "word": "remarkable",
@@ -304,7 +300,7 @@ window.CET6_DATA = {
               "highlight": "adj.明亮的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "brill-(发光，闪耀) + -iant(形容词后缀) → 闪耀着才华横溢光芒的 → adj.明亮的；巧妙的；聪颖的；卓越的",
               "derivations": [
                 {
                   "word": "brilliance",
@@ -339,7 +335,7 @@ window.CET6_DATA = {
               "highlight": "adj.极好的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "联想grandfather和grandmother一 祖父母比父母的辈分大→宏大的；极好的",
+              "tip": "terr-(使害怕，震惊) + -ific(造成...的) → 震撼到极致让人大呼过瘾的 → adj.极好的；了不起的；巨大的",
               "derivations": [],
               "example_en": "I've got a terrific amount of work to do. 17. grand/graend/ She attended the supermarket's grand opening",
               "example_cn": "我有大 量的工作要做。 adj.壮丽的，堂皇的；宏大的；极好的 ceremony.她参加了超市盛大的开业典礼。"
@@ -397,7 +393,7 @@ window.CET6_DATA = {
               "highlight": "v.放大",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -fy（动词后缀，表使成为）→ 掌握其六级同根派生变换",
+              "tip": "magni-(大，宏大) + -fy(使...化，动词后缀) → 使某物视觉或分量变大 → v.放大，扩大；增强；夸大",
               "derivations": []
             },
             {
@@ -438,7 +434,7 @@ window.CET6_DATA = {
               "highlight": "adj.典范的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "example(榜样，例子) + -ary(形容词后缀) → 足以作为典范模范榜样的 → adj.典范的，可作榜样的",
               "derivations": [
                 {
                   "word": "exemplify",
@@ -458,7 +454,7 @@ window.CET6_DATA = {
               "highlight": "n.例子",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -ance（名词后缀，表性质或状态）→ n.例子",
+              "tip": "in-(向内) + st(站立) + -ance(名词后缀) → 站在当下眼前的具体情境与事例 → n.例子，事例 v.举...为例",
               "derivations": []
             },
             {
@@ -471,7 +467,7 @@ window.CET6_DATA = {
               "highlight": "adj.巨大的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "re-（重复）+mark（标记）→重复标记 谈到；评论",
+              "tip": "tre-(颤抖，震颤) + mend(巨大) + -ous(形容词后缀) → 庞大到令人震颤的 → adj.巨大的，极大的；极好的",
               "derivations": []
             },
             {
@@ -484,7 +480,7 @@ window.CET6_DATA = {
               "highlight": "/kou'dinat/ n.坐标",
               "freq": 2,
               "tip_type": "对照",
-              "tip": "普通的（ordinary）我们需要努力协调 to his subordinates.他因将责任推卸给下属而受到",
+              "tip": "co-(共同) + ordin(次序，顺序) + -ate(动词后缀) → 使各部门步调处于统一次序中 → v.使协调；使相互配合 n.坐标；套装",
               "derivations": [
                 {
                   "word": "coordination",
@@ -512,7 +508,7 @@ window.CET6_DATA = {
               "highlight": "/eupcq,es / n.下属 v.把..置于次要地位",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sub-(在...下方，次要) + ordin(次序，等级) + -ate → 处于次要等级从属地位的人 → n.下属 adj.下级的，次要的 v.使从属于",
               "derivations": [
                 {
                   "word": "subordination",
@@ -532,7 +528,7 @@ window.CET6_DATA = {
               "highlight": "adj.普通的 n.常见的事",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "common（普通的）+place（地方）→ 常见的事；普通的 清醒知趣，保持自信。/005",
+              "tip": "common(平常的) + place(地方) → 在任何平常地方随处可见的事物 → adj.普通的，平庸的 n.常见的事；老生常谈",
               "derivations": []
             }
           ]
@@ -607,7 +603,7 @@ window.CET6_DATA = {
               "highlight": "v.冲浪",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "源自海浪涌动(surge) → 在汹涌波浪表面疾驰滑行 → v.冲浪；网上漫游 n.激浪，碎浪",
               "derivations": [
                 {
                   "word": "surfing",
@@ -737,7 +733,7 @@ window.CET6_DATA = {
               "highlight": "0.承认",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "excced(超过）+-ing（形容词后级）+",
+              "tip": "con-(共同) + cede(走，让步) → 谈判双方各自往后退让一步 → v.承认；让步，妥协",
               "derivations": [
                 {
                   "word": "concession",
@@ -789,7 +785,7 @@ window.CET6_DATA = {
               "highlight": "n.连续的人（或事物）",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sub-(在...之后) + cess(走) + -ion(名词后缀) → 一个接一个按次序接着走来 → n.连续，一连串；继任，接替",
               "derivations": [
                 {
                   "word": "successive",
@@ -848,7 +844,7 @@ window.CET6_DATA = {
               "highlight": "adj.过多的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "excess（过度）+-ive（形容词后级）→ 过多的，过度的 每日自省，持续进步。/007",
+              "tip": "ex-(超出) + cess(走) + -ive(形容词后缀) → 走出合理界限范围之外的 → adj.过多的，过度的，极度的",
               "derivations": []
             },
             {
@@ -1105,7 +1101,7 @@ window.CET6_DATA = {
               "highlight": "n.子女",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "off（从……离开）+spring（春天）→ 春天脱离母体，孕育出来的生命→后代；幼崽 心有所期，全力以赴。 /009",
+              "tip": "off-(脱离，离开) + spring(泉水涌现，春天萌发) → 脱离母体萌发出的后代骨肉 → n.子女；后代；幼崽",
               "derivations": []
             },
             {
@@ -1118,7 +1114,7 @@ window.CET6_DATA = {
               "highlight": "v.继承（遗产）",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "in-(向内) + herit(继承，遗产，联想heir继承人) → 接受家族内部传下的遗产 → v.继承(遗产)；经遗传获得；接替",
               "derivations": [
                 {
                   "word": "inheritance",
@@ -1273,7 +1269,7 @@ window.CET6_DATA = {
               "highlight": "n.体裁",
               "freq": 2,
               "tip_type": "对照",
-              "tip": "这两种小花的基因（gene)一样，属于 构词de-(往下，偏离）+generate(产生）→ 同一种类型（genre)。 向下产生，偏离常态→使退化；恶化",
+              "tip": "gen-(产生，种类，同源gene基因) + -re → 具有同源特征的艺术流派与分类 → n.体裁；类型，艺术风格",
               "derivations": [],
               "example_en": "Jazz is an incredibly rich genre.",
               "example_cn": "爵士乐是一种 His health degenerated quickly.他的健康状况迅 非常丰富的音乐类型。 速恶化。"
@@ -1308,7 +1304,7 @@ window.CET6_DATA = {
               "highlight": "adj.同种类的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ous（形容词后缀，表充满...的）→ 掌握其六级同根派生变换",
+              "tip": "homo-(相同) + gen-(种类) + -eous(形容词后缀) → 属于完全同一种类性质的 → adj.同种类的，同质的",
               "derivations": []
             },
             {
@@ -1341,7 +1337,7 @@ window.CET6_DATA = {
               "highlight": "v.恶化",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“基因”。",
+              "tip": "de-(向下，恶化) + terior(更坏，联想inferior) + -ate → 一路往更坏的方向滑落 → v.恶化，退化，变坏",
               "derivations": [
                 {
                   "word": "deterioration",
@@ -1527,7 +1523,7 @@ window.CET6_DATA = {
               "highlight": "n.惊慌",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "谐音“怕呢客” → 遭遇突发危险客人吓得惊慌失措 → n.惊慌，恐慌 v.(使)恐慌",
               "derivations": []
             },
             {
@@ -1540,7 +1536,7 @@ window.CET6_DATA = {
               "highlight": "v.制止",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "de-(离开) + ter(=terr，恐吓，害怕) → 用严惩威慑使人不敢上前 → v.制止，阻止；威慑，阻吓",
               "derivations": [
                 {
                   "word": "deterrent",
@@ -1575,7 +1571,7 @@ window.CET6_DATA = {
               "highlight": "n.小心",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "联想/谐音“考深” → 考试考得深，做题必须格外小心谨慎 → n.小心，谨慎；警告 v.警告",
               "derivations": [
                 {
                   "word": "cautious",
@@ -1641,7 +1637,7 @@ window.CET6_DATA = {
               "highlight": "v.唤醒",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "a-（一再地）+rouse（音似“热死”）→ 十个太阳同现后，一再地热死人，“引起”了大 家的反感。 要么抬头走路，要么低头奔跑。/013",
+              "tip": "a-(一再) + rouse(音似“热死”) → 一再热死人引起了大家的公愤 → v.唤醒；引起，激起",
               "derivations": [
                 {
                   "word": "arousal",
@@ -1689,7 +1685,7 @@ window.CET6_DATA = {
               "highlight": "n.&v.称赞",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ise（动词后缀，表使...化）→ 掌握其六级同根派生变换",
+              "tip": "谐音“陪死” → 为了赞美英雄哪怕陪死也在所不惜 → n.&v.称赞，赞美，表扬",
               "derivations": []
             },
             {
@@ -1962,7 +1958,7 @@ window.CET6_DATA = {
               "highlight": "n.起重机",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "ho（联想hold）+-ist（后缀）→抓住东 西使其升起的设备→起重机 不走心的努力，都是在敷衍自己。/015",
+              "tip": "谐音“好拽” → 用起重机好拽地把重物高高吊起 → n.起重机；吊车 v.吊起，升起，提起",
               "derivations": []
             },
             {
@@ -2003,7 +1999,7 @@ window.CET6_DATA = {
               "highlight": "adj.有资格的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "e-(出) + lig(挑选，选择) + -ible(能够...的) → 能够被选拔出来的合格者 → adj.有资格的；合格的；合适的",
               "derivations": [
                 {
                   "word": "eligibility",
@@ -2307,7 +2303,7 @@ window.CET6_DATA = {
               "highlight": "n.板球（运动）",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "cr（联想“超人\"）+i（我）+cket（音似 “刺它\")→超人和我刺（打）它→板球 路虽远行则可至，事虽难做则可成。/017",
+              "tip": "拟声词crik(蟋蟀叫声) + -et → 拟蟋蟀叫声；衍生为英国绅士草坪运动 → n.板球(运动)；蟋蟀",
               "derivations": []
             },
             {
@@ -2320,7 +2316,7 @@ window.CET6_DATA = {
               "highlight": "v.出现",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "e-(向外) + merge(沉浸，浮没) → 从水底浮现出来暴露在阳光下 → v.出现，浮现；显露；幸存",
               "derivations": [
                 {
                   "word": "emergence",
@@ -2438,7 +2434,7 @@ window.CET6_DATA = {
               "highlight": "adj.海洋的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "swam（swim的过去式）+p（联想 “扑\")→他扑到水里游泳，被水“淹没”了。",
+              "tip": "mar-(海，海洋) + -ine(形容词/名词后缀) → 与海洋相关的；海军士兵 → adj.海洋的，海生的 n.海军陆战队士兵",
               "derivations": []
             },
             {
@@ -2527,7 +2523,7 @@ window.CET6_DATA = {
               "highlight": "v.赞美",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "re（字母音似“阿姨\"）+frain（音似 （）！+（，）w+（一）-pe？ “夫人”)→阿姨要和那位夫人去旅行了，我舍 +re(字母音似“阿姨\")→妹妹和我一再地围 不得她离开，但我“克制”住了。 着阿姨，因为我们都很“钦佩”她。 例Pleaserefrain from smoking.请勿吸烟。",
+              "tip": "ad-(一再) + mire(奇迹，惊叹) → 一再将某人当成奇迹来钦佩仰慕 → v.赞美；欣赏；钦佩，仰慕",
               "derivations": [
                 {
                   "word": "admirable",
@@ -2547,7 +2543,7 @@ window.CET6_DATA = {
               "highlight": "v.根除",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "e-(出) + radic(根，联想radish萝卜) + -ate(动词后缀) → 把草根连根拔出消灭掉 → v.根除，消灭；杜绝",
               "derivations": [
                 {
                   "word": "eradication",
@@ -2567,7 +2563,7 @@ window.CET6_DATA = {
               "highlight": "v.克制",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "re（字母音似“阿姨\"）+frain（音似 “夫人”)→阿姨要和那位夫人去旅行了，我舍 不得她离开，但我“克制”住了。 你要像太阳一样，有起有落，不失光彩。/019",
+              "tip": "re-(向后) + frain(刹车，缰绳) → 勒马止步，向后克制冲动 → v.克制；避免 n.经常重复的评价；副歌",
               "derivations": []
             },
             {
@@ -2580,7 +2576,7 @@ window.CET6_DATA = {
               "highlight": "v.控制",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "regul(规则，规尺) + -ate(动词后缀) → 用规章尺度来规范管理 → v.控制，管理；调整，调节",
               "derivations": [
                 {
                   "word": "regulation",
@@ -2645,7 +2641,7 @@ window.CET6_DATA = {
               "highlight": "v.解除控制",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "de-(解除，去除) + regulate(管制) → 解除政府对市场的管制约束 → v.解除控制，撤销管制",
               "derivations": [
                 {
                   "word": "deregulation",
@@ -2665,7 +2661,7 @@ window.CET6_DATA = {
               "highlight": "v.有联系",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "re-(回，再) + late(带来，叙述) → 将两件事带到一起叙述关联 → v.有联系，有关联；讲述，叙述",
               "derivations": [
                 {
                   "word": "relation",
@@ -2691,7 +2687,7 @@ window.CET6_DATA = {
               "highlight": "n.亲戚",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "relat(关联) + -ive(名词/形容词后缀) → 有血缘关联的人；对比之下的 → n.亲戚，亲属 adj.相关联的；相对的",
               "derivations": [
                 {
                   "word": "relativity",
@@ -2892,7 +2888,7 @@ window.CET6_DATA = {
               "highlight": "v.预料",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "fore-（先，前）+see（看见）→预料，预 见，预知 35 foresight 每一天的拼搏，都是给人生最好的答复。/021",
+              "tip": "fore-(提前，在前面) + see(看见) → 提前在脑海中看见未来的情景 → v.预料，预见，预知",
               "derivations": [
                 {
                   "word": "foreseeable",
@@ -2997,7 +2993,7 @@ window.CET6_DATA = {
               "highlight": "/'orient/ v.确定方向",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "ori-(升起，太阳升起之地) + -ent → 太阳升起的东方，以此定位方向 → v.确定方向；适应 n.东方",
               "derivations": [
                 {
                   "word": "orientation",
@@ -3168,7 +3164,7 @@ window.CET6_DATA = {
               "highlight": "n.体系",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sys-(共同，一起) + tem(站立，放置) → 各种要素组合站在一起形成的有机整体 → n.体系，制度；系统",
               "derivations": [
                 {
                   "word": "systematic",
@@ -3311,7 +3307,7 @@ window.CET6_DATA = {
               "highlight": "n.昆虫",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "in-(在内) + sect(切，分段) → 身体切成头胸腹三段的小动物 → n.昆虫",
               "derivations": []
             },
             {
@@ -3382,7 +3378,7 @@ window.CET6_DATA = {
               "highlight": "adj.温暖潮湿的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "hum-(泥土，潮湿) + -id(形容词后缀) → 土地蒸腾湿气的热带气候 → adj.温暖潮湿的，湿热的",
               "derivations": [
                 {
                   "word": "humidity",
@@ -3525,7 +3521,7 @@ window.CET6_DATA = {
               "highlight": "v.羞辱",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "hum-(泥土，低下) + -ili- + -ate → 把某人踩在泥土里践踏尊严 → v.羞辱，使丧失尊严，使丢脸",
               "derivations": [
                 {
                   "word": "humiliation",
@@ -3648,7 +3644,7 @@ window.CET6_DATA = {
               "highlight": "v.存在",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "ex-(出) + sist(站立) → 挺拔站出来立于天地之间 → v.存在；实际上有；生存",
               "derivations": [
                 {
                   "word": "existence",
@@ -3680,7 +3676,7 @@ window.CET6_DATA = {
               "highlight": "v.灌溉",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ir-(=in-，向内) + rig(水，灌流) + -ate(动词后缀) → 把水流引流到田地内部 → v.灌溉",
               "derivations": [
                 {
                   "word": "irrigation",
@@ -3771,7 +3767,7 @@ window.CET6_DATA = {
               "highlight": "n.气质",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ment（名词后缀，表动作或结果）→ 掌握其六级同根派生变换",
+              "tip": "temper(脾气，性情) + -a- + -ment(名词后缀) → 一个人生来所具有的性情脾气 → n.气质，禀性；性情；暴躁",
               "derivations": []
             },
             {
@@ -3886,7 +3882,7 @@ window.CET6_DATA = {
               "highlight": "idarag'nauz/ v.诊断(疾病);判断",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "dia-(穿透，彻底) + gnose(知道，认识) → 彻底弄清楚病因真相 → v.诊断(疾病)；判断",
               "derivations": [
                 {
                   "word": "diagnosis",
@@ -3921,7 +3917,7 @@ window.CET6_DATA = {
               "highlight": "adj.慢性的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "chron-(时间) + -ic(形容词后缀) → 拖延经过漫长时间的顽疾 → adj.慢性的；长期的；难以根治的",
               "derivations": [
                 {
                   "word": "chronically",
@@ -3941,7 +3937,7 @@ window.CET6_DATA = {
               "highlight": "n.编年史",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "mal-（坏）+ignant（联想ignite）→坏 biographyout this week.她的成就已载入本周出 的情绪被点燃，演变成“恶性的”争吵。 版的一本新传记中。 The doctors are worried that the tumor may be",
+              "tip": "chron-(时间) + -icle(书籍，记载) → 按照时间先后顺序记录的大事记 → n.编年史，大事记 v.把...载入编年史；记载",
               "derivations": [],
               "example_en": "You would never have guessed his intentions wholesome/haulsom/ 56 Eating a variety of fruits and vegetables is a Punishment can never be an effective cure for",
               "example_cn": "容词后级)→接触传染的 from the benign expression on his face.从他脸上 The new disease proved contagious.这种新的疾 温和的表情你绝对猜不到他的意图。 病证明具有触染性。 adj.有益健康的 adj.严重的；敏锐的；急性的 wholesome way to maintain goodhealth.食用各种 acute socialproblems.惩罚绝不是解决严重社会问 水果和蔬菜是保持身体健康的一种有益方式。 题的有效办法。 52折 malice/'maelis/ 54 n.恶意；怨恨 adj.致命的；灾难性的"
@@ -3997,7 +3993,7 @@ window.CET6_DATA = {
               "highlight": "adj.怀有恶意的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ous（形容词后缀，表充满...的）→ 掌握其六级同根派生变换",
+              "tip": "mal-(恶，坏) + ici-(有害的) + -ous(形容词后缀) → 充满险恶心肠的 → adj.怀有恶意的，恶毒的",
               "derivations": []
             },
             {
@@ -4049,7 +4045,7 @@ window.CET6_DATA = {
               "highlight": "adj.致命的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "fat-(命运) + -al(形容词后缀) → 命中注定无法逆转带来毁灭的 → adj.致命的；灾难性的",
               "derivations": [
                 {
                   "word": "fatality",
@@ -4128,7 +4124,7 @@ window.CET6_DATA = {
               "highlight": "v.摧毁",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "de-(向下，毁坏) + stroy(=struct，构建) → 将原本建立起来的建筑结构彻底推倒 → v.摧毁，毁灭；破坏",
               "derivations": [
                 {
                   "word": "destruction",
@@ -4154,7 +4150,7 @@ window.CET6_DATA = {
               "highlight": "v.摧毁",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "de-(完全) + vast(空旷，废墟，联想waste) + -ate → 使整座城市彻底变成一片废墟 → v.摧毁，毁灭；使极度震惊",
               "derivations": [
                 {
                   "word": "devastating",
@@ -4202,7 +4198,7 @@ window.CET6_DATA = {
               "highlight": "n.治疗",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "therap-(照顾，医治) + -y(名词后缀) → 对身心创伤给予专业调理医治 → n.治疗，疗法",
               "derivations": [
                 {
                   "word": "therapist",
@@ -4235,7 +4231,7 @@ window.CET6_DATA = {
               "highlight": "n.外科手术",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "surg-(手，手工劳作) + -ery(行业，场所) → 医生用双手和手术刀进行的手术 → n.外科手术；外科学",
               "derivations": [
                 {
                   "word": "surgical",
@@ -4326,7 +4322,7 @@ window.CET6_DATA = {
               "highlight": "n.&.v.营救",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "re-（回）+s（联想“女孩\"）+cue（联想 cute)→快回去“营救”那个可爱的女孩。 Most people in the business would agree that",
+              "tip": "re-(回) + s(手) + cue(信号，线索) → 收到求救信号伸手一把拉回来 → n.&v.营救，救援，解救",
               "derivations": [],
               "example_en": "Robots are coming to the rescue.",
               "example_cn": "机器人正前来 consecutive interpreting is more stressful.业内大多 救援。 数人都认为交替传译的压力更大。"
@@ -4388,7 +4384,7 @@ window.CET6_DATA = {
               "highlight": "v.使模糊",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ob-(在对面，阻挡) + scur(遮盖，隐藏) → 被屏障阻挡在暗处难以看清 → v.使模糊；使费解 adj.鲜为人知的；模糊的",
               "derivations": [
                 {
                   "word": "obscurity",
@@ -4421,7 +4417,7 @@ window.CET6_DATA = {
               "highlight": "v.保护",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "se-(脱离，免除) + cure(关照，忧虑) → 免除一切忧虑处于无险境地 → v.保护，使安全 adj.安全的；可靠的",
               "derivations": [
                 {
                   "word": "security",
@@ -4454,7 +4450,7 @@ window.CET6_DATA = {
               "highlight": "",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ate（动词/形容词后缀，表做，使成为）→ 掌握其六级同根派生变换",
+              "tip": "carbo(碳) + hydr(水) + -ate(化学后缀) → 碳与氢氧元素结合的水合物 → n.碳水化合物",
               "derivations": []
             },
             {
@@ -4467,7 +4463,7 @@ window.CET6_DATA = {
               "highlight": "v.使湿透",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "satur-(充满，足够，联想satisfy) + -ate → 溶液或海绵吸满水分达到上限 → v.使湿透；使充满；使饱和",
               "derivations": [
                 {
                   "word": "saturation",
@@ -4524,20 +4520,20 @@ window.CET6_DATA = {
             {
               "id": "u2_l2_09",
               "num": "05",
-              "word": "P",
-              "phonetic": "/ds:t/",
+              "word": "dirt",
+              "phonetic": "/dɜːt/",
               "pos": "n.",
-              "meaning": "n.污物；泥土；灰尘；丑闻",
-              "highlight": "n.污物",
+              "meaning": "n. 泥土；污物；灰尘；丑闻",
+              "highlight": "n. 泥土；污物",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "【巧记】谐音“得特”/联想dirty(肮脏的)去掉y即为其名词原形dirt → 泥土，污物，污垢",
               "derivations": [
                 {
                   "word": "dirty",
                   "phonetic": "/'ds:ti/",
                   "pos": "adj.",
-                  "meaning": "adj.航脏的；的；污移的"
+                  "meaning": "adj. 肮脏的；下流的；污秽的"
                 }
               ]
             },
@@ -4564,7 +4560,7 @@ window.CET6_DATA = {
               "highlight": "v.重新开始",
               "freq": 3,
               "tip_type": "对照",
-              "tip": "会员资格。",
+              "tip": "re-(重新) + new(新) → 重新变新，赋予新生命 → v.重新开始；续订(合同、会员)；更新",
               "derivations": [
                 {
                   "word": "renewable",
@@ -4653,7 +4649,7 @@ window.CET6_DATA = {
               "highlight": "/'spdert/ n.最新消息",
               "freq": 2,
               "tip_type": "对照",
-              "tip": "up to date最新的，现代的→update n.&v. 志存高远，脚踏实地。/033",
+              "tip": "up to date最新的，现代的→update n.&v. 志存高远，脚踏实地。",
               "derivations": []
             },
             {
@@ -4755,7 +4751,7 @@ window.CET6_DATA = {
               "highlight": "n.资源",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(再次，反复) + source(源头) → 可以反复不断从源头汲取的财富与资料 → n.资源；财力；资料；智谋",
               "derivations": [
                 {
                   "word": "resourceful",
@@ -4885,7 +4881,7 @@ window.CET6_DATA = {
               "highlight": "v.导航",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "na（联想“那\"）+vi（形似罗马数字6）+",
+              "tip": "navi(船舰) + ig(驱动，导向) + -ate(动词后缀) → 引导船只在浩瀚汪洋中航行 → v.导航；航行，航海；设法应对",
               "derivations": [
                 {
                   "word": "navigation",
@@ -4940,7 +4936,7 @@ window.CET6_DATA = {
               "highlight": "n.本质",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ence（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "ess(存在，本体) + -ence(名词后缀) → 事物最为核心本体的精髓与本质 → n.本质；精髓；精华；精油",
               "derivations": []
             },
             {
@@ -4953,7 +4949,7 @@ window.CET6_DATA = {
               "highlight": "n.必需品",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -al（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "essent(本质，存在) + -ial(形容词/名词后缀) → 最基本的生命必需事物 → adj.必不可少的；最基本的 n.必需品；要点",
               "derivations": []
             },
             {
@@ -5112,7 +5108,7 @@ window.CET6_DATA = {
               "highlight": "v.使成为必要",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ate（动词/形容词后缀，表做，使成为）→ 掌握其六级同根派生变换",
+              "tip": "necess(必要，必须) + -itate(动词后缀) → 迫于客观形势使得某事不得不为 → v.使成为必要；迫使",
               "derivations": []
             },
             {
@@ -5187,7 +5183,7 @@ window.CET6_DATA = {
               "highlight": "'praimaroli/ adv.主要地",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ly（副词后缀，表...地）→ 掌握其六级同根派生变换",
+              "tip": "prim-(第一，主要) + -arily(副词后缀) → 居于首要和根本地位地 → adv.主要地；根本地",
               "derivations": []
             },
             {
@@ -5215,7 +5211,7 @@ window.CET6_DATA = {
               "highlight": "adj.原始的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ive（形容词后缀，表有...倾向的）→ 掌握其六级同根派生变换",
+              "tip": "prim-(第一，最初) + -itive(形容词后缀) → 处于人类最初文明阶段的 → adj.原始的；远古的；本能的",
               "derivations": []
             },
             {
@@ -5376,7 +5372,7 @@ window.CET6_DATA = {
               "highlight": "adj.永恒的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "etern-(久远，恒久) + -al(形容词后缀) → 跨越漫长岁月永不磨灭的 → adj.永恒的，永远的；不朽的",
               "derivations": [
                 {
                   "word": "eternity",
@@ -5396,7 +5392,7 @@ window.CET6_DATA = {
               "highlight": "v.弥漫",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ate（动词/形容词后缀，表做，使成为）→ 掌握其六级同根派生变换",
+              "tip": "per-(贯穿，穿透) + meat(走，通过) + -e → 气味或思想彻底穿透渗透到各个角落 → v.弥漫，渗透；感染",
               "derivations": []
             },
             {
@@ -5479,7 +5475,7 @@ window.CET6_DATA = {
               "highlight": "n.日常事务",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“瞧”→他每天瞧着妈 妈做“日常事务”。 追风赶月莫停留，平芜尽处是春山。/039",
+              "tip": "单词发音类似“瞧”→他每天瞧着妈 妈做“日常事务”。 追风赶月莫停留，平芜尽处是春山。",
               "derivations": []
             },
             {
@@ -5567,7 +5563,7 @@ window.CET6_DATA = {
               "highlight": "adj.动荡的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "turb-(骚乱，混乱，联想disturb) + -ul- + -ent → 水流翻滚或局势激荡不宁的 → adj.动荡的，动乱的；汹涌的",
               "derivations": [
                 {
                   "word": "turbulence",
@@ -5602,7 +5598,7 @@ window.CET6_DATA = {
               "highlight": "v.(大小、数量、质量等)波动",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "fluct(流淌，波动，联想fluid) + -u- + -ate → 像波浪水流一样起伏不定 → v.(大小、数量)波动，起伏",
               "derivations": [
                 {
                   "word": "fluctuation",
@@ -5819,7 +5815,7 @@ window.CET6_DATA = {
               "highlight": "烈批评adj.凶残的",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "sav（联想save）+age（年龄）→他从 那个“凶残的”人手上救出了年幼的孩子。 梦想是不会发光的，发光的是追梦的你。/041",
+              "tip": "sav（联想save）+age（年龄）→他从 那个“凶残的”人手上救出了年幼的孩子。 梦想是不会发光的，发光的是追梦的你。",
               "derivations": []
             },
             {
@@ -5847,7 +5843,7 @@ window.CET6_DATA = {
               "highlight": "n.官僚主义者",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "bureau(办公桌，行政部门) + -crat(统治者，掌权者) → 坐办公室照章办事的官僚官员 → n.官僚主义者；官僚",
               "derivations": [
                 {
                   "word": "bureaucratic",
@@ -5886,7 +5882,7 @@ window.CET6_DATA = {
               "highlight": "n.政务委员会",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "coun-(共同) + cil(召集，呼唤) → 召集民众代表共同商讨市政的会议 → n.政务委员会；地方议会",
               "derivations": [
                 {
                   "word": "councilor",
@@ -6017,7 +6013,7 @@ window.CET6_DATA = {
               "highlight": "n.(选区的）选民",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "con-(共同) + stitu(建立，站立) + -ent → 共同组成整体的分子；选区选民 → n.选民；成分 adj.组成的，构成的",
               "derivations": [
                 {
                   "word": "constituency",
@@ -6181,7 +6177,7 @@ window.CET6_DATA = {
               "highlight": "adj.公务的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -al（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "offic-(职务，办公室) + -ial(形容词/名词后缀) → 履行公职的官员或正式通告 → adj.公务的；官方的 n.官员",
               "derivations": []
             },
             {
@@ -6307,7 +6303,7 @@ window.CET6_DATA = {
               "highlight": "v.宣传",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "public(公众，公开) + -ize(使动后缀) → 让某件事情被社会公众广泛知晓 → v.宣传，推广；公布",
               "derivations": [
                 {
                   "word": "public",
@@ -6415,7 +6411,7 @@ window.CET6_DATA = {
               "highlight": "n.王室成员adj.王室的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "roy-(国王，王室) + -al(形容词后缀) → 属于国王或皇室血统的 → n.王室成员 adj.王室的；皇家的",
               "derivations": [
                 {
                   "word": "royalty",
@@ -6457,7 +6453,7 @@ window.CET6_DATA = {
               "highlight": "adj.有主权的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "sover-（=super-，在….上面）+",
+              "tip": "sover(=super，在...之上) + reign(统治) → 居于最上层施行最高统治权的君主 → n.君主，元首 adj.具有独立主权的；至高无上的",
               "derivations": [
                 {
                   "word": "sovereignty",
@@ -6477,7 +6473,7 @@ window.CET6_DATA = {
               "highlight": "n.皇帝",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "imper(发号施令，统治) + -or → 在广阔帝国领土上发号施令的至尊统治者 → n.皇帝",
               "derivations": [
                 {
                   "word": "empress",
@@ -6497,7 +6493,7 @@ window.CET6_DATA = {
               "highlight": "adj.帝国的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "imper(统治，皇权) + -ial(形容词后缀) → 带有古老帝国宏伟气派的 → adj.帝国的，皇帝的；威严的",
               "derivations": [
                 {
                   "word": "imperialism",
@@ -6538,7 +6534,7 @@ window.CET6_DATA = {
               "highlight": "adj.市政的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "civ-(公民，市民，同源city) + -ic(形容词后缀) → 与市民公共生活息息相关的 → adj.市政的；城市的；市民的",
               "derivations": []
             },
             {
@@ -6618,7 +6614,7 @@ window.CET6_DATA = {
               "highlight": "v.捐赠",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "don-(给予，赠送) + -ate(动词后缀) → 把财物爱心赠予公益事业 → v.捐赠，赠予，捐献",
               "derivations": [
                 {
                   "word": "donation",
@@ -6644,7 +6640,7 @@ window.CET6_DATA = {
               "highlight": "v.捐赠",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "en-(使) + dow(嫁妆，天赋财物) → 给予丰厚嫁妆与资助资金 → v.捐赠；资助；赋予(才能)",
               "derivations": [
                 {
                   "word": "endowment",
@@ -6664,7 +6660,7 @@ window.CET6_DATA = {
               "highlight": "n.慈善",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "char(关爱，珍爱，同源cherish) + -ity(名词后缀) → 对贫困弱者饱含关爱怜悯的心怀 → n.慈善；慈善机构；宽容",
               "derivations": [
                 {
                   "word": "charitable",
@@ -6723,7 +6719,7 @@ window.CET6_DATA = {
               "highlight": "/a'trbjut/ n.属性",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ad-(向，归于) + tribute(给予，分配) → 将原因归赠于某事物；事物内生特征 → v.把...归因于 n.属性，特征",
               "derivations": [
                 {
                   "word": "attributable",
@@ -6743,7 +6739,7 @@ window.CET6_DATA = {
               "highlight": "v.分发",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "dis-(分开，散开) + tribute(给予，分配) → 分散给各个地方的人民 → v.分发，分配；散发",
               "derivations": [
                 {
                   "word": "distributive",
@@ -6769,7 +6765,7 @@ window.CET6_DATA = {
               "highlight": "v.传送",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "trans-(跨越，穿过) + mit(送出，发射) → 跨越空间将信号、能量或疾病传送过去 → v.传送，输送；传播；传染",
               "derivations": [
                 {
                   "word": "transmitter",
@@ -7000,7 +6996,7 @@ window.CET6_DATA = {
               "highlight": "n.使命",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -sion（名词后缀，表状态或结果）→ 掌握其六级同根派生变换",
+              "tip": "miss(派遣，送出) + -ion(名词后缀) → 被派遣去执行的重要职责与任务 → n.使命，任务；使团，代表团",
               "derivations": []
             },
             {
@@ -7129,7 +7125,7 @@ window.CET6_DATA = {
               "highlight": "n.自杀",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "sui（自己）+cide（杀）→自杀 在坚持中成长，在坚持中收获。/051",
+              "tip": "sui（自己）+cide（杀）→自杀 在坚持中成长，在坚持中收获。",
               "derivations": [
                 {
                   "word": "suicidal",
@@ -7207,7 +7203,7 @@ window.CET6_DATA = {
               "highlight": "adj.微妙的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sub-(在下方，微弱) + tle(织物纤细) → 极其细腻微小、不易察觉的差异 → adj.微妙的；敏锐的；巧妙的",
               "derivations": [
                 {
                   "word": "subtlety",
@@ -7412,7 +7408,7 @@ window.CET6_DATA = {
               "highlight": "v.(通常指经过努力)获得",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ad-(向着) + tain(抓握，掌握) → 朝着目标不断努力最终一把抓住 → v.(经过努力)获得；达到，实现",
               "derivations": [
                 {
                   "word": "attainment",
@@ -7489,7 +7485,7 @@ window.CET6_DATA = {
               "highlight": "v.逗乐",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "a-(使) + muse(思考，冥想，艺术女神缪斯) → 逗人开心使其暂时忘却沉思 → v.逗乐，逗笑；给...提供娱乐",
               "derivations": [
                 {
                   "word": "amusement",
@@ -7689,7 +7685,7 @@ window.CET6_DATA = {
               "highlight": "v.防御",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "de-(向下，远离) + fend(击打，抵挡) → 将敌人的击打挡在城墙之外 → v.防御；保卫；为...辩护",
               "derivations": [
                 {
                   "word": "defensive",
@@ -7743,7 +7739,7 @@ window.CET6_DATA = {
               "highlight": "v.侵略",
               "freq": 3,
               "tip_type": "对照",
-              "tip": "有人入侵（invade)，快点逃走（evade)。 星光不负赶路人，时光不负有心人。/055",
+              "tip": "有人入侵（invade)，快点逃走（evade)。 星光不负赶路人，时光不负有心人。",
               "derivations": [
                 {
                   "word": "invasion",
@@ -7820,7 +7816,7 @@ window.CET6_DATA = {
               "highlight": "n.卫兵",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“搞的”/联想guardrail护栏 → 站在门口保卫警戒的哨兵卫兵 → n.卫兵，警卫；保卫 v.守卫，防守",
               "derivations": [
                 {
                   "word": "guardian",
@@ -8023,7 +8019,7 @@ window.CET6_DATA = {
               "highlight": "n.(重要事件、人物、发明等的）出现",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "ad-（一再地）+vent（联想went)→ 再地朝着你的方向去→他“出现”在你面前。 来路流离颠沛，彼岸自有春风。/057",
+              "tip": "ad-（一再地）+vent（联想went)→ 再地朝着你的方向去→他“出现”在你面前。 来路流离颠沛，彼岸自有春风。",
               "derivations": []
             },
             {
@@ -8178,7 +8174,7 @@ window.CET6_DATA = {
               "highlight": "n.机会",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "fort-(运气，命运) + -une(名词后缀) → 降临在头上的好运气；巨大财富 → n.机会，运气；巨款；命运",
               "derivations": [
                 {
                   "word": "fortunate",
@@ -8213,7 +8209,7 @@ window.CET6_DATA = {
               "highlight": "v.误导",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "mis-(错误) + lead(引导，领路) → 领错了路，把人带进沟里 → v.误导，引人歧途",
               "derivations": [
                 {
                   "word": "misleading",
@@ -8382,7 +8378,7 @@ window.CET6_DATA = {
               "highlight": "/aedvakat/ n.支持者",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ad-(向，一再) + voc(声音，呼喊) + -ate → 一再大声呼吁支持某项公益主张 → v.支持；提倡 n.支持者；辩护律师",
               "derivations": [
                 {
                   "word": "advocacy",
@@ -8513,7 +8509,7 @@ window.CET6_DATA = {
               "highlight": "n.可用性",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ity（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "avail(有用，可用) + -ability(名词后缀) → 随时能够被获取利用的属性与便利程度 → n.可用性；实用性；可得性",
               "derivations": []
             },
             {
@@ -8578,7 +8574,7 @@ window.CET6_DATA = {
               "highlight": "v.足够",
               "freq": 2,
               "tip_type": "对照",
-              "tip": "sufficientadj.足够的，充足的→",
+              "tip": "sub-(在下方) + fic(做，制造) → 在底层打好基础就足够撑起大局 → v.足够，足以；使满意",
               "derivations": [],
               "example_en": "Numerous examples can be given, but this will",
               "example_cn": "suffice.可以举出许多例子，但这个例子就足够了。"
@@ -8643,7 +8639,7 @@ window.CET6_DATA = {
               "highlight": "n.瑕疵",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“伏漏” → 屋顶伏着一处漏雨的瑕疵破绽 → n.瑕疵，缺点；缺陷；裂纹",
               "derivations": [
                 {
                   "word": "flawless",
@@ -8757,7 +8753,7 @@ window.CET6_DATA = {
               "highlight": "n.&.v.违背",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "brea（联想break，破坏）+ch→违反； 破坏 努力只能及格，拼命才能优秀。/063",
+              "tip": "brea（联想break，破坏）+ch→违反； 破坏 努力只能及格，拼命才能优秀。",
               "derivations": []
             },
             {
@@ -8981,7 +8977,7 @@ window.CET6_DATA = {
               "highlight": "v.表明",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "mani-(手) + fest(抓住) → 手中实实在在能抓到的、显而易见的事物 → adj.明显的；显而易见的 v.表明；显现",
               "derivations": [
                 {
                   "word": "manifestation",
@@ -9023,7 +9019,7 @@ window.CET6_DATA = {
               "highlight": "adj.象征的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -ive（形容词后缀，表有...倾向的）→ adj.象征的",
+              "tip": "in-(向内) + dic(说话，宣告) + -ative(形容词后缀) → 表明揭示内在趋势的标志 → adj.象征的；表明的，指示的",
               "derivations": []
             },
             {
@@ -9036,7 +9032,7 @@ window.CET6_DATA = {
               "highlight": "n.指示物",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "indic(指出，指示) + -ator(名词后缀，表物或人) → 汽车仪表盘或转向灯的指针指示物 → n.指示物；指示者；指针；转向指示灯",
               "derivations": []
             },
             {
@@ -9105,7 +9101,7 @@ window.CET6_DATA = {
               "highlight": "v.推论",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "de-(向下) + duce(引导) → 从一般原理向下顺理成章引导出具体结论 → v.推论，推断；演绎",
               "derivations": [
                 {
                   "word": "deducible",
@@ -9125,7 +9121,7 @@ window.CET6_DATA = {
               "highlight": "v.介绍",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "intro-(向内) + duce(引导，带来) → 把新朋友或新产品引入圈子内部 → v.介绍；采用；引进；提出",
               "derivations": [
                 {
                   "word": "introduction",
@@ -9212,7 +9208,7 @@ window.CET6_DATA = {
               "highlight": "v.劝诱",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "in-(向内) + duce(引导，劝说) → 循循善诱引导人做出某种行动 → v.劝诱，诱使；引起，导致",
               "derivations": [
                 {
                   "word": "inducement",
@@ -9232,7 +9228,7 @@ window.CET6_DATA = {
               "highlight": "v.引诱",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "se-(偏离，离开) + duce(引导) → 用甜言蜜语引导人偏离正道走入歧途 → v.引诱，诱惑；勾引",
               "derivations": [
                 {
                   "word": "seduction",
@@ -9344,7 +9340,7 @@ window.CET6_DATA = {
               "highlight": "n.引诱",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "tempt(诱惑）+-ation（名词后级）→ 引诱，诱惑 优秀的人总是努力翻山越岭。/067",
+              "tip": "tempt(诱惑）+-ation（名词后级）→ 引诱，诱惑 优秀的人总是努力翻山越岭。",
               "derivations": []
             },
             {
@@ -9458,7 +9454,7 @@ window.CET6_DATA = {
               "highlight": "n.东西",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "谐音“师傅” → 师傅把各种杂七杂八的东西物品全装塞进柜子里 → n.东西，物品；事情 v.装满；吃撑",
               "derivations": [
                 {
                   "word": "stuffy",
@@ -9512,7 +9508,7 @@ window.CET6_DATA = {
               "highlight": "/sab'dsekt/ v.使顺从",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sub-(在下面) + ject(扔，投掷) → 扔在脚下踩着让其臣服顺从 → v.使顺从，使服从；使遭受",
               "derivations": [
                 {
                   "word": "subjective",
@@ -9552,7 +9548,7 @@ window.CET6_DATA = {
               "highlight": "adj.视力的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -al（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "vis-(看，看见) + -ual(形容词/名词后缀) → 眼睛所能看到的图像与视力 → adj.视力的，视觉的 n.视觉资料",
               "derivations": []
             },
             {
@@ -9593,7 +9589,7 @@ window.CET6_DATA = {
               "highlight": "v.改变",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "re-（重复）+vise（看）→重复看是为 了“复习”。 不要因为没有掌声就放弃梦想。/069|",
+              "tip": "re-（重复）+vise（看）→重复看是为 了“复习”。 不要因为没有掌声就放弃梦想。|",
               "derivations": [
                 {
                   "word": "revision",
@@ -9613,7 +9609,7 @@ window.CET6_DATA = {
               "highlight": "v.想象",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ize（动词后缀，表使...化）→ 掌握其六级同根派生变换",
+              "tip": "vis-(看见) + -ual- + -ize(使动后缀) → 在大脑想象中看见清晰构图的画面 → v.想象，构思，设想",
               "derivations": []
             },
             {
@@ -9641,7 +9637,7 @@ window.CET6_DATA = {
               "highlight": "n.视力",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "vis-(看) + -ion(名词后缀) → 眼睛看见的广阔视野；未来的宏伟构想与幻想 → n.视力；视野；想象，幻象",
               "derivations": [
                 {
                   "word": "visionary",
@@ -9732,7 +9728,7 @@ window.CET6_DATA = {
               "highlight": "v.干涉",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "inter-(在...之间) + fere(打击，冲撞) → 冲撞进两人之间强行插手阻挠 → v.干涉，干预；妨碍",
               "derivations": [
                 {
                   "word": "interference",
@@ -9794,7 +9790,7 @@ window.CET6_DATA = {
               "highlight": "n.相互作用",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -tion（名词后缀，表行为或状态）→ n.相互作用",
+              "tip": "inter-(相互) + act(行动) + -ion(名词后缀) → 人与人之间来回行动交流与相互作用 → n.相互作用；交流；互动",
               "derivations": []
             },
             {
@@ -9855,7 +9851,7 @@ window.CET6_DATA = {
               "highlight": "n.级别更高的人",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "super-(在...之上，更高) + -ior(比较级后缀) → 职位地位比普通人更高、学识更优者 → n.上级，上司 adj.更好的；更强的；更优秀的",
               "derivations": [
                 {
                   "word": "superiority",
@@ -9875,7 +9871,7 @@ window.CET6_DATA = {
               "highlight": "adj.级别低的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "infer-(在...下方，较低) + -ior(比较级后缀) → 处于下属次等位置、能力相对较弱者 → adj.低劣的，次级的 n.下属，下级",
               "derivations": [
                 {
                   "word": "inferiority",
@@ -9932,7 +9928,7 @@ window.CET6_DATA = {
               "highlight": "n.迷信",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "super-(在上，过度) + stit(站立) + -ion → 站在客观理性科学之上的神秘盲信 → n.迷信；盲目恐惧",
               "derivations": [
                 {
                   "word": "superstitious",
@@ -10103,7 +10099,7 @@ window.CET6_DATA = {
               "highlight": "n.导师",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "tut-(保护，照管) + -or(表示人的后缀) → 一对一守护传授辅导学业的家庭教师 → n.导师；家庭教师 v.辅导，指导",
               "derivations": [
                 {
                   "word": "tutorial",
@@ -10123,7 +10119,7 @@ window.CET6_DATA = {
               "highlight": "n.教授",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "pro-（在前）+fess（说话）+-or（表示 人的后缀）→教授；讲师 黑夜再长，总有破晓；信仰不灭，心中有光。/073】",
+              "tip": "pro-（在前）+fess（说话）+-or（表示 人的后缀）→教授；讲师 黑夜再长，总有破晓；信仰不灭，心中有光。】",
               "derivations": []
             },
             {
@@ -10186,7 +10182,7 @@ window.CET6_DATA = {
               "highlight": "v.使用",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "oc-(=ob-，完全) + cup(抓取，占据) → 全面把空间或时间占据填满 → v.使用，占用；占领；忙着(做某事)",
               "derivations": [
                 {
                   "word": "occupancy",
@@ -10212,7 +10208,7 @@ window.CET6_DATA = {
               "highlight": "n.职业",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "occup(占用时间精力) + -ation(名词后缀) → 每日占据你全部时间精力从事的事业工作 → n.职业，工作；占领",
               "derivations": [
                 {
                   "word": "occupational",
@@ -10364,7 +10360,7 @@ window.CET6_DATA = {
               "highlight": "n.疫苗",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "vacc-(母牛，牛痘) + -ine(药物后缀) → 最初提取自牛痘用以预防天花的免疫制剂 → n.疫苗",
               "derivations": [
                 {
                   "word": "vaccinate",
@@ -10423,7 +10419,7 @@ window.CET6_DATA = {
               "highlight": "v.使隔热",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "insul(岛屿，孤立) + -ate(动词后缀) → 像孤岛一样与外界绝缘隔开以防噪音或热量流失 → v.使隔热；使隔音；使绝缘；隔离",
               "derivations": [
                 {
                   "word": "insulation",
@@ -10553,7 +10549,7 @@ window.CET6_DATA = {
               "highlight": "n.大师",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "联想Master学位硕士 → 经过多年苦修达到炉火纯青造诣的专家学者 → n.大师；主人；硕士 v.精通；掌握；控制",
               "derivations": [
                 {
                   "word": "mastery",
@@ -10653,7 +10649,7 @@ window.CET6_DATA = {
               "highlight": "adj.私有的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "priv-(剥夺公众权利，个人私有) + -ate → 与公众无关的个人私密领域 → adj.私有的；秘密的，私人的",
               "derivations": [
                 {
                   "word": "privacy",
@@ -10718,7 +10714,7 @@ window.CET6_DATA = {
               "highlight": "n.图像",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "i（我）+m（联想“妈\"）+age（年龄）→ 我对妈妈年轻时在灯下补衣服的“形象”记忆 犹新。 你永远来得及选择滚烫的人生。/077",
+              "tip": "i（我）+m（联想“妈\"）+age（年龄）→ 我对妈妈年轻时在灯下补衣服的“形象”记忆 犹新。 你永远来得及选择滚烫的人生。",
               "derivations": [
                 {
                   "word": "imaging",
@@ -10935,7 +10931,7 @@ window.CET6_DATA = {
               "highlight": "n.球形",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“死废儿” → 宇宙是个巨大的球体，人类的认知领域就在这个球面上 → n.球形，球体；范围，领域",
               "derivations": [
                 {
                   "word": "spherical",
@@ -10981,7 +10977,7 @@ window.CET6_DATA = {
               "highlight": "n.大气层",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "atmo（联想“阿童木\"）+sphere（领域） 他说阿童木的活动领域是整个“大气层”。 在心里种花，人生才不会荒芜。/079",
+              "tip": "atmo（联想“阿童木\"）+sphere（领域） 他说阿童木的活动领域是整个“大气层”。 在心里种花，人生才不会荒芜。",
               "derivations": [
                 {
                   "word": "atmospheric",
@@ -11001,7 +10997,7 @@ window.CET6_DATA = {
               "highlight": "n.环境",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ance（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "circum-(周围，环绕) + st(站立) + -ance → 环绕包围站在我们身旁的外部客观现实条件 → n.环境；境遇；状况；客观环境",
               "derivations": []
             },
             {
@@ -11036,7 +11032,7 @@ window.CET6_DATA = {
               "highlight": "n.情绪",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“墓地” → 墓地的阴森氛围让人的情绪瞬间低落压抑 → n.情绪，心情；气氛，氛围",
               "derivations": [
                 {
                   "word": "moody",
@@ -11056,7 +11052,7 @@ window.CET6_DATA = {
               "highlight": "n.气候（区）",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "clim(倾斜，纬度) + -ate → 地球不同纬度阳光倾斜所形成的气候与社会风气 → n.气候(区)；环境气氛；风气，氛围",
               "derivations": [
                 {
                   "word": "climatic",
@@ -11251,7 +11247,7 @@ window.CET6_DATA = {
               "highlight": "/'konvat/ n.皈依者 v.(使)转变",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "con-（一起，相互）+vert（=verse，转 化)→转变 进取点点星铺路，步晨稳踏自成功。/081",
+              "tip": "con-（一起，相互）+vert（=verse，转 化)→转变 进取点点星铺路，步晨稳踏自成功。",
               "derivations": [
                 {
                   "word": "conversion",
@@ -11277,7 +11273,7 @@ window.CET6_DATA = {
               "highlight": "v.防止",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "a-(离开) + vert(转动，掉转) → 迅速掉转车头避开危险，或转脸不看灾难 → v.防止；避免(危险、坏事)；转移目光；背过脸",
               "derivations": [
                 {
                   "word": "aversion",
@@ -11477,7 +11473,7 @@ window.CET6_DATA = {
               "highlight": "n.传说",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "leg-(读，讲故事) + -end → 代代相传讲述诵读的古代英雄英雄史诗 → n.传说，传奇故事；传奇人物",
               "derivations": [
                 {
                   "word": "legendary",
@@ -11519,7 +11515,7 @@ window.CET6_DATA = {
               "highlight": "v.进化",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "e-(向外) + volv(卷动，展开) → 生命长卷一圈圈向外逐步展开进化 → v.进化；逐步发展；逐渐演变",
               "derivations": [
                 {
                   "word": "evolution",
@@ -11584,7 +11580,7 @@ window.CET6_DATA = {
               "highlight": "n.革命",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(反转，巨变) + volut(转动) + -ion → 彻底颠覆旧秩序、翻天覆地的社会大巨变 → n.革命，巨变；大变革；旋转",
               "derivations": [
                 {
                   "word": "revolutionary",
@@ -11634,7 +11630,7 @@ window.CET6_DATA = {
               "highlight": "v.(使）苏醒",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(再次，重新) + viv(生命，活着) + -e → 奄奄一息之人重新恢复生命体征 → v.(使)苏醒，使复苏；重新上映",
               "derivations": [
                 {
                   "word": "revival",
@@ -11721,7 +11717,7 @@ window.CET6_DATA = {
               "highlight": "v.遵守",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "con-(共同) + form(形状，形式) → 改变自己的形状使其与大部队规则相一致 → v.遵守，遵从；相一致，相符合",
               "derivations": [
                 {
                   "word": "conformity",
@@ -11741,7 +11737,7 @@ window.CET6_DATA = {
               "highlight": "n.校服",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "uni-(单一，统一) + form(外形，式样) → 全校或全军统一样式规格的服装 → n.校服；制服 adj.统一的，一律的",
               "derivations": [
                 {
                   "word": "uniformity",
@@ -11834,7 +11830,7 @@ window.CET6_DATA = {
               "highlight": "v.制定",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "formula(配方，公式) + -ate(动词后缀) → 像列公式一样严谨确切地规划制定出方案 → v.制定；规划；构想；确切表达",
               "derivations": [
                 {
                   "word": "formulation",
@@ -11900,7 +11896,7 @@ window.CET6_DATA = {
               "highlight": "v.演出",
               "freq": 3,
               "tip_type": "对照",
-              "tip": "每一个（per）人都来表演（perform）。 N 处于低谷时，四面都是上坡路。/085|",
+              "tip": "每一个（per）人都来表演（perform）。 N 处于低谷时，四面都是上坡路。|",
               "derivations": [
                 {
                   "word": "performance",
@@ -11963,7 +11959,7 @@ window.CET6_DATA = {
               "highlight": "v.预期",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ex-(向外) + spect(看) → 伸长脖子翘首向外张望盼望归来 → v.预料；期待；要求，期望；猜想",
               "derivations": [
                 {
                   "word": "expectation",
@@ -12117,7 +12113,7 @@ window.CET6_DATA = {
               "highlight": "n.尊敬",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "re-(一再，反复) + spect(看) → 面对崇高之人一再脱帽仰望注视 → n.&v.尊敬，敬佩；遵守 n.方面",
               "derivations": [
                 {
                   "word": "respectable",
@@ -12191,7 +12187,7 @@ window.CET6_DATA = {
               "highlight": "n.兴旺",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "prosper(繁荣，兴旺) + -ity(名词后缀) → 百业兴旺、国泰民安的大好局面 → n.兴旺，繁荣，昌盛",
               "derivations": [
                 {
                   "word": "prosper",
@@ -12450,7 +12446,7 @@ window.CET6_DATA = {
               "highlight": "扮演(角色） v.描写",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "por-(=pro-，向前) + tray(拖拽，绘制，联想draw) → 用画笔在画布上生动描摹人物神态 → v.描写，描绘；画(人物、景象)；扮演(角色)",
               "derivations": [
                 {
                   "word": "portrait",
@@ -12591,7 +12587,7 @@ window.CET6_DATA = {
               "highlight": "v.订购",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sub-(在下方) + scribe(写，签名) → 在订购单底部签下姓名认缴费用 → v.订购；订阅；申请；认购(股份)",
               "derivations": [
                 {
                   "word": "subscriber",
@@ -12624,7 +12620,7 @@ window.CET6_DATA = {
               "highlight": "n.剧本",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "script(写下之物，手迹) → 编剧亲手写在纸上的影视台词讲稿 → n.剧本，讲稿；笔迹，手迹 v.写剧本",
               "derivations": [
                 {
                   "word": "scripture",
@@ -12674,7 +12670,7 @@ window.CET6_DATA = {
               "highlight": "n.说明书",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -al（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "manu-(手，手工) + -al(名词/形容词后缀) → 放在手边翻阅的手册，或用纯体力双手干活 → n.说明书，使用手册 adj.手工的；手动的",
               "derivations": []
             },
             {
@@ -12815,7 +12811,7 @@ window.CET6_DATA = {
               "highlight": "n.感情",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "affect(打动，感动) + -ion(名词后缀) → 深深打动内心泛起的温存爱意 → n.喜爱，钟爱；感情；爱情",
               "derivations": [
                 {
                   "word": "affectionate",
@@ -13075,7 +13071,7 @@ window.CET6_DATA = {
               "highlight": "n.侦察员",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "sc（联想“死看”）+out（出去）→侦察 发光不是太阳的权利，你也可以。 /093",
+              "tip": "sc（联想“死看”）+out（出去）→侦察 发光不是太阳的权利，你也可以。",
               "derivations": []
             },
             {
@@ -13110,7 +13106,7 @@ window.CET6_DATA = {
               "highlight": "v.使大为震惊",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ap-(=ad-，使) + pal(苍白，惨白，联想pale) → 听到灾难噩耗吓得脸色一片惨白 → v.使大为震惊，使惊骇",
               "derivations": [
                 {
                   "word": "appalling",
@@ -13224,7 +13220,7 @@ window.CET6_DATA = {
               "highlight": "n.内疚",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“鬼特” → 心中有鬼特别发虚内疚 → n.内疚，愧疚；罪行，有罪",
               "derivations": [
                 {
                   "word": "guilty",
@@ -13266,7 +13262,7 @@ window.CET6_DATA = {
               "highlight": "v.区分",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "dis-(分开) + crimin(判决，分辨) + -ate → 分辨出细微差别，或戴有色眼镜区别歧视他人 → v.区分，辨别；歧视；偏袒",
               "derivations": [
                 {
                   "word": "discrimination",
@@ -13292,7 +13288,7 @@ window.CET6_DATA = {
               "highlight": "n.监狱",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "pris(抓住，捕获，联想surprise) + -on → 将作奸犯科之徒抓捕关押的牢房铁笼 → n.监狱，牢笼；监禁",
               "derivations": [
                 {
                   "word": "prisoner",
@@ -13565,7 +13561,7 @@ window.CET6_DATA = {
               "highlight": "v.赞成",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ap-(=ad-，向，赞许) + prove(证明，检验) → 经过检验合格点头赞成同意 → v.赞成，同意；批准，通过",
               "derivations": [
                 {
                   "word": "approval",
@@ -13611,7 +13607,7 @@ window.CET6_DATA = {
               "highlight": "v.(尤指出庭）作证",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -fy（动词后缀，表使成为）→ 掌握其六级同根派生变换",
+              "tip": "testi(证人，证据，联想test) + -fy(使...化，动词后缀) → 证人在法庭上当众立誓作证证明 → v.(尤指出庭)作证，证明",
               "derivations": []
             },
             {
@@ -13661,7 +13657,7 @@ window.CET6_DATA = {
               "highlight": "n.反叛者",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "bell)→警铃再",
+              "tip": "re-(反，逆) + bel(战斗，战争，同源bellicose) → 举起反抗大旗向暴政开战的不服从者 → n.反叛者，起义者 v.反叛，造反",
               "derivations": [
                 {
                   "word": "rebellion",
@@ -13732,7 +13728,7 @@ window.CET6_DATA = {
               "highlight": "adj.与法律有关的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "leg-(法律，同源legal) + -al(形容词后缀) → 符合宪法与法理条文规定的 → adj.与法律有关的；合法的",
               "derivations": [
                 {
                   "word": "legalize",
@@ -13752,7 +13748,7 @@ window.CET6_DATA = {
               "highlight": "adj.不合法的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -al（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "il-(=in-，不，非) + legal(合法的) → 触犯刑法法律条令的勾当或黑工 → adj.不合法的，非法的 n.非法移民；非法劳工",
               "derivations": []
             },
             {
@@ -13787,7 +13783,7 @@ window.CET6_DATA = {
               "highlight": "v.制定法律",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "legis(=lex，法律) + late(带来，提出) → 人大代表在国会提出并制定法律法案 → v.制定法律，立法",
               "derivations": [
                 {
                   "word": "legislation",
@@ -13872,7 +13868,7 @@ window.CET6_DATA = {
               "highlight": "v.迫害",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "per-(彻底，贯穿) + secute(=sequ，跟随，跟踪) → 穷追不舍一路尾随迫害弱者 → v.迫害，残害；无休止地骚扰",
               "derivations": [
                 {
                   "word": "persecution",
@@ -13892,7 +13888,7 @@ window.CET6_DATA = {
               "highlight": "v.起诉",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "pro-(向前，公开) + secute(=sequ，追随，追踪) → 检察机关向前推进法律程序在法庭公诉指控 → v.起诉，控告；检举",
               "derivations": [
                 {
                   "word": "prosecution",
@@ -13912,7 +13908,7 @@ window.CET6_DATA = {
               "highlight": "n.一系列",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sequ(跟随) + -ence(名词后缀) → 一个跟随前一个依次排列的连贯条理 → n.一系列；顺序，次序 v.按顺序排列",
               "derivations": [
                 {
                   "word": "sequential",
@@ -13973,7 +13969,7 @@ window.CET6_DATA = {
               "highlight": "n.法官",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "jud(=jus，正义，法律) + -ge → 在法庭上依照正义法律居中裁断的人 → n.法官；裁判员；鉴定人 v.判断，断定",
               "derivations": [
                 {
                   "word": "judgement",
@@ -13993,7 +13989,7 @@ window.CET6_DATA = {
               "highlight": "adj.审判的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -al（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "judic(法官，司法) + -ial(形容词后缀) → 与法官执掌法庭审判权力和司法制度有关的 → adj.审判的；法庭的；司法的",
               "derivations": []
             },
             {
@@ -14091,7 +14087,7 @@ window.CET6_DATA = {
               "highlight": "n.陪审团",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "jur-(誓言，宣誓) + -y(人构成的集体) → 庄严宣誓誓死秉公评判罪责的平民审判陪审团 → n.陪审团",
               "derivations": [
                 {
                   "word": "juror",
@@ -14126,7 +14122,7 @@ window.CET6_DATA = {
               "highlight": "n.司法权",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -tion（名词后缀，表行为或状态）→ 掌握其六级同根派生变换",
+              "tip": "juris(法律) + dict(说话，裁决) + -ion → 拥有依法宣判管辖权力的法定地盘范围 → n.司法权，审判权；管辖权；管辖范围",
               "derivations": []
             },
             {
@@ -14180,7 +14176,7 @@ window.CET6_DATA = {
               "highlight": "v.遣责",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "con-(共同，全部) + damn/demn(惩罚，该死，联想damn) → 所有人齐声谴责并判处其有罪 → v.谴责，严责；宣判；证明...有罪",
               "derivations": [
                 {
                   "word": "condemnation",
@@ -14258,7 +14254,7 @@ window.CET6_DATA = {
               "highlight": "n.大量",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ance（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "ab-(离开) + und(波浪，溢出，联想wave) + -ance → 粮食像波浪潮水一样满满当当溢出来 → n.大量，充裕，丰富",
               "derivations": []
             },
             {
@@ -14380,7 +14376,7 @@ window.CET6_DATA = {
               "highlight": "n.质量",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "qual(如何，怎样，特性) + -ity(名词后缀) → 物品经过检验具备的高档次素质与品质 → n.质量，品质；优良特性",
               "derivations": [
                 {
                   "word": "qualitative",
@@ -14562,7 +14558,7 @@ window.CET6_DATA = {
               "highlight": "v.核实",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "ver-(真实，真理) + -ify(动词后缀，使...化) → 通过严谨证据验证证明其确实为真 → v.核实，证实，证明",
               "derivations": [
                 {
                   "word": "verification",
@@ -14713,7 +14709,7 @@ window.CET6_DATA = {
               "highlight": "n.经典作品",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "class(等级，阶级，一流) + -ic(形容词/名词后缀) → 经受住岁月检验、居于最高殿堂的旷世杰作 → n.经典作品，杰作 adj.最优秀的；典型的",
               "derivations": [
                 {
                   "word": "classical",
@@ -14746,7 +14742,7 @@ window.CET6_DATA = {
               "highlight": "v.正式批准",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "rat(赞同，确立，联想rate) + -ify(使动后缀) → 总统签字使国际条约正式生效批准 → v.正式批准；使正式生效",
               "derivations": [
                 {
                   "word": "ratification",
@@ -14805,7 +14801,7 @@ window.CET6_DATA = {
               "highlight": "v.更改",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "mod(尺度，方式) + -ify(使动后缀) → 依据新尺度将方案稍加改进修饰 → v.更改，改进；修改，修饰",
               "derivations": [
                 {
                   "word": "modification",
@@ -14825,7 +14821,7 @@ window.CET6_DATA = {
               "highlight": "v.(使)改变",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "alter(其他的，另一个，同源alternative) → 改变原来的模样变成另一种全新模样 → v.(使)改变，更改；修改",
               "derivations": [
                 {
                   "word": "alteration",
@@ -14845,7 +14841,7 @@ window.CET6_DATA = {
               "highlight": "/ol'tsnat/adj. n.代替者",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 4 个重点考查派生词",
+              "tip": "alter(另一个) + -n- + -ate → 这一个做完了轮到另一个做，来回倒替 → adj.交替的，轮流的 v.使交替；使轮流 n.代替者",
               "derivations": [
                 {
                   "word": "alternative",
@@ -14883,7 +14879,7 @@ window.CET6_DATA = {
               "highlight": "v.相异",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "var-(变化，多样，同源various) + -y → 世界上各种事物千差万别各不相同 → v.相异，不同；变化，呈现差异",
               "derivations": [
                 {
                   "word": "variable",
@@ -14909,7 +14905,7 @@ window.CET6_DATA = {
               "highlight": "n.差异",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -tion（名词后缀，表行为或状态）→ 掌握其六级同根派生变换",
+              "tip": "vari(变化) + -ation(名词后缀) → 事物发展过程中呈现出来的差异变动 → n.差异；变化；变更",
               "derivations": []
             },
             {
@@ -14974,7 +14970,7 @@ window.CET6_DATA = {
               "highlight": "v.修正",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "a-(=ad-，使) + mend(修补，矫正) → 找出宪法文件中的漏洞瑕疵予以修正弥补 → v.修正，修订(法律文件、声明等)",
               "derivations": [
                 {
                   "word": "amendment",
@@ -14994,7 +14990,7 @@ window.CET6_DATA = {
               "highlight": "v.(尤指公开地）赞扬",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "com-(共同) + mend(托付，称赞) → 所有人齐声公开赞许表扬 → v.(公开地)赞扬，表扬；推荐，举荐",
               "derivations": [
                 {
                   "word": "commendation",
@@ -15014,7 +15010,7 @@ window.CET6_DATA = {
               "highlight": "v.推荐",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(一再) + commend(赞许，托付) → 一再热心向别人介绍托付好人才 → v.推荐，举荐；建议，劝告",
               "derivations": [
                 {
                   "word": "recommendation",
@@ -15034,7 +15030,7 @@ window.CET6_DATA = {
               "highlight": "v.放大",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ampl(大，宽广，同源ample) + -i- + -fy(使动后缀) → 把音量放大，或把陈述细节扩充充实 → v.放大，增强(声音)；充实，详述",
               "derivations": [
                 {
                   "word": "amplification",
@@ -15054,7 +15050,7 @@ window.CET6_DATA = {
               "highlight": "v.取得资格（或学历)",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "qual(品质，资格) + -i- + -fy(使动后缀) → 经考核具备合格的技术资格和学历 → v.取得资格；使合格；使具备资格",
               "derivations": [
                 {
                   "word": "qualification",
@@ -15074,7 +15070,7 @@ window.CET6_DATA = {
               "highlight": "v.量化",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "quant(数量，同源quantity) + -i- + -fy(使动后缀) → 把抽象概念用具体的数字指标量化出来 → v.量化；确定...的数量",
               "derivations": [
                 {
                   "word": "quantification",
@@ -15094,7 +15090,7 @@ window.CET6_DATA = {
               "highlight": "v.统一",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "uni-(单一，一体) + -fy(使动后缀) → 把四分五裂的各派融合成一个完整的统一体 → v.统一；使成一体",
               "derivations": [
                 {
                   "word": "unification",
@@ -15114,7 +15110,7 @@ window.CET6_DATA = {
               "highlight": "v.联合",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "uni-(单一) + -te(动词后缀) → 万众一心手拉手联合团结在一起 → v.联合，联手；联结，统一",
               "derivations": [
                 {
                   "word": "unity",
@@ -15134,7 +15130,7 @@ window.CET6_DATA = {
               "highlight": "v.(使)再结合",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "re-(重新) + unite(团结，结合) → 历经多年战乱离散后亲人再次重逢结合 → v.(使)再结合，再联合；(使)重逢",
               "derivations": [
                 {
                   "word": "reunification",
@@ -15160,7 +15156,7 @@ window.CET6_DATA = {
               "highlight": "v.具体说明",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "speci-(特别，具体细节) + -fy(使动后缀) → 在合同条款中逐条具体详述说明 → v.具体说明；明确规定；详述",
               "derivations": [
                 {
                   "word": "specification",
@@ -15180,7 +15176,7 @@ window.CET6_DATA = {
               "highlight": "adj.特定的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "speci-(细节，种类) + -fic(产生的，属性) → 针对特定对象做出明确清晰的规定 → adj.特定的；明确的；具体的；特有的",
               "derivations": [
                 {
                   "word": "specifically",
@@ -15200,7 +15196,7 @@ window.CET6_DATA = {
               "highlight": "adj.特殊的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "spec-(看见，外观) + -ial → 一眼看过去非同寻常与众不同的独特之处 → adj.特殊的，特别的；不寻常的",
               "derivations": [
                 {
                   "word": "specialize",
@@ -15232,7 +15228,7 @@ window.CET6_DATA = {
               "highlight": "n.特产",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ity（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "special(特殊的，专门的) + -ity(名词后缀) → 独门绝技专长，或某地著名的特产 → n.特产；专业；专长",
               "derivations": []
             },
             {
@@ -15245,7 +15241,7 @@ window.CET6_DATA = {
               "highlight": "adu.尤其",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ly（副词后缀，表...地）→ 掌握其六级同根派生变换",
+              "tip": "especial(特殊的) + -ly(副词后缀) → 格外引人注目地；专门尤其突出地 → adv.尤其；特别；专门；非常",
               "derivations": []
             },
             {
@@ -15323,7 +15319,7 @@ window.CET6_DATA = {
               "highlight": "n.塑料adj.塑料制的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "plast(塑形，成型) + -ic(形容词/名词后缀) → 加热后易于揉搓塑形的人工材料 → n.塑料 adj.塑料制的；可塑的",
               "derivations": []
             },
             {
@@ -15336,7 +15332,7 @@ window.CET6_DATA = {
               "highlight": "adj.有弹性的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ela-(驱动，弹跳) + -stic → 像橡皮筋一样拉长松手后瞬间回弹的 → adj.有弹性的；灵活的 n.橡皮圈",
               "derivations": [
                 {
                   "word": "elasticity",
@@ -15403,7 +15399,7 @@ window.CET6_DATA = {
               "highlight": "adj.柔韧的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "flex(弯曲) + -ible(容易...的) → 容易弯曲不易折断，处理事务通情达理灵活变通 → adj.柔韧的；灵活的，可通融的",
               "derivations": [
                 {
                   "word": "flexibility",
@@ -15423,7 +15419,7 @@ window.CET6_DATA = {
               "highlight": "v.反射",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "re-(回，反) + flect(弯曲，折回) → 光线打在镜面上折回；内心向深处反省思索 → v.反射；反映；反省，仔细考虑",
               "derivations": [
                 {
                   "word": "reflection",
@@ -15449,7 +15445,7 @@ window.CET6_DATA = {
               "highlight": "v.使变形",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "dis-(分开) + tort(扭曲，拧转) → 把原本平整的事实或面貌狠狠扭曲拧变形 → v.使变形，扭曲；歪曲，曲解",
               "derivations": [
                 {
                   "word": "distorted",
@@ -15514,7 +15510,7 @@ window.CET6_DATA = {
               "highlight": "n.破产者v.使破产 adj.破产的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "bank(银行) + rupt(断裂，破裂) → 资金链彻底断裂无力还债宣告倒闭 → n.破产者 v.使破产 adj.破产的，倒闭的",
               "derivations": [
                 {
                   "word": "bankruptcy",
@@ -15547,7 +15543,7 @@ window.CET6_DATA = {
               "highlight": "v.打断(某人的）讲话",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "inter-(在...中间) + rupt(断裂) → 在别人说话的中间硬生生插话打断 → v.打断(某人的讲话)；打扰；使中断",
               "derivations": [
                 {
                   "word": "interruption",
@@ -15567,7 +15563,7 @@ window.CET6_DATA = {
               "highlight": "v.突然发生",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "e-(向外) + rupt(破裂，爆开) → 岩浆在地底憋不住瞬间向外喷涌喷发 → v.突然发生；爆发；喷发；迸发",
               "derivations": [
                 {
                   "word": "eruption",
@@ -15587,7 +15583,7 @@ window.CET6_DATA = {
               "highlight": "v.扰乱",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "dis-(向四周) + rupt(破裂) → 彻底打碎原有的市场秩序造成混乱停摆 → v.扰乱，使混乱，打乱；颠覆",
               "derivations": [
                 {
                   "word": "disruptive",
@@ -15626,7 +15622,7 @@ window.CET6_DATA = {
               "highlight": "v.使腐化",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "cor-(完全) + rupt(破损，腐败) → 整个官僚系统彻底烂透腐化堕落 → v.使腐化；破坏 adj.腐败的；不道德的",
               "derivations": [
                 {
                   "word": "corruption",
@@ -15646,7 +15642,7 @@ window.CET6_DATA = {
               "highlight": "n.腐烂",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“肉脱” → 肉放在潮湿闷热处坏掉脱落腐烂 → n.腐烂；腐败 v.(使)腐烂，(使)腐败",
               "derivations": [
                 {
                   "word": "rotten",
@@ -15666,7 +15662,7 @@ window.CET6_DATA = {
               "highlight": "v.（使）旋转",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "rot-(轮子，旋转，同源round) + -ate → 像车轮一样周而复始旋转转动或人员轮流轮值 → v.(使)旋转，(使)转动；轮流",
               "derivations": [
                 {
                   "word": "rotation",
@@ -15712,7 +15708,7 @@ window.CET6_DATA = {
               "highlight": "n.贿赂 v.贿赂",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“不来不” → 不拿黑金贿赂就不办事，收受不义财物收买法官 → n.贿赂 v.行贿，收买",
               "derivations": [
                 {
                   "word": "bribery",
@@ -15732,7 +15728,7 @@ window.CET6_DATA = {
               "highlight": "n.借款",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“带它”/deb-(欠缺) + -t → 借了别人的钱带着沉重的欠款债务 → n.借款，欠款，债务",
               "derivations": [
                 {
                   "word": "debtor",
@@ -15752,7 +15748,7 @@ window.CET6_DATA = {
               "highlight": "adj.负债的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "in-(在...之中) + debt(债务) + -ed → 欠下巨大人情债而满怀感激之情 → adj.负债的；感激的，蒙恩的",
               "derivations": []
             },
             {
@@ -15778,7 +15774,7 @@ window.CET6_DATA = {
               "highlight": "n.操纵杆",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "lev-(轻，抬起，同源elevate) + -er → 撬动重物的杠杆操纵杆；解决问题的借力手段 → n.杠杆，操纵杆；手段 v.撬动",
               "derivations": [
                 {
                   "word": "leverage",
@@ -15798,7 +15794,7 @@ window.CET6_DATA = {
               "highlight": "v.使充气",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "in-(向内) + flat(吹气) + -e → 往气球或货币体系里一个劲吹气使其膨胀 → v.使充气，膨胀；通货膨胀",
               "derivations": [
                 {
                   "word": "inflation",
@@ -15883,7 +15879,7 @@ window.CET6_DATA = {
               "highlight": "n.海岸",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“靠死” → 船舶靠近岸边靠死了停靠码头 → n.海岸，海滨",
               "derivations": [
                 {
                   "word": "coastal",
@@ -15916,7 +15912,7 @@ window.CET6_DATA = {
               "highlight": "v.组成",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "com-(共同) + pos(放置) + -e → 把音符或字句和谐地放置在一起组合谱曲 → v.组成，构成；作曲，创作；使镇静",
               "derivations": [
                 {
                   "word": "composition",
@@ -15955,7 +15951,7 @@ window.CET6_DATA = {
               "highlight": "v.编写",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "com-(共同) + pile(堆叠) + -e → 把各方搜集来的文献堆叠汇编成册 → v.编写，编纂；汇编；编译",
               "derivations": [
                 {
                   "word": "compilation",
@@ -16001,7 +15997,7 @@ window.CET6_DATA = {
               "highlight": "n.(坐、立的）姿势",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "pos(放置，摆出) + -ture(名词后缀) → 身体摆出的站立坐卧姿势；对待问题的立场态度 → n.姿势；态度，立场 v.故作姿态",
               "derivations": [
                 {
                   "word": "pose",
@@ -16021,7 +16017,7 @@ window.CET6_DATA = {
               "highlight": "v.提议",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "pro-(向前) + pos(放置) + -e → 把自己的求婚戒指或合作建议摆在对方面前 → v.提议，建议；打算；求婚",
               "derivations": [
                 {
                   "word": "proposal",
@@ -16041,7 +16037,7 @@ window.CET6_DATA = {
               "highlight": "n.提议",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 pro-（向前；赞同，支持）+ 词根 + 后缀 -tion（名词后缀，表行为或状态）→ n.提议",
+              "tip": "pro-(向前) + pos(放置) + -al(名词后缀) → 正式向前呈递提交的策划方案提议 → n.提议，建议；求婚",
               "derivations": []
             },
             {
@@ -16054,7 +16050,7 @@ window.CET6_DATA = {
               "highlight": "n.观点",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -tion（名词后缀，表行为或状态）→ 掌握其六级同根派生变换",
+              "tip": "posit(放置) + -ion(名词后缀) → 身体或事物所安置安放的物理位置或职业岗位、立场 → n.观点，立场；位置；职务，岗位",
               "derivations": []
             },
             {
@@ -16067,7 +16063,7 @@ window.CET6_DATA = {
               "highlight": "v.使接触",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ex-(向外) + pos(放置) + -e → 把原本藏在箱底的阴暗丑闻放在阳光下暴露揭发 → v.使接触；暴露；揭露",
               "derivations": [
                 {
                   "word": "exposure",
@@ -16100,7 +16096,7 @@ window.CET6_DATA = {
               "highlight": "v.使倾向于",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "dis-(分开) + pos(放置) + -e → 把废旧垃圾分门别类各就各位扔掉处理掉 → v.使倾向于；布置；处理，扔掉",
               "derivations": [
                 {
                   "word": "disposition",
@@ -16126,7 +16122,7 @@ window.CET6_DATA = {
               "highlight": "v.推行",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "im-(=in-，在...之上) + pos(放置) + -e → 把沉重的苛捐杂税硬生生强加在百姓头上 → v.推行；强制实行；把...强加于",
               "derivations": [
                 {
                   "word": "imposition",
@@ -16152,7 +16148,7 @@ window.CET6_DATA = {
               "highlight": "v.反对",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "op-(=ob-，在对面) + pos(放置) + -e → 站在大路的正对面挥拳对抗反对对方 → v.反对，对抗；与...角逐",
               "derivations": [
                 {
                   "word": "opposition",
@@ -16224,7 +16220,7 @@ window.CET6_DATA = {
               "highlight": "n.竞争对手.与.…….相匹敌",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "riv-(溪流，岸边) + -al → 古代住在同一条河流两岸争夺水源的竞争对手 → n.竞争对手 v.与...相匹敌，比得上",
               "derivations": [
                 {
                   "word": "rivalry",
@@ -16244,7 +16240,7 @@ window.CET6_DATA = {
               "highlight": "adj.赞同的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ive（形容词后缀，表有...倾向的）→ 掌握其六级同根派生变换",
+              "tip": "posit(安放，肯定) + -ive(形容词后缀) → 心态踏实安顿、对生活充满信心的正面心态 → adj.赞同的；积极乐观的；肯定的",
               "derivations": []
             },
             {
@@ -16257,7 +16253,7 @@ window.CET6_DATA = {
               "highlight": "adj.有害的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ive（形容词后缀，表有...倾向的）→ 掌握其六级同根派生变换",
+              "tip": "neg-(拒绝，否认) + -ative(形容词后缀) → 对一切说“不”、垂头丧气的负面消极态度 → adj.消极负面的；有害的；否定的",
               "derivations": []
             },
             {
@@ -16270,7 +16266,7 @@ window.CET6_DATA = {
               "highlight": "adj.乐观的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "optim-(最好，最佳) + -istic(形容词后缀) → 坚信凡事总会往最好方向发展的乐天派 → adj.乐观的，乐观主义的",
               "derivations": [
                 {
                   "word": "optimism",
@@ -16296,7 +16292,7 @@ window.CET6_DATA = {
               "highlight": "adj.被动的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ive（形容词后缀，表有...倾向的）→ 掌握其六级同根派生变换",
+              "tip": "pass-(承受，遭受，同源passion受难) + -ive → 只知默默承受外界安排而不主动争取的 → adj.被动的，消极的；顺从的",
               "derivations": []
             }
           ]
@@ -16356,7 +16352,7 @@ window.CET6_DATA = {
               "highlight": "adj.不情愿的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(反向) + luct(抗争，挣扎) + -ant → 内心拼命抵抗挣扎不想去做某事 → adj.勉强的，不情愿的",
               "derivations": [
                 {
                   "word": "reluctance",
@@ -16415,7 +16411,7 @@ window.CET6_DATA = {
               "highlight": "n.出口",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ex-(向外) + port(港口，搬运) → 将国货搬运出海关港口卖给外国 → n.出口，输出；出口产品 v.输出，出口",
               "derivations": [
                 {
                   "word": "exportation",
@@ -16435,7 +16431,7 @@ window.CET6_DATA = {
               "highlight": "/'mpot/ n.进口",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "im-(向内) + port(港口，运送) → 从海外港口把货物搬运进口到国内市场 → n.进口，输入 v.进口，输入",
               "derivations": [
                 {
                   "word": "importation",
@@ -16468,7 +16464,7 @@ window.CET6_DATA = {
               "highlight": "v.驱逐出境",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "de-(离开) + port(运送，港口) → 把非法滞留人员押送运送出海关边境驱逐出境 → v.驱逐出境，递解出境",
               "derivations": [
                 {
                   "word": "deportation",
@@ -16488,7 +16484,7 @@ window.CET6_DATA = {
               "highlight": "n.支持",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sub-(在下方) + port(搬运，承受) → 在底部双手托举承受起整座房屋大梁 → n.&v.支持，拥护；支撑；养活",
               "derivations": [
                 {
                   "word": "supporter",
@@ -16508,7 +16504,7 @@ window.CET6_DATA = {
               "highlight": "v.(公开）赞同",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "en-(使) + dorse(背，背脊，同源dorsal) → 在公文或支票背面签字盖章以示公开力挺赞同 → v.(公开)赞同，支持，认可",
               "derivations": [
                 {
                   "word": "endorsement",
@@ -16528,7 +16524,7 @@ window.CET6_DATA = {
               "highlight": "/'trensport/ n.交通运输系统",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "trans-(跨越) + port(运送) → 跨越千山万水运送人流与物资的交通网络 → n.交通运输系统；运输工具 v.运输",
               "derivations": [
                 {
                   "word": "transportation",
@@ -16548,7 +16544,7 @@ window.CET6_DATA = {
               "highlight": "n.部分",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -tion（名词后缀，表行为或状态）→ 掌握其六级同根派生变换",
+              "tip": "part(部分，分成份) + -ion → 从大蛋糕上切下来属于自己的一小份食物或财产 → n.部分；(食物的)一份",
               "derivations": []
             },
             {
@@ -16561,7 +16557,7 @@ window.CET6_DATA = {
               "highlight": "n.比例",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "pro-(依照) + portion(份额) → 依照既定各部分分配构成的均衡比例关系 → n.比例；部分，份额",
               "derivations": [
                 {
                   "word": "proportional",
@@ -16581,7 +16577,7 @@ window.CET6_DATA = {
               "highlight": "n.机会",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ity（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "op-(=ob-，朝向) + port(港口) + -unity → 顺风顺水船只顺利驶入避风港的大好时机 → n.机会；时机",
               "derivations": []
             },
             {
@@ -16633,7 +16629,7 @@ window.CET6_DATA = {
               "highlight": "v.(坚决）主张",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "as-(=ad-，一再) + sert(连结，编织言语) → 一再斩钉截铁维护自己的正义主张 → v.(坚决)主张；断言",
               "derivations": [
                 {
                   "word": "assertive",
@@ -16659,7 +16655,7 @@ window.CET6_DATA = {
               "highlight": "/1n's3t/ v.插入",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "in-(向内) + sert(放，插) → 把插头插进插座，或在文稿里加入插页广告 → v.插入，放进 n.插页广告；插入物",
               "derivations": [
                 {
                   "word": "insertion",
@@ -16692,7 +16688,7 @@ window.CET6_DATA = {
               "highlight": "v.(尤因强烈的情感或痛苦而）惊叫",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "ex-(向外) + claim(呼喊，叫嚷) → 因剧痛或狂喜忍不住脱口大声尖叫呼喊 → v.(尤因强烈感情或痛苦)惊叫，呼喊",
               "derivations": [
                 {
                   "word": "exclamation",
@@ -16757,7 +16753,7 @@ window.CET6_DATA = {
               "highlight": "v.公布",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "de-(加强语气) + clar(清晰，清楚，同源clear) + -e → 当众把政策条文清清楚楚公之于众宣告 → v.公布，宣布，宣告；申报",
               "derivations": [
                 {
                   "word": "declaration",
@@ -16783,7 +16779,7 @@ window.CET6_DATA = {
               "highlight": "v.(未经证实的)宣称",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "ad-(向) + leg(法律) + -e → 尚未开庭审理、仅由原告方向法庭指控宣称的罪名 → v.(未经证实的)宣称，指控",
               "derivations": [
                 {
                   "word": "allegation",
@@ -16854,7 +16850,7 @@ window.CET6_DATA = {
               "highlight": "v.使确信",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "as-(=ad-，使) + sure(安心，确定) → 拍胸脯向客户打包票使其确信无疑 → v.使确信，向...保证；确保",
               "derivations": [
                 {
                   "word": "assurance",
@@ -16874,7 +16870,7 @@ window.CET6_DATA = {
               "highlight": "ria/o(r)/ v.使…安心打消..的疑虑",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(重新) + assure(使确信) → 在病患恐慌时一再安慰打消其疑虑让其安心 → v.使...安心，打消...的疑虑",
               "derivations": [
                 {
                   "word": "reassurance",
@@ -16907,7 +16903,7 @@ window.CET6_DATA = {
               "highlight": "/In'fua(r); v.投保",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "in-(在内) + sure(确定安全) → 购买人身意外保险以确保发生风险时有赔付 → v.投保，给...上保险；承保",
               "derivations": [
                 {
                   "word": "insurance",
@@ -16940,7 +16936,7 @@ window.CET6_DATA = {
               "highlight": "v.劝说",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "per-(彻底) + suade(甜，劝诱，同源sweet) → 磨破嘴皮子用真诚言辞彻底说服对方 → v.劝说，说服；使信服",
               "derivations": [
                 {
                   "word": "persuasion",
@@ -17018,7 +17014,7 @@ window.CET6_DATA = {
               "highlight": "adj.无限的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "in-(无，非) + fin(界限，终点) + -ite → 没有任何尽头边界的无边宇宙 → adj.无限的，无穷的",
               "derivations": [
                 {
                   "word": "infinity",
@@ -17070,7 +17066,7 @@ window.CET6_DATA = {
               "highlight": "adj.肯定的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "de-(完全) + fin(边界，确定) + -ite → 已经划定了极其清晰边界的、毋庸置疑的 → adj.肯定的，确定的；明显的",
               "derivations": [
                 {
                   "word": "definitely",
@@ -17103,7 +17099,7 @@ window.CET6_DATA = {
               "highlight": "adj.模糊不清的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "in-(不) + definite(确定的) → 期限模糊不清、可以无限期拖延下去的 → adj.模糊不清的，不明确的；无限期的",
               "derivations": []
             },
             {
@@ -17116,7 +17112,7 @@ window.CET6_DATA = {
               "highlight": "v.精炼",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(再次，反复) + fine(纯净，优良) → 反复过滤熔炼去除原油杂质提取精华 → v.精炼，提炼；改进，完善",
               "derivations": [
                 {
                   "word": "refinement",
@@ -17162,7 +17158,7 @@ window.CET6_DATA = {
               "highlight": "v.约束",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "con-(共同) + fin(界限) + -e → 把犯人紧紧关闭在监狱围墙边界之内限制自由 → v.约束，限定，限制；使离不开",
               "derivations": [
                 {
                   "word": "confinement",
@@ -17182,7 +17178,7 @@ window.CET6_DATA = {
               "highlight": "v.阻止",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(向后) + strain(拉紧，拽紧，同源strict) → 用力向后拽紧狂奔烈马的缰绳制止失控 → v.阻止，制止，约束，克制",
               "derivations": [
                 {
                   "word": "restraint",
@@ -17202,7 +17198,7 @@ window.CET6_DATA = {
               "highlight": "v.阻止",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "con-(共同) + strain(拉紧，约束) → 受到重重严密锁链绳索制约绑手绑脚 → v.阻止；限制，强迫",
               "derivations": [
                 {
                   "word": "constraint",
@@ -17297,7 +17293,7 @@ window.CET6_DATA = {
               "highlight": "adj.寒冷的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ly（副词后缀，表...地）→ 掌握其六级同根派生变换",
+              "tip": "chill(寒意，冷风) + -y(形容词后缀) → 北风刺骨冷得让人瑟瑟发抖的 → adj.寒冷的；阴冷的；冷淡的",
               "derivations": []
             },
             {
@@ -17434,7 +17430,7 @@ window.CET6_DATA = {
               "highlight": "adj.数量多的",
               "freq": 3,
               "tip_type": "对照",
-              "tip": "multiplyv.成倍增加→multipleadj. 少年应有鸿鹉志，当骑骏马踏平川。/125",
+              "tip": "multiplyv.成倍增加→multipleadj. 少年应有鸿鹉志，当骑骏马踏平川。",
               "derivations": []
             },
             {
@@ -17586,7 +17582,7 @@ window.CET6_DATA = {
               "highlight": "n.创业者",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "entre-(进入，在...之间) + preneur(抓取机会者，同源enterprise) → 敢为人先敏锐捕捉商机创办企业的弄潮儿 → n.创业者，企业家",
               "derivations": [
                 {
                   "word": "entrepreneurial",
@@ -17721,7 +17717,7 @@ window.CET6_DATA = {
               "highlight": "v.牵涉",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "en-（使）+tail（切）→使切分成…… 的一部分→牵涉；使必要 披星戴月走过的路，最终将会繁花满地。/127",
+              "tip": "en-（使）+tail（切）→使切分成…… 的一部分→牵涉；使必要 披星戴月走过的路，最终将会繁花满地。",
               "derivations": []
             },
             {
@@ -17734,7 +17730,7 @@ window.CET6_DATA = {
               "highlight": "v.买得起",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "af-(=ad-，给予) + ford(推进，向前) → 钱包厚实足够支付得起买得起，或抽得出精力承受 → v.买得起；做得到；承担得起",
               "derivations": [
                 {
                   "word": "affordable",
@@ -17943,7 +17939,7 @@ window.CET6_DATA = {
               "highlight": "v.合作",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "co-(共同) + operate(操作，工作) → 齐心协力并肩协作完成同一工程 → v.合作，协作；配合",
               "derivations": [
                 {
                   "word": "cooperation",
@@ -17996,7 +17992,7 @@ window.CET6_DATA = {
               "highlight": "/'laebarat/ v.详细描述",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "e-（出）+labor（劳动）+-ate（后缓）→ 辛苦做出（的）→精心制作（的） Lesson 我们风雨兼程，绝不空手而归。/129】",
+              "tip": "e-（出）+labor（劳动）+-ate（后缓）→ 辛苦做出（的）→精心制作（的） Lesson 我们风雨兼程，绝不空手而归。】",
               "derivations": [
                 {
                   "word": "elaboration",
@@ -18226,7 +18222,7 @@ window.CET6_DATA = {
               "highlight": "n.走道",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“爱偶” → 飞机客舱或超市货架之间供人行走走动的狭长过道走廊 → n.走道，过道",
               "derivations": [
                 {
                   "word": "underlying",
@@ -18246,7 +18242,7 @@ window.CET6_DATA = {
               "highlight": "v.在（词语等下）画线",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "under（在…….下面）+line（线）→在 ..下面画线；强调，使突出 向前冲才是青春，向阳盛开才是我们。/131|",
+              "tip": "under（在…….下面）+line（线）→在 ..下面画线；强调，使突出 向前冲才是青春，向阳盛开才是我们。|",
               "derivations": []
             },
             {
@@ -18503,7 +18499,7 @@ window.CET6_DATA = {
               "highlight": "adj.有毒的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "tox-(毒素，毒箭) + -ic(形容词后缀) → 含有致命毒素会对人体器官造成极大损害的 → adj.有毒的，引起中毒的",
               "derivations": []
             },
             {
@@ -18585,7 +18581,7 @@ window.CET6_DATA = {
               "highlight": "n.日常饮食",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "联想/谐音“带它” → 为了健康生活每日摄入的日常饮食营养；为了减重而控制节食 → n.日常饮食 v.节食",
               "derivations": [
                 {
                   "word": "dietary",
@@ -18840,7 +18836,7 @@ window.CET6_DATA = {
               "highlight": "adj.香的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "“让\"）+ant（蚂蚁）→芙蓉和阿哥让蚂蚁 吃了份很“香的”食物。 看不清未来时，就比别人坚持久一点。/135",
+              "tip": "“让\"）+ant（蚂蚁）→芙蓉和阿哥让蚂蚁 吃了份很“香的”食物。 看不清未来时，就比别人坚持久一点。",
               "derivations": [
                 {
                   "word": "fragrance",
@@ -18860,7 +18856,7 @@ window.CET6_DATA = {
               "highlight": "n.(尤指难闻的）气味",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "od-(闻，气味) + -our(名词后缀) → 垃圾发酵或化学物质散发出来的浓烈刺鼻气味 → n.(尤指难闻的)气味；臭味",
               "derivations": [
                 {
                   "word": "odorous",
@@ -18941,7 +18937,7 @@ window.CET6_DATA = {
               "highlight": "n.食品杂货店",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "grocer(杂货商，大宗批发商) + -y(行业，店铺) → 社区街角售卖柴米油盐瓜果蔬菜的日用小铺 → n.食品杂货店；杂货",
               "derivations": [
                 {
                   "word": "grocer",
@@ -19057,7 +19053,7 @@ window.CET6_DATA = {
               "highlight": "v.使位于..把...跟.…联系起 来考虑",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ate（动词/形容词后缀，表做，使成为）→ 掌握其六级同根派生变换",
+              "tip": "situ-(位置，处所，同源site) + -ate(动词后缀) → 把建筑坐落安置在风景优美的位置 → v.使位于；把...联系起来考虑",
               "derivations": []
             },
             {
@@ -19109,7 +19105,7 @@ window.CET6_DATA = {
               "highlight": "n.市郊",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "sub-（=near)+urb(=city)→在城市 附近→郊区 你坚持的东西，总有一天会来拥抱你。/137",
+              "tip": "sub-（=near)+urb(=city)→在城市 附近→郊区 你坚持的东西，总有一天会来拥抱你。",
               "derivations": [
                 {
                   "word": "suburban",
@@ -19216,7 +19212,7 @@ window.CET6_DATA = {
               "highlight": "adj.货币的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "monet(货币，钱财，同源money) + -ary(形容词后缀) → 涉及国家宏观金融货币政策与现金流通的 → adj.货币的，金融的，金钱的",
               "derivations": [
                 {
                   "word": "money",
@@ -19371,7 +19367,7 @@ window.CET6_DATA = {
               "highlight": "n.口音",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "ac-（一再地）+cent(分）→他一再地把 一分钱硬币含在嘴里练习一种特殊的“口音”。 把耐心留住，惊喜会慢慢融酿出来。/139",
+              "tip": "ac-（一再地）+cent(分）→他一再地把 一分钱硬币含在嘴里练习一种特殊的“口音”。 把耐心留住，惊喜会慢慢融酿出来。",
               "derivations": []
             },
             {
@@ -19505,7 +19501,7 @@ window.CET6_DATA = {
               "highlight": "n.基金",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“放的” → 存放在专用户头里用于专项公益或研发项目的基金资金 → n.基金；资金 v.为...提供资金",
               "derivations": [
                 {
                   "word": "funding",
@@ -19575,7 +19571,7 @@ window.CET6_DATA = {
               "highlight": "n.预算 v.编人预算",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "budg(皮囊，小钱袋) + -et → 每年打开财政钱袋子合理规划分配支出的账本预算 → n.预算 v.编入预算 adj.低价的",
               "derivations": [
                 {
                   "word": "budgetary",
@@ -19621,7 +19617,7 @@ window.CET6_DATA = {
               "highlight": "n.利润",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "pro-(向前，为了) + fit(制作，效益) → 经商营运赚取的纯利润；获得实际好处 → n.利润；好处 v.获益，得到好处",
               "derivations": [
                 {
                   "word": "profitable",
@@ -19667,7 +19663,7 @@ window.CET6_DATA = {
               "highlight": "n.养老金",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "pens(称重，悬挂，支付) + -ion(名词后缀) → 每月固定从社保账户称量发放给退休老人的养老金 → n.养老金，退休金",
               "derivations": [
                 {
                   "word": "pensioner",
@@ -19700,7 +19696,7 @@ window.CET6_DATA = {
               "highlight": "n.费用",
               "freq": 2,
               "tip_type": "对照",
-              "tip": "expensiveadj.昂贵的；花钱多的→",
+              "tip": "ex-(向外) + pens(称量黄金，支付) + -e → 白花花银子从钱袋子里称量花费出去的各种成本款项 → n.费用，花费；代价",
               "derivations": [
                 {
                   "word": "expensive",
@@ -19826,7 +19822,7 @@ window.CET6_DATA = {
               "highlight": "adj.宝贵的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "valu-(价值) + -able(值得...的) → 具有极高实用价值或经济分量的珍贵宝贝 → adj.宝贵的；贵重的 n.贵重物品",
               "derivations": [
                 {
                   "word": "value",
@@ -19861,7 +19857,7 @@ window.CET6_DATA = {
               "highlight": "n.强调",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "em-(在...上) + phas(呈现，出现) + -is → 把最关键核心要点重锤加粗呈现在世人眼前以引起重视 → n.强调；重视；重要性",
               "derivations": [
                 {
                   "word": "emphasize",
@@ -19887,7 +19883,7 @@ window.CET6_DATA = {
               "highlight": "n.综合",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "syn-(共同) + the(放置) + -sis(名词后缀) → 将各种零散知识观点或化学元素结合组合在一起 → n.综合；结合，合成",
               "derivations": [
                 {
                   "word": "synthetic",
@@ -19928,7 +19924,7 @@ window.CET6_DATA = {
               "highlight": "n.公众关注的焦点",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "li（联想“立”）+me（我）+light（灯 光)→我站立在灯光之下，成为“公众关注的 焦点”。 在谷底也要开花，在海底也要望月。/143",
+              "tip": "li（联想“立”）+me（我）+light（灯 光)→我站立在灯光之下，成为“公众关注的 焦点”。 在谷底也要开花，在海底也要望月。",
               "derivations": []
             }
           ]
@@ -20010,7 +20006,7 @@ window.CET6_DATA = {
               "highlight": "v.使严重",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "ag-（一再地）+grav（e)（严重的）+",
+              "tip": "ag-(=ad-，一再) + grav(沉重，严重，同源grave) + -ate → 让病情或局势雪上加霜一再恶化甚至激怒对方 → v.使严重，使恶化；激怒",
               "derivations": [
                 {
                   "word": "aggravation",
@@ -20195,7 +20191,7 @@ window.CET6_DATA = {
               "highlight": "v.认为是",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ac-(=ad-，向) + count(计算，数数) → 在账本上把一笔笔进出款项记得清清楚楚；交代解释原委 → v.认为 n.账户；账目；说明",
               "derivations": [
                 {
                   "word": "accounting",
@@ -20215,7 +20211,7 @@ window.CET6_DATA = {
               "highlight": "n.会计",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "account(账目) + -ant(表示人的职业后缀) → 专职在企业对账查账编制财务报表的专业会计人员 → n.会计，会计师",
               "derivations": [
                 {
                   "word": "accountancy",
@@ -20534,7 +20530,7 @@ window.CET6_DATA = {
               "highlight": "消耗",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "con-(全部) + sum(拿起，取用，同源assume) + -e → 把货架上的食品能量消耗耗费殆尽 → v.消耗，耗费；吃，喝；烧毁",
               "derivations": [
                 {
                   "word": "consumer",
@@ -20588,7 +20584,7 @@ window.CET6_DATA = {
               "highlight": "v.假设",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "pre-(提前，预先) + sum(取用，认定) + -e → 在确凿证据出现之前预先推测假设认定 → v.假设，假定；设想",
               "derivations": [
                 {
                   "word": "presumption",
@@ -20651,7 +20647,7 @@ window.CET6_DATA = {
               "highlight": "u.看起来像",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(表强调) + semble(相同，相似，同源similar) → 面部五官神态与父母极其相似 → v.看起来像，与...相似",
               "derivations": [
                 {
                   "word": "resemblance",
@@ -20718,7 +20714,7 @@ window.CET6_DATA = {
               "highlight": "v.聚集",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "as-(=ad-，到一起) + semble(相同，放在一起) → 工人们把零散零件组装在一起，或众人集合聚集 → v.聚集，集合；组装，装配",
               "derivations": [
                 {
                   "word": "assembly",
@@ -20751,7 +20747,7 @@ window.CET6_DATA = {
               "highlight": "n.相像性",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ity（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "similar(相似的) + -ity(名词后缀) → 两幅画卷或两套观点之间呈现出来的相同相像之处 → n.相像性，相似点",
               "derivations": []
             },
             {
@@ -20784,7 +20780,7 @@ window.CET6_DATA = {
               "highlight": "v.吸收",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ab-(从...脱离) + sorb(吮吸) → 像海绵吸水一样把知识全部吸收理解并全神贯注其中 → v.吸收；理解；使全神贯注",
               "derivations": [
                 {
                   "word": "absorption",
@@ -20804,7 +20800,7 @@ window.CET6_DATA = {
               "highlight": "adj.可笑的",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "ab-（一再地）+surd（音似“笑\")→可 笑的，荒谬的 没有伞的孩子，必须努力奔跑。/149|",
+              "tip": "ab-（一再地）+surd（音似“笑\")→可 笑的，荒谬的 没有伞的孩子，必须努力奔跑。|",
               "derivations": [
                 {
                   "word": "absurdity",
@@ -20910,7 +20906,7 @@ window.CET6_DATA = {
               "highlight": "adj.唯一的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sol-(单独，唯一，同源solo) + -itary(形容词后缀) → 独自一人在深山隐居过着孤单寂寞生活的 → adj.唯一的；单独的；孤单的",
               "derivations": [
                 {
                   "word": "solitude",
@@ -21062,7 +21058,7 @@ window.CET6_DATA = {
               "highlight": "v.由.…….组成（或构成）",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "con-（一起）+sist（站）→站到一起→",
+              "tip": "con-(共同) + sist(站立) → 多个部分共同站在一起构成整套大系统 → v.由...组成(或构成)；在于",
               "derivations": []
             },
             {
@@ -21164,7 +21160,7 @@ window.CET6_DATA = {
               "highlight": "adj.立刻的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -ous（形容词后缀，表充满...的）→ adj.立刻的",
+              "tip": "instant(瞬间，立即) + -aneous(形容词后缀) → 弹指一挥间毫无时滞瞬间发生响应的 → adj.立刻的，立即的，瞬间的",
               "derivations": []
             },
             {
@@ -21333,7 +21329,7 @@ window.CET6_DATA = {
               "highlight": "n.中间人",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "inter-(在...中间) + medi(中间) + -ary(人) → 在发生争执的买卖双方之间斡旋说和的中间人调解人 → n.中间人；调解人",
               "derivations": []
             },
             {
@@ -21764,7 +21760,7 @@ window.CET6_DATA = {
               "highlight": "adj.重大的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sign(标记，印记) + -i- + fic(制作) + -ant → 能在历史卷轴上留下浓墨重彩深刻印记的 → adj.重大的，重要的；显著的",
               "derivations": [
                 {
                   "word": "significance",
@@ -21902,7 +21898,7 @@ window.CET6_DATA = {
               "highlight": "adv.即",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ly（副词后缀，表...地）→ 掌握其六级同根派生变换",
+              "tip": "name(指名道姓) + -ly(副词后缀) → 清清楚楚把具体名单或原委即刻列明指出来 → adv.即，也就是",
               "derivations": []
             },
             {
@@ -21974,7 +21970,7 @@ window.CET6_DATA = {
               "highlight": "v.废除",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ab-(离开) + ol(生长，发育) + -ish → 把旧封建恶习连根拔除废除掉使其不再滋生 → v.废除，废止",
               "derivations": [
                 {
                   "word": "abolition",
@@ -22009,7 +22005,7 @@ window.CET6_DATA = {
               "highlight": "v.(使）流产",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ab-(离开) + ort(出生，升起) → 胚胎离开母体未能正常降生夭折中止 → v.(使)流产；(使)夭折；中止",
               "derivations": [
                 {
                   "word": "abortion",
@@ -22029,7 +22025,7 @@ window.CET6_DATA = {
               "highlight": "adj.天生的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "in-(在内) + born(出生) → 从娘胎里呱呱坠地一出生就烙印在骨子里的天资禀赋 → adj.天生的，先天的",
               "derivations": []
             },
             {
@@ -22064,7 +22060,7 @@ window.CET6_DATA = {
               "highlight": "v.贬值",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "de-(向下) + prec(价值，价格，同源price) + -iate → 二手车开出展厅价格一路向下跌落贬值 → v.贬值；贬低；轻视",
               "derivations": [
                 {
                   "word": "depreciation",
@@ -22145,7 +22141,7 @@ window.CET6_DATA = {
               "highlight": "adj.有形的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ible（形容词后缀，表可...的）→ 掌握其六级同根派生变换",
+              "tip": "tang(=tact，接触，触摸) + -ible(能够...的) → 实实在在摆在眼前能够伸出手指触摸感知到的 → adj.有形的；可触摸的；明确的",
               "derivations": []
             },
             {
@@ -22254,7 +22250,7 @@ window.CET6_DATA = {
               "highlight": "v.遵守",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "com-(完全) + ply(折叠，顺从，同源pliable) → 面对严格法律校规完全顺从服从配合 → v.遵守；服从，顺从",
               "derivations": [
                 {
                   "word": "compliance",
@@ -22359,7 +22355,7 @@ window.CET6_DATA = {
               "highlight": "/'rekod/ n.记录",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "re-(再次) + cord(心，记忆，同源heart/core) → 记在心头并用录音磁带或账本白纸黑字记载下来 → n.记录；唱片 v.记录；录制",
               "derivations": [
                 {
                   "word": "recording",
@@ -22540,7 +22536,7 @@ window.CET6_DATA = {
               "highlight": "n.习惯",
               "freq": 3,
               "tip_type": "谐音",
-              "tip": "单词发音类似“卡死他们”→他们被 旧社会的“习俗”给卡（限制）住了。 每个优秀的人，都有一段沉默的时光。/161",
+              "tip": "单词发音类似“卡死他们”→他们被 旧社会的“习俗”给卡（限制）住了。 每个优秀的人，都有一段沉默的时光。",
               "derivations": [
                 {
                   "word": "customary",
@@ -22603,7 +22599,7 @@ window.CET6_DATA = {
               "highlight": "n.赞助人",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "patr-(父亲，保护人) + -on → 像慈祥老父亲一样出巨资呵护资助艺术家的大金主赞助人 → n.赞助人，资助者；顾客",
               "derivations": [
                 {
                   "word": "patronage",
@@ -22667,7 +22663,7 @@ window.CET6_DATA = {
               "highlight": "v.使筋疲力尽",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "谐音“一狗死特”/ex-(向外) + haust(抽干，汲水) → 体内最后一滴汗水被抽干，累得像狗一样精疲力竭 → v.使筋疲力尽；耗尽，用完",
               "derivations": [
                 {
                   "word": "exhaustion",
@@ -22792,7 +22788,7 @@ window.CET6_DATA = {
               "highlight": "adj.可行的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ible（形容词后缀，表可...的）→ 掌握其六级同根派生变换",
+              "tip": "feas(=fact，做，制作) + -ible(能够...的) → 在现实技术与预算条件下真正做得通能够落地的 → adj.可行的，行得通的",
               "derivations": []
             },
             {
@@ -22805,7 +22801,7 @@ window.CET6_DATA = {
               "highlight": "n.可行性",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ity（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "feasible(可行的) + -ity(名词后缀) → 商业计划书在实际落地操作过程中的现实可行性程度 → n.可行性，可能性",
               "derivations": []
             },
             {
@@ -22831,7 +22827,7 @@ window.CET6_DATA = {
               "highlight": "n.回答",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "re(字母音似“阿姨\"）+spon（音似“是 棒”)+se→阿姨“反应”很快，是很棒的。 晏努力去更远的地方，见更亮的星星。/163",
+              "tip": "re(字母音似“阿姨\"）+spon（音似“是 棒”)+se→阿姨“反应”很快，是很棒的。 晏努力去更远的地方，见更亮的星星。",
               "derivations": [
                 {
                   "word": "respond",
@@ -23087,7 +23083,7 @@ window.CET6_DATA = {
               "highlight": "n.争吵",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "con-(共同) + tent(=tend，拉伸，争夺) + -ion → 双方拔河互不相让激烈争吵对抗的论点与分歧 → n.争吵，争执；看法，观点",
               "derivations": [
                 {
                   "word": "contentious",
@@ -23120,7 +23116,7 @@ window.CET6_DATA = {
               "highlight": "n.意图",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "in-(向内) + tent(=tend，伸展) → 心思全都朝内集中在一处焦点上的热切专注与本心意图 → n.意图，目的 adj.热切的；专注的",
               "derivations": []
             },
             {
@@ -23133,7 +23129,7 @@ window.CET6_DATA = {
               "highlight": "n.打算",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "intend(打算) + -ation(名词后缀) → 脑海里早早规划好想要达成的事情打算与意图初衷 → n.打算；意图，目的",
               "derivations": [
                 {
                   "word": "intentional",
@@ -23211,7 +23207,7 @@ window.CET6_DATA = {
               "highlight": "n.外层空间",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "联想spaceman宇航员 → 浩瀚深邃供星球悬浮运转的辽阔太空与物理占地空间 → n.外层空间；太空；空间",
               "derivations": [
                 {
                   "word": "spacious",
@@ -23315,7 +23311,7 @@ window.CET6_DATA = {
               "highlight": "n.措施",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "mens/meas(尺寸，丈量) + -ure → 用卷尺丈量土地长宽，或面对突发危机采取的一揽子应对措施 → n.措施，方法；尺寸 v.测量；估量",
               "derivations": [
                 {
                   "word": "measurement",
@@ -23735,7 +23731,7 @@ window.CET6_DATA = {
               "highlight": "/mn'kwara(r)/ v.询问",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "en-(=in-，向内) + quire(寻求，打听，同源question) → 向办事大厅前台开口打听询问政策细则 → v.询问，打听",
               "derivations": [
                 {
                   "word": "inquisitive",
@@ -23755,7 +23751,7 @@ window.CET6_DATA = {
               "highlight": "v.需要",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "re-(一再，反复) + quire(寻求，要求) → 招聘启事上一再列出必须符合的硬性指标需求 → v.需要；要求；命令",
               "derivations": [
                 {
                   "word": "requirement",
@@ -23818,7 +23814,7 @@ window.CET6_DATA = {
               "highlight": "v.&n.请求",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "re-（重复）+quest（寻找，追求）→重 复地寻找或追求→请求，要求 若你决定灿烂，山无遮海无拦。/169",
+              "tip": "re-（重复）+quest（寻找，追求）→重 复地寻找或追求→请求，要求 若你决定灿烂，山无遮海无拦。",
               "derivations": []
             },
             {
@@ -23916,7 +23912,7 @@ window.CET6_DATA = {
               "highlight": "n.力量",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "联想Air Force空军部队 → 强大的威慑暴力力量与硬核部队军队；强迫某人服从 → n.力量；武力；部队 v.强迫",
               "derivations": [
                 {
                   "word": "forceful",
@@ -23936,7 +23932,7 @@ window.CET6_DATA = {
               "highlight": "v.强制执行",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "en-(使) + force(力量，法律) → 用国家机器的强制力确保法律法规在全社会贯彻执行 → v.强制执行，强行实施(法律或规章)",
               "derivations": [
                 {
                   "word": "enforcement",
@@ -23956,7 +23952,7 @@ window.CET6_DATA = {
               "highlight": "v.迫使",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "ob-(向，对着) + lig(捆绑，联想link) + -e → 受到道德契约紧紧捆绑不得不去履行强制义务 → v.迫使，强制；帮忙",
               "derivations": [
                 {
                   "word": "obligation",
@@ -24010,7 +24006,7 @@ window.CET6_DATA = {
               "highlight": "v.提高",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "en-(使) + hance(高，抬高) → 把图片清晰度或身体免疫能力进一步推上一个台阶增强提高 → v.提高；增强；增进",
               "derivations": [
                 {
                   "word": "enhancement",
@@ -24117,7 +24113,7 @@ window.CET6_DATA = {
               "highlight": "v.夸大",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "over(过度）+state(陈述）→夸大 真正无愧自己的努力，才是真的见证。/171",
+              "tip": "over(过度）+state(陈述）→夸大 真正无愧自己的努力，才是真的见证。",
               "derivations": []
             },
             {
@@ -24130,7 +24126,7 @@ window.CET6_DATA = {
               "highlight": "n.状态",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "stat(站立，立稳) + -e → 一个主权国家稳固立于世界之林；或在法庭上立稳阵脚陈述声明 → n.状态；国家；州 v.陈述，声明",
               "derivations": [
                 {
                   "word": "statement",
@@ -24165,7 +24161,7 @@ window.CET6_DATA = {
               "highlight": "v.记住",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ize（动词后缀，表使...化）→ 掌握其六级同根派生变换",
+              "tip": "memor(记忆，回忆) + -ize(使动后缀) → 调动脑神经反复诵读牢牢记住熟记于心 → v.记住，熟记",
               "derivations": []
             },
             {
@@ -24228,7 +24224,7 @@ window.CET6_DATA = {
               "highlight": "n.纪念碑",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "monu(提醒，警告) + -ment(物体，建筑) → 提醒后人永远铭记革命先烈光辉事迹的庄严纪念碑 → n.纪念碑；遗址，名胜古迹",
               "derivations": [
                 {
                   "word": "monumental",
@@ -24304,7 +24300,7 @@ window.CET6_DATA = {
               "highlight": "v.代表",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(再次) + present(呈现，出席) → 替不在场的所有国民在联合国大会上呈现主张与代表发声 → v.代表；相当于；描述",
               "derivations": [
                 {
                   "word": "representative",
@@ -24451,7 +24447,7 @@ window.CET6_DATA = {
               "highlight": "/kan's3:v/ n.果酱",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "con-(全部) + serv(保护，守候) + -e → 妥善看守自然林地使珍稀水资源不受破坏保存节约 → v.节约；保护；保存，保留",
               "derivations": [
                 {
                   "word": "conservation",
@@ -24620,7 +24616,7 @@ window.CET6_DATA = {
               "highlight": "/'intimeit/ adj.亲密的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "intim-(最深处，内心) + -ate → 可以毫无保留畅所欲言分享内心深处秘密的无话不谈的知己 → adj.亲密的，亲近的 n.知己，密友 v.暗示",
               "derivations": [
                 {
                   "word": "intimacy",
@@ -24640,7 +24636,7 @@ window.CET6_DATA = {
               "highlight": "n.(监狱或精神病院等的）同住者",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -ate（动词/形容词后缀，表做，使成为）→ n.(监狱或精神病院等的）同住者",
+              "tip": "in-(在内) + mate(伙伴，同伴) → 在同一座高墙牢房或病房里朝夕相处的同狱室友犯人 → n.(监狱或精神病院的)同住者；同狱犯人",
               "derivations": []
             },
             {
@@ -24679,7 +24675,7 @@ window.CET6_DATA = {
               "highlight": "n.(时间或空间）接近",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "proxim(接近，临近，同源approximate) + -ity → 离地铁口或名校咫尺之遥的空间极度临近距离 → n.(时间或空间)接近，邻近，靠近",
               "derivations": [
                 {
                   "word": "proximate",
@@ -24699,7 +24695,7 @@ window.CET6_DATA = {
               "highlight": "n.最好的事物",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ultim(最后，极致) + -ate → 历经千辛万苦最终抵达的人生巅峰终极目标；极品精华 → adj.最后的，终极的；根本的 n.最好的事物，极品",
               "derivations": [
                 {
                   "word": "ultimately",
@@ -24719,7 +24715,7 @@ window.CET6_DATA = {
               "highlight": "v.模仿",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "im-(在内) + it(=image，形象，影子) + -ate → 照着前辈大师的动作一板一眼模仿效仿学习 → v.模仿，仿效",
               "derivations": [
                 {
                   "word": "imitation",
@@ -24782,7 +24778,7 @@ window.CET6_DATA = {
               "highlight": "adj.同时发生(或进行)的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "simul(同时，相同，同源similar) + -taneous → 毫无时间差在同一分秒同步发生共鸣的 → adj.同时发生(或进行)的，同步的",
               "derivations": [
                 {
                   "word": "simultaneously",
@@ -24946,7 +24942,7 @@ window.CET6_DATA = {
               "highlight": "v.抱怨",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "com-（所有）+plain（音似“扑累”）→ 所有人都扑过来，不停地“抱怨”累。 弱者才会一不振，我要逆风翻盘。/177",
+              "tip": "com-（所有）+plain（音似“扑累”）→ 所有人都扑过来，不停地“抱怨”累。 弱者才会一不振，我要逆风翻盘。",
               "derivations": [
                 {
                   "word": "complaint",
@@ -25128,7 +25124,7 @@ window.CET6_DATA = {
               "highlight": "n.扫描检查",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "联想scanner扫描仪 → 用雷达或目光对全身病灶或试卷进行自上而下细细扫视浏览 → n.&v.扫描，审视；浏览",
               "derivations": [
                 {
                   "word": "scanner",
@@ -25405,7 +25401,7 @@ window.CET6_DATA = {
               "highlight": "v.使懊恼",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "frustr(欺骗，破灭) + -ate → 所有的努力付诸东流让人感到无比懊恼挫败沮丧 → v.使懊恼；使沮丧；使挫败；阻止",
               "derivations": [
                 {
                   "word": "frustrating",
@@ -25451,7 +25447,7 @@ window.CET6_DATA = {
               "highlight": "v.(凭长期努力)达到（某目标、地位、 标准）",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "a-(向着) + chieve(=chief，头领，首要目标) → 克服重重困难终于登上荣誉顶峰达成目标 → v.(凭努力)达到(目标)；成功；完成",
               "derivations": [
                 {
                   "word": "achievement",
@@ -25523,7 +25519,7 @@ window.CET6_DATA = {
               "highlight": "n.锦标赛",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ment（名词后缀，表动作或结果）→ 掌握其六级同根派生变换",
+              "tip": "tourn(旋转，巡回，同源turn/tour) + -a- + -ment → 多个战队在全国巡回各城市捉对厮杀争霸的联赛锦标赛 → n.锦标赛；联赛",
               "derivations": []
             },
             {
@@ -25536,7 +25532,7 @@ window.CET6_DATA = {
               "highlight": "n.冠军",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "champ(战场，原野，同源campus) + -ion → 在严酷角斗竞技场上力压群雄脱颖而出的第一名霸主 → n.冠军；第一名；优胜者",
               "derivations": [
                 {
                   "word": "championship",
@@ -25701,7 +25697,7 @@ window.CET6_DATA = {
               "highlight": "n.航空（学）",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "a（-）+vi（形似罗马数字6）+-ation 3 （名词后缓）→他研究“航空学”，一天进行6次 测试。 熬过最苦的日子，做最酷的自己。/183",
+              "tip": "a（-）+vi（形似罗马数字6）+-ation 3 （名词后缓）→他研究“航空学”，一天进行6次 测试。 熬过最苦的日子，做最酷的自己。",
               "derivations": []
             }
           ]
@@ -25761,7 +25757,7 @@ window.CET6_DATA = {
               "highlight": "v.主持（会议、仪式等）",
               "freq": 3,
               "tip_type": "对照",
-              "tip": "presidentn.总统；国家主席；会长→",
+              "tip": "pre-(在前面) + side(坐着，同源sit) → 高高端坐在主席台正中央主持掌控会议全局 → v.主持(会议、仪式)；担任主席",
               "derivations": [
                 {
                   "word": "president",
@@ -25966,7 +25962,7 @@ window.CET6_DATA = {
               "highlight": "v.解决",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "solv(松开，解开，同源loose) + -e → 找准死结轻轻一扯彻底解开化解所有难题矛盾 → v.解决，处理；解答",
               "derivations": [
                 {
                   "word": "solution",
@@ -26031,7 +26027,7 @@ window.CET6_DATA = {
               "highlight": "n.踪迹",
               "freq": 3,
               "tip_type": "谐音",
-              "tip": "单词发音类似“端开”→他把玩具小 火车从“轨道”上端开了。 珍惜时间，把握当下。 /185",
+              "tip": "单词发音类似“端开”→他把玩具小 火车从“轨道”上端开了。 珍惜时间，把握当下。",
               "derivations": []
             },
             {
@@ -26059,7 +26055,7 @@ window.CET6_DATA = {
               "highlight": "v.跟踪",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "tra(=drag，拉，拖) + -il → 在地面上拖拽拉过留下的深深足迹痕迹；沿途追踪猎物 → v.跟踪，追踪；拖，拉 n.踪迹；小路",
               "derivations": [
                 {
                   "word": "trailer",
@@ -26101,7 +26097,7 @@ window.CET6_DATA = {
               "highlight": "n.思维方式",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“逻辑”。",
+              "tip": "log-(话语，理性思维，同源dialogue) + -ic → 符合人类理性严密推导规律的思维方式与逻辑 → n.思维方式；解释方法；逻辑",
               "derivations": [
                 {
                   "word": "logical",
@@ -26123,7 +26119,7 @@ window.CET6_DATA = {
               "highlight": "n.类比",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "ana-(相同，对应) + log-(话语，比例) + -y → 将两件属性相似的事物放在一起做类比比拟启发思考 → n.类比；比拟",
               "derivations": [
                 {
                   "word": "analogue",
@@ -26149,7 +26145,7 @@ window.CET6_DATA = {
               "highlight": "v.分析",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "ana-(向上，分开) + lyz(=loose，解开，拆解) + -e → 把复杂事物一层层拆解剥开进行细致条分缕析 → v.分析；剖析",
               "derivations": [
                 {
                   "word": "analysis",
@@ -26273,7 +26269,7 @@ window.CET6_DATA = {
               "highlight": "追求",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ad-(向着) + spire(呼吸，心气，同源spirit) → 心中憋着一口气拼命向着远大前程渴望追求 → v.追求，渴望；有志于",
               "derivations": [
                 {
                   "word": "aspiration",
@@ -26339,7 +26335,7 @@ window.CET6_DATA = {
               "highlight": "v.停止",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“谁死”→停止，终止 相信自己，你拥有超越困难的力量。/187",
+              "tip": "单词发音类似“谁死”→停止，终止 相信自己，你拥有超越困难的力量。",
               "derivations": []
             },
             {
@@ -26523,7 +26519,7 @@ window.CET6_DATA = {
               "highlight": "n.仁慈",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "merc-(报酬，怜悯，同源merchant/mercy) + -y → 居高临下宽恕罪人免除惩罚的仁慈恩惠 → n.仁慈，宽容；幸运，恩惠",
               "derivations": [
                 {
                   "word": "merciful",
@@ -26556,7 +26552,7 @@ window.CET6_DATA = {
               "highlight": "adj.幼稚的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "naiv(天然，刚出生，同源native) + -e → 像刚出生的婴儿般不谙世事容易受骗的天真幼稚 → adj.幼稚的，轻信的；天真的，率直的",
               "derivations": [
                 {
                   "word": "naivety",
@@ -26576,7 +26572,7 @@ window.CET6_DATA = {
               "highlight": "adj.清白的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "in（里面）+no（没有）+cent（分币）→ “天真的”小孩口袋里没有一分钱。 224个单词 224个例句 你的努力，终将成就无可替代的自己。/189",
+              "tip": "in（里面）+no（没有）+cent（分币）→ “天真的”小孩口袋里没有一分钱。 224个单词 224个例句 你的努力，终将成就无可替代的自己。",
               "derivations": [
                 {
                   "word": "innocence",
@@ -26879,7 +26875,7 @@ window.CET6_DATA = {
               "highlight": "n.副手",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "de-（往下）+put（放）+y→我多想有 个“副手”，可以把工作下放给他。 意在没有新职位的情况下跳槽。 学得越多，就有越多的可能性。/191",
+              "tip": "de-（往下）+put（放）+y→我多想有 个“副手”，可以把工作下放给他。 意在没有新职位的情况下跳槽。 学得越多，就有越多的可能性。",
               "derivations": []
             },
             {
@@ -26948,7 +26944,7 @@ window.CET6_DATA = {
               "highlight": "adj.里面的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "in(在内) + -ner(比较级后缀) → 靠近建筑物正中心位置的内部；深藏于灵魂深处未曾表达的内心秘密 → adj.内部的，里面的；内心的",
               "derivations": []
             },
             {
@@ -27089,7 +27085,7 @@ window.CET6_DATA = {
               "highlight": "adj.内部的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -al（形容词后缀，表...的）→ adj.内部的",
+              "tip": "intern(内部) + -al(形容词后缀) → 属于国家内政机关或器官内部运作的 → adj.内部的；内政的；国内的",
               "derivations": []
             },
             {
@@ -27154,7 +27150,7 @@ window.CET6_DATA = {
               "highlight": "n.投人资源（指时间、知识、思想等）",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "in-(向内) + put(放置) → 把资金、心血与知识数据一股脑投入输入到项目系统内部 → n.投入资源；输入 v.输入(信息)",
               "derivations": []
             },
             {
@@ -27232,7 +27228,7 @@ window.CET6_DATA = {
               "highlight": "v.(把人从危险的地方）疏散",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "e-(向外) + vacu(空，同源vacant) + -ate(动词后缀) → 面对洪水大火将灾区人员全部撤离清空疏散 → v.(将人从险境)疏散，转移，撤离",
               "derivations": [
                 {
                   "word": "evacuation",
@@ -27302,7 +27298,7 @@ window.CET6_DATA = {
               "highlight": "n.远征",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "w（联想“我”）+reck（联想neck）→",
+              "tip": "ex-(向外) + ped(脚，迈步) + -ition → 迈开双腿奔赴蛮荒极地进行长途探险与科考征途 → n.远征，探险；考察队，探险队",
               "derivations": [],
               "example_en": "If you are attending a local college, you'll",
               "example_cn": "跋涉10到13个小时。 probably live at home and commute to classes.如 491 果你要上当地的大学，你可能会住在家里，通勤去 n.沉船，失事船；遭严重损毁的车辆（飞机、火车等） 上课。 v.破坏，糟蹋；使毁坏；（船只）失事"
@@ -27383,7 +27379,7 @@ window.CET6_DATA = {
               "highlight": "v.航行",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "vo（音似“我”）+yage（联想yoga）→ 我练瑜伽时会冥想，就像思想在“航行”。 要么出众，要么出局。/195",
+              "tip": "vo（音似“我”）+yage（联想yoga）→ 我练瑜伽时会冥想，就像思想在“航行”。 要么出众，要么出局。",
               "derivations": []
             },
             {
@@ -27674,7 +27670,7 @@ window.CET6_DATA = {
               "highlight": "v.使昏迷",
               "freq": 3,
               "tip_type": "谐音",
-              "tip": "单词发音类似“死打”→把人往死里 打会把人打昏→使昏迷 换个身份，我们顶峰见。/197",
+              "tip": "单词发音类似“死打”→把人往死里 打会把人打昏→使昏迷 换个身份，我们顶峰见。",
               "derivations": []
             },
             {
@@ -27687,7 +27683,7 @@ window.CET6_DATA = {
               "highlight": "n.供应",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "sub-(在下方，源源不断) + ply(=fill，装满，同源plenty) → 在货架下源源不断供给补足粮食商品 → n.&v.供应，供给；补给品",
               "derivations": [
                 {
                   "word": "supplier",
@@ -28101,7 +28097,7 @@ window.CET6_DATA = {
               "highlight": "v.对..感到愤恨（不满）",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(反向) + sent(=sens，感觉，感知) → 遭受不公待遇后内心深处产生强烈反感愤恨与不满 → v.对...感到愤恨(不满)",
               "derivations": [
                 {
                   "word": "resentment",
@@ -28136,7 +28132,7 @@ window.CET6_DATA = {
               "highlight": "v.认识",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(再次) + cogn(知道，认识) + -ize → 在茫茫人海中一眼认出老朋友，或正式承认外交地位 → v.认识；辨别出；承认；意识到",
               "derivations": [
                 {
                   "word": "recognition",
@@ -28231,7 +28227,7 @@ window.CET6_DATA = {
               "highlight": "v.认出",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ident(相同，本体) + -i- + -fy(使动后缀) → 拿出身份证件核实确认身份确实为同一个人 → v.认出，识别；确定；表明身份",
               "derivations": [
                 {
                   "word": "identification",
@@ -28251,7 +28247,7 @@ window.CET6_DATA = {
               "highlight": "n.身份",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ity（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "ident(相同) + -ity(名词后缀) → 区别于任何他人的独一无二的个人身份特征与文化特性 → n.身份；特性；一致，相同",
               "derivations": []
             },
             {
@@ -28264,7 +28260,7 @@ window.CET6_DATA = {
               "highlight": "adj.完全相同的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "ident（联想identity）+-ical（形容词 后缀)→完全相同的 每一步的坚持，都是对梦想的最好诠释。/201】",
+              "tip": "ident（联想identity）+-ical（形容词 后缀)→完全相同的 每一步的坚持，都是对梦想的最好诠释。】",
               "derivations": []
             },
             {
@@ -28277,7 +28273,7 @@ window.CET6_DATA = {
               "highlight": "n.期刊",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "journ(一天，白昼，同源journey) + -al → 每日如实记载当下所见所闻的报刊杂志与学术日记 → n.期刊，日报；日记",
               "derivations": [
                 {
                   "word": "journalist",
@@ -28325,7 +28321,7 @@ window.CET6_DATA = {
               "highlight": "n.编辑v.编辑",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "e-(向外) + dit(给出，发表，联想edition) → 审阅稿件删繁就简以便正式向外付印出版 → n.&v.编辑，校订；剪辑",
               "derivations": [
                 {
                   "word": "editor",
@@ -28357,7 +28353,7 @@ window.CET6_DATA = {
               "highlight": "n.样式",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -sion（名词后缀，表状态或结果）→ 掌握其六级同根派生变换",
+              "tip": "vers(翻转，改变，同源reverse) + -ion → 从不同角度陈述出来的不同说法故事，或软件升级版本 → n.样式；版本；说法",
               "derivations": []
             },
             {
@@ -28435,7 +28431,7 @@ window.CET6_DATA = {
               "highlight": "adj.文学的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "liter(文字，字母，同源letter) + -ary(形容词后缀) → 充满浓郁诗意文采适合文学创作表达的 → adj.文学的；适于文学作品的",
               "derivations": [
                 {
                   "word": "literature",
@@ -28513,7 +28509,7 @@ window.CET6_DATA = {
               "highlight": "v.压迫",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "ob-(对着，压制) + press(按压) → 用铁腕强权重重压迫在劳动人民头上使其无法喘息 → v.压迫，压制；使烦恼，压抑",
               "derivations": [
                 {
                   "word": "oppression",
@@ -28565,7 +28561,7 @@ window.CET6_DATA = {
               "highlight": "v.克制",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "re-(重新，再）+pres（压）→重新压， 再压→压制 天道酬勤，力耕不欺。/203",
+              "tip": "re-(重新，再）+pres（压）→重新压， 再压→压制 天道酬勤，力耕不欺。",
               "derivations": [
                 {
                   "word": "repression",
@@ -28896,7 +28892,7 @@ window.CET6_DATA = {
               "highlight": "n.页边空白",
               "freq": 3,
               "tip_type": "谐音",
-              "tip": "单词发音类似“码近”→临近页码的 地方就是“页边空白”。 列 Margins are low and many companies are 清醒知趣，保持自信。/205",
+              "tip": "marge(边沿，界限，同源mark) + -in → 书页印刷四周边沿留出的空白余地；买卖赚取的差额利润 → n.页边空白；利润；差额；余地",
               "derivations": [
                 {
                   "word": "marginal",
@@ -29131,7 +29127,7 @@ window.CET6_DATA = {
               "highlight": "adj.雄辩的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "e-(向外) + loqu(说话，讲理) + -ent → 在辩论台上口若悬河滔滔不绝能言善辩的 → adj.雄辩的，能言善辩的",
               "derivations": [
                 {
                   "word": "eloquence",
@@ -29151,7 +29147,7 @@ window.CET6_DATA = {
               "highlight": "adj.敌意的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "hos（t)（主人）+ti（联想“踢\")+le（联想 “了”)→主人踢了我，说明他对我是有“敌意的”。 每日自省，持续进步。/207",
+              "tip": "host-(敌人，同源hostile) + -ile(形容词后缀) → 视对方如仇敌般充满火药味的敌意眼神与态度 → adj.敌意的，敌视的；怀有敌意的",
               "derivations": [
                 {
                   "word": "hostility",
@@ -29171,7 +29167,7 @@ window.CET6_DATA = {
               "highlight": "adj.焦虑的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "anx(勒紧脖子窒息，痛苦) + -ious → 焦急万分等待考研放榜如同咽喉被勒紧般的焦虑不安 → adj.焦虑的，发愁的；渴望的",
               "derivations": [
                 {
                   "word": "anxiety",
@@ -29191,7 +29187,7 @@ window.CET6_DATA = {
               "highlight": "adj.可怕的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ful（形容词后缀，表充满...的）→ 掌握其六级同根派生变换",
+              "tip": "dread(恐惧，害怕) + -ful(充满...的) → 令人背脊发凉极其害怕畏惧的可怕灾难景象 → adj.可怕的，令人畏惧的；极糟糕的",
               "derivations": []
             },
             {
@@ -29273,7 +29269,7 @@ window.CET6_DATA = {
               "highlight": "adj.自信的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "con-(完全) + fid(信任，同源fidelity) + -ent → 对自己的实力具备十足把握与完全信赖的昂首挺胸 → adj.自信的；有把握的，确信的",
               "derivations": [
                 {
                   "word": "confidence",
@@ -29434,7 +29430,7 @@ window.CET6_DATA = {
               "highlight": "v.恐吓",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "in-(使) + timid(胆怯，胆小) + -ate(动词后缀) → 凶神恶煞恐吓弱小使其吓破胆丧失反抗信心 → v.恐吓；威胁；使害怕，使丧失信心",
               "derivations": [
                 {
                   "word": "intimidation",
@@ -29454,7 +29450,7 @@ window.CET6_DATA = {
               "highlight": "n.威胁",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“死勒他” → 凶徒拿着武器发出致命威胁恐吓；天边乌云象征暴风雨将至的凶兆 → n.威胁，恐吓；凶兆",
               "derivations": [
                 {
                   "word": "threaten",
@@ -29590,7 +29586,7 @@ window.CET6_DATA = {
               "highlight": "adj.可能（易于）….的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "li(捆绑，同源link) + -able(容易...的) → 容易被客观规则捆绑承担法律赔偿责任，或极易发生偏差 → adj.可能(易于)...的；负有偿付责任的",
               "derivations": [
                 {
                   "word": "liability",
@@ -29658,7 +29654,7 @@ window.CET6_DATA = {
               "highlight": "adj.怀疑的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ous（形容词后缀，表充满...的）→ 掌握其六级同根派生变换",
+              "tip": "dub(=duo，双重，摇摆不定) + -ious → 在两个选项之间犹犹豫豫拿不准主意、感到十分可疑的 → adj.怀疑的；无把握的；可疑的",
               "derivations": []
             },
             {
@@ -29671,7 +29667,7 @@ window.CET6_DATA = {
               "highlight": "v.决定",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "de-(下定决心) + cide(切断，砍断) → 一刀切断所有退路下定最后决心选定方向 → v.决定；选定；裁决",
               "derivations": [
                 {
                   "word": "decisive",
@@ -29745,7 +29741,7 @@ window.CET6_DATA = {
               "highlight": "v.滑（倒）",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "拟声词slip(滑溜感) → 踩在香蕉皮上身子一晃摔了一跤；偷偷溜走；纸条备忘录 → v.滑(倒)；溜走；下降 n.差错；纸条",
               "derivations": [
                 {
                   "word": "slipper",
@@ -29771,7 +29767,7 @@ window.CET6_DATA = {
               "highlight": "adj.粗糙的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“肉夫” → 粗野的汉子长着未打磨的粗糙皮肤；行经坎坷艰难的求学之路 → adj.粗糙的；粗略的；粗野的；艰难的",
               "derivations": [
                 {
                   "word": "roughly",
@@ -29982,7 +29978,7 @@ window.CET6_DATA = {
               "highlight": "adj.放射性的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "radio(射线，辐射) + active(活跃的) → 铀原子核自发衰变源源不断释放高能射线辐射的 → adj.放射性的，有辐射的",
               "derivations": [
                 {
                   "word": "radioactivity",
@@ -30095,7 +30091,7 @@ window.CET6_DATA = {
               "highlight": "n.高兴v.使高兴",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "de-(加强语气) + light(光亮，喜悦) → 听到录取捷报整个人容光焕发满心欢喜与高兴 → n.高兴，愉悦 v.使高兴；使愉快",
               "derivations": [
                 {
                   "word": "delightful",
@@ -30254,7 +30250,7 @@ window.CET6_DATA = {
               "highlight": "adj.极好的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "phant/fant(显现，幻景，同源fantasy) + -astic → 如同梦幻奇境般美好得令人不敢相信的妙极了 → adj.极好的，了不起的；不切实际的",
               "derivations": []
             },
             {
@@ -30332,7 +30328,7 @@ window.CET6_DATA = {
               "highlight": "v.谈判",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "neg-(否定，不) + ot(闲暇，空闲) + -iate → 双方面红耳赤坐下来一刻不闲地讨论条款达成协议 → v.谈判，协商；达成(协议)",
               "derivations": [
                 {
                   "word": "negotiable",
@@ -30471,7 +30467,7 @@ window.CET6_DATA = {
               "highlight": "adj.理想的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "desire(渴望) + -able(值得...的) → 符合所有美好设想非常值得拥有追求的理想事物 → adj.理想的；值得拥有的；值得做的",
               "derivations": [
                 {
                   "word": "desirability",
@@ -30504,7 +30500,7 @@ window.CET6_DATA = {
               "highlight": "adj.极度的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "exter(在外部) + -eme(最高级) → 走到了天平最边缘的极端严重地步 → adj.极度的，极端的；严重的 n.极端，极度",
               "derivations": [
                 {
                   "word": "extremity",
@@ -30828,7 +30824,7 @@ window.CET6_DATA = {
               "highlight": "n.（一件）衣服",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ment（名词后缀，表动作或结果）→ 掌握其六级同根派生变换",
+              "tip": "谐音“搞满它”/garm(装饰，打扮) + -ent(名词后缀) → 裁缝量体裁衣把衣柜挂得满满当当的华丽衣服 → n.(一件)衣服，服装",
               "derivations": []
             },
             {
@@ -30856,7 +30852,7 @@ window.CET6_DATA = {
               "highlight": "adj.光荣的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ous（形容词后缀，表充满...的）→ 掌握其六级同根派生变换",
+              "tip": "glor(荣耀，光芒，同源glory) + -ious → 放射出万道耀眼光芒的光荣辉煌历史伟业 → adj.光荣的；辉煌的；壮丽的",
               "derivations": []
             },
             {
@@ -30869,7 +30865,7 @@ window.CET6_DATA = {
               "highlight": "n.尊敬",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "hon-(真诚，荣耀，同源honest) + -our → 为国家立下卓越功勋受到全民爱戴尊崇的至高荣誉 → n.尊敬；荣幸；荣誉 v.尊重；给予表扬",
               "derivations": [
                 {
                   "word": "honorable",
@@ -30895,7 +30891,7 @@ window.CET6_DATA = {
               "highlight": "v.挑战",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "“牛”)+ge（联想“哥”)→弟弟吃饭时用 叉子叉了哥哥的牛排，这是在“挑战”他的 耐心。 你要像太阳一样，有起有落，不失光彩。/219",
+              "tip": "“牛”)+ge（联想“哥”)→弟弟吃饭时用 叉子叉了哥哥的牛排，这是在“挑战”他的 耐心。 你要像太阳一样，有起有落，不失光彩。",
               "derivations": [
                 {
                   "word": "challenging",
@@ -31021,7 +31017,7 @@ window.CET6_DATA = {
               "highlight": "v.参加",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "en-(使) + gage(抵押，保证) → 签下契约投身参加某项事业；深深吸引读者注意力；聘用人才 → v.参加；吸引；订婚；雇用",
               "derivations": [
                 {
                   "word": "engagement",
@@ -31041,7 +31037,7 @@ window.CET6_DATA = {
               "highlight": "adj.怀孕的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "pre-(在之前) + gn(生育，出生，同源generate) + -ant → 腹中孕育着即将诞生的小生命；意味深长的 → adj.怀孕的；意味深长的",
               "derivations": [
                 {
                   "word": "pregnancy",
@@ -31124,7 +31120,7 @@ window.CET6_DATA = {
               "highlight": "v.复制",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "re-(再次) + produce(生产，制造) → 打印机复印文件；生物自然繁衍产生后代 → v.复制；再生产；再现；繁殖",
               "derivations": [
                 {
                   "word": "reproduction",
@@ -31198,7 +31194,7 @@ window.CET6_DATA = {
               "highlight": "n.名声",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "re-（重复）+put（放）+-ation（名词后 缀）→反复把他的名字放到最前面，说明他的 “名声”最大。 每一天的拼搏，都是给人生最好的答复。/221",
+              "tip": "re-（重复）+put（放）+-ation（名词后 缀）→反复把他的名字放到最前面，说明他的 “名声”最大。 每一天的拼搏，都是给人生最好的答复。",
               "derivations": []
             },
             {
@@ -31292,7 +31288,7 @@ window.CET6_DATA = {
               "highlight": "adj.声名狼籍的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "not(知晓，标记) + -orious(贬义后缀) → 坏事做尽在江湖上人人皆知声名狼藉的大恶人 → adj.声名狼藉的，臭名昭著的",
               "derivations": [
                 {
                   "word": "notoriety",
@@ -31327,7 +31323,7 @@ window.CET6_DATA = {
               "highlight": "n.尊严",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "dign(尊贵，值得尊重) + -ity(名词后缀) → 面对侮辱依旧保持脊梁挺拔的庄重威严与自尊心 → n.尊严；庄重，体面；自尊心",
               "derivations": [
                 {
                   "word": "dignify",
@@ -31466,7 +31462,7 @@ window.CET6_DATA = {
               "highlight": "v.揭露",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "dis-(打开，去除) + close(关上，闭合) → 打开紧闭的黑匣子向大众公开揭露事实真相 → v.揭露，透露，泄露",
               "derivations": [
                 {
                   "word": "disclosure",
@@ -31580,7 +31576,7 @@ window.CET6_DATA = {
               "highlight": "n.织物",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "fabr(编织，制作) + -ic → 用棉纱经纬交织而成的布料织物；构成社会大厦的组织结构 → n.织物，布料；(社会的)结构",
               "derivations": []
             },
             {
@@ -31608,7 +31604,7 @@ window.CET6_DATA = {
               "highlight": "v.给..…上润滑油",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "lubric(滑溜，光滑) + -ate(动词后缀) → 给自行车链条滴上机油使其顺滑旋转 → v.给...上润滑油；使润滑",
               "derivations": [
                 {
                   "word": "lubrication",
@@ -31687,7 +31683,7 @@ window.CET6_DATA = {
               "highlight": "adj.时间的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -al（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "tempor(时间，时代) + -al(形容词后缀) → 受制于有限时间的短暂生命；世俗人间的凡尘杂事 → adj.时间的；短暂的；世俗的",
               "derivations": []
             },
             {
@@ -31700,7 +31696,7 @@ window.CET6_DATA = {
               "highlight": "n.特殊场合",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "oc-(=ob-，朝向) + cas(落下，发生) + -ion → 恰巧落在这个特殊日子里的重要庆典场合或良机 → n.特殊场合；盛会；时机",
               "derivations": [
                 {
                   "word": "occasional",
@@ -31752,7 +31748,7 @@ window.CET6_DATA = {
               "highlight": "n.发生率",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -ence（名词后缀，表性质或状态）→ n.发生率",
+              "tip": "in-(在内) + cid(落下，发生) + -ence → 某种流行病或事故在特定群体内部发生的频次比率 → n.发生率；波及范围",
               "derivations": []
             },
             {
@@ -31765,7 +31761,7 @@ window.CET6_DATA = {
               "highlight": "n.事件",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "in-(向内) + cid(落下，发生) + -ent → 平静生活中突然降临发生的一桩突发小插曲或边境冲突 → n.事件；(两国间的)冲突",
               "derivations": []
             },
             {
@@ -31778,7 +31774,7 @@ window.CET6_DATA = {
               "highlight": "adj.附带发生的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "incident(小事件) + -al(形容词后缀) → 在主线任务执行过程中顺带产生的次要非有意附带事项 → adj.附带发生的，次要的 n.附带事件",
               "derivations": [
                 {
                   "word": "incidentally",
@@ -31845,7 +31841,7 @@ window.CET6_DATA = {
               "highlight": "n.(类型相似的）建筑群 adj.复杂的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "com-(共同) + plex(编织，叠合) → 诸多复杂线条交织在一起难以梳理的；成体系的建筑群 → adj.复杂的；难以理解的 n.建筑群",
               "derivations": [
                 {
                   "word": "complexity",
@@ -31930,7 +31926,7 @@ window.CET6_DATA = {
               "highlight": "adj.错综复杂的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "in-(进入) + tric(琐事，障碍) + -ate → 像走迷宫一样盘根错节错综复杂的案件线索 → adj.错综复杂的；难理解的",
               "derivations": [
                 {
                   "word": "intricacy",
@@ -31950,7 +31946,7 @@ window.CET6_DATA = {
               "highlight": "adj.固有的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "in-(在内) + trin(=intra-，内部) + sec(遵循) → 从生命内核与生俱来固有的本质特性 → adj.固有的，内在的，本质的",
               "derivations": [
                 {
                   "word": "intrinsically",
@@ -32057,7 +32053,7 @@ window.CET6_DATA = {
               "highlight": "adj.不再存在的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ex-(向外) + tinct(=stingu，刺灭，扑灭) → 恐龙时代最后一丝生命之火彻底熄灭绝迹 → adj.不再存在的，绝种的；绝迹的",
               "derivations": [
                 {
                   "word": "extinction",
@@ -32130,7 +32126,7 @@ window.CET6_DATA = {
               "highlight": "v.(使)融合",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "fus(熔化，流淌) + -e → 金属加热融化为一体；电路发生过载时自动熔断的保险丝 → v.(使)融合；熔化 n.保险丝；导火线",
               "derivations": [
                 {
                   "word": "fusion",
@@ -32150,7 +32146,7 @@ window.CET6_DATA = {
               "highlight": "v.普及",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "dis-(向四周) + fus(流淌，融化) + -e → 气体或思想文化向四面八方广泛扩散渗透弥漫 → v.普及；散布；渗透 adj.弥漫的",
               "derivations": [
                 {
                   "word": "diffusion",
@@ -32227,7 +32223,7 @@ window.CET6_DATA = {
               "highlight": "v.批准",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ize（动词后缀，表使...化）→ 掌握其六级同根派生变换",
+              "tip": "author(权威，创始人) + -ize(使动后缀) → 凭借法定权威向代表正式授权批准签署协议 → v.批准；授权，许可",
               "derivations": []
             },
             {
@@ -32399,7 +32395,7 @@ window.CET6_DATA = {
               "highlight": "adj.真的",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“真牛”→姐姐“真的” 很牛，是个强者。 半山腰太挤，去山顶看看吧。/229",
+              "tip": "单词发音类似“真牛”→姐姐“真的” 很牛，是个强者。 半山腰太挤，去山顶看看吧。",
               "derivations": []
             },
             {
@@ -32412,7 +32408,7 @@ window.CET6_DATA = {
               "highlight": "adj.慷概的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ous（形容词后缀，表充满...的）→ 掌握其六级同根派生变换",
+              "tip": "gener(出身，种姓) + -ous → 贵族子弟乐善好施、出手阔绰的大方慷慨与宽宏大量 → adj.慷慨的大方的；宽宏大量的",
               "derivations": []
             },
             {
@@ -32505,7 +32501,7 @@ window.CET6_DATA = {
               "highlight": "n.智力高的人",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "inter-(在...中间) + lect(挑选，阅读) → 具备在纷繁乱象中洞察本质做出英明判断的顶尖智力 → n.智力高的人；智力，思维能力",
               "derivations": [
                 {
                   "word": "intellectual",
@@ -32525,7 +32521,7 @@ window.CET6_DATA = {
               "highlight": "n.智力",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -ence（名词后缀，表性质或状态）→ n.智力",
+              "tip": "inter-(在...之间) + lig(挑选) + -ence → 破解敌方绝密密码的超常聪明才智与绝密情报 → n.智力；情报；谍报人员",
               "derivations": []
             },
             {
@@ -32538,7 +32534,7 @@ window.CET6_DATA = {
               "highlight": "",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -ible（形容词后缀，表可...的）→ adj. 明白易懂的",
+              "tip": "intellig(理解) + -ible(能够...的) → 条理清晰口齿清楚、读者和听众完全能听懂理解的 → adj.明白易懂的，可理解的",
               "derivations": []
             },
             {
@@ -32667,7 +32663,7 @@ window.CET6_DATA = {
               "highlight": "adj.巨大的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "gigant(=giant，巨人) + -ic(形容词后缀) → 像远古泰坦巨人一样身材高大遮天蔽日的庞大身躯 → adj.巨大的，庞大的，浩大的",
               "derivations": []
             },
             {
@@ -32940,7 +32936,7 @@ window.CET6_DATA = {
               "highlight": "adj.固体的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "sol(完整，太阳) + -id(形容词后缀) → 结构紧密不松散、坚固如磐石的硬质固体 → adj.固体的；结实的，坚固的 n.固体",
               "derivations": [
                 {
                   "word": "solidity",
@@ -32979,7 +32975,7 @@ window.CET6_DATA = {
               "highlight": "v.使加强",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "con-(共同) + solid(坚固) + -ate(动词后缀) → 把零散业务合并重组以巩固加强公司的核心壁垒 → v.使加强，使巩固；合并",
               "derivations": [
                 {
                   "word": "consolidation",
@@ -32999,7 +32995,7 @@ window.CET6_DATA = {
               "highlight": "n.团结",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ity（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "solid(坚固，团结) + -arity(名词后缀) → 面对外部强权全民族心往一处想劲往一处使的铁板团结 → n.团结，同心协力",
               "derivations": []
             },
             {
@@ -33012,7 +33008,7 @@ window.CET6_DATA = {
               "highlight": "v.讨好",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“肥了她” → 拍马屁奉承的话把她说美了，哄得她心花怒放 → v.讨好，奉承，阿谀",
               "derivations": [
                 {
                   "word": "flattery",
@@ -33045,7 +33041,7 @@ window.CET6_DATA = {
               "highlight": "adj.流利的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "flu(流动，同源fluid) + -ent(形容词后缀) → 说英语像清泉流水般毫无卡顿自然流利的口语 → adj.流利的，流畅的；熟练的",
               "derivations": [
                 {
                   "word": "fluency",
@@ -33065,7 +33061,7 @@ window.CET6_DATA = {
               "highlight": "adj.富裕的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ad-(向，一再) + flu(流动) + -ent → 财富与白花花的金银财宝一再源源不断流进腰包的 → adj.富裕的，富足的，繁荣的",
               "derivations": [
                 {
                   "word": "affluence",
@@ -33085,7 +33081,7 @@ window.CET6_DATA = {
               "highlight": "adj.起初的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "origin(起源，源头) + -al(形容词/名词后缀) → 最初的本真面貌；非抄袭剽窃的原创原件作品 → adj.起初的；独创的 n.原件，原作",
               "derivations": [
                 {
                   "word": "originality",
@@ -33105,7 +33101,7 @@ window.CET6_DATA = {
               "highlight": "v.起源",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ate（动词/形容词后缀，表做，使成为）→ 掌握其六级同根派生变换",
+              "tip": "origin(源头) + -ate(动词后缀) → 黄河长江发源于高山雪水；某学说由某学者创立 → v.起源，发源；创立，发明",
               "derivations": []
             },
             {
@@ -33118,7 +33114,7 @@ window.CET6_DATA = {
               "highlight": "n.地区",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "reg(统治，管理) + -ion → 受到特定行政区划或地理气候管辖治理的广阔地区区域 → n.地区，区域；行政区",
               "derivations": [
                 {
                   "word": "regional",
@@ -33151,7 +33147,7 @@ window.CET6_DATA = {
               "highlight": "n.&v.崇拜",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ship（名词后缀，表身份或关系）→ 掌握其六级同根派生变换",
+              "tip": "worth(价值，高贵) + -ship(名词/动词后缀) → 敬佩神明或偶像至高无上的价值而顶礼膜拜爱慕 → n.&v.崇拜；爱慕；做礼拜",
               "derivations": []
             },
             {
@@ -33190,7 +33186,7 @@ window.CET6_DATA = {
               "highlight": "n.运动员",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "athl(比赛，角逐奖赏) + -ete → 在奥林匹克赛场上奋力拼搏角逐金牌的职业体育健儿 → n.运动员，田径选手",
               "derivations": [
                 {
                   "word": "athletic",
@@ -33210,7 +33206,7 @@ window.CET6_DATA = {
               "highlight": "v.起源于",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "de-(向下，从...) + riv(溪流，河源，同源river) → 从上游溪流源头一路流淌衍生而来 → v.起源于；来自；获得",
               "derivations": [
                 {
                   "word": "derivative",
@@ -33249,7 +33245,7 @@ window.CET6_DATA = {
               "highlight": "v.努力",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ive（形容词后缀，表有...倾向的）→ 掌握其六级同根派生变换",
+              "tip": "谐音“死拽夫” → 像纤夫拉纤一样哪怕累死也要拼命死拽绳索努力奋斗 → v.努力，奋斗；力求",
               "derivations": []
             },
             {
@@ -33262,7 +33258,7 @@ window.CET6_DATA = {
               "highlight": "v.兴旺发达",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ive（形容词后缀，表有...倾向的）→ 掌握其六级同根派生变换",
+              "tip": "谐音“死爱富” → 渴望致富所以发奋图强，最终生意兴旺发达繁荣昌盛 → v.兴旺发达，繁荣；茁壮成长",
               "derivations": []
             },
             {
@@ -33288,7 +33284,7 @@ window.CET6_DATA = {
               "highlight": "v.取回",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(再次) + trieve(寻找，发现) → 猎犬在丛林中重新找到猎物衔取找回；电脑检索数据 → v.取回；挽回；检索(信息)",
               "derivations": [
                 {
                   "word": "retrieval",
@@ -33308,7 +33304,7 @@ window.CET6_DATA = {
               "highlight": "adj.怪异的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "pecu(私人牲畜财产，特有) + -liar → 某人身上独门特有、常人看起来极其怪异奇怪的特质 → adj.怪异的，奇怪的；特有的",
               "derivations": [
                 {
                   "word": "peculiarity",
@@ -33354,7 +33350,7 @@ window.CET6_DATA = {
               "highlight": "v.使熟悉",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ac-(=ad-，使) + quaint(=know，知晓，同源cognition) → 介绍双方认识从而熟悉了解彼此情况 → v.使熟悉，使了解",
               "derivations": [
                 {
                   "word": "acquaintance",
@@ -33374,7 +33370,7 @@ window.CET6_DATA = {
               "highlight": "n.外星人",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "ali-(别的，相异的) + -en → 来自另外一个星球或别国文化背景的完全陌生的人 → n.外星人；外国人 adj.陌生的；外国的",
               "derivations": [
                 {
                   "word": "alienate",
@@ -33400,7 +33396,7 @@ window.CET6_DATA = {
               "highlight": "v.(使)隔离",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "isol(=insula，孤岛) + -ate(动词后缀) → 像孤立无援的荒岛一样彻底与外界隔绝断绝联系 → v.(使)隔离，孤立",
               "derivations": [
                 {
                   "word": "isolation",
@@ -33420,7 +33416,7 @@ window.CET6_DATA = {
               "highlight": "n.戏剧",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "dram(行动，表演) + -a → 舞台演员全情投入演绎跌宕起伏的人生戏剧与大戏 → n.戏剧；戏剧性事件",
               "derivations": [
                 {
                   "word": "dramatic",
@@ -33459,7 +33455,7 @@ window.CET6_DATA = {
               "highlight": "n.悲惨的事",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "trag-(公羊，悼亡) + -edy → 古希腊披着羊皮祭神演出的震撼心灵催人泪下的崇高悲剧 → n.悲剧；悲惨的事",
               "derivations": [
                 {
                   "word": "tragic",
@@ -33485,7 +33481,7 @@ window.CET6_DATA = {
               "highlight": "n.灾难",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "dis-(恶，坏，灾难) + aster(星星，天体，同源astronomy) → 星盘紊乱凶星降临预示天降滔天浩劫与不幸灾难 → n.灾难；不幸，祸患",
               "derivations": [
                 {
                   "word": "disastrous",
@@ -33617,7 +33613,7 @@ window.CET6_DATA = {
               "highlight": "adj.脆弱的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "vulner(伤口，创伤) + -able(容易...的) → 缺少铠甲护盾防备极易被敌军长矛刺穿伤害的脆弱状态 → adj.脆弱的；易受...伤害的",
               "derivations": [
                 {
                   "word": "vulnerability",
@@ -33689,7 +33685,7 @@ window.CET6_DATA = {
               "highlight": "adj.过敏的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "all-(别的，异常) + erg(反应，运作) + -ic → 免疫系统对花粉等外来物质产生异常过激排斥反应的 → adj.过敏的；反感的",
               "derivations": [
                 {
                   "word": "allergy",
@@ -33709,7 +33705,7 @@ window.CET6_DATA = {
               "highlight": "n.化学品adj.化学的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "chem-(炼金，化合) + -ical(形容词/名词后缀) → 实验室通过元素化学反应人工合成的各种试剂与化学品 → n.化学品 adj.化学的",
               "derivations": [
                 {
                   "word": "chemistry",
@@ -33735,7 +33731,7 @@ window.CET6_DATA = {
               "highlight": "v.开始",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "in-(向内) + it(走，迈步) + -i- + -ate → 带领团队迈出长征的第一步发起创立大工程 → v.开始，发起，创始；使了解",
               "derivations": [
                 {
                   "word": "initiation",
@@ -33755,7 +33751,7 @@ window.CET6_DATA = {
               "highlight": "n.主动性",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -ive（形容词后缀，表有...倾向的）→ n.主动性",
+              "tip": "initiat(迈步，开始) + -ive(名词后缀) → 在竞争中率先出手掌握主动权与首创积极性 → n.主动性，积极性；主动权；倡议",
               "derivations": []
             },
             {
@@ -33768,7 +33764,7 @@ window.CET6_DATA = {
               "highlight": "adj.最初的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -al（形容词后缀，表...的）→ adj.最初的",
+              "tip": "init(开始) + -ial(形容词后缀) → 一件事情最开端最初阶段的起步状态 → adj.最初的，开始的 n.首字母",
               "derivations": []
             },
             {
@@ -33820,7 +33816,7 @@ window.CET6_DATA = {
               "highlight": "n.最大量",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "maxim(最大，宏大) + -um(名词/形容词后缀) → 容器承载量或转速表所能达到的极限天花板最大量 → n.最大量；最大限度 adj.最高的；最多的",
               "derivations": [
                 {
                   "word": "maximal",
@@ -33840,7 +33836,7 @@ window.CET6_DATA = {
               "highlight": "adj.极小的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -al（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "minim(极小，最小) + -al(形容词后缀) → 压缩削减到微乎其微几乎可以忽略不计的极微小程度 → adj.极小的，极少的；微不足道的",
               "derivations": []
             },
             {
@@ -33866,7 +33862,7 @@ window.CET6_DATA = {
               "highlight": "v.使减少到最低限度",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ize（动词后缀，表使...化）→ 掌握其六级同根派生变换",
+              "tip": "minim(最小) + -ize(使动后缀) → 采取周密防护措施使企业经营风险降到最低限度 → v.使减少到最低限度，使最小化；低估",
               "derivations": []
             },
             {
@@ -33879,7 +33875,7 @@ window.CET6_DATA = {
               "highlight": "v.使增加到最大限度",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ize（动词后缀，表使...化）→ 掌握其六级同根派生变换",
+              "tip": "maxim(最大) + -ize(使动后缀) → 整合所有资源使商业利润和投资回报达到最大限度 → v.使增加到最大限度；充分利用",
               "derivations": []
             },
             {
@@ -33892,7 +33888,7 @@ window.CET6_DATA = {
               "highlight": "adj.主要的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "maj(大，宏大) + -or(比较级) → 在大局中占压倒性多数的大头分量；大学主修专业 → adj.主要的；重大的 n.主修科目，专业",
               "derivations": [
                 {
                   "word": "majority",
@@ -33925,7 +33921,7 @@ window.CET6_DATA = {
               "highlight": "adj.大而重的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ive（形容词后缀，表有...倾向的）→ 掌握其六级同根派生变换",
+              "tip": "mass(团块，大量，群众) + -ive(形容词后缀) → 如同万吨花岗岩巨石般沉重庞大的强大规模 → adj.大而重的；巨大的，强大的",
               "derivations": []
             },
             {
@@ -33951,7 +33947,7 @@ window.CET6_DATA = {
               "highlight": "n.度量工具",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "metr(测量，米，同源meter) + -ic → 国际标准基于米制厘米建立的科学度量衡量工具体系 → n.度量工具，衡量指标 adj.米制的；公制的",
               "derivations": []
             },
             {
@@ -33964,7 +33960,7 @@ window.CET6_DATA = {
               "highlight": "n.几何（学）",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "geo-(大地) + metr(测量) + -y → 古埃及丈量尼罗河两岸泛滥农田土地衍生出来的几何学科 → n.几何(学)；几何形状",
               "derivations": [
                 {
                   "word": "geometric",
@@ -34042,7 +34038,7 @@ window.CET6_DATA = {
               "highlight": "n.天堂",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ise（动词后缀，表使...化）→ 掌握其六级同根派生变换",
+              "tip": "paradeis(围猎花园，神的花园) → 瓜果飘香四季如春没有痛苦烦恼的人间仙境天堂乐园 → n.天堂；乐园(指美好的环境)",
               "derivations": []
             },
             {
@@ -34055,7 +34051,7 @@ window.CET6_DATA = {
               "highlight": "n.论",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "para-(超越，相反) + dox(观点，教条) → 表面自相矛盾但细品却蕴含深奥哲理的似非而是的悖论 → n.悖论；矛盾的人(或事物)",
               "derivations": [
                 {
                   "word": "paradoxical",
@@ -34114,7 +34110,7 @@ window.CET6_DATA = {
               "highlight": "v.乘船游览n.乘船游览",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "cruc/crux(十字交叉，航行) + -se → 豪华大邮轮在风平浪静蔚蓝海面上悠哉游弋乘船巡游航行 → v.&n.乘船游览；巡航，航行",
               "derivations": [
                 {
                   "word": "cruiser",
@@ -34134,7 +34130,7 @@ window.CET6_DATA = {
               "highlight": "n.爱国者",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "patr-(父亲，祖国，同源father/paternal) + -iot → 热爱祖国如同热爱生身父母般赤胆忠心的爱国者 → n.爱国者",
               "derivations": [
                 {
                   "word": "patriotism",
@@ -34154,7 +34150,7 @@ window.CET6_DATA = {
               "highlight": "adj.爱国的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "patriot(爱国者) + -ic(形容词后缀) → 胸怀天下愿意为祖国繁荣昌盛抛洒热血的爱国主义情怀 → adj.爱国的",
               "derivations": []
             },
             {
@@ -34208,7 +34204,7 @@ window.CET6_DATA = {
               "highlight": "adj.明智的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ible（形容词后缀，表可...的）→ 掌握其六级同根派生变换",
+              "tip": "sens(感知，理智，同源sense) + -ible(能够...的) → 头脑清醒通情达理能够做出理智明智决策的 → adj.明智的，合理的；可感觉到的",
               "derivations": []
             },
             {
@@ -34300,7 +34296,7 @@ window.CET6_DATA = {
               "highlight": "致的 adj.加强的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -ive（形容词后缀，表有...倾向的）→ 致的 adj.加强的",
+              "tip": "in-(在内) + tens(拉紧) + -ive(形容词后缀) → 在短时间内投入大量资源紧锣密鼓密集的、高强度的 → adj.加强的；密集的；彻底细致的",
               "derivations": []
             },
             {
@@ -34313,7 +34309,7 @@ window.CET6_DATA = {
               "highlight": "adj.很大的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "in-(向内) + tens(拉紧，绷紧) → 琴弦绷得紧紧的、对决异常激烈十分强烈的刺激感 → adj.很大的，十分强烈的；激烈的",
               "derivations": [
                 {
                   "word": "intensity",
@@ -34379,7 +34375,7 @@ window.CET6_DATA = {
               "highlight": "n.首都",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "capit(头，首位) + -al → 一国政治决策首脑之都；生产经商启动不可或缺的头等大钱资本资金 → n.首都；资本，资金 adj.大写的",
               "derivations": [
                 {
                   "word": "capitalist",
@@ -34405,7 +34401,7 @@ window.CET6_DATA = {
               "highlight": "n.容量",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ity（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "cap(抓取，容纳) + -acity(名词后缀) → 油箱能够容纳装载的最大容量；一个人所具备的学习能力 → n.容量；容积；能力，才能",
               "derivations": []
             },
             {
@@ -34418,7 +34414,7 @@ window.CET6_DATA = {
               "highlight": "adj.有能力的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "cap(抓住，胜任) + -able(能够...的) → 遇到任何险阻都能一手稳稳掌控拿下的有本事能力的强人 → adj.有能力的；能力强的，能胜任的",
               "derivations": [
                 {
                   "word": "capability",
@@ -34451,7 +34447,7 @@ window.CET6_DATA = {
               "highlight": "adj.被监禁的n.囚徒",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ive（形容词后缀，表有...倾向的）→ 掌握其六级同根派生变换",
+              "tip": "capt(抓住，捕获) + -ive(名词/形容词后缀) → 在战场上被敌军活捉捕获失去自由关在牢里的囚徒俘虏 → adj.被监禁的 n.囚徒，俘虏",
               "derivations": []
             },
             {
@@ -34477,7 +34473,7 @@ window.CET6_DATA = {
               "highlight": "n.(图片、漫画等的）说明文字",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -tion（名词后缀，表行为或状态）→ 掌握其六级同根派生变换",
+              "tip": "capt(抓住，抓取) + -ion → 迅速抓住读者视线阅读漫画新闻的配图说明文字与字幕标题 → n.(图片漫画等的)说明文字；字幕；标题",
               "derivations": []
             },
             {
@@ -34622,7 +34618,7 @@ window.CET6_DATA = {
               "highlight": "v.碰撞",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "col-(=con-，共同) + lid(撞击，猛击) + -e → 暴风雨夜两辆汽车在十字路口车头对车头剧烈相撞 → v.碰撞，相撞；抵触，冲突",
               "derivations": [
                 {
                   "word": "collision",
@@ -34776,7 +34772,7 @@ window.CET6_DATA = {
               "highlight": "adj.天主教的n.天主教徒",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "cath(普遍，包罗万象) + -olic → 罗马教廷信徒遍布全球的天主教宗派信仰 → adj.天主教的 n.天主教徒",
               "derivations": []
             },
             {
@@ -34802,7 +34798,7 @@ window.CET6_DATA = {
               "highlight": "adj.本国的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ic（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "dom-(家，屋顶) + -estic(形容词后缀) → 屋檐底下家庭过日子的用品；国门之内本国的政务与航班 → adj.本国的，国内的；家庭的；家用的",
               "derivations": []
             },
             {
@@ -34815,7 +34811,7 @@ window.CET6_DATA = {
               "highlight": "v.支配",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "dom-(主人，屋顶领地) + -in- + -ate → 在整片领地上居于主宰权威地位统治支配一切 → v.支配，统治，控制；占主导地位",
               "derivations": [
                 {
                   "word": "domination",
@@ -34835,7 +34831,7 @@ window.CET6_DATA = {
               "highlight": "n.优势",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ance（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "domin(统治) + -ance(名词后缀) → 在政治军事或体育联赛中展现出的绝对压倒性霸主统治优势 → n.优势；支配，控制",
               "derivations": []
             },
             {
@@ -34863,7 +34859,7 @@ window.CET6_DATA = {
               "highlight": "adj.显著的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "pre-(在最前面) + dominant(占主导地位的) → 在大流行中最为突出显眼占据压倒统治地位的菌株 → adj.显著的；盛行的；主导的；占优势的",
               "derivations": [
                 {
                   "word": "predominance",
@@ -34961,7 +34957,7 @@ window.CET6_DATA = {
               "highlight": "v.容忍",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "toler(承受，忍受，联想toll) + -ate(动词后缀) → 咬紧牙关容许别人不同的作风习惯包容忍耐 → v.容忍，容许；忍受，忍耐",
               "derivations": [
                 {
                   "word": "tolerant",
@@ -35245,7 +35241,7 @@ window.CET6_DATA = {
               "highlight": "n.方便",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "con-（所有，都）+venien（音似“为 您”）+ce→所有服务都是为了您的“方便”。 在坚持中成长，在坚持中收获。/251",
+              "tip": "con-（所有，都）+venien（音似“为 您”）+ce→所有服务都是为了您的“方便”。 在坚持中成长，在坚持中收获。",
               "derivations": []
             },
             {
@@ -35499,7 +35495,7 @@ window.CET6_DATA = {
               "highlight": "v.拥抱",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "em-（使；进入）+brace(手臂）→使进 入手臂→拥抱 尽最大的努力，留最小的遗憾。/253",
+              "tip": "em-（使；进入）+brace(手臂）→使进 入手臂→拥抱 尽最大的努力，留最小的遗憾。",
               "derivations": []
             },
             {
@@ -35549,7 +35545,7 @@ window.CET6_DATA = {
               "highlight": "adj.合理的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -al（形容词后缀，表...的）→ 掌握其六级同根派生变换",
+              "tip": "rat(计算，理性，同源ratio) + -ion- + -al → 不凭一时义气用事、凡事以客观逻辑精明计算的理性态度 → adj.合理的，理性的；理智的",
               "derivations": []
             },
             {
@@ -35723,7 +35719,7 @@ window.CET6_DATA = {
               "highlight": "n.冲动",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "im-(向内) + puls(推动，冲撞) + -e → 内心深处突然涌现出一股不可遏制强烈的购买冲动心血来潮 → n.冲动，心血来潮；推动力；刺激",
               "derivations": [
                 {
                   "word": "impulsive",
@@ -35756,7 +35752,7 @@ window.CET6_DATA = {
               "highlight": "n.机车",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ive（形容词后缀，表有...倾向的）→ 掌握其六级同根派生变换",
+              "tip": "loco(位置，地点) + mot(运动，移动) + -ive → 能够在铁轨上拖着巨长列车在不同城市地点间奔驰的机车火车头 → n.机车；火车头 adj.移动的",
               "derivations": []
             },
             {
@@ -35799,7 +35795,7 @@ window.CET6_DATA = {
               "highlight": "n.生育高峰（期）",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "baby(婴儿) + boom(隆隆轰鸣，暴涨暴增) → 二战后全社会结婚成家迎来千家万户婴儿出生率爆棚的生育高峰期 → n.生育高峰(期)",
               "derivations": [
                 {
                   "word": "baby boomer",
@@ -35989,7 +35985,7 @@ window.CET6_DATA = {
               "highlight": "v.疏于照顾",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "neg-(拒绝，不) + lect(挑选，留意，联想collect) → 压根不去挑选留意照顾以致造成重大疏漏疏忽 → v.疏于照顾；忽视，疏漏 n.忽略，忽视",
               "derivations": [
                 {
                   "word": "neglectful",
@@ -36048,7 +36044,7 @@ window.CET6_DATA = {
               "highlight": "adj.无知的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "i-(=in-，不) + gnor(=know，知晓，同源cognition) + -ant → 一无所知懵懂无知缺乏教育常识的可悲无礼状态 → adj.无知的，愚昧的；粗鲁无礼的",
               "derivations": [
                 {
                   "word": "ignorance",
@@ -36386,7 +36382,7 @@ window.CET6_DATA = {
               "highlight": "n.公寓",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ment（名词后缀，表动作或结果）→ 掌握其六级同根派生变换",
+              "tip": "a-(向) + part(分开，独立隔开) + -ment → 在同一栋大厦里独立隔开供各户家庭居住的单元成套公寓 → n.公寓(套房)",
               "derivations": []
             },
             {
@@ -36553,7 +36549,7 @@ window.CET6_DATA = {
               "highlight": "n.核儿",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“靠”→大家都依靠的 那个人就是“核心”。 没有到不了的彼岸，没有行不至的远方。/261",
+              "tip": "单词发音类似“靠”→大家都依靠的 那个人就是“核心”。 没有到不了的彼岸，没有行不至的远方。",
               "derivations": []
             },
             {
@@ -36831,7 +36827,7 @@ window.CET6_DATA = {
               "highlight": "adj.好战的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "milit(士兵，战斗，同源military) + -ant → 满脑子尚武好斗崇尚暴力手段解决争端的激进分子 → adj.好战的；激进的 n.激进分子",
               "derivations": [
                 {
                   "word": "militancy",
@@ -36972,7 +36968,7 @@ window.CET6_DATA = {
               "highlight": "n.辱骂",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 in-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "in-(在...上面) + sult(跳，践踏，同源assault) → 居高临下跳在别人脸上踩踏人格出言不逊羞辱侮辱 → n.&v.辱骂；侮辱，凌辱",
               "derivations": []
             },
             {
@@ -37177,7 +37173,7 @@ window.CET6_DATA = {
               "highlight": "n.投资者",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "in-(向内) + vest(穿衣服，授职，投入) + -or(人) → 掏出真金白银投资注入企业以期获取高额回报的投资者 → n.投资者；投资机构",
               "derivations": [
                 {
                   "word": "investment",
@@ -37617,7 +37613,7 @@ window.CET6_DATA = {
               "highlight": "",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -al（形容词后缀，表...的）→ adj. 必需的",
+              "tip": "integr(完整，未损坏，同源integer整数) + -al → 构成整体不可缺少、缺了一角就无法运转的核心必需部分 → adj.必需的；不可或缺的；完整的",
               "derivations": []
             },
             {
@@ -37630,7 +37626,7 @@ window.CET6_DATA = {
               "highlight": "n.诚实正直",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -ity（名词后缀，表性质或状态）→ n.诚实正直",
+              "tip": "integr(完整，无暇) + -ity(名词后缀) → 人格如璞玉般清白无瑕为人光明磊落的诚实正直与完整性 → n.诚实正直；完整，完好",
               "derivations": []
             },
             {
@@ -37663,7 +37659,7 @@ window.CET6_DATA = {
               "highlight": "adj.具体的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "con-（所有）+cret（=create）+-e一 所有创造的东西都是“具体的”。 不要因为没有掌声就放弃梦想。 /269",
+              "tip": "con-（所有）+cret（=create）+-e一 所有创造的东西都是“具体的”。 不要因为没有掌声就放弃梦想。",
               "derivations": []
             },
             {
@@ -37691,7 +37687,7 @@ window.CET6_DATA = {
               "highlight": "v.迁徒",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "migr(迁移，移动) + -ate(动词后缀) → 大雁候鸟随着季节更替飞越南北半球漫漫万里长途迁徙移居 → v.迁徙；移居，迁移",
               "derivations": [
                 {
                   "word": "migration",
@@ -37796,7 +37792,7 @@ window.CET6_DATA = {
               "highlight": "n.新兵",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "re-(再次，重新) + cruit(=cresc，生长，发芽) → 军队或大厂在校园面向社会广纳贤才补充新鲜血液招募新兵 → n.新兵，新成员 v.招募(新兵)；吸收",
               "derivations": [
                 {
                   "word": "recruitment",
@@ -37886,7 +37882,7 @@ window.CET6_DATA = {
               "highlight": "v.参与",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "part(部分，一份) + -i- + cip(=cap，拿取，抓取) + -ate → 在大合唱或大运动会中各拿一份职责共同投身参与 → v.参与，参加",
               "derivations": [
                 {
                   "word": "participant",
@@ -37945,7 +37941,7 @@ window.CET6_DATA = {
               "highlight": "adj.古代的",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“俺神他”→俺喜欢那 个神仙，他经常出现在“古老的”神话里。 不要假装努力，结局不会陪你演戏。/271",
+              "tip": "单词发音类似“俺神他”→俺喜欢那 个神仙，他经常出现在“古老的”神话里。 不要假装努力，结局不会陪你演戏。",
               "derivations": []
             },
             {
@@ -37986,7 +37982,7 @@ window.CET6_DATA = {
               "highlight": "v.勘查",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ex-(向外) + plore(呼喊，哭泣；寻找) → 猎人向外放狗大声呼喊探寻未知山林宝藏的勘查探索历程 → v.勘查；探索；研究，探讨",
               "derivations": [
                 {
                   "word": "exploration",
@@ -38047,7 +38043,7 @@ window.CET6_DATA = {
               "highlight": "v.使用",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ize（动词后缀，表使...化）→ 掌握其六级同根派生变换",
+              "tip": "util(有用，利用，同源utility) + -ize(使动后缀) → 挖掘并充分利用旧厂房废旧物资的潜在商业价值 → v.使用，利用",
               "derivations": []
             },
             {
@@ -38144,7 +38140,7 @@ window.CET6_DATA = {
               "highlight": "n.小器具",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "谐音“盖吉他” → 极客随身携带的小巧精妙的电子小工具小装置 → n.小器具；小装置，小配件",
               "derivations": [
                 {
                   "word": "gadgetry",
@@ -38164,7 +38160,7 @@ window.CET6_DATA = {
               "highlight": "v.安装",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词根词缀：前缀 in-（不，非；向内，在...里）+ 词根 + 后缀 -al（形容词后缀，表...的）→ v.安装",
+              "tip": "in-(在内) + stal(放置，位置，同源stall货摊) → 电脑机房把大型主机设备安装安放在指定机位并完成设置 → v.安装，设置",
               "derivations": []
             },
             {
@@ -38203,7 +38199,7 @@ window.CET6_DATA = {
               "highlight": "v.雇用",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 3 个重点考查派生词",
+              "tip": "em-(=en-，使) + ploy(折叠，使忙碌，联想apply) → 让人忙碌在流水线岗位上领工资上班；灵活运用策略 → v.雇用；应用，运用",
               "derivations": [
                 {
                   "word": "employment",
@@ -38406,7 +38402,7 @@ window.CET6_DATA = {
               "highlight": "n.吸引",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "ad-(向，一再) + tract(拉，拽) + -ion → 磁石对铁针产生的无可抗拒的磁力吸附与风景名胜的巨大吸引力 → n.吸引，吸引力；名胜，引人入胜之物",
               "derivations": [
                 {
                   "word": "attractive",
@@ -38463,7 +38459,7 @@ window.CET6_DATA = {
               "highlight": "v.(用绳索或链条）拖",
               "freq": 3,
               "tip_type": "谐音",
-              "tip": "单词发音类似“拖”。",
+              "tip": "谐音“拖” → 抛锚在路边的皮卡用粗钢缆绳索拖车拖拽拉运到维修厂 → v.(用绳索链条)拖，拉，牵引 n.牵引，拖拽",
               "derivations": [],
               "example_en": "Our car was towed away by the police.",
               "example_cn": "我们的 汽车被警察拖走了。 2"
@@ -38530,7 +38526,7 @@ window.CET6_DATA = {
               "highlight": "v.使….处于中央的控制之下",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ize（动词后缀，表使...化）→ 掌握其六级同根派生变换",
+              "tip": "central(中央) + -ize(使动后缀) → 把分散在各省的地方割据权力全部收归中央集中统一管辖集权 → v.使...处于中央控制之下，集权控制",
               "derivations": []
             },
             {
@@ -38543,7 +38539,7 @@ window.CET6_DATA = {
               "highlight": "n.浓缩物 v.集中",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 1 个重点考查派生词",
+              "tip": "con-(共同，全部) + centr(中心) + -ate → 将所有的注意力心神像激光一样聚集汇聚到正中心一点专心致志 → v.集中，专心于 n.浓缩物",
               "derivations": [
                 {
                   "word": "concentration",
@@ -38563,7 +38559,7 @@ window.CET6_DATA = {
               "highlight": "n.动力 adj.精力充沛的",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "dy（联想“大雁\"）+na（联想“拿”）+",
+              "tip": "dynam(力量，威力) + -ic(形容词/名词后缀) → 充满蓬勃生机朝气蓬勃、驱动科技变革奔涌向前的动力引擎 → adj.精力充沛的，充满活力的 n.动力",
               "derivations": [
                 {
                   "word": "dynamics",
@@ -38791,7 +38787,7 @@ window.CET6_DATA = {
               "highlight": "n.同情",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "com-（所有，都）+passion（激情）→该 事件使人们群情激愤，对受害者充满了“同 情”。 你永远来得及选择滚烫的人生。/277",
+              "tip": "com-（所有，都）+passion（激情）→该 事件使人们群情激愤，对受害者充满了“同 情”。 你永远来得及选择滚烫的人生。",
               "derivations": [
                 {
                   "word": "compassionate",
@@ -38906,7 +38902,7 @@ window.CET6_DATA = {
               "highlight": "adj.枯燥乏味的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ous（形容词后缀，表充满...的）→ 掌握其六级同根派生变换",
+              "tip": "tedi(厌倦，厌烦，联想tired) + -ous(形容词后缀) → 冗长拖沓开三个小时无聊会议让人昏昏欲睡枯燥乏味的 → adj.枯燥乏味的；冗长的，单调的",
               "derivations": []
             },
             {
@@ -39034,7 +39030,7 @@ window.CET6_DATA = {
               "highlight": "n.手册",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "bro（联想brother）+chu（联想“出\"）+",
+              "tip": "broch(缝纫，缝订小册) + -ure → 旅行社印刷装订整齐用于招揽游客的精美宣传小册子 → n.手册，小册子，宣传单",
               "derivations": [],
               "example_en": "Lesson They can find the application forms in the carpenter charge innumerable",
               "example_cn": "阿姨一个“小册子”。 brochure.他们可以在小册子里找到申请表。 词以群记2 car相关 career car相关"
@@ -39062,7 +39058,7 @@ window.CET6_DATA = {
               "highlight": "n.图",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "大纲高频核心母词，包含 2 个重点考查派生词",
+              "tip": "graph(书写，画线，同源paragraph) → 坐标系里用曲线折线绘制直观反映经济指标走势的图表统计图 → n.图，图表，曲线图",
               "derivations": [
                 {
                   "word": "graphic",
@@ -39250,7 +39246,7 @@ window.CET6_DATA = {
               "highlight": "n.抗生素 adj.抗生的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "anti-(对抗，反对）+bio(生物，生命）+ -tic（后级）→对抗生物的→抗生素；抗生的 进取点点星铺路，步履稳踏自成功。/281",
+              "tip": "anti-(对抗，反对）+bio(生物，生命）+ -tic（后级）→对抗生物的→抗生素；抗生的 进取点点星铺路，步履稳踏自成功。",
               "derivations": []
             },
             {
@@ -39507,7 +39503,7 @@ window.CET6_DATA = {
               "highlight": "n.母性",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "词性衍生：词干 + 后缀 -ity（名词后缀，表性质或状态）→ 掌握其六级同根派生变换",
+              "tip": "matern(母亲，同源mother) + -ity(名词后缀) → 怀胎十月迎新生命散发圣洁母爱的母性光辉与母亲身份 → n.母性；母亲身份；怀孕",
               "derivations": []
             },
             {
