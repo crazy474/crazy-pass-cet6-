@@ -5528,3 +5528,82 @@ button:focus-visible, a:focus-visible, input:focus-visible {
   outline: 2px solid var(--tomato-red) !important;
   outline-offset: 2px !important;
 }
+
+
+
+/* =========================================================================
+   33. 全新双轨超清发音控制胶囊与视觉声波高亮系统
+   ========================================================================= */
+
+.audio-pref-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 3px 6px;
+  box-shadow: var(--shadow-sm);
+  user-select: none;
+}
+
+body.dark-mode .audio-pref-pill {
+  background: #20242B;
+  border-color: #38404C;
+}
+
+.audio-pref-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-main);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.audio-pref-btn:hover {
+  background: var(--bg-hover);
+  color: var(--tomato-red);
+}
+
+body.dark-mode .audio-pref-btn {
+  color: #E2E8F0;
+}
+
+body.dark-mode .audio-pref-btn:hover {
+  background: #2D333B;
+  color: var(--tomato-coral);
+}
+
+/* 正在发音时的按钮动态高亮与跳动脉冲 */
+.audio-speak-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+}
+
+.audio-speak-btn:hover {
+  transform: scale(1.06);
+}
+
+.audio-speak-btn.audio-speaking-active {
+  background: linear-gradient(135deg, var(--tomato-red), #E05A47) !important;
+  color: #FFFFFF !important;
+  border-color: var(--tomato-red) !important;
+  box-shadow: 0 0 14px rgba(217, 72, 52, 0.45) !important;
+  animation: speakingPulse 0.75s infinite alternate ease-in-out !important;
+}
+
+@keyframes speakingPulse {
+  0% { transform: scale(1); filter: brightness(1); }
+  100% { transform: scale(1.08); filter: brightness(1.22); }
+}

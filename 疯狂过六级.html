@@ -5539,6 +5539,85 @@ button:focus-visible, a:focus-visible, input:focus-visible {
   outline-offset: 2px !important;
 }
 
+
+
+/* =========================================================================
+   33. 全新双轨超清发音控制胶囊与视觉声波高亮系统
+   ========================================================================= */
+
+.audio-pref-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 3px 6px;
+  box-shadow: var(--shadow-sm);
+  user-select: none;
+}
+
+body.dark-mode .audio-pref-pill {
+  background: #20242B;
+  border-color: #38404C;
+}
+
+.audio-pref-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-main);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.audio-pref-btn:hover {
+  background: var(--bg-hover);
+  color: var(--tomato-red);
+}
+
+body.dark-mode .audio-pref-btn {
+  color: #E2E8F0;
+}
+
+body.dark-mode .audio-pref-btn:hover {
+  background: #2D333B;
+  color: var(--tomato-coral);
+}
+
+/* 正在发音时的按钮动态高亮与跳动脉冲 */
+.audio-speak-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+}
+
+.audio-speak-btn:hover {
+  transform: scale(1.06);
+}
+
+.audio-speak-btn.audio-speaking-active {
+  background: linear-gradient(135deg, var(--tomato-red), #E05A47) !important;
+  color: #FFFFFF !important;
+  border-color: var(--tomato-red) !important;
+  box-shadow: 0 0 14px rgba(217, 72, 52, 0.45) !important;
+  animation: speakingPulse 0.75s infinite alternate ease-in-out !important;
+}
+
+@keyframes speakingPulse {
+  0% { transform: scale(1); filter: brightness(1); }
+  100% { transform: scale(1.08); filter: brightness(1.22); }
+}
+
 </style>
 </head>
 <body>
@@ -5629,6 +5708,18 @@ button:focus-visible, a:focus-visible, input:focus-visible {
             <span class="blitz-btn-subtag" id="headerBlitzScoreTag">⚡ 极速对决</span>
           </div>
         </button>
+
+        
+        <!-- 全新双轨高保真发音设置控制器 (美英音切换与语速调节) -->
+        <div class="audio-pref-pill" title="超清发音控制器：支持美音/英音切换与语速调节">
+          <button type="button" class="audio-pref-btn" id="headerAudioAccentBtn" onclick="toggleAudioAccent()">
+            <span>🇺🇸</span> 美音
+          </button>
+          <span style="color:var(--border-color); font-size:12px;">|</span>
+          <button type="button" class="audio-pref-btn" id="headerAudioRateBtn" onclick="cycleAudioRate()">
+            <span>⚡</span> 1.0x
+          </button>
+        </div>
 
         <!-- 字体大小无级缩放控制器 (解决小字看花眼) -->
         <div class="font-size-widget" title="全局字体缩放 (告别小字体眼疲劳)">
@@ -135309,14 +135400,302 @@ function setAmbientSound(type) {
   ambientSource.start();
 }
 
-// --- 5. Web Speech API 真人朗读引擎 ---
-function speakWord(text) {
-  if (!("speechSynthesis" in window)) return;
-  window.speechSynthesis.cancel();
-  const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = "en-US";
-  utter.rate = 0.92;
+// --- 5. 双轨超清母语真人录音与神经语音合成引擎 ---
+let currentAudioPlayer = null;
+let currentSpeechUtterance = null;
+let speechWatchdogTimer = null;
+
+// 音频设置偏好
+if (!userState.audioPref) {
+  userState.audioPref = {
+    accent: "us", // "us" (美音) | "uk" (英音)
+    rate: 1.0     // 0.8, 1.0, 1.2
+  };
+}
+
+// 文本深度净化函数：过滤词性缩写、音标斜杠、中文说明、括号符号
+function cleanTextForSpeech(text) {
+  if (!text) return "";
+  let s = String(text);
+  // 去除中文汉字与全角中文标点
+  s = s.replace(/[\u4e00-\u9fa5\u3000-\u303f\uff01-\uff5e]/g, " ");
+  // 去除词性缩写与语法标记
+  s = s.replace(/\b(v|n|adj|adv|vt|vi|prep|conj|pron|art|num|pl|sing|sb|sth)\b\.?/gi, " ");
+  // 去除音标斜杠与各种括号中的非单词内容
+  s = s.replace(/\/.*?\/|\[.*?\]|\(.*?\)|【.*?】/g, " ");
+  // 去除多余特殊符号并整理空格
+  s = s.replace(/[#*~_`^]/g, " ").replace(/\s+/g, " ").trim();
+  return s;
+}
+
+// 智能猎取系统最高品质的英语自然神经语音 (Neural Voice Hunter)
+function getBestNeuralVoice(accent = "us") {
+  if (!("speechSynthesis" in window)) return null;
+  const voices = window.speechSynthesis.getVoices() || [];
+  if (voices.length === 0) return null;
+
+  const targetLang = accent === "uk" ? "en-GB" : "en-US";
+  const preferredNames = accent === "uk"
+    ? ["Ryan", "Sonia", "Libby", "Google UK English Female", "Google UK English Male", "Daniel", "Oliver", "George"]
+    : ["Jenny", "Guy", "Aria", "Google US English", "Samantha", "Zira", "David", "Ava", "Andrew"];
+
+  // 1. 坚决排除中文普通话引擎（严防机械中文发音拼读英语）
+  const englishVoices = voices.filter(v => {
+    const lang = (v.lang || "").toLowerCase();
+    const name = (v.name || "").toLowerCase();
+    return (lang.startsWith("en") || lang.includes("us") || lang.includes("gb")) &&
+           !name.includes("chinese") && !name.includes("huihui") && !name.includes("kangkang") && !name.includes("yaoyao");
+  });
+
+  if (englishVoices.length === 0) return voices[0];
+
+  // 2. 优先匹配母语高保真自然语音名
+  for (const pName of preferredNames) {
+    const match = englishVoices.find(v => v.name.includes(pName) || (v.voiceURI && v.voiceURI.includes(pName)));
+    if (match) return match;
+  }
+
+  // 3. 匹配带有 Natural / Online / Neural 关键字的高清语音
+  const naturalMatch = englishVoices.find(v => {
+    const n = (v.name + " " + (v.voiceURI || "")).toLowerCase();
+    return (n.includes("natural") || n.includes("neural") || n.includes("online")) && v.lang.toLowerCase().includes(accent === "uk" ? "gb" : "us");
+  });
+  if (naturalMatch) return naturalMatch;
+
+  // 4. 匹配目标地区语系 (en-US 或 en-GB)
+  const langMatch = englishVoices.find(v => v.lang.toLowerCase().replace("_", "-").startsWith(targetLang.toLowerCase()));
+  if (langMatch) return langMatch;
+
+  return englishVoices[0];
+}
+
+// 停止所有正在发音的音频和合成器
+function stopAllSpeech() {
+  if (currentAudioPlayer) {
+    try {
+      currentAudioPlayer.pause();
+      currentAudioPlayer.currentTime = 0;
+    } catch (e) {}
+    currentAudioPlayer = null;
+  }
+  if ("speechSynthesis" in window) {
+    try {
+      window.speechSynthesis.cancel();
+    } catch (e) {}
+  }
+  if (speechWatchdogTimer) {
+    clearInterval(speechWatchdogTimer);
+    speechWatchdogTimer = null;
+  }
+  document.querySelectorAll(".audio-speaking-active").forEach(el => {
+    el.classList.remove("audio-speaking-active");
+  });
+}
+
+// 第一轨道：权威标准母语真人录音音频流 (有道/牛津/剑桥词典真实原声)
+function playNativeWordAudio(word, accent, rate, onEnd, onError) {
+  const cleanWord = cleanTextForSpeech(word);
+  if (!cleanWord || cleanWord.split(" ").length > 4) {
+    if (onError) onError();
+    return;
+  }
+
+  const type = accent === "uk" ? 1 : 2; // 1: 英音, 2: 美音
+  const audioUrl = `https://dict.youdao.com/dictvoice?type=${type}&audio=${encodeURIComponent(cleanWord)}`;
+
+  try {
+    const audio = new Audio();
+    audio.src = audioUrl;
+    audio.playbackRate = rate || 1.0;
+
+    let finished = false;
+    const timeout = setTimeout(() => {
+      if (!finished) {
+        finished = true;
+        try { audio.pause(); } catch(e){}
+        if (onError) onError();
+      }
+    }, 1800); // 1.8s 超时自动无缝降级
+
+    audio.onended = () => {
+      if (!finished) {
+        finished = true;
+        clearTimeout(timeout);
+        currentAudioPlayer = null;
+        if (onEnd) onEnd();
+      }
+    };
+
+    audio.onerror = () => {
+      if (!finished) {
+        finished = true;
+        clearTimeout(timeout);
+        currentAudioPlayer = null;
+        if (onError) onError();
+      }
+    };
+
+    currentAudioPlayer = audio;
+    audio.play().catch(() => {
+      if (!finished) {
+        finished = true;
+        clearTimeout(timeout);
+        currentAudioPlayer = null;
+        if (onError) onError();
+      }
+    });
+  } catch (e) {
+    if (onError) onError();
+  }
+}
+
+// 第二轨道：高质量神经语音合成引擎 (针对真题例句或离线状态)
+function speakWithNeuralTTS(text, accent, rate, onEnd, onError) {
+  if (!("speechSynthesis" in window)) {
+    if (onError) onError();
+    return;
+  }
+
+  const clean = cleanTextForSpeech(text);
+  if (!clean) {
+    if (onEnd) onEnd();
+    return;
+  }
+
+  try {
+    window.speechSynthesis.cancel();
+  } catch(e){}
+
+  const utter = new SpeechSynthesisUtterance(clean);
+  utter.rate = rate || 1.0;
+  utter.pitch = 1.0;
+  utter.lang = accent === "uk" ? "en-GB" : "en-US";
+
+  const bestVoice = getBestNeuralVoice(accent);
+  if (bestVoice) {
+    utter.voice = bestVoice;
+  }
+
+  let ended = false;
+  utter.onend = () => {
+    if (!ended) {
+      ended = true;
+      if (speechWatchdogTimer) clearInterval(speechWatchdogTimer);
+      if (onEnd) onEnd();
+    }
+  };
+
+  utter.onerror = () => {
+    if (!ended) {
+      ended = true;
+      if (speechWatchdogTimer) clearInterval(speechWatchdogTimer);
+      if (onEnd) onEnd();
+    }
+  };
+
+  // Chrome 经典 Web Speech 引擎卡死看门狗保活
+  if (speechWatchdogTimer) clearInterval(speechWatchdogTimer);
+  speechWatchdogTimer = setInterval(() => {
+    if (!window.speechSynthesis.speaking) {
+      clearInterval(speechWatchdogTimer);
+    } else {
+      window.speechSynthesis.pause();
+      window.speechSynthesis.resume();
+    }
+  }, 10000);
+
+  currentSpeechUtterance = utter;
   window.speechSynthesis.speak(utter);
+}
+
+// 全局主发音入口函数 (集成双轨自适应调度与视觉声波反馈)
+function speakWord(text, btnElement) {
+  if (!text) return;
+  stopAllSpeech();
+
+  const accent = (userState.audioPref && userState.audioPref.accent) || "us";
+  const rate = (userState.audioPref && userState.audioPref.rate) || 1.0;
+
+  // 视觉高光激活
+  let activeBtn = btnElement || (typeof window !== "undefined" && window.event && window.event.currentTarget);
+  if (activeBtn && activeBtn.classList) {
+    activeBtn.classList.add("audio-speaking-active");
+  }
+
+  const cleanupVisual = () => {
+    if (activeBtn && activeBtn.classList) {
+      activeBtn.classList.remove("audio-speaking-active");
+    }
+  };
+
+  const clean = cleanTextForSpeech(text);
+  const wordCount = clean.split(" ").length;
+
+  // 若为单词或短语（<=4词），首选权威母语真实录音
+  if (wordCount <= 4) {
+    playNativeWordAudio(
+      clean,
+      accent,
+      rate,
+      cleanupVisual,
+      () => {
+        // 离线或加载失败无缝降级到高质量神经语音
+        speakWithNeuralTTS(clean, accent, rate, cleanupVisual, cleanupVisual);
+      }
+    );
+  } else {
+    // 超过4词的长难句与例句，使用高质量神经语音朗读，确保句子自然停顿与连贯性
+    speakWithNeuralTTS(clean, accent, rate, cleanupVisual, cleanupVisual);
+  }
+}
+
+// 切换发音口音偏好 (美音 / 英音)
+function toggleAudioAccent() {
+  if (!userState.audioPref) userState.audioPref = { accent: "us", rate: 1.0 };
+  userState.audioPref.accent = userState.audioPref.accent === "us" ? "uk" : "us";
+  saveState();
+  updateAudioPrefUI();
+  showToast(userState.audioPref.accent === "uk" ? "🇬🇧 已切换为【英音 (BBC标准)】发音源！" : "🇺🇸 已切换为【美音 (CNN标准)】发音源！");
+}
+
+// 切换发音语速 (0.8x / 1.0x / 1.2x)
+function cycleAudioRate() {
+  if (!userState.audioPref) userState.audioPref = { accent: "us", rate: 1.0 };
+  const current = userState.audioPref.rate || 1.0;
+  let next = 1.0;
+  if (current === 1.0) next = 0.8;
+  else if (current === 0.8) next = 1.2;
+  else next = 1.0;
+
+  userState.audioPref.rate = next;
+  saveState();
+  updateAudioPrefUI();
+  showToast(`⚡ 朗读语速已设为【${next}x】！`);
+}
+
+// 更新顶栏发音配置胶囊
+function updateAudioPrefUI() {
+  const accentBtn = document.getElementById("headerAudioAccentBtn");
+  const rateBtn = document.getElementById("headerAudioRateBtn");
+  if (!userState.audioPref) userState.audioPref = { accent: "us", rate: 1.0 };
+
+  if (accentBtn) {
+    accentBtn.innerHTML = userState.audioPref.accent === "uk" ? "<span>🇬🇧</span> 英音" : "<span>🇺🇸</span> 美音";
+    accentBtn.title = `当前发音：${userState.audioPref.accent === "uk" ? "英音 (BBC标准)" : "美音 (CNN标准)"}，点击切换`;
+  }
+  if (rateBtn) {
+    rateBtn.innerHTML = `<span>⚡</span> ${userState.audioPref.rate || 1.0}x`;
+    rateBtn.title = `当前语速：${userState.audioPref.rate || 1.0}x，点击循环切换 (0.8x/1.0x/1.2x)`;
+  }
+}
+
+// 暴露全局挂载
+if (typeof window !== "undefined") {
+  window.speakWord = speakWord;
+  window.cleanTextForSpeech = cleanTextForSpeech;
+  window.toggleAudioAccent = toggleAudioAccent;
+  window.cycleAudioRate = cycleAudioRate;
+  window.updateAudioPrefUI = updateAudioPrefUI;
 }
 
 // --- 6. 统一导航 Tab 切换 ---
@@ -136643,7 +137022,8 @@ function initApp() {
   try { scheduleMidnightAutoBackup(); } catch (e) {}
   try { setInterval(checkScheduledReminders, 30000); checkScheduledReminders(); } catch (e) {}
   try { if (typeof updateTomatoPetBadge === "function") updateTomatoPetBadge(); } catch (e) {}
-  try { if (typeof updateHeaderBlitzBadge === "function") updateHeaderBlitzBadge(); } catch (e) {}
+  try { if (typeof updateHeaderBlitzBadge === "function") updateHeaderBlitzBadge();
+    if (typeof updateAudioPrefUI === "function") updateAudioPrefUI(); } catch (e) {}
 }
 
 if (typeof window !== "undefined") {

@@ -98,6 +98,18 @@
           </div>
         </button>
 
+        
+        <!-- 全新双轨高保真发音设置控制器 (美英音切换与语速调节) -->
+        <div class="audio-pref-pill" title="超清发音控制器：支持美音/英音切换与语速调节">
+          <button type="button" class="audio-pref-btn" id="headerAudioAccentBtn" onclick="toggleAudioAccent()">
+            <span>🇺🇸</span> 美音
+          </button>
+          <span style="color:var(--border-color); font-size:12px;">|</span>
+          <button type="button" class="audio-pref-btn" id="headerAudioRateBtn" onclick="cycleAudioRate()">
+            <span>⚡</span> 1.0x
+          </button>
+        </div>
+
         <!-- 字体大小无级缩放控制器 (解决小字看花眼) -->
         <div class="font-size-widget" title="全局字体缩放 (告别小字体眼疲劳)">
           <span class="font-widget-label">🔍 字体大小：</span>
