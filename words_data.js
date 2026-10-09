@@ -1532,7 +1532,7 @@ window.CET6_DATA = {
               "word": "deter",
               "phonetic": "/(1):e1,IP/",
               "pos": "v.",
-              "meaning": "v.制止，阻止；威摄，使不敢",
+              "meaning": "v.制止，阻止；威慑，使不敢",
               "highlight": "v.制止",
               "freq": 3,
               "tip_type": "构词",
@@ -1542,7 +1542,7 @@ window.CET6_DATA = {
                   "word": "deterrent",
                   "phonetic": "/dr'terant/",
                   "pos": "n.",
-                  "meaning": "n.威摄物adj.威慑的；制止的"
+                  "meaning": "n.威慑物adj.威慑的；制止的"
                 }
               ]
             },
@@ -2219,7 +2219,7 @@ window.CET6_DATA = {
               "tip": "awk(笨拙反常) + -ward(方向) → 肢体动作或举止反常笨拙 → 令人尴尬的；笨拙的",
               "derivations": [],
               "example_en": "There was an awkward silence.",
-              "example_cn": "有一阵令人尴尬 51cricket/krikit/ 的沉默。 n.板球（运动）；蟋蚌"
+              "example_cn": "有一阵令人尴尬 51cricket/krikit/ 的沉默。 n.板球（运动）；蟋蟀"
             },
             {
               "id": "u1_l4_03",
@@ -2299,7 +2299,7 @@ window.CET6_DATA = {
               "word": "cricket",
               "phonetic": "/'krikit/",
               "pos": "n.",
-              "meaning": "n.板球（运动）；蟋蚌",
+              "meaning": "n.板球（运动）；蟋蟀",
               "highlight": "n.板球（运动）",
               "freq": 3,
               "tip_type": "联想",
@@ -3763,7 +3763,7 @@ window.CET6_DATA = {
               "word": "temperament",
               "phonetic": "/'tempramant/",
               "pos": "n.",
-              "meaning": "n.气质，票性；暴躁；喜怒无常",
+              "meaning": "n.气质，禀性；暴躁；喜怒无常",
               "highlight": "n.气质",
               "freq": 2,
               "tip_type": "构词",
@@ -3933,7 +3933,7 @@ window.CET6_DATA = {
               "word": "chronicle",
               "phonetic": "/'kronikl/",
               "pos": "n.",
-              "meaning": "n.编年史，大事记v.把...载人编 年史；按事件顺序记载",
+              "meaning": "n.编年史，大事记v.把...载入编 年史；按事件顺序记载",
               "highlight": "n.编年史",
               "freq": 2,
               "tip_type": "联想",
@@ -5441,7 +5441,7 @@ window.CET6_DATA = {
                   "word": "messy",
                   "phonetic": "/'mesi/",
                   "pos": "adj.",
-                  "meaning": "adj.航脏的；凌乱的"
+                  "meaning": "adj.肮脏的；凌乱的"
                 }
               ]
             },
@@ -5559,7 +5559,7 @@ window.CET6_DATA = {
               "word": "turbulent",
               "phonetic": "/'ts:bjalant/",
               "pos": "adj.",
-              "meaning": "adj.动荡的，动乱的；涵涌的",
+              "meaning": "adj.动荡的，动乱的；汹涌的",
               "highlight": "adj.动荡的",
               "freq": 2,
               "tip_type": "构词",
@@ -8205,17 +8205,17 @@ window.CET6_DATA = {
               "word": "mislead",
               "phonetic": "/mis'lid/",
               "pos": "v.",
-              "meaning": "v.误导，引人歧途",
+              "meaning": "v.误导，引入歧途",
               "highlight": "v.误导",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "mis-(错误) + lead(引导，领路) → 领错了路，把人带进沟里 → v.误导，引人歧途",
+              "tip": "mis-(错误) + lead(引导，领路) → 领错了路，把人带进沟里 → v.误导，引入歧途",
               "derivations": [
                 {
                   "word": "misleading",
                   "phonetic": "/mis'lidig/",
                   "pos": "adj.",
-                  "meaning": "adj.误导的，引人歧途的"
+                  "meaning": "adj.误导的，引入歧途的"
                 }
               ]
             },
@@ -9349,7 +9349,7 @@ window.CET6_DATA = {
               "word": "inject",
               "phonetic": "/n'd3ekt/",
               "pos": "v.",
-              "meaning": "v.（给….）注射（药物等）；（给.……） 投人(资金)",
+              "meaning": "v.（给….）注射（药物等）；（给.……） 投入(资金)",
               "highlight": "v.（给….）注射（药物等）",
               "freq": 3,
               "tip_type": "构词",
@@ -11547,7 +11547,7 @@ window.CET6_DATA = {
                   "word": "involvement",
                   "phonetic": "/In'volvmant/",
                   "pos": "n.",
-                  "meaning": "n.参与，加人；插手"
+                  "meaning": "n.参与，加入；插手"
                 },
                 {
                   "word": "involved",
@@ -13198,7 +13198,7 @@ window.CET6_DATA = {
               "highlight": "v.控告",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "in（里面）+dict（说）→咱们进法庭里 v.区分，辨别；歧视；偏祖 说，我要“控告”你。",
+              "tip": "in（里面）+dict（说）→咱们进法庭里 v.区分，辨别；歧视；偏袒 说，我要“控告”你。",
               "derivations": [
                 {
                   "word": "indictment",
@@ -13258,7 +13258,7 @@ window.CET6_DATA = {
               "word": "discriminate",
               "phonetic": "/di'skriminet/",
               "pos": "v.",
-              "meaning": "v.区分，辨别；歧视；偏祖",
+              "meaning": "v.区分，辨别；歧视；偏袒",
               "highlight": "v.区分",
               "freq": 2,
               "tip_type": "构词",
@@ -15559,7 +15559,7 @@ window.CET6_DATA = {
               "word": "erupt",
               "phonetic": "/i'rapt/",
               "pos": "v.",
-              "meaning": "v.突然发生；爆发；喷发；进发",
+              "meaning": "v.突然发生；爆发；喷发；迸发",
               "highlight": "v.突然发生",
               "freq": 3,
               "tip_type": "构词",
@@ -16427,7 +16427,7 @@ window.CET6_DATA = {
               "word": "import",
               "phonetic": "/im'pot/",
               "pos": "",
-              "meaning": "/'mpot/ n.进口，输人的产品或劳务 v.进口，输人",
+              "meaning": "/'mpot/ n.进口，输入的产品或劳务 v.进口，输入",
               "highlight": "/'mpot/ n.进口",
               "freq": 3,
               "tip_type": "构词",
@@ -16651,7 +16651,7 @@ window.CET6_DATA = {
               "word": "insert",
               "phonetic": "/'insa:t/",
               "pos": "",
-              "meaning": "/1n's3t/ v.插入，放进；(在文件或文稿中）加人 n.(夹在报刊中的）插页广告；插人物",
+              "meaning": "/1n's3t/ v.插入，放进；(在文件或文稿中）加入 n.(夹在报刊中的）插页广告；插人物",
               "highlight": "/1n's3t/ v.插入",
               "freq": 2,
               "tip_type": "构词",
@@ -19567,8 +19567,8 @@ window.CET6_DATA = {
               "word": "budget",
               "phonetic": "/\"bad3it/",
               "pos": "n.",
-              "meaning": "n.预算 v.编人预算",
-              "highlight": "n.预算 v.编人预算",
+              "meaning": "n.预算 v.编入预算",
+              "highlight": "n.预算 v.编入预算",
               "freq": 2,
               "tip_type": "构词",
               "tip": "budg(皮囊，小钱袋) + -et → 每年打开财政钱袋子合理规划分配支出的账本预算 → n.预算 v.编入预算 adj.低价的",
@@ -21596,7 +21596,7 @@ window.CET6_DATA = {
               "word": "plunge",
               "phonetic": "/pland3/",
               "pos": "v.",
-              "meaning": "v.使突然前冲（或下落），震荡；骤降； 投人n.突然跌落，暴跌；卷人",
+              "meaning": "v.使突然前冲（或下落），震荡；骤降； 投入n.突然跌落，暴跌；卷人",
               "highlight": "v.使突然前冲（或下落）",
               "freq": 2,
               "tip_type": "联想",
@@ -27146,8 +27146,8 @@ window.CET6_DATA = {
               "word": "input",
               "phonetic": "/'input/",
               "pos": "n.",
-              "meaning": "n.投人资源（指时间、知识、思想等）； 投人，输人v.输人（信息）",
-              "highlight": "n.投人资源（指时间、知识、思想等）",
+              "meaning": "n.投入资源（指时间、知识、思想等）； 投入，输入v.输入（信息）",
+              "highlight": "n.投入资源（指时间、知识、思想等）",
               "freq": 2,
               "tip_type": "构词",
               "tip": "in-(向内) + put(放置) → 把资金、心血与知识数据一股脑投入输入到项目系统内部 → n.投入资源；输入 v.输入(信息)",
@@ -29123,7 +29123,7 @@ window.CET6_DATA = {
               "word": "eloquent",
               "phonetic": "/'elakwant/",
               "pos": "adj.",
-              "meaning": "adj.雄辩的，能言善瓣的",
+              "meaning": "adj.雄辩的，能言善辩的",
               "highlight": "adj.雄辩的",
               "freq": 2,
               "tip_type": "构词",
@@ -32404,8 +32404,8 @@ window.CET6_DATA = {
               "word": "generous",
               "phonetic": "/dsenaras/",
               "pos": "adj.",
-              "meaning": "adj.慷概的，大方的；宽宏大量的",
-              "highlight": "adj.慷概的",
+              "meaning": "adj.慷慨的，大方的；宽宏大量的",
+              "highlight": "adj.慷慨的",
               "freq": 2,
               "tip_type": "构词",
               "tip": "gener(出身，种姓) + -ous → 贵族子弟乐善好施、出手阔绰的大方慷慨与宽宏大量 → adj.慷慨的大方的；宽宏大量的",
@@ -36337,11 +36337,11 @@ window.CET6_DATA = {
               "word": "partial",
               "phonetic": "/'pa:/1/",
               "pos": "adj.",
-              "meaning": "adj.部分的，局部的；偏祖的",
+              "meaning": "adj.部分的，局部的；偏袒的",
               "highlight": "adj.部分的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "part（部分）+-ial（形容词后级）→部 分的，局部的 圆Imightbe accused of being partial.我可能会被 人指责是偏祖的。",
+              "tip": "part（部分）+-ial（形容词后级）→部 分的，局部的 圆Imightbe accused of being partial.我可能会被 人指责是偏袒的。",
               "derivations": [
                 {
                   "word": "partially",
@@ -37109,7 +37109,7 @@ window.CET6_DATA = {
               "word": "invest",
               "phonetic": "/in'vest/",
               "pos": "v.",
-              "meaning": "v.投资，投人",
+              "meaning": "v.投资，投入",
               "highlight": "v.投资",
               "freq": 2,
               "tip_type": "联想",
@@ -37683,8 +37683,8 @@ window.CET6_DATA = {
               "word": "migrate",
               "phonetic": "/mar'grert/",
               "pos": "v.",
-              "meaning": "v.迁徒；移居，迁移",
-              "highlight": "v.迁徒",
+              "meaning": "v.迁徙；移居，迁移",
+              "highlight": "v.迁徙",
               "freq": 2,
               "tip_type": "构词",
               "tip": "migr(迁移，移动) + -ate(动词后缀) → 大雁候鸟随着季节更替飞越南北半球漫漫万里长途迁徙移居 → v.迁徙；移居，迁移",
@@ -37693,7 +37693,7 @@ window.CET6_DATA = {
                   "word": "migration",
                   "phonetic": "/mar'grerfn/",
                   "pos": "n.",
-                  "meaning": "n.迁徒；移居，迁移"
+                  "meaning": "n.迁徙；移居，迁移"
                 }
               ]
             },
@@ -37753,7 +37753,7 @@ window.CET6_DATA = {
               "word": "migrant",
               "phonetic": "/'maigront/",
               "pos": "n.",
-              "meaning": "n.移居者，移民；候鸟；迁徙动物 adj.迁移的，迁徒的",
+              "meaning": "n.移居者，移民；候鸟；迁徙动物 adj.迁移的，迁徙的",
               "highlight": "n.移居者",
               "freq": 2,
               "tip_type": "对照",
@@ -39978,8 +39978,8 @@ window.CET6_DATA = {
           "meaning": "n.慷慨；大方；宽宏大量"
         },
         {
-          "word": "splendo(u)r",
-          "meaning": "n.壮丽；华丽；壮观"
+          "word": "splendour",
+          "meaning": "n. 壮丽；华丽；壮观"
         },
         {
           "word": "beauty",
@@ -40082,7 +40082,7 @@ window.CET6_DATA = {
           "meaning": "v.代表；相当于；描述"
         },
         {
-          "word": "oneself/wAn'self",
+          "word": "oneself",
           "meaning": "pron. 自己；亲自"
         },
         {
@@ -41026,8 +41026,8 @@ window.CET6_DATA = {
           "meaning": "n.护发素；柔顺剂"
         },
         {
-          "word": "vigo(u)r",
-          "meaning": "n.精力，活力；热情"
+          "word": "vigour",
+          "meaning": "n. 精力，活力；热情"
         },
         {
           "word": "calcium",
@@ -41222,7 +41222,7 @@ window.CET6_DATA = {
           "meaning": "adj.博学的；有见识的"
         },
         {
-          "word": "and/aend",
+          "word": "and",
           "meaning": "conj. 和，与；然后；而且"
         },
         {
@@ -41534,8 +41534,8 @@ window.CET6_DATA = {
           "meaning": "n.优雅，体面；宽限期；恩宠 v.为.……增色，美化"
         },
         {
-          "word": "whoever/hu'eva(r)",
-          "meaning": "pron. 无论是谁，不管谁；究竟是谁"
+          "word": "whoever",
+          "meaning": "pron. 无论是谁，不管谁"
         },
         {
           "word": "ill",
@@ -41606,8 +41606,8 @@ window.CET6_DATA = {
           "meaning": "n.结果，后果；重要性"
         },
         {
-          "word": "can/kaen",
-          "meaning": "modal v. 能，会；可以 n. 罐头 v. 装罐"
+          "word": "can",
+          "meaning": "modal v. 能，会；可以 n. 罐头"
         },
         {
           "word": "cabbage",
@@ -41794,8 +41794,8 @@ window.CET6_DATA = {
           "meaning": "n.接待处；接待仪式；反应"
         },
         {
-          "word": "under/Aando(r)",
-          "meaning": "prep. 在...下面；少于；由...管辖 adv. 在下面"
+          "word": "under",
+          "meaning": "prep. 在...下面；少于；由...管辖"
         },
         {
           "word": "interpretation",
@@ -42302,8 +42302,8 @@ window.CET6_DATA = {
           "meaning": "adj.可靠的，可信赖的"
         },
         {
-          "word": "drastic/'draestik",
-          "meaning": "adj. 严厉的，果断的；剧烈的，彻底的"
+          "word": "drastic",
+          "meaning": "adj. 严厉的，果断的；剧烈的"
         },
         {
           "word": "independent",
@@ -42790,7 +42790,7 @@ window.CET6_DATA = {
           "meaning": "adv.嘲讽地；具有讽刺意味地"
         },
         {
-          "word": "for/fo(r)",
+          "word": "for",
           "meaning": "prep. 为了；向；给；适合 conj. 因为"
         },
         {
@@ -43742,8 +43742,8 @@ window.CET6_DATA = {
           "meaning": "n.害羞，羞怯，碘"
         },
         {
-          "word": "scientific/isaian'tufik",
-          "meaning": "adj. 科学的，符合科学规律的；严谨的"
+          "word": "scientific",
+          "meaning": "adj. 科学的，严谨的"
         },
         {
           "word": "eyesight",
@@ -44394,7 +44394,7 @@ window.CET6_DATA = {
           "meaning": "v.把……叫作/看作；称呼；召唤；打电话给； 命令n.通话；叫喊声；短暂拜访；要求，呼吁；召唤"
         },
         {
-          "word": "whereas/iwearaez",
+          "word": "whereas",
           "meaning": "conj. 然而，鉴于；尽管"
         },
         {
@@ -44614,7 +44614,7 @@ window.CET6_DATA = {
           "meaning": "adj.音乐的；有音乐天赋的；悦耳的 n.音乐剧"
         },
         {
-          "word": "itself/it'self",
+          "word": "itself",
           "meaning": "pron. 它自己；本身"
         },
         {
@@ -44990,8 +44990,8 @@ window.CET6_DATA = {
           "meaning": "n.（轮船、飞机等上面的）全体工作人员； 专业团队；一群人；划船队"
         },
         {
-          "word": "beside/br'said",
-          "meaning": "prep. 在...旁边；与...相比；除...之外"
+          "word": "beside",
+          "meaning": "prep. 在...旁边；与...相比"
         },
         {
           "word": "adequate",
@@ -45150,8 +45150,8 @@ window.CET6_DATA = {
           "meaning": "adj.环形的adv.环绕，兜圈子；围绕 prep.环绕；绕过n.轮次；局，场"
         },
         {
-          "word": "airplane/aeroplane",
-          "meaning": "n.飞机 among(st） /a'mag(st)/prep.在….中"
+          "word": "airplane",
+          "meaning": "n. 飞机"
         },
         {
           "word": "duration",
@@ -45182,8 +45182,8 @@ window.CET6_DATA = {
           "meaning": "[派生] adj.着迷的；难以释怀的 n.强迫症患者"
         },
         {
-          "word": "favo(u)rable",
-          "meaning": "adj.肯定的；赞同的；支持的"
+          "word": "favourable",
+          "meaning": "adj. 肯定的；赞同的；支持的"
         },
         {
           "word": "contamination",
@@ -45210,8 +45210,8 @@ window.CET6_DATA = {
           "meaning": "n.地窖；地下室"
         },
         {
-          "word": "mister/'mista(r)",
-          "meaning": "n. 先生（口语/对未知名男士的称呼）"
+          "word": "mister",
+          "meaning": "n. 先生"
         },
         {
           "word": "position",
@@ -45262,7 +45262,7 @@ window.CET6_DATA = {
           "meaning": "v.使排出；使耗尽 n.排水；下水道；消耗"
         },
         {
-          "word": "volcano /vol'keinau",
+          "word": "volcano",
           "meaning": "n. 火山"
         },
         {
@@ -46794,8 +46794,8 @@ window.CET6_DATA = {
           "meaning": "v.使恢复精力；使清凉；更新"
         },
         {
-          "word": "marvel(l)ous",
-          "meaning": "adj.极好的；非凡的"
+          "word": "marvellous",
+          "meaning": "adj. 极好的；非凡的"
         },
         {
           "word": "talent",
@@ -47402,8 +47402,8 @@ window.CET6_DATA = {
           "meaning": "n.农场主；农人"
         },
         {
-          "word": "siz(e)able",
-          "meaning": "adj.相当大的"
+          "word": "sizable",
+          "meaning": "adj. 相当大的"
         },
         {
           "word": "messenger",
@@ -47462,8 +47462,8 @@ window.CET6_DATA = {
           "meaning": "v.弥漫，渗透；（观点、信念、感情等） 感染"
         },
         {
-          "word": "mo(u)Idy",
-          "meaning": "adj.发霉的；破旧的"
+          "word": "mouldy",
+          "meaning": "adj. 发霉的；陈腐的"
         },
         {
           "word": "merchant",
@@ -48310,8 +48310,8 @@ window.CET6_DATA = {
           "meaning": "num.十九；十九个"
         },
         {
-          "word": "theatre / theatreter",
-          "meaning": "n.戏院；戏剧"
+          "word": "theatre",
+          "meaning": "n. 戏院；戏剧"
         },
         {
           "word": "alter",
@@ -49562,8 +49562,8 @@ window.CET6_DATA = {
           "meaning": "n. 支持，拥护；支撑物 v. 支持；支撑；养活"
         },
         {
-          "word": "a/an",
-          "meaning": "art.一个，一种"
+          "word": "a",
+          "meaning": "art. 一个，一种"
         },
         {
           "word": "cheat",
@@ -50350,8 +50350,8 @@ window.CET6_DATA = {
           "meaning": "[派生] adj.给人深刻印象的"
         },
         {
-          "word": "chairman/chairperson",
-          "meaning": "n.主席； 11 董事长 Lesson 回/u//"
+          "word": "chairman",
+          "meaning": "n. 主席；董事长"
         },
         {
           "word": "autobiography",
@@ -51810,8 +51810,8 @@ window.CET6_DATA = {
           "meaning": "v. 分配，分发；提供"
         },
         {
-          "word": "behavio(u)ral",
-          "meaning": "adj.行为的"
+          "word": "behavioural",
+          "meaning": "adj. 行为的"
         },
         {
           "word": "relationship",
@@ -52086,8 +52086,8 @@ window.CET6_DATA = {
           "meaning": "adj.能吃苦耐劳的；耐寒的"
         },
         {
-          "word": "lazy/leizi",
-          "meaning": "的 4"
+          "word": "lazy",
+          "meaning": "adj. 懒惰的，懒散的"
         },
         {
           "word": "extraordinary",
@@ -52162,7 +52162,7 @@ window.CET6_DATA = {
           "meaning": "n.级别更高的人；上级，上司 adj.更好的；更强的；更高的"
         },
         {
-          "word": "municipal /mju'nisipl",
+          "word": "municipal",
           "meaning": "adj. 市政的，地方自治的；市立的"
         },
         {
@@ -53290,8 +53290,8 @@ window.CET6_DATA = {
           "meaning": "[派生] n.负担能力"
         },
         {
-          "word": "neighbo(u)rhood",
-          "meaning": "n.街区；城区；邻近的地方"
+          "word": "neighbourhood",
+          "meaning": "n. 街区；城区；邻近地区"
         },
         {
           "word": "wear",
@@ -54718,8 +54718,8 @@ window.CET6_DATA = {
           "meaning": "v.证明，证实；显示"
         },
         {
-          "word": "centre / centreter",
-          "meaning": "n.中心，中央v.居中，被置于 中心；集中"
+          "word": "centre",
+          "meaning": "n. 中心，中央 v. 集中"
         },
         {
           "word": "bride",
@@ -55594,8 +55594,8 @@ window.CET6_DATA = {
           "meaning": "[派生] n.吸收；接受"
         },
         {
-          "word": "most/maust",
-          "meaning": "喜4pD"
+          "word": "most",
+          "meaning": "adv. 最，极其 adj. 大多数的"
         },
         {
           "word": "fabulous",
@@ -58486,8 +58486,8 @@ window.CET6_DATA = {
           "meaning": "n.哲学家；深思的人；善于"
         },
         {
-          "word": "mil(e)age",
-          "meaning": "n.英里里程"
+          "word": "mileage",
+          "meaning": "n. 英里里程；英里数"
         },
         {
           "word": "consistent",
@@ -59002,7 +59002,7 @@ window.CET6_DATA = {
           "meaning": "n.仗势欺人者v.恐吓，欺负"
         },
         {
-          "word": "fixation/fik'serfn",
+          "word": "fixation",
           "meaning": "n. 迷恋，依恋；固定，定型"
         },
         {
@@ -59998,8 +59998,8 @@ window.CET6_DATA = {
           "meaning": "n.园艺"
         },
         {
-          "word": "striking/'straikin",
-          "meaning": "的 14"
+          "word": "striking",
+          "meaning": "adj. 引人注目的，异乎寻常的"
         },
         {
           "word": "bleach",
@@ -60054,7 +60054,7 @@ window.CET6_DATA = {
           "meaning": "v.补充；使相配；使完美 n.补充物；补充"
         },
         {
-          "word": "I/ai",
+          "word": "I",
           "meaning": "pron. 我"
         },
         {
@@ -60106,8 +60106,8 @@ window.CET6_DATA = {
           "meaning": "adj.适当的；合适的"
         },
         {
-          "word": "behind/br'haind",
-          "meaning": "向后面；拖欠"
+          "word": "behind",
+          "meaning": "prep. 在...后面 adv. 向后面"
         },
         {
           "word": "jerk",
@@ -60802,8 +60802,8 @@ window.CET6_DATA = {
           "meaning": "n.珠子；（液体的)小滴"
         },
         {
-          "word": "kilometre / kilometreter",
-          "meaning": "n.千米，公里"
+          "word": "kilometre",
+          "meaning": "n. 千米，公里"
         },
         {
           "word": "brilliant",
@@ -61442,8 +61442,8 @@ window.CET6_DATA = {
           "meaning": "adj.货币的，钱的（尤指一国的货币）"
         },
         {
-          "word": "hi/hal",
-          "meaning": "呼）"
+          "word": "hi",
+          "meaning": "int. 嗨，你好"
         },
         {
           "word": "meritorious",
@@ -62670,8 +62670,8 @@ window.CET6_DATA = {
           "meaning": "v. 想象，构思，设想"
         },
         {
-          "word": "inside/un'said",
-          "meaning": "部 /\"msaid/adj.里面的"
+          "word": "inside",
+          "meaning": "prep. 在...里面 n. 内部 adj. 里面的"
         },
         {
           "word": "overlook",
@@ -63170,7 +63170,7 @@ window.CET6_DATA = {
           "meaning": "n.调味汁，酱"
         },
         {
-          "word": "provided/pra'vaidid",
+          "word": "provided",
           "meaning": "conj. 假如，若是，以...为条件"
         },
         {
@@ -63658,8 +63658,8 @@ window.CET6_DATA = {
           "meaning": "n.塑料adj.塑料制的；可塑的"
         },
         {
-          "word": "jewel(le)ry",
-          "meaning": "n.（总称）珠宝；首饰"
+          "word": "jewellery",
+          "meaning": "n. (总称)珠宝；首饰"
         },
         {
           "word": "consul",
@@ -64746,7 +64746,7 @@ window.CET6_DATA = {
           "meaning": "n.宗教，宗教信仰"
         },
         {
-          "word": "ripen/raipan",
+          "word": "ripen",
           "meaning": "v. (使)成熟，熟透"
         },
         {
@@ -66674,8 +66674,8 @@ window.CET6_DATA = {
           "meaning": "v.表现；表现得体"
         },
         {
-          "word": "litre / litreter",
-          "meaning": "n.升（容量单位） 的n.美女"
+          "word": "litre",
+          "meaning": "n. 升(容量单位)"
         },
         {
           "word": "chronically",
@@ -66782,8 +66782,8 @@ window.CET6_DATA = {
           "meaning": "[派生] n.会计"
         },
         {
-          "word": "during/djuarin",
-          "meaning": "间 /\"daunlaud/n.已下载的数据资料"
+          "word": "during",
+          "meaning": "prep. 在...期间"
         },
         {
           "word": "machinery",
@@ -68210,8 +68210,8 @@ window.CET6_DATA = {
           "meaning": "v.出生；出现，形成adj.天生的"
         },
         {
-          "word": "centimetre / centimetreter",
-          "meaning": "n.厘米"
+          "word": "centimetre",
+          "meaning": "n. 厘米"
         },
         {
           "word": "Saturday",
@@ -68866,8 +68866,8 @@ window.CET6_DATA = {
           "meaning": "adj.试探性的；犹豫不决的，不确定 的；暂定的"
         },
         {
-          "word": "disc / discsk",
-          "meaning": "n.圆盘，唱片；磁碟"
+          "word": "disc",
+          "meaning": "n. 圆盘，唱片；磁碟"
         },
         {
           "word": "democratic",
