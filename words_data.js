@@ -39803,7 +39803,7 @@ window.CET6_DATA = {
         },
         {
           "word": "aspiration",
-          "meaning": "[派生] n.渴望；抱负，志向"
+          "meaning": "n.渴望；抱负，志向"
         },
         {
           "word": "electrician",
@@ -39811,7 +39811,7 @@ window.CET6_DATA = {
         },
         {
           "word": "commercialize",
-          "meaning": "[派生] v. 利用...牟利；商业化"
+          "meaning": "v. 利用...牟利；商业化"
         },
         {
           "word": "irony",
@@ -39819,7 +39819,7 @@ window.CET6_DATA = {
         },
         {
           "word": "stuffing",
-          "meaning": "[派生] n.填料；填充物"
+          "meaning": "n.填料；填充物"
         },
         {
           "word": "martyr",
@@ -39851,7 +39851,7 @@ window.CET6_DATA = {
         },
         {
           "word": "resemblance",
-          "meaning": "[派生] n.相似，相像"
+          "meaning": "n.相似，相像"
         },
         {
           "word": "broad",
@@ -39863,7 +39863,7 @@ window.CET6_DATA = {
         },
         {
           "word": "selection",
-          "meaning": "[派生] n.选择；挑选；选拔"
+          "meaning": "n.选择；挑选；选拔"
         },
         {
           "word": "try",
@@ -39875,7 +39875,7 @@ window.CET6_DATA = {
         },
         {
           "word": "practicality",
-          "meaning": "[派生] n.可行性"
+          "meaning": "n.可行性"
         },
         {
           "word": "energy",
@@ -39887,7 +39887,7 @@ window.CET6_DATA = {
         },
         {
           "word": "incorporation",
-          "meaning": "[派生] n.纳人，合并；公司；团体组织"
+          "meaning": "n.纳人，合并；公司；团体组织"
         },
         {
           "word": "obscure",
@@ -39911,7 +39911,7 @@ window.CET6_DATA = {
         },
         {
           "word": "incredible",
-          "meaning": "[派生] adj.难以置信的；极好的；极大的"
+          "meaning": "adj.难以置信的；极好的；极大的"
         },
         {
           "word": "neither",
@@ -39951,7 +39951,7 @@ window.CET6_DATA = {
         },
         {
           "word": "graphic",
-          "meaning": "[派生] adj.绘画的；图样的n.图表，图形"
+          "meaning": "adj.绘画的；图样的n.图表，图形"
         },
         {
           "word": "August",
@@ -39967,7 +39967,7 @@ window.CET6_DATA = {
         },
         {
           "word": "humidity",
-          "meaning": "[派生] n.湿度；湿热"
+          "meaning": "n.湿度；湿热"
         },
         {
           "word": "repetitive",
@@ -40007,7 +40007,7 @@ window.CET6_DATA = {
         },
         {
           "word": "conference",
-          "meaning": "[派生] n.会议；商讨会"
+          "meaning": "n.会议；商讨会"
         },
         {
           "word": "endow",
@@ -40095,7 +40095,7 @@ window.CET6_DATA = {
         },
         {
           "word": "inquisitive",
-          "meaning": "[派生] adj.过分好奇的；爱打听的"
+          "meaning": "adj.过分好奇的；爱打听的"
         },
         {
           "word": "oblige",
@@ -40119,7 +40119,7 @@ window.CET6_DATA = {
         },
         {
           "word": "resolution",
-          "meaning": "[派生] n.决心；解决"
+          "meaning": "n.决心；解决"
         },
         {
           "word": "finite",
@@ -40131,7 +40131,7 @@ window.CET6_DATA = {
         },
         {
           "word": "innocence",
-          "meaning": "[派生] n.清白；天真"
+          "meaning": "n.清白；天真"
         },
         {
           "word": "annual",
@@ -40147,7 +40147,7 @@ window.CET6_DATA = {
         },
         {
           "word": "afternoon",
-          "meaning": "n.下午 afterward(s）/a:ftowad(z)／adv.以后，后来"
+          "meaning": "n. 下午，午后"
         },
         {
           "word": "electronics",
@@ -40207,7 +40207,7 @@ window.CET6_DATA = {
         },
         {
           "word": "supremacy",
-          "meaning": "[派生] n.至高无上；最大权力；最高地位"
+          "meaning": "n.至高无上；最大权力；最高地位"
         },
         {
           "word": "corner",
@@ -40243,7 +40243,7 @@ window.CET6_DATA = {
         },
         {
           "word": "oppression",
-          "meaning": "[派生] n.压迫；压抑；镇压"
+          "meaning": "n.压迫；压抑；镇压"
         },
         {
           "word": "heave",
@@ -40315,7 +40315,7 @@ window.CET6_DATA = {
         },
         {
           "word": "baby",
-          "meaning": "n.婴儿；动物幼崽adj.小的 心中有光，脚下就有路；心中有梦，未来就不远。/289"
+          "meaning": "n.婴儿；动物幼崽adj.小的"
         },
         {
           "word": "popular",
@@ -40327,7 +40327,7 @@ window.CET6_DATA = {
         },
         {
           "word": "invisible",
-          "meaning": "[派生] adj.看不见的；无形的"
+          "meaning": "adj.看不见的；无形的"
         },
         {
           "word": "contrary",
@@ -40371,7 +40371,7 @@ window.CET6_DATA = {
         },
         {
           "word": "flattery",
-          "meaning": "[派生] n.奉承，讨好"
+          "meaning": "n.奉承，讨好"
         },
         {
           "word": "business",
@@ -40391,7 +40391,7 @@ window.CET6_DATA = {
         },
         {
           "word": "expectation",
-          "meaning": "[派生] n.预料；预期；期望"
+          "meaning": "n.预料；预期；期望"
         },
         {
           "word": "medieval",
@@ -40419,11 +40419,11 @@ window.CET6_DATA = {
         },
         {
           "word": "constitutional",
-          "meaning": "[派生] adj.宪法的；体质的，体格的"
+          "meaning": "adj.宪法的；体质的，体格的"
         },
         {
           "word": "arousal",
-          "meaning": "[派生] n.激起，引起（感情、态度）"
+          "meaning": "n.激起，引起（感情、态度）"
         },
         {
           "word": "fountain",
@@ -40455,7 +40455,7 @@ window.CET6_DATA = {
         },
         {
           "word": "recruitment",
-          "meaning": "[派生] n.吸收（新成员)；征募（新兵）"
+          "meaning": "n.吸收（新成员)；征募（新兵）"
         },
         {
           "word": "complacent",
@@ -40507,7 +40507,7 @@ window.CET6_DATA = {
         },
         {
           "word": "construction",
-          "meaning": "[派生] n.建筑；建造"
+          "meaning": "n.建筑；建造"
         },
         {
           "word": "storm",
@@ -40515,7 +40515,7 @@ window.CET6_DATA = {
         },
         {
           "word": "consumption",
-          "meaning": "[派生] n.消费；消耗量"
+          "meaning": "n.消费；消耗量"
         },
         {
           "word": "though",
@@ -40527,7 +40527,7 @@ window.CET6_DATA = {
         },
         {
           "word": "assignment",
-          "meaning": "[派生] n.任务；分配"
+          "meaning": "n.任务；分配"
         },
         {
           "word": "spotlight",
@@ -40555,7 +40555,7 @@ window.CET6_DATA = {
         },
         {
           "word": "consumer",
-          "meaning": "[派生] n.消费者"
+          "meaning": "n.消费者"
         },
         {
           "word": "disagree",
@@ -40571,7 +40571,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cupboard",
-          "meaning": "n.橱柜，壁橱；衣柜 295/"
+          "meaning": "n.橱柜，壁橱；衣柜"
         },
         {
           "word": "promising",
@@ -40579,11 +40579,11 @@ window.CET6_DATA = {
         },
         {
           "word": "permissible",
-          "meaning": "[派生] adj.容许的，许可的"
+          "meaning": "adj.容许的，许可的"
         },
         {
           "word": "accustomed",
-          "meaning": "[派生] adj.惯常的；习惯的"
+          "meaning": "adj.惯常的；习惯的"
         },
         {
           "word": "abrupt",
@@ -40599,7 +40599,7 @@ window.CET6_DATA = {
         },
         {
           "word": "monumental",
-          "meaning": "[派生] adj.重要的；意义深远的；不朽的"
+          "meaning": "adj.重要的；意义深远的；不朽的"
         },
         {
           "word": "streak",
@@ -40607,7 +40607,7 @@ window.CET6_DATA = {
         },
         {
           "word": "conveyance",
-          "meaning": "[派生] n.传送，运送"
+          "meaning": "n.传送，运送"
         },
         {
           "word": "warm",
@@ -40635,11 +40635,11 @@ window.CET6_DATA = {
         },
         {
           "word": "hazardous",
-          "meaning": "[派生] adj.危险的；有害的"
+          "meaning": "adj.危险的；有害的"
         },
         {
           "word": "administration",
-          "meaning": "[派生] n.(企业、学校等的）管理部门，行政部 门；行政"
+          "meaning": "n.(企业、学校等的）管理部门，行政部 门；行政"
         },
         {
           "word": "height",
@@ -40683,11 +40683,11 @@ window.CET6_DATA = {
         },
         {
           "word": "addiction",
-          "meaning": "[派生] n.瘾；人迷；嗜好"
+          "meaning": "n.瘾；人迷；嗜好"
         },
         {
           "word": "ratification",
-          "meaning": "[派生] n.正式批准；正式生效"
+          "meaning": "n.正式批准；正式生效"
         },
         {
           "word": "teacher",
@@ -40699,7 +40699,7 @@ window.CET6_DATA = {
         },
         {
           "word": "radiation",
-          "meaning": "[派生] n.辐射；放射线"
+          "meaning": "n.辐射；放射线"
         },
         {
           "word": "redundant",
@@ -40719,7 +40719,7 @@ window.CET6_DATA = {
         },
         {
           "word": "contraction",
-          "meaning": "[派生] n.收缩；缩小"
+          "meaning": "n.收缩；缩小"
         },
         {
           "word": "translator",
@@ -40731,7 +40731,7 @@ window.CET6_DATA = {
         },
         {
           "word": "dwelling",
-          "meaning": "[派生] n.住宅，住所"
+          "meaning": "n.住宅，住所"
         },
         {
           "word": "brutality",
@@ -40775,7 +40775,7 @@ window.CET6_DATA = {
         },
         {
           "word": "expiration",
-          "meaning": "[派生] n.（文件、协议等的）满期，到期"
+          "meaning": "n.（文件、协议等的）满期，到期"
         },
         {
           "word": "lady",
@@ -40783,7 +40783,7 @@ window.CET6_DATA = {
         },
         {
           "word": "emergence",
-          "meaning": "[派生] n.出现"
+          "meaning": "n.出现"
         },
         {
           "word": "sorry",
@@ -40791,7 +40791,7 @@ window.CET6_DATA = {
         },
         {
           "word": "dirty",
-          "meaning": "[派生] adj.航脏的；的；污移的"
+          "meaning": "adj.航脏的；的；污移的"
         },
         {
           "word": "screen",
@@ -40839,7 +40839,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reformist",
-          "meaning": "[派生] n.改良者，改革者adj.主张改革的， 改革派的；改良主义的"
+          "meaning": "n.改良者，改革者adj.主张改革的， 改革派的；改良主义的"
         },
         {
           "word": "abroad",
@@ -40847,7 +40847,7 @@ window.CET6_DATA = {
         },
         {
           "word": "opposition",
-          "meaning": "[派生] n.（强烈的）反对，反抗，对抗"
+          "meaning": "n.（强烈的）反对，反抗，对抗"
         },
         {
           "word": "animate",
@@ -40859,15 +40859,15 @@ window.CET6_DATA = {
         },
         {
           "word": "diversify",
-          "meaning": "[派生] v.(使)多样化，变化"
+          "meaning": "v.(使)多样化，变化"
         },
         {
           "word": "originality",
-          "meaning": "[派生] n.独创性，创意，独特构思"
+          "meaning": "n.独创性，创意，独特构思"
         },
         {
           "word": "optimist",
-          "meaning": "[派生] n.乐观的人；乐天派"
+          "meaning": "n.乐观的人；乐天派"
         },
         {
           "word": "junction",
@@ -40875,7 +40875,7 @@ window.CET6_DATA = {
         },
         {
           "word": "supporter",
-          "meaning": "[派生] n.支持者，拥护者"
+          "meaning": "n.支持者，拥护者"
         },
         {
           "word": "perspective",
@@ -40887,7 +40887,7 @@ window.CET6_DATA = {
         },
         {
           "word": "consideration",
-          "meaning": "[派生] n.仔细考虑"
+          "meaning": "n.仔细考虑"
         },
         {
           "word": "associate",
@@ -40903,7 +40903,7 @@ window.CET6_DATA = {
         },
         {
           "word": "deportation",
-          "meaning": "[派生] n.驱逐出境；放逐"
+          "meaning": "n.驱逐出境；放逐"
         },
         {
           "word": "mute",
@@ -40955,7 +40955,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cohesive",
-          "meaning": "[派生] adj.使结合的；使凝结的；有凝聚力的"
+          "meaning": "adj.使结合的；使凝结的；有凝聚力的"
         },
         {
           "word": "ring",
@@ -41047,11 +41047,11 @@ window.CET6_DATA = {
         },
         {
           "word": "existent",
-          "meaning": "[派生] adj.存在的 n.存在(或实有)的事物"
+          "meaning": "adj.存在的 n.存在(或实有)的事物"
         },
         {
           "word": "exhibition",
-          "meaning": "[派生] n.展览（品）；显示"
+          "meaning": "n.展览（品）；显示"
         },
         {
           "word": "hurt",
@@ -41079,7 +41079,7 @@ window.CET6_DATA = {
         },
         {
           "word": "allurement",
-          "meaning": "n.诱惑；诱惑物；吸引 努力到一定程度，幸运自会与你不期而遇。/287"
+          "meaning": "n.诱惑；诱惑物；吸引"
         },
         {
           "word": "pamphlet",
@@ -41127,11 +41127,11 @@ window.CET6_DATA = {
         },
         {
           "word": "undertaking",
-          "meaning": "n.任务，项目，事业；企业； 承诺；保证 14"
+          "meaning": "n.任务，项目，事业；企业； 承诺；保证"
         },
         {
           "word": "gracious",
-          "meaning": "[派生] adj.和蔼的，慈祥的，有礼貌的"
+          "meaning": "adj.和蔼的，慈祥的，有礼貌的"
         },
         {
           "word": "cushion",
@@ -41163,7 +41163,7 @@ window.CET6_DATA = {
         },
         {
           "word": "extra",
-          "meaning": "adj.额外的；附加的n.额外的事物 Unit adv.额外；特别，格外 12"
+          "meaning": "adj.额外的；附加的n.额外的事物  adv.额外；特别，格外"
         },
         {
           "word": "rental",
@@ -41183,7 +41183,7 @@ window.CET6_DATA = {
         },
         {
           "word": "intimacy",
-          "meaning": "[派生] n.亲密；密切"
+          "meaning": "n.亲密；密切"
         },
         {
           "word": "whirl",
@@ -41207,11 +41207,11 @@ window.CET6_DATA = {
         },
         {
           "word": "imposition",
-          "meaning": "[派生] n.颁布，实施；征收"
+          "meaning": "n.颁布，实施；征收"
         },
         {
           "word": "fictional",
-          "meaning": "[派生] adj.虚构的；小说（中）的"
+          "meaning": "adj.虚构的；小说（中）的"
         },
         {
           "word": "submissive",
@@ -41231,7 +41231,7 @@ window.CET6_DATA = {
         },
         {
           "word": "atmospheric",
-          "meaning": "[派生] adj.大气的，大气层的"
+          "meaning": "adj.大气的，大气层的"
         },
         {
           "word": "mystery",
@@ -41267,7 +41267,7 @@ window.CET6_DATA = {
         },
         {
           "word": "extinction",
-          "meaning": "[派生] n.灭绝，消亡"
+          "meaning": "n.灭绝，消亡"
         },
         {
           "word": "student",
@@ -41275,7 +41275,7 @@ window.CET6_DATA = {
         },
         {
           "word": "ornamental",
-          "meaning": "[派生] adj.装饰性的，点缀的"
+          "meaning": "adj.装饰性的，点缀的"
         },
         {
           "word": "nowhere",
@@ -41327,7 +41327,7 @@ window.CET6_DATA = {
         },
         {
           "word": "emission",
-          "meaning": "[派生] n.（光、热、气等的）发出，排放；排 放物"
+          "meaning": "n.（光、热、气等的）发出，排放；排 放物"
         },
         {
           "word": "comfortable",
@@ -41343,11 +41343,11 @@ window.CET6_DATA = {
         },
         {
           "word": "manipulation",
-          "meaning": "[派生] n.操纵，（暗中）控制"
+          "meaning": "n.操纵，（暗中）控制"
         },
         {
           "word": "deductible",
-          "meaning": "[派生] adj.可扣除的，可减免的 n.免赔额；自负额"
+          "meaning": "adj.可扣除的，可减免的 n.免赔额；自负额"
         },
         {
           "word": "logic",
@@ -41367,7 +41367,7 @@ window.CET6_DATA = {
         },
         {
           "word": "salutation",
-          "meaning": "[派生] n.招呼；致意；打招呼；致意的动作"
+          "meaning": "n.招呼；致意；打招呼；致意的动作"
         },
         {
           "word": "let",
@@ -41383,7 +41383,7 @@ window.CET6_DATA = {
         },
         {
           "word": "expensive",
-          "meaning": "[派生] adj.昂贵的，花钱多的，价格高的"
+          "meaning": "adj.昂贵的，花钱多的，价格高的"
         },
         {
           "word": "navigate",
@@ -41403,7 +41403,7 @@ window.CET6_DATA = {
         },
         {
           "word": "dignify",
-          "meaning": "[派生] v.使有尊严；使崇高"
+          "meaning": "v.使有尊严；使崇高"
         },
         {
           "word": "gallon",
@@ -41419,7 +41419,7 @@ window.CET6_DATA = {
         },
         {
           "word": "purity",
-          "meaning": "[派生] n.纯洁；纯净；纯粹"
+          "meaning": "n.纯洁；纯净；纯粹"
         },
         {
           "word": "drastically",
@@ -41447,7 +41447,7 @@ window.CET6_DATA = {
         },
         {
           "word": "alignment",
-          "meaning": "[派生] n.排成直线；结盟 云上印 包邮到家，线上5分/张打印"
+          "meaning": "n.排成直线；结盟"
         },
         {
           "word": "freeze",
@@ -41455,7 +41455,7 @@ window.CET6_DATA = {
         },
         {
           "word": "edition",
-          "meaning": "[派生] n.版本"
+          "meaning": "n.版本"
         },
         {
           "word": "greeting",
@@ -41499,7 +41499,7 @@ window.CET6_DATA = {
         },
         {
           "word": "detention",
-          "meaning": "[派生] n.拘留；课后留校"
+          "meaning": "n.拘留；课后留校"
         },
         {
           "word": "meter",
@@ -41559,7 +41559,7 @@ window.CET6_DATA = {
         },
         {
           "word": "brass",
-          "meaning": "n.黄铜，黄铜制品；铜管乐器 Unit"
+          "meaning": "n.黄铜，黄铜制品；铜管乐器"
         },
         {
           "word": "tranquil",
@@ -41591,7 +41591,7 @@ window.CET6_DATA = {
         },
         {
           "word": "experiment",
-          "meaning": "n.实验，试验；尝试，实践 /ik'speriment/v.做试验；尝试"
+          "meaning": "n. 实验，试验 v. 做实验；尝试"
         },
         {
           "word": "away",
@@ -41627,11 +41627,11 @@ window.CET6_DATA = {
         },
         {
           "word": "alienate",
-          "meaning": "[派生] v.使疏远；离间"
+          "meaning": "v.使疏远；离间"
         },
         {
           "word": "debtor",
-          "meaning": "[派生] n.债务人；借方"
+          "meaning": "n.债务人；借方"
         },
         {
           "word": "symposium",
@@ -41643,7 +41643,7 @@ window.CET6_DATA = {
         },
         {
           "word": "explosion",
-          "meaning": "[派生] n.爆炸；激增"
+          "meaning": "n.爆炸；激增"
         },
         {
           "word": "abstract",
@@ -41655,7 +41655,7 @@ window.CET6_DATA = {
         },
         {
           "word": "invader",
-          "meaning": "[派生] n.武装入侵的军队（或国家）；侵略者"
+          "meaning": "n.武装入侵的军队（或国家）；侵略者"
         },
         {
           "word": "vision",
@@ -41663,7 +41663,7 @@ window.CET6_DATA = {
         },
         {
           "word": "informant",
-          "meaning": "[派生] n.告密者；合作者"
+          "meaning": "n.告密者；合作者"
         },
         {
           "word": "along",
@@ -41687,7 +41687,7 @@ window.CET6_DATA = {
         },
         {
           "word": "dampen",
-          "meaning": "[派生] v.弄湿；抑制，减弱"
+          "meaning": "v.弄湿；抑制，减弱"
         },
         {
           "word": "transfer",
@@ -41779,7 +41779,7 @@ window.CET6_DATA = {
         },
         {
           "word": "grief",
-          "meaning": "[派生] n.悲伤，悲痛"
+          "meaning": "n.悲伤，悲痛"
         },
         {
           "word": "surgeon",
@@ -41803,7 +41803,7 @@ window.CET6_DATA = {
         },
         {
           "word": "faint",
-          "meaning": "adj.微弱的；晕眩的y.&n.昏厥 044"
+          "meaning": "adj.微弱的；晕眩的y.&n.昏厥"
         },
         {
           "word": "dryer",
@@ -41843,11 +41843,11 @@ window.CET6_DATA = {
         },
         {
           "word": "concession",
-          "meaning": "[派生] n.承认，许可；让步，妥协"
+          "meaning": "n.承认，许可；让步，妥协"
         },
         {
           "word": "affiliation",
-          "meaning": "[派生] n.隶属关系；隶属，从属"
+          "meaning": "n.隶属关系；隶属，从属"
         },
         {
           "word": "mood",
@@ -41859,7 +41859,7 @@ window.CET6_DATA = {
         },
         {
           "word": "successive",
-          "meaning": "[派生] adj.接连的，连续的"
+          "meaning": "adj.接连的，连续的"
         },
         {
           "word": "illustrate",
@@ -41883,7 +41883,7 @@ window.CET6_DATA = {
         },
         {
           "word": "employee",
-          "meaning": "[派生] n.受雇者；雇员"
+          "meaning": "n.受雇者；雇员"
         },
         {
           "word": "parade",
@@ -41895,7 +41895,7 @@ window.CET6_DATA = {
         },
         {
           "word": "virtuous",
-          "meaning": "[派生] adj.品行端正的，有德行的"
+          "meaning": "adj.品行端正的，有德行的"
         },
         {
           "word": "comic",
@@ -41931,15 +41931,15 @@ window.CET6_DATA = {
         },
         {
           "word": "deception",
-          "meaning": "[派生] n.欺骗（行为）"
+          "meaning": "n.欺骗（行为）"
         },
         {
           "word": "tolerant",
-          "meaning": "[派生] adj.容忍的；宽容的"
+          "meaning": "adj.容忍的；宽容的"
         },
         {
           "word": "formulation",
-          "meaning": "[派生] n.制定；规划；构想；确切表达"
+          "meaning": "n.制定；规划；构想；确切表达"
         },
         {
           "word": "disguise",
@@ -41947,7 +41947,7 @@ window.CET6_DATA = {
         },
         {
           "word": "whereabouts",
-          "meaning": "n.下落；行踪 /iweara'bauts/adv.在什么地方，在哪里"
+          "meaning": "n. 下落，行踪 adv. 在何处"
         },
         {
           "word": "futility",
@@ -41995,7 +41995,7 @@ window.CET6_DATA = {
         },
         {
           "word": "moderator",
-          "meaning": "[派生] n.调解人，调停人"
+          "meaning": "n.调解人，调停人"
         },
         {
           "word": "state",
@@ -42003,7 +42003,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pollute",
-          "meaning": "v.弄脏，污染 Lesson"
+          "meaning": "v.弄脏，污染"
         },
         {
           "word": "symbol",
@@ -42011,7 +42011,7 @@ window.CET6_DATA = {
         },
         {
           "word": "primarily",
-          "meaning": "'praimaroli/ adv.主要地；根本地"
+          "meaning": "adv. 主要地；根本地"
         },
         {
           "word": "handicap",
@@ -42039,15 +42039,15 @@ window.CET6_DATA = {
         },
         {
           "word": "analyst",
-          "meaning": "[派生] n.分析者；化验员"
+          "meaning": "n.分析者；化验员"
         },
         {
           "word": "complementary",
-          "meaning": "[派生] adj.互补的，补充的，相互补足的"
+          "meaning": "adj.互补的，补充的，相互补足的"
         },
         {
           "word": "execution",
-          "meaning": "[派生] n.处决；实施"
+          "meaning": "n.处决；实施"
         },
         {
           "word": "dense",
@@ -42055,7 +42055,7 @@ window.CET6_DATA = {
         },
         {
           "word": "detective",
-          "meaning": "[派生] n.侦探；警探；私人侦探"
+          "meaning": "n.侦探；警探；私人侦探"
         },
         {
           "word": "highlight",
@@ -42071,7 +42071,7 @@ window.CET6_DATA = {
         },
         {
           "word": "trailer",
-          "meaning": "[派生] n.拖车；活动房屋"
+          "meaning": "n.拖车；活动房屋"
         },
         {
           "word": "abundant",
@@ -42099,15 +42099,15 @@ window.CET6_DATA = {
         },
         {
           "word": "deterioration",
-          "meaning": "[派生] n. 恶化，退化"
+          "meaning": "n. 恶化，退化"
         },
         {
           "word": "prediction",
-          "meaning": "[派生] n.预言，预测"
+          "meaning": "n.预言，预测"
         },
         {
           "word": "suspense",
-          "meaning": "[派生] n.担心；焦虑；兴奋；悬念"
+          "meaning": "n.担心；焦虑；兴奋；悬念"
         },
         {
           "word": "continuity",
@@ -42119,7 +42119,7 @@ window.CET6_DATA = {
         },
         {
           "word": "chemistry",
-          "meaning": "[派生] n.化学"
+          "meaning": "n.化学"
         },
         {
           "word": "cottage",
@@ -42131,7 +42131,7 @@ window.CET6_DATA = {
         },
         {
           "word": "applause",
-          "meaning": "[派生] n.掌声；喝彩"
+          "meaning": "n.掌声；喝彩"
         },
         {
           "word": "pedal",
@@ -42139,7 +42139,7 @@ window.CET6_DATA = {
         },
         {
           "word": "patriotism",
-          "meaning": "[派生] n.爱国主义；爱国精神"
+          "meaning": "n.爱国主义；爱国精神"
         },
         {
           "word": "metabolism",
@@ -42159,11 +42159,11 @@ window.CET6_DATA = {
         },
         {
           "word": "educational",
-          "meaning": "adj.教育的 Lesson"
+          "meaning": "adj.教育的"
         },
         {
           "word": "scholarly",
-          "meaning": "[派生] adj.学术性的；有学问的"
+          "meaning": "adj.学术性的；有学问的"
         },
         {
           "word": "foggy",
@@ -42231,7 +42231,7 @@ window.CET6_DATA = {
         },
         {
           "word": "marathon",
-          "meaning": "n.马拉松赛跑 4"
+          "meaning": "n.马拉松赛跑"
         },
         {
           "word": "kindness",
@@ -42251,7 +42251,7 @@ window.CET6_DATA = {
         },
         {
           "word": "evolutionary",
-          "meaning": "[派生]"
+          "meaning": "adj. 进化的；演化的，逐步发展的"
         },
         {
           "word": "shell",
@@ -42279,7 +42279,7 @@ window.CET6_DATA = {
         },
         {
           "word": "consolidation",
-          "meaning": "[派生] n. 巩固；合并"
+          "meaning": "n. 巩固；合并"
         },
         {
           "word": "view",
@@ -42291,7 +42291,7 @@ window.CET6_DATA = {
         },
         {
           "word": "guardian",
-          "meaning": "[派生] n.保护者；监护人"
+          "meaning": "n.保护者；监护人"
         },
         {
           "word": "conflict",
@@ -42327,7 +42327,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sustainability",
-          "meaning": "[派生] n. 可持续性"
+          "meaning": "n. 可持续性"
         },
         {
           "word": "evasive",
@@ -42335,7 +42335,7 @@ window.CET6_DATA = {
         },
         {
           "word": "tragic",
-          "meaning": "[派生] adj.悲惨的，悲剧的"
+          "meaning": "adj.悲惨的，悲剧的"
         },
         {
           "word": "software",
@@ -42351,11 +42351,11 @@ window.CET6_DATA = {
         },
         {
           "word": "decorative",
-          "meaning": "[派生] adj.装饰性的，作装饰用的"
+          "meaning": "adj.装饰性的，作装饰用的"
         },
         {
           "word": "metaphorical",
-          "meaning": "[派生] adj.隐喻的；比喻性的"
+          "meaning": "adj.隐喻的；比喻性的"
         },
         {
           "word": "reminder",
@@ -42403,7 +42403,7 @@ window.CET6_DATA = {
         },
         {
           "word": "rotation",
-          "meaning": "[派生] n.旋转，转动；轮换"
+          "meaning": "n.旋转，转动；轮换"
         },
         {
           "word": "administer",
@@ -42459,7 +42459,7 @@ window.CET6_DATA = {
         },
         {
           "word": "perception",
-          "meaning": "[派生] n.知觉；感知；洞察力；认识，看法"
+          "meaning": "n.知觉；感知；洞察力；认识，看法"
         },
         {
           "word": "relative",
@@ -42467,7 +42467,7 @@ window.CET6_DATA = {
         },
         {
           "word": "allocation",
-          "meaning": "[派生] n.分配；配置"
+          "meaning": "n.分配；配置"
         },
         {
           "word": "door",
@@ -42511,7 +42511,7 @@ window.CET6_DATA = {
         },
         {
           "word": "supplier",
-          "meaning": "[派生] n.供应者；供货商"
+          "meaning": "n.供应者；供货商"
         },
         {
           "word": "persuade",
@@ -42527,7 +42527,7 @@ window.CET6_DATA = {
         },
         {
           "word": "adherence",
-          "meaning": "[派生] n.坚持；遵守"
+          "meaning": "n.坚持；遵守"
         },
         {
           "word": "quiver",
@@ -42535,7 +42535,7 @@ window.CET6_DATA = {
         },
         {
           "word": "seduction",
-          "meaning": "[派生] n.诱奸；诱感力，吸引力"
+          "meaning": "n.诱奸；诱感力，吸引力"
         },
         {
           "word": "phrase",
@@ -42547,7 +42547,7 @@ window.CET6_DATA = {
         },
         {
           "word": "catastrophic",
-          "meaning": "[派生] adj.灾难性的"
+          "meaning": "adj.灾难性的"
         },
         {
           "word": "abbreviation",
@@ -42555,7 +42555,7 @@ window.CET6_DATA = {
         },
         {
           "word": "punish",
-          "meaning": "v.惩罚，处罚 /pragres/v.改进；前进"
+          "meaning": "v. 惩罚，处罚；折磨"
         },
         {
           "word": "divide",
@@ -42567,11 +42567,11 @@ window.CET6_DATA = {
         },
         {
           "word": "possessive",
-          "meaning": "[派生] adj.要求悉心关爱的；占有欲强的"
+          "meaning": "adj.要求悉心关爱的；占有欲强的"
         },
         {
           "word": "constitution",
-          "meaning": "[派生] n.宪法；组成；结构"
+          "meaning": "n.宪法；组成；结构"
         },
         {
           "word": "astronomy",
@@ -42599,7 +42599,7 @@ window.CET6_DATA = {
         },
         {
           "word": "regularity",
-          "meaning": "[派生] n.规律性；经常性；有规律的事物"
+          "meaning": "n.规律性；经常性；有规律的事物"
         },
         {
           "word": "scrub",
@@ -42611,7 +42611,7 @@ window.CET6_DATA = {
         },
         {
           "word": "idealism",
-          "meaning": "[派生] n.理想主义；唯心主义"
+          "meaning": "n.理想主义；唯心主义"
         },
         {
           "word": "accompany",
@@ -42647,7 +42647,7 @@ window.CET6_DATA = {
         },
         {
           "word": "peculiarity",
-          "meaning": "[派生] n. 特点；古怪，奇怪"
+          "meaning": "n. 特点；古怪，奇怪"
         },
         {
           "word": "indicator",
@@ -42667,11 +42667,11 @@ window.CET6_DATA = {
         },
         {
           "word": "visionary",
-          "meaning": "[派生] adj.有眼力的，有远见卓识的 n.有眼力的人，有远见卓识的人"
+          "meaning": "adj.有眼力的，有远见卓识的 n.有眼力的人，有远见卓识的人"
         },
         {
           "word": "inhabitant",
-          "meaning": "[派生] n.居民，居住者"
+          "meaning": "n.居民，居住者"
         },
         {
           "word": "feedback",
@@ -42719,7 +42719,7 @@ window.CET6_DATA = {
         },
         {
           "word": "distribution",
-          "meaning": "[派生] n.分配，分发"
+          "meaning": "n.分配，分发"
         },
         {
           "word": "handy",
@@ -42727,7 +42727,7 @@ window.CET6_DATA = {
         },
         {
           "word": "competitor",
-          "meaning": "[派生] n.竞争者"
+          "meaning": "n.竞争者"
         },
         {
           "word": "universe",
@@ -42815,7 +42815,7 @@ window.CET6_DATA = {
         },
         {
           "word": "turbulence",
-          "meaning": "[派生] n.骚乱；(空气或水的）淄流，紊流"
+          "meaning": "n.骚乱；(空气或水的）淄流，紊流"
         },
         {
           "word": "reform",
@@ -42823,7 +42823,7 @@ window.CET6_DATA = {
         },
         {
           "word": "endorsement",
-          "meaning": "[派生] n.支持，认可"
+          "meaning": "n.支持，认可"
         },
         {
           "word": "paw",
@@ -42831,7 +42831,7 @@ window.CET6_DATA = {
         },
         {
           "word": "connection",
-          "meaning": "[派生] n.联系；联结"
+          "meaning": "n.联系；联结"
         },
         {
           "word": "crude",
@@ -42895,7 +42895,7 @@ window.CET6_DATA = {
         },
         {
           "word": "systematic",
-          "meaning": "[派生] adj.系统的；有条理的"
+          "meaning": "adj.系统的；有条理的"
         },
         {
           "word": "modesty",
@@ -42911,7 +42911,7 @@ window.CET6_DATA = {
         },
         {
           "word": "complaint",
-          "meaning": "[派生] n.抱怨；投诉"
+          "meaning": "n.抱怨；投诉"
         },
         {
           "word": "oxygen",
@@ -42939,7 +42939,7 @@ window.CET6_DATA = {
         },
         {
           "word": "absent",
-          "meaning": "adj.缺席的；缺乏的；心不在焉的 /eb'sent/v.缺席 Unit"
+          "meaning": "adj. 缺席的；缺乏的；心不在焉的"
         },
         {
           "word": "juice",
@@ -42983,7 +42983,7 @@ window.CET6_DATA = {
         },
         {
           "word": "illiterate",
-          "meaning": "n.文盲，不识字的人adj.文盲的 humo（u）r/hjumo（r)/n.幽默"
+          "meaning": "n. 文盲 adj. 文盲的，目不识丁的"
         },
         {
           "word": "go",
@@ -43003,7 +43003,7 @@ window.CET6_DATA = {
         },
         {
           "word": "continue",
-          "meaning": "v.继续存在；继续做；再开始； 可能 延伸 counsel(1)or/\"kaunsala(r)/n.顾问；律师"
+          "meaning": "v. 继续，持续；延伸，延长"
         },
         {
           "word": "fast",
@@ -43035,11 +43035,11 @@ window.CET6_DATA = {
         },
         {
           "word": "sympathize",
-          "meaning": "[派生] v. 同情；赞同，支持"
+          "meaning": "v. 同情；赞同，支持"
         },
         {
           "word": "weariness",
-          "meaning": "[派生] n.疲倦"
+          "meaning": "n.疲倦"
         },
         {
           "word": "hypothetical",
@@ -43067,7 +43067,7 @@ window.CET6_DATA = {
         },
         {
           "word": "humbly",
-          "meaning": "[派生] adu.卑微地；谦逊地"
+          "meaning": "adu.卑微地；谦逊地"
         },
         {
           "word": "ultra",
@@ -43079,11 +43079,11 @@ window.CET6_DATA = {
         },
         {
           "word": "statutory",
-          "meaning": "[派生] adj.法定的；依法必须执行的"
+          "meaning": "adj.法定的；依法必须执行的"
         },
         {
           "word": "exchange",
-          "meaning": "v.&n.交换；交流；兑换 /1'skot/v.护卫；护送"
+          "meaning": "v.&n. 交换；交流；兑换"
         },
         {
           "word": "punch",
@@ -43123,7 +43123,7 @@ window.CET6_DATA = {
         },
         {
           "word": "regional",
-          "meaning": "[派生] adj.地区的，区域的"
+          "meaning": "adj.地区的，区域的"
         },
         {
           "word": "barrier",
@@ -43131,7 +43131,7 @@ window.CET6_DATA = {
         },
         {
           "word": "allergy",
-          "meaning": "[派生] n.过敏反应"
+          "meaning": "n.过敏反应"
         },
         {
           "word": "clutch",
@@ -43147,7 +43147,7 @@ window.CET6_DATA = {
         },
         {
           "word": "quantitative",
-          "meaning": "[派生] adj.数量的；量化的；定量的"
+          "meaning": "adj.数量的；量化的；定量的"
         },
         {
           "word": "national",
@@ -43163,7 +43163,7 @@ window.CET6_DATA = {
         },
         {
           "word": "distributive",
-          "meaning": "[派生] adj.经销的，分销的"
+          "meaning": "adj.经销的，分销的"
         },
         {
           "word": "app",
@@ -43215,7 +43215,7 @@ window.CET6_DATA = {
         },
         {
           "word": "visibility",
-          "meaning": "[派生] n.可见度，能见度；可见性；明显性"
+          "meaning": "n.可见度，能见度；可见性；明显性"
         },
         {
           "word": "knife",
@@ -43231,7 +43231,7 @@ window.CET6_DATA = {
         },
         {
           "word": "constraint",
-          "meaning": "[派生] n.限制，限定，约束"
+          "meaning": "n.限制，限定，约束"
         },
         {
           "word": "sustain",
@@ -43243,7 +43243,7 @@ window.CET6_DATA = {
         },
         {
           "word": "beneficiary",
-          "meaning": "[派生] n.受益者；遗产继承人"
+          "meaning": "n.受益者；遗产继承人"
         },
         {
           "word": "sinister",
@@ -43259,7 +43259,7 @@ window.CET6_DATA = {
         },
         {
           "word": "measurement",
-          "meaning": "[派生] n.测量；度量"
+          "meaning": "n.测量；度量"
         },
         {
           "word": "terrace",
@@ -43267,11 +43267,11 @@ window.CET6_DATA = {
         },
         {
           "word": "contemplation",
-          "meaning": "[派生] n. 深思，沉思，冥想；默默注视"
+          "meaning": "n. 深思，沉思，冥想；默默注视"
         },
         {
           "word": "contemplative",
-          "meaning": "[派生] adj.深思熟虑的，冥想的"
+          "meaning": "adj.深思熟虑的，冥想的"
         },
         {
           "word": "thrive",
@@ -43311,7 +43311,7 @@ window.CET6_DATA = {
         },
         {
           "word": "dazzling",
-          "meaning": "[派生] adj.炫目的；令人眼花缭乱的"
+          "meaning": "adj.炫目的；令人眼花缭乱的"
         },
         {
           "word": "chimney",
@@ -43335,7 +43335,7 @@ window.CET6_DATA = {
         },
         {
           "word": "luxurious",
-          "meaning": "[派生] adj.奢侈的，豪华的"
+          "meaning": "adj.奢侈的，豪华的"
         },
         {
           "word": "subsidy",
@@ -43391,7 +43391,7 @@ window.CET6_DATA = {
         },
         {
           "word": "appealing",
-          "meaning": "[派生] adj.有吸引力的；令人感兴趣的；悬 求的"
+          "meaning": "adj.有吸引力的；令人感兴趣的；悬 求的"
         },
         {
           "word": "expire",
@@ -43419,11 +43419,11 @@ window.CET6_DATA = {
         },
         {
           "word": "mobilize",
-          "meaning": "[派生] v. 组织，动员；调用"
+          "meaning": "v. 组织，动员；调用"
         },
         {
           "word": "misleading",
-          "meaning": "[派生] adj.误导的，引人歧途的"
+          "meaning": "adj.误导的，引人歧途的"
         },
         {
           "word": "hospital",
@@ -43443,7 +43443,7 @@ window.CET6_DATA = {
         },
         {
           "word": "naivety",
-          "meaning": "[派生] n.天真；幼稚"
+          "meaning": "n.天真；幼稚"
         },
         {
           "word": "attract",
@@ -43467,11 +43467,11 @@ window.CET6_DATA = {
         },
         {
           "word": "commemoration",
-          "meaning": "[派生] n. 纪念；纪念仪式"
+          "meaning": "n. 纪念；纪念仪式"
         },
         {
           "word": "vanity",
-          "meaning": "[派生] n.自负；虚荣"
+          "meaning": "n.自负；虚荣"
         },
         {
           "word": "stubborn",
@@ -43559,7 +43559,7 @@ window.CET6_DATA = {
         },
         {
           "word": "involved",
-          "meaning": "[派生] adj.卷人的，有关的；复杂的"
+          "meaning": "adj.卷人的，有关的；复杂的"
         },
         {
           "word": "peak",
@@ -43571,7 +43571,7 @@ window.CET6_DATA = {
         },
         {
           "word": "affectionate",
-          "meaning": "[派生] adj.表示关爱的"
+          "meaning": "adj.表示关爱的"
         },
         {
           "word": "granddaughter",
@@ -43607,7 +43607,7 @@ window.CET6_DATA = {
         },
         {
           "word": "occasionally",
-          "meaning": "[派生] adv.偶然，偶尔，有时候"
+          "meaning": "adv.偶然，偶尔，有时候"
         },
         {
           "word": "standardise",
@@ -43615,7 +43615,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pose",
-          "meaning": "[派生] n.(为画像、拍照等摆的）姿势 v.造成（威胁、问题等），引起，产生"
+          "meaning": "n.(为画像、拍照等摆的）姿势 v.造成（威胁、问题等），引起，产生"
         },
         {
           "word": "foster",
@@ -43623,7 +43623,7 @@ window.CET6_DATA = {
         },
         {
           "word": "disastrous",
-          "meaning": "[派生] adj.极糟糕的；灾难性的"
+          "meaning": "adj.极糟糕的；灾难性的"
         },
         {
           "word": "hibernate",
@@ -43635,7 +43635,7 @@ window.CET6_DATA = {
         },
         {
           "word": "juror",
-          "meaning": "[派生] n.陪审团成员；陪审员"
+          "meaning": "n.陪审团成员；陪审员"
         },
         {
           "word": "secretive",
@@ -43647,7 +43647,7 @@ window.CET6_DATA = {
         },
         {
           "word": "endowment",
-          "meaning": "[派生] n.捐款，捐赠；资助"
+          "meaning": "n.捐款，捐赠；资助"
         },
         {
           "word": "little",
@@ -43663,7 +43663,7 @@ window.CET6_DATA = {
         },
         {
           "word": "available",
-          "meaning": "[派生] adj.可获得的，可购得的；可找到的； 有空的"
+          "meaning": "adj.可获得的，可购得的；可找到的； 有空的"
         },
         {
           "word": "socialist",
@@ -43715,7 +43715,7 @@ window.CET6_DATA = {
         },
         {
           "word": "submarine",
-          "meaning": "'sAbmarin/ n.潜艇adj.海底的；水下的"
+          "meaning": "n. 潜艇 adj. 水下的，海底的"
         },
         {
           "word": "herbal",
@@ -43731,7 +43731,7 @@ window.CET6_DATA = {
         },
         {
           "word": "resident",
-          "meaning": "[派生] n.居民；住户adj.居住的，居留的"
+          "meaning": "n.居民；住户adj.居住的，居留的"
         },
         {
           "word": "sew",
@@ -43751,7 +43751,7 @@ window.CET6_DATA = {
         },
         {
           "word": "superiority",
-          "meaning": "[派生] n.优越；优势；优越感"
+          "meaning": "n.优越；优势；优越感"
         },
         {
           "word": "boost",
@@ -43775,7 +43775,7 @@ window.CET6_DATA = {
         },
         {
           "word": "grain",
-          "meaning": "n.谷物；颗粒；少量 Lesson gram（me）/graem/n.(重量单位）克"
+          "meaning": "n. 谷物，粮食；颗粒，细粒"
         },
         {
           "word": "iron",
@@ -43803,11 +43803,11 @@ window.CET6_DATA = {
         },
         {
           "word": "deceit",
-          "meaning": "[派生] n.欺骗，欺诈"
+          "meaning": "n.欺骗，欺诈"
         },
         {
           "word": "appreciation",
-          "meaning": "[派生] n.欣赏；理解；感激"
+          "meaning": "n.欣赏；理解；感激"
         },
         {
           "word": "environmental",
@@ -43863,7 +43863,7 @@ window.CET6_DATA = {
         },
         {
           "word": "public",
-          "meaning": "[派生] adj.大众的；公开的n.百姓；公众"
+          "meaning": "adj.大众的；公开的n.百姓；公众"
         },
         {
           "word": "weep",
@@ -43907,7 +43907,7 @@ window.CET6_DATA = {
         },
         {
           "word": "comprehend",
-          "meaning": "[派生] v.理解，领悟"
+          "meaning": "v.理解，领悟"
         },
         {
           "word": "demonstrate",
@@ -43915,7 +43915,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sentimental",
-          "meaning": "[派生] adj.情感的；伤感的；多愁善感的"
+          "meaning": "adj.情感的；伤感的；多愁善感的"
         },
         {
           "word": "dispute",
@@ -43927,7 +43927,7 @@ window.CET6_DATA = {
         },
         {
           "word": "bankruptcy",
-          "meaning": "[派生] n.破产，倒闭；（名誉等的）彻底消失"
+          "meaning": "n.破产，倒闭；（名誉等的）彻底消失"
         },
         {
           "word": "shelf",
@@ -43947,7 +43947,7 @@ window.CET6_DATA = {
         },
         {
           "word": "motion",
-          "meaning": "n.运动，移动；手势；提议 3"
+          "meaning": "n.运动，移动；手势；提议"
         },
         {
           "word": "dictionary",
@@ -43955,7 +43955,7 @@ window.CET6_DATA = {
         },
         {
           "word": "propagation",
-          "meaning": "[派生] n.传播；繁殖"
+          "meaning": "n.传播；繁殖"
         },
         {
           "word": "compliment",
@@ -43975,7 +43975,7 @@ window.CET6_DATA = {
         },
         {
           "word": "jeopardize",
-          "meaning": "[派生] v. 损害，危及"
+          "meaning": "v. 损害，危及"
         },
         {
           "word": "petroleum",
@@ -44031,11 +44031,11 @@ window.CET6_DATA = {
         },
         {
           "word": "mechanical",
-          "meaning": "[派生] adj.机动的；机械的"
+          "meaning": "adj.机动的；机械的"
         },
         {
           "word": "attachment",
-          "meaning": "[派生] n.附件；附属物；连接；依恋"
+          "meaning": "n.附件；附属物；连接；依恋"
         },
         {
           "word": "Confucianism",
@@ -44071,7 +44071,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sensitivity",
-          "meaning": "[派生] n.体贴；敏感性；灵敏度"
+          "meaning": "n.体贴；敏感性；灵敏度"
         },
         {
           "word": "fraudulent",
@@ -44095,7 +44095,7 @@ window.CET6_DATA = {
         },
         {
           "word": "merciful",
-          "meaning": "[派生] adj.仁慈的，宽大的"
+          "meaning": "adj.仁慈的，宽大的"
         },
         {
           "word": "learner",
@@ -44131,7 +44131,7 @@ window.CET6_DATA = {
         },
         {
           "word": "specification",
-          "meaning": "[派生] n.规格；规范；明细单；说明书"
+          "meaning": "n.规格；规范；明细单；说明书"
         },
         {
           "word": "grab",
@@ -44203,7 +44203,7 @@ window.CET6_DATA = {
         },
         {
           "word": "innovation",
-          "meaning": "[派生] n.创造，创新；改革"
+          "meaning": "n.创造，创新；改革"
         },
         {
           "word": "attic",
@@ -44211,7 +44211,7 @@ window.CET6_DATA = {
         },
         {
           "word": "description",
-          "meaning": "[派生] n.描写（文字）；形容；说明；类型"
+          "meaning": "n.描写（文字）；形容；说明；类型"
         },
         {
           "word": "up-to-date",
@@ -44223,7 +44223,7 @@ window.CET6_DATA = {
         },
         {
           "word": "recurrence",
-          "meaning": "[派生] n.重现；复发"
+          "meaning": "n.重现；复发"
         },
         {
           "word": "sing",
@@ -44243,7 +44243,7 @@ window.CET6_DATA = {
         },
         {
           "word": "structural",
-          "meaning": "[派生] adj.结构(或构造）上的"
+          "meaning": "adj.结构(或构造）上的"
         },
         {
           "word": "such",
@@ -44303,7 +44303,7 @@ window.CET6_DATA = {
         },
         {
           "word": "feminist",
-          "meaning": "[派生] n.女权主义者；女性主义者"
+          "meaning": "n.女权主义者；女性主义者"
         },
         {
           "word": "jargon",
@@ -44319,7 +44319,7 @@ window.CET6_DATA = {
         },
         {
           "word": "thrift",
-          "meaning": "n.节约；节俭 14"
+          "meaning": "n.节约；节俭"
         },
         {
           "word": "generous",
@@ -44367,11 +44367,11 @@ window.CET6_DATA = {
         },
         {
           "word": "perpetuate",
-          "meaning": "[派生] v.使永久化；使持久化；使持续"
+          "meaning": "v.使永久化；使持久化；使持续"
         },
         {
           "word": "capability",
-          "meaning": "[派生] n.能力，才能"
+          "meaning": "n.能力，才能"
         },
         {
           "word": "evaluate",
@@ -44411,7 +44411,7 @@ window.CET6_DATA = {
         },
         {
           "word": "leisurely",
-          "meaning": "[派生] adj.慢悠悠的 adu.从容地"
+          "meaning": "adj.慢悠悠的 adu.从容地"
         },
         {
           "word": "boat",
@@ -44427,7 +44427,7 @@ window.CET6_DATA = {
         },
         {
           "word": "discouraged",
-          "meaning": "[派生] adj.气馒的，灰心的"
+          "meaning": "adj.气馒的，灰心的"
         },
         {
           "word": "heap",
@@ -44435,7 +44435,7 @@ window.CET6_DATA = {
         },
         {
           "word": "beneficial",
-          "meaning": "[派生] adj.有利的"
+          "meaning": "adj.有利的"
         },
         {
           "word": "perpetual",
@@ -44447,7 +44447,7 @@ window.CET6_DATA = {
         },
         {
           "word": "ejection",
-          "meaning": "[派生] n.驱逐；喷射"
+          "meaning": "n.驱逐；喷射"
         },
         {
           "word": "deep",
@@ -44463,7 +44463,7 @@ window.CET6_DATA = {
         },
         {
           "word": "hospitality",
-          "meaning": "[派生] n.好客，殷勤"
+          "meaning": "n.好客，殷勤"
         },
         {
           "word": "spouse",
@@ -44487,7 +44487,7 @@ window.CET6_DATA = {
         },
         {
           "word": "powerful",
-          "meaning": "[派生] adj.有权势的；力量大的"
+          "meaning": "adj.有权势的；力量大的"
         },
         {
           "word": "officer",
@@ -44503,7 +44503,7 @@ window.CET6_DATA = {
         },
         {
           "word": "specialize",
-          "meaning": "[派生] v. 专门研究；专攻"
+          "meaning": "v. 专门研究；专攻"
         },
         {
           "word": "visual",
@@ -44535,7 +44535,7 @@ window.CET6_DATA = {
         },
         {
           "word": "scholastic",
-          "meaning": "[派生] adj.学校的；教育的；学业的"
+          "meaning": "adj.学校的；教育的；学业的"
         },
         {
           "word": "hunger",
@@ -44543,7 +44543,7 @@ window.CET6_DATA = {
         },
         {
           "word": "ambiguity",
-          "meaning": "[派生] n.模棱两可，不明确"
+          "meaning": "n.模棱两可，不明确"
         },
         {
           "word": "adolescence",
@@ -44551,11 +44551,11 @@ window.CET6_DATA = {
         },
         {
           "word": "pastry",
-          "meaning": "[派生] n.油酥面团；油酥糕点"
+          "meaning": "n.油酥面团；油酥糕点"
         },
         {
           "word": "hire",
-          "meaning": "v.&n.租借；聘用，录用 3"
+          "meaning": "v.&n.租借；聘用，录用"
         },
         {
           "word": "bypass",
@@ -44563,7 +44563,7 @@ window.CET6_DATA = {
         },
         {
           "word": "indignation",
-          "meaning": "[派生] n.愤慨，愤怒"
+          "meaning": "n.愤慨，愤怒"
         },
         {
           "word": "porch",
@@ -44643,7 +44643,7 @@ window.CET6_DATA = {
         },
         {
           "word": "loyal",
-          "meaning": "[派生] adj.忠诚的，忠实的"
+          "meaning": "adj.忠诚的，忠实的"
         },
         {
           "word": "lion",
@@ -44667,11 +44667,11 @@ window.CET6_DATA = {
         },
         {
           "word": "potentiality",
-          "meaning": "[派生]"
+          "meaning": "n. 潜在性；潜能，潜力"
         },
         {
           "word": "humanism",
-          "meaning": "[派生] n.人文主义"
+          "meaning": "n.人文主义"
         },
         {
           "word": "egg",
@@ -44695,7 +44695,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cannon",
-          "meaning": "n.(pl.cannon/cannons)大炮v.猛撞"
+          "meaning": "n. 大炮，加农炮 v. 猛撞"
         },
         {
           "word": "health",
@@ -44711,11 +44711,11 @@ window.CET6_DATA = {
         },
         {
           "word": "station",
-          "meaning": "[派生] n.站；地位；身份；驻地 v.配置；驻扎；安置"
+          "meaning": "n.站；地位；身份；驻地 v.配置；驻扎；安置"
         },
         {
           "word": "omission",
-          "meaning": "[派生] n.省略；删除"
+          "meaning": "n.省略；删除"
         },
         {
           "word": "soap",
@@ -44731,15 +44731,15 @@ window.CET6_DATA = {
         },
         {
           "word": "dietary",
-          "meaning": "[派生] adj.饮食的"
+          "meaning": "adj.饮食的"
         },
         {
           "word": "proceeding",
-          "meaning": "[派生] n.事件；诉讼"
+          "meaning": "n.事件；诉讼"
         },
         {
           "word": "suicidal",
-          "meaning": "[派生] adj.自杀性的；毁灭性的"
+          "meaning": "adj.自杀性的；毁灭性的"
         },
         {
           "word": "receipt",
@@ -44763,7 +44763,7 @@ window.CET6_DATA = {
         },
         {
           "word": "therapist",
-          "meaning": "[派生] n.(某治疗法的)治疗专家"
+          "meaning": "n.(某治疗法的)治疗专家"
         },
         {
           "word": "secular",
@@ -44771,7 +44771,7 @@ window.CET6_DATA = {
         },
         {
           "word": "moderation",
-          "meaning": "[派生] n.适度，适中"
+          "meaning": "n.适度，适中"
         },
         {
           "word": "wavy",
@@ -44799,7 +44799,7 @@ window.CET6_DATA = {
         },
         {
           "word": "rebellion",
-          "meaning": "[派生] n.叛乱；反抗"
+          "meaning": "n.叛乱；反抗"
         },
         {
           "word": "household",
@@ -44815,7 +44815,7 @@ window.CET6_DATA = {
         },
         {
           "word": "delegation",
-          "meaning": "[派生] n.代表团；委托"
+          "meaning": "n.代表团；委托"
         },
         {
           "word": "botany",
@@ -44847,7 +44847,7 @@ window.CET6_DATA = {
         },
         {
           "word": "isolation",
-          "meaning": "[派生] n.隔离；隔离状态，孤立状态"
+          "meaning": "n.隔离；隔离状态，孤立状态"
         },
         {
           "word": "pants",
@@ -44895,7 +44895,7 @@ window.CET6_DATA = {
         },
         {
           "word": "extended",
-          "meaning": "[派生] adj.延长了的；扩展了的"
+          "meaning": "adj.延长了的；扩展了的"
         },
         {
           "word": "rouse",
@@ -44911,7 +44911,7 @@ window.CET6_DATA = {
         },
         {
           "word": "vocational",
-          "meaning": "[派生] adj.职业的"
+          "meaning": "adj.职业的"
         },
         {
           "word": "liver",
@@ -44959,7 +44959,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reliance",
-          "meaning": "[派生] n.依靠，依赖"
+          "meaning": "n.依靠，依赖"
         },
         {
           "word": "tent",
@@ -44967,7 +44967,7 @@ window.CET6_DATA = {
         },
         {
           "word": "greasy",
-          "meaning": "[派生] adj.多油的；油污的，沾油脂的"
+          "meaning": "adj.多油的；油污的，沾油脂的"
         },
         {
           "word": "goal",
@@ -45019,7 +45019,7 @@ window.CET6_DATA = {
         },
         {
           "word": "occupant",
-          "meaning": "[派生] n.使用者，居住者；乘坐者"
+          "meaning": "n.使用者，居住者；乘坐者"
         },
         {
           "word": "dial",
@@ -45027,7 +45027,7 @@ window.CET6_DATA = {
         },
         {
           "word": "donation",
-          "meaning": "[派生] n.捐赠，捐款；献（血）"
+          "meaning": "n.捐赠，捐款；献（血）"
         },
         {
           "word": "preoccupy",
@@ -45043,11 +45043,11 @@ window.CET6_DATA = {
         },
         {
           "word": "ticket",
-          "meaning": "n.票，券；罚款单 356"
+          "meaning": "n.票，券；罚款单"
         },
         {
           "word": "risky",
-          "meaning": "adj.有风险的；有危险的 3"
+          "meaning": "adj.有风险的；有危险的"
         },
         {
           "word": "alongside",
@@ -45071,7 +45071,7 @@ window.CET6_DATA = {
         },
         {
           "word": "decisive",
-          "meaning": "[派生] adj.决定性的，关键的；果断的"
+          "meaning": "adj.决定性的，关键的；果断的"
         },
         {
           "word": "haul",
@@ -45095,7 +45095,7 @@ window.CET6_DATA = {
         },
         {
           "word": "adorable",
-          "meaning": "[派生] adj.可爱的；讨人喜爱的"
+          "meaning": "adj.可爱的；讨人喜爱的"
         },
         {
           "word": "inaugurate",
@@ -45107,7 +45107,7 @@ window.CET6_DATA = {
         },
         {
           "word": "modification",
-          "meaning": "[派生] n.修改；改进；改变"
+          "meaning": "n.修改；改进；改变"
         },
         {
           "word": "income",
@@ -45127,7 +45127,7 @@ window.CET6_DATA = {
         },
         {
           "word": "ventilation",
-          "meaning": "[派生] n.通风；通风系统"
+          "meaning": "n.通风；通风系统"
         },
         {
           "word": "massage",
@@ -45179,7 +45179,7 @@ window.CET6_DATA = {
         },
         {
           "word": "obsessive",
-          "meaning": "[派生] adj.着迷的；难以释怀的 n.强迫症患者"
+          "meaning": "adj.着迷的；难以释怀的 n.强迫症患者"
         },
         {
           "word": "favourable",
@@ -45195,7 +45195,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reservation",
-          "meaning": "[派生] n.预订，预约；保留意见"
+          "meaning": "n.预订，预约；保留意见"
         },
         {
           "word": "scene",
@@ -45219,19 +45219,19 @@ window.CET6_DATA = {
         },
         {
           "word": "obligation",
-          "meaning": "[派生] n.义务，职责"
+          "meaning": "n.义务，职责"
         },
         {
           "word": "confinement",
-          "meaning": "[派生] n.禁闭，监禁，关押"
+          "meaning": "n.禁闭，监禁，关押"
         },
         {
           "word": "elaboration",
-          "meaning": "[派生] n.精心制作（或计划)；精致；详尽 阐述"
+          "meaning": "n.精心制作（或计划)；精致；详尽 阐述"
         },
         {
           "word": "cultivation",
-          "meaning": "[派生] n.耕种，种植；（品质或技巧的）培养"
+          "meaning": "n.耕种，种植；（品质或技巧的）培养"
         },
         {
           "word": "mask",
@@ -45275,7 +45275,7 @@ window.CET6_DATA = {
         },
         {
           "word": "resolute",
-          "meaning": "[派生] adj.坚决的；有决心的"
+          "meaning": "adj.坚决的；有决心的"
         },
         {
           "word": "cashier",
@@ -45319,7 +45319,7 @@ window.CET6_DATA = {
         },
         {
           "word": "inland",
-          "meaning": "adv.在/向内陆 /'nlaend/adj.内地的，内陆的"
+          "meaning": "adj. 内地的，内陆的 adv. 向内陆"
         },
         {
           "word": "convention",
@@ -45351,7 +45351,7 @@ window.CET6_DATA = {
         },
         {
           "word": "gang",
-          "meaning": "n.一帮，一伙 glamo(u）r/glaema(r)/n.魅力，诱惑力"
+          "meaning": "n. 一帮，一伙；黑帮"
         },
         {
           "word": "zigzag",
@@ -45403,7 +45403,7 @@ window.CET6_DATA = {
         },
         {
           "word": "efficiency",
-          "meaning": "[派生] n.效率"
+          "meaning": "n.效率"
         },
         {
           "word": "monarch",
@@ -45415,7 +45415,7 @@ window.CET6_DATA = {
         },
         {
           "word": "bureaucratic",
-          "meaning": "[派生] adj.官僚的"
+          "meaning": "adj.官僚的"
         },
         {
           "word": "senate",
@@ -45443,7 +45443,7 @@ window.CET6_DATA = {
         },
         {
           "word": "boastful",
-          "meaning": "[派生] adj.自吹自擂的，自夸的"
+          "meaning": "adj.自吹自擂的，自夸的"
         },
         {
           "word": "progress",
@@ -45467,7 +45467,7 @@ window.CET6_DATA = {
         },
         {
           "word": "attendant",
-          "meaning": "[派生] n.服务员；随从；护理者"
+          "meaning": "n.服务员；随从；护理者"
         },
         {
           "word": "reproduce",
@@ -45479,7 +45479,7 @@ window.CET6_DATA = {
         },
         {
           "word": "relevance",
-          "meaning": "[派生] n.相关性；意义"
+          "meaning": "n.相关性；意义"
         },
         {
           "word": "scientist",
@@ -45507,7 +45507,7 @@ window.CET6_DATA = {
         },
         {
           "word": "gangster",
-          "meaning": "n.匪徒；歹徒；土匪 glamo(u）rous/glaemaras/adj.特别富有魅力的；富于"
+          "meaning": "n. 匪徒，歹徒，暴徒"
         },
         {
           "word": "so-called",
@@ -45515,11 +45515,11 @@ window.CET6_DATA = {
         },
         {
           "word": "alteration",
-          "meaning": "[派生] n.改变；变化"
+          "meaning": "n.改变；变化"
         },
         {
           "word": "bathroom",
-          "meaning": "n.浴室；洗手间 Lesson"
+          "meaning": "n.浴室；洗手间"
         },
         {
           "word": "investigator",
@@ -45539,11 +45539,11 @@ window.CET6_DATA = {
         },
         {
           "word": "retention",
-          "meaning": "[派生] n.保持；保留"
+          "meaning": "n.保持；保留"
         },
         {
           "word": "deliberation",
-          "meaning": "[派生] n.审议，考虑；审慎"
+          "meaning": "n.审议，考虑；审慎"
         },
         {
           "word": "multilateral",
@@ -45635,7 +45635,7 @@ window.CET6_DATA = {
         },
         {
           "word": "variant",
-          "meaning": "[派生] n.变种；变体；变形 adj.不同的；变异的"
+          "meaning": "n.变种；变体；变形 adj.不同的；变异的"
         },
         {
           "word": "derail",
@@ -45663,7 +45663,7 @@ window.CET6_DATA = {
         },
         {
           "word": "selective",
-          "meaning": "[派生] adj.选择性的，有选择的"
+          "meaning": "adj.选择性的，有选择的"
         },
         {
           "word": "masculine",
@@ -45683,7 +45683,7 @@ window.CET6_DATA = {
         },
         {
           "word": "operative",
-          "meaning": "[派生] n.工人，(尤指）技术工人；特工 adj.运作中的；可使用的"
+          "meaning": "n.工人，(尤指）技术工人；特工 adj.运作中的；可使用的"
         },
         {
           "word": "corrode",
@@ -45711,7 +45711,7 @@ window.CET6_DATA = {
         },
         {
           "word": "endurance",
-          "meaning": "[派生] n.忍耐力，耐久力"
+          "meaning": "n.忍耐力，耐久力"
         },
         {
           "word": "summary",
@@ -45727,7 +45727,7 @@ window.CET6_DATA = {
         },
         {
           "word": "consequent",
-          "meaning": "[派生] adj.随之发生的；作为结果的"
+          "meaning": "adj.随之发生的；作为结果的"
         },
         {
           "word": "yawn",
@@ -45735,7 +45735,7 @@ window.CET6_DATA = {
         },
         {
           "word": "suppressive",
-          "meaning": "[派生] adj.抑制的；镇压的"
+          "meaning": "adj.抑制的；镇压的"
         },
         {
           "word": "rug",
@@ -45747,19 +45747,19 @@ window.CET6_DATA = {
         },
         {
           "word": "dramatically",
-          "meaning": "[派生] adv.戏剧性地；剧烈地；明显地"
+          "meaning": "adv.戏剧性地；剧烈地；明显地"
         },
         {
           "word": "retailer",
-          "meaning": "[派生] n.零售商"
+          "meaning": "n.零售商"
         },
         {
           "word": "spiritual",
-          "meaning": "[派生] adj.精神的，心灵的"
+          "meaning": "adj.精神的，心灵的"
         },
         {
           "word": "occasional",
-          "meaning": "[派生] adj.偶尔的；临时的"
+          "meaning": "adj.偶尔的；临时的"
         },
         {
           "word": "protein",
@@ -45771,7 +45771,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reassure",
-          "meaning": "ria/o(r)/ v.使…安心打消..的疑虑"
+          "meaning": "v. 使安心，打消疑虑"
         },
         {
           "word": "shrub",
@@ -45819,7 +45819,7 @@ window.CET6_DATA = {
         },
         {
           "word": "interviewer",
-          "meaning": "[派生] n.主持面试者；采访者"
+          "meaning": "n.主持面试者；采访者"
         },
         {
           "word": "brother",
@@ -45827,7 +45827,7 @@ window.CET6_DATA = {
         },
         {
           "word": "victorious",
-          "meaning": "[派生] adj.胜利的；获胜的"
+          "meaning": "adj.胜利的；获胜的"
         },
         {
           "word": "basically",
@@ -45919,7 +45919,7 @@ window.CET6_DATA = {
         },
         {
           "word": "advocacy",
-          "meaning": "[派生] n.拥护，支持；提倡"
+          "meaning": "n.拥护，支持；提倡"
         },
         {
           "word": "fan",
@@ -46027,7 +46027,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reconciliation",
-          "meaning": "[派生] n.和解；协调"
+          "meaning": "n.和解；协调"
         },
         {
           "word": "send",
@@ -46043,7 +46043,7 @@ window.CET6_DATA = {
         },
         {
           "word": "forceful",
-          "meaning": "[派生] adj.强有力的；有说服力的；坚强的"
+          "meaning": "adj.强有力的；有说服力的；坚强的"
         },
         {
           "word": "elbow",
@@ -46051,7 +46051,7 @@ window.CET6_DATA = {
         },
         {
           "word": "scornful",
-          "meaning": "[派生] adj.轻蔑的，鄙视的"
+          "meaning": "adj.轻蔑的，鄙视的"
         },
         {
           "word": "enforce",
@@ -46059,7 +46059,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sequential",
-          "meaning": "[派生] adj.按次序的，顺序的；序列的"
+          "meaning": "adj.按次序的，顺序的；序列的"
         },
         {
           "word": "malice",
@@ -46071,7 +46071,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pensioner",
-          "meaning": "[派生] n.领养老金(或退休金、抚恤金)者"
+          "meaning": "n.领养老金(或退休金、抚恤金)者"
         },
         {
           "word": "copyright",
@@ -46111,7 +46111,7 @@ window.CET6_DATA = {
         },
         {
           "word": "commitment",
-          "meaning": "[派生] n.承诺；奉献"
+          "meaning": "n.承诺；奉献"
         },
         {
           "word": "crown",
@@ -46139,15 +46139,15 @@ window.CET6_DATA = {
         },
         {
           "word": "commencement",
-          "meaning": "[派生] n. 开始；开端；毕业典礼"
+          "meaning": "n. 开始；开端；毕业典礼"
         },
         {
           "word": "conviction",
-          "meaning": "[派生] n.判罪；坚定的信念"
+          "meaning": "n.判罪；坚定的信念"
         },
         {
           "word": "recognition",
-          "meaning": "[派生] n.认识；承认，认可"
+          "meaning": "n.认识；承认，认可"
         },
         {
           "word": "mild",
@@ -46159,7 +46159,7 @@ window.CET6_DATA = {
         },
         {
           "word": "anonymity",
-          "meaning": "[派生] n.匿名；无特色"
+          "meaning": "n.匿名；无特色"
         },
         {
           "word": "blind",
@@ -46215,7 +46215,7 @@ window.CET6_DATA = {
         },
         {
           "word": "fragmentation",
-          "meaning": "[派生] n. 分裂，破裂"
+          "meaning": "n. 分裂，破裂"
         },
         {
           "word": "benevolence",
@@ -46227,11 +46227,11 @@ window.CET6_DATA = {
         },
         {
           "word": "rotten",
-          "meaning": "[派生] adj.腐烂的，腐败的"
+          "meaning": "adj.腐烂的，腐败的"
         },
         {
           "word": "infinitive",
-          "meaning": "[派生] n.不定式"
+          "meaning": "n.不定式"
         },
         {
           "word": "uniform",
@@ -46267,7 +46267,7 @@ window.CET6_DATA = {
         },
         {
           "word": "submission",
-          "meaning": "[派生] n.屈服；提交"
+          "meaning": "n.屈服；提交"
         },
         {
           "word": "overhaul",
@@ -46275,7 +46275,7 @@ window.CET6_DATA = {
         },
         {
           "word": "adaptation",
-          "meaning": "[派生] n.适应；改编本"
+          "meaning": "n.适应；改编本"
         },
         {
           "word": "bite",
@@ -46323,7 +46323,7 @@ window.CET6_DATA = {
         },
         {
           "word": "roller",
-          "meaning": "[派生] n.滚筒；巨浪"
+          "meaning": "n.滚筒；巨浪"
         },
         {
           "word": "pointless",
@@ -46339,7 +46339,7 @@ window.CET6_DATA = {
         },
         {
           "word": "arrogance",
-          "meaning": "[派生] n.傲慢，自大"
+          "meaning": "n.傲慢，自大"
         },
         {
           "word": "refrain",
@@ -46351,7 +46351,7 @@ window.CET6_DATA = {
         },
         {
           "word": "indulgence",
-          "meaning": "[派生] n.沉溺，放纵"
+          "meaning": "n.沉溺，放纵"
         },
         {
           "word": "possible",
@@ -46367,11 +46367,11 @@ window.CET6_DATA = {
         },
         {
           "word": "operation",
-          "meaning": "[派生] n.手术；（有组织的）活动，行动；企 业，公司"
+          "meaning": "n.手术；（有组织的）活动，行动；企 业，公司"
         },
         {
           "word": "capitalism",
-          "meaning": "[派生] n.资本主义"
+          "meaning": "n.资本主义"
         },
         {
           "word": "dominance",
@@ -46379,7 +46379,7 @@ window.CET6_DATA = {
         },
         {
           "word": "simplicity",
-          "meaning": "[派生] n.简单；淳朴"
+          "meaning": "n.简单；淳朴"
         },
         {
           "word": "consist",
@@ -46395,7 +46395,7 @@ window.CET6_DATA = {
         },
         {
           "word": "negotiation",
-          "meaning": "[派生] n.谈判，磋商，协商"
+          "meaning": "n.谈判，磋商，协商"
         },
         {
           "word": "dread",
@@ -46415,7 +46415,7 @@ window.CET6_DATA = {
         },
         {
           "word": "requirement",
-          "meaning": "[派生] n.所需的东西；规定，要求"
+          "meaning": "n.所需的东西；规定，要求"
         },
         {
           "word": "western",
@@ -46435,7 +46435,7 @@ window.CET6_DATA = {
         },
         {
           "word": "celebration",
-          "meaning": "[派生] n.庆典；庆祝活动"
+          "meaning": "n.庆典；庆祝活动"
         },
         {
           "word": "wrap",
@@ -46467,7 +46467,7 @@ window.CET6_DATA = {
         },
         {
           "word": "proportional",
-          "meaning": "[派生] adj.成比例的；相称的"
+          "meaning": "adj.成比例的；相称的"
         },
         {
           "word": "butterfly",
@@ -46495,7 +46495,7 @@ window.CET6_DATA = {
         },
         {
           "word": "transparency",
-          "meaning": "[派生] n.透明；易懂"
+          "meaning": "n.透明；易懂"
         },
         {
           "word": "hypothesis",
@@ -46503,7 +46503,7 @@ window.CET6_DATA = {
         },
         {
           "word": "severity",
-          "meaning": "[派生] n.严格，严厉；严重"
+          "meaning": "n.严格，严厉；严重"
         },
         {
           "word": "still",
@@ -46531,7 +46531,7 @@ window.CET6_DATA = {
         },
         {
           "word": "geometrically",
-          "meaning": "[派生] adv. 几何上；按几何级数"
+          "meaning": "adv. 几何上；按几何级数"
         },
         {
           "word": "reckon",
@@ -46579,7 +46579,7 @@ window.CET6_DATA = {
         },
         {
           "word": "preservation",
-          "meaning": "[派生] n.保护；保存；保留；保持"
+          "meaning": "n.保护；保存；保留；保持"
         },
         {
           "word": "guidance",
@@ -46599,7 +46599,7 @@ window.CET6_DATA = {
         },
         {
           "word": "obtainment",
-          "meaning": "[派生] n.获得"
+          "meaning": "n.获得"
         },
         {
           "word": "circuit",
@@ -46607,7 +46607,7 @@ window.CET6_DATA = {
         },
         {
           "word": "composer",
-          "meaning": "[派生] n.作曲家"
+          "meaning": "n.作曲家"
         },
         {
           "word": "person",
@@ -46615,7 +46615,7 @@ window.CET6_DATA = {
         },
         {
           "word": "honorary",
-          "meaning": "[派生] adj.荣誉的；名誉的"
+          "meaning": "adj.荣誉的；名誉的"
         },
         {
           "word": "harvest",
@@ -46639,7 +46639,7 @@ window.CET6_DATA = {
         },
         {
           "word": "imprisonment",
-          "meaning": "[派生] n.监禁"
+          "meaning": "n.监禁"
         },
         {
           "word": "penguin",
@@ -46647,11 +46647,11 @@ window.CET6_DATA = {
         },
         {
           "word": "alternate",
-          "meaning": "adj. n.代替者；候补者 adj.交替的v.使交替；使轮流 /'oltaneit/v"
+          "meaning": "adj. 交替的，轮流的 v. 交替，轮流"
         },
         {
           "word": "destruction",
-          "meaning": "[派生] n.摧毁，毁灭；破坏"
+          "meaning": "n.摧毁，毁灭；破坏"
         },
         {
           "word": "nitrogen",
@@ -46671,7 +46671,7 @@ window.CET6_DATA = {
         },
         {
           "word": "precisely",
-          "meaning": "[派生] adv.准确地，恰好地"
+          "meaning": "adv.准确地，恰好地"
         },
         {
           "word": "merely",
@@ -46687,7 +46687,7 @@ window.CET6_DATA = {
         },
         {
           "word": "survivor",
-          "meaning": "[派生] n.生还者，幸存者"
+          "meaning": "n.生还者，幸存者"
         },
         {
           "word": "bear",
@@ -46731,7 +46731,7 @@ window.CET6_DATA = {
         },
         {
           "word": "renewal",
-          "meaning": "[派生] n.恢复；更新；重新开始"
+          "meaning": "n.恢复；更新；重新开始"
         },
         {
           "word": "bug",
@@ -46743,7 +46743,7 @@ window.CET6_DATA = {
         },
         {
           "word": "fluency",
-          "meaning": "[派生] n.流利，流畅"
+          "meaning": "n.流利，流畅"
         },
         {
           "word": "recommend",
@@ -46763,11 +46763,11 @@ window.CET6_DATA = {
         },
         {
           "word": "chemist",
-          "meaning": "[派生] n.药剂师；药店"
+          "meaning": "n.药剂师；药店"
         },
         {
           "word": "predominance",
-          "meaning": "[派生] n.(数量上的）优势；主导地位"
+          "meaning": "n.(数量上的）优势；主导地位"
         },
         {
           "word": "outfit",
@@ -46851,7 +46851,7 @@ window.CET6_DATA = {
         },
         {
           "word": "immunity",
-          "meaning": "[派生] n.免疫力"
+          "meaning": "n.免疫力"
         },
         {
           "word": "fertile",
@@ -46863,7 +46863,7 @@ window.CET6_DATA = {
         },
         {
           "word": "impartial",
-          "meaning": "[派生] adj.公正的，不偏不倚的"
+          "meaning": "adj.公正的，不偏不倚的"
         },
         {
           "word": "network",
@@ -46907,7 +46907,7 @@ window.CET6_DATA = {
         },
         {
           "word": "statistical",
-          "meaning": "[派生] adj.统计的"
+          "meaning": "adj.统计的"
         },
         {
           "word": "wooden",
@@ -46927,11 +46927,11 @@ window.CET6_DATA = {
         },
         {
           "word": "informative",
-          "meaning": "[派生] adj.提供有用信息的；给予知识的"
+          "meaning": "adj.提供有用信息的；给予知识的"
         },
         {
           "word": "attractive",
-          "meaning": "[派生] adj.有吸引力的"
+          "meaning": "adj.有吸引力的"
         },
         {
           "word": "egoist",
@@ -46951,7 +46951,7 @@ window.CET6_DATA = {
         },
         {
           "word": "obesity",
-          "meaning": "[派生] n.肥胖"
+          "meaning": "n.肥胖"
         },
         {
           "word": "fold",
@@ -46959,7 +46959,7 @@ window.CET6_DATA = {
         },
         {
           "word": "injure",
-          "meaning": "v.伤害；损伤 3"
+          "meaning": "v.伤害；损伤"
         },
         {
           "word": "geographic",
@@ -46967,7 +46967,7 @@ window.CET6_DATA = {
         },
         {
           "word": "foreseeable",
-          "meaning": "[派生] adj.可预见的，可预知的"
+          "meaning": "adj.可预见的，可预知的"
         },
         {
           "word": "monotony",
@@ -46991,7 +46991,7 @@ window.CET6_DATA = {
         },
         {
           "word": "energetic",
-          "meaning": "[派生] adj.精力充沛的，充满活力的"
+          "meaning": "adj.精力充沛的，充满活力的"
         },
         {
           "word": "cause",
@@ -46999,7 +46999,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sustainable",
-          "meaning": "[派生] adj.可持续的"
+          "meaning": "adj.可持续的"
         },
         {
           "word": "donkey",
@@ -47047,7 +47047,7 @@ window.CET6_DATA = {
         },
         {
           "word": "tolerance",
-          "meaning": "[派生] n.忍受；宽容"
+          "meaning": "n.忍受；宽容"
         },
         {
           "word": "notebook",
@@ -47059,7 +47059,7 @@ window.CET6_DATA = {
         },
         {
           "word": "be",
-          "meaning": "v.是；有；存在 2"
+          "meaning": "v.是；有；存在"
         },
         {
           "word": "ascribe",
@@ -47099,7 +47099,7 @@ window.CET6_DATA = {
         },
         {
           "word": "observant",
-          "meaning": "[派生] adj.善于观察的；观察力敏锐的"
+          "meaning": "adj.善于观察的；观察力敏锐的"
         },
         {
           "word": "planner",
@@ -47123,7 +47123,7 @@ window.CET6_DATA = {
         },
         {
           "word": "overwhelming",
-          "meaning": "[派生] adj.巨大的；压倒性的"
+          "meaning": "adj.巨大的；压倒性的"
         },
         {
           "word": "secondary",
@@ -47131,11 +47131,11 @@ window.CET6_DATA = {
         },
         {
           "word": "motor",
-          "meaning": "n.发动机，马达 Lesson"
+          "meaning": "n.发动机，马达"
         },
         {
           "word": "introduction",
-          "meaning": "[派生] n.介绍；采用；引进"
+          "meaning": "n.介绍；采用；引进"
         },
         {
           "word": "envy",
@@ -47147,7 +47147,7 @@ window.CET6_DATA = {
         },
         {
           "word": "ignorance",
-          "meaning": "[派生] n.无知"
+          "meaning": "n.无知"
         },
         {
           "word": "photography",
@@ -47163,7 +47163,7 @@ window.CET6_DATA = {
         },
         {
           "word": "scanner",
-          "meaning": "[派生] n.扫描仪"
+          "meaning": "n.扫描仪"
         },
         {
           "word": "printer",
@@ -47203,7 +47203,7 @@ window.CET6_DATA = {
         },
         {
           "word": "devastating",
-          "meaning": "[派生] adj.毁灭性的；令人震惊的"
+          "meaning": "adj.毁灭性的；令人震惊的"
         },
         {
           "word": "tunnel",
@@ -47215,7 +47215,7 @@ window.CET6_DATA = {
         },
         {
           "word": "grievous",
-          "meaning": "[派生] adj.极严重的；使人痛苦的；令人伤 心的"
+          "meaning": "adj.极严重的；使人痛苦的；令人伤 心的"
         },
         {
           "word": "tourism",
@@ -47239,7 +47239,7 @@ window.CET6_DATA = {
         },
         {
           "word": "speculation",
-          "meaning": "[派生] n.猜测；投机买卖"
+          "meaning": "n.猜测；投机买卖"
         },
         {
           "word": "postage",
@@ -47275,7 +47275,7 @@ window.CET6_DATA = {
         },
         {
           "word": "attendance",
-          "meaning": "[派生] n.出席，参加；上学"
+          "meaning": "n.出席，参加；上学"
         },
         {
           "word": "auditorium",
@@ -47291,7 +47291,7 @@ window.CET6_DATA = {
         },
         {
           "word": "breakthrough",
-          "meaning": "n.重大进展；突破 2"
+          "meaning": "n.重大进展；突破"
         },
         {
           "word": "hour",
@@ -47299,11 +47299,11 @@ window.CET6_DATA = {
         },
         {
           "word": "interference",
-          "meaning": "[派生] n.干涉，干预，介人"
+          "meaning": "n.干涉，干预，介人"
         },
         {
           "word": "advancement",
-          "meaning": "[派生] n.促进；发展；前进"
+          "meaning": "n.促进；发展；前进"
         },
         {
           "word": "tropical",
@@ -47319,7 +47319,7 @@ window.CET6_DATA = {
         },
         {
           "word": "density",
-          "meaning": "[派生] n.密度"
+          "meaning": "n.密度"
         },
         {
           "word": "overall",
@@ -47363,11 +47363,11 @@ window.CET6_DATA = {
         },
         {
           "word": "facilitate",
-          "meaning": "[派生] v.促进，促使；使便利"
+          "meaning": "v.促进，促使；使便利"
         },
         {
           "word": "prestigious",
-          "meaning": "[派生] adj.有威望的；声誉高的"
+          "meaning": "adj.有威望的；声誉高的"
         },
         {
           "word": "napkin",
@@ -47375,7 +47375,7 @@ window.CET6_DATA = {
         },
         {
           "word": "appeasement",
-          "meaning": "[派生] n.安抚，抚慰"
+          "meaning": "n.安抚，抚慰"
         },
         {
           "word": "lavatory",
@@ -47415,11 +47415,11 @@ window.CET6_DATA = {
         },
         {
           "word": "migration",
-          "meaning": "[派生] n.迁徒；移居，迁移"
+          "meaning": "n.迁徒；移居，迁移"
         },
         {
           "word": "collaborative",
-          "meaning": "[派生] adj.合作的，协作的，协力的"
+          "meaning": "adj.合作的，协作的，协力的"
         },
         {
           "word": "friendly",
@@ -47431,11 +47431,11 @@ window.CET6_DATA = {
         },
         {
           "word": "batch",
-          "meaning": "n.一批v.分批处理 Unit"
+          "meaning": "n.一批v.分批处理"
         },
         {
           "word": "novelist",
-          "meaning": "[派生] n.小说家"
+          "meaning": "n.小说家"
         },
         {
           "word": "starve",
@@ -47447,7 +47447,7 @@ window.CET6_DATA = {
         },
         {
           "word": "fluctuation",
-          "meaning": "[派生] n.波动，起伏"
+          "meaning": "n.波动，起伏"
         },
         {
           "word": "recreation",
@@ -47527,11 +47527,11 @@ window.CET6_DATA = {
         },
         {
           "word": "reunification",
-          "meaning": "[派生] n. 重新统一"
+          "meaning": "n. 重新统一"
         },
         {
           "word": "motherly",
-          "meaning": "adj.慈母般的；母亲的 Unit"
+          "meaning": "adj.慈母般的；母亲的"
         },
         {
           "word": "packet",
@@ -47547,7 +47547,7 @@ window.CET6_DATA = {
         },
         {
           "word": "infliction",
-          "meaning": "n.遭受（不好的事情）；施加（打 12 击、痛苦等) Lesson"
+          "meaning": "n.遭受（不好的事情）；施加（打 12 击、痛苦等)"
         },
         {
           "word": "unemployment",
@@ -47555,7 +47555,7 @@ window.CET6_DATA = {
         },
         {
           "word": "logical",
-          "meaning": "[派生] adj.合乎情理的；符合逻辑的"
+          "meaning": "adj.合乎情理的；符合逻辑的"
         },
         {
           "word": "shallow",
@@ -47579,7 +47579,7 @@ window.CET6_DATA = {
         },
         {
           "word": "invasion",
-          "meaning": "[派生] n.侵略；人侵"
+          "meaning": "n.侵略；人侵"
         },
         {
           "word": "frank",
@@ -47591,7 +47591,7 @@ window.CET6_DATA = {
         },
         {
           "word": "mile",
-          "meaning": "n.英里 mo(u)Id/mauld/n.模具；风格；霉菌"
+          "meaning": "n. 英里"
         },
         {
           "word": "luminous",
@@ -47607,7 +47607,7 @@ window.CET6_DATA = {
         },
         {
           "word": "engagement",
-          "meaning": "[派生] n.订婚；约定"
+          "meaning": "n.订婚；约定"
         },
         {
           "word": "communication",
@@ -47659,7 +47659,7 @@ window.CET6_DATA = {
         },
         {
           "word": "location",
-          "meaning": "[派生] n.位置，地点；定位"
+          "meaning": "n.位置，地点；定位"
         },
         {
           "word": "exceptional",
@@ -47679,11 +47679,11 @@ window.CET6_DATA = {
         },
         {
           "word": "granted",
-          "meaning": "[派生] adv.的确，诚然"
+          "meaning": "adv.的确，诚然"
         },
         {
           "word": "evolution",
-          "meaning": "[派生]"
+          "meaning": "n. 进化，演变；演化，发展"
         },
         {
           "word": "greenhouse",
@@ -47695,7 +47695,7 @@ window.CET6_DATA = {
         },
         {
           "word": "administrative",
-          "meaning": "[派生] adj.管理的；行政的"
+          "meaning": "adj.管理的；行政的"
         },
         {
           "word": "central",
@@ -47707,7 +47707,7 @@ window.CET6_DATA = {
         },
         {
           "word": "privatization",
-          "meaning": "[派生] n. 私有化"
+          "meaning": "n. 私有化"
         },
         {
           "word": "ally",
@@ -47731,7 +47731,7 @@ window.CET6_DATA = {
         },
         {
           "word": "perceptive",
-          "meaning": "[派生] adj.理解力强的；有洞察力的；思维 敏捷的"
+          "meaning": "adj.理解力强的；有洞察力的；思维 敏捷的"
         },
         {
           "word": "culmination",
@@ -47747,7 +47747,7 @@ window.CET6_DATA = {
         },
         {
           "word": "emancipation",
-          "meaning": "[派生] n.解放"
+          "meaning": "n.解放"
         },
         {
           "word": "price",
@@ -47755,7 +47755,7 @@ window.CET6_DATA = {
         },
         {
           "word": "documentary",
-          "meaning": "[派生] n.纪录片 adj.纪实的；文件的；文献的"
+          "meaning": "n.纪录片 adj.纪实的；文件的；文献的"
         },
         {
           "word": "frustrate",
@@ -47775,7 +47775,7 @@ window.CET6_DATA = {
         },
         {
           "word": "gravity",
-          "meaning": "[派生] n.重力；严重性；庄严"
+          "meaning": "n.重力；严重性；庄严"
         },
         {
           "word": "respective",
@@ -47811,7 +47811,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reinforcement",
-          "meaning": "[派生] n.巩固，加强；援军"
+          "meaning": "n.巩固，加强；援军"
         },
         {
           "word": "delay",
@@ -47819,7 +47819,7 @@ window.CET6_DATA = {
         },
         {
           "word": "compilation",
-          "meaning": "[派生] n.收集；编纂，编写"
+          "meaning": "n.收集；编纂，编写"
         },
         {
           "word": "thirty",
@@ -47827,7 +47827,7 @@ window.CET6_DATA = {
         },
         {
           "word": "confrontation",
-          "meaning": "[派生] n.对抗；冲突"
+          "meaning": "n.对抗；冲突"
         },
         {
           "word": "absurd",
@@ -47863,7 +47863,7 @@ window.CET6_DATA = {
         },
         {
           "word": "corporal",
-          "meaning": "下±"
+          "meaning": "adj. 肉体的，身体的 n. 下士"
         },
         {
           "word": "bag",
@@ -47879,11 +47879,11 @@ window.CET6_DATA = {
         },
         {
           "word": "bewilderment",
-          "meaning": "[派生] n.迷惘；困惑"
+          "meaning": "n.迷惘；困惑"
         },
         {
           "word": "derivation",
-          "meaning": "[派生] n.(尤指词语的)起源，派生"
+          "meaning": "n.(尤指词语的)起源，派生"
         },
         {
           "word": "feasibility",
@@ -47891,11 +47891,11 @@ window.CET6_DATA = {
         },
         {
           "word": "distorted",
-          "meaning": "[派生] adj.扭曲的"
+          "meaning": "adj.扭曲的"
         },
         {
           "word": "feminism",
-          "meaning": "[派生] n.女权主义；女性主义"
+          "meaning": "n.女权主义；女性主义"
         },
         {
           "word": "bump",
@@ -47915,7 +47915,7 @@ window.CET6_DATA = {
         },
         {
           "word": "contradictory",
-          "meaning": "[派生] adj.矛盾的"
+          "meaning": "adj.矛盾的"
         },
         {
           "word": "distinction",
@@ -47923,7 +47923,7 @@ window.CET6_DATA = {
         },
         {
           "word": "initiation",
-          "meaning": "[派生] n.开始，发起，创始"
+          "meaning": "n.开始，发起，创始"
         },
         {
           "word": "stage",
@@ -47955,7 +47955,7 @@ window.CET6_DATA = {
         },
         {
           "word": "vacation",
-          "meaning": "vet'kern/ n.假期，休假v.度假，休假"
+          "meaning": "n. 假期，休假 v. 度假"
         },
         {
           "word": "whisky",
@@ -47967,7 +47967,7 @@ window.CET6_DATA = {
         },
         {
           "word": "admittance",
-          "meaning": "[派生] n.进人权，进人"
+          "meaning": "n.进人权，进人"
         },
         {
           "word": "bubble",
@@ -47975,7 +47975,7 @@ window.CET6_DATA = {
         },
         {
           "word": "deducible",
-          "meaning": "[派生] adj.可推论的"
+          "meaning": "adj.可推论的"
         },
         {
           "word": "excerpt",
@@ -47999,7 +47999,7 @@ window.CET6_DATA = {
         },
         {
           "word": "oppressive",
-          "meaning": "[派生] adj.压迫的；压制的"
+          "meaning": "adj.压迫的；压制的"
         },
         {
           "word": "intent",
@@ -48027,19 +48027,19 @@ window.CET6_DATA = {
         },
         {
           "word": "presidential",
-          "meaning": "[派生] adj.总统的；国家主席的"
+          "meaning": "adj.总统的；国家主席的"
         },
         {
           "word": "supplementary",
-          "meaning": "[派生] adj. 增补的，附加的"
+          "meaning": "adj. 增补的，附加的"
         },
         {
           "word": "insightful",
-          "meaning": "[派生] adj.富有洞察力的"
+          "meaning": "adj.富有洞察力的"
         },
         {
           "word": "alternately",
-          "meaning": "[派生] adv.交替出现"
+          "meaning": "adv.交替出现"
         },
         {
           "word": "office",
@@ -48079,7 +48079,7 @@ window.CET6_DATA = {
         },
         {
           "word": "apparatus",
-          "meaning": "n.器械，设备；机构，组织 Lesson"
+          "meaning": "n.器械，设备；机构，组织"
         },
         {
           "word": "effort",
@@ -48095,11 +48095,11 @@ window.CET6_DATA = {
         },
         {
           "word": "flexibility",
-          "meaning": "[派生] n.灵活性；弹性，柔韧"
+          "meaning": "n.灵活性；弹性，柔韧"
         },
         {
           "word": "exhaustion",
-          "meaning": "[派生] n.耗尽；筋疲力尽"
+          "meaning": "n.耗尽；筋疲力尽"
         },
         {
           "word": "rain",
@@ -48111,7 +48111,7 @@ window.CET6_DATA = {
         },
         {
           "word": "hill",
-          "meaning": "n.山丘，小山；斜坡 Unit"
+          "meaning": "n.山丘，小山；斜坡"
         },
         {
           "word": "file",
@@ -48119,7 +48119,7 @@ window.CET6_DATA = {
         },
         {
           "word": "circulation",
-          "meaning": "[派生] n.血液循环；流通；发行量"
+          "meaning": "n.血液循环；流通；发行量"
         },
         {
           "word": "emigrant",
@@ -48151,15 +48151,15 @@ window.CET6_DATA = {
         },
         {
           "word": "elective",
-          "meaning": "[派生] adj.选举的；可选择的；选修的 n.选修课程"
+          "meaning": "adj.选举的；可选择的；选修的 n.选修课程"
         },
         {
           "word": "disputable",
-          "meaning": "[派生] adj.可质疑的；可商的"
+          "meaning": "adj.可质疑的；可商的"
         },
         {
           "word": "collision",
-          "meaning": "[派生] n.碰撞事故；冲突"
+          "meaning": "n.碰撞事故；冲突"
         },
         {
           "word": "revenue",
@@ -48187,7 +48187,7 @@ window.CET6_DATA = {
         },
         {
           "word": "authenticity",
-          "meaning": "[派生] n.真实性；确实性"
+          "meaning": "n.真实性；确实性"
         },
         {
           "word": "grip",
@@ -48195,7 +48195,7 @@ window.CET6_DATA = {
         },
         {
           "word": "consultant",
-          "meaning": "[派生] n.顾问"
+          "meaning": "n.顾问"
         },
         {
           "word": "fierce",
@@ -48207,7 +48207,7 @@ window.CET6_DATA = {
         },
         {
           "word": "scenic",
-          "meaning": "[派生] adj.风景优美的"
+          "meaning": "adj.风景优美的"
         },
         {
           "word": "layman",
@@ -48215,7 +48215,7 @@ window.CET6_DATA = {
         },
         {
           "word": "roughly",
-          "meaning": "[派生] adu.大约，大致"
+          "meaning": "adu.大约，大致"
         },
         {
           "word": "lodging",
@@ -48231,7 +48231,7 @@ window.CET6_DATA = {
         },
         {
           "word": "consolation",
-          "meaning": "[派生] n.安慰，慰藉"
+          "meaning": "n.安慰，慰藉"
         },
         {
           "word": "flow",
@@ -48243,11 +48243,11 @@ window.CET6_DATA = {
         },
         {
           "word": "ambitious",
-          "meaning": "[派生] adj.有雄心的，有抱负的"
+          "meaning": "adj.有雄心的，有抱负的"
         },
         {
           "word": "affixation",
-          "meaning": "[派生] n.附加；加词缀法"
+          "meaning": "n.附加；加词缀法"
         },
         {
           "word": "garlic",
@@ -48259,7 +48259,7 @@ window.CET6_DATA = {
         },
         {
           "word": "indulgent",
-          "meaning": "[派生] adj.纵容的，放纵的"
+          "meaning": "adj.纵容的，放纵的"
         },
         {
           "word": "dance",
@@ -48287,7 +48287,7 @@ window.CET6_DATA = {
         },
         {
           "word": "nominee",
-          "meaning": "[派生] n.被任命者"
+          "meaning": "n.被任命者"
         },
         {
           "word": "aristocratic",
@@ -48299,7 +48299,7 @@ window.CET6_DATA = {
         },
         {
           "word": "disruptive",
-          "meaning": "[派生] adj.引起混乱的；扰乱性的；破坏性的"
+          "meaning": "adj.引起混乱的；扰乱性的；破坏性的"
         },
         {
           "word": "urinate",
@@ -48327,7 +48327,7 @@ window.CET6_DATA = {
         },
         {
           "word": "budgetary",
-          "meaning": "[派生] adj.预算的"
+          "meaning": "adj.预算的"
         },
         {
           "word": "salad",
@@ -48335,7 +48335,7 @@ window.CET6_DATA = {
         },
         {
           "word": "supervision",
-          "meaning": "[派生] n.监督；管理；指导"
+          "meaning": "n.监督；管理；指导"
         },
         {
           "word": "dislike",
@@ -48371,7 +48371,7 @@ window.CET6_DATA = {
         },
         {
           "word": "correspondence",
-          "meaning": "[派生] n.相关；通信"
+          "meaning": "n.相关；通信"
         },
         {
           "word": "disco",
@@ -48379,7 +48379,7 @@ window.CET6_DATA = {
         },
         {
           "word": "terrorist",
-          "meaning": "[派生] n.恐怖分子"
+          "meaning": "n.恐怖分子"
         },
         {
           "word": "success",
@@ -48395,7 +48395,7 @@ window.CET6_DATA = {
         },
         {
           "word": "involvement",
-          "meaning": "[派生] n.参与，加人；插手"
+          "meaning": "n.参与，加人；插手"
         },
         {
           "word": "handful",
@@ -48447,7 +48447,7 @@ window.CET6_DATA = {
         },
         {
           "word": "alternatively",
-          "meaning": "[派生] adv.要不，或者"
+          "meaning": "adv.要不，或者"
         },
         {
           "word": "sir",
@@ -48503,15 +48503,15 @@ window.CET6_DATA = {
         },
         {
           "word": "formality",
-          "meaning": "[派生] n.正式手续；例行公事"
+          "meaning": "n.正式手续；例行公事"
         },
         {
           "word": "laborious",
-          "meaning": "[派生] adj.耗时费力的；辛苦的"
+          "meaning": "adj.耗时费力的；辛苦的"
         },
         {
           "word": "encouragement",
-          "meaning": "[派生] n.鼓舞，鼓励"
+          "meaning": "n.鼓舞，鼓励"
         },
         {
           "word": "compatible",
@@ -48539,11 +48539,11 @@ window.CET6_DATA = {
         },
         {
           "word": "condensation",
-          "meaning": "[派生] n. 冷凝，凝结；浓缩"
+          "meaning": "n. 冷凝，凝结；浓缩"
         },
         {
           "word": "illusory",
-          "meaning": "[派生] adj.虚假的，幻觉的"
+          "meaning": "adj.虚假的，幻觉的"
         },
         {
           "word": "cheek",
@@ -48555,7 +48555,7 @@ window.CET6_DATA = {
         },
         {
           "word": "disciplined",
-          "meaning": "[派生] adj.受过训练的；遵守纪律的"
+          "meaning": "adj.受过训练的；遵守纪律的"
         },
         {
           "word": "phase",
@@ -48571,15 +48571,15 @@ window.CET6_DATA = {
         },
         {
           "word": "reflection",
-          "meaning": "[派生] n.反射；反映；影像"
+          "meaning": "n.反射；反映；影像"
         },
         {
           "word": "molecule",
-          "meaning": "n.分子 mom（my）/mom（i)/(=mum/mummy）n.妈妈"
+          "meaning": "n. 分子"
         },
         {
           "word": "confess",
-          "meaning": "[派生] v.供认；承认（错误或罪行)；忏悔"
+          "meaning": "v.供认；承认（错误或罪行)；忏悔"
         },
         {
           "word": "clash",
@@ -48599,7 +48599,7 @@ window.CET6_DATA = {
         },
         {
           "word": "kill",
-          "meaning": "v.&n.杀死；扼杀 kilogram(me）/kilagraem/（=kilo）n.千克，公斤"
+          "meaning": "v.&n. 杀死，弄死；破坏，扼杀"
         },
         {
           "word": "sophisticated",
@@ -48607,7 +48607,7 @@ window.CET6_DATA = {
         },
         {
           "word": "hostility",
-          "meaning": "[派生] n.敌意，对抗"
+          "meaning": "n.敌意，对抗"
         },
         {
           "word": "stunning",
@@ -48615,7 +48615,7 @@ window.CET6_DATA = {
         },
         {
           "word": "regulatory",
-          "meaning": "[派生] adj.具有监管权的，监管的"
+          "meaning": "adj.具有监管权的，监管的"
         },
         {
           "word": "suicide",
@@ -48627,7 +48627,7 @@ window.CET6_DATA = {
         },
         {
           "word": "mastery",
-          "meaning": "[派生] n.精通；熟练掌握"
+          "meaning": "n.精通；熟练掌握"
         },
         {
           "word": "engage",
@@ -48643,7 +48643,7 @@ window.CET6_DATA = {
         },
         {
           "word": "commuter",
-          "meaning": "[派生] n.长途上下班往返的人，通勤者"
+          "meaning": "n.长途上下班往返的人，通勤者"
         },
         {
           "word": "digit",
@@ -48707,7 +48707,7 @@ window.CET6_DATA = {
         },
         {
           "word": "transmission",
-          "meaning": "[派生] n.传送；传播"
+          "meaning": "n.传送；传播"
         },
         {
           "word": "contaminate",
@@ -48735,7 +48735,7 @@ window.CET6_DATA = {
         },
         {
           "word": "impression",
-          "meaning": "[派生] n.印象"
+          "meaning": "n.印象"
         },
         {
           "word": "flag",
@@ -48779,7 +48779,7 @@ window.CET6_DATA = {
         },
         {
           "word": "mandatory",
-          "meaning": "[派生] men'dertari/ adj.强制的；法定的；义务的"
+          "meaning": "adj. 强制的；法定的；义务的"
         },
         {
           "word": "industrialise",
@@ -48791,7 +48791,7 @@ window.CET6_DATA = {
         },
         {
           "word": "ingenuity",
-          "meaning": "[派生] n.独创力；聪明才智；心灵手巧"
+          "meaning": "n.独创力；聪明才智；心灵手巧"
         },
         {
           "word": "index",
@@ -48799,7 +48799,7 @@ window.CET6_DATA = {
         },
         {
           "word": "gadgetry",
-          "meaning": "[派生] n.小器具，小装置"
+          "meaning": "n.小器具，小装置"
         },
         {
           "word": "would",
@@ -48827,7 +48827,7 @@ window.CET6_DATA = {
         },
         {
           "word": "companionship",
-          "meaning": "[派生] n. 友谊，交情；伴侣关系"
+          "meaning": "n. 友谊，交情；伴侣关系"
         },
         {
           "word": "pizza",
@@ -48843,7 +48843,7 @@ window.CET6_DATA = {
         },
         {
           "word": "diligence",
-          "meaning": "n.勤勉；勤奋；用功 Lesson"
+          "meaning": "n.勤勉；勤奋；用功"
         },
         {
           "word": "address",
@@ -48855,7 +48855,7 @@ window.CET6_DATA = {
         },
         {
           "word": "intrigue",
-          "meaning": "v.激起…….的兴趣；引发.…….的好奇 心；密谋 /'intrig;in'trig/n.密谋"
+          "meaning": "v. 激起兴趣；密谋 n. 阴谋，密谋"
         },
         {
           "word": "treatment",
@@ -48887,7 +48887,7 @@ window.CET6_DATA = {
         },
         {
           "word": "literacy",
-          "meaning": "[派生] n.读写能力"
+          "meaning": "n.读写能力"
         },
         {
           "word": "tricky",
@@ -48899,7 +48899,7 @@ window.CET6_DATA = {
         },
         {
           "word": "noodle",
-          "meaning": "n.面条 neighbo（u）r/neiba（r)/n.邻居；邻国"
+          "meaning": "n. 面条"
         },
         {
           "word": "certain",
@@ -48923,7 +48923,7 @@ window.CET6_DATA = {
         },
         {
           "word": "commercial",
-          "meaning": "[派生] n.商业广告adj.商业的，贸易的"
+          "meaning": "n.商业广告adj.商业的，贸易的"
         },
         {
           "word": "task",
@@ -48943,7 +48943,7 @@ window.CET6_DATA = {
         },
         {
           "word": "liability",
-          "meaning": "[派生] n.责任；累赘；负债"
+          "meaning": "n.责任；累赘；负债"
         },
         {
           "word": "chamber",
@@ -48951,7 +48951,7 @@ window.CET6_DATA = {
         },
         {
           "word": "revision",
-          "meaning": "[派生] n.修改；修订；复习"
+          "meaning": "n.修改；修订；复习"
         },
         {
           "word": "meanwhile",
@@ -48987,11 +48987,11 @@ window.CET6_DATA = {
         },
         {
           "word": "irritating",
-          "meaning": "[派生] adj.气人的，使人不愉快的"
+          "meaning": "adj.气人的，使人不愉快的"
         },
         {
           "word": "prescription",
-          "meaning": "[派生] n.处方，药方；(医生开的)处方药"
+          "meaning": "n.处方，药方；(医生开的)处方药"
         },
         {
           "word": "paralysis",
@@ -49083,7 +49083,7 @@ window.CET6_DATA = {
         },
         {
           "word": "end",
-          "meaning": "n.结束；结局；末端；终点；破灭v.结束， 终止 endeavo（u）r/in'devo（r)/v.&n.努力，尽力"
+          "meaning": "n. 结束；末端；目标 v. 结束，终止"
         },
         {
           "word": "homework",
@@ -49119,7 +49119,7 @@ window.CET6_DATA = {
         },
         {
           "word": "genetically",
-          "meaning": "[派生] adv.从遗传学角度；从基因方面"
+          "meaning": "adv.从遗传学角度；从基因方面"
         },
         {
           "word": "emperor",
@@ -49175,7 +49175,7 @@ window.CET6_DATA = {
         },
         {
           "word": "diversity",
-          "meaning": "[派生] n.差异，不同；多样性"
+          "meaning": "n.差异，不同；多样性"
         },
         {
           "word": "aunt",
@@ -49187,7 +49187,7 @@ window.CET6_DATA = {
         },
         {
           "word": "buffalo",
-          "meaning": "n.(pl.buffalo/buffaloes)水牛"
+          "meaning": "n. 水牛"
         },
         {
           "word": "resemble",
@@ -49203,7 +49203,7 @@ window.CET6_DATA = {
         },
         {
           "word": "emphasize",
-          "meaning": "[派生] v. 强调；重视"
+          "meaning": "v. 强调；重视"
         },
         {
           "word": "foe",
@@ -49219,7 +49219,7 @@ window.CET6_DATA = {
         },
         {
           "word": "complication",
-          "meaning": "[派生] n.使复杂化的问题(情况)；并发症"
+          "meaning": "n.使复杂化的问题(情况)；并发症"
         },
         {
           "word": "protocol",
@@ -49239,7 +49239,7 @@ window.CET6_DATA = {
         },
         {
           "word": "imitative",
-          "meaning": "[派生] adj.模仿的；仿制的"
+          "meaning": "adj.模仿的；仿制的"
         },
         {
           "word": "monument",
@@ -49267,7 +49267,7 @@ window.CET6_DATA = {
         },
         {
           "word": "life expectancy",
-          "meaning": "[派生] n. 预期寿命"
+          "meaning": "n. 预期寿命"
         },
         {
           "word": "dip",
@@ -49299,7 +49299,7 @@ window.CET6_DATA = {
         },
         {
           "word": "affirmation",
-          "meaning": "[派生] n.断言；肯定"
+          "meaning": "n.断言；肯定"
         },
         {
           "word": "native",
@@ -49343,7 +49343,7 @@ window.CET6_DATA = {
         },
         {
           "word": "revolutionary",
-          "meaning": "[派生] adj.革命的 n.改革者；革命者"
+          "meaning": "adj.革命的 n.改革者；革命者"
         },
         {
           "word": "evacuate",
@@ -49359,7 +49359,7 @@ window.CET6_DATA = {
         },
         {
           "word": "illustration",
-          "meaning": "[派生] n.图解；插图；示例"
+          "meaning": "n.图解；插图；示例"
         },
         {
           "word": "delegate",
@@ -49431,7 +49431,7 @@ window.CET6_DATA = {
         },
         {
           "word": "navigation",
-          "meaning": "[派生] n.导航，领航；航行"
+          "meaning": "n.导航，领航；航行"
         },
         {
           "word": "choosy",
@@ -49471,7 +49471,7 @@ window.CET6_DATA = {
         },
         {
           "word": "discrimination",
-          "meaning": "[派生] n. 区别对待；歧视；辨别力"
+          "meaning": "n. 区别对待；歧视；辨别力"
         },
         {
           "word": "impatient",
@@ -49495,7 +49495,7 @@ window.CET6_DATA = {
         },
         {
           "word": "prosecution",
-          "meaning": "[派生] n.（被）起诉，检举，诉讼；原告 学永"
+          "meaning": "n.（被）起诉，检举，诉讼；原告 学永"
         },
         {
           "word": "very",
@@ -49531,7 +49531,7 @@ window.CET6_DATA = {
         },
         {
           "word": "resentment",
-          "meaning": "[派生] n.愤恨，怨恨，不满"
+          "meaning": "n.愤恨，怨恨，不满"
         },
         {
           "word": "severe",
@@ -49551,7 +49551,7 @@ window.CET6_DATA = {
         },
         {
           "word": "deviation",
-          "meaning": "[派生] n.偏离；违背；偏差"
+          "meaning": "n.偏离；违背；偏差"
         },
         {
           "word": "truth",
@@ -49575,7 +49575,7 @@ window.CET6_DATA = {
         },
         {
           "word": "subjective",
-          "meaning": "[派生] adj.主观的；主语的"
+          "meaning": "adj.主观的；主语的"
         },
         {
           "word": "advantage",
@@ -49583,7 +49583,7 @@ window.CET6_DATA = {
         },
         {
           "word": "alliance",
-          "meaning": "[派生] n.联盟"
+          "meaning": "n.联盟"
         },
         {
           "word": "accurate",
@@ -49611,27 +49611,27 @@ window.CET6_DATA = {
         },
         {
           "word": "employment",
-          "meaning": "[派生] n.工作；雇用"
+          "meaning": "n.工作；雇用"
         },
         {
           "word": "renowned",
-          "meaning": "[派生] adj.有名望的，著名的"
+          "meaning": "adj.有名望的，著名的"
         },
         {
           "word": "graceful",
-          "meaning": "[派生] adj.优美的；得体的"
+          "meaning": "adj.优美的；得体的"
         },
         {
           "word": "frustration",
-          "meaning": "[派生] n.懊恼；沮丧；挫败"
+          "meaning": "n.懊恼；沮丧；挫败"
         },
         {
           "word": "extremity",
-          "meaning": "[派生] n.极端，末端；尽头"
+          "meaning": "n.极端，末端；尽头"
         },
         {
           "word": "incidentally",
-          "meaning": "[派生] adv.偶然地；顺便提一句"
+          "meaning": "adv.偶然地；顺便提一句"
         },
         {
           "word": "dim",
@@ -49699,7 +49699,7 @@ window.CET6_DATA = {
         },
         {
           "word": "appointment",
-          "meaning": "[派生] n.约会；预约；约定"
+          "meaning": "n.约会；预约；约定"
         },
         {
           "word": "discern",
@@ -49747,11 +49747,11 @@ window.CET6_DATA = {
         },
         {
           "word": "conclusion",
-          "meaning": "[派生] n.结论；结束"
+          "meaning": "n.结论；结束"
         },
         {
           "word": "observation",
-          "meaning": "[派生] n.观察；观测；监视；评论"
+          "meaning": "n.观察；观测；监视；评论"
         },
         {
           "word": "benefit",
@@ -49783,15 +49783,15 @@ window.CET6_DATA = {
         },
         {
           "word": "territorial",
-          "meaning": "[派生] adj.领土的；领域性的"
+          "meaning": "adj.领土的；领域性的"
         },
         {
           "word": "operational",
-          "meaning": "[派生] adj.操作的，运转的，运营的；业务的"
+          "meaning": "adj.操作的，运转的，运营的；业务的"
         },
         {
           "word": "leverage",
-          "meaning": "[派生] n.影响力；杠杆作用v.充分利用"
+          "meaning": "n.影响力；杠杆作用v.充分利用"
         },
         {
           "word": "prescribe",
@@ -49803,11 +49803,11 @@ window.CET6_DATA = {
         },
         {
           "word": "detailed",
-          "meaning": "[派生] adj.详细的；细致的"
+          "meaning": "adj.详细的；细致的"
         },
         {
           "word": "indifference",
-          "meaning": "[派生] n.冷漠，漠不关心"
+          "meaning": "n.冷漠，漠不关心"
         },
         {
           "word": "nickname",
@@ -49855,7 +49855,7 @@ window.CET6_DATA = {
         },
         {
           "word": "exposure",
-          "meaning": "[派生] n.暴露，曝光；接触；揭露"
+          "meaning": "n.暴露，曝光；接触；揭露"
         },
         {
           "word": "apology",
@@ -49883,7 +49883,7 @@ window.CET6_DATA = {
         },
         {
           "word": "innovative",
-          "meaning": "[派生]"
+          "meaning": "adj. 创新的，革新的；新颖的"
         },
         {
           "word": "lorry",
@@ -49967,11 +49967,11 @@ window.CET6_DATA = {
         },
         {
           "word": "proposal",
-          "meaning": "[派生] n.提议，建议；求婚"
+          "meaning": "n.提议，建议；求婚"
         },
         {
           "word": "congressional",
-          "meaning": "[派生] adj.国会的；代表大会的"
+          "meaning": "adj.国会的；代表大会的"
         },
         {
           "word": "plea",
@@ -49979,7 +49979,7 @@ window.CET6_DATA = {
         },
         {
           "word": "solemnity",
-          "meaning": "[派生] n.庄严；庄重"
+          "meaning": "n.庄严；庄重"
         },
         {
           "word": "commemorate",
@@ -50023,7 +50023,7 @@ window.CET6_DATA = {
         },
         {
           "word": "harassment",
-          "meaning": "[派生]"
+          "meaning": "n. 骚扰；折磨，骚扰行为"
         },
         {
           "word": "hostess",
@@ -50043,7 +50043,7 @@ window.CET6_DATA = {
         },
         {
           "word": "bureaucracy",
-          "meaning": "[派生] n.官僚主义；官体制；官僚作风"
+          "meaning": "n.官僚主义；官体制；官僚作风"
         },
         {
           "word": "advise",
@@ -50091,11 +50091,11 @@ window.CET6_DATA = {
         },
         {
           "word": "immigration",
-          "meaning": "[派生] n.移居（人境）；移民人数"
+          "meaning": "n.移居（人境）；移民人数"
         },
         {
           "word": "calculating",
-          "meaning": "[派生] adj.精明的"
+          "meaning": "adj.精明的"
         },
         {
           "word": "hut",
@@ -50139,7 +50139,7 @@ window.CET6_DATA = {
         },
         {
           "word": "respond",
-          "meaning": "[派生] v.回答，回应；作出反应"
+          "meaning": "v.回答，回应；作出反应"
         },
         {
           "word": "payroll",
@@ -50159,7 +50159,7 @@ window.CET6_DATA = {
         },
         {
           "word": "lawn",
-          "meaning": "n.草地，草坪 Lesson"
+          "meaning": "n.草地，草坪"
         },
         {
           "word": "etiquette",
@@ -50191,11 +50191,11 @@ window.CET6_DATA = {
         },
         {
           "word": "defective",
-          "meaning": "[派生] 病的 adj.有缺点的，有缺陷的，有毛"
+          "meaning": "病的 adj.有缺点的，有缺陷的，有毛"
         },
         {
           "word": "obsession",
-          "meaning": "[派生] n.痴迷；困扰"
+          "meaning": "n.痴迷；困扰"
         },
         {
           "word": "companion",
@@ -50219,7 +50219,7 @@ window.CET6_DATA = {
         },
         {
           "word": "terrible",
-          "meaning": "[派生] adj.可怕的；非常严重的"
+          "meaning": "adj.可怕的；非常严重的"
         },
         {
           "word": "dragon",
@@ -50231,11 +50231,11 @@ window.CET6_DATA = {
         },
         {
           "word": "amusing",
-          "meaning": "[派生] adj.逗人笑的；有乐趣的；好笑的"
+          "meaning": "adj.逗人笑的；有乐趣的；好笑的"
         },
         {
           "word": "persecution",
-          "meaning": "[派生] n.迫害，残害；骚扰"
+          "meaning": "n.迫害，残害；骚扰"
         },
         {
           "word": "indulge",
@@ -50247,7 +50247,7 @@ window.CET6_DATA = {
         },
         {
           "word": "offensive",
-          "meaning": "[派生] n.进攻；攻击 adj.冒犯的；攻击性的；令人不适的"
+          "meaning": "n.进攻；攻击 adj.冒犯的；攻击性的；令人不适的"
         },
         {
           "word": "workshop",
@@ -50259,7 +50259,7 @@ window.CET6_DATA = {
         },
         {
           "word": "domination",
-          "meaning": "[派生] n.支配，控制，影响"
+          "meaning": "n.支配，控制，影响"
         },
         {
           "word": "preposition",
@@ -50267,7 +50267,7 @@ window.CET6_DATA = {
         },
         {
           "word": "defensive",
-          "meaning": "[派生] adj.防御的；自卫的"
+          "meaning": "adj.防御的；自卫的"
         },
         {
           "word": "tower",
@@ -50307,7 +50307,7 @@ window.CET6_DATA = {
         },
         {
           "word": "resumption",
-          "meaning": "[派生] n.重新开始；恢复"
+          "meaning": "n.重新开始；恢复"
         },
         {
           "word": "responsive",
@@ -50315,7 +50315,7 @@ window.CET6_DATA = {
         },
         {
           "word": "resistance",
-          "meaning": "[派生] n.抵制；抵抗"
+          "meaning": "n.抵制；抵抗"
         },
         {
           "word": "ruling",
@@ -50347,7 +50347,7 @@ window.CET6_DATA = {
         },
         {
           "word": "impressive",
-          "meaning": "[派生] adj.给人深刻印象的"
+          "meaning": "adj.给人深刻印象的"
         },
         {
           "word": "chairman",
@@ -50363,7 +50363,7 @@ window.CET6_DATA = {
         },
         {
           "word": "strict",
-          "meaning": "adj.严格的；严厉的 Unit"
+          "meaning": "adj.严格的；严厉的"
         },
         {
           "word": "anchor",
@@ -50371,7 +50371,7 @@ window.CET6_DATA = {
         },
         {
           "word": "publicly",
-          "meaning": "[派生] adv.公开地"
+          "meaning": "adv.公开地"
         },
         {
           "word": "loop",
@@ -50399,7 +50399,7 @@ window.CET6_DATA = {
         },
         {
           "word": "laundry",
-          "meaning": "n.要/正在洗的衣物；洗衣房 Unit"
+          "meaning": "n.要/正在洗的衣物；洗衣房"
         },
         {
           "word": "bilateral",
@@ -50407,7 +50407,7 @@ window.CET6_DATA = {
         },
         {
           "word": "ascendancy",
-          "meaning": "[派生] n.优势；支配地位"
+          "meaning": "n.优势；支配地位"
         },
         {
           "word": "glider",
@@ -50415,7 +50415,7 @@ window.CET6_DATA = {
         },
         {
           "word": "acquaintance",
-          "meaning": "[派生] n.熟人；认识"
+          "meaning": "n.熟人；认识"
         },
         {
           "word": "incumbent",
@@ -50487,7 +50487,7 @@ window.CET6_DATA = {
         },
         {
           "word": "conversion",
-          "meaning": "[派生] n.转变，转换；转化"
+          "meaning": "n.转变，转换；转化"
         },
         {
           "word": "cease",
@@ -50515,7 +50515,7 @@ window.CET6_DATA = {
         },
         {
           "word": "facilitation",
-          "meaning": "[派生] n.促进"
+          "meaning": "n.促进"
         },
         {
           "word": "naked",
@@ -50523,7 +50523,7 @@ window.CET6_DATA = {
         },
         {
           "word": "conservation",
-          "meaning": "[派生] n.保护；保存；节约"
+          "meaning": "n.保护；保存；节约"
         },
         {
           "word": "hundred",
@@ -50571,7 +50571,7 @@ window.CET6_DATA = {
         },
         {
           "word": "customary",
-          "meaning": "[派生] adj.习俗的；习惯的"
+          "meaning": "adj.习俗的；习惯的"
         },
         {
           "word": "damn",
@@ -50595,7 +50595,7 @@ window.CET6_DATA = {
         },
         {
           "word": "hindrance",
-          "meaning": "[派生] n.妨碍；造成妨碍的人（或物）"
+          "meaning": "n.妨碍；造成妨碍的人（或物）"
         },
         {
           "word": "agriculture",
@@ -50651,7 +50651,7 @@ window.CET6_DATA = {
         },
         {
           "word": "passionate",
-          "meaning": "[派生] adj.激情的，热情的"
+          "meaning": "adj.激情的，热情的"
         },
         {
           "word": "tooth",
@@ -50663,7 +50663,7 @@ window.CET6_DATA = {
         },
         {
           "word": "fragmentary",
-          "meaning": "[派生] adj.残缺不全的，不完整的"
+          "meaning": "adj.残缺不全的，不完整的"
         },
         {
           "word": "rough",
@@ -50707,11 +50707,11 @@ window.CET6_DATA = {
         },
         {
           "word": "illustrative",
-          "meaning": "[派生] adj.说明的；解释性的"
+          "meaning": "adj.说明的；解释性的"
         },
         {
           "word": "uniformity",
-          "meaning": "[派生] n.一致；统一"
+          "meaning": "n.一致；统一"
         },
         {
           "word": "pretty",
@@ -50719,7 +50719,7 @@ window.CET6_DATA = {
         },
         {
           "word": "provocation",
-          "meaning": "[派生] n.挑鲜，激怒"
+          "meaning": "n.挑鲜，激怒"
         },
         {
           "word": "biotechnology",
@@ -50739,7 +50739,7 @@ window.CET6_DATA = {
         },
         {
           "word": "accumulative",
-          "meaning": "[派生] adj.累积的"
+          "meaning": "adj.累积的"
         },
         {
           "word": "cell",
@@ -50747,7 +50747,7 @@ window.CET6_DATA = {
         },
         {
           "word": "punctuality",
-          "meaning": "[派生] n.准时"
+          "meaning": "n.准时"
         },
         {
           "word": "collar",
@@ -50791,11 +50791,11 @@ window.CET6_DATA = {
         },
         {
           "word": "president",
-          "meaning": "[派生] n.总统；国家主席；会长；总裁"
+          "meaning": "n.总统；国家主席；会长；总裁"
         },
         {
           "word": "ancestry",
-          "meaning": "[派生] n.祖宗，祖先"
+          "meaning": "n.祖宗，祖先"
         },
         {
           "word": "knotty",
@@ -50811,7 +50811,7 @@ window.CET6_DATA = {
         },
         {
           "word": "candidacy",
-          "meaning": "[派生] n.候选人的资格（或身份）"
+          "meaning": "n.候选人的资格（或身份）"
         },
         {
           "word": "bushy",
@@ -50823,7 +50823,7 @@ window.CET6_DATA = {
         },
         {
           "word": "elementary",
-          "meaning": "[派生] adj.基本的；初级的"
+          "meaning": "adj.基本的；初级的"
         },
         {
           "word": "prayer",
@@ -50855,7 +50855,7 @@ window.CET6_DATA = {
         },
         {
           "word": "anxiety",
-          "meaning": "[派生] n.忧虑，担忧；渴望"
+          "meaning": "n.忧虑，担忧；渴望"
         },
         {
           "word": "gorge",
@@ -50895,11 +50895,11 @@ window.CET6_DATA = {
         },
         {
           "word": "consultative",
-          "meaning": "[派生] adj.咨询的；顾问的"
+          "meaning": "adj.咨询的；顾问的"
         },
         {
           "word": "definitely",
-          "meaning": "[派生] adv.确切地；明确地；清楚地"
+          "meaning": "adv.确切地；明确地；清楚地"
         },
         {
           "word": "mysterious",
@@ -50931,7 +50931,7 @@ window.CET6_DATA = {
         },
         {
           "word": "energetically",
-          "meaning": "[派生] adv.精力充沛地，充满活力地"
+          "meaning": "adv.精力充沛地，充满活力地"
         },
         {
           "word": "doctoral",
@@ -50955,7 +50955,7 @@ window.CET6_DATA = {
         },
         {
           "word": "experienced",
-          "meaning": "[派生] adj.有经验的，熟练的；有阅历的"
+          "meaning": "adj.有经验的，熟练的；有阅历的"
         },
         {
           "word": "summit",
@@ -50979,7 +50979,7 @@ window.CET6_DATA = {
         },
         {
           "word": "insistence",
-          "meaning": "[派生] n.坚决要求；坚持"
+          "meaning": "n.坚决要求；坚持"
         },
         {
           "word": "concrete",
@@ -51027,7 +51027,7 @@ window.CET6_DATA = {
         },
         {
           "word": "amazement",
-          "meaning": "[派生] n.惊奇；惊"
+          "meaning": "n.惊奇；惊"
         },
         {
           "word": "progressive",
@@ -51151,7 +51151,7 @@ window.CET6_DATA = {
         },
         {
           "word": "eruption",
-          "meaning": "[派生] n.突然发生；爆发；喷发"
+          "meaning": "n.突然发生；爆发；喷发"
         },
         {
           "word": "mock",
@@ -51163,7 +51163,7 @@ window.CET6_DATA = {
         },
         {
           "word": "analysis",
-          "meaning": "[派生] n.分析；分析结果"
+          "meaning": "n.分析；分析结果"
         },
         {
           "word": "accessory",
@@ -51215,11 +51215,11 @@ window.CET6_DATA = {
         },
         {
           "word": "fragrance",
-          "meaning": "[派生] n.香气；香味"
+          "meaning": "n.香气；香味"
         },
         {
           "word": "smuggling",
-          "meaning": "[派生] n.走私(罪)"
+          "meaning": "n.走私(罪)"
         },
         {
           "word": "segment",
@@ -51227,7 +51227,7 @@ window.CET6_DATA = {
         },
         {
           "word": "melodious",
-          "meaning": "[派生] adj.悦耳的；优美动听的"
+          "meaning": "adj.悦耳的；优美动听的"
         },
         {
           "word": "release",
@@ -51247,7 +51247,7 @@ window.CET6_DATA = {
         },
         {
           "word": "embarrassment",
-          "meaning": "[派生] n.尴尬，困境"
+          "meaning": "n.尴尬，困境"
         },
         {
           "word": "orbital",
@@ -51259,7 +51259,7 @@ window.CET6_DATA = {
         },
         {
           "word": "terminate",
-          "meaning": "[派生] v.(使)结束；到达终点站"
+          "meaning": "v.(使)结束；到达终点站"
         },
         {
           "word": "campus",
@@ -51299,7 +51299,7 @@ window.CET6_DATA = {
         },
         {
           "word": "enlightening",
-          "meaning": "[派生] adj.有启迪的，使人感悟的"
+          "meaning": "adj.有启迪的，使人感悟的"
         },
         {
           "word": "paralyse",
@@ -51363,7 +51363,7 @@ window.CET6_DATA = {
         },
         {
           "word": "institutional",
-          "meaning": "[派生] adj.机构的；慈善机构的；惯例的"
+          "meaning": "adj.机构的；慈善机构的；惯例的"
         },
         {
           "word": "spacecraft",
@@ -51391,7 +51391,7 @@ window.CET6_DATA = {
         },
         {
           "word": "specialist",
-          "meaning": "[派生] n.专家；专科医生"
+          "meaning": "n.专家；专科医生"
         },
         {
           "word": "feel",
@@ -51399,7 +51399,7 @@ window.CET6_DATA = {
         },
         {
           "word": "literally",
-          "meaning": "[派生] adv.字面上；确实地；简直"
+          "meaning": "adv.字面上；确实地；简直"
         },
         {
           "word": "blog",
@@ -51407,11 +51407,11 @@ window.CET6_DATA = {
         },
         {
           "word": "subtlety",
-          "meaning": "[派生] n.微妙；狡猜；敏锐"
+          "meaning": "n.微妙；狡猜；敏锐"
         },
         {
           "word": "affordable",
-          "meaning": "[派生] adj.便宜的；负担得起的"
+          "meaning": "adj.便宜的；负担得起的"
         },
         {
           "word": "sausage",
@@ -51419,7 +51419,7 @@ window.CET6_DATA = {
         },
         {
           "word": "instructive",
-          "meaning": "[派生] adj.富有教益的；增长知识的"
+          "meaning": "adj.富有教益的；增长知识的"
         },
         {
           "word": "impair",
@@ -51443,7 +51443,7 @@ window.CET6_DATA = {
         },
         {
           "word": "accusation",
-          "meaning": "[派生] n.控告，起诉；告发；遣责"
+          "meaning": "n.控告，起诉；告发；遣责"
         },
         {
           "word": "appearance",
@@ -51459,7 +51459,7 @@ window.CET6_DATA = {
         },
         {
           "word": "democrat",
-          "meaning": "[派生] n.(美国)民主党党员，民主党人，民主 党支持者"
+          "meaning": "n.(美国)民主党党员，民主党人，民主 党支持者"
         },
         {
           "word": "actual",
@@ -51483,7 +51483,7 @@ window.CET6_DATA = {
         },
         {
           "word": "operator",
-          "meaning": "[派生] n.操作人员"
+          "meaning": "n.操作人员"
         },
         {
           "word": "spare",
@@ -51491,7 +51491,7 @@ window.CET6_DATA = {
         },
         {
           "word": "complimentary",
-          "meaning": "[派生] adj. 表示钦佩的；赞美的；免费赠送的"
+          "meaning": "adj. 表示钦佩的；赞美的；免费赠送的"
         },
         {
           "word": "spit",
@@ -51499,7 +51499,7 @@ window.CET6_DATA = {
         },
         {
           "word": "differentiation",
-          "meaning": "[派生] n.区分，区别"
+          "meaning": "n.区分，区别"
         },
         {
           "word": "outsider",
@@ -51539,7 +51539,7 @@ window.CET6_DATA = {
         },
         {
           "word": "classical",
-          "meaning": "[派生] adj.古典的；经典的；传统的"
+          "meaning": "adj.古典的；经典的；传统的"
         },
         {
           "word": "impact",
@@ -51563,7 +51563,7 @@ window.CET6_DATA = {
         },
         {
           "word": "technician",
-          "meaning": "[派生] n.技术员；技师"
+          "meaning": "n.技术员；技师"
         },
         {
           "word": "rarely",
@@ -51591,11 +51591,11 @@ window.CET6_DATA = {
         },
         {
           "word": "awareness",
-          "meaning": "[派生] n.认识，意识"
+          "meaning": "n.认识，意识"
         },
         {
           "word": "obedience",
-          "meaning": "[派生] n.顺从，服从"
+          "meaning": "n.顺从，服从"
         },
         {
           "word": "swap",
@@ -51607,7 +51607,7 @@ window.CET6_DATA = {
         },
         {
           "word": "attributable",
-          "meaning": "[派生] adj.可归因于...的"
+          "meaning": "adj.可归因于...的"
         },
         {
           "word": "instruct",
@@ -51623,7 +51623,7 @@ window.CET6_DATA = {
         },
         {
           "word": "occupancy",
-          "meaning": "[派生] n.占用，使用，居住"
+          "meaning": "n.占用，使用，居住"
         },
         {
           "word": "sack",
@@ -51643,7 +51643,7 @@ window.CET6_DATA = {
         },
         {
           "word": "guilty",
-          "meaning": "[派生] adj.内疚的；有罪责的"
+          "meaning": "adj.内疚的；有罪责的"
         },
         {
           "word": "adhere",
@@ -51715,7 +51715,7 @@ window.CET6_DATA = {
         },
         {
           "word": "negotiable",
-          "meaning": "[派生] adj.可协商的，可讨论的"
+          "meaning": "adj.可协商的，可讨论的"
         },
         {
           "word": "assist",
@@ -51743,7 +51743,7 @@ window.CET6_DATA = {
         },
         {
           "word": "participation",
-          "meaning": "[派生] n.参加"
+          "meaning": "n.参加"
         },
         {
           "word": "discriminate",
@@ -51815,7 +51815,7 @@ window.CET6_DATA = {
         },
         {
           "word": "relationship",
-          "meaning": "[派生] n.关系，联系"
+          "meaning": "n.关系，联系"
         },
         {
           "word": "millionaire",
@@ -51863,7 +51863,7 @@ window.CET6_DATA = {
         },
         {
           "word": "recording",
-          "meaning": "[派生] n.录制，音像制品"
+          "meaning": "n.录制，音像制品"
         },
         {
           "word": "liberate",
@@ -51887,7 +51887,7 @@ window.CET6_DATA = {
         },
         {
           "word": "insurance",
-          "meaning": "[派生]"
+          "meaning": "n. 保险；保险费；安全保障"
         },
         {
           "word": "erase",
@@ -51899,7 +51899,7 @@ window.CET6_DATA = {
         },
         {
           "word": "deployment",
-          "meaning": "[派生] n.部署"
+          "meaning": "n.部署"
         },
         {
           "word": "article",
@@ -51939,7 +51939,7 @@ window.CET6_DATA = {
         },
         {
           "word": "concealment",
-          "meaning": "[派生] n.隐藏，隐瞒；掩盖"
+          "meaning": "n.隐藏，隐瞒；掩盖"
         },
         {
           "word": "globalise",
@@ -51959,11 +51959,11 @@ window.CET6_DATA = {
         },
         {
           "word": "intrusion",
-          "meaning": "[派生] n.侵扰性的事物；扰乱"
+          "meaning": "n.侵扰性的事物；扰乱"
         },
         {
           "word": "prosperous",
-          "meaning": "[派生] adj.繁荣的，兴旺的，发达的"
+          "meaning": "adj.繁荣的，兴旺的，发达的"
         },
         {
           "word": "worthwhile",
@@ -51971,7 +51971,7 @@ window.CET6_DATA = {
         },
         {
           "word": "financial",
-          "meaning": "[派生] adj.财务的；金融的"
+          "meaning": "adj.财务的；金融的"
         },
         {
           "word": "weight",
@@ -52079,7 +52079,7 @@ window.CET6_DATA = {
         },
         {
           "word": "inspection",
-          "meaning": "[派生] n.视察；检查"
+          "meaning": "n.视察；检查"
         },
         {
           "word": "hardy",
@@ -52091,7 +52091,7 @@ window.CET6_DATA = {
         },
         {
           "word": "extraordinary",
-          "meaning": "adj.令人惊奇的；非凡的， 卓越的；特别的 Lesson"
+          "meaning": "adj.令人惊奇的；非凡的， 卓越的；特别的"
         },
         {
           "word": "violent",
@@ -52131,7 +52131,7 @@ window.CET6_DATA = {
         },
         {
           "word": "criticism",
-          "meaning": "[派生] n.批评，批判；评论"
+          "meaning": "n.批评，批判；评论"
         },
         {
           "word": "appropriate",
@@ -52143,7 +52143,7 @@ window.CET6_DATA = {
         },
         {
           "word": "remedial",
-          "meaning": "[派生] adj.补救的；辅导的"
+          "meaning": "adj.补救的；辅导的"
         },
         {
           "word": "exciting",
@@ -52183,11 +52183,11 @@ window.CET6_DATA = {
         },
         {
           "word": "athletic",
-          "meaning": "[派生] adj.健壮的；田径运动的"
+          "meaning": "adj.健壮的；田径运动的"
         },
         {
           "word": "intervention",
-          "meaning": "[派生] n.出面；干预；打断（别人的话）"
+          "meaning": "n.出面；干预；打断（别人的话）"
         },
         {
           "word": "eager",
@@ -52219,7 +52219,7 @@ window.CET6_DATA = {
         },
         {
           "word": "accountancy",
-          "meaning": "[派生] n.会计工作；会计职业"
+          "meaning": "n.会计工作；会计职业"
         },
         {
           "word": "what",
@@ -52227,7 +52227,7 @@ window.CET6_DATA = {
         },
         {
           "word": "enclosure",
-          "meaning": "[派生] n.围场；（信中的）附件"
+          "meaning": "n.围场；（信中的）附件"
         },
         {
           "word": "calf",
@@ -52303,7 +52303,7 @@ window.CET6_DATA = {
         },
         {
           "word": "approximately",
-          "meaning": "[派生] adv.大概，大约"
+          "meaning": "adv.大概，大约"
         },
         {
           "word": "appetite",
@@ -52311,15 +52311,15 @@ window.CET6_DATA = {
         },
         {
           "word": "importation",
-          "meaning": "[派生] n.进，输入，引进"
+          "meaning": "n.进，输入，引进"
         },
         {
           "word": "radar",
-          "meaning": "n.雷达 3"
+          "meaning": "n.雷达"
         },
         {
           "word": "graphically",
-          "meaning": "[派生] adv.以书画（或图表）形式；形象地， 生动地"
+          "meaning": "adv.以书画（或图表）形式；形象地， 生动地"
         },
         {
           "word": "raw",
@@ -52339,11 +52339,11 @@ window.CET6_DATA = {
         },
         {
           "word": "publicity",
-          "meaning": "[派生] n.（媒体的）关注，宣传，报道"
+          "meaning": "n.（媒体的）关注，宣传，报道"
         },
         {
           "word": "concept",
-          "meaning": "n.概念，观念 9"
+          "meaning": "n.概念，观念"
         },
         {
           "word": "indifferent",
@@ -52351,7 +52351,7 @@ window.CET6_DATA = {
         },
         {
           "word": "urbanize",
-          "meaning": "[派生] v. 使都市化"
+          "meaning": "v. 使都市化"
         },
         {
           "word": "obese",
@@ -52371,7 +52371,7 @@ window.CET6_DATA = {
         },
         {
           "word": "transportation",
-          "meaning": "[派生] n.交通运输系统"
+          "meaning": "n.交通运输系统"
         },
         {
           "word": "coexist",
@@ -52407,7 +52407,7 @@ window.CET6_DATA = {
         },
         {
           "word": "federation",
-          "meaning": "[派生] n.联邦；联合会；联盟"
+          "meaning": "n.联邦；联合会；联盟"
         },
         {
           "word": "yearly",
@@ -52435,7 +52435,7 @@ window.CET6_DATA = {
         },
         {
           "word": "bribery",
-          "meaning": "[派生] n.贿赂"
+          "meaning": "n.贿赂"
         },
         {
           "word": "stupidity",
@@ -52443,11 +52443,11 @@ window.CET6_DATA = {
         },
         {
           "word": "deterrent",
-          "meaning": "[派生] n.威摄物adj.威慑的；制止的"
+          "meaning": "n.威摄物adj.威慑的；制止的"
         },
         {
           "word": "alienation",
-          "meaning": "[派生] n.离间；疏远"
+          "meaning": "n.离间；疏远"
         },
         {
           "word": "king",
@@ -52487,7 +52487,7 @@ window.CET6_DATA = {
         },
         {
           "word": "voter",
-          "meaning": "[派生] n.投票人，选举人"
+          "meaning": "n.投票人，选举人"
         },
         {
           "word": "July",
@@ -52511,7 +52511,7 @@ window.CET6_DATA = {
         },
         {
           "word": "continental",
-          "meaning": "[派生] adj.大陆的；大洲的"
+          "meaning": "adj.大陆的；大洲的"
         },
         {
           "word": "networking",
@@ -52523,7 +52523,7 @@ window.CET6_DATA = {
         },
         {
           "word": "election",
-          "meaning": "[派生] n.选举，推选（尤指从政）"
+          "meaning": "n.选举，推选（尤指从政）"
         },
         {
           "word": "senior",
@@ -52535,7 +52535,7 @@ window.CET6_DATA = {
         },
         {
           "word": "relativity",
-          "meaning": "[派生] n.相对论；相对性"
+          "meaning": "n.相对论；相对性"
         },
         {
           "word": "surge",
@@ -52547,11 +52547,11 @@ window.CET6_DATA = {
         },
         {
           "word": "monopolize",
-          "meaning": "[派生] v. 独占，垄断"
+          "meaning": "v. 独占，垄断"
         },
         {
           "word": "partially",
-          "meaning": "[派生] adv.部分地；不完全地"
+          "meaning": "adv.部分地；不完全地"
         },
         {
           "word": "journalism",
@@ -52579,7 +52579,7 @@ window.CET6_DATA = {
         },
         {
           "word": "authoritative",
-          "meaning": "[派生] adj.命令式的；权威性的"
+          "meaning": "adj.命令式的；权威性的"
         },
         {
           "word": "lot",
@@ -52651,7 +52651,7 @@ window.CET6_DATA = {
         },
         {
           "word": "director",
-          "meaning": "[派生] dat'rekta(r)/ n.董事；理事；经理"
+          "meaning": "dat'rekta(r)/ n.董事；理事；经理"
         },
         {
           "word": "peck",
@@ -52671,7 +52671,7 @@ window.CET6_DATA = {
         },
         {
           "word": "overwhelmingly",
-          "meaning": "[派生] adv.巨大地；压倒性地"
+          "meaning": "adv.巨大地；压倒性地"
         },
         {
           "word": "resultant",
@@ -52731,7 +52731,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pavement",
-          "meaning": "n.人行道；路面 2"
+          "meaning": "n.人行道；路面"
         },
         {
           "word": "withhold",
@@ -52783,7 +52783,7 @@ window.CET6_DATA = {
         },
         {
           "word": "requisite",
-          "meaning": "[派生] adj.必需的 1n.必需的事物"
+          "meaning": "adj.必需的 1n.必需的事物"
         },
         {
           "word": "law",
@@ -52795,7 +52795,7 @@ window.CET6_DATA = {
         },
         {
           "word": "attainment",
-          "meaning": "[派生] n.成就；达到；获得"
+          "meaning": "n.成就；达到；获得"
         },
         {
           "word": "chancellor",
@@ -52803,7 +52803,7 @@ window.CET6_DATA = {
         },
         {
           "word": "hinge",
-          "meaning": "n.铰链v.给（某物）装铰链 Lesson"
+          "meaning": "n.铰链v.给（某物）装铰链"
         },
         {
           "word": "antibiotic",
@@ -52831,7 +52831,7 @@ window.CET6_DATA = {
         },
         {
           "word": "resignation",
-          "meaning": "[派生] n.辞职；辞职信"
+          "meaning": "n.辞职；辞职信"
         },
         {
           "word": "overt",
@@ -52843,7 +52843,7 @@ window.CET6_DATA = {
         },
         {
           "word": "literature",
-          "meaning": "[派生] n.文学，文学作品；文献"
+          "meaning": "n.文学，文学作品；文献"
         },
         {
           "word": "minimal",
@@ -52887,7 +52887,7 @@ window.CET6_DATA = {
         },
         {
           "word": "method",
-          "meaning": "[派生] n.方法；措施；条理"
+          "meaning": "n.方法；措施；条理"
         },
         {
           "word": "exceedingly",
@@ -52931,7 +52931,7 @@ window.CET6_DATA = {
         },
         {
           "word": "irritate",
-          "meaning": "[派生] v.使烦恼；刺激"
+          "meaning": "v.使烦恼；刺激"
         },
         {
           "word": "reluctant",
@@ -52947,7 +52947,7 @@ window.CET6_DATA = {
         },
         {
           "word": "tutorial",
-          "meaning": "[派生] n.个别辅导时间，辅导课 adj.导师的；私人教师的；辅导的"
+          "meaning": "n.个别辅导时间，辅导课 adj.导师的；私人教师的；辅导的"
         },
         {
           "word": "lighting",
@@ -52955,7 +52955,7 @@ window.CET6_DATA = {
         },
         {
           "word": "presidency",
-          "meaning": "[派生] n.总统(或主席）的职位；任期"
+          "meaning": "n.总统(或主席）的职位；任期"
         },
         {
           "word": "architecture",
@@ -52967,7 +52967,7 @@ window.CET6_DATA = {
         },
         {
           "word": "criminal",
-          "meaning": "[派生] n.罪犯，犯罪者adj.犯罪的，犯法的"
+          "meaning": "n.罪犯，犯罪者adj.犯罪的，犯法的"
         },
         {
           "word": "forget",
@@ -52995,7 +52995,7 @@ window.CET6_DATA = {
         },
         {
           "word": "petitioner",
-          "meaning": "[派生] n.请愿者；请求者"
+          "meaning": "n.请愿者；请求者"
         },
         {
           "word": "preside",
@@ -53023,7 +53023,7 @@ window.CET6_DATA = {
         },
         {
           "word": "urbanization",
-          "meaning": "[派生] n. 城市化"
+          "meaning": "n. 城市化"
         },
         {
           "word": "channel",
@@ -53091,7 +53091,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pollster",
-          "meaning": "n.民意测验主办人；民意调查员 13"
+          "meaning": "n.民意测验主办人；民意调查员"
         },
         {
           "word": "four",
@@ -53115,7 +53115,7 @@ window.CET6_DATA = {
         },
         {
           "word": "enthusiasm",
-          "meaning": "[派生] n.热情，热心"
+          "meaning": "n.热情，热心"
         },
         {
           "word": "burn",
@@ -53127,7 +53127,7 @@ window.CET6_DATA = {
         },
         {
           "word": "refuse",
-          "meaning": "[派生] n.废弃物，垃圾 v.拒绝，回绝"
+          "meaning": "n.废弃物，垃圾 v.拒绝，回绝"
         },
         {
           "word": "lastly",
@@ -53227,7 +53227,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reluctance",
-          "meaning": "[派生] n.勉强，不情愿"
+          "meaning": "n.勉强，不情愿"
         },
         {
           "word": "get",
@@ -53271,7 +53271,7 @@ window.CET6_DATA = {
         },
         {
           "word": "exhaustive",
-          "meaning": "[派生] adj.详尽的；彻底的；全面的"
+          "meaning": "adj.详尽的；彻底的；全面的"
         },
         {
           "word": "contradiction",
@@ -53287,7 +53287,7 @@ window.CET6_DATA = {
         },
         {
           "word": "affordability",
-          "meaning": "[派生] n.负担能力"
+          "meaning": "n.负担能力"
         },
         {
           "word": "neighbourhood",
@@ -53319,7 +53319,7 @@ window.CET6_DATA = {
         },
         {
           "word": "descriptive",
-          "meaning": "[派生] adj.描写的；叙述的；说明的"
+          "meaning": "adj.描写的；叙述的；说明的"
         },
         {
           "word": "thermal",
@@ -53335,7 +53335,7 @@ window.CET6_DATA = {
         },
         {
           "word": "consequently",
-          "meaning": "[派生] adv.因此，所以"
+          "meaning": "adv.因此，所以"
         },
         {
           "word": "dictator",
@@ -53347,7 +53347,7 @@ window.CET6_DATA = {
         },
         {
           "word": "association",
-          "meaning": "[派生]"
+          "meaning": "n. 协会，社团；联合，结合；联想"
         },
         {
           "word": "caravan",
@@ -53375,7 +53375,7 @@ window.CET6_DATA = {
         },
         {
           "word": "explosive",
-          "meaning": "[派生] n.爆炸物，炸药adj.能引起爆炸的"
+          "meaning": "n.爆炸物，炸药adj.能引起爆炸的"
         },
         {
           "word": "well-being",
@@ -53435,11 +53435,11 @@ window.CET6_DATA = {
         },
         {
           "word": "assistant",
-          "meaning": "[派生] n.助手 adj.助理的；副的"
+          "meaning": "n.助手 adj.助理的；副的"
         },
         {
           "word": "secretarial",
-          "meaning": "[派生] adj.秘书的；文秘工作的"
+          "meaning": "adj.秘书的；文秘工作的"
         },
         {
           "word": "exercise",
@@ -53455,7 +53455,7 @@ window.CET6_DATA = {
         },
         {
           "word": "direction",
-          "meaning": "[派生] dat'rek{n/ n.方向；方位"
+          "meaning": "dat'rek{n/ n.方向；方位"
         },
         {
           "word": "withstand",
@@ -53483,7 +53483,7 @@ window.CET6_DATA = {
         },
         {
           "word": "regulation",
-          "meaning": "[派生] n.规则；条例"
+          "meaning": "n.规则；条例"
         },
         {
           "word": "advisory",
@@ -53551,7 +53551,7 @@ window.CET6_DATA = {
         },
         {
           "word": "skepticism",
-          "meaning": "[派生] n. 怀疑态度；怀疑主义"
+          "meaning": "n. 怀疑态度；怀疑主义"
         },
         {
           "word": "daily",
@@ -53591,7 +53591,7 @@ window.CET6_DATA = {
         },
         {
           "word": "residential",
-          "meaning": "[派生] adj.住宅的"
+          "meaning": "adj.住宅的"
         },
         {
           "word": "route",
@@ -53607,7 +53607,7 @@ window.CET6_DATA = {
         },
         {
           "word": "diagnosis",
-          "meaning": "[派生] n.诊断；判断"
+          "meaning": "n.诊断；判断"
         },
         {
           "word": "familiarity",
@@ -53623,7 +53623,7 @@ window.CET6_DATA = {
         },
         {
           "word": "entertainment",
-          "meaning": "[派生]"
+          "meaning": "n. 娱乐，文娱节目；款待，招待"
         },
         {
           "word": "tip",
@@ -53639,7 +53639,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reversal",
-          "meaning": "[派生] n.颠倒；彻底转变；倒退"
+          "meaning": "n.颠倒；彻底转变；倒退"
         },
         {
           "word": "invention",
@@ -53647,11 +53647,11 @@ window.CET6_DATA = {
         },
         {
           "word": "dweller",
-          "meaning": "[派生] n.居民，居住者"
+          "meaning": "n.居民，居住者"
         },
         {
           "word": "simultaneously",
-          "meaning": "[派生] adv.同时发生(或进行)地；同步地"
+          "meaning": "adv.同时发生(或进行)地；同步地"
         },
         {
           "word": "burglar",
@@ -53663,7 +53663,7 @@ window.CET6_DATA = {
         },
         {
           "word": "legislator",
-          "meaning": "[派生] n.立法委员"
+          "meaning": "n.立法委员"
         },
         {
           "word": "urgent",
@@ -53679,7 +53679,7 @@ window.CET6_DATA = {
         },
         {
           "word": "estimation",
-          "meaning": "[派生] n.估计；判断；评价"
+          "meaning": "n.估计；判断；评价"
         },
         {
           "word": "converge",
@@ -53699,11 +53699,11 @@ window.CET6_DATA = {
         },
         {
           "word": "digestive",
-          "meaning": "[派生] adj.消化的，和消化有关的"
+          "meaning": "adj.消化的，和消化有关的"
         },
         {
           "word": "muddy",
-          "meaning": "[派生] adj.多泥的，泥泞的"
+          "meaning": "adj.多泥的，泥泞的"
         },
         {
           "word": "eleven",
@@ -53723,7 +53723,7 @@ window.CET6_DATA = {
         },
         {
           "word": "permission",
-          "meaning": "[派生] n.准许，许可，批准"
+          "meaning": "n.准许，许可，批准"
         },
         {
           "word": "portion",
@@ -53755,7 +53755,7 @@ window.CET6_DATA = {
         },
         {
           "word": "conqueror",
-          "meaning": "[派生] n.征服者；占领者；胜利者"
+          "meaning": "n.征服者；占领者；胜利者"
         },
         {
           "word": "ballot",
@@ -53787,7 +53787,7 @@ window.CET6_DATA = {
         },
         {
           "word": "marginal",
-          "meaning": "[派生] adj.微不足道的，不重要的；边缘的"
+          "meaning": "adj.微不足道的，不重要的；边缘的"
         },
         {
           "word": "live",
@@ -53827,7 +53827,7 @@ window.CET6_DATA = {
         },
         {
           "word": "conventional",
-          "meaning": "[派生] adj.墨守成规的；传统的"
+          "meaning": "adj.墨守成规的；传统的"
         },
         {
           "word": "allure",
@@ -53835,7 +53835,7 @@ window.CET6_DATA = {
         },
         {
           "word": "geologically",
-          "meaning": "[派生] adv.地质学上"
+          "meaning": "adv.地质学上"
         },
         {
           "word": "perseverance",
@@ -53875,7 +53875,7 @@ window.CET6_DATA = {
         },
         {
           "word": "critical",
-          "meaning": "[派生] adj.关键的；批评的"
+          "meaning": "adj.关键的；批评的"
         },
         {
           "word": "ammunition",
@@ -53915,7 +53915,7 @@ window.CET6_DATA = {
         },
         {
           "word": "challenging",
-          "meaning": "[派生] adj.挑战性的"
+          "meaning": "adj.挑战性的"
         },
         {
           "word": "nation",
@@ -53991,7 +53991,7 @@ window.CET6_DATA = {
         },
         {
           "word": "adjustment",
-          "meaning": "[派生] n.调整，调节；适应"
+          "meaning": "n.调整，调节；适应"
         },
         {
           "word": "boom",
@@ -54007,7 +54007,7 @@ window.CET6_DATA = {
         },
         {
           "word": "liberty",
-          "meaning": "[派生] n.自由"
+          "meaning": "n.自由"
         },
         {
           "word": "portable",
@@ -54043,7 +54043,7 @@ window.CET6_DATA = {
         },
         {
           "word": "approximation",
-          "meaning": "[派生] n.近似值；粗略估算；类似事物"
+          "meaning": "n.近似值；粗略估算；类似事物"
         },
         {
           "word": "undertake",
@@ -54063,7 +54063,7 @@ window.CET6_DATA = {
         },
         {
           "word": "accommodation",
-          "meaning": "[派生] n.住处；办公处；住宿；和解"
+          "meaning": "n.住处；办公处；住宿；和解"
         },
         {
           "word": "contend",
@@ -54087,7 +54087,7 @@ window.CET6_DATA = {
         },
         {
           "word": "elevator",
-          "meaning": "[派生] n.电梯；升降机"
+          "meaning": "n.电梯；升降机"
         },
         {
           "word": "study",
@@ -54099,7 +54099,7 @@ window.CET6_DATA = {
         },
         {
           "word": "proficiency",
-          "meaning": "[派生] n.精通；熟练"
+          "meaning": "n.精通；熟练"
         },
         {
           "word": "rigour",
@@ -54107,15 +54107,15 @@ window.CET6_DATA = {
         },
         {
           "word": "enrolment",
-          "meaning": "[派生] n.人学，注册，登记"
+          "meaning": "n.人学，注册，登记"
         },
         {
           "word": "prohibitive",
-          "meaning": "[派生] adj.（以法令）禁止的；贵得买不起的"
+          "meaning": "adj.（以法令）禁止的；贵得买不起的"
         },
         {
           "word": "decision",
-          "meaning": "[派生] n.决定；果断"
+          "meaning": "n.决定；果断"
         },
         {
           "word": "blessing",
@@ -54163,7 +54163,7 @@ window.CET6_DATA = {
         },
         {
           "word": "refutation",
-          "meaning": "[派生] n.反驳"
+          "meaning": "n.反驳"
         },
         {
           "word": "intuition",
@@ -54183,7 +54183,7 @@ window.CET6_DATA = {
         },
         {
           "word": "denial",
-          "meaning": "[派生] n.否认；拒绝给予"
+          "meaning": "n.否认；拒绝给予"
         },
         {
           "word": "textbook",
@@ -54195,7 +54195,7 @@ window.CET6_DATA = {
         },
         {
           "word": "immediately",
-          "meaning": "[派生] adv.立即；马上"
+          "meaning": "adv.立即；马上"
         },
         {
           "word": "terrain",
@@ -54203,11 +54203,11 @@ window.CET6_DATA = {
         },
         {
           "word": "mediation",
-          "meaning": "[派生] n.调停；调解"
+          "meaning": "n.调停；调解"
         },
         {
           "word": "mechanics",
-          "meaning": "[派生] n.机械学"
+          "meaning": "n.机械学"
         },
         {
           "word": "assorted",
@@ -54243,7 +54243,7 @@ window.CET6_DATA = {
         },
         {
           "word": "radioactivity",
-          "meaning": "[派生] n.放射性"
+          "meaning": "n.放射性"
         },
         {
           "word": "nationalist",
@@ -54251,7 +54251,7 @@ window.CET6_DATA = {
         },
         {
           "word": "subscriber",
-          "meaning": "[派生] n.订阅人；消费者；用户"
+          "meaning": "n.订阅人；消费者；用户"
         },
         {
           "word": "microscope",
@@ -54259,7 +54259,7 @@ window.CET6_DATA = {
         },
         {
           "word": "riot",
-          "meaning": "n.暴乱，骚乱 Init 13"
+          "meaning": "n.暴乱，骚乱 Init"
         },
         {
           "word": "refugee",
@@ -54295,7 +54295,7 @@ window.CET6_DATA = {
         },
         {
           "word": "arrangement",
-          "meaning": "[派生] n.安排；整理；约定"
+          "meaning": "n.安排；整理；约定"
         },
         {
           "word": "locomotive",
@@ -54315,7 +54315,7 @@ window.CET6_DATA = {
         },
         {
           "word": "funding",
-          "meaning": "[派生] n.专款，拨款"
+          "meaning": "n.专款，拨款"
         },
         {
           "word": "interval",
@@ -54331,7 +54331,7 @@ window.CET6_DATA = {
         },
         {
           "word": "segmental",
-          "meaning": "[派生] adj.音段的"
+          "meaning": "adj.音段的"
         },
         {
           "word": "brush",
@@ -54359,7 +54359,7 @@ window.CET6_DATA = {
         },
         {
           "word": "detached",
-          "meaning": "[派生] adj.单独的；冷漠的"
+          "meaning": "adj.单独的；冷漠的"
         },
         {
           "word": "ease",
@@ -54371,7 +54371,7 @@ window.CET6_DATA = {
         },
         {
           "word": "insulation",
-          "meaning": "[派生] n.隔绝；绝缘材料"
+          "meaning": "n.隔绝；绝缘材料"
         },
         {
           "word": "retaliation",
@@ -54391,11 +54391,11 @@ window.CET6_DATA = {
         },
         {
           "word": "vulnerability",
-          "meaning": "[派生] n.脆弱性；弱点"
+          "meaning": "n.脆弱性；弱点"
         },
         {
           "word": "justification",
-          "meaning": "[派生] n.正当理由"
+          "meaning": "n.正当理由"
         },
         {
           "word": "dividend",
@@ -54411,7 +54411,7 @@ window.CET6_DATA = {
         },
         {
           "word": "refinement",
-          "meaning": "[派生] n.精炼，提炼，提纯；改进，改善"
+          "meaning": "n.精炼，提炼，提纯；改进，改善"
         },
         {
           "word": "mouthful",
@@ -54455,7 +54455,7 @@ window.CET6_DATA = {
         },
         {
           "word": "correlation",
-          "meaning": "[派生] n.相关；关联"
+          "meaning": "n.相关；关联"
         },
         {
           "word": "outline",
@@ -54467,7 +54467,7 @@ window.CET6_DATA = {
         },
         {
           "word": "compatibility",
-          "meaning": "[派生] n.和睦相处；并存；相容"
+          "meaning": "n.和睦相处；并存；相容"
         },
         {
           "word": "tray",
@@ -54503,15 +54503,15 @@ window.CET6_DATA = {
         },
         {
           "word": "rebellious",
-          "meaning": "[派生] adj.反叛的；叛逆的；桀警不驯的"
+          "meaning": "adj.反叛的；叛逆的；桀警不驯的"
         },
         {
           "word": "respondent",
-          "meaning": "[派生] n.回答问题的人；（尤指）调查对象"
+          "meaning": "n.回答问题的人；（尤指）调查对象"
         },
         {
           "word": "hasten",
-          "meaning": "[派生] v.促进，使加快"
+          "meaning": "v.促进，使加快"
         },
         {
           "word": "tanker",
@@ -54619,7 +54619,7 @@ window.CET6_DATA = {
         },
         {
           "word": "retrieval",
-          "meaning": "[派生] n.取回；数据检索"
+          "meaning": "n.取回；数据检索"
         },
         {
           "word": "betrayal",
@@ -54639,7 +54639,7 @@ window.CET6_DATA = {
         },
         {
           "word": "amendment",
-          "meaning": "[派生] n.(法律、文件的）改动，修正，修订"
+          "meaning": "n.(法律、文件的）改动，修正，修订"
         },
         {
           "word": "lack",
@@ -54667,7 +54667,7 @@ window.CET6_DATA = {
         },
         {
           "word": "affluence",
-          "meaning": "[派生] n.富裕"
+          "meaning": "n.富裕"
         },
         {
           "word": "wrinkle",
@@ -54683,7 +54683,7 @@ window.CET6_DATA = {
         },
         {
           "word": "nourishment",
-          "meaning": "[派生] n.营养；营养品"
+          "meaning": "n.营养；营养品"
         },
         {
           "word": "essential",
@@ -54699,7 +54699,7 @@ window.CET6_DATA = {
         },
         {
           "word": "advanced",
-          "meaning": "[派生] adj.先进的；高级的"
+          "meaning": "adj.先进的；高级的"
         },
         {
           "word": "downtown",
@@ -54719,7 +54719,7 @@ window.CET6_DATA = {
         },
         {
           "word": "centre",
-          "meaning": "n. 中心，中央 v. 集中"
+          "meaning": "n. 中心，中央 v. 居中，集中"
         },
         {
           "word": "bride",
@@ -54731,11 +54731,11 @@ window.CET6_DATA = {
         },
         {
           "word": "academician",
-          "meaning": "[派生] n.院士；学会会员"
+          "meaning": "n.院士；学会会员"
         },
         {
           "word": "affirmative",
-          "meaning": "[派生] n.肯定；同意 adj.肯定的；同意的"
+          "meaning": "n.肯定；同意 adj.肯定的；同意的"
         },
         {
           "word": "overtime",
@@ -54751,7 +54751,7 @@ window.CET6_DATA = {
         },
         {
           "word": "participant",
-          "meaning": "[派生] n.参与者"
+          "meaning": "n.参与者"
         },
         {
           "word": "imitate",
@@ -54775,7 +54775,7 @@ window.CET6_DATA = {
         },
         {
           "word": "liberal",
-          "meaning": "[派生] adj.开明的；自由的，开放的"
+          "meaning": "adj.开明的；自由的，开放的"
         },
         {
           "word": "stab",
@@ -54791,7 +54791,7 @@ window.CET6_DATA = {
         },
         {
           "word": "miserable",
-          "meaning": "[派生] adj.痛苦的；可怜的；令人不快的"
+          "meaning": "adj.痛苦的；可怜的；令人不快的"
         },
         {
           "word": "concerted",
@@ -54803,7 +54803,7 @@ window.CET6_DATA = {
         },
         {
           "word": "string",
-          "meaning": "n.细绳，线；一串 Lesson"
+          "meaning": "n.细绳，线；一串"
         },
         {
           "word": "examinee",
@@ -54863,7 +54863,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pressing",
-          "meaning": "[派生] adj.紧急的，急迫的"
+          "meaning": "adj.紧急的，急迫的"
         },
         {
           "word": "dolphin",
@@ -54879,7 +54879,7 @@ window.CET6_DATA = {
         },
         {
           "word": "saturation",
-          "meaning": "[派生] n.饱和；饱和状态；饱和度"
+          "meaning": "n.饱和；饱和状态；饱和度"
         },
         {
           "word": "scold",
@@ -54911,7 +54911,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sorrow",
-          "meaning": "n.悲痛；伤心事 13"
+          "meaning": "n.悲痛；伤心事"
         },
         {
           "word": "sunset",
@@ -54927,7 +54927,7 @@ window.CET6_DATA = {
         },
         {
           "word": "persuasion",
-          "meaning": "[派生] n.说服；劝说"
+          "meaning": "n.说服；劝说"
         },
         {
           "word": "language",
@@ -54951,11 +54951,11 @@ window.CET6_DATA = {
         },
         {
           "word": "accumulation",
-          "meaning": "[派生] n.积累"
+          "meaning": "n.积累"
         },
         {
           "word": "thread",
-          "meaning": "n.线；脉络 Unit"
+          "meaning": "n.线；脉络"
         },
         {
           "word": "style",
@@ -54975,7 +54975,7 @@ window.CET6_DATA = {
         },
         {
           "word": "exclusion",
-          "meaning": "[派生] n.排斥；排除在外"
+          "meaning": "n.排斥；排除在外"
         },
         {
           "word": "recur",
@@ -54983,7 +54983,7 @@ window.CET6_DATA = {
         },
         {
           "word": "assumption",
-          "meaning": "[派生] n.假设；承担；担任"
+          "meaning": "n.假设；承担；担任"
         },
         {
           "word": "auction",
@@ -54991,7 +54991,7 @@ window.CET6_DATA = {
         },
         {
           "word": "equipment",
-          "meaning": "[派生] n.设备，装备"
+          "meaning": "n.设备，装备"
         },
         {
           "word": "rash",
@@ -55071,11 +55071,11 @@ window.CET6_DATA = {
         },
         {
           "word": "assistance",
-          "meaning": "[派生] n.帮助；援助；支持"
+          "meaning": "n.帮助；援助；支持"
         },
         {
           "word": "inhibition",
-          "meaning": "[派生] n.阻止，禁止"
+          "meaning": "n.阻止，禁止"
         },
         {
           "word": "maximum",
@@ -55115,7 +55115,7 @@ window.CET6_DATA = {
         },
         {
           "word": "climatic",
-          "meaning": "[派生] adj.气候的"
+          "meaning": "adj.气候的"
         },
         {
           "word": "strand",
@@ -55123,7 +55123,7 @@ window.CET6_DATA = {
         },
         {
           "word": "outrageous",
-          "meaning": "[派生] adj.骇人的；无法容忍的"
+          "meaning": "adj.骇人的；无法容忍的"
         },
         {
           "word": "constituent",
@@ -55167,7 +55167,7 @@ window.CET6_DATA = {
         },
         {
           "word": "demonstration",
-          "meaning": "[派生] n.论证；示范；游行示威；表露"
+          "meaning": "n.论证；示范；游行示威；表露"
         },
         {
           "word": "facial",
@@ -55179,15 +55179,15 @@ window.CET6_DATA = {
         },
         {
           "word": "diplomacy",
-          "meaning": "[派生] n.外交；外交技巧；外交手腕"
+          "meaning": "n.外交；外交技巧；外交手腕"
         },
         {
           "word": "amusement",
-          "meaning": "[派生] n.娱乐，消遭活动"
+          "meaning": "n.娱乐，消遭活动"
         },
         {
           "word": "breadth",
-          "meaning": "n.宽度；广泛 Lesson"
+          "meaning": "n.宽度；广泛"
         },
         {
           "word": "leg",
@@ -55195,7 +55195,7 @@ window.CET6_DATA = {
         },
         {
           "word": "majority",
-          "meaning": "[派生] n.大部分，大多数"
+          "meaning": "n.大部分，大多数"
         },
         {
           "word": "enrich",
@@ -55235,7 +55235,7 @@ window.CET6_DATA = {
         },
         {
           "word": "seniority",
-          "meaning": "[派生] n.资历；年长；级别高"
+          "meaning": "n.资历；年长；级别高"
         },
         {
           "word": "streamline",
@@ -55279,11 +55279,11 @@ window.CET6_DATA = {
         },
         {
           "word": "extravagance",
-          "meaning": "[派生] n. 奢侈；挥霍，铺张浪费"
+          "meaning": "n. 奢侈；挥霍，铺张浪费"
         },
         {
           "word": "instructor",
-          "meaning": "[派生] n.教练；导师"
+          "meaning": "n.教练；导师"
         },
         {
           "word": "dictate",
@@ -55303,7 +55303,7 @@ window.CET6_DATA = {
         },
         {
           "word": "equitable",
-          "meaning": "[派生] adj.公平合理的；公正的"
+          "meaning": "adj.公平合理的；公正的"
         },
         {
           "word": "crackdown",
@@ -55347,7 +55347,7 @@ window.CET6_DATA = {
         },
         {
           "word": "obscurity",
-          "meaning": "[派生] n.费解，晦涩；默默无闻"
+          "meaning": "n.费解，晦涩；默默无闻"
         },
         {
           "word": "believe",
@@ -55363,7 +55363,7 @@ window.CET6_DATA = {
         },
         {
           "word": "morality",
-          "meaning": "[派生] n.道德，道德观；道德规范"
+          "meaning": "n.道德，道德观；道德规范"
         },
         {
           "word": "overnight",
@@ -55387,7 +55387,7 @@ window.CET6_DATA = {
         },
         {
           "word": "path",
-          "meaning": "n.小路；路线；行动计划 13"
+          "meaning": "n.小路；路线；行动计划"
         },
         {
           "word": "clamp",
@@ -55419,7 +55419,7 @@ window.CET6_DATA = {
         },
         {
           "word": "thrifty",
-          "meaning": "adj.节约的；节俭的 Lesson"
+          "meaning": "adj.节约的；节俭的"
         },
         {
           "word": "turbulent",
@@ -55479,7 +55479,7 @@ window.CET6_DATA = {
         },
         {
           "word": "indictment",
-          "meaning": "[派生] n.控告；衰败迹象"
+          "meaning": "n.控告；衰败迹象"
         },
         {
           "word": "absorb",
@@ -55495,7 +55495,7 @@ window.CET6_DATA = {
         },
         {
           "word": "exclamatory",
-          "meaning": "[派生] adj.表示感叹的；惊叹的"
+          "meaning": "adj.表示感叹的；惊叹的"
         },
         {
           "word": "employ",
@@ -55527,7 +55527,7 @@ window.CET6_DATA = {
         },
         {
           "word": "eligibility",
-          "meaning": "[派生] n.资格；合格"
+          "meaning": "n.资格；合格"
         },
         {
           "word": "bargain",
@@ -55543,7 +55543,7 @@ window.CET6_DATA = {
         },
         {
           "word": "print",
-          "meaning": "v.打印；印刷；刊登n.印刷行业；指纹； 的；著名的 手印；足迹；版画"
+          "meaning": "v. 打印；印刷；刊登 n. 印章；指纹，印记；版画"
         },
         {
           "word": "glue",
@@ -55579,7 +55579,7 @@ window.CET6_DATA = {
         },
         {
           "word": "detachment",
-          "meaning": "[派生] n.分离；超然；冷漠"
+          "meaning": "n.分离；超然；冷漠"
         },
         {
           "word": "song",
@@ -55591,7 +55591,7 @@ window.CET6_DATA = {
         },
         {
           "word": "assimilation",
-          "meaning": "[派生] n.吸收；接受"
+          "meaning": "n.吸收；接受"
         },
         {
           "word": "most",
@@ -55603,7 +55603,7 @@ window.CET6_DATA = {
         },
         {
           "word": "diffusion",
-          "meaning": "[派生] n. 传播，散布"
+          "meaning": "n. 传播，散布"
         },
         {
           "word": "stuff",
@@ -55631,7 +55631,7 @@ window.CET6_DATA = {
         },
         {
           "word": "liberation",
-          "meaning": "[派生] n.解放"
+          "meaning": "n.解放"
         },
         {
           "word": "rather",
@@ -55707,7 +55707,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cross",
-          "meaning": "n.十字形；十字架；杂交品种v.穿越，横 过；（使）交叉；画横线于…；反对 Unit"
+          "meaning": "n.十字形；十字架；杂交品种v.穿越，横 过；（使）交叉；画横线于…；反对"
         },
         {
           "word": "error",
@@ -55751,7 +55751,7 @@ window.CET6_DATA = {
         },
         {
           "word": "adequately",
-          "meaning": "[派生] adv.足够地，充分地"
+          "meaning": "adv.足够地，充分地"
         },
         {
           "word": "boot",
@@ -55767,7 +55767,7 @@ window.CET6_DATA = {
         },
         {
           "word": "councilor",
-          "meaning": "[派生] n.市议员；政务委员会委员"
+          "meaning": "n.市议员；政务委员会委员"
         },
         {
           "word": "usage",
@@ -55815,7 +55815,7 @@ window.CET6_DATA = {
         },
         {
           "word": "motivation",
-          "meaning": "[派生] n.动机；动力"
+          "meaning": "n.动机；动力"
         },
         {
           "word": "antonym",
@@ -55859,7 +55859,7 @@ window.CET6_DATA = {
         },
         {
           "word": "solution",
-          "meaning": "[派生] n. 解决办法；处理手段；答案；溶液"
+          "meaning": "n. 解决办法；处理手段；答案；溶液"
         },
         {
           "word": "lap",
@@ -55867,7 +55867,7 @@ window.CET6_DATA = {
         },
         {
           "word": "measurable",
-          "meaning": "[派生] adj.可测量的；显著的"
+          "meaning": "adj.可测量的；显著的"
         },
         {
           "word": "qualify",
@@ -55887,7 +55887,7 @@ window.CET6_DATA = {
         },
         {
           "word": "corresponding",
-          "meaning": "[派生] adj.符合的；相应的；相关的"
+          "meaning": "adj.符合的；相应的；相关的"
         },
         {
           "word": "exaggeration",
@@ -55923,7 +55923,7 @@ window.CET6_DATA = {
         },
         {
           "word": "fusion",
-          "meaning": "[派生] n.融合；核聚变，热核反应"
+          "meaning": "n.融合；核聚变，热核反应"
         },
         {
           "word": "parking",
@@ -55951,11 +55951,11 @@ window.CET6_DATA = {
         },
         {
           "word": "conductor",
-          "meaning": "[派生] n.（管弦乐队、合唱队等的）指挥；列车 长；售票员"
+          "meaning": "n.（管弦乐队、合唱队等的）指挥；列车 长；售票员"
         },
         {
           "word": "prominence",
-          "meaning": "[派生] n.重要；突出；卓越，出名"
+          "meaning": "n.重要；突出；卓越，出名"
         },
         {
           "word": "oar",
@@ -55991,7 +55991,7 @@ window.CET6_DATA = {
         },
         {
           "word": "derailment",
-          "meaning": "[派生] n.脱轨"
+          "meaning": "n.脱轨"
         },
         {
           "word": "seem",
@@ -55999,7 +55999,7 @@ window.CET6_DATA = {
         },
         {
           "word": "surgical",
-          "meaning": "[派生] adj.外科的，外科手术的"
+          "meaning": "adj.外科的，外科手术的"
         },
         {
           "word": "intricate",
@@ -56011,7 +56011,7 @@ window.CET6_DATA = {
         },
         {
           "word": "controversial",
-          "meaning": "[派生] adj.引起争论的，有争议的"
+          "meaning": "adj.引起争论的，有争议的"
         },
         {
           "word": "speed",
@@ -56019,7 +56019,7 @@ window.CET6_DATA = {
         },
         {
           "word": "humiliation",
-          "meaning": "[派生] n.丢脸；羞辱；耻辱"
+          "meaning": "n.丢脸；羞辱；耻辱"
         },
         {
           "word": "augment",
@@ -56039,15 +56039,15 @@ window.CET6_DATA = {
         },
         {
           "word": "absurdity",
-          "meaning": "[派生] n.荒唐"
+          "meaning": "n.荒唐"
         },
         {
           "word": "precision",
-          "meaning": "[派生] n.精确，准确；细致"
+          "meaning": "n.精确，准确；细致"
         },
         {
           "word": "substantial",
-          "meaning": "[派生] adj.大量的；重大的"
+          "meaning": "adj.大量的；重大的"
         },
         {
           "word": "waken",
@@ -56103,7 +56103,7 @@ window.CET6_DATA = {
         },
         {
           "word": "solely",
-          "meaning": "[派生] adv.仅，只；单独地"
+          "meaning": "adv.仅，只；单独地"
         },
         {
           "word": "satisfactory",
@@ -56111,7 +56111,7 @@ window.CET6_DATA = {
         },
         {
           "word": "correspondent",
-          "meaning": "[派生] n.记者；通讯员；通信者"
+          "meaning": "n.记者；通讯员；通信者"
         },
         {
           "word": "cemetery",
@@ -56139,11 +56139,11 @@ window.CET6_DATA = {
         },
         {
           "word": "enterprising",
-          "meaning": "[派生] adj.有事业心的；有进取心的；有创 业精神的"
+          "meaning": "adj.有事业心的；有进取心的；有创 业精神的"
         },
         {
           "word": "investment",
-          "meaning": "[派生] n.投资"
+          "meaning": "n.投资"
         },
         {
           "word": "online",
@@ -56163,7 +56163,7 @@ window.CET6_DATA = {
         },
         {
           "word": "implementation",
-          "meaning": "[派生] n.实施，履行"
+          "meaning": "n.实施，履行"
         },
         {
           "word": "considerable",
@@ -56175,11 +56175,11 @@ window.CET6_DATA = {
         },
         {
           "word": "adventurous",
-          "meaning": "[派生] adj.有冒险精神的；大胆开拓的"
+          "meaning": "adj.有冒险精神的；大胆开拓的"
         },
         {
           "word": "Unit Lesson",
-          "meaning": "我走得很慢，但我从不后退。/303"
+          "meaning": "我走得很慢，但我从不后退。"
         },
         {
           "word": "wicked",
@@ -56207,11 +56207,11 @@ window.CET6_DATA = {
         },
         {
           "word": "regulator",
-          "meaning": "[派生] n.监管者；调节器"
+          "meaning": "n.监管者；调节器"
         },
         {
           "word": "insistent",
-          "meaning": "[派生] adj.坚持的"
+          "meaning": "adj.坚持的"
         },
         {
           "word": "hemisphere",
@@ -56227,7 +56227,7 @@ window.CET6_DATA = {
         },
         {
           "word": "entrepreneurial",
-          "meaning": "[派生] adj.创业的；企业家的"
+          "meaning": "adj.创业的；企业家的"
         },
         {
           "word": "wonder",
@@ -56259,7 +56259,7 @@ window.CET6_DATA = {
         },
         {
           "word": "representative",
-          "meaning": "[派生] n.代表，代理人 adj.典型的，有代表性的"
+          "meaning": "n.代表，代理人 adj.典型的，有代表性的"
         },
         {
           "word": "rehearsal",
@@ -56271,7 +56271,7 @@ window.CET6_DATA = {
         },
         {
           "word": "paradoxical",
-          "meaning": "[派生] adj.自相矛盾的；出乎意料的"
+          "meaning": "adj.自相矛盾的；出乎意料的"
         },
         {
           "word": "lay",
@@ -56339,7 +56339,7 @@ window.CET6_DATA = {
         },
         {
           "word": "coordination",
-          "meaning": "[派生] n.协作；协调；配合"
+          "meaning": "n.协作；协调；配合"
         },
         {
           "word": "fabricate",
@@ -56411,7 +56411,7 @@ window.CET6_DATA = {
         },
         {
           "word": "abusive",
-          "meaning": "[派生] adj.辱骂的；虐待的"
+          "meaning": "adj.辱骂的；虐待的"
         },
         {
           "word": "lake",
@@ -56435,11 +56435,11 @@ window.CET6_DATA = {
         },
         {
           "word": "subsidize",
-          "meaning": "[派生] v. 资助，补助，给...发津贴"
+          "meaning": "v. 资助，补助，给...发津贴"
         },
         {
           "word": "reservoir",
-          "meaning": "[派生] n.水库，蓄水池；储备"
+          "meaning": "n.水库，蓄水池；储备"
         },
         {
           "word": "eject",
@@ -56467,11 +56467,11 @@ window.CET6_DATA = {
         },
         {
           "word": "appalling",
-          "meaning": "[派生] adj.令人震惊的；极为恶劣的"
+          "meaning": "adj.令人震惊的；极为恶劣的"
         },
         {
           "word": "assertive",
-          "meaning": "[派生] adj.果断的，自信的"
+          "meaning": "adj.果断的，自信的"
         },
         {
           "word": "minister",
@@ -56503,7 +56503,7 @@ window.CET6_DATA = {
         },
         {
           "word": "correlative",
-          "meaning": "[派生] adj.密切相关的；互相依赖的"
+          "meaning": "adj.密切相关的；互相依赖的"
         },
         {
           "word": "thankful",
@@ -56523,7 +56523,7 @@ window.CET6_DATA = {
         },
         {
           "word": "methodical",
-          "meaning": "[派生] adj.有条理的；有条不紊的"
+          "meaning": "adj.有条理的；有条不紊的"
         },
         {
           "word": "weed",
@@ -56571,7 +56571,7 @@ window.CET6_DATA = {
         },
         {
           "word": "frustrating",
-          "meaning": "[派生] adj.令人懊恼的；令人沮丧的"
+          "meaning": "adj.令人懊恼的；令人沮丧的"
         },
         {
           "word": "union",
@@ -56599,7 +56599,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pronoun",
-          "meaning": "n.代词 /prrzent/v.把...交给；提出；显示；出席"
+          "meaning": "n. 代词"
         },
         {
           "word": "civilian",
@@ -56607,15 +56607,15 @@ window.CET6_DATA = {
         },
         {
           "word": "desirability",
-          "meaning": "[派生] n.希求；欲求"
+          "meaning": "n.希求；欲求"
         },
         {
           "word": "animated",
-          "meaning": "[派生] adj.兴致勃勃的；如生的"
+          "meaning": "adj.兴致勃勃的；如生的"
         },
         {
           "word": "scarcely",
-          "meaning": "[派生] adv.勉强；刚；几乎不；简直不"
+          "meaning": "adv.勉强；刚；几乎不；简直不"
         },
         {
           "word": "sit",
@@ -56647,7 +56647,7 @@ window.CET6_DATA = {
         },
         {
           "word": "admission",
-          "meaning": "[派生] n.准许加入；承认；门票费"
+          "meaning": "n.准许加入；承认；门票费"
         },
         {
           "word": "enlist",
@@ -56667,7 +56667,7 @@ window.CET6_DATA = {
         },
         {
           "word": "designation",
-          "meaning": "[派生] n.选定；委任；名称"
+          "meaning": "n.选定；委任；名称"
         },
         {
           "word": "dry",
@@ -56815,11 +56815,11 @@ window.CET6_DATA = {
         },
         {
           "word": "notional",
-          "meaning": "[派生] adj.猜测的；理论上的"
+          "meaning": "adj.猜测的；理论上的"
         },
         {
           "word": "inflation",
-          "meaning": "[派生] n.通货膨胀；充气"
+          "meaning": "n.通货膨胀；充气"
         },
         {
           "word": "port",
@@ -56831,7 +56831,7 @@ window.CET6_DATA = {
         },
         {
           "word": "simulation",
-          "meaning": "[派生] n.模拟；假装；冒充"
+          "meaning": "n.模拟；假装；冒充"
         },
         {
           "word": "polytechnic",
@@ -56867,7 +56867,7 @@ window.CET6_DATA = {
         },
         {
           "word": "renovation",
-          "meaning": "[派生] n.修复；翻新；重新粉刷"
+          "meaning": "n.修复；翻新；重新粉刷"
         },
         {
           "word": "slow",
@@ -56875,11 +56875,11 @@ window.CET6_DATA = {
         },
         {
           "word": "distressful",
-          "meaning": "[派生] adj.苦恼的；不幸的"
+          "meaning": "adj.苦恼的；不幸的"
         },
         {
           "word": "whale",
-          "meaning": "n.鲸 14"
+          "meaning": "n.鲸"
         },
         {
           "word": "painter",
@@ -56891,7 +56891,7 @@ window.CET6_DATA = {
         },
         {
           "word": "eminence",
-          "meaning": "[派生] n.卓越，著名"
+          "meaning": "n.卓越，著名"
         },
         {
           "word": "soccer",
@@ -56907,7 +56907,7 @@ window.CET6_DATA = {
         },
         {
           "word": "existence",
-          "meaning": "[派生] n.存在；生活，生活方式"
+          "meaning": "n.存在；生活，生活方式"
         },
         {
           "word": "June",
@@ -56959,7 +56959,7 @@ window.CET6_DATA = {
         },
         {
           "word": "discriminatory",
-          "meaning": "[派生] adj. 区别对待的；不公正的；歧视的"
+          "meaning": "adj. 区别对待的；不公正的；歧视的"
         },
         {
           "word": "rainy",
@@ -56967,7 +56967,7 @@ window.CET6_DATA = {
         },
         {
           "word": "registrar",
-          "meaning": "[派生] n.登记员；户籍管理员"
+          "meaning": "n.登记员；户籍管理员"
         },
         {
           "word": "object",
@@ -56995,7 +56995,7 @@ window.CET6_DATA = {
         },
         {
           "word": "convincing",
-          "meaning": "[派生] adj.令人信服的，有说服力的"
+          "meaning": "adj.令人信服的，有说服力的"
         },
         {
           "word": "sequence",
@@ -57015,7 +57015,7 @@ window.CET6_DATA = {
         },
         {
           "word": "vaccination",
-          "meaning": "[派生] n.疫苗接种"
+          "meaning": "n.疫苗接种"
         },
         {
           "word": "reporter",
@@ -57023,7 +57023,7 @@ window.CET6_DATA = {
         },
         {
           "word": "competition",
-          "meaning": "[派生] n.竞争；比赛"
+          "meaning": "n.竞争；比赛"
         },
         {
           "word": "corps",
@@ -57043,7 +57043,7 @@ window.CET6_DATA = {
         },
         {
           "word": "harmonious",
-          "meaning": "[派生] adj.和谐的，协调的"
+          "meaning": "adj.和谐的，协调的"
         },
         {
           "word": "certificate",
@@ -57059,7 +57059,7 @@ window.CET6_DATA = {
         },
         {
           "word": "accordance",
-          "meaning": "[派生] n.依照，依据"
+          "meaning": "n.依照，依据"
         },
         {
           "word": "interpreter",
@@ -57087,7 +57087,7 @@ window.CET6_DATA = {
         },
         {
           "word": "odorous",
-          "meaning": "[派生] adj. 有气味的，香的，臭的"
+          "meaning": "adj. 有气味的，香的，臭的"
         },
         {
           "word": "respect",
@@ -57107,7 +57107,7 @@ window.CET6_DATA = {
         },
         {
           "word": "agitation",
-          "meaning": "[派生] n.焦虑不安；煸动"
+          "meaning": "n.焦虑不安；煸动"
         },
         {
           "word": "increasingly",
@@ -57147,7 +57147,7 @@ window.CET6_DATA = {
         },
         {
           "word": "speculative",
-          "meaning": "[派生] adj.猜测的；投机的"
+          "meaning": "adj.猜测的；投机的"
         },
         {
           "word": "vague",
@@ -57155,11 +57155,11 @@ window.CET6_DATA = {
         },
         {
           "word": "handicapped",
-          "meaning": "[派生] adj.有生理缺陷的，残疾的"
+          "meaning": "adj.有生理缺陷的，残疾的"
         },
         {
           "word": "virginity",
-          "meaning": "[派生] n.处女状态；童贞；原始状态"
+          "meaning": "n.处女状态；童贞；原始状态"
         },
         {
           "word": "abnormal",
@@ -57167,7 +57167,7 @@ window.CET6_DATA = {
         },
         {
           "word": "baby boomer",
-          "meaning": "[派生] n. 生育高峰期出生的人"
+          "meaning": "n. 生育高峰期出生的人"
         },
         {
           "word": "court",
@@ -57215,7 +57215,7 @@ window.CET6_DATA = {
         },
         {
           "word": "objective",
-          "meaning": "[派生] n.目标，目的adj.客观的，就事论 事的；客观存在的，基于事实的"
+          "meaning": "n.目标，目的adj.客观的，就事论 事的；客观存在的，基于事实的"
         },
         {
           "word": "shepherd",
@@ -57259,7 +57259,7 @@ window.CET6_DATA = {
         },
         {
           "word": "presumption",
-          "meaning": "[派生] n.推测，假定"
+          "meaning": "n.推测，假定"
         },
         {
           "word": "forgery",
@@ -57279,7 +57279,7 @@ window.CET6_DATA = {
         },
         {
           "word": "animation",
-          "meaning": "[派生] n.动画片；活力"
+          "meaning": "n.动画片；活力"
         },
         {
           "word": "revolution",
@@ -57323,11 +57323,11 @@ window.CET6_DATA = {
         },
         {
           "word": "effective",
-          "meaning": "[派生] adj.有效的；产生预期效果的"
+          "meaning": "adj.有效的；产生预期效果的"
         },
         {
           "word": "replacement",
-          "meaning": "[派生] n.更换，替换；替代的人或物"
+          "meaning": "n.更换，替换；替代的人或物"
         },
         {
           "word": "esteem",
@@ -57387,7 +57387,7 @@ window.CET6_DATA = {
         },
         {
           "word": "validity",
-          "meaning": "[派生] n.有效；合法性；（正式的）认可"
+          "meaning": "n.有效；合法性；（正式的）认可"
         },
         {
           "word": "hawk",
@@ -57455,7 +57455,7 @@ window.CET6_DATA = {
         },
         {
           "word": "maximal",
-          "meaning": "[派生] adj.最大的；最高的"
+          "meaning": "adj.最大的；最高的"
         },
         {
           "word": "flash",
@@ -57463,7 +57463,7 @@ window.CET6_DATA = {
         },
         {
           "word": "unification",
-          "meaning": "[派生] n.统一；联合"
+          "meaning": "n.统一；联合"
         },
         {
           "word": "daughter",
@@ -57483,7 +57483,7 @@ window.CET6_DATA = {
         },
         {
           "word": "diplomatic",
-          "meaning": "[派生] adj.外交的；有手腕的；圆通的"
+          "meaning": "adj.外交的；有手腕的；圆通的"
         },
         {
           "word": "contract",
@@ -57535,7 +57535,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reformation",
-          "meaning": "[派生] n.改革，改进"
+          "meaning": "n.改革，改进"
         },
         {
           "word": "sleepiness",
@@ -57551,7 +57551,7 @@ window.CET6_DATA = {
         },
         {
           "word": "surfing",
-          "meaning": "[派生] n.冲浪运动；（互联网上）冲浪"
+          "meaning": "n.冲浪运动；（互联网上）冲浪"
         },
         {
           "word": "positive",
@@ -57595,7 +57595,7 @@ window.CET6_DATA = {
         },
         {
           "word": "exclusive",
-          "meaning": "[派生] n.独家新闻，独家报道 adj.独有的；排外的"
+          "meaning": "n.独家新闻，独家报道 adj.独有的；排外的"
         },
         {
           "word": "special",
@@ -57623,7 +57623,7 @@ window.CET6_DATA = {
         },
         {
           "word": "foreigner",
-          "meaning": "n.外国人 12"
+          "meaning": "n.外国人"
         },
         {
           "word": "overturn",
@@ -57643,7 +57643,7 @@ window.CET6_DATA = {
         },
         {
           "word": "undoubtedly",
-          "meaning": "adv.无疑，肯定地 Lesson"
+          "meaning": "adv.无疑，肯定地"
         },
         {
           "word": "process",
@@ -57659,11 +57659,11 @@ window.CET6_DATA = {
         },
         {
           "word": "intensity",
-          "meaning": "[派生] n.强烈；紧张"
+          "meaning": "n.强烈；紧张"
         },
         {
           "word": "proximate",
-          "meaning": "[派生] adj.（时间、顺序等）最接近的，最邻 近的"
+          "meaning": "adj.（时间、顺序等）最接近的，最邻 近的"
         },
         {
           "word": "website",
@@ -57691,7 +57691,7 @@ window.CET6_DATA = {
         },
         {
           "word": "allegedly",
-          "meaning": "[派生] adv.据说"
+          "meaning": "adv.据说"
         },
         {
           "word": "thrust",
@@ -57707,11 +57707,11 @@ window.CET6_DATA = {
         },
         {
           "word": "poisonous",
-          "meaning": "[派生] adj.有毒的"
+          "meaning": "adj.有毒的"
         },
         {
           "word": "royalty",
-          "meaning": "[派生] n.王室成员；版税"
+          "meaning": "n.王室成员；版税"
         },
         {
           "word": "infinite",
@@ -57783,11 +57783,11 @@ window.CET6_DATA = {
         },
         {
           "word": "stability",
-          "meaning": "[派生] n.稳定(性);稳固(性）"
+          "meaning": "n.稳定(性);稳固(性）"
         },
         {
           "word": "distinguishable",
-          "meaning": "[派生] adj.可区分的，可辨认的"
+          "meaning": "adj.可区分的，可辨认的"
         },
         {
           "word": "listener",
@@ -57867,7 +57867,7 @@ window.CET6_DATA = {
         },
         {
           "word": "disposal",
-          "meaning": "[派生] n. 清除；处理；(企业、财产等的)变卖"
+          "meaning": "n. 清除；处理；(企业、财产等的)变卖"
         },
         {
           "word": "convene",
@@ -57915,7 +57915,7 @@ window.CET6_DATA = {
         },
         {
           "word": "enactment",
-          "meaning": "[派生] n.(法律的)制定，颁布；法律"
+          "meaning": "n.(法律的)制定，颁布；法律"
         },
         {
           "word": "west",
@@ -57931,7 +57931,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cynicism",
-          "meaning": "[派生] n.愤世嫉俗；犬儒主义"
+          "meaning": "n.愤世嫉俗；犬儒主义"
         },
         {
           "word": "violin",
@@ -57943,7 +57943,7 @@ window.CET6_DATA = {
         },
         {
           "word": "deregulation",
-          "meaning": "[派生] n. 解除管制，放松控制"
+          "meaning": "n. 解除管制，放松控制"
         },
         {
           "word": "abuse",
@@ -57987,7 +57987,7 @@ window.CET6_DATA = {
         },
         {
           "word": "erection",
-          "meaning": "[派生] n.建造；竖立"
+          "meaning": "n.建造；竖立"
         },
         {
           "word": "wrist",
@@ -58011,7 +58011,7 @@ window.CET6_DATA = {
         },
         {
           "word": "offender",
-          "meaning": "[派生] n.罪犯；妨害..的人（或事物）"
+          "meaning": "n.罪犯；妨害..的人（或事物）"
         },
         {
           "word": "nicety",
@@ -58079,7 +58079,7 @@ window.CET6_DATA = {
         },
         {
           "word": "virtually",
-          "meaning": "[派生] adv.虚拟地；实际上，几乎"
+          "meaning": "adv.虚拟地；实际上，几乎"
         },
         {
           "word": "rape",
@@ -58171,7 +58171,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pressure",
-          "meaning": "[派生] n.压力；紧张；催促"
+          "meaning": "n.压力；紧张；催促"
         },
         {
           "word": "second-hand",
@@ -58267,7 +58267,7 @@ window.CET6_DATA = {
         },
         {
           "word": "desirous",
-          "meaning": "[派生] adj.渴望的，希望的"
+          "meaning": "adj.渴望的，希望的"
         },
         {
           "word": "regret",
@@ -58307,7 +58307,7 @@ window.CET6_DATA = {
         },
         {
           "word": "rivalry",
-          "meaning": "[派生] n.竞争，竞赛，较量"
+          "meaning": "n.竞争，竞赛，较量"
         },
         {
           "word": "fund",
@@ -58319,7 +58319,7 @@ window.CET6_DATA = {
         },
         {
           "word": "patient",
-          "meaning": "n.病人adj.有耐心的 Lesson"
+          "meaning": "n.病人adj.有耐心的"
         },
         {
           "word": "material",
@@ -58331,7 +58331,7 @@ window.CET6_DATA = {
         },
         {
           "word": "dictation",
-          "meaning": "[派生] n.述；听写"
+          "meaning": "n.述；听写"
         },
         {
           "word": "persistent",
@@ -58351,7 +58351,7 @@ window.CET6_DATA = {
         },
         {
           "word": "terrorism",
-          "meaning": "[派生] n.恐怖主义"
+          "meaning": "n.恐怖主义"
         },
         {
           "word": "reminiscence",
@@ -58367,7 +58367,7 @@ window.CET6_DATA = {
         },
         {
           "word": "impulsive",
-          "meaning": "[派生] adj.凭冲动行事的；易冲动的"
+          "meaning": "adj.凭冲动行事的；易冲动的"
         },
         {
           "word": "X-ray",
@@ -58387,7 +58387,7 @@ window.CET6_DATA = {
         },
         {
           "word": "prisoner",
-          "meaning": "[派生] n.囚犯，犯人；羁押候审者"
+          "meaning": "n.囚犯，犯人；羁押候审者"
         },
         {
           "word": "manufacture",
@@ -58423,7 +58423,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sorrowful",
-          "meaning": "adj.悲伤的；悲痛的；悲哀的 Lesson"
+          "meaning": "adj.悲伤的；悲痛的；悲哀的"
         },
         {
           "word": "congratulation",
@@ -58439,7 +58439,7 @@ window.CET6_DATA = {
         },
         {
           "word": "occupational",
-          "meaning": "[派生] adj.职业的"
+          "meaning": "adj.职业的"
         },
         {
           "word": "institution",
@@ -58459,7 +58459,7 @@ window.CET6_DATA = {
         },
         {
           "word": "alleviation",
-          "meaning": "[派生] n.减轻，缓解"
+          "meaning": "n.减轻，缓解"
         },
         {
           "word": "hotdog",
@@ -58519,11 +58519,11 @@ window.CET6_DATA = {
         },
         {
           "word": "decoration",
-          "meaning": "[派生] n.装饰，装潢"
+          "meaning": "n.装饰，装潢"
         },
         {
           "word": "enforcement",
-          "meaning": "[派生] n.执行"
+          "meaning": "n.执行"
         },
         {
           "word": "five",
@@ -58547,7 +58547,7 @@ window.CET6_DATA = {
         },
         {
           "word": "ignition",
-          "meaning": "[派生] n.点燃；点火装置"
+          "meaning": "n.点燃；点火装置"
         },
         {
           "word": "vogue",
@@ -58599,7 +58599,7 @@ window.CET6_DATA = {
         },
         {
           "word": "disposition",
-          "meaning": "[派生] n.性格，性情；倾向，意向"
+          "meaning": "n.性格，性情；倾向，意向"
         },
         {
           "word": "calendar",
@@ -58607,11 +58607,11 @@ window.CET6_DATA = {
         },
         {
           "word": "cruiser",
-          "meaning": "[派生] n.巡洋舰；警车"
+          "meaning": "n.巡洋舰；警车"
         },
         {
           "word": "cognition",
-          "meaning": "[派生] n.认识，认知"
+          "meaning": "n.认识，认知"
         },
         {
           "word": "originate",
@@ -58639,7 +58639,7 @@ window.CET6_DATA = {
         },
         {
           "word": "refreshment",
-          "meaning": "[派生] n.点心；恢复精力"
+          "meaning": "n.点心；恢复精力"
         },
         {
           "word": "assemble",
@@ -58703,7 +58703,7 @@ window.CET6_DATA = {
         },
         {
           "word": "degeneration",
-          "meaning": "[派生] n. 蜕化；衰退；堕落"
+          "meaning": "n. 蜕化；衰退；堕落"
         },
         {
           "word": "manager",
@@ -58723,7 +58723,7 @@ window.CET6_DATA = {
         },
         {
           "word": "credibility",
-          "meaning": "[派生] n.可信性，可靠性"
+          "meaning": "n.可信性，可靠性"
         },
         {
           "word": "molecular",
@@ -58731,7 +58731,7 @@ window.CET6_DATA = {
         },
         {
           "word": "admirable",
-          "meaning": "[派生] adj.值得赞赏的，可钦佩的"
+          "meaning": "adj.值得赞赏的，可钦佩的"
         },
         {
           "word": "rally",
@@ -58743,7 +58743,7 @@ window.CET6_DATA = {
         },
         {
           "word": "transformation",
-          "meaning": "[派生] n. 变化，改革，转化"
+          "meaning": "n. 变化，改革，转化"
         },
         {
           "word": "aware",
@@ -58819,7 +58819,7 @@ window.CET6_DATA = {
         },
         {
           "word": "complicated",
-          "meaning": "[派生] adj.复杂的；难懂的"
+          "meaning": "adj.复杂的；难懂的"
         },
         {
           "word": "geography",
@@ -58843,7 +58843,7 @@ window.CET6_DATA = {
         },
         {
           "word": "seat",
-          "meaning": "n.座位；席位v.使就座 second”/sekand/num.第二（的）adv.以第二位"
+          "meaning": "n. 座位，席位 v. 使就座"
         },
         {
           "word": "pleasant",
@@ -58855,7 +58855,7 @@ window.CET6_DATA = {
         },
         {
           "word": "portrayal",
-          "meaning": "[派生] n.描绘，描写"
+          "meaning": "n.描绘，描写"
         },
         {
           "word": "biology",
@@ -58891,7 +58891,7 @@ window.CET6_DATA = {
         },
         {
           "word": "defiance",
-          "meaning": "[派生] n.违抗，拒绝服从"
+          "meaning": "n.违抗，拒绝服从"
         },
         {
           "word": "watt",
@@ -58915,7 +58915,7 @@ window.CET6_DATA = {
         },
         {
           "word": "promotion",
-          "meaning": "[派生] n.提升，晋升；推销"
+          "meaning": "n.提升，晋升；推销"
         },
         {
           "word": "catastrophe",
@@ -58923,11 +58923,11 @@ window.CET6_DATA = {
         },
         {
           "word": "inferiority",
-          "meaning": "[派生] n.低等，劣等；劣势"
+          "meaning": "n.低等，劣等；劣势"
         },
         {
           "word": "compassionate",
-          "meaning": "[派生] adj. 有同情心的"
+          "meaning": "adj. 有同情心的"
         },
         {
           "word": "tractor",
@@ -58935,7 +58935,7 @@ window.CET6_DATA = {
         },
         {
           "word": "displacement",
-          "meaning": "[派生] n.取代，替代；移位；免职"
+          "meaning": "n.取代，替代；移位；免职"
         },
         {
           "word": "excellence",
@@ -58943,7 +58943,7 @@ window.CET6_DATA = {
         },
         {
           "word": "perilous",
-          "meaning": "[派生] adj.危险的，艰险的"
+          "meaning": "adj.危险的，艰险的"
         },
         {
           "word": "tragedy",
@@ -58979,11 +58979,11 @@ window.CET6_DATA = {
         },
         {
           "word": "locality",
-          "meaning": "[派生] n.地区；地方，地点"
+          "meaning": "n.地区；地方，地点"
         },
         {
           "word": "aversion",
-          "meaning": "[派生] n.厌恶，憎恶"
+          "meaning": "n.厌恶，憎恶"
         },
         {
           "word": "deploy",
@@ -58991,11 +58991,11 @@ window.CET6_DATA = {
         },
         {
           "word": "tolerable",
-          "meaning": "[派生] adj.可接受的；可忍受的"
+          "meaning": "adj.可接受的；可忍受的"
         },
         {
           "word": "presumably",
-          "meaning": "[派生] adv.很可能，大概"
+          "meaning": "adv.很可能，大概"
         },
         {
           "word": "bully",
@@ -59011,7 +59011,7 @@ window.CET6_DATA = {
         },
         {
           "word": "imaging",
-          "meaning": "[派生] n.成像"
+          "meaning": "n.成像"
         },
         {
           "word": "sulphur",
@@ -59019,7 +59019,7 @@ window.CET6_DATA = {
         },
         {
           "word": "scholarship",
-          "meaning": "[派生] n.奖学金；学问；学术研究"
+          "meaning": "n.奖学金；学问；学术研究"
         },
         {
           "word": "sway",
@@ -59035,7 +59035,7 @@ window.CET6_DATA = {
         },
         {
           "word": "suspension",
-          "meaning": "[派生] n.暂令停职（或停学、停赛等）；暂缓； 推迟"
+          "meaning": "n.暂令停职（或停学、停赛等）；暂缓； 推迟"
         },
         {
           "word": "amplify",
@@ -59051,7 +59051,7 @@ window.CET6_DATA = {
         },
         {
           "word": "confusion",
-          "meaning": "[派生] n.困惑；混淆"
+          "meaning": "n.困惑；混淆"
         },
         {
           "word": "talkative",
@@ -59063,7 +59063,7 @@ window.CET6_DATA = {
         },
         {
           "word": "instruction",
-          "meaning": "[派生] n.用法说明；命令，指示"
+          "meaning": "n.用法说明；命令，指示"
         },
         {
           "word": "storage",
@@ -59111,7 +59111,7 @@ window.CET6_DATA = {
         },
         {
           "word": "emphatic",
-          "meaning": "[派生] adj.强调的；有力的"
+          "meaning": "adj.强调的；有力的"
         },
         {
           "word": "equip",
@@ -59119,7 +59119,7 @@ window.CET6_DATA = {
         },
         {
           "word": "simply",
-          "meaning": "[派生] adv.仅仅，只，不过；简单地"
+          "meaning": "adv.仅仅，只，不过；简单地"
         },
         {
           "word": "mental",
@@ -59139,7 +59139,7 @@ window.CET6_DATA = {
         },
         {
           "word": "slippery",
-          "meaning": "[派生] adj.光滑的"
+          "meaning": "adj.光滑的"
         },
         {
           "word": "excess",
@@ -59171,11 +59171,11 @@ window.CET6_DATA = {
         },
         {
           "word": "threaten",
-          "meaning": "[派生] v.恐吓；预示凶兆；危及"
+          "meaning": "v.恐吓；预示凶兆；危及"
         },
         {
           "word": "option",
-          "meaning": "[派生] n. 选择；可选择的东西；选项"
+          "meaning": "n. 选择；可选择的东西；选项"
         },
         {
           "word": "allude",
@@ -59183,7 +59183,7 @@ window.CET6_DATA = {
         },
         {
           "word": "considering",
-          "meaning": "[派生] prep.&conj.考虑到；就.….而言； 鉴于"
+          "meaning": "prep.&conj.考虑到；就.….而言； 鉴于"
         },
         {
           "word": "airport",
@@ -59199,7 +59199,7 @@ window.CET6_DATA = {
         },
         {
           "word": "aggression",
-          "meaning": "[派生] n.攻击性；侵略"
+          "meaning": "n.攻击性；侵略"
         },
         {
           "word": "flour",
@@ -59207,7 +59207,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reproductive",
-          "meaning": "[派生] adj.生殖的，繁殖的"
+          "meaning": "adj.生殖的，繁殖的"
         },
         {
           "word": "argumentation",
@@ -59239,7 +59239,7 @@ window.CET6_DATA = {
         },
         {
           "word": "aerial",
-          "meaning": "n.天线adj空中的 (a）esthetic/its'θetuk；es'Qetik/adj.审美的；美学的 n.审美；美感 （a)esthetics/its\"Detiks；es'Detiks/n.美学；美术理论"
+          "meaning": "adj. 空中的，航空的 n. 天线"
         },
         {
           "word": "cycling",
@@ -59263,7 +59263,7 @@ window.CET6_DATA = {
         },
         {
           "word": "donor",
-          "meaning": "[派生] n. 捐赠者；捐赠机构"
+          "meaning": "n. 捐赠者；捐赠机构"
         },
         {
           "word": "snack",
@@ -59311,7 +59311,7 @@ window.CET6_DATA = {
         },
         {
           "word": "proper",
-          "meaning": "[派生] adj.正确的；恰当的；符合规则的"
+          "meaning": "adj.正确的；恰当的；符合规则的"
         },
         {
           "word": "premium",
@@ -59319,7 +59319,7 @@ window.CET6_DATA = {
         },
         {
           "word": "chaotic",
-          "meaning": "[派生] adj.混乱的"
+          "meaning": "adj.混乱的"
         },
         {
           "word": "wire",
@@ -59411,7 +59411,7 @@ window.CET6_DATA = {
         },
         {
           "word": "spatial",
-          "meaning": "[派生] adj.空间的"
+          "meaning": "adj.空间的"
         },
         {
           "word": "tiring",
@@ -59427,11 +59427,11 @@ window.CET6_DATA = {
         },
         {
           "word": "nurse",
-          "meaning": "n.保姆；护士v.看护；怀有（感情） Lesson"
+          "meaning": "n.保姆；护士v.看护；怀有（感情）"
         },
         {
           "word": "exquisite",
-          "meaning": "'ekskwizt/ adj.精美的，精致的；雅致的；敏锐的"
+          "meaning": "adj. 精美的，精致的；极其强烈的"
         },
         {
           "word": "dubious",
@@ -59451,7 +59451,7 @@ window.CET6_DATA = {
         },
         {
           "word": "deductive",
-          "meaning": "[派生] adj.演绎的；推论的，推理的"
+          "meaning": "adj.演绎的；推论的，推理的"
         },
         {
           "word": "ail",
@@ -59503,7 +59503,7 @@ window.CET6_DATA = {
         },
         {
           "word": "machine",
-          "meaning": "n.机器；机械装置 logistic(al）/la'd3istuk(1)/adj.后勤上的"
+          "meaning": "n. 机器，机械装置"
         },
         {
           "word": "step",
@@ -59527,7 +59527,7 @@ window.CET6_DATA = {
         },
         {
           "word": "propeller",
-          "meaning": "[派生] n.螺旋桨"
+          "meaning": "n.螺旋桨"
         },
         {
           "word": "really",
@@ -59539,11 +59539,11 @@ window.CET6_DATA = {
         },
         {
           "word": "contributor",
-          "meaning": "[派生] n. 捐款者；捐赠者；撰稿人；嘉宾"
+          "meaning": "n. 捐款者；捐赠者；撰稿人；嘉宾"
         },
         {
           "word": "mill",
-          "meaning": "n.磨坊；制造厂 如果没有躺赢的命，那就要站起来奔跑。/317"
+          "meaning": "n.磨坊；制造厂"
         },
         {
           "word": "arbitrary",
@@ -59623,7 +59623,7 @@ window.CET6_DATA = {
         },
         {
           "word": "mediator",
-          "meaning": "[派生] n.调停者"
+          "meaning": "n.调停者"
         },
         {
           "word": "talented",
@@ -59643,11 +59643,11 @@ window.CET6_DATA = {
         },
         {
           "word": "declarative",
-          "meaning": "[派生] adj.陈述的"
+          "meaning": "adj.陈述的"
         },
         {
           "word": "hesitation",
-          "meaning": "[派生] n.犹豫，迟疑不决"
+          "meaning": "n.犹豫，迟疑不决"
         },
         {
           "word": "collective",
@@ -59659,7 +59659,7 @@ window.CET6_DATA = {
         },
         {
           "word": "distortion",
-          "meaning": "[派生] n.歪曲；变形，扭曲"
+          "meaning": "n.歪曲；变形，扭曲"
         },
         {
           "word": "capture",
@@ -59699,7 +59699,7 @@ window.CET6_DATA = {
         },
         {
           "word": "jealousy",
-          "meaning": "[派生] n.忌妒；美慕"
+          "meaning": "n.忌妒；美慕"
         },
         {
           "word": "scout",
@@ -59755,7 +59755,7 @@ window.CET6_DATA = {
         },
         {
           "word": "detection",
-          "meaning": "[派生] n.探测；察觉；发现"
+          "meaning": "n.探测；察觉；发现"
         },
         {
           "word": "ambition",
@@ -59779,7 +59779,7 @@ window.CET6_DATA = {
         },
         {
           "word": "constituency",
-          "meaning": "[派生] n. 选区；选区的选民；支持者"
+          "meaning": "n. 选区；选区的选民；支持者"
         },
         {
           "word": "denunciation",
@@ -59795,7 +59795,7 @@ window.CET6_DATA = {
         },
         {
           "word": "conquest",
-          "meaning": "[派生] n.征服；占领；占领的地区"
+          "meaning": "n.征服；占领；占领的地区"
         },
         {
           "word": "dealing",
@@ -59855,7 +59855,7 @@ window.CET6_DATA = {
         },
         {
           "word": "acceptance",
-          "meaning": "n.接受；同意；认可 Lesson"
+          "meaning": "n.接受；同意；认可"
         },
         {
           "word": "nourish",
@@ -59863,7 +59863,7 @@ window.CET6_DATA = {
         },
         {
           "word": "conclusive",
-          "meaning": "[派生] adj.结论性的"
+          "meaning": "adj.结论性的"
         },
         {
           "word": "duplicate",
@@ -59879,7 +59879,7 @@ window.CET6_DATA = {
         },
         {
           "word": "exploration",
-          "meaning": "[派生] n.探索，勘查"
+          "meaning": "n.探索，勘查"
         },
         {
           "word": "charm",
@@ -59903,7 +59903,7 @@ window.CET6_DATA = {
         },
         {
           "word": "fabrication",
-          "meaning": "[派生] n.捏造的信息"
+          "meaning": "n.捏造的信息"
         },
         {
           "word": "craze",
@@ -59911,11 +59911,11 @@ window.CET6_DATA = {
         },
         {
           "word": "qualitative",
-          "meaning": "[派生] adj.质量的；定性的；性质的"
+          "meaning": "adj.质量的；定性的；性质的"
         },
         {
           "word": "apparently",
-          "meaning": "[派生] adv.可见；看来；显然地"
+          "meaning": "adv.可见；看来；显然地"
         },
         {
           "word": "slope",
@@ -59923,7 +59923,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reflective",
-          "meaning": "[派生] adj.沉思的，深思的；反射热的，反光 的；典型的，代表性的"
+          "meaning": "adj.沉思的，深思的；反射热的，反光 的；典型的，代表性的"
         },
         {
           "word": "flaw",
@@ -59939,7 +59939,7 @@ window.CET6_DATA = {
         },
         {
           "word": "renewable",
-          "meaning": "[派生] n.可再生能源 adj.可更新的，可再生的"
+          "meaning": "n.可再生能源 adj.可更新的，可再生的"
         },
         {
           "word": "shrewd",
@@ -59963,7 +59963,7 @@ window.CET6_DATA = {
         },
         {
           "word": "auditor",
-          "meaning": "[派生] n.审计员；稽核员"
+          "meaning": "n.审计员；稽核员"
         },
         {
           "word": "maritime",
@@ -59979,7 +59979,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cell-phone",
-          "meaning": "n.手机，移动电话 can²/kcen/n.金属罐；一罐v.装罐；解雇"
+          "meaning": "n. 手机，移动电话"
         },
         {
           "word": "temporary",
@@ -59999,7 +59999,7 @@ window.CET6_DATA = {
         },
         {
           "word": "striking",
-          "meaning": "adj. 引人注目的，异乎寻常的"
+          "meaning": "adj. 显著的，引人注目的"
         },
         {
           "word": "bleach",
@@ -60011,7 +60011,7 @@ window.CET6_DATA = {
         },
         {
           "word": "alternation",
-          "meaning": "[派生] n.交替；轮流"
+          "meaning": "n.交替；轮流"
         },
         {
           "word": "rarity",
@@ -60071,7 +60071,7 @@ window.CET6_DATA = {
         },
         {
           "word": "seductive",
-          "meaning": "[派生] adj.诱人的，迷人的，有魅力的，有吸 引力的"
+          "meaning": "adj.诱人的，迷人的，有魅力的，有吸 引力的"
         },
         {
           "word": "assert",
@@ -60091,7 +60091,7 @@ window.CET6_DATA = {
         },
         {
           "word": "significance",
-          "meaning": "[派生] n.意义，重要性"
+          "meaning": "n.意义，重要性"
         },
         {
           "word": "disappear",
@@ -60107,7 +60107,7 @@ window.CET6_DATA = {
         },
         {
           "word": "behind",
-          "meaning": "prep. 在...后面 adv. 向后面"
+          "meaning": "prep. 在...后面 adv. 向后"
         },
         {
           "word": "jerk",
@@ -60183,7 +60183,7 @@ window.CET6_DATA = {
         },
         {
           "word": "rewarding",
-          "meaning": "[派生] adj.值得的；有益的"
+          "meaning": "adj.值得的；有益的"
         },
         {
           "word": "turkey",
@@ -60203,7 +60203,7 @@ window.CET6_DATA = {
         },
         {
           "word": "contestant",
-          "meaning": "[派生] n.比赛者；竞争者"
+          "meaning": "n.比赛者；竞争者"
         },
         {
           "word": "worship",
@@ -60211,7 +60211,7 @@ window.CET6_DATA = {
         },
         {
           "word": "consistency",
-          "meaning": "[派生] n.一致性，连贯性"
+          "meaning": "n.一致性，连贯性"
         },
         {
           "word": "possibility",
@@ -60223,7 +60223,7 @@ window.CET6_DATA = {
         },
         {
           "word": "revival",
-          "meaning": "[派生] n.复兴；复苏；再流行；重演"
+          "meaning": "n.复兴；复苏；再流行；重演"
         },
         {
           "word": "incredibly",
@@ -60259,7 +60259,7 @@ window.CET6_DATA = {
         },
         {
           "word": "irreplaceable",
-          "meaning": "[派生] adj.不可替代的，独一无二的"
+          "meaning": "adj.不可替代的，独一无二的"
         },
         {
           "word": "endorse",
@@ -60267,7 +60267,7 @@ window.CET6_DATA = {
         },
         {
           "word": "profitable",
-          "meaning": "[派生] adj.有利润的；有益的"
+          "meaning": "adj.有利润的；有益的"
         },
         {
           "word": "the",
@@ -60291,7 +60291,7 @@ window.CET6_DATA = {
         },
         {
           "word": "preventive",
-          "meaning": "[派生] adj.预防性的，防备的"
+          "meaning": "adj.预防性的，防备的"
         },
         {
           "word": "brunch",
@@ -60367,7 +60367,7 @@ window.CET6_DATA = {
         },
         {
           "word": "disruption",
-          "meaning": "[派生] n.中断，分裂，破坏"
+          "meaning": "n.中断，分裂，破坏"
         },
         {
           "word": "angry",
@@ -60379,7 +60379,7 @@ window.CET6_DATA = {
         },
         {
           "word": "confidence",
-          "meaning": "[派生] n.信心，自信"
+          "meaning": "n.信心，自信"
         },
         {
           "word": "coincide",
@@ -60415,7 +60415,7 @@ window.CET6_DATA = {
         },
         {
           "word": "departure",
-          "meaning": "[派生] n.离开；背离"
+          "meaning": "n.离开；背离"
         },
         {
           "word": "exploitation",
@@ -60455,7 +60455,7 @@ window.CET6_DATA = {
         },
         {
           "word": "synthetic",
-          "meaning": "[派生] adj.人造的；合成的；综合的 n.合成物；合成剂"
+          "meaning": "adj.人造的；合成的；综合的 n.合成物；合成剂"
         },
         {
           "word": "beware",
@@ -60543,7 +60543,7 @@ window.CET6_DATA = {
         },
         {
           "word": "ultimately",
-          "meaning": "[派生] adv.最终；最后；根本上"
+          "meaning": "adv.最终；最后；根本上"
         },
         {
           "word": "mutual",
@@ -60551,15 +60551,15 @@ window.CET6_DATA = {
         },
         {
           "word": "intuitive",
-          "meaning": "[派生] adj.直觉的；易懂的"
+          "meaning": "adj.直觉的；易懂的"
         },
         {
           "word": "demonstrative",
-          "meaning": "[派生] adj.感情外露的；指示的 n.指示代词；限定词"
+          "meaning": "adj.感情外露的；指示的 n.指示代词；限定词"
         },
         {
           "word": "condemnation",
-          "meaning": "[派生] n.遣责；指责"
+          "meaning": "n.遣责；指责"
         },
         {
           "word": "startle",
@@ -60567,7 +60567,7 @@ window.CET6_DATA = {
         },
         {
           "word": "allegation",
-          "meaning": "[派生] n.（无证据的）说法，指控"
+          "meaning": "n.（无证据的）说法，指控"
         },
         {
           "word": "deed",
@@ -60587,7 +60587,7 @@ window.CET6_DATA = {
         },
         {
           "word": "registration",
-          "meaning": "[派生] n.注册，登记"
+          "meaning": "n.注册，登记"
         },
         {
           "word": "grand",
@@ -60595,7 +60595,7 @@ window.CET6_DATA = {
         },
         {
           "word": "complexity",
-          "meaning": "[派生] n.复杂性；复杂之处"
+          "meaning": "n.复杂性；复杂之处"
         },
         {
           "word": "warrior",
@@ -60603,7 +60603,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pure",
-          "meaning": "[派生] adj.纯的；纯净的；完全的"
+          "meaning": "adj.纯的；纯净的；完全的"
         },
         {
           "word": "Buddhist",
@@ -60631,7 +60631,7 @@ window.CET6_DATA = {
         },
         {
           "word": "patronage",
-          "meaning": "[派生] peitranid3/ n.赞助；惠顾"
+          "meaning": "peitranid3/ n.赞助；惠顾"
         },
         {
           "word": "fireplace",
@@ -60639,7 +60639,7 @@ window.CET6_DATA = {
         },
         {
           "word": "evaporation",
-          "meaning": "[派生] n.蒸发；（逐渐）消失"
+          "meaning": "n.蒸发；（逐渐）消失"
         },
         {
           "word": "offend",
@@ -60687,7 +60687,7 @@ window.CET6_DATA = {
         },
         {
           "word": "remarkable",
-          "meaning": "[派生] adj.显著的；非凡的"
+          "meaning": "adj.显著的；非凡的"
         },
         {
           "word": "bell",
@@ -60715,7 +60715,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sponsorship",
-          "meaning": "[派生] n.资助；倡议"
+          "meaning": "n.资助；倡议"
         },
         {
           "word": "provoke",
@@ -60775,7 +60775,7 @@ window.CET6_DATA = {
         },
         {
           "word": "counteraction",
-          "meaning": "[派生] n. 抵制；抵消；抵抗"
+          "meaning": "n. 抵制；抵消；抵抗"
         },
         {
           "word": "heartfelt",
@@ -60783,7 +60783,7 @@ window.CET6_DATA = {
         },
         {
           "word": "notoriety",
-          "meaning": "[派生] n.恶名，坏名声"
+          "meaning": "n.恶名，坏名声"
         },
         {
           "word": "advantageous",
@@ -60791,7 +60791,7 @@ window.CET6_DATA = {
         },
         {
           "word": "insertion",
-          "meaning": "[派生] n.放入，插入；插人物"
+          "meaning": "n.放入，插入；插人物"
         },
         {
           "word": "tender",
@@ -60835,7 +60835,7 @@ window.CET6_DATA = {
         },
         {
           "word": "projection",
-          "meaning": "n.预测；推断；设想；投射；放 映；投影 披星戴月走过的路·最终将会繁花满地。/325"
+          "meaning": "n.预测；推断；设想；投射；放 映；投影"
         },
         {
           "word": "isue",
@@ -60851,7 +60851,7 @@ window.CET6_DATA = {
         },
         {
           "word": "scandalous",
-          "meaning": "[派生] adj.可耻的；不可原谅的"
+          "meaning": "adj.可耻的；不可原谅的"
         },
         {
           "word": "chess",
@@ -60859,7 +60859,7 @@ window.CET6_DATA = {
         },
         {
           "word": "intentional",
-          "meaning": "[派生] adj.故意的，存心的"
+          "meaning": "adj.故意的，存心的"
         },
         {
           "word": "speech",
@@ -60899,7 +60899,7 @@ window.CET6_DATA = {
         },
         {
           "word": "extension",
-          "meaning": "[派生] n.扩大；延伸"
+          "meaning": "n.扩大；延伸"
         },
         {
           "word": "ban",
@@ -60919,7 +60919,7 @@ window.CET6_DATA = {
         },
         {
           "word": "restraint",
-          "meaning": "[派生] n.约束力；限制，克制"
+          "meaning": "n.约束力；限制，克制"
         },
         {
           "word": "gross",
@@ -60935,11 +60935,11 @@ window.CET6_DATA = {
         },
         {
           "word": "relief",
-          "meaning": "[派生] n.宽慰；救济；（焦虑、痛苦等的）减 轻，消除"
+          "meaning": "n.宽慰；救济；（焦虑、痛苦等的）减 轻，消除"
         },
         {
           "word": "journalist",
-          "meaning": "[派生] n.新闻记者，新闻工作者"
+          "meaning": "n.新闻记者，新闻工作者"
         },
         {
           "word": "bore",
@@ -60995,7 +60995,7 @@ window.CET6_DATA = {
         },
         {
           "word": "qualification",
-          "meaning": "[派生] n.资格；资历；合格"
+          "meaning": "n.资格；资历；合格"
         },
         {
           "word": "allotment",
@@ -61051,7 +61051,7 @@ window.CET6_DATA = {
         },
         {
           "word": "aggregate",
-          "meaning": "n.总数；合计adj-总数的；总计的 /aegrigert/v.总计；合计"
+          "meaning": "n. 总数，合计 adj. 总计的 v. 总计"
         },
         {
           "word": "sheep",
@@ -61095,7 +61095,7 @@ window.CET6_DATA = {
         },
         {
           "word": "identification",
-          "meaning": "[派生] n.鉴定，识别；身份证明（文件）"
+          "meaning": "n.鉴定，识别；身份证明（文件）"
         },
         {
           "word": "headquarters",
@@ -61147,7 +61147,7 @@ window.CET6_DATA = {
         },
         {
           "word": "discourse",
-          "meaning": "n.论文；演讲；语篇；话语 /dis'kos/v.讲述，著述"
+          "meaning": "n. 语篇，话语；演讲，论文"
         },
         {
           "word": "deteriorate",
@@ -61171,11 +61171,11 @@ window.CET6_DATA = {
         },
         {
           "word": "communicative",
-          "meaning": "adj.乐意沟通的；语言 Lesson 交际能力的"
+          "meaning": "adj.乐意沟通的；语言  交际能力的"
         },
         {
           "word": "imitation",
-          "meaning": "[派生] n.模仿；仿制品"
+          "meaning": "n.模仿；仿制品"
         },
         {
           "word": "pad",
@@ -61191,7 +61191,7 @@ window.CET6_DATA = {
         },
         {
           "word": "appraisal",
-          "meaning": "[派生] n.评价；估价"
+          "meaning": "n.评价；估价"
         },
         {
           "word": "satellite",
@@ -61247,7 +61247,7 @@ window.CET6_DATA = {
         },
         {
           "word": "mechanism",
-          "meaning": "[派生] n.机械装置；机制"
+          "meaning": "n.机械装置；机制"
         },
         {
           "word": "olive",
@@ -61315,15 +61315,15 @@ window.CET6_DATA = {
         },
         {
           "word": "imperialism",
-          "meaning": "[派生] n.帝国统治；帝国主义"
+          "meaning": "n.帝国统治；帝国主义"
         },
         {
           "word": "fertility",
-          "meaning": "[派生] n.富饶；能生育性；可繁殖性"
+          "meaning": "n.富饶；能生育性；可繁殖性"
         },
         {
           "word": "humanity",
-          "meaning": "[派生] n.人类；人道；仁慈；人文学科"
+          "meaning": "n.人类；人道；仁慈；人文学科"
         },
         {
           "word": "superb",
@@ -61347,7 +61347,7 @@ window.CET6_DATA = {
         },
         {
           "word": "dimensional",
-          "meaning": "[派生] adj.尺寸的；维度的"
+          "meaning": "adj.尺寸的；维度的"
         },
         {
           "word": "entitle",
@@ -61383,7 +61383,7 @@ window.CET6_DATA = {
         },
         {
           "word": "forestry",
-          "meaning": "n.林学；林业 Lesson"
+          "meaning": "n.林学；林业"
         },
         {
           "word": "normalisation",
@@ -61391,7 +61391,7 @@ window.CET6_DATA = {
         },
         {
           "word": "injection",
-          "meaning": "[派生] n.注射；（液体）注人"
+          "meaning": "n.注射；（液体）注人"
         },
         {
           "word": "grape",
@@ -61419,7 +61419,7 @@ window.CET6_DATA = {
         },
         {
           "word": "understanding",
-          "meaning": "n.理解；领悟；了解 Unit"
+          "meaning": "n.理解；领悟；了解"
         },
         {
           "word": "withdraw",
@@ -61463,7 +61463,7 @@ window.CET6_DATA = {
         },
         {
           "word": "notation",
-          "meaning": "[派生] n.符号，记号"
+          "meaning": "n.符号，记号"
         },
         {
           "word": "jockey",
@@ -61471,7 +61471,7 @@ window.CET6_DATA = {
         },
         {
           "word": "radiator",
-          "meaning": "[派生] n.散热器；暖气片"
+          "meaning": "n.散热器；暖气片"
         },
         {
           "word": "suit",
@@ -61499,7 +61499,7 @@ window.CET6_DATA = {
         },
         {
           "word": "variable",
-          "meaning": "[派生] n.变量，可变因素 adj.可变的；易变的，多变的"
+          "meaning": "n.变量，可变因素 adj.可变的；易变的，多变的"
         },
         {
           "word": "veteran",
@@ -61515,7 +61515,7 @@ window.CET6_DATA = {
         },
         {
           "word": "indication",
-          "meaning": "[派生] n.表明；显示；象征"
+          "meaning": "n.表明；显示；象征"
         },
         {
           "word": "imprison",
@@ -61539,11 +61539,11 @@ window.CET6_DATA = {
         },
         {
           "word": "legitimacy",
-          "meaning": "[派生] n.合法性"
+          "meaning": "n.合法性"
         },
         {
           "word": "linkage",
-          "meaning": "[派生] n.连接，联系"
+          "meaning": "n.连接，联系"
         },
         {
           "word": "cinema",
@@ -61587,7 +61587,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reassurance",
-          "meaning": "[派生] ri′orans/ n.(能消除疑虑等的）肯定，保证"
+          "meaning": "n. 保证；放心，消除疑虑"
         },
         {
           "word": "popularity",
@@ -61623,7 +61623,7 @@ window.CET6_DATA = {
         },
         {
           "word": "suburban",
-          "meaning": "[派生] adj.郊区的；平庸的"
+          "meaning": "adj.郊区的；平庸的"
         },
         {
           "word": "below",
@@ -61635,7 +61635,7 @@ window.CET6_DATA = {
         },
         {
           "word": "privacy",
-          "meaning": "[派生] n.隐私；私密"
+          "meaning": "n.隐私；私密"
         },
         {
           "word": "yard",
@@ -61651,7 +61651,7 @@ window.CET6_DATA = {
         },
         {
           "word": "glittering",
-          "meaning": "[派生] adj.辉煌的；闪闪发光的"
+          "meaning": "adj.辉煌的；闪闪发光的"
         },
         {
           "word": "predict",
@@ -61699,7 +61699,7 @@ window.CET6_DATA = {
         },
         {
           "word": "candidate",
-          "meaning": "'kaendideit/ n.候选人；应试者"
+          "meaning": "n. 候选人，应试者"
         },
         {
           "word": "quality",
@@ -61719,7 +61719,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sensational",
-          "meaning": "[派生] adj.轰动的；耸人听闻的"
+          "meaning": "adj.轰动的；耸人听闻的"
         },
         {
           "word": "carrot",
@@ -61735,7 +61735,7 @@ window.CET6_DATA = {
         },
         {
           "word": "envious",
-          "meaning": "[派生] adj.羡慕的；忌妒的"
+          "meaning": "adj.羡慕的；忌妒的"
         },
         {
           "word": "militia",
@@ -61779,7 +61779,7 @@ window.CET6_DATA = {
         },
         {
           "word": "separate",
-          "meaning": "v.（使）分开，隔开；区别 细致严谨的 /'seprat/adj.单独的；不同的"
+          "meaning": "v. 分开，隔开 adj. 单独的，分开的"
         },
         {
           "word": "thorn",
@@ -61823,7 +61823,7 @@ window.CET6_DATA = {
         },
         {
           "word": "occurrence",
-          "meaning": "[派生] n.出现；发生"
+          "meaning": "n.出现；发生"
         },
         {
           "word": "bone",
@@ -61843,7 +61843,7 @@ window.CET6_DATA = {
         },
         {
           "word": "particularly",
-          "meaning": "[派生] adv.特别；尤其"
+          "meaning": "adv.特别；尤其"
         },
         {
           "word": "fault",
@@ -61907,11 +61907,11 @@ window.CET6_DATA = {
         },
         {
           "word": "sticky",
-          "meaning": "[派生] adj.黏（性）的"
+          "meaning": "adj.黏（性）的"
         },
         {
           "word": "security",
-          "meaning": "[派生] n.安全；抵押品；安保"
+          "meaning": "n.安全；抵押品；安保"
         },
         {
           "word": "gas",
@@ -61923,7 +61923,7 @@ window.CET6_DATA = {
         },
         {
           "word": "withdrawal",
-          "meaning": "[派生] n.提款；撤走；收回"
+          "meaning": "n.提款；撤走；收回"
         },
         {
           "word": "downgrade",
@@ -61947,11 +61947,11 @@ window.CET6_DATA = {
         },
         {
           "word": "digestion",
-          "meaning": "[派生] n.消化，消化能力"
+          "meaning": "n.消化，消化能力"
         },
         {
           "word": "humanitarian",
-          "meaning": "[派生] adj.人道主义的；慈善的"
+          "meaning": "adj.人道主义的；慈善的"
         },
         {
           "word": "curse",
@@ -61959,7 +61959,7 @@ window.CET6_DATA = {
         },
         {
           "word": "obligatory",
-          "meaning": "[派生] 制的 adj.（按法律、规定等）必须的，强"
+          "meaning": "制的 adj.（按法律、规定等）必须的，强"
         },
         {
           "word": "verge",
@@ -61967,7 +61967,7 @@ window.CET6_DATA = {
         },
         {
           "word": "lecturer",
-          "meaning": "[派生] n.讲课者，演讲者"
+          "meaning": "n.讲课者，演讲者"
         },
         {
           "word": "compress",
@@ -62007,7 +62007,7 @@ window.CET6_DATA = {
         },
         {
           "word": "permissive",
-          "meaning": "[派生] adj.放任的，纵容的，姑息的"
+          "meaning": "adj.放任的，纵容的，姑息的"
         },
         {
           "word": "repair",
@@ -62019,7 +62019,7 @@ window.CET6_DATA = {
         },
         {
           "word": "chair",
-          "meaning": "n.椅子；主席席位；系主任v.担任主 Unit 席；主持"
+          "meaning": "n.椅子；主席席位；系主任v.担任主  席；主持"
         },
         {
           "word": "semester",
@@ -62035,7 +62035,7 @@ window.CET6_DATA = {
         },
         {
           "word": "secrecy",
-          "meaning": "n.保密；秘密 ‘u/puas/pues"
+          "meaning": "n. 保密，秘密状态"
         },
         {
           "word": "traditional",
@@ -62047,7 +62047,7 @@ window.CET6_DATA = {
         },
         {
           "word": "revengeful",
-          "meaning": "[派生] adj.渴望复仇的，一心报复的"
+          "meaning": "adj.渴望复仇的，一心报复的"
         },
         {
           "word": "opaque",
@@ -62115,7 +62115,7 @@ window.CET6_DATA = {
         },
         {
           "word": "transitional",
-          "meaning": "[派生] adj.变迁的；过渡期的"
+          "meaning": "adj.变迁的；过渡期的"
         },
         {
           "word": "script",
@@ -62135,7 +62135,7 @@ window.CET6_DATA = {
         },
         {
           "word": "charitable",
-          "meaning": "[派生] adj.慈善的；宽容的"
+          "meaning": "adj.慈善的；宽容的"
         },
         {
           "word": "thinking",
@@ -62151,7 +62151,7 @@ window.CET6_DATA = {
         },
         {
           "word": "shark",
-          "meaning": "n.鲨鱼 Lesson"
+          "meaning": "n.鲨鱼"
         },
         {
           "word": "supply",
@@ -62271,7 +62271,7 @@ window.CET6_DATA = {
         },
         {
           "word": "depression",
-          "meaning": "[派生] n.沮丧；抑郁症；萧条期"
+          "meaning": "n.沮丧；抑郁症；萧条期"
         },
         {
           "word": "dine",
@@ -62303,7 +62303,7 @@ window.CET6_DATA = {
         },
         {
           "word": "vaccinate",
-          "meaning": "[派生] v.给..…接种疫苗"
+          "meaning": "v.给..…接种疫苗"
         },
         {
           "word": "export",
@@ -62323,7 +62323,7 @@ window.CET6_DATA = {
         },
         {
           "word": "moody",
-          "meaning": "[派生] adj.情绪多变的，喜怒无常的"
+          "meaning": "adj.情绪多变的，喜怒无常的"
         },
         {
           "word": "receptive",
@@ -62379,7 +62379,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reserved",
-          "meaning": "[派生] adj.内向的；矜持的"
+          "meaning": "adj.内向的；矜持的"
         },
         {
           "word": "phenomenon",
@@ -62411,7 +62411,7 @@ window.CET6_DATA = {
         },
         {
           "word": "stuffy",
-          "meaning": "[派生] adj.闷热的；一本正经的，古板的"
+          "meaning": "adj.闷热的；一本正经的，古板的"
         },
         {
           "word": "trousers",
@@ -62419,7 +62419,7 @@ window.CET6_DATA = {
         },
         {
           "word": "currently",
-          "meaning": "[派生] adv.目前，当前"
+          "meaning": "adv.目前，当前"
         },
         {
           "word": "railroad",
@@ -62435,7 +62435,7 @@ window.CET6_DATA = {
         },
         {
           "word": "anticipation",
-          "meaning": "[派生] n.预料，预计"
+          "meaning": "n.预料，预计"
         },
         {
           "word": "alien",
@@ -62447,7 +62447,7 @@ window.CET6_DATA = {
         },
         {
           "word": "assembly",
-          "meaning": "[派生] n.装配；立法机构；议会"
+          "meaning": "n.装配；立法机构；议会"
         },
         {
           "word": "anger",
@@ -62475,7 +62475,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reconciliatory",
-          "meaning": "[派生] adj.调解的；和解的"
+          "meaning": "adj.调解的；和解的"
         },
         {
           "word": "interior",
@@ -62503,7 +62503,7 @@ window.CET6_DATA = {
         },
         {
           "word": "religious",
-          "meaning": "[派生] adj.宗教的；虔诚的"
+          "meaning": "adj.宗教的；虔诚的"
         },
         {
           "word": "tonnage",
@@ -62531,7 +62531,7 @@ window.CET6_DATA = {
         },
         {
           "word": "recommendation",
-          "meaning": "[派生] n. 正式建议，提议；推荐，介绍"
+          "meaning": "n. 正式建议，提议；推荐，介绍"
         },
         {
           "word": "exotic",
@@ -62539,7 +62539,7 @@ window.CET6_DATA = {
         },
         {
           "word": "infectious",
-          "meaning": "[派生] adj.传染性的；感染的"
+          "meaning": "adj.传染性的；感染的"
         },
         {
           "word": "panoramic",
@@ -62583,7 +62583,7 @@ window.CET6_DATA = {
         },
         {
           "word": "enthusiast",
-          "meaning": "[派生] n.爱好者"
+          "meaning": "n.爱好者"
         },
         {
           "word": "procession",
@@ -62619,7 +62619,7 @@ window.CET6_DATA = {
         },
         {
           "word": "directory",
-          "meaning": "dal'rektari/ n.名录；电话簿；（计算机的）目录"
+          "meaning": "n. 姓名地址录；名录；目录"
         },
         {
           "word": "dwell",
@@ -62627,7 +62627,7 @@ window.CET6_DATA = {
         },
         {
           "word": "prevention",
-          "meaning": "[派生] n.预防；防止"
+          "meaning": "n.预防；防止"
         },
         {
           "word": "leaf",
@@ -62663,7 +62663,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cautious",
-          "meaning": "[派生] adj.谨慎的，小心的"
+          "meaning": "adj.谨慎的，小心的"
         },
         {
           "word": "visualize",
@@ -62695,7 +62695,7 @@ window.CET6_DATA = {
         },
         {
           "word": "spherical",
-          "meaning": "[派生] adj.球形的；球状的"
+          "meaning": "adj.球形的；球状的"
         },
         {
           "word": "dismissal",
@@ -62703,7 +62703,7 @@ window.CET6_DATA = {
         },
         {
           "word": "portrait",
-          "meaning": "[派生] n.（人的）肖像，画像；（对事物的） 描绘"
+          "meaning": "n.（人的）肖像，画像；（对事物的） 描绘"
         },
         {
           "word": "nominal",
@@ -62747,7 +62747,7 @@ window.CET6_DATA = {
         },
         {
           "word": "rejection",
-          "meaning": "[派生] n.拒绝；不录用"
+          "meaning": "n.拒绝；不录用"
         },
         {
           "word": "earnings",
@@ -62759,7 +62759,7 @@ window.CET6_DATA = {
         },
         {
           "word": "contentious",
-          "meaning": "[派生] adj.引起争论的；爱争论的"
+          "meaning": "adj.引起争论的；爱争论的"
         },
         {
           "word": "proverb",
@@ -62775,15 +62775,15 @@ window.CET6_DATA = {
         },
         {
           "word": "honorable",
-          "meaning": "[派生] adj. 可敬的，值得钦佩的"
+          "meaning": "adj. 可敬的，值得钦佩的"
         },
         {
           "word": "precautionary",
-          "meaning": "[派生] adj.预先警戒的；小心的"
+          "meaning": "adj.预先警戒的；小心的"
         },
         {
           "word": "irrigation",
-          "meaning": "[派生] n.灌溉"
+          "meaning": "n.灌溉"
         },
         {
           "word": "lie",
@@ -62811,7 +62811,7 @@ window.CET6_DATA = {
         },
         {
           "word": "plead",
-          "meaning": "[派生] v.恳求；为.…..辩护"
+          "meaning": "v.恳求；为.…..辩护"
         },
         {
           "word": "costly",
@@ -62851,7 +62851,7 @@ window.CET6_DATA = {
         },
         {
           "word": "compensatory",
-          "meaning": "[派生] adj.补偿性的"
+          "meaning": "adj.补偿性的"
         },
         {
           "word": "bloc",
@@ -62927,7 +62927,7 @@ window.CET6_DATA = {
         },
         {
           "word": "concentration",
-          "meaning": "[派生] n.专心，专注；重视；浓度"
+          "meaning": "n.专心，专注；重视；浓度"
         },
         {
           "word": "gifted",
@@ -62939,7 +62939,7 @@ window.CET6_DATA = {
         },
         {
           "word": "novelty",
-          "meaning": "[派生] n.新奇，新颖"
+          "meaning": "n.新奇，新颖"
         },
         {
           "word": "cough",
@@ -62963,11 +62963,11 @@ window.CET6_DATA = {
         },
         {
           "word": "alternative",
-          "meaning": "[派生] n.可供选择的事物adj.可替代的"
+          "meaning": "n.可供选择的事物adj.可替代的"
         },
         {
           "word": "pond",
-          "meaning": "n.池塘 2"
+          "meaning": "n.池塘"
         },
         {
           "word": "card",
@@ -63003,7 +63003,7 @@ window.CET6_DATA = {
         },
         {
           "word": "conformity",
-          "meaning": "[派生] n.(对社会规则的）遵从，遵守"
+          "meaning": "n.(对社会规则的）遵从，遵守"
         },
         {
           "word": "succession",
@@ -63043,7 +63043,7 @@ window.CET6_DATA = {
         },
         {
           "word": "wreckage",
-          "meaning": "[派生] n.残；残余"
+          "meaning": "n.残；残余"
         },
         {
           "word": "underdeveloped",
@@ -63051,7 +63051,7 @@ window.CET6_DATA = {
         },
         {
           "word": "irritation",
-          "meaning": "[派生] n.刺激；刺激物；恼人的事"
+          "meaning": "n.刺激；刺激物；恼人的事"
         },
         {
           "word": "balance",
@@ -63119,7 +63119,7 @@ window.CET6_DATA = {
         },
         {
           "word": "offense",
-          "meaning": "[派生] n. 犯罪；冒犯"
+          "meaning": "n. 犯罪；冒犯"
         },
         {
           "word": "primary",
@@ -63131,7 +63131,7 @@ window.CET6_DATA = {
         },
         {
           "word": "particle",
-          "meaning": "[派生] n.颗粒，微粒；极小量"
+          "meaning": "n.颗粒，微粒；极小量"
         },
         {
           "word": "equity",
@@ -63199,7 +63199,7 @@ window.CET6_DATA = {
         },
         {
           "word": "relation",
-          "meaning": "[派生] n.关系，联系；亲属"
+          "meaning": "n.关系，联系；亲属"
         },
         {
           "word": "suspect",
@@ -63207,7 +63207,7 @@ window.CET6_DATA = {
         },
         {
           "word": "competitive",
-          "meaning": "[派生] adj.竞争的；有竞争力的；好胜的"
+          "meaning": "adj.竞争的；有竞争力的；好胜的"
         },
         {
           "word": "hunt",
@@ -63231,11 +63231,11 @@ window.CET6_DATA = {
         },
         {
           "word": "subordination",
-          "meaning": "[派生] n. 附属；从属"
+          "meaning": "n. 附属；从属"
         },
         {
           "word": "fertilizer",
-          "meaning": "[派生] n. 肥料，化肥"
+          "meaning": "n. 肥料，化肥"
         },
         {
           "word": "barometer",
@@ -63279,7 +63279,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sacrificial",
-          "meaning": "[派生] adj.用于祭献的"
+          "meaning": "adj.用于祭献的"
         },
         {
           "word": "sheet",
@@ -63315,7 +63315,7 @@ window.CET6_DATA = {
         },
         {
           "word": "lubrication",
-          "meaning": "[派生] n.润滑"
+          "meaning": "n.润滑"
         },
         {
           "word": "flock",
@@ -63323,7 +63323,7 @@ window.CET6_DATA = {
         },
         {
           "word": "recorder",
-          "meaning": "[派生] n.记录员；录音机"
+          "meaning": "n.记录员；录音机"
         },
         {
           "word": "technological",
@@ -63347,7 +63347,7 @@ window.CET6_DATA = {
         },
         {
           "word": "orientation",
-          "meaning": "[派生] n.方向；目标；观点"
+          "meaning": "n.方向；目标；观点"
         },
         {
           "word": "fluent",
@@ -63363,7 +63363,7 @@ window.CET6_DATA = {
         },
         {
           "word": "defiant",
-          "meaning": "[派生] adj.公然违抗的，反抗的；挑畔的"
+          "meaning": "adj.公然违抗的，反抗的；挑畔的"
         },
         {
           "word": "harden",
@@ -63395,7 +63395,7 @@ window.CET6_DATA = {
         },
         {
           "word": "abolition",
-          "meaning": "[派生] n.废除，废止"
+          "meaning": "n.废除，废止"
         },
         {
           "word": "incline",
@@ -63415,7 +63415,7 @@ window.CET6_DATA = {
         },
         {
           "word": "elasticity",
-          "meaning": "[派生] n.弹性；弹力"
+          "meaning": "n.弹性；弹力"
         },
         {
           "word": "cooperate",
@@ -63483,7 +63483,7 @@ window.CET6_DATA = {
         },
         {
           "word": "snake",
-          "meaning": "n.蛇 skil(1)ful/'skilfl/adj.技术好的；熟练的；制作精良的"
+          "meaning": "n. 蛇 v. 蜿蜒，曲折行进"
         },
         {
           "word": "adverse",
@@ -63507,7 +63507,7 @@ window.CET6_DATA = {
         },
         {
           "word": "depreciation",
-          "meaning": "[派生] n.贬值；贬低；轻视"
+          "meaning": "n.贬值；贬低；轻视"
         },
         {
           "word": "suggest",
@@ -63551,7 +63551,7 @@ window.CET6_DATA = {
         },
         {
           "word": "syndicate",
-          "meaning": "n.辛迪加；财团；私人联合会 /sindikeit/v.把（文章、图片等）出售给多个媒体"
+          "meaning": "n. 辛迪加，财团 v. 联合出售"
         },
         {
           "word": "admiration",
@@ -63563,7 +63563,7 @@ window.CET6_DATA = {
         },
         {
           "word": "retrospective",
-          "meaning": "[派生] adj.回顾的；有追溯效力的"
+          "meaning": "adj.回顾的；有追溯效力的"
         },
         {
           "word": "digest",
@@ -63579,7 +63579,7 @@ window.CET6_DATA = {
         },
         {
           "word": "superstitious",
-          "meaning": "[派生] adj.迷信的"
+          "meaning": "adj.迷信的"
         },
         {
           "word": "teller",
@@ -63587,7 +63587,7 @@ window.CET6_DATA = {
         },
         {
           "word": "dramatic",
-          "meaning": "[派生] adj.戏剧性的；引人注目的"
+          "meaning": "adj.戏剧性的；引人注目的"
         },
         {
           "word": "leak",
@@ -63635,7 +63635,7 @@ window.CET6_DATA = {
         },
         {
           "word": "unity",
-          "meaning": "[派生] n.团结一致；联合；统一"
+          "meaning": "n.团结一致；联合；统一"
         },
         {
           "word": "wood",
@@ -63667,11 +63667,11 @@ window.CET6_DATA = {
         },
         {
           "word": "delightful",
-          "meaning": "[派生] adj.使人快乐的，令人愉快的；宜 人的"
+          "meaning": "adj.使人快乐的，令人愉快的；宜 人的"
         },
         {
           "word": "disintegration",
-          "meaning": "[派生] n.分裂；瓦解"
+          "meaning": "n.分裂；瓦解"
         },
         {
           "word": "counter",
@@ -63699,7 +63699,7 @@ window.CET6_DATA = {
         },
         {
           "word": "urgency",
-          "meaning": "[派生] n.紧急，迫切"
+          "meaning": "n.紧急，迫切"
         },
         {
           "word": "o'clock",
@@ -63707,7 +63707,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reproduction",
-          "meaning": "[派生] n.生殖，繁殖；复制"
+          "meaning": "n.生殖，繁殖；复制"
         },
         {
           "word": "agent",
@@ -63727,7 +63727,7 @@ window.CET6_DATA = {
         },
         {
           "word": "flawless",
-          "meaning": "[派生] adj.完美的；无瑕的"
+          "meaning": "adj.完美的；无瑕的"
         },
         {
           "word": "noun",
@@ -63747,7 +63747,7 @@ window.CET6_DATA = {
         },
         {
           "word": "disciplinary",
-          "meaning": "[派生] adj.有关纪律的；惩戒性的"
+          "meaning": "adj.有关纪律的；惩戒性的"
         },
         {
           "word": "learn",
@@ -63791,7 +63791,7 @@ window.CET6_DATA = {
         },
         {
           "word": "composition",
-          "meaning": "[派生] n.成分，构成；作品，作曲"
+          "meaning": "n.成分，构成；作品，作曲"
         },
         {
           "word": "southern",
@@ -63831,7 +63831,7 @@ window.CET6_DATA = {
         },
         {
           "word": "devastation",
-          "meaning": "[派生] n.毁灭；破坏"
+          "meaning": "n.毁灭；破坏"
         },
         {
           "word": "where",
@@ -63851,7 +63851,7 @@ window.CET6_DATA = {
         },
         {
           "word": "enable",
-          "meaning": "v.使能够；使可行 eneyelop(a）edia /Imisaiklopidio/n.百科全书"
+          "meaning": "v. 使能够，使成为可能"
         },
         {
           "word": "allowance",
@@ -63867,11 +63867,11 @@ window.CET6_DATA = {
         },
         {
           "word": "recession",
-          "meaning": "[派生] n.经济衰退；退后"
+          "meaning": "n.经济衰退；退后"
         },
         {
           "word": "substitution",
-          "meaning": "[派生] n. 替代；代替物"
+          "meaning": "n. 替代；代替物"
         },
         {
           "word": "disgust",
@@ -63899,11 +63899,11 @@ window.CET6_DATA = {
         },
         {
           "word": "verification",
-          "meaning": "[派生] n.核实；查对；核准"
+          "meaning": "n.核实；查对；核准"
         },
         {
           "word": "evident",
-          "meaning": "[派生] adj.明显的，显然的"
+          "meaning": "adj.明显的，显然的"
         },
         {
           "word": "missile",
@@ -63927,7 +63927,7 @@ window.CET6_DATA = {
         },
         {
           "word": "suppression",
-          "meaning": "[派生] n.镇压，压制；抑制"
+          "meaning": "n.镇压，压制；抑制"
         },
         {
           "word": "familiarise",
@@ -63951,11 +63951,11 @@ window.CET6_DATA = {
         },
         {
           "word": "optimism",
-          "meaning": "[派生] n.乐观；乐观主义"
+          "meaning": "n.乐观；乐观主义"
         },
         {
           "word": "charge",
-          "meaning": "[派生] v.收（费）；控告；起诉；充电 n.收费；控告；责任"
+          "meaning": "v.收（费）；控告；起诉；充电 n.收费；控告；责任"
         },
         {
           "word": "lofty",
@@ -64011,7 +64011,7 @@ window.CET6_DATA = {
         },
         {
           "word": "moisture",
-          "meaning": "[派生] n.潮气；水汽"
+          "meaning": "n.潮气；水汽"
         },
         {
           "word": "bottom",
@@ -64027,15 +64027,15 @@ window.CET6_DATA = {
         },
         {
           "word": "amazing",
-          "meaning": "[派生] adj.令人惊奇的；令人惊喜的"
+          "meaning": "adj.令人惊奇的；令人惊喜的"
         },
         {
           "word": "elegance",
-          "meaning": "[派生] n.优雅，雅致"
+          "meaning": "n.优雅，雅致"
         },
         {
           "word": "scripture",
-          "meaning": "[派生] n.（某宗教的）经文，经籍；《圣经》"
+          "meaning": "n.（某宗教的）经文，经籍；《圣经》"
         },
         {
           "word": "chronic",
@@ -64075,7 +64075,7 @@ window.CET6_DATA = {
         },
         {
           "word": "combative",
-          "meaning": "[派生] adj.好战的；好争论的"
+          "meaning": "adj.好战的；好争论的"
         },
         {
           "word": "sphere",
@@ -64107,11 +64107,11 @@ window.CET6_DATA = {
         },
         {
           "word": "hesitant",
-          "meaning": "[派生] adj.犹豫的，踏的"
+          "meaning": "adj.犹豫的，踏的"
         },
         {
           "word": "commune",
-          "meaning": "n.群体，公社 /kamjun/v.和.…..沟通"
+          "meaning": "n. 公社，群体 v. 与...亲密交流"
         },
         {
           "word": "museum",
@@ -64143,7 +64143,7 @@ window.CET6_DATA = {
         },
         {
           "word": "respectively",
-          "meaning": "[派生] adv.各自，分别；依次为；顺序为"
+          "meaning": "adv.各自，分别；依次为；顺序为"
         },
         {
           "word": "concede",
@@ -64187,11 +64187,11 @@ window.CET6_DATA = {
         },
         {
           "word": "aggravation",
-          "meaning": "[派生] n.恶化；加剧"
+          "meaning": "n.恶化；加剧"
         },
         {
           "word": "prosper",
-          "meaning": "[派生] v.繁荣，兴旺，发达"
+          "meaning": "v.繁荣，兴旺，发达"
         },
         {
           "word": "suitable",
@@ -64199,7 +64199,7 @@ window.CET6_DATA = {
         },
         {
           "word": "mate",
-          "meaning": "[派生] n.朋友，伙伴；伴侣"
+          "meaning": "n.朋友，伙伴；伴侣"
         },
         {
           "word": "faulty",
@@ -64339,7 +64339,7 @@ window.CET6_DATA = {
         },
         {
           "word": "compliance",
-          "meaning": "[派生] n.服从；遵从"
+          "meaning": "n.服从；遵从"
         },
         {
           "word": "stoppage",
@@ -64415,11 +64415,11 @@ window.CET6_DATA = {
         },
         {
           "word": "fortunate",
-          "meaning": "[派生] adj.幸运的；吉利的"
+          "meaning": "adj.幸运的；吉利的"
         },
         {
           "word": "adventurer",
-          "meaning": "[派生] n.冒险者；冒险家"
+          "meaning": "n.冒险者；冒险家"
         },
         {
           "word": "dare",
@@ -64439,7 +64439,7 @@ window.CET6_DATA = {
         },
         {
           "word": "infringement",
-          "meaning": "[派生] n. 侵犯；违背"
+          "meaning": "n. 侵犯；违背"
         },
         {
           "word": "lass",
@@ -64463,7 +64463,7 @@ window.CET6_DATA = {
         },
         {
           "word": "immensity",
-          "meaning": "[派生] n.巨大；广大"
+          "meaning": "n.巨大；广大"
         },
         {
           "word": "it",
@@ -64479,7 +64479,7 @@ window.CET6_DATA = {
         },
         {
           "word": "corporate",
-          "meaning": "[派生] adj.公司的；团体的；全体的"
+          "meaning": "adj.公司的；团体的；全体的"
         },
         {
           "word": "translate",
@@ -64535,7 +64535,7 @@ window.CET6_DATA = {
         },
         {
           "word": "obliged",
-          "meaning": "[派生] adj. 感激的；有责任的"
+          "meaning": "adj. 感激的；有责任的"
         },
         {
           "word": "calling",
@@ -64543,7 +64543,7 @@ window.CET6_DATA = {
         },
         {
           "word": "idealistic",
-          "meaning": "[派生] adj.理想主义的；空想的"
+          "meaning": "adj.理想主义的；空想的"
         },
         {
           "word": "bluff",
@@ -64555,7 +64555,7 @@ window.CET6_DATA = {
         },
         {
           "word": "solidify",
-          "meaning": "[派生] v.巩固；（使)变成固体"
+          "meaning": "v.巩固；（使)变成固体"
         },
         {
           "word": "relate",
@@ -64607,7 +64607,7 @@ window.CET6_DATA = {
         },
         {
           "word": "insulator",
-          "meaning": "[派生] n.隔热（或绝缘、隔音等的）材料（或装 置）"
+          "meaning": "n.隔热（或绝缘、隔音等的）材料（或装 置）"
         },
         {
           "word": "thus",
@@ -64671,11 +64671,11 @@ window.CET6_DATA = {
         },
         {
           "word": "compelling",
-          "meaning": "[派生] adj.引人人胜的；令人信服的"
+          "meaning": "adj.引人人胜的；令人信服的"
         },
         {
           "word": "barely",
-          "meaning": "[派生] adv.仅仅；勉强可能；几乎不"
+          "meaning": "adv.仅仅；勉强可能；几乎不"
         },
         {
           "word": "prize",
@@ -64683,7 +64683,7 @@ window.CET6_DATA = {
         },
         {
           "word": "indoors",
-          "meaning": "[派生] adv.在室内"
+          "meaning": "adv.在室内"
         },
         {
           "word": "preface",
@@ -64699,7 +64699,7 @@ window.CET6_DATA = {
         },
         {
           "word": "analogue",
-          "meaning": "[派生] adj.模拟的n.相似物"
+          "meaning": "adj.模拟的n.相似物"
         },
         {
           "word": "resent",
@@ -64751,11 +64751,11 @@ window.CET6_DATA = {
         },
         {
           "word": "immensely",
-          "meaning": "[派生] adv.非常；极大地"
+          "meaning": "adv.非常；极大地"
         },
         {
           "word": "racism",
-          "meaning": "n.种族歧视；种族主义 Lesson"
+          "meaning": "n.种族歧视；种族主义"
         },
         {
           "word": "hover",
@@ -64767,7 +64767,7 @@ window.CET6_DATA = {
         },
         {
           "word": "solidity",
-          "meaning": "[派生] n.固态；坚固性"
+          "meaning": "n.固态；坚固性"
         },
         {
           "word": "crocodile",
@@ -64775,7 +64775,7 @@ window.CET6_DATA = {
         },
         {
           "word": "perplexity",
-          "meaning": "[派生] n.困惑；迷惘"
+          "meaning": "n.困惑；迷惘"
         },
         {
           "word": "watchful",
@@ -64795,11 +64795,11 @@ window.CET6_DATA = {
         },
         {
           "word": "generator",
-          "meaning": "[派生] n.发电机；发生器"
+          "meaning": "n.发电机；发生器"
         },
         {
           "word": "upload",
-          "meaning": "v.上传/Aplaud/n.上传的数据"
+          "meaning": "v. 上传 n. 上传的数据"
         },
         {
           "word": "aid",
@@ -64815,7 +64815,7 @@ window.CET6_DATA = {
         },
         {
           "word": "analytical",
-          "meaning": "[派生] adj.分析的；解析的"
+          "meaning": "adj.分析的；解析的"
         },
         {
           "word": "moreover",
@@ -64827,11 +64827,11 @@ window.CET6_DATA = {
         },
         {
           "word": "carving",
-          "meaning": "[派生] n.雕刻品；雕刻图案；雕像"
+          "meaning": "n.雕刻品；雕刻图案；雕像"
         },
         {
           "word": "legislative",
-          "meaning": "[派生] adj.立法的，制定法律的"
+          "meaning": "adj.立法的，制定法律的"
         },
         {
           "word": "ego",
@@ -64839,7 +64839,7 @@ window.CET6_DATA = {
         },
         {
           "word": "zoological",
-          "meaning": "[派生]"
+          "meaning": "adj. 动物学的；动物的"
         },
         {
           "word": "bait",
@@ -64883,7 +64883,7 @@ window.CET6_DATA = {
         },
         {
           "word": "adversity",
-          "meaning": "[派生] n.困境，逆境；不幸"
+          "meaning": "n.困境，逆境；不幸"
         },
         {
           "word": "exclaim",
@@ -64915,7 +64915,7 @@ window.CET6_DATA = {
         },
         {
           "word": "spontaneity",
-          "meaning": "[派生] n.自发性；自然"
+          "meaning": "n.自发性；自然"
         },
         {
           "word": "hen",
@@ -64923,7 +64923,7 @@ window.CET6_DATA = {
         },
         {
           "word": "communist",
-          "meaning": "n.共产主义者adj共产主义的 3"
+          "meaning": "n.共产主义者adj共产主义的"
         },
         {
           "word": "waist",
@@ -64931,11 +64931,11 @@ window.CET6_DATA = {
         },
         {
           "word": "literate",
-          "meaning": "[派生] adj.有读写能力的；有文化的"
+          "meaning": "adj.有读写能力的；有文化的"
         },
         {
           "word": "necessity",
-          "meaning": "[派生] n.必然；必要；需要"
+          "meaning": "n.必然；必要；需要"
         },
         {
           "word": "super",
@@ -65003,7 +65003,7 @@ window.CET6_DATA = {
         },
         {
           "word": "quantification",
-          "meaning": "[派生] n.量化"
+          "meaning": "n.量化"
         },
         {
           "word": "illiteracy",
@@ -65027,7 +65027,7 @@ window.CET6_DATA = {
         },
         {
           "word": "specialization",
-          "meaning": "[派生] n. 特别化；专门化"
+          "meaning": "n. 特别化；专门化"
         },
         {
           "word": "splendid",
@@ -65067,7 +65067,7 @@ window.CET6_DATA = {
         },
         {
           "word": "nutrient",
-          "meaning": "[派生] n.营养素，营养物"
+          "meaning": "n.营养素，营养物"
         },
         {
           "word": "screw",
@@ -65131,7 +65131,7 @@ window.CET6_DATA = {
         },
         {
           "word": "alleged",
-          "meaning": "[派生] adj.被指称的，涉嫌的"
+          "meaning": "adj.被指称的，涉嫌的"
         },
         {
           "word": "troublesome",
@@ -65187,11 +65187,11 @@ window.CET6_DATA = {
         },
         {
           "word": "neglectful",
-          "meaning": "[派生] adj.马虎的；不重视的，忽视的"
+          "meaning": "adj.马虎的；不重视的，忽视的"
         },
         {
           "word": "declaration",
-          "meaning": "[派生] n.公告；宣言"
+          "meaning": "n.公告；宣言"
         },
         {
           "word": "frontier",
@@ -65199,7 +65199,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pursuit",
-          "meaning": "[派生] n.追求；追赶"
+          "meaning": "n.追求；追赶"
         },
         {
           "word": "bounce",
@@ -65207,7 +65207,7 @@ window.CET6_DATA = {
         },
         {
           "word": "vacancy",
-          "meaning": "[派生] n.空缺，空额；空房间；空虚"
+          "meaning": "n.空缺，空额；空房间；空虚"
         },
         {
           "word": "fry",
@@ -65263,7 +65263,7 @@ window.CET6_DATA = {
         },
         {
           "word": "interruption",
-          "meaning": "[派生] n.打扰；插嘴；阻断物；中断时间"
+          "meaning": "n.打扰；插嘴；阻断物；中断时间"
         },
         {
           "word": "buckle",
@@ -65271,11 +65271,11 @@ window.CET6_DATA = {
         },
         {
           "word": "imperialist",
-          "meaning": "[派生] n.帝国主义者；帝国统治拥护者"
+          "meaning": "n.帝国主义者；帝国统治拥护者"
         },
         {
           "word": "clarity",
-          "meaning": "[派生] n.清晰，清楚，明确"
+          "meaning": "n.清晰，清楚，明确"
         },
         {
           "word": "distance",
@@ -65283,7 +65283,7 @@ window.CET6_DATA = {
         },
         {
           "word": "educate",
-          "meaning": "v.教育；教导；训练 12"
+          "meaning": "v.教育；教导；训练"
         },
         {
           "word": "plunge",
@@ -65303,7 +65303,7 @@ window.CET6_DATA = {
         },
         {
           "word": "interactive",
-          "meaning": "[派生] adj.交互的；合作的；相互影响的， 互相配合的"
+          "meaning": "adj.交互的；合作的；相互影响的， 互相配合的"
         },
         {
           "word": "evenly",
@@ -65315,7 +65315,7 @@ window.CET6_DATA = {
         },
         {
           "word": "duplication",
-          "meaning": "[派生] n.复制；重复"
+          "meaning": "n.复制；重复"
         },
         {
           "word": "midwife",
@@ -65323,7 +65323,7 @@ window.CET6_DATA = {
         },
         {
           "word": "idly",
-          "meaning": "[派生] adv.毫无目的地；漫不经心地；闲散地"
+          "meaning": "adv.毫无目的地；漫不经心地；闲散地"
         },
         {
           "word": "reel",
@@ -65351,7 +65351,7 @@ window.CET6_DATA = {
         },
         {
           "word": "encouraging",
-          "meaning": "[派生] adj.鼓励的，激励的"
+          "meaning": "adj.鼓励的，激励的"
         },
         {
           "word": "dub",
@@ -65363,11 +65363,11 @@ window.CET6_DATA = {
         },
         {
           "word": "enthusiastically",
-          "meaning": "[派生] adv.热心地，热情地"
+          "meaning": "adv.热心地，热情地"
         },
         {
           "word": "ideological",
-          "meaning": "[派生] adj.思想体系的；意识形态的"
+          "meaning": "adj.思想体系的；意识形态的"
         },
         {
           "word": "marry",
@@ -65431,11 +65431,11 @@ window.CET6_DATA = {
         },
         {
           "word": "genetic",
-          "meaning": "[派生] adj.基因的；遗传学的"
+          "meaning": "adj.基因的；遗传学的"
         },
         {
           "word": "elevation",
-          "meaning": "[派生] n.升高；提拔；提升"
+          "meaning": "n.升高；提拔；提升"
         },
         {
           "word": "look",
@@ -65491,7 +65491,7 @@ window.CET6_DATA = {
         },
         {
           "word": "terribly",
-          "meaning": "[派生] adv.非常，很"
+          "meaning": "adv.非常，很"
         },
         {
           "word": "congress",
@@ -65503,7 +65503,7 @@ window.CET6_DATA = {
         },
         {
           "word": "maturity",
-          "meaning": "[派生]"
+          "meaning": "n. 成熟；完善；(金融)到期"
         },
         {
           "word": "victim",
@@ -65515,7 +65515,7 @@ window.CET6_DATA = {
         },
         {
           "word": "employer",
-          "meaning": "[派生] n.雇主；老板"
+          "meaning": "n.雇主；老板"
         },
         {
           "word": "overwhelm",
@@ -65523,15 +65523,15 @@ window.CET6_DATA = {
         },
         {
           "word": "persuasive",
-          "meaning": "[派生] adj.有说服力的"
+          "meaning": "adj.有说服力的"
         },
         {
           "word": "prohibition",
-          "meaning": "[派生] n.(尤指通过法律的）禁止，阻止"
+          "meaning": "n.(尤指通过法律的）禁止，阻止"
         },
         {
           "word": "approval",
-          "meaning": "[派生] n.费成，同意；批准"
+          "meaning": "n.费成，同意；批准"
         },
         {
           "word": "solo",
@@ -65587,7 +65587,7 @@ window.CET6_DATA = {
         },
         {
           "word": "tactful",
-          "meaning": "[派生] adj.圆通的，得体的"
+          "meaning": "adj.圆通的，得体的"
         },
         {
           "word": "tradition",
@@ -65623,7 +65623,7 @@ window.CET6_DATA = {
         },
         {
           "word": "hacker",
-          "meaning": "[派生] n.黑客"
+          "meaning": "n.黑客"
         },
         {
           "word": "baseball",
@@ -65671,7 +65671,7 @@ window.CET6_DATA = {
         },
         {
           "word": "specifically",
-          "meaning": "[派生] adv.特意；专门地；明确地；具体地"
+          "meaning": "adv.特意；专门地；明确地；具体地"
         },
         {
           "word": "intelligence",
@@ -65719,7 +65719,7 @@ window.CET6_DATA = {
         },
         {
           "word": "crow",
-          "meaning": "n.乌鸦；啼叫声v.啼叫；自鸣得意 Lesson"
+          "meaning": "n.乌鸦；啼叫声v.啼叫；自鸣得意"
         },
         {
           "word": "doll",
@@ -65735,7 +65735,7 @@ window.CET6_DATA = {
         },
         {
           "word": "assurance",
-          "meaning": "[派生]"
+          "meaning": "n. 保证，确信；信心，把握"
         },
         {
           "word": "terror",
@@ -65743,7 +65743,7 @@ window.CET6_DATA = {
         },
         {
           "word": "synthesize",
-          "meaning": "[派生] v. 合成；综合"
+          "meaning": "v. 合成；综合"
         },
         {
           "word": "soon",
@@ -65763,7 +65763,7 @@ window.CET6_DATA = {
         },
         {
           "word": "wealthy",
-          "meaning": "[派生] adj.富有的，富裕的"
+          "meaning": "adj.富有的，富裕的"
         },
         {
           "word": "prestige",
@@ -65807,7 +65807,7 @@ window.CET6_DATA = {
         },
         {
           "word": "championship",
-          "meaning": "[派生] n.锦标赛；冠军地位"
+          "meaning": "n.锦标赛；冠军地位"
         },
         {
           "word": "temporal",
@@ -65819,7 +65819,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cooperation",
-          "meaning": "[派生] n.合作，协作"
+          "meaning": "n.合作，协作"
         },
         {
           "word": "cabin",
@@ -65835,7 +65835,7 @@ window.CET6_DATA = {
         },
         {
           "word": "respectful",
-          "meaning": "[派生] adj.有礼貌的，尊敬的"
+          "meaning": "adj.有礼貌的，尊敬的"
         },
         {
           "word": "innovate",
@@ -65847,7 +65847,7 @@ window.CET6_DATA = {
         },
         {
           "word": "pregnancy",
-          "meaning": "[派生] n.妊娠，怀孕"
+          "meaning": "n.妊娠，怀孕"
         },
         {
           "word": "tick",
@@ -65855,7 +65855,7 @@ window.CET6_DATA = {
         },
         {
           "word": "addictive",
-          "meaning": "[派生] adj.使人上瘾的"
+          "meaning": "adj.使人上瘾的"
         },
         {
           "word": "helicopter",
@@ -65863,11 +65863,11 @@ window.CET6_DATA = {
         },
         {
           "word": "geometric",
-          "meaning": "[派生] adj.几何(学）的；几何图形的 号"
+          "meaning": "adj.几何(学）的；几何图形的 号"
         },
         {
           "word": "antenna",
-          "meaning": "n.（pl.antennae）触须，触角； (pl.antennas/antennae）天线"
+          "meaning": "n. 触角，触须；天线"
         },
         {
           "word": "pepper",
@@ -65879,7 +65879,7 @@ window.CET6_DATA = {
         },
         {
           "word": "commendation",
-          "meaning": "[派生] n.赞扬，称赞；奖励"
+          "meaning": "n.赞扬，称赞；奖励"
         },
         {
           "word": "tactic",
@@ -65891,7 +65891,7 @@ window.CET6_DATA = {
         },
         {
           "word": "observer",
-          "meaning": "[派生] n.观察者；目击者"
+          "meaning": "n.观察者；目击者"
         },
         {
           "word": "distinguish",
@@ -65951,11 +65951,11 @@ window.CET6_DATA = {
         },
         {
           "word": "grocer",
-          "meaning": "[派生] n.食物杂货商；食物杂货店"
+          "meaning": "n.食物杂货商；食物杂货店"
         },
         {
           "word": "necessarily",
-          "meaning": "[派生] adv.必然地，不可避免地"
+          "meaning": "adv.必然地，不可避免地"
         },
         {
           "word": "main",
@@ -66007,7 +66007,7 @@ window.CET6_DATA = {
         },
         {
           "word": "militancy",
-          "meaning": "[派生] n.战斗性，交战状态"
+          "meaning": "n.战斗性，交战状态"
         },
         {
           "word": "glimpse",
@@ -66063,7 +66063,7 @@ window.CET6_DATA = {
         },
         {
           "word": "destructive",
-          "meaning": "[派生] adj.破坏性的"
+          "meaning": "adj.破坏性的"
         },
         {
           "word": "arch",
@@ -66087,7 +66087,7 @@ window.CET6_DATA = {
         },
         {
           "word": "contribution",
-          "meaning": "[派生] n.贡献；促成作用；捐款"
+          "meaning": "n.贡献；促成作用；捐款"
         },
         {
           "word": "narrate",
@@ -66107,7 +66107,7 @@ window.CET6_DATA = {
         },
         {
           "word": "eternity",
-          "meaning": "[派生] n.永恒；永生；不朽"
+          "meaning": "n.永恒；永生；不朽"
         },
         {
           "word": "economical",
@@ -66179,7 +66179,7 @@ window.CET6_DATA = {
         },
         {
           "word": "clarification",
-          "meaning": "[派生] n. 澄清，阐明"
+          "meaning": "n. 澄清，阐明"
         },
         {
           "word": "agency",
@@ -66227,7 +66227,7 @@ window.CET6_DATA = {
         },
         {
           "word": "preservative",
-          "meaning": "[派生] adj.保护的；保存的 n.防腐剂；保护剂"
+          "meaning": "adj.保护的；保存的 n.防腐剂；保护剂"
         },
         {
           "word": "protect",
@@ -66275,7 +66275,7 @@ window.CET6_DATA = {
         },
         {
           "word": "resistant",
-          "meaning": "[派生] adj.有抵抗力的"
+          "meaning": "adj.有抵抗力的"
         },
         {
           "word": "pat",
@@ -66315,7 +66315,7 @@ window.CET6_DATA = {
         },
         {
           "word": "enhancement",
-          "meaning": "[派生] n.提高，增加；增强"
+          "meaning": "n.提高，增加；增强"
         },
         {
           "word": "mad",
@@ -66335,7 +66335,7 @@ window.CET6_DATA = {
         },
         {
           "word": "intimidation",
-          "meaning": "[派生] n.威胁；恐吓"
+          "meaning": "n.威胁；恐吓"
         },
         {
           "word": "click",
@@ -66359,7 +66359,7 @@ window.CET6_DATA = {
         },
         {
           "word": "defendant",
-          "meaning": "[派生] n.被告人"
+          "meaning": "n.被告人"
         },
         {
           "word": "geometry",
@@ -66419,7 +66419,7 @@ window.CET6_DATA = {
         },
         {
           "word": "mortality",
-          "meaning": "[派生] n.死亡数量；死亡率"
+          "meaning": "n.死亡数量；死亡率"
         },
         {
           "word": "luck",
@@ -66451,11 +66451,11 @@ window.CET6_DATA = {
         },
         {
           "word": "intensify",
-          "meaning": "[派生] v.增强，加剧"
+          "meaning": "v.增强，加剧"
         },
         {
           "word": "dilution",
-          "meaning": "n.稀释；冲淡；削弱；降低 4"
+          "meaning": "n.稀释；冲淡；削弱；降低"
         },
         {
           "word": "land",
@@ -66515,11 +66515,11 @@ window.CET6_DATA = {
         },
         {
           "word": "corruption",
-          "meaning": "[派生] n.腐败；受贿；堕落"
+          "meaning": "n.腐败；受贿；堕落"
         },
         {
           "word": "preceding",
-          "meaning": "[派生] adj.在先的，前面的"
+          "meaning": "adj.在先的，前面的"
         },
         {
           "word": "dependence",
@@ -66547,7 +66547,7 @@ window.CET6_DATA = {
         },
         {
           "word": "forfeit",
-          "meaning": "v.被没收，丧失n.罚金，没收物 adj.被罚的 2"
+          "meaning": "v.被没收，丧失n.罚金，没收物 adj.被罚的"
         },
         {
           "word": "attentive",
@@ -66559,7 +66559,7 @@ window.CET6_DATA = {
         },
         {
           "word": "solitude",
-          "meaning": "[派生] n.独处；独居"
+          "meaning": "n.独处；独居"
         },
         {
           "word": "fisherman",
@@ -66571,15 +66571,15 @@ window.CET6_DATA = {
         },
         {
           "word": "inspirational",
-          "meaning": "[派生] adj.启发灵感的；鼓舞人心的"
+          "meaning": "adj.启发灵感的；鼓舞人心的"
         },
         {
           "word": "settlement",
-          "meaning": "[派生] n.解决，处理；协议"
+          "meaning": "n.解决，处理；协议"
         },
         {
           "word": "temporarily",
-          "meaning": "[派生] adv.临时地；短暂地"
+          "meaning": "adv.临时地；短暂地"
         },
         {
           "word": "purse",
@@ -66599,7 +66599,7 @@ window.CET6_DATA = {
         },
         {
           "word": "interviewee",
-          "meaning": "[派生] n.参加面试者；被采访者"
+          "meaning": "n.参加面试者；被采访者"
         },
         {
           "word": "ahead",
@@ -66611,7 +66611,7 @@ window.CET6_DATA = {
         },
         {
           "word": "optic",
-          "meaning": "[派生] adj.眼的；视觉的"
+          "meaning": "adj.眼的；视觉的"
         },
         {
           "word": "gentleman",
@@ -66663,11 +66663,11 @@ window.CET6_DATA = {
         },
         {
           "word": "prevalence",
-          "meaning": "[派生] n.流行，普遍"
+          "meaning": "n.流行，普遍"
         },
         {
           "word": "adaptive",
-          "meaning": "[派生] adj.适应的；有适应能力的"
+          "meaning": "adj.适应的；有适应能力的"
         },
         {
           "word": "behave",
@@ -66675,11 +66675,11 @@ window.CET6_DATA = {
         },
         {
           "word": "litre",
-          "meaning": "n. 升(容量单位)"
+          "meaning": "n. 升 (容量单位)"
         },
         {
           "word": "chronically",
-          "meaning": "[派生] adv.慢性地；长期地"
+          "meaning": "adv.慢性地；长期地"
         },
         {
           "word": "physicist",
@@ -66691,7 +66691,7 @@ window.CET6_DATA = {
         },
         {
           "word": "abortion",
-          "meaning": "[派生] n.堕胎，人工流产"
+          "meaning": "n.堕胎，人工流产"
         },
         {
           "word": "earth",
@@ -66715,11 +66715,11 @@ window.CET6_DATA = {
         },
         {
           "word": "robbery",
-          "meaning": "[派生] n.盗窃；抢劫，掠夺"
+          "meaning": "n.盗窃；抢劫，掠夺"
         },
         {
           "word": "slipper",
-          "meaning": "[派生] n.拖鞋"
+          "meaning": "n.拖鞋"
         },
         {
           "word": "excessive",
@@ -66763,7 +66763,7 @@ window.CET6_DATA = {
         },
         {
           "word": "eradication",
-          "meaning": "[派生] n.根除；消灭；杜绝"
+          "meaning": "n.根除；消灭；杜绝"
         },
         {
           "word": "anyone",
@@ -66779,7 +66779,7 @@ window.CET6_DATA = {
         },
         {
           "word": "accounting",
-          "meaning": "[派生] n.会计"
+          "meaning": "n.会计"
         },
         {
           "word": "during",
@@ -66795,7 +66795,7 @@ window.CET6_DATA = {
         },
         {
           "word": "geological",
-          "meaning": "[派生] adj.地质(学）的"
+          "meaning": "adj.地质(学）的"
         },
         {
           "word": "rehearse",
@@ -66815,7 +66815,7 @@ window.CET6_DATA = {
         },
         {
           "word": "deceptive",
-          "meaning": "[派生] adj.欺骗性的；误导的"
+          "meaning": "adj.欺骗性的；误导的"
         },
         {
           "word": "basketball",
@@ -66823,7 +66823,7 @@ window.CET6_DATA = {
         },
         {
           "word": "consciousness",
-          "meaning": "[派生] n.神志清醒；意识"
+          "meaning": "n.神志清醒；意识"
         },
         {
           "word": "size",
@@ -66863,7 +66863,7 @@ window.CET6_DATA = {
         },
         {
           "word": "performer",
-          "meaning": "[派生] n.表演者，演出者"
+          "meaning": "n.表演者，演出者"
         },
         {
           "word": "essay",
@@ -66879,15 +66879,15 @@ window.CET6_DATA = {
         },
         {
           "word": "consultation",
-          "meaning": "[派生] n.咨询；商讨"
+          "meaning": "n.咨询；商讨"
         },
         {
           "word": "imposing",
-          "meaning": "[派生] adj.壮观的；使人印象深刻的"
+          "meaning": "adj.壮观的；使人印象深刻的"
         },
         {
           "word": "predatory",
-          "meaning": "[派生] adj.捕食性的；欺负弱小的"
+          "meaning": "adj.捕食性的；欺负弱小的"
         },
         {
           "word": "uncover",
@@ -66899,7 +66899,7 @@ window.CET6_DATA = {
         },
         {
           "word": "fatality",
-          "meaning": "[派生] n.致命性；死亡；宿命"
+          "meaning": "n.致命性；死亡；宿命"
         },
         {
           "word": "tiger",
@@ -66935,7 +66935,7 @@ window.CET6_DATA = {
         },
         {
           "word": "disclosure",
-          "meaning": "[派生] n.揭露，透露，公开"
+          "meaning": "n.揭露，透露，公开"
         },
         {
           "word": "blend",
@@ -66943,19 +66943,19 @@ window.CET6_DATA = {
         },
         {
           "word": "infant",
-          "meaning": "n.婴儿，幼儿adj.供婴儿用的；初期的 Unit"
+          "meaning": "n.婴儿，幼儿adj.供婴儿用的；初期的"
         },
         {
           "word": "compensation",
-          "meaning": "[派生] n.补偿物；赔偿金"
+          "meaning": "n.补偿物；赔偿金"
         },
         {
           "word": "dynamics",
-          "meaning": "[派生] n.动力学；力度"
+          "meaning": "n.动力学；力度"
         },
         {
           "word": "possession",
-          "meaning": "[派生] n.拥有；财产"
+          "meaning": "n.拥有；财产"
         },
         {
           "word": "baby boom",
@@ -66963,7 +66963,7 @@ window.CET6_DATA = {
         },
         {
           "word": "spacious",
-          "meaning": "[派生] adj. 宽敞的"
+          "meaning": "adj. 宽敞的"
         },
         {
           "word": "evasion",
@@ -66971,7 +66971,7 @@ window.CET6_DATA = {
         },
         {
           "word": "exclamation",
-          "meaning": "[派生] n.感叹；感叹词"
+          "meaning": "n.感叹；感叹词"
         },
         {
           "word": "housewife",
@@ -66991,7 +66991,7 @@ window.CET6_DATA = {
         },
         {
           "word": "performance",
-          "meaning": "[派生] n.表演，演出；表现；业绩"
+          "meaning": "n.表演，演出；表现；业绩"
         },
         {
           "word": "air-conditioner",
@@ -67011,11 +67011,11 @@ window.CET6_DATA = {
         },
         {
           "word": "tendency",
-          "meaning": "[派生] n.倾向，趋势"
+          "meaning": "n.倾向，趋势"
         },
         {
           "word": "statement",
-          "meaning": "[派生] n.声明；观点"
+          "meaning": "n.声明；观点"
         },
         {
           "word": "gene",
@@ -67023,7 +67023,7 @@ window.CET6_DATA = {
         },
         {
           "word": "articulation",
-          "meaning": "[派生] n.表达；说话；发音；清晰"
+          "meaning": "n.表达；说话；发音；清晰"
         },
         {
           "word": "politician",
@@ -67047,7 +67047,7 @@ window.CET6_DATA = {
         },
         {
           "word": "judgement",
-          "meaning": "[派生] n.判断力；看法；裁决"
+          "meaning": "n.判断力；看法；裁决"
         },
         {
           "word": "major",
@@ -67055,7 +67055,7 @@ window.CET6_DATA = {
         },
         {
           "word": "drainage",
-          "meaning": "[派生] n.排水；放水"
+          "meaning": "n.排水；放水"
         },
         {
           "word": "forest",
@@ -67063,7 +67063,7 @@ window.CET6_DATA = {
         },
         {
           "word": "intellectual",
-          "meaning": "[派生] n.知识分子；脑力劳动者 adj.智力的；有才智的"
+          "meaning": "n.知识分子；脑力劳动者 adj.智力的；有才智的"
         },
         {
           "word": "clone",
@@ -67127,7 +67127,7 @@ window.CET6_DATA = {
         },
         {
           "word": "shape",
-          "meaning": "n.形状；情况v.塑造；影响 13"
+          "meaning": "n.形状；情况v.塑造；影响"
         },
         {
           "word": "upgrade",
@@ -67143,7 +67143,7 @@ window.CET6_DATA = {
         },
         {
           "word": "transference",
-          "meaning": "[派生] n.转移；调动"
+          "meaning": "n.转移；调动"
         },
         {
           "word": "quantify",
@@ -67163,7 +67163,7 @@ window.CET6_DATA = {
         },
         {
           "word": "analogous",
-          "meaning": "[派生] adj.相似的；类似的"
+          "meaning": "adj.相似的；类似的"
         },
         {
           "word": "horrible",
@@ -67171,7 +67171,7 @@ window.CET6_DATA = {
         },
         {
           "word": "reunion",
-          "meaning": "[派生] n.重逢；团聚；聚会"
+          "meaning": "n.重逢；团聚；聚会"
         },
         {
           "word": "speedy",
@@ -67227,11 +67227,11 @@ window.CET6_DATA = {
         },
         {
           "word": "legislation",
-          "meaning": "[派生] n.法律；立法"
+          "meaning": "n.法律；立法"
         },
         {
           "word": "inference",
-          "meaning": "[派生] n.推断，推理，推论"
+          "meaning": "n.推断，推理，推论"
         },
         {
           "word": "pull",
@@ -67239,7 +67239,7 @@ window.CET6_DATA = {
         },
         {
           "word": "fright",
-          "meaning": "[派生] n.惊吓；恐怖"
+          "meaning": "n.惊吓；恐怖"
         },
         {
           "word": "difficulty",
@@ -67267,7 +67267,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cylinder",
-          "meaning": "n.圆柱体，圆筒；汽缸 dad(dy）/ded(i)/n.爸爸"
+          "meaning": "n. 圆柱体，圆筒；汽缸"
         },
         {
           "word": "solemn",
@@ -67275,11 +67275,11 @@ window.CET6_DATA = {
         },
         {
           "word": "bravery",
-          "meaning": "n.勇敢 11"
+          "meaning": "n.勇敢"
         },
         {
           "word": "permanence",
-          "meaning": "[派生] n.永久；持久性"
+          "meaning": "n.永久；持久性"
         },
         {
           "word": "graduate",
@@ -67291,7 +67291,7 @@ window.CET6_DATA = {
         },
         {
           "word": "rendering",
-          "meaning": "[派生] n.演奏；扮演；翻译"
+          "meaning": "n.演奏；扮演；翻译"
         },
         {
           "word": "appreciative",
@@ -67299,7 +67299,7 @@ window.CET6_DATA = {
         },
         {
           "word": "intruder",
-          "meaning": "[派生] n.闯人者，侵人者"
+          "meaning": "n.闯人者，侵人者"
         },
         {
           "word": "oval",
@@ -67311,7 +67311,7 @@ window.CET6_DATA = {
         },
         {
           "word": "accomplishment",
-          "meaning": "[派生]"
+          "meaning": "n. 成就，造诣；完成，实现"
         },
         {
           "word": "natural",
@@ -67323,7 +67323,7 @@ window.CET6_DATA = {
         },
         {
           "word": "repressive",
-          "meaning": "[派生] adj.抑制的；压制的；严苛的"
+          "meaning": "adj.抑制的；压制的；严苛的"
         },
         {
           "word": "feat",
@@ -67343,7 +67343,7 @@ window.CET6_DATA = {
         },
         {
           "word": "underlying",
-          "meaning": "[派生] adj.根本的；潜在的，隐含的"
+          "meaning": "adj.根本的；潜在的，隐含的"
         },
         {
           "word": "mix",
@@ -67367,7 +67367,7 @@ window.CET6_DATA = {
         },
         {
           "word": "capitalist",
-          "meaning": "[派生] n.资本主义者"
+          "meaning": "n.资本主义者"
         },
         {
           "word": "consider",
@@ -67395,15 +67395,15 @@ window.CET6_DATA = {
         },
         {
           "word": "multiplication",
-          "meaning": "[派生] n.乘；相乘；增加"
+          "meaning": "n.乘；相乘；增加"
         },
         {
           "word": "designer",
-          "meaning": "n.设计者；构思者 /'dikris/n.减少；减少量"
+          "meaning": "n. 设计师，设计者"
         },
         {
           "word": "exportation",
-          "meaning": "[派生] n.出，输出"
+          "meaning": "n.出，输出"
         },
         {
           "word": "spring",
@@ -67443,15 +67443,15 @@ window.CET6_DATA = {
         },
         {
           "word": "calculator",
-          "meaning": "[派生] n.计算机，计算器"
+          "meaning": "n.计算机，计算器"
         },
         {
           "word": "certification",
-          "meaning": "[派生] n.证明；鉴定"
+          "meaning": "n.证明；鉴定"
         },
         {
           "word": "survival",
-          "meaning": "[派生] n.幸存，存活；残存物"
+          "meaning": "n.幸存，存活；残存物"
         },
         {
           "word": "supervisor",
@@ -67475,7 +67475,7 @@ window.CET6_DATA = {
         },
         {
           "word": "acknowledgement",
-          "meaning": "[派生] n.承认；感谢，谢礼"
+          "meaning": "n.承认；感谢，谢礼"
         },
         {
           "word": "eternal",
@@ -67591,7 +67591,7 @@ window.CET6_DATA = {
         },
         {
           "word": "respectable",
-          "meaning": "[派生] adj.体面的；值得尊敬的"
+          "meaning": "adj.体面的；值得尊敬的"
         },
         {
           "word": "witness",
@@ -67607,7 +67607,7 @@ window.CET6_DATA = {
         },
         {
           "word": "silent",
-          "meaning": "[派生] adj.沉默的；安静的"
+          "meaning": "adj.沉默的；安静的"
         },
         {
           "word": "puzzlement",
@@ -67615,7 +67615,7 @@ window.CET6_DATA = {
         },
         {
           "word": "partnership",
-          "meaning": "[派生] n.伙伴关系"
+          "meaning": "n.伙伴关系"
         },
         {
           "word": "brutal",
@@ -67647,7 +67647,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sophistication",
-          "meaning": "[派生] n.老练，世故；复杂巧妙；高水平"
+          "meaning": "n.老练，世故；复杂巧妙；高水平"
         },
         {
           "word": "courage",
@@ -67663,7 +67663,7 @@ window.CET6_DATA = {
         },
         {
           "word": "manipulative",
-          "meaning": "[派生] adj.善于操纵的，会控制的"
+          "meaning": "adj.善于操纵的，会控制的"
         },
         {
           "word": "manage",
@@ -67687,11 +67687,11 @@ window.CET6_DATA = {
         },
         {
           "word": "nomination",
-          "meaning": "[派生] n.提名；任命，指派"
+          "meaning": "n.提名；任命，指派"
         },
         {
           "word": "ministerial",
-          "meaning": "[派生] adj.部长的；大臣的"
+          "meaning": "adj.部长的；大臣的"
         },
         {
           "word": "pursue",
@@ -67699,7 +67699,7 @@ window.CET6_DATA = {
         },
         {
           "word": "resourceful",
-          "meaning": "[派生] adj.机敏的；足智多谋的"
+          "meaning": "adj.机敏的；足智多谋的"
         },
         {
           "word": "mistress",
@@ -67723,15 +67723,15 @@ window.CET6_DATA = {
         },
         {
           "word": "oriental",
-          "meaning": "[派生] adj.东方的；东方人的"
+          "meaning": "adj.东方的；东方人的"
         },
         {
           "word": "predictable",
-          "meaning": "[派生] adj.可预见的"
+          "meaning": "adj.可预见的"
         },
         {
           "word": "sovereignty",
-          "meaning": "[派生] n.主权；最高统治权"
+          "meaning": "n.主权；最高统治权"
         },
         {
           "word": "affix",
@@ -67739,7 +67739,7 @@ window.CET6_DATA = {
         },
         {
           "word": "messy",
-          "meaning": "[派生] adj.航脏的；凌乱的"
+          "meaning": "adj.航脏的；凌乱的"
         },
         {
           "word": "probe",
@@ -67751,7 +67751,7 @@ window.CET6_DATA = {
         },
         {
           "word": "derivative",
-          "meaning": "[派生] adj.模仿他人的n.派生词；衍生物"
+          "meaning": "adj.模仿他人的n.派生词；衍生物"
         },
         {
           "word": "problem",
@@ -67775,15 +67775,15 @@ window.CET6_DATA = {
         },
         {
           "word": "tragically",
-          "meaning": "[派生] adv.悲惨地，不幸地"
+          "meaning": "adv.悲惨地，不幸地"
         },
         {
           "word": "intricacy",
-          "meaning": "[派生] n.错综复杂的事物（或细节）"
+          "meaning": "n.错综复杂的事物（或细节）"
         },
         {
           "word": "outdoors",
-          "meaning": "[派生] adv. 在户外，在野外 n. 野外，旷野，郊外"
+          "meaning": "adv. 在户外，在野外 n. 野外，旷野，郊外"
         },
         {
           "word": "irritable",
@@ -67831,7 +67831,7 @@ window.CET6_DATA = {
         },
         {
           "word": "illumination",
-          "meaning": "[派生] n.启示；阐明；照明"
+          "meaning": "n.启示；阐明；照明"
         },
         {
           "word": "meantime",
@@ -67839,7 +67839,7 @@ window.CET6_DATA = {
         },
         {
           "word": "editorial",
-          "meaning": "[派生] adj.编辑的n.（报刊的）社论"
+          "meaning": "adj.编辑的n.（报刊的）社论"
         },
         {
           "word": "uprising",
@@ -67847,11 +67847,11 @@ window.CET6_DATA = {
         },
         {
           "word": "editor",
-          "meaning": "[派生] n.主编；编辑"
+          "meaning": "n.主编；编辑"
         },
         {
           "word": "ceremonial",
-          "meaning": "[派生] adj.礼仪的；礼节的"
+          "meaning": "adj.礼仪的；礼节的"
         },
         {
           "word": "desolate",
@@ -67867,7 +67867,7 @@ window.CET6_DATA = {
         },
         {
           "word": "inheritance",
-          "meaning": "[派生] n.继承物；遗产；继承"
+          "meaning": "n.继承物；遗产；继承"
         },
         {
           "word": "fog",
@@ -67891,7 +67891,7 @@ window.CET6_DATA = {
         },
         {
           "word": "distraction",
-          "meaning": "[派生] n.使人分心的事物"
+          "meaning": "n.使人分心的事物"
         },
         {
           "word": "tourist",
@@ -67955,7 +67955,7 @@ window.CET6_DATA = {
         },
         {
           "word": "amplification",
-          "meaning": "[派生] n.扩大；充实"
+          "meaning": "n.扩大；充实"
         },
         {
           "word": "expend",
@@ -67971,7 +67971,7 @@ window.CET6_DATA = {
         },
         {
           "word": "evacuation",
-          "meaning": "[派生] n.疏散，撤离；排泄"
+          "meaning": "n.疏散，撤离；排泄"
         },
         {
           "word": "honeymoon",
@@ -67999,7 +67999,7 @@ window.CET6_DATA = {
         },
         {
           "word": "value",
-          "meaning": "[派生] n.价值；价值观"
+          "meaning": "n.价值；价值观"
         },
         {
           "word": "wall",
@@ -68019,7 +68019,7 @@ window.CET6_DATA = {
         },
         {
           "word": "automation",
-          "meaning": "[派生] n.自动化"
+          "meaning": "n.自动化"
         },
         {
           "word": "theoretical",
@@ -68035,7 +68035,7 @@ window.CET6_DATA = {
         },
         {
           "word": "existing",
-          "meaning": "[派生] adj.现存的；现行的"
+          "meaning": "adj.现存的；现行的"
         },
         {
           "word": "enact",
@@ -68051,7 +68051,7 @@ window.CET6_DATA = {
         },
         {
           "word": "legalize",
-          "meaning": "[派生] v. 使合法化"
+          "meaning": "v. 使合法化"
         },
         {
           "word": "golden",
@@ -68079,7 +68079,7 @@ window.CET6_DATA = {
         },
         {
           "word": "assertion",
-          "meaning": "[派生] n.主张，断言，声明"
+          "meaning": "n.主张，断言，声明"
         },
         {
           "word": "ink",
@@ -68087,7 +68087,7 @@ window.CET6_DATA = {
         },
         {
           "word": "manifestation",
-          "meaning": "[派生] n.显示；表明；表示"
+          "meaning": "n.显示；表明；表示"
         },
         {
           "word": "tin",
@@ -68099,7 +68099,7 @@ window.CET6_DATA = {
         },
         {
           "word": "legendary",
-          "meaning": "[派生] adj.传奇的；传说的"
+          "meaning": "adj.传奇的；传说的"
         },
         {
           "word": "strait",
@@ -68111,7 +68111,7 @@ window.CET6_DATA = {
         },
         {
           "word": "coherence",
-          "meaning": "[派生] n.连贯性；条理性"
+          "meaning": "n.连贯性；条理性"
         },
         {
           "word": "protest",
@@ -68127,19 +68127,19 @@ window.CET6_DATA = {
         },
         {
           "word": "eloquence",
-          "meaning": "[派生] n.雄辩；才"
+          "meaning": "n.雄辩；才"
         },
         {
           "word": "surroundings",
-          "meaning": "[派生] n.环境"
+          "meaning": "n.环境"
         },
         {
           "word": "loyalty",
-          "meaning": "[派生] n.忠诚，忠实"
+          "meaning": "n.忠诚，忠实"
         },
         {
           "word": "combination",
-          "meaning": "[派生] n.联合(体)，结合(体）"
+          "meaning": "n.联合(体)，结合(体）"
         },
         {
           "word": "wilderness",
@@ -68163,7 +68163,7 @@ window.CET6_DATA = {
         },
         {
           "word": "infinity",
-          "meaning": "[派生] n.无限，无穷"
+          "meaning": "n.无限，无穷"
         },
         {
           "word": "persevere",
@@ -68203,7 +68203,7 @@ window.CET6_DATA = {
         },
         {
           "word": "intrinsically",
-          "meaning": "[派生] adu.本质上"
+          "meaning": "adu.本质上"
         },
         {
           "word": "born",
@@ -68239,7 +68239,7 @@ window.CET6_DATA = {
         },
         {
           "word": "heiress",
-          "meaning": "[派生]"
+          "meaning": "n. 女继承人，女嗣"
         },
         {
           "word": "emptiness",
@@ -68247,7 +68247,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cowardice",
-          "meaning": "[派生] n.胆小，儒弱"
+          "meaning": "n.胆小，儒弱"
         },
         {
           "word": "selfless",
@@ -68267,7 +68267,7 @@ window.CET6_DATA = {
         },
         {
           "word": "invasive",
-          "meaning": "[派生] adj.侵人的；侵袭的"
+          "meaning": "adj.侵人的；侵袭的"
         },
         {
           "word": "outlook",
@@ -68291,7 +68291,7 @@ window.CET6_DATA = {
         },
         {
           "word": "sort",
-          "meaning": "n.种类，类别v.整理 4"
+          "meaning": "n.种类，类别v.整理"
         },
         {
           "word": "cock",
@@ -68343,7 +68343,7 @@ window.CET6_DATA = {
         },
         {
           "word": "absorption",
-          "meaning": "[派生] n.吸收；并人；同化；专注"
+          "meaning": "n.吸收；并人；同化；专注"
         },
         {
           "word": "afford",
@@ -68363,11 +68363,11 @@ window.CET6_DATA = {
         },
         {
           "word": "contribute",
-          "meaning": "'kontribjut/ v.捐献，捐赠；促成"
+          "meaning": "v. 贡献；捐献；促成，导致"
         },
         {
           "word": "recreational",
-          "meaning": "[派生] adj.娱乐的，消遣的"
+          "meaning": "adj.娱乐的，消遣的"
         },
         {
           "word": "elastic",
@@ -68419,7 +68419,7 @@ window.CET6_DATA = {
         },
         {
           "word": "convertible",
-          "meaning": "[派生] adj.可改变的；可转换的"
+          "meaning": "adj.可改变的；可转换的"
         },
         {
           "word": "defection",
@@ -68439,7 +68439,7 @@ window.CET6_DATA = {
         },
         {
           "word": "professional",
-          "meaning": "[派生] n.专业人员，内行；职业选手 adj.专业的；职业的"
+          "meaning": "n.专业人员，内行；职业选手 adj.专业的；职业的"
         },
         {
           "word": "clasp",
@@ -68479,7 +68479,7 @@ window.CET6_DATA = {
         },
         {
           "word": "electorate",
-          "meaning": "n.全体选民 electric(al）/r'lektrik(1)/adj.电的；用电的；发电的"
+          "meaning": "n. (全体)选民"
         },
         {
           "word": "skin",
@@ -68523,7 +68523,7 @@ window.CET6_DATA = {
         },
         {
           "word": "extraction",
-          "meaning": "[派生] n.提取；拔出"
+          "meaning": "n.提取；拔出"
         },
         {
           "word": "comprehension",
@@ -68559,7 +68559,7 @@ window.CET6_DATA = {
         },
         {
           "word": "transition",
-          "meaning": "[派生] n.过渡；变迁"
+          "meaning": "n.过渡；变迁"
         },
         {
           "word": "retail",
@@ -68611,7 +68611,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cowardly",
-          "meaning": "[派生] adj.胆小的"
+          "meaning": "adj.胆小的"
         },
         {
           "word": "width",
@@ -68623,7 +68623,7 @@ window.CET6_DATA = {
         },
         {
           "word": "dedication",
-          "meaning": "[派生] n.热忧，奉献"
+          "meaning": "n.热忧，奉献"
         },
         {
           "word": "comment",
@@ -68667,15 +68667,15 @@ window.CET6_DATA = {
         },
         {
           "word": "denotation",
-          "meaning": "[派生] n.指称，指称之物，指称意义；外延"
+          "meaning": "n.指称，指称之物，指称意义；外延"
         },
         {
           "word": "establishment",
-          "meaning": "[派生] n.建立；企业"
+          "meaning": "n.建立；企业"
         },
         {
           "word": "rectification",
-          "meaning": "[派生] n.纠正"
+          "meaning": "n.纠正"
         },
         {
           "word": "enjoy",
@@ -68707,7 +68707,7 @@ window.CET6_DATA = {
         },
         {
           "word": "stark",
-          "meaning": "adj.严酷的；区别明显的；完全的 stor(e)y/stori/n.楼层 adv.一丝不挂"
+          "meaning": "adj. 鲜明的；严酷的；完全的"
         },
         {
           "word": "shy",
@@ -68735,11 +68735,11 @@ window.CET6_DATA = {
         },
         {
           "word": "validate",
-          "meaning": "[派生] v.证实；使生效；使合法化；使得到 认同"
+          "meaning": "v.证实；使生效；使合法化；使得到 认同"
         },
         {
           "word": "repression",
-          "meaning": "[派生] n.压制，镇压；克制"
+          "meaning": "n.压制，镇压；克制"
         },
         {
           "word": "malicious",
@@ -68843,11 +68843,11 @@ window.CET6_DATA = {
         },
         {
           "word": "coastal",
-          "meaning": "[派生] adj.沿海的；靠近海岸的"
+          "meaning": "adj.沿海的；靠近海岸的"
         },
         {
           "word": "investigation",
-          "meaning": "[派生] n.调查"
+          "meaning": "n.调查"
         },
         {
           "word": "deter",
@@ -68855,7 +68855,7 @@ window.CET6_DATA = {
         },
         {
           "word": "money",
-          "meaning": "[派生] n.钱；薪水；收人"
+          "meaning": "n.钱；薪水；收人"
         },
         {
           "word": "biological",
@@ -68879,7 +68879,7 @@ window.CET6_DATA = {
         },
         {
           "word": "transmitter",
-          "meaning": "[派生] n. 传送者；发射机"
+          "meaning": "n. 传送者；发射机"
         },
         {
           "word": "ask",
@@ -68895,7 +68895,7 @@ window.CET6_DATA = {
         },
         {
           "word": "exemplify",
-          "meaning": "[派生] v.举例说明；是.的典范/榜样"
+          "meaning": "v.举例说明；是.的典范/榜样"
         },
         {
           "word": "utmost",
@@ -68935,7 +68935,7 @@ window.CET6_DATA = {
         },
         {
           "word": "deduction",
-          "meaning": "[派生] n.演绎；推论，推理；扣除"
+          "meaning": "n.演绎；推论，推理；扣除"
         },
         {
           "word": "conclude",
@@ -68963,7 +68963,7 @@ window.CET6_DATA = {
         },
         {
           "word": "elimination",
-          "meaning": "[派生] n.排除；淘汰；消灭"
+          "meaning": "n.排除；淘汰；消灭"
         },
         {
           "word": "window",
@@ -69055,7 +69055,7 @@ window.CET6_DATA = {
         },
         {
           "word": "horizontal",
-          "meaning": "[派生] adj.水平的；与地面平行的n.水平面"
+          "meaning": "adj.水平的；与地面平行的n.水平面"
         },
         {
           "word": "indispensable",
@@ -69071,7 +69071,7 @@ window.CET6_DATA = {
         },
         {
           "word": "persistence",
-          "meaning": "[派生] n.坚持；锲而不舍"
+          "meaning": "n.坚持；锲而不舍"
         },
         {
           "word": "charming",
@@ -69079,11 +69079,11 @@ window.CET6_DATA = {
         },
         {
           "word": "infection",
-          "meaning": "[派生] n.传染；（身体某部位的）感染"
+          "meaning": "n.传染；（身体某部位的）感染"
         },
         {
           "word": "coordinator",
-          "meaning": "[派生] n.协调者"
+          "meaning": "n.协调者"
         },
         {
           "word": "mention",
@@ -69135,11 +69135,11 @@ window.CET6_DATA = {
         },
         {
           "word": "integration",
-          "meaning": "[派生] n.结合；一体化"
+          "meaning": "n.结合；一体化"
         },
         {
           "word": "enlightenment",
-          "meaning": "[派生] n.启迪，启发；开导"
+          "meaning": "n.启迪，启发；开导"
         },
         {
           "word": "amass",
@@ -69151,7 +69151,7 @@ window.CET6_DATA = {
         },
         {
           "word": "cosmos",
-          "meaning": "n.宇宙 /kan'tent/adj.满意的；愿意的v.使满足n.满足"
+          "meaning": "n. 宇宙，和谐完整的宇宙"
         },
         {
           "word": "fancy",
@@ -69191,7 +69191,7 @@ window.CET6_DATA = {
         },
         {
           "word": "solvent",
-          "meaning": "[派生] n.溶剂adj.可溶解的；有偿付能力的"
+          "meaning": "n.溶剂adj.可溶解的；有偿付能力的"
         },
         {
           "word": "quest",
@@ -69203,7 +69203,7 @@ window.CET6_DATA = {
         },
         {
           "word": "achievement",
-          "meaning": "[派生] n.成就；完成"
+          "meaning": "n.成就；完成"
         },
         {
           "word": "aspire",
@@ -69215,7 +69215,7 @@ window.CET6_DATA = {
         },
         {
           "word": "frantically",
-          "meaning": "[派生] adu.疯狂地；紧张忙乱地"
+          "meaning": "adu.疯狂地；紧张忙乱地"
         },
         {
           "word": "benign",
@@ -69223,7 +69223,7 @@ window.CET6_DATA = {
         },
         {
           "word": "empress",
-          "meaning": "[派生] n.女皇；皇后"
+          "meaning": "n.女皇；皇后"
         },
         {
           "word": "turnout",
@@ -69239,11 +69239,11 @@ window.CET6_DATA = {
         },
         {
           "word": "inversion",
-          "meaning": "[派生] n.倒置，颠倒，倒转"
+          "meaning": "n.倒置，颠倒，倒转"
         },
         {
           "word": "inducement",
-          "meaning": "[派生] n.引诱；刺激；诱因"
+          "meaning": "n.引诱；刺激；诱因"
         },
         {
           "word": "explode",
@@ -69271,7 +69271,7 @@ window.CET6_DATA = {
         },
         {
           "word": "brilliance",
-          "meaning": "[派生] n.才华；光彩"
+          "meaning": "n.才华；光彩"
         },
         {
           "word": "year",
@@ -80520,7 +80520,7 @@ window.CET6_DATA = {
         },
         {
           "word": "print",
-          "meaning": "v.打印；印刷；刊登n.印刷行业；指纹； 的；著名的 手印；足迹；版画"
+          "meaning": "v. 打印；印刷；刊登 n. 印章；指纹，印记；版画"
         },
         {
           "word": "overlook",
@@ -89633,7 +89633,7 @@ window.CET6_DATA = {
         },
         {
           "word": "harassment",
-          "meaning": "[派生]"
+          "meaning": "n. 骚扰；折磨，骚扰行为"
         },
         {
           "word": "constituency",
@@ -93213,7 +93213,7 @@ window.CET6_DATA = {
         },
         {
           "word": "association",
-          "meaning": "[派生]"
+          "meaning": "n. 协会，社团；联合，结合；联想"
         },
         {
           "word": "bullet",
@@ -93445,7 +93445,7 @@ window.CET6_DATA = {
         },
         {
           "word": "insurance",
-          "meaning": "[派生]"
+          "meaning": "n. 保险；保险费；安全保障"
         },
         {
           "word": "thermal",
@@ -94861,7 +94861,7 @@ window.CET6_DATA = {
         },
         {
           "word": "entertainment",
-          "meaning": "[派生]"
+          "meaning": "n. 娱乐，文娱节目；款待，招待"
         },
         {
           "word": "regularity",
@@ -101068,7 +101068,7 @@ window.CET6_DATA = {
         },
         {
           "word": "entertainment",
-          "meaning": "[派生]"
+          "meaning": "n. 娱乐，文娱节目；款待，招待"
         },
         {
           "word": "supreme",
@@ -101292,7 +101292,7 @@ window.CET6_DATA = {
         },
         {
           "word": "harassment",
-          "meaning": "[派生]"
+          "meaning": "n. 骚扰；折磨，骚扰行为"
         },
         {
           "word": "venture",
@@ -104634,7 +104634,7 @@ window.CET6_DATA = {
         },
         {
           "word": "insurance",
-          "meaning": "[派生]"
+          "meaning": "n. 保险；保险费；安全保障"
         },
         {
           "word": "refinery",
@@ -111347,7 +111347,7 @@ window.CET6_DATA = {
         },
         {
           "word": "association",
-          "meaning": "[派生]"
+          "meaning": "n. 协会，社团；联合，结合；联想"
         },
         {
           "word": "dominate",
@@ -122298,7 +122298,7 @@ window.CET6_DATA = {
         },
         {
           "word": "print",
-          "meaning": "v.打印；印刷；刊登n.印刷行业；指纹； 的；著名的 手印；足迹；版画"
+          "meaning": "v. 打印；印刷；刊登 n. 印章；指纹，印记；版画"
         },
         {
           "word": "repay",
