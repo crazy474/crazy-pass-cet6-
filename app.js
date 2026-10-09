@@ -1105,44 +1105,102 @@ function toggleStar(wordId) {
   defendTodayStreak("word", 1);
 }
 
-// --- 9. 极速闪视流与 3D 拟真翻转卡片 (Speed Flash & 3D Flashcards - 只要单词与词意，乱序随机模式) ---
+// --- 14. 全新极速闪过卡工坊交互驱动引擎 (SRS 3D Cards & Flow) ---
+let currentDeckWords = [];
+let flashRoundErrors = [];
+let isCardFlipped = false;
+let flashSessionStats = {
+  mastered: 0,
+  hesitant: 0,
+  forgot: 0
+};
 let speedFlashTimer = null;
 let speedMeaningTimer = null;
-let isFlipped = false;
+let denseListMeaningsHidden = false;
 
-// 当前卡片包与洗牌状态
-let currentDeckWords = [];
-
+// 1. 初始化闪过卡题库选择器
 function initFlashcardSelectors() {
-  const select = document.getElementById("flashUnitSelect");
-  if (!select || !window.CET6_DATA || !window.CET6_DATA.flashCardDecks) return;
-  select.innerHTML = "";
-  
-  const decks = window.CET6_DATA.flashCardDecks;
-  Object.keys(decks).forEach(deckKey => {
-    const opt = document.createElement("option");
-    opt.value = deckKey;
-    opt.textContent = decks[deckKey].title;
-    if (deckKey === (userState.speedFlash.currentDeck || "all_shuffled")) opt.selected = true;
-    select.appendChild(opt);
-  });
-  
+  const sel = document.getElementById("flashUnitSelect");
+  if (!sel) return;
+
+  let optionsHtml = `
+    <option value="all_shuffled">🔀 全库 7,375 词大乱序 (极限总攻 · 默认)</option>
+    <option value="core_all">🌟 核心高频母词全库 (2,164 词必过必背)</option>
+  `;
+
+  if (window.CET6_DATA && window.CET6_DATA.coreUnits) {
+    window.CET6_DATA.coreUnits.forEach(u => {
+      optionsHtml += `<option value="unit_${u.unit}">📚 Unit ${u.unit} 单元重点词</option>`;
+    });
+  }
+
+  optionsHtml += `
+    <option value="starred">⭐ 星标生词本专刷</option>
+    <option value="errors">🔴 本轮生疏错词本</option>
+  `;
+
+  sel.innerHTML = optionsHtml;
   loadCurrentDeck();
 }
 
+// 2. 加载选中的题库并随机乱序
 function loadCurrentDeck() {
-  const select = document.getElementById("flashUnitSelect");
-  const deckKey = select ? select.value : (userState.speedFlash.currentDeck || "all_shuffled");
-  userState.speedFlash.currentDeck = deckKey;
-  
-  const decks = window.CET6_DATA.flashCardDecks;
-  if (decks && decks[deckKey]) {
-    // 每次加载时保留其打乱顺序，同时克隆一份便于动态洗牌
-    currentDeckWords = [...decks[deckKey].words];
-  } else {
-    currentDeckWords = [];
+  const sel = document.getElementById("flashUnitSelect");
+  const deckKey = sel ? sel.value : "all_shuffled";
+
+  let list = [];
+
+  if (deckKey === "all_shuffled") {
+    const raw = window.CET6_DATA && window.CET6_DATA.flashCardDecks && window.CET6_DATA.flashCardDecks.all_shuffled;
+    list = raw && raw.words ? [...raw.words] : [];
+  } else if (deckKey === "core_all") {
+    if (window.CET6_DATA && window.CET6_DATA.coreUnits) {
+      window.CET6_DATA.coreUnits.forEach(u => {
+        if (u.lessons) u.lessons.forEach(l => {
+          if (l.words) l.words.forEach(w => list.push({ word: w.word, meaning: w.meaning, phonetic: w.phonetic, tip: w.tip, id: w.id }));
+        });
+      });
+    }
+  } else if (deckKey.startsWith("unit_")) {
+    const unitNum = parseInt(deckKey.replace("unit_", ""));
+    const u = window.CET6_DATA && window.CET6_DATA.coreUnits && window.CET6_DATA.coreUnits.find(x => x.unit === unitNum);
+    if (u && u.lessons) {
+      u.lessons.forEach(l => {
+        if (l.words) l.words.forEach(w => list.push({ word: w.word, meaning: w.meaning, phonetic: w.phonetic, tip: w.tip, id: w.id }));
+      });
+    }
+  } else if (deckKey === "starred") {
+    if (userState.learned && window.CET6_DATA && window.CET6_DATA.coreUnits) {
+      window.CET6_DATA.coreUnits.forEach(u => {
+        if (u.lessons) u.lessons.forEach(l => {
+          if (l.words) l.words.forEach(w => {
+            if (userState.learned[w.id] && userState.learned[w.id].star) {
+              list.push({ word: w.word, meaning: w.meaning, phonetic: w.phonetic, tip: w.tip, id: w.id });
+            }
+          });
+        });
+      });
+    }
+    if (list.length === 0) {
+      showToast("ℹ️ 当前星标生词本为空，可在背词卡片上点击 ★ 加入生词！");
+    }
+  } else if (deckKey === "errors") {
+    list = [...flashRoundErrors];
+    if (list.length === 0) {
+      showToast("🎉 太棒了！本轮尚无生疏错词记录！");
+    }
   }
+
+  // 默认使用 Fisher-Yates 算法彻底打乱顺序
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+
+  currentDeckWords = list;
   userState.speedFlash.currentIndex = 0;
+  flashSessionStats = { mastered: 0, hesitant: 0, forgot: 0 };
+  flashRoundErrors = [];
 }
 
 function onFlashUnitChange() {
@@ -1152,7 +1210,7 @@ function onFlashUnitChange() {
   saveState();
 }
 
-// 🔀 重新乱序洗牌 (Fisher-Yates 算法)
+// 🔀 重新乱序大洗牌 (Fisher-Yates 算法)
 function reshuffleCurrentDeck() {
   if (!currentDeckWords || currentDeckWords.length <= 1) return;
   for (let i = currentDeckWords.length - 1; i > 0; i--) {
@@ -1162,9 +1220,8 @@ function reshuffleCurrentDeck() {
   userState.speedFlash.currentIndex = 0;
   pauseSpeedFlash();
   renderFlashWorkspace();
-  
-  // 提示动画或轻音
-  if (typeof playChime === "function") playChime();
+  if (typeof playPixelSound === "function") playPixelSound("coin");
+  showToast("🔀 已完成全库随机打乱大洗牌！");
 }
 
 function switchFlashMode(mode) {
@@ -1196,25 +1253,199 @@ function getFlashWords() {
   return currentDeckWords;
 }
 
+// 渲染工作区主调度器
 function renderFlashWorkspace() {
   if (!currentDeckWords || currentDeckWords.length === 0) {
     initFlashcardSelectors();
   }
-  const stageFlash = document.getElementById("speedFlashStage");
   const stage3D = document.getElementById("flipCardStage");
+  const stageFlash = document.getElementById("speedFlashStage");
+  const stageList = document.getElementById("flashListStage");
+  const settleCard = document.getElementById("flashRoundSettlementCard");
 
-  if (userState.speedFlash.mode === "flash") {
-    if (stageFlash) stageFlash.style.display = "flex";
-    if (stage3D) stage3D.style.display = "none";
-    renderCurrentSpeedWord();
-  } else {
-    if (stageFlash) stageFlash.style.display = "none";
-    if (stage3D) stage3D.style.display = "block";
+  if (settleCard) settleCard.style.display = "none";
+
+  const mode = userState.speedFlash.mode || "3d";
+
+  if (stage3D) stage3D.style.display = mode === "3d" ? "block" : "none";
+  if (stageFlash) stageFlash.style.display = mode === "flash" ? "block" : "none";
+  if (stageList) stageList.style.display = mode === "list" ? "block" : "none";
+
+  if (mode === "3d") {
     renderCurrent3DCard();
+  } else if (mode === "flash") {
+    renderCurrentSpeedWord();
+  } else if (mode === "list") {
+    renderFlashDenseList();
+  }
+
+  updateFlashDashboardProgress();
+}
+
+// 实时更新顶部进度条与统计胶囊
+function updateFlashDashboardProgress() {
+  const words = getFlashWords();
+  const total = words.length || 1;
+  const current = (userState.speedFlash.currentIndex || 0) + 1;
+
+  const bar = document.getElementById("flashProgressBar");
+  const progText = document.getElementById("flashStatProgressText");
+  const masEl = document.getElementById("flashStatMastered");
+  const hesEl = document.getElementById("flashStatHesitant");
+  const forEl = document.getElementById("flashStatForgot");
+  const accEl = document.getElementById("flashStatAccuracy");
+
+  const pct = Math.min(100, Math.max(1, Math.round((current / total) * 100)));
+  if (bar) bar.style.width = pct + "%";
+  if (progText) progText.textContent = `第 ${current} / ${total} 词 ｜ ${pct}%`;
+
+  if (masEl) masEl.textContent = `🟢 熟记: ${flashSessionStats.mastered}`;
+  if (hesEl) hesEl.textContent = `🟡 模糊: ${flashSessionStats.hesitant}`;
+  if (forEl) forEl.textContent = `🔴 生疏: ${flashSessionStats.forgot}`;
+
+  const totalRated = flashSessionStats.mastered + flashSessionStats.hesitant + flashSessionStats.forgot;
+  const acc = totalRated > 0 ? Math.round((flashSessionStats.mastered / totalRated) * 100) : 0;
+  if (accEl) accEl.textContent = `掌握率: ${acc}%`;
+}
+
+// 3. 渲染当前 3D 拟真翻转卡片
+function renderCurrent3DCard() {
+  const words = getFlashWords();
+  if (words.length === 0) return;
+
+  if (userState.speedFlash.currentIndex >= words.length) {
+    showFlashRoundSettlement();
+    return;
+  }
+  if (userState.speedFlash.currentIndex < 0) userState.speedFlash.currentIndex = 0;
+
+  const w = words[userState.speedFlash.currentIndex];
+  const frontWord = document.getElementById("flipFrontWord");
+  const frontPhon = document.getElementById("flipFrontPhonetic");
+  const backMean = document.getElementById("flipBackMeaning");
+  const trickBox = document.getElementById("flashTrickBox");
+  const trickText = document.getElementById("flashTrickText");
+  const starBtn = document.getElementById("flashStarBtn");
+
+  if (frontWord) frontWord.textContent = w.word;
+  if (frontPhon) frontPhon.textContent = w.phonetic || "";
+  if (backMean) backMean.textContent = w.meaning;
+
+  if (trickBox && trickText) {
+    if (w.tip && w.tip.trim()) {
+      trickText.textContent = w.tip;
+      trickBox.style.display = "block";
+    } else {
+      trickBox.style.display = "none";
+    }
+  }
+
+  // 标星状态更新
+  if (starBtn) {
+    const isStarred = w.id && userState.learned && userState.learned[w.id] && userState.learned[w.id].star;
+    starBtn.classList.toggle("starred", Boolean(isStarred));
+  }
+
+  // 重置回正面
+  isCardFlipped = false;
+  const inner = document.getElementById("flipCardInner");
+  if (inner) inner.classList.remove("flipped");
+
+  updateFlashDashboardProgress();
+}
+
+// 翻转卡片
+function flip3DCard() {
+  isCardFlipped = !isCardFlipped;
+  const inner = document.getElementById("flipCardInner");
+  if (inner) inner.classList.toggle("flipped", isCardFlipped);
+
+  // 翻到背面时自动播报一次发音
+  if (isCardFlipped) {
+    speakCurrentFlashcard();
   }
 }
 
-// 极速闪视流播放控制 (只显示单词与词意)
+// 艾宾浩斯三档记忆打分 ('forgot' | 'hesitant' | 'mastered')
+function grade3DCard(grade) {
+  const words = getFlashWords();
+  if (words.length === 0) return;
+  const curIdx = userState.speedFlash.currentIndex;
+  const currentWordObj = words[curIdx];
+
+  // 记录撤销快照
+  const prevSnapshot = {
+    index: curIdx,
+    stats: { ...flashSessionStats },
+    wordObj: currentWordObj,
+    grade: grade
+  };
+
+  // 计入统计
+  if (grade === "mastered") {
+    flashSessionStats.mastered++;
+    if (typeof playPixelSound === "function") playPixelSound("correct");
+    if (typeof recordStreakActivity === "function") recordStreakActivity(1);
+  } else if (grade === "hesitant") {
+    flashSessionStats.hesitant++;
+    if (typeof playPixelSound === "function") playPixelSound("coin");
+  } else if (grade === "forgot") {
+    flashSessionStats.forgot++;
+    if (typeof playPixelSound === "function") playPixelSound("wrong");
+    // 加入本轮错词本
+    if (!flashRoundErrors.some(x => x.word === currentWordObj.word)) {
+      flashRoundErrors.push(currentWordObj);
+    }
+  }
+
+  userState.speedFlash.currentIndex++;
+
+  // 注册 8 秒反悔急救胶囊
+  const gradeLabel = grade === "mastered" ? "🟢 熟记" : (grade === "hesitant" ? "🟡 模糊" : "🔴 生疏");
+  registerUndoAction(`已将 [${currentWordObj.word}] 标为 ${gradeLabel}`, () => {
+    userState.speedFlash.currentIndex = prevSnapshot.index;
+    flashSessionStats = prevSnapshot.stats;
+    renderCurrent3DCard();
+  }, 6000);
+
+  renderCurrent3DCard();
+}
+
+function undoLastFlashcardMark() {
+  if (typeof performGlobalUndo === "function") {
+    performGlobalUndo();
+  }
+}
+
+// 朗读当前闪卡单词
+function speakCurrentFlashcard() {
+  const words = getFlashWords();
+  if (words.length === 0) return;
+  const w = words[userState.speedFlash.currentIndex];
+  if (w && typeof speakWord === "function") {
+    speakWord(w.word);
+  }
+}
+
+// 为当前卡片加入/取消星标生词本
+function toggleStarCurrentFlashcard() {
+  const words = getFlashWords();
+  if (words.length === 0) return;
+  const w = words[userState.speedFlash.currentIndex];
+  if (!w) return;
+
+  if (w.id && typeof toggleStar === "function") {
+    toggleStar(w.id);
+  }
+  const starBtn = document.getElementById("flashStarBtn");
+  if (starBtn) {
+    const isNowStarred = w.id && userState.learned && userState.learned[w.id] && userState.learned[w.id].star;
+    starBtn.classList.toggle("starred", Boolean(isNowStarred));
+  }
+  showToast(`★ 已${starBtn && starBtn.classList.contains("starred") ? "加入" : "移出"}星标生词本！`);
+}
+
+// 4. 自动闪视心流引擎 (巡航播放模式)
 function renderCurrentSpeedWord() {
   const words = getFlashWords();
   if (words.length === 0) return;
@@ -1223,28 +1454,25 @@ function renderCurrentSpeedWord() {
 
   const w = words[userState.speedFlash.currentIndex];
   const wordEl = document.getElementById("speedWordHero");
-  const phonEl = document.getElementById("speedPhoneticHero");
   const meanEl = document.getElementById("speedMeaningHero");
   const progEl = document.getElementById("speedProgressHero");
 
-  // 只要单词，以及词意
   if (wordEl) wordEl.textContent = w.word;
-  if (phonEl) phonEl.textContent = ""; // 纯净模式不显示音标杂项
   if (meanEl) {
     meanEl.textContent = w.meaning;
     meanEl.classList.remove("revealed");
   }
-  if (progEl) progEl.textContent = `第 ${userState.speedFlash.currentIndex + 1} / ${words.length} 词 · 乱序模式`;
+  if (progEl) progEl.textContent = `第 ${userState.speedFlash.currentIndex + 1} / ${words.length} 词 · 自动巡航`;
 
-  // 单词自动朗读
   speakWord(w.word);
 
-  // 释义延时半透明浮现 (训练眼脑直觉)
   clearTimeout(speedMeaningTimer);
   const delay = Math.max(300, (userState.speedFlash.speed * 1000) * 0.45);
   speedMeaningTimer = setTimeout(() => {
     if (meanEl) meanEl.classList.add("revealed");
   }, delay);
+
+  updateFlashDashboardProgress();
 }
 
 function toggleSpeedFlash() {
@@ -1258,9 +1486,10 @@ function toggleSpeedFlash() {
 function startSpeedFlash() {
   userState.speedFlash.isPlaying = true;
   const playBtn = document.getElementById("speedPlayBtn");
-  if (playBtn) playBtn.innerHTML = "⏸️ 暂停闪视";
+  if (playBtn) playBtn.innerHTML = "⏸️ 暂停巡航 (P)";
 
   renderCurrentSpeedWord();
+  clearInterval(speedFlashTimer);
   speedFlashTimer = setInterval(() => {
     stepSpeedFlash(1);
   }, userState.speedFlash.speed * 1000);
@@ -1271,7 +1500,7 @@ function pauseSpeedFlash() {
   clearInterval(speedFlashTimer);
   clearTimeout(speedMeaningTimer);
   const playBtn = document.getElementById("speedPlayBtn");
-  if (playBtn) playBtn.innerHTML = "▶️ 开启闪视流";
+  if (playBtn) playBtn.innerHTML = "▶️ 开启闪视心流 (P)";
 }
 
 function stepSpeedFlash(dir) {
@@ -1281,67 +1510,133 @@ function stepSpeedFlash(dir) {
   renderCurrentSpeedWord();
 }
 
-// 3D 拟真翻转卡片 (正面单词，反面词意)
-function renderCurrent3DCard() {
+// 5. 密集冲刺清单模式
+function renderFlashDenseList() {
+  const grid = document.getElementById("flashDenseListGrid");
+  if (!grid) return;
   const words = getFlashWords();
-  if (words.length === 0) return;
-  if (userState.speedFlash.currentIndex >= words.length) userState.speedFlash.currentIndex = 0;
-  if (userState.speedFlash.currentIndex < 0) userState.speedFlash.currentIndex = words.length - 1;
+  const displaySlice = words.slice(0, 120);
 
-  const w = words[userState.speedFlash.currentIndex];
-  const frontWord = document.getElementById("flipFrontWord");
-  const frontPhon = document.getElementById("flipFrontPhonetic");
-  const backMean = document.getElementById("flipBackMeaning");
-  const progEl = document.getElementById("flipCardProgress");
+  let html = "";
+  displaySlice.forEach(w => {
+    html += `
+      <div class="flash-dense-card">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <strong style="font-size:18px; color:var(--text-main); font-family:serif;">${w.word}</strong>
+          <button type="button" class="audio-speak-btn" onclick="speakWord('${w.word}')" style="padding:2px 8px; font-size:12px;">🔊</button>
+        </div>
+        <div class="flash-dense-meaning ${denseListMeaningsHidden ? 'hidden-mask' : ''}" style="margin-top:6px; font-size:13.5px; color:var(--text-body);">
+          ${w.meaning}
+        </div>
+      </div>
+    `;
+  });
 
-  if (frontWord) frontWord.textContent = w.word;
-  if (frontPhon) frontPhon.textContent = "";
-  if (backMean) backMean.textContent = w.meaning;
-  if (progEl) progEl.textContent = `第 ${userState.speedFlash.currentIndex + 1} / ${words.length} 张卡片 · 乱序模式`;
-
-  // 重置正面
-  isFlipped = false;
-  const inner = document.getElementById("flipCardInner");
-  if (inner) inner.classList.remove("flipped");
+  grid.innerHTML = html;
 }
 
-function flip3DCard() {
-  isFlipped = !isFlipped;
-  const inner = document.getElementById("flipCardInner");
-  if (inner) inner.classList.toggle("flipped", isFlipped);
-  if (isFlipped) {
-    const words = getFlashWords();
-    const w = words[userState.speedFlash.currentIndex];
-    if (w) speakWord(w.word);
+function toggleFlashListMeanings() {
+  denseListMeaningsHidden = !denseListMeaningsHidden;
+  const btn = document.getElementById("btnToggleListMeanings");
+  if (btn) btn.textContent = denseListMeaningsHidden ? "👁️ 显示释义" : "👁️ 隐藏释义 (自测)";
+  document.querySelectorAll(".flash-dense-meaning").forEach(el => {
+    el.classList.toggle("hidden-mask", denseListMeaningsHidden);
+  });
+}
+
+// 6. 本轮刷词完成成就结算卡
+function showFlashRoundSettlement() {
+  pauseSpeedFlash();
+  const stage3D = document.getElementById("flipCardStage");
+  const stageFlash = document.getElementById("speedFlashStage");
+  const stageList = document.getElementById("flashListStage");
+  const settleCard = document.getElementById("flashRoundSettlementCard");
+
+  if (stage3D) stage3D.style.display = "none";
+  if (stageFlash) stageFlash.style.display = "none";
+  if (stageList) stageList.style.display = "none";
+  if (settleCard) settleCard.style.display = "block";
+
+  const total = flashSessionStats.mastered + flashSessionStats.hesitant + flashSessionStats.forgot;
+  const acc = total > 0 ? Math.round((flashSessionStats.mastered / total) * 100) : 0;
+
+  const tEl = document.getElementById("settleTotalCount");
+  const mEl = document.getElementById("settleMasteredCount");
+  const fEl = document.getElementById("settleForgotCount");
+  const aEl = document.getElementById("settleAccuracyRate");
+  const btnErr = document.getElementById("btnRestartForgot");
+
+  if (tEl) tEl.textContent = total;
+  if (mEl) mEl.textContent = flashSessionStats.mastered;
+  if (fEl) fEl.textContent = flashSessionStats.forgot;
+  if (aEl) aEl.textContent = acc + "%";
+
+  if (btnErr) {
+    btnErr.style.display = flashRoundErrors.length > 0 ? "inline-block" : "none";
+    btnErr.textContent = `🔴 只重刷本轮生疏词 (${flashRoundErrors.length})`;
+  }
+
+  if (typeof triggerConfettiBurst === "function") {
+    triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
   }
 }
 
-function mark3DCard(status) {
-  const words = getFlashWords();
-  if (words.length === 0) return;
-  const curIdx = userState.speedFlash.currentIndex;
-  const curWord = words[curIdx] ? words[curIdx].word : "";
-
-  // 记录上一步快照
-  lastFlashcardState = {
-    prevIndex: curIdx,
-    prevWord: curWord,
-    status: status
-  };
-
-  userState.speedFlash.currentIndex = (curIdx + 1) % words.length;
-  renderCurrent3DCard();
-
-  const label = status === "mastered" ? "熟记过关" : "模糊巩固";
-  registerUndoAction(`已将 [${curWord}] 标为${label}`, () => {
-    userState.speedFlash.currentIndex = curIdx;
-    renderCurrent3DCard();
-  }, 5000);
+function restartFlashOnlyForgot() {
+  if (flashRoundErrors.length === 0) return;
+  const sel = document.getElementById("flashUnitSelect");
+  if (sel) sel.value = "errors";
+  loadCurrentDeck();
+  switchFlashMode("3d");
+  showToast(`🔥 已加载本轮生疏错词包，共 ${currentDeckWords.length} 词，开始精准强化！`);
 }
 
-function shuffle3DCards() {
-  reshuffleCurrentDeck();
+// 7. 闪过卡全局快捷键监听 (Space / 1/2/3 / A/S/D / R / Z / F / P / V)
+if (typeof document !== "undefined") {
+  document.addEventListener("keydown", function(e) {
+    if (userState.currentTab !== "flash") return;
+    if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) return;
+
+    const mode = userState.speedFlash.mode || "3d";
+
+    if (e.code === "Space") {
+      e.preventDefault();
+      if (mode === "3d") flip3DCard();
+      else if (mode === "flash") toggleSpeedFlash();
+      return;
+    }
+
+    if (mode === "3d") {
+      if (e.key === "1" || e.key === "a" || e.key === "A" || e.key === "ArrowLeft") {
+        e.preventDefault();
+        grade3DCard("forgot");
+      } else if (e.key === "2" || e.key === "s" || e.key === "S" || e.key === "ArrowDown") {
+        e.preventDefault();
+        grade3DCard("hesitant");
+      } else if (e.key === "3" || e.key === "d" || e.key === "D" || e.key === "ArrowRight") {
+        e.preventDefault();
+        grade3DCard("mastered");
+      } else if (e.key === "r" || e.key === "R") {
+        e.preventDefault();
+        reshuffleCurrentDeck();
+      } else if (e.key === "z" || e.key === "Z") {
+        e.preventDefault();
+        undoLastFlashcardMark();
+      } else if (e.key === "f" || e.key === "F") {
+        e.preventDefault();
+        toggleStarCurrentFlashcard();
+      } else if (e.key === "v" || e.key === "V") {
+        e.preventDefault();
+        speakCurrentFlashcard();
+      }
+    } else if (mode === "flash") {
+      if (e.key === "p" || e.key === "P") {
+        e.preventDefault();
+        toggleSpeedFlash();
+      }
+    }
+  });
 }
+
 
 // --- 15. 7 周通关计划与习惯打卡 (7-Week Planner) ---
 function renderPlannerSection() {

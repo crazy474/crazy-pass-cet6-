@@ -5618,6 +5618,407 @@ body.dark-mode .audio-pref-btn:hover {
   100% { transform: scale(1.08); filter: brightness(1.22); }
 }
 
+
+
+/* =========================================================================
+   34. 全新极速闪过卡工坊豪华样式系统 (Flashcard Studio 3D & SRS)
+   ========================================================================= */
+
+.flash-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.flash-deck-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* 进度条与战报统计条 */
+.flash-progress-dashboard {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 12px 18px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.flash-progress-track {
+  width: 100%;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+body.dark-mode .flash-progress-track {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.flash-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--sage-green), var(--harvest-gold), var(--tomato-red));
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.flash-stats-pills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.flash-stat-pill {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+}
+
+.flash-stat-pill.mastered { color: var(--sage-green); background: rgba(91, 140, 90, 0.12); }
+.flash-stat-pill.hesitant { color: var(--harvest-gold); background: rgba(212, 163, 115, 0.15); }
+.flash-stat-pill.forgot { color: var(--tomato-red); background: rgba(224, 90, 71, 0.12); }
+.flash-stat-pill.accuracy { color: var(--text-main); font-weight: 800; }
+
+/* 3D 拟真翻转卡舞台 */
+.flash-card-3d-viewport {
+  perspective: 1200px;
+  width: 100%;
+  max-width: 740px;
+  min-height: 380px;
+  margin: 0 auto 24px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.flash-card-3d-inner {
+  position: relative;
+  width: 100%;
+  min-height: 380px;
+  transform-style: preserve-3d;
+  transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+  border-radius: 24px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+.flash-card-3d-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.flash-card-face {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 24px;
+  padding: 28px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: var(--bg-surface);
+  border: 2px solid var(--border-color);
+  box-sizing: border-box;
+}
+
+body.dark-mode .flash-card-face {
+  background: #20242B;
+  border-color: #38404C;
+}
+
+.flash-card-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-subtle) 100%);
+  border-color: rgba(224, 90, 71, 0.35);
+}
+
+.flash-card-top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flash-card-deck-tag {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--bg-subtle);
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+
+.flash-card-icon-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 13px;
+  cursor: pointer;
+  color: var(--text-main);
+  transition: all 0.15s ease;
+}
+
+.flash-card-icon-btn:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent-gold);
+}
+
+.flash-card-icon-btn.starred {
+  color: var(--harvest-gold);
+  border-color: var(--harvest-gold);
+  background: rgba(212, 163, 115, 0.15);
+}
+
+.flash-word-text {
+  font-size: clamp(38px, 6vw, 54px);
+  font-weight: 900;
+  color: var(--text-main);
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  margin: auto 0 8px;
+}
+
+.flash-phonetic-text {
+  font-size: 18px;
+  color: var(--text-muted);
+  font-family: serif;
+  margin-bottom: auto;
+}
+
+.flash-meaning-text {
+  font-size: clamp(22px, 3.5vw, 28px);
+  font-weight: 800;
+  color: var(--tomato-red);
+  line-height: 1.6;
+  margin: auto 0;
+  max-width: 90%;
+}
+
+.flash-trick-fold {
+  background: rgba(212, 163, 115, 0.12);
+  border: 1px dashed var(--harvest-gold);
+  border-radius: 10px;
+  padding: 8px 14px;
+  margin-bottom: 12px;
+  max-width: 90%;
+  text-align: left;
+}
+
+.flash-card-hint {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.flash-card-hint kbd {
+  background: var(--bg-subtle);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  font-weight: 700;
+}
+
+/* 记忆打分梯度操作栏 */
+.flash-grading-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 740px;
+  margin: 0 auto 16px;
+}
+
+.btn-grade-forgot, .btn-grade-hesitant, .btn-grade-mastered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 20px;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+  user-select: none;
+}
+
+.grade-key {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+body.dark-mode .grade-key {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.btn-grade-forgot {
+  background: rgba(224, 90, 71, 0.08);
+  border: 2px solid rgba(224, 90, 71, 0.35);
+  color: var(--tomato-red);
+}
+.btn-grade-forgot:hover {
+  background: var(--tomato-red);
+  color: #FFF;
+  border-color: var(--tomato-red);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(224, 90, 71, 0.35);
+}
+
+.btn-grade-hesitant {
+  background: rgba(212, 163, 115, 0.08);
+  border: 2px solid rgba(212, 163, 115, 0.4);
+  color: #B47828;
+}
+.btn-grade-hesitant:hover {
+  background: #D4A373;
+  color: #FFF;
+  border-color: #D4A373;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(212, 163, 115, 0.35);
+}
+
+.btn-grade-mastered {
+  background: rgba(91, 140, 90, 0.08);
+  border: 2px solid rgba(91, 140, 90, 0.35);
+  color: var(--sage-green);
+}
+.btn-grade-mastered:hover {
+  background: var(--sage-green);
+  color: #FFF;
+  border-color: var(--sage-green);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(91, 140, 90, 0.35);
+}
+
+.flash-keyboard-tip {
+  text-align: center;
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+
+.flash-keyboard-tip kbd {
+  background: var(--bg-subtle);
+  padding: 2px 5px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  font-weight: 700;
+}
+
+/* 自动闪视卡片舞台 */
+.speed-flash-hero-card {
+  background: var(--bg-surface);
+  border: 2px solid var(--border-color);
+  border-radius: 24px;
+  padding: 36px 40px;
+  text-align: center;
+  max-width: 740px;
+  margin: 0 auto;
+  box-shadow: var(--shadow-md);
+}
+
+/* 密集冲刺列表流 */
+.flash-dense-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.flash-dense-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 14px 18px;
+  transition: all 0.15s ease;
+}
+
+.flash-dense-card:hover {
+  border-color: var(--accent-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.flash-dense-meaning.hidden-mask {
+  filter: blur(5px);
+  user-select: none;
+}
+
+/* 结算卡片 */
+.flash-settlement-card {
+  max-width: 680px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 36px 40px;
+  border: 2px solid var(--harvest-gold);
+}
+
+.flash-settlement-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  background: var(--bg-subtle);
+  padding: 20px 16px;
+  border-radius: 16px;
+  margin: 20px 0;
+}
+
+.flash-settle-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flash-settle-num {
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--text-main);
+}
+
+.flash-settle-label {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+@media (max-width: 720px) {
+  .flash-card-3d-viewport {
+    min-height: 320px;
+  }
+  .flash-card-3d-inner {
+    min-height: 320px;
+  }
+  .flash-card-face {
+    padding: 20px 18px;
+  }
+  .flash-grading-bar {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .flash-settlement-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 </style>
 </head>
 <body>
@@ -6007,72 +6408,176 @@ body.dark-mode .audio-pref-btn:hover {
       <div class="vocab-card-list" id="vocabCardList"></div>
     </section>
 
-    <!-- 板块 3：极速闪视流与 3D 拟真翻转卡片 (闪过卡 · 纯净单词与词意 · 乱序随机模式) -->
+    <!-- 板块 3：全新极速闪过卡工坊 (纯净单词与词意 · 3D拟真记忆卡 · 自动闪视心流 · 智能分级打标) -->
     <section id="tab-flash" class="tab-content">
       <div class="hero-card">
-        <span class="hero-badge">⚡ 疯狂过六级 · 纯净闪过卡 · 乱序随机模式</span>
-        <h1 class="hero-title serif-heading">极速闪视流 & 3D 拟真翻转闪卡</h1>
+        <span class="hero-badge">⚡ 疯狂过六级 · 纯净闪过卡 · 科学抗遗忘刷词工坊</span>
+        <h1 class="hero-title serif-heading">极速闪过卡 · 纯净记忆心流工坊</h1>
         <p class="hero-desc">
-          基于刘晓艳《你还在背单词吗》全书全量词库打造。<strong>闪过卡纯净模式仅呈现单词与词意</strong>，顺序全部随机打乱打乱，彻底杜绝位置记忆错觉！<strong>极速闪视流</strong>在屏幕正中大字极速闪现（支持 1.0s / 1.5s / 2.0s / 3.0s 调速），伴随自动朗读与释义延时淡入；<strong>3D 拟真卡片</strong>支持轻敲 [空格键] 3D 翻转背面查看释义，支持随时一键重新洗牌。
+          严格遵循<strong>“只要单词与词意，乱序随机不留位置记忆”</strong>原则打造！包含 <strong>3D 拟真翻转卡</strong>（艾宾浩斯自评梯度：生疏/模糊/熟记）、<strong>自动闪视心流</strong>（免动手自动翻卡巡航）与<strong>冲刺密集清单</strong>。全键盘盲打支持，支持星标收集与错词重练！
         </p>
       </div>
 
       <div class="flash-workspace">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; flex-wrap:wrap; gap:16px;">
+        <!-- 顶栏操控台：模式切换 + 题库选择 + 快捷操作 -->
+        <div class="flash-toolbar">
           <div class="flash-mode-bar">
-            <button class="flash-mode-btn active" data-mode="flash" onclick="switchFlashMode('flash')">⚡ 极速闪视流 (Speed Flash)</button>
-            <button class="flash-mode-btn" data-mode="3d" onclick="switchFlashMode('3d')">🃏 3D 拟真翻转卡 (3D Cards)</button>
+            <button class="flash-mode-btn active" data-mode="3d" onclick="switchFlashMode('3d')">🃏 3D 翻转卡 (记忆打标)</button>
+            <button class="flash-mode-btn" data-mode="flash" onclick="switchFlashMode('flash')">⚡ 自动闪视心流 (巡航)</button>
+            <button class="flash-mode-btn" data-mode="list" onclick="switchFlashMode('list')">📜 冲刺单词清单 (速览)</button>
           </div>
 
-          <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
-            <label style="font-weight:700; color:var(--text-main);">选择题库包：</label>
-            <select class="select-styled" id="flashUnitSelect" onchange="onFlashUnitChange()" style="max-width:380px;"></select>
-            <button class="btn-secondary" onclick="reshuffleCurrentDeck()" title="快捷键 R" style="padding:10px 16px; font-weight:700;">🔀 重新乱序洗牌 (R)</button>
-          </div>
-        </div>
-
-        <!-- 模式 A：极速闪视流舞台 (纯净只要单词与词意) -->
-        <div class="speed-flash-stage" id="speedFlashStage">
-          <div style="position:absolute; top:20px; right:20px; font-size:14px; font-weight:700; color:var(--text-muted);" id="speedProgressHero">第 1 / 7665 词 · 乱序模式</div>
-          <div class="speed-word-hero" id="speedWordHero">abandon</div>
-          <div class="speed-phonetic-hero" id="speedPhoneticHero" style="display:none;"></div>
-          <div class="speed-meaning-hero" id="speedMeaningHero">v. 遗弃，抛弃；中止；放弃</div>
-
-          <div class="speed-control-deck">
-            <button class="btn-secondary" onclick="stepSpeedFlash(-1)">⏮️ 上一个</button>
-            <button class="btn-primary" id="speedPlayBtn" onclick="toggleSpeedFlash()">▶️ 开启闪视流</button>
-            <button class="btn-secondary" onclick="stepSpeedFlash(1)">⏭️ 下一个</button>
-            <button class="btn-secondary" onclick="reshuffleCurrentDeck()" style="margin-left:6px;">🔀 洗牌</button>
-            <span style="font-size:14px; font-weight:700; color:var(--text-muted); margin-left:12px;">调速：</span>
-            <button class="speed-btn-pill" data-speed="1.0" onclick="setSpeedInterval(1.0)">1.0s (极速)</button>
-            <button class="speed-btn-pill active" data-speed="1.5" onclick="setSpeedInterval(1.5)">1.5s (标准)</button>
-            <button class="speed-btn-pill" data-speed="2.0" onclick="setSpeedInterval(2.0)">2.0s (舒适)</button>
-            <button class="speed-btn-pill" data-speed="3.0" onclick="setSpeedInterval(3.0)">3.0s (沉浸)</button>
+          <div class="flash-deck-controls">
+            <label style="font-weight:700; color:var(--text-main); font-size:14px;">题库包：</label>
+            <select class="select-styled" id="flashUnitSelect" onchange="onFlashUnitChange()" style="max-width:320px;"></select>
+            <button class="btn-secondary" onclick="reshuffleCurrentDeck()" title="快捷键 R" style="padding:8px 14px; font-weight:700;">🔀 乱序洗牌 (R)</button>
+            <button class="btn-secondary" onclick="undoLastFlashcardMark()" title="快捷键 Z 或 Ctrl+Z" style="padding:8px 14px; font-weight:700;">↺ 撤销 (Z)</button>
           </div>
         </div>
 
-        <!-- 模式 B：3D 拟真翻转卡片 (正面单词，反面词意) -->
-        <div id="flipCardStage" style="display:none;">
-          <div style="font-size:14px; font-weight:700; color:var(--text-muted); margin-bottom:12px;" id="flipCardProgress">第 1 / 7665 张卡片 · 乱序模式</div>
-          <div class="flip-card-viewport" onclick="flip3DCard()">
-            <div class="flip-card-inner" id="flipCardInner">
-              <div class="flip-card-face">
-                <div style="font-size:44px; font-weight:800; color:var(--text-main); margin-bottom:14px;" id="flipFrontWord">abandon</div>
-                <div style="display:none;" id="flipFrontPhonetic"></div>
-                <div class="flip-hint">💡 轻敲 [空格键] 或点击卡片翻转背面查看释义</div>
+        <!-- 实时刷词进度条与战报统计胶囊 -->
+        <div class="flash-progress-dashboard">
+          <div class="flash-progress-track">
+            <div class="flash-progress-fill" id="flashProgressBar" style="width: 1%;"></div>
+          </div>
+          <div class="flash-stats-pills">
+            <span class="flash-stat-pill current" id="flashStatProgressText">第 1 / 7375 词 · 乱序</span>
+            <span class="flash-stat-pill mastered" id="flashStatMastered">🟢 熟记: 0</span>
+            <span class="flash-stat-pill hesitant" id="flashStatHesitant">🟡 模糊: 0</span>
+            <span class="flash-stat-pill forgot" id="flashStatForgot">🔴 生疏: 0</span>
+            <span class="flash-stat-pill accuracy" id="flashStatAccuracy">掌握率: 0%</span>
+          </div>
+        </div>
+
+        <!-- 模式 A：3D 拟真翻转卡片舞台 (超大字号、3D翻转、三档记忆打分) -->
+        <div id="flipCardStage">
+          <div class="flash-card-3d-viewport" onclick="flip3DCard()">
+            <div class="flash-card-3d-inner" id="flipCardInner">
+              <!-- 卡片正面 (纯净单词) -->
+              <div class="flash-card-face flash-card-front">
+                <div class="flash-card-top-bar">
+                  <span class="flash-card-deck-tag" id="flashFrontDeckTag">全库大乱序</span>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    <button type="button" class="flash-card-icon-btn" onclick="event.stopPropagation(); toggleStarCurrentFlashcard();" id="flashStarBtn" title="加入星标生词本 (快捷键 F)">★</button>
+                    <button type="button" class="flash-card-icon-btn" onclick="event.stopPropagation(); speakCurrentFlashcard();" title="发音朗读 (快捷键 V)">🔊</button>
+                  </div>
+                </div>
+
+                <div class="flash-word-text serif-heading" id="flipFrontWord">abandon</div>
+                <div class="flash-phonetic-text" id="flipFrontPhonetic">/əˈbændən/</div>
+
+                <div class="flash-card-hint">
+                  💡 点击卡片或轻敲 <kbd>空格键</kbd> 翻转查看释义
+                </div>
               </div>
-              <div class="flip-card-face flip-card-back">
-                <div style="font-size:26px; font-weight:700; color:var(--tomato-red); margin-bottom:16px; line-height:1.6;" id="flipBackMeaning">v. 遗弃，抛弃；中止；放弃</div>
-                <div class="flip-hint">💡 按 [←] 标记模糊，按 [→] 标记熟记，按 [R] 重新洗牌</div>
+
+              <!-- 卡片反面 (纯净词意) -->
+              <div class="flash-card-face flash-card-back">
+                <div class="flash-card-top-bar">
+                  <span class="flash-card-deck-tag" style="color:var(--tomato-red);">释义背面</span>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    <button type="button" class="flash-card-icon-btn" onclick="event.stopPropagation(); speakCurrentFlashcard();" title="发音朗读">🔊</button>
+                  </div>
+                </div>
+
+                <div class="flash-meaning-text" id="flipBackMeaning">v. 遗弃，抛弃；中止；放弃</div>
+
+                <!-- 可折叠晓艳巧记提示 -->
+                <div class="flash-trick-fold" id="flashTrickBox" style="display:none;" onclick="event.stopPropagation();">
+                  <span style="font-weight:800; color:var(--harvest-gold); font-size:12px;">💡 晓艳巧记：</span>
+                  <span id="flashTrickText" style="font-size:13px; color:var(--text-body);"></span>
+                </div>
+
+                <div class="flash-card-hint">
+                  💡 请根据记忆掌握程度点击下方按钮打分 (支持键盘 1 / 2 / 3)
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="flip-action-deck">
-            <button class="btn-mark-vague" onclick="mark3DCard('vague')">← 模糊需巩固 (A)</button>
-            <button class="btn-secondary" onclick="undoLastFlashcardMark()" title="撤回上一个卡片标记 (快捷键 Z 或 Ctrl+Z)" style="font-weight:700;">↺ 撤销标记 (Z)</button>
-            <button class="btn-secondary" onclick="reshuffleCurrentDeck()" title="快捷键 R">🔀 重新洗牌 (R)</button>
-            <button class="btn-mark-mastered" onclick="mark3DCard('mastered')">熟记过关 (D) →</button>
+          <!-- 艾宾浩斯三档记忆梯度操作台 -->
+          <div class="flash-grading-bar">
+            <button type="button" class="btn-grade-forgot" onclick="grade3DCard('forgot')" title="快捷键 1 或 A 或 ←">
+              <span class="grade-key">1</span>
+              <span>🔴 生疏/忘记 (A)</span>
+            </button>
+            <button type="button" class="btn-grade-hesitant" onclick="grade3DCard('hesitant')" title="快捷键 2 或 S 或 ↓">
+              <span class="grade-key">2</span>
+              <span>🟡 模糊/犹豫 (S)</span>
+            </button>
+            <button type="button" class="btn-grade-mastered" onclick="grade3DCard('mastered')" title="快捷键 3 或 D 或 →">
+              <span class="grade-key">3</span>
+              <span>🟢 熟记过关 (D)</span>
+            </button>
+          </div>
+
+          <div class="flash-keyboard-tip">
+            ⌨️ 全键盘盲打支持：<kbd>Space</kbd> 翻转 ｜ <kbd>1</kbd>/<kbd>A</kbd> 忘记 ｜ <kbd>2</kbd>/<kbd>S</kbd> 模糊 ｜ <kbd>3</kbd>/<kbd>D</kbd> 熟记 ｜ <kbd>R</kbd> 洗牌 ｜ <kbd>Z</kbd> 撤销 ｜ <kbd>F</kbd> 标星 ｜ <kbd>V</kbd> 发音
+          </div>
+        </div>
+
+        <!-- 模式 B：自动闪视心流舞台 (巡航播放模式) -->
+        <div id="speedFlashStage" style="display:none;">
+          <div class="speed-flash-hero-card">
+            <div style="font-size:14px; font-weight:700; color:var(--text-muted); margin-bottom:8px;" id="speedProgressHero">第 1 / 7375 词 · 自动巡航</div>
+            <div class="speed-word-hero serif-heading" id="speedWordHero">abandon</div>
+            <div class="speed-meaning-hero" id="speedMeaningHero">v. 遗弃，抛弃；中止；放弃</div>
+
+            <div class="speed-control-deck">
+              <button class="btn-secondary" onclick="stepSpeedFlash(-1)">⏮️ 上一个</button>
+              <button class="btn-primary" id="speedPlayBtn" onclick="toggleSpeedFlash()" style="padding:10px 24px; font-size:15px; font-weight:800;">▶️ 开启闪视心流 (P)</button>
+              <button class="btn-secondary" onclick="stepSpeedFlash(1)">⏭️ 下一个</button>
+              <button class="btn-secondary" onclick="reshuffleCurrentDeck()" style="margin-left:6px;">🔀 洗牌</button>
+              <span style="font-size:14px; font-weight:700; color:var(--text-muted); margin-left:12px;">调速：</span>
+              <button class="speed-btn-pill" data-speed="1.0" onclick="setSpeedInterval(1.0)">1.0s (极速)</button>
+              <button class="speed-btn-pill active" data-speed="1.5" onclick="setSpeedInterval(1.5)">1.5s (标准)</button>
+              <button class="speed-btn-pill" data-speed="2.0" onclick="setSpeedInterval(2.0)">2.0s (舒适)</button>
+              <button class="speed-btn-pill" data-speed="3.0" onclick="setSpeedInterval(3.0)">3.0s (沉浸)</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 模式 C：密集冲刺清单速览舞台 (考前5分钟过词) -->
+        <div id="flashListStage" style="display:none;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="font-weight:700; color:var(--text-main); font-size:15px;">📜 当前题库词汇快速回顾流</div>
+            <div style="display:flex; gap:10px;">
+              <button type="button" class="btn-secondary" onclick="toggleFlashListMeanings()" id="btnToggleListMeanings" style="padding:6px 14px; font-size:13px;">👁️ 隐藏释义 (自测)</button>
+              <button type="button" class="btn-secondary" onclick="reshuffleCurrentDeck()" style="padding:6px 14px; font-size:13px;">🔀 重新洗牌</button>
+            </div>
+          </div>
+          <div class="flash-dense-grid" id="flashDenseListGrid"></div>
+        </div>
+
+        <!-- 本轮刷词完成成就结算卡 -->
+        <div id="flashRoundSettlementCard" class="card flash-settlement-card" style="display:none;">
+          <div style="font-size:48px; margin-bottom:8px;">🏆✨</div>
+          <h2 style="font-size:26px; font-weight:900; color:var(--text-main);">太棒了！本轮闪过卡刷词达成！</h2>
+          <p style="font-size:15px; color:var(--text-muted); margin:8px 0 20px;">经过高强度神经闪视刺激，又一批核心生词被牢牢镌刻在长时记忆中！</p>
+
+          <div class="flash-settlement-stats">
+            <div class="flash-settle-item">
+              <span class="flash-settle-num" id="settleTotalCount">50</span>
+              <span class="flash-settle-label">本轮刷词总量</span>
+            </div>
+            <div class="flash-settle-item">
+              <span class="flash-settle-num" style="color:var(--sage-green);" id="settleMasteredCount">42</span>
+              <span class="flash-settle-label">熟记秒杀词</span>
+            </div>
+            <div class="flash-settle-item">
+              <span class="flash-settle-num" style="color:var(--tomato-red);" id="settleForgotCount">8</span>
+              <span class="flash-settle-label">生疏待巩固</span>
+            </div>
+            <div class="flash-settle-item">
+              <span class="flash-settle-num" style="color:var(--harvest-gold);" id="settleAccuracyRate">84%</span>
+              <span class="flash-settle-label">本轮掌握率</span>
+            </div>
+          </div>
+
+          <div style="display:flex; justify-content:center; gap:14px; margin-top:24px; flex-wrap:wrap;">
+            <button type="button" class="btn-primary" onclick="restartFlashOnlyForgot()" id="btnRestartForgot" style="padding:12px 28px; font-size:16px;">🔴 只重刷本轮生疏词</button>
+            <button type="button" class="btn-secondary" onclick="reshuffleCurrentDeck()" style="padding:12px 24px; font-size:15px;">🔀 重新洗牌再来一轮</button>
+            <button type="button" class="btn-secondary" onclick="switchFlashMode('3d')" style="padding:12px 20px; font-size:15px;">继续刷词</button>
           </div>
         </div>
       </div>
@@ -136271,44 +136776,102 @@ function toggleStar(wordId) {
   defendTodayStreak("word", 1);
 }
 
-// --- 9. 极速闪视流与 3D 拟真翻转卡片 (Speed Flash & 3D Flashcards - 只要单词与词意，乱序随机模式) ---
+// --- 14. 全新极速闪过卡工坊交互驱动引擎 (SRS 3D Cards & Flow) ---
+let currentDeckWords = [];
+let flashRoundErrors = [];
+let isCardFlipped = false;
+let flashSessionStats = {
+  mastered: 0,
+  hesitant: 0,
+  forgot: 0
+};
 let speedFlashTimer = null;
 let speedMeaningTimer = null;
-let isFlipped = false;
+let denseListMeaningsHidden = false;
 
-// 当前卡片包与洗牌状态
-let currentDeckWords = [];
-
+// 1. 初始化闪过卡题库选择器
 function initFlashcardSelectors() {
-  const select = document.getElementById("flashUnitSelect");
-  if (!select || !window.CET6_DATA || !window.CET6_DATA.flashCardDecks) return;
-  select.innerHTML = "";
-  
-  const decks = window.CET6_DATA.flashCardDecks;
-  Object.keys(decks).forEach(deckKey => {
-    const opt = document.createElement("option");
-    opt.value = deckKey;
-    opt.textContent = decks[deckKey].title;
-    if (deckKey === (userState.speedFlash.currentDeck || "all_shuffled")) opt.selected = true;
-    select.appendChild(opt);
-  });
-  
+  const sel = document.getElementById("flashUnitSelect");
+  if (!sel) return;
+
+  let optionsHtml = `
+    <option value="all_shuffled">🔀 全库 7,375 词大乱序 (极限总攻 · 默认)</option>
+    <option value="core_all">🌟 核心高频母词全库 (2,164 词必过必背)</option>
+  `;
+
+  if (window.CET6_DATA && window.CET6_DATA.coreUnits) {
+    window.CET6_DATA.coreUnits.forEach(u => {
+      optionsHtml += `<option value="unit_${u.unit}">📚 Unit ${u.unit} 单元重点词</option>`;
+    });
+  }
+
+  optionsHtml += `
+    <option value="starred">⭐ 星标生词本专刷</option>
+    <option value="errors">🔴 本轮生疏错词本</option>
+  `;
+
+  sel.innerHTML = optionsHtml;
   loadCurrentDeck();
 }
 
+// 2. 加载选中的题库并随机乱序
 function loadCurrentDeck() {
-  const select = document.getElementById("flashUnitSelect");
-  const deckKey = select ? select.value : (userState.speedFlash.currentDeck || "all_shuffled");
-  userState.speedFlash.currentDeck = deckKey;
-  
-  const decks = window.CET6_DATA.flashCardDecks;
-  if (decks && decks[deckKey]) {
-    // 每次加载时保留其打乱顺序，同时克隆一份便于动态洗牌
-    currentDeckWords = [...decks[deckKey].words];
-  } else {
-    currentDeckWords = [];
+  const sel = document.getElementById("flashUnitSelect");
+  const deckKey = sel ? sel.value : "all_shuffled";
+
+  let list = [];
+
+  if (deckKey === "all_shuffled") {
+    const raw = window.CET6_DATA && window.CET6_DATA.flashCardDecks && window.CET6_DATA.flashCardDecks.all_shuffled;
+    list = raw && raw.words ? [...raw.words] : [];
+  } else if (deckKey === "core_all") {
+    if (window.CET6_DATA && window.CET6_DATA.coreUnits) {
+      window.CET6_DATA.coreUnits.forEach(u => {
+        if (u.lessons) u.lessons.forEach(l => {
+          if (l.words) l.words.forEach(w => list.push({ word: w.word, meaning: w.meaning, phonetic: w.phonetic, tip: w.tip, id: w.id }));
+        });
+      });
+    }
+  } else if (deckKey.startsWith("unit_")) {
+    const unitNum = parseInt(deckKey.replace("unit_", ""));
+    const u = window.CET6_DATA && window.CET6_DATA.coreUnits && window.CET6_DATA.coreUnits.find(x => x.unit === unitNum);
+    if (u && u.lessons) {
+      u.lessons.forEach(l => {
+        if (l.words) l.words.forEach(w => list.push({ word: w.word, meaning: w.meaning, phonetic: w.phonetic, tip: w.tip, id: w.id }));
+      });
+    }
+  } else if (deckKey === "starred") {
+    if (userState.learned && window.CET6_DATA && window.CET6_DATA.coreUnits) {
+      window.CET6_DATA.coreUnits.forEach(u => {
+        if (u.lessons) u.lessons.forEach(l => {
+          if (l.words) l.words.forEach(w => {
+            if (userState.learned[w.id] && userState.learned[w.id].star) {
+              list.push({ word: w.word, meaning: w.meaning, phonetic: w.phonetic, tip: w.tip, id: w.id });
+            }
+          });
+        });
+      });
+    }
+    if (list.length === 0) {
+      showToast("ℹ️ 当前星标生词本为空，可在背词卡片上点击 ★ 加入生词！");
+    }
+  } else if (deckKey === "errors") {
+    list = [...flashRoundErrors];
+    if (list.length === 0) {
+      showToast("🎉 太棒了！本轮尚无生疏错词记录！");
+    }
   }
+
+  // 默认使用 Fisher-Yates 算法彻底打乱顺序
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+
+  currentDeckWords = list;
   userState.speedFlash.currentIndex = 0;
+  flashSessionStats = { mastered: 0, hesitant: 0, forgot: 0 };
+  flashRoundErrors = [];
 }
 
 function onFlashUnitChange() {
@@ -136318,7 +136881,7 @@ function onFlashUnitChange() {
   saveState();
 }
 
-// 🔀 重新乱序洗牌 (Fisher-Yates 算法)
+// 🔀 重新乱序大洗牌 (Fisher-Yates 算法)
 function reshuffleCurrentDeck() {
   if (!currentDeckWords || currentDeckWords.length <= 1) return;
   for (let i = currentDeckWords.length - 1; i > 0; i--) {
@@ -136328,9 +136891,8 @@ function reshuffleCurrentDeck() {
   userState.speedFlash.currentIndex = 0;
   pauseSpeedFlash();
   renderFlashWorkspace();
-  
-  // 提示动画或轻音
-  if (typeof playChime === "function") playChime();
+  if (typeof playPixelSound === "function") playPixelSound("coin");
+  showToast("🔀 已完成全库随机打乱大洗牌！");
 }
 
 function switchFlashMode(mode) {
@@ -136362,25 +136924,199 @@ function getFlashWords() {
   return currentDeckWords;
 }
 
+// 渲染工作区主调度器
 function renderFlashWorkspace() {
   if (!currentDeckWords || currentDeckWords.length === 0) {
     initFlashcardSelectors();
   }
-  const stageFlash = document.getElementById("speedFlashStage");
   const stage3D = document.getElementById("flipCardStage");
+  const stageFlash = document.getElementById("speedFlashStage");
+  const stageList = document.getElementById("flashListStage");
+  const settleCard = document.getElementById("flashRoundSettlementCard");
 
-  if (userState.speedFlash.mode === "flash") {
-    if (stageFlash) stageFlash.style.display = "flex";
-    if (stage3D) stage3D.style.display = "none";
-    renderCurrentSpeedWord();
-  } else {
-    if (stageFlash) stageFlash.style.display = "none";
-    if (stage3D) stage3D.style.display = "block";
+  if (settleCard) settleCard.style.display = "none";
+
+  const mode = userState.speedFlash.mode || "3d";
+
+  if (stage3D) stage3D.style.display = mode === "3d" ? "block" : "none";
+  if (stageFlash) stageFlash.style.display = mode === "flash" ? "block" : "none";
+  if (stageList) stageList.style.display = mode === "list" ? "block" : "none";
+
+  if (mode === "3d") {
     renderCurrent3DCard();
+  } else if (mode === "flash") {
+    renderCurrentSpeedWord();
+  } else if (mode === "list") {
+    renderFlashDenseList();
+  }
+
+  updateFlashDashboardProgress();
+}
+
+// 实时更新顶部进度条与统计胶囊
+function updateFlashDashboardProgress() {
+  const words = getFlashWords();
+  const total = words.length || 1;
+  const current = (userState.speedFlash.currentIndex || 0) + 1;
+
+  const bar = document.getElementById("flashProgressBar");
+  const progText = document.getElementById("flashStatProgressText");
+  const masEl = document.getElementById("flashStatMastered");
+  const hesEl = document.getElementById("flashStatHesitant");
+  const forEl = document.getElementById("flashStatForgot");
+  const accEl = document.getElementById("flashStatAccuracy");
+
+  const pct = Math.min(100, Math.max(1, Math.round((current / total) * 100)));
+  if (bar) bar.style.width = pct + "%";
+  if (progText) progText.textContent = `第 ${current} / ${total} 词 ｜ ${pct}%`;
+
+  if (masEl) masEl.textContent = `🟢 熟记: ${flashSessionStats.mastered}`;
+  if (hesEl) hesEl.textContent = `🟡 模糊: ${flashSessionStats.hesitant}`;
+  if (forEl) forEl.textContent = `🔴 生疏: ${flashSessionStats.forgot}`;
+
+  const totalRated = flashSessionStats.mastered + flashSessionStats.hesitant + flashSessionStats.forgot;
+  const acc = totalRated > 0 ? Math.round((flashSessionStats.mastered / totalRated) * 100) : 0;
+  if (accEl) accEl.textContent = `掌握率: ${acc}%`;
+}
+
+// 3. 渲染当前 3D 拟真翻转卡片
+function renderCurrent3DCard() {
+  const words = getFlashWords();
+  if (words.length === 0) return;
+
+  if (userState.speedFlash.currentIndex >= words.length) {
+    showFlashRoundSettlement();
+    return;
+  }
+  if (userState.speedFlash.currentIndex < 0) userState.speedFlash.currentIndex = 0;
+
+  const w = words[userState.speedFlash.currentIndex];
+  const frontWord = document.getElementById("flipFrontWord");
+  const frontPhon = document.getElementById("flipFrontPhonetic");
+  const backMean = document.getElementById("flipBackMeaning");
+  const trickBox = document.getElementById("flashTrickBox");
+  const trickText = document.getElementById("flashTrickText");
+  const starBtn = document.getElementById("flashStarBtn");
+
+  if (frontWord) frontWord.textContent = w.word;
+  if (frontPhon) frontPhon.textContent = w.phonetic || "";
+  if (backMean) backMean.textContent = w.meaning;
+
+  if (trickBox && trickText) {
+    if (w.tip && w.tip.trim()) {
+      trickText.textContent = w.tip;
+      trickBox.style.display = "block";
+    } else {
+      trickBox.style.display = "none";
+    }
+  }
+
+  // 标星状态更新
+  if (starBtn) {
+    const isStarred = w.id && userState.learned && userState.learned[w.id] && userState.learned[w.id].star;
+    starBtn.classList.toggle("starred", Boolean(isStarred));
+  }
+
+  // 重置回正面
+  isCardFlipped = false;
+  const inner = document.getElementById("flipCardInner");
+  if (inner) inner.classList.remove("flipped");
+
+  updateFlashDashboardProgress();
+}
+
+// 翻转卡片
+function flip3DCard() {
+  isCardFlipped = !isCardFlipped;
+  const inner = document.getElementById("flipCardInner");
+  if (inner) inner.classList.toggle("flipped", isCardFlipped);
+
+  // 翻到背面时自动播报一次发音
+  if (isCardFlipped) {
+    speakCurrentFlashcard();
   }
 }
 
-// 极速闪视流播放控制 (只显示单词与词意)
+// 艾宾浩斯三档记忆打分 ('forgot' | 'hesitant' | 'mastered')
+function grade3DCard(grade) {
+  const words = getFlashWords();
+  if (words.length === 0) return;
+  const curIdx = userState.speedFlash.currentIndex;
+  const currentWordObj = words[curIdx];
+
+  // 记录撤销快照
+  const prevSnapshot = {
+    index: curIdx,
+    stats: { ...flashSessionStats },
+    wordObj: currentWordObj,
+    grade: grade
+  };
+
+  // 计入统计
+  if (grade === "mastered") {
+    flashSessionStats.mastered++;
+    if (typeof playPixelSound === "function") playPixelSound("correct");
+    if (typeof recordStreakActivity === "function") recordStreakActivity(1);
+  } else if (grade === "hesitant") {
+    flashSessionStats.hesitant++;
+    if (typeof playPixelSound === "function") playPixelSound("coin");
+  } else if (grade === "forgot") {
+    flashSessionStats.forgot++;
+    if (typeof playPixelSound === "function") playPixelSound("wrong");
+    // 加入本轮错词本
+    if (!flashRoundErrors.some(x => x.word === currentWordObj.word)) {
+      flashRoundErrors.push(currentWordObj);
+    }
+  }
+
+  userState.speedFlash.currentIndex++;
+
+  // 注册 8 秒反悔急救胶囊
+  const gradeLabel = grade === "mastered" ? "🟢 熟记" : (grade === "hesitant" ? "🟡 模糊" : "🔴 生疏");
+  registerUndoAction(`已将 [${currentWordObj.word}] 标为 ${gradeLabel}`, () => {
+    userState.speedFlash.currentIndex = prevSnapshot.index;
+    flashSessionStats = prevSnapshot.stats;
+    renderCurrent3DCard();
+  }, 6000);
+
+  renderCurrent3DCard();
+}
+
+function undoLastFlashcardMark() {
+  if (typeof performGlobalUndo === "function") {
+    performGlobalUndo();
+  }
+}
+
+// 朗读当前闪卡单词
+function speakCurrentFlashcard() {
+  const words = getFlashWords();
+  if (words.length === 0) return;
+  const w = words[userState.speedFlash.currentIndex];
+  if (w && typeof speakWord === "function") {
+    speakWord(w.word);
+  }
+}
+
+// 为当前卡片加入/取消星标生词本
+function toggleStarCurrentFlashcard() {
+  const words = getFlashWords();
+  if (words.length === 0) return;
+  const w = words[userState.speedFlash.currentIndex];
+  if (!w) return;
+
+  if (w.id && typeof toggleStar === "function") {
+    toggleStar(w.id);
+  }
+  const starBtn = document.getElementById("flashStarBtn");
+  if (starBtn) {
+    const isNowStarred = w.id && userState.learned && userState.learned[w.id] && userState.learned[w.id].star;
+    starBtn.classList.toggle("starred", Boolean(isNowStarred));
+  }
+  showToast(`★ 已${starBtn && starBtn.classList.contains("starred") ? "加入" : "移出"}星标生词本！`);
+}
+
+// 4. 自动闪视心流引擎 (巡航播放模式)
 function renderCurrentSpeedWord() {
   const words = getFlashWords();
   if (words.length === 0) return;
@@ -136389,28 +137125,25 @@ function renderCurrentSpeedWord() {
 
   const w = words[userState.speedFlash.currentIndex];
   const wordEl = document.getElementById("speedWordHero");
-  const phonEl = document.getElementById("speedPhoneticHero");
   const meanEl = document.getElementById("speedMeaningHero");
   const progEl = document.getElementById("speedProgressHero");
 
-  // 只要单词，以及词意
   if (wordEl) wordEl.textContent = w.word;
-  if (phonEl) phonEl.textContent = ""; // 纯净模式不显示音标杂项
   if (meanEl) {
     meanEl.textContent = w.meaning;
     meanEl.classList.remove("revealed");
   }
-  if (progEl) progEl.textContent = `第 ${userState.speedFlash.currentIndex + 1} / ${words.length} 词 · 乱序模式`;
+  if (progEl) progEl.textContent = `第 ${userState.speedFlash.currentIndex + 1} / ${words.length} 词 · 自动巡航`;
 
-  // 单词自动朗读
   speakWord(w.word);
 
-  // 释义延时半透明浮现 (训练眼脑直觉)
   clearTimeout(speedMeaningTimer);
   const delay = Math.max(300, (userState.speedFlash.speed * 1000) * 0.45);
   speedMeaningTimer = setTimeout(() => {
     if (meanEl) meanEl.classList.add("revealed");
   }, delay);
+
+  updateFlashDashboardProgress();
 }
 
 function toggleSpeedFlash() {
@@ -136424,9 +137157,10 @@ function toggleSpeedFlash() {
 function startSpeedFlash() {
   userState.speedFlash.isPlaying = true;
   const playBtn = document.getElementById("speedPlayBtn");
-  if (playBtn) playBtn.innerHTML = "⏸️ 暂停闪视";
+  if (playBtn) playBtn.innerHTML = "⏸️ 暂停巡航 (P)";
 
   renderCurrentSpeedWord();
+  clearInterval(speedFlashTimer);
   speedFlashTimer = setInterval(() => {
     stepSpeedFlash(1);
   }, userState.speedFlash.speed * 1000);
@@ -136437,7 +137171,7 @@ function pauseSpeedFlash() {
   clearInterval(speedFlashTimer);
   clearTimeout(speedMeaningTimer);
   const playBtn = document.getElementById("speedPlayBtn");
-  if (playBtn) playBtn.innerHTML = "▶️ 开启闪视流";
+  if (playBtn) playBtn.innerHTML = "▶️ 开启闪视心流 (P)";
 }
 
 function stepSpeedFlash(dir) {
@@ -136447,67 +137181,133 @@ function stepSpeedFlash(dir) {
   renderCurrentSpeedWord();
 }
 
-// 3D 拟真翻转卡片 (正面单词，反面词意)
-function renderCurrent3DCard() {
+// 5. 密集冲刺清单模式
+function renderFlashDenseList() {
+  const grid = document.getElementById("flashDenseListGrid");
+  if (!grid) return;
   const words = getFlashWords();
-  if (words.length === 0) return;
-  if (userState.speedFlash.currentIndex >= words.length) userState.speedFlash.currentIndex = 0;
-  if (userState.speedFlash.currentIndex < 0) userState.speedFlash.currentIndex = words.length - 1;
+  const displaySlice = words.slice(0, 120);
 
-  const w = words[userState.speedFlash.currentIndex];
-  const frontWord = document.getElementById("flipFrontWord");
-  const frontPhon = document.getElementById("flipFrontPhonetic");
-  const backMean = document.getElementById("flipBackMeaning");
-  const progEl = document.getElementById("flipCardProgress");
+  let html = "";
+  displaySlice.forEach(w => {
+    html += `
+      <div class="flash-dense-card">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <strong style="font-size:18px; color:var(--text-main); font-family:serif;">${w.word}</strong>
+          <button type="button" class="audio-speak-btn" onclick="speakWord('${w.word}')" style="padding:2px 8px; font-size:12px;">🔊</button>
+        </div>
+        <div class="flash-dense-meaning ${denseListMeaningsHidden ? 'hidden-mask' : ''}" style="margin-top:6px; font-size:13.5px; color:var(--text-body);">
+          ${w.meaning}
+        </div>
+      </div>
+    `;
+  });
 
-  if (frontWord) frontWord.textContent = w.word;
-  if (frontPhon) frontPhon.textContent = "";
-  if (backMean) backMean.textContent = w.meaning;
-  if (progEl) progEl.textContent = `第 ${userState.speedFlash.currentIndex + 1} / ${words.length} 张卡片 · 乱序模式`;
-
-  // 重置正面
-  isFlipped = false;
-  const inner = document.getElementById("flipCardInner");
-  if (inner) inner.classList.remove("flipped");
+  grid.innerHTML = html;
 }
 
-function flip3DCard() {
-  isFlipped = !isFlipped;
-  const inner = document.getElementById("flipCardInner");
-  if (inner) inner.classList.toggle("flipped", isFlipped);
-  if (isFlipped) {
-    const words = getFlashWords();
-    const w = words[userState.speedFlash.currentIndex];
-    if (w) speakWord(w.word);
+function toggleFlashListMeanings() {
+  denseListMeaningsHidden = !denseListMeaningsHidden;
+  const btn = document.getElementById("btnToggleListMeanings");
+  if (btn) btn.textContent = denseListMeaningsHidden ? "👁️ 显示释义" : "👁️ 隐藏释义 (自测)";
+  document.querySelectorAll(".flash-dense-meaning").forEach(el => {
+    el.classList.toggle("hidden-mask", denseListMeaningsHidden);
+  });
+}
+
+// 6. 本轮刷词完成成就结算卡
+function showFlashRoundSettlement() {
+  pauseSpeedFlash();
+  const stage3D = document.getElementById("flipCardStage");
+  const stageFlash = document.getElementById("speedFlashStage");
+  const stageList = document.getElementById("flashListStage");
+  const settleCard = document.getElementById("flashRoundSettlementCard");
+
+  if (stage3D) stage3D.style.display = "none";
+  if (stageFlash) stageFlash.style.display = "none";
+  if (stageList) stageList.style.display = "none";
+  if (settleCard) settleCard.style.display = "block";
+
+  const total = flashSessionStats.mastered + flashSessionStats.hesitant + flashSessionStats.forgot;
+  const acc = total > 0 ? Math.round((flashSessionStats.mastered / total) * 100) : 0;
+
+  const tEl = document.getElementById("settleTotalCount");
+  const mEl = document.getElementById("settleMasteredCount");
+  const fEl = document.getElementById("settleForgotCount");
+  const aEl = document.getElementById("settleAccuracyRate");
+  const btnErr = document.getElementById("btnRestartForgot");
+
+  if (tEl) tEl.textContent = total;
+  if (mEl) mEl.textContent = flashSessionStats.mastered;
+  if (fEl) fEl.textContent = flashSessionStats.forgot;
+  if (aEl) aEl.textContent = acc + "%";
+
+  if (btnErr) {
+    btnErr.style.display = flashRoundErrors.length > 0 ? "inline-block" : "none";
+    btnErr.textContent = `🔴 只重刷本轮生疏词 (${flashRoundErrors.length})`;
+  }
+
+  if (typeof triggerConfettiBurst === "function") {
+    triggerConfettiBurst(window.innerWidth / 2, window.innerHeight / 2);
   }
 }
 
-function mark3DCard(status) {
-  const words = getFlashWords();
-  if (words.length === 0) return;
-  const curIdx = userState.speedFlash.currentIndex;
-  const curWord = words[curIdx] ? words[curIdx].word : "";
-
-  // 记录上一步快照
-  lastFlashcardState = {
-    prevIndex: curIdx,
-    prevWord: curWord,
-    status: status
-  };
-
-  userState.speedFlash.currentIndex = (curIdx + 1) % words.length;
-  renderCurrent3DCard();
-
-  const label = status === "mastered" ? "熟记过关" : "模糊巩固";
-  registerUndoAction(`已将 [${curWord}] 标为${label}`, () => {
-    userState.speedFlash.currentIndex = curIdx;
-    renderCurrent3DCard();
-  }, 5000);
+function restartFlashOnlyForgot() {
+  if (flashRoundErrors.length === 0) return;
+  const sel = document.getElementById("flashUnitSelect");
+  if (sel) sel.value = "errors";
+  loadCurrentDeck();
+  switchFlashMode("3d");
+  showToast(`🔥 已加载本轮生疏错词包，共 ${currentDeckWords.length} 词，开始精准强化！`);
 }
 
-function shuffle3DCards() {
-  reshuffleCurrentDeck();
+// 7. 闪过卡全局快捷键监听 (Space / 1/2/3 / A/S/D / R / Z / F / P / V)
+if (typeof document !== "undefined") {
+  document.addEventListener("keydown", function(e) {
+    if (userState.currentTab !== "flash") return;
+    if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) return;
+
+    const mode = userState.speedFlash.mode || "3d";
+
+    if (e.code === "Space") {
+      e.preventDefault();
+      if (mode === "3d") flip3DCard();
+      else if (mode === "flash") toggleSpeedFlash();
+      return;
+    }
+
+    if (mode === "3d") {
+      if (e.key === "1" || e.key === "a" || e.key === "A" || e.key === "ArrowLeft") {
+        e.preventDefault();
+        grade3DCard("forgot");
+      } else if (e.key === "2" || e.key === "s" || e.key === "S" || e.key === "ArrowDown") {
+        e.preventDefault();
+        grade3DCard("hesitant");
+      } else if (e.key === "3" || e.key === "d" || e.key === "D" || e.key === "ArrowRight") {
+        e.preventDefault();
+        grade3DCard("mastered");
+      } else if (e.key === "r" || e.key === "R") {
+        e.preventDefault();
+        reshuffleCurrentDeck();
+      } else if (e.key === "z" || e.key === "Z") {
+        e.preventDefault();
+        undoLastFlashcardMark();
+      } else if (e.key === "f" || e.key === "F") {
+        e.preventDefault();
+        toggleStarCurrentFlashcard();
+      } else if (e.key === "v" || e.key === "V") {
+        e.preventDefault();
+        speakCurrentFlashcard();
+      }
+    } else if (mode === "flash") {
+      if (e.key === "p" || e.key === "P") {
+        e.preventDefault();
+        toggleSpeedFlash();
+      }
+    }
+  });
 }
+
 
 // --- 15. 7 周通关计划与习惯打卡 (7-Week Planner) ---
 function renderPlannerSection() {
