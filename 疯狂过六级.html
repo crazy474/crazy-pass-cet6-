@@ -135400,10 +135400,10 @@ function setAmbientSound(type) {
   ambientSource.start();
 }
 
-// --- 5. 双轨超清母语真人录音与神经语音合成引擎 ---
-let currentAudioPlayer = null;
-let currentSpeechUtterance = null;
+// --- 5. 纯单轨零延迟本地极速超清朗读引擎 (Zero-Latency Local Neural Engine) ---
+let activeSpeechUtterance = null;
 let speechWatchdogTimer = null;
+let cachedBestVoices = { us: null, uk: null };
 
 // 音频设置偏好
 if (!userState.audioPref) {
@@ -135419,7 +135419,7 @@ function cleanTextForSpeech(text) {
   let s = String(text);
   // 去除中文汉字与全角中文标点
   s = s.replace(/[\u4e00-\u9fa5\u3000-\u303f\uff01-\uff5e]/g, " ");
-  // 去除词性缩写与语法标记
+  // 去除词性缩写与语法标记 (如 v., n., adj., vt.)
   s = s.replace(/\b(v|n|adj|adv|vt|vi|prep|conj|pron|art|num|pl|sing|sb|sth)\b\.?/gi, " ");
   // 去除音标斜杠与各种括号中的非单词内容
   s = s.replace(/\/.*?\/|\[.*?\]|\(.*?\)|【.*?】/g, " ");
@@ -135428,56 +135428,60 @@ function cleanTextForSpeech(text) {
   return s;
 }
 
-// 智能猎取系统最高品质的英语自然神经语音 (Neural Voice Hunter)
-function getBestNeuralVoice(accent = "us") {
-  if (!("speechSynthesis" in window)) return null;
+// 预先缓存并智能优选系统最高品质的英语自然母语音色 (0ms 查表)
+function cacheBestVoices() {
+  if (!("speechSynthesis" in window)) return;
   const voices = window.speechSynthesis.getVoices() || [];
-  if (voices.length === 0) return null;
+  if (voices.length === 0) return;
 
-  const targetLang = accent === "uk" ? "en-GB" : "en-US";
-  const preferredNames = accent === "uk"
-    ? ["Ryan", "Sonia", "Libby", "Google UK English Female", "Google UK English Male", "Daniel", "Oliver", "George"]
-    : ["Jenny", "Guy", "Aria", "Google US English", "Samantha", "Zira", "David", "Ava", "Andrew"];
+  function findVoice(accent) {
+    const targetLang = accent === "uk" ? "en-GB" : "en-US";
+    const preferredNames = accent === "uk"
+      ? ["Ryan", "Sonia", "Libby", "Google UK English Female", "Google UK English Male", "Daniel", "Oliver", "George"]
+      : ["Jenny", "Guy", "Aria", "Google US English", "Samantha", "Zira", "David", "Ava", "Andrew"];
 
-  // 1. 坚决排除中文普通话引擎（严防机械中文发音拼读英语）
-  const englishVoices = voices.filter(v => {
-    const lang = (v.lang || "").toLowerCase();
-    const name = (v.name || "").toLowerCase();
-    return (lang.startsWith("en") || lang.includes("us") || lang.includes("gb")) &&
-           !name.includes("chinese") && !name.includes("huihui") && !name.includes("kangkang") && !name.includes("yaoyao");
-  });
+    // 坚决过滤中文引擎（严防机械中文发音拼读英文口音）
+    const englishVoices = voices.filter(v => {
+      const lang = (v.lang || "").toLowerCase();
+      const name = (v.name || "").toLowerCase();
+      return (lang.startsWith("en") || lang.includes("us") || lang.includes("gb")) &&
+             !name.includes("chinese") && !name.includes("huihui") && !name.includes("kangkang") && !name.includes("yaoyao");
+    });
 
-  if (englishVoices.length === 0) return voices[0];
+    if (englishVoices.length === 0) return voices[0] || null;
 
-  // 2. 优先匹配母语高保真自然语音名
-  for (const pName of preferredNames) {
-    const match = englishVoices.find(v => v.name.includes(pName) || (v.voiceURI && v.voiceURI.includes(pName)));
-    if (match) return match;
+    // 优先匹配高质量自然语音
+    for (const pName of preferredNames) {
+      const match = englishVoices.find(v => v.name.includes(pName) || (v.voiceURI && v.voiceURI.includes(pName)));
+      if (match) return match;
+    }
+
+    // 匹配带有 Natural / Online / Neural 关键字
+    const naturalMatch = englishVoices.find(v => {
+      const n = (v.name + " " + (v.voiceURI || "")).toLowerCase();
+      return (n.includes("natural") || n.includes("neural") || n.includes("online")) && v.lang.toLowerCase().includes(accent === "uk" ? "gb" : "us");
+    });
+    if (naturalMatch) return naturalMatch;
+
+    // 匹配语言代码
+    const langMatch = englishVoices.find(v => v.lang.toLowerCase().replace("_", "-").startsWith(targetLang.toLowerCase()));
+    if (langMatch) return langMatch;
+
+    return englishVoices[0];
   }
 
-  // 3. 匹配带有 Natural / Online / Neural 关键字的高清语音
-  const naturalMatch = englishVoices.find(v => {
-    const n = (v.name + " " + (v.voiceURI || "")).toLowerCase();
-    return (n.includes("natural") || n.includes("neural") || n.includes("online")) && v.lang.toLowerCase().includes(accent === "uk" ? "gb" : "us");
-  });
-  if (naturalMatch) return naturalMatch;
-
-  // 4. 匹配目标地区语系 (en-US 或 en-GB)
-  const langMatch = englishVoices.find(v => v.lang.toLowerCase().replace("_", "-").startsWith(targetLang.toLowerCase()));
-  if (langMatch) return langMatch;
-
-  return englishVoices[0];
+  cachedBestVoices.us = findVoice("us");
+  cachedBestVoices.uk = findVoice("uk");
 }
 
-// 停止所有正在发音的音频和合成器
+// 浏览器就绪时即刻预热语音列表与音频上下文 (实现 0ms 首次点击响应)
+if (typeof window !== "undefined" && "speechSynthesis" in window) {
+  window.speechSynthesis.onvoiceschanged = cacheBestVoices;
+  cacheBestVoices();
+}
+
+// 停止所有发音与动画
 function stopAllSpeech() {
-  if (currentAudioPlayer) {
-    try {
-      currentAudioPlayer.pause();
-      currentAudioPlayer.currentTime = 0;
-    } catch (e) {}
-    currentAudioPlayer = null;
-  }
   if ("speechSynthesis" in window) {
     try {
       window.speechSynthesis.cancel();
@@ -135492,133 +135496,28 @@ function stopAllSpeech() {
   });
 }
 
-// 第一轨道：权威标准母语真人录音音频流 (有道/牛津/剑桥词典真实原声)
-function playNativeWordAudio(word, accent, rate, onEnd, onError) {
-  const cleanWord = cleanTextForSpeech(word);
-  if (!cleanWord || cleanWord.split(" ").length > 4) {
-    if (onError) onError();
-    return;
-  }
+// 【单轨极速发音核心函数】(零网络请求、零等待、毫秒级响应、连贯清晰)
+function speakWord(text, btnElement) {
+  if (!text || !("speechSynthesis" in window)) return;
 
-  const type = accent === "uk" ? 1 : 2; // 1: 英音, 2: 美音
-  const audioUrl = `https://dict.youdao.com/dictvoice?type=${type}&audio=${encodeURIComponent(cleanWord)}`;
-
-  try {
-    const audio = new Audio();
-    audio.src = audioUrl;
-    audio.playbackRate = rate || 1.0;
-
-    let finished = false;
-    const timeout = setTimeout(() => {
-      if (!finished) {
-        finished = true;
-        try { audio.pause(); } catch(e){}
-        if (onError) onError();
-      }
-    }, 1800); // 1.8s 超时自动无缝降级
-
-    audio.onended = () => {
-      if (!finished) {
-        finished = true;
-        clearTimeout(timeout);
-        currentAudioPlayer = null;
-        if (onEnd) onEnd();
-      }
-    };
-
-    audio.onerror = () => {
-      if (!finished) {
-        finished = true;
-        clearTimeout(timeout);
-        currentAudioPlayer = null;
-        if (onError) onError();
-      }
-    };
-
-    currentAudioPlayer = audio;
-    audio.play().catch(() => {
-      if (!finished) {
-        finished = true;
-        clearTimeout(timeout);
-        currentAudioPlayer = null;
-        if (onError) onError();
-      }
-    });
-  } catch (e) {
-    if (onError) onError();
-  }
-}
-
-// 第二轨道：高质量神经语音合成引擎 (针对真题例句或离线状态)
-function speakWithNeuralTTS(text, accent, rate, onEnd, onError) {
-  if (!("speechSynthesis" in window)) {
-    if (onError) onError();
-    return;
-  }
-
-  const clean = cleanTextForSpeech(text);
-  if (!clean) {
-    if (onEnd) onEnd();
-    return;
-  }
-
+  // 1. 瞬时打断前一个发音，实现指哪打哪的极速切歌体验
   try {
     window.speechSynthesis.cancel();
-  } catch(e){}
+  } catch (e) {}
 
-  const utter = new SpeechSynthesisUtterance(clean);
-  utter.rate = rate || 1.0;
-  utter.pitch = 1.0;
-  utter.lang = accent === "uk" ? "en-GB" : "en-US";
-
-  const bestVoice = getBestNeuralVoice(accent);
-  if (bestVoice) {
-    utter.voice = bestVoice;
+  if (speechWatchdogTimer) {
+    clearInterval(speechWatchdogTimer);
+    speechWatchdogTimer = null;
   }
 
-  let ended = false;
-  utter.onend = () => {
-    if (!ended) {
-      ended = true;
-      if (speechWatchdogTimer) clearInterval(speechWatchdogTimer);
-      if (onEnd) onEnd();
-    }
-  };
+  // 2. 文本净化：剥除所有词性、标点与杂音
+  const clean = cleanTextForSpeech(text);
+  if (!clean) return;
 
-  utter.onerror = () => {
-    if (!ended) {
-      ended = true;
-      if (speechWatchdogTimer) clearInterval(speechWatchdogTimer);
-      if (onEnd) onEnd();
-    }
-  };
-
-  // Chrome 经典 Web Speech 引擎卡死看门狗保活
-  if (speechWatchdogTimer) clearInterval(speechWatchdogTimer);
-  speechWatchdogTimer = setInterval(() => {
-    if (!window.speechSynthesis.speaking) {
-      clearInterval(speechWatchdogTimer);
-    } else {
-      window.speechSynthesis.pause();
-      window.speechSynthesis.resume();
-    }
-  }, 10000);
-
-  currentSpeechUtterance = utter;
-  window.speechSynthesis.speak(utter);
-}
-
-// 全局主发音入口函数 (集成双轨自适应调度与视觉声波反馈)
-function speakWord(text, btnElement) {
-  if (!text) return;
-  stopAllSpeech();
-
-  const accent = (userState.audioPref && userState.audioPref.accent) || "us";
-  const rate = (userState.audioPref && userState.audioPref.rate) || 1.0;
-
-  // 视觉高光激活
+  // 3. 视觉声波高亮激活
   let activeBtn = btnElement || (typeof window !== "undefined" && window.event && window.event.currentTarget);
   if (activeBtn && activeBtn.classList) {
+    document.querySelectorAll(".audio-speaking-active").forEach(el => el.classList.remove("audio-speaking-active"));
     activeBtn.classList.add("audio-speaking-active");
   }
 
@@ -135628,25 +135527,51 @@ function speakWord(text, btnElement) {
     }
   };
 
-  const clean = cleanTextForSpeech(text);
-  const wordCount = clean.split(" ").length;
+  // 4. 构建发音实例，直读本地预热音色 (0ms 延迟)
+  const accent = (userState.audioPref && userState.audioPref.accent) || "us";
+  const rate = (userState.audioPref && userState.audioPref.rate) || 1.0;
 
-  // 若为单词或短语（<=4词），首选权威母语真实录音
-  if (wordCount <= 4) {
-    playNativeWordAudio(
-      clean,
-      accent,
-      rate,
-      cleanupVisual,
-      () => {
-        // 离线或加载失败无缝降级到高质量神经语音
-        speakWithNeuralTTS(clean, accent, rate, cleanupVisual, cleanupVisual);
-      }
-    );
-  } else {
-    // 超过4词的长难句与例句，使用高质量神经语音朗读，确保句子自然停顿与连贯性
-    speakWithNeuralTTS(clean, accent, rate, cleanupVisual, cleanupVisual);
-  }
+  const utter = new SpeechSynthesisUtterance(clean);
+  utter.rate = rate;
+  utter.pitch = 1.0;
+  utter.lang = accent === "uk" ? "en-GB" : "en-US";
+
+  // 查表取出预热好的最佳母语音色
+  if (!cachedBestVoices[accent]) cacheBestVoices();
+  const voice = cachedBestVoices[accent];
+  if (voice) utter.voice = voice;
+
+  let isEnded = false;
+  utter.onend = () => {
+    if (!isEnded) {
+      isEnded = true;
+      if (speechWatchdogTimer) clearInterval(speechWatchdogTimer);
+      cleanupVisual();
+    }
+  };
+
+  utter.onerror = () => {
+    if (!isEnded) {
+      isEnded = true;
+      if (speechWatchdogTimer) clearInterval(speechWatchdogTimer);
+      cleanupVisual();
+    }
+  };
+
+  // 5. 保持活跃引用并立即触发本地发音 (完全不需要走任何网络，瞬间发声)
+  activeSpeechUtterance = utter;
+  window.speechSynthesis.speak(utter);
+
+  // 6. 兜底看门狗（应对极长真题例句，防止 Chrome 引擎后台挂起）
+  speechWatchdogTimer = setInterval(() => {
+    if (!window.speechSynthesis.speaking) {
+      clearInterval(speechWatchdogTimer);
+      cleanupVisual();
+    } else {
+      window.speechSynthesis.pause();
+      window.speechSynthesis.resume();
+    }
+  }, 10000);
 }
 
 // 切换发音口音偏好 (美音 / 英音)
@@ -135655,7 +135580,9 @@ function toggleAudioAccent() {
   userState.audioPref.accent = userState.audioPref.accent === "us" ? "uk" : "us";
   saveState();
   updateAudioPrefUI();
-  showToast(userState.audioPref.accent === "uk" ? "🇬🇧 已切换为【英音 (BBC标准)】发音源！" : "🇺🇸 已切换为【美音 (CNN标准)】发音源！");
+  // 即刻测试新口音
+  speakWord(userState.audioPref.accent === "uk" ? "British English" : "American English");
+  showToast(userState.audioPref.accent === "uk" ? "🇬🇧 已切换为【英音】极速本地发音！" : "🇺🇸 已切换为【美音】极速本地发音！");
 }
 
 // 切换发音语速 (0.8x / 1.0x / 1.2x)
