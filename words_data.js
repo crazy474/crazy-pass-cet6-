@@ -705,7 +705,7 @@ window.CET6_DATA = {
               "highlight": "adj.前所未有的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 un-（不，非，未）+ 核心词干，紧扣六级语境考点",
+              "tip": "un-(未，无) + precedent(先例) + -ed → 历史上从未有过先例的 → adj. 前所未有的，空前的",
               "derivations": []
             },
             {
@@ -1243,7 +1243,7 @@ window.CET6_DATA = {
               "highlight": "n.基因",
               "freq": 2,
               "tip_type": "对照",
-              "tip": "这两种小花的基因（gene)一样，属于",
+              "tip": "词源同generate(产生，出身) → 决定生命遗传密码与先天性状生生不息的核心基因片段 → n. 基因",
               "derivations": [
                 {
                   "word": "genetic",
@@ -2194,7 +2194,7 @@ window.CET6_DATA = {
               "highlight": "v.使尴尬",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "em-（使）+bar（木条）+r+ass（屁股）→ 他调皮时，妈妈吓唬他要拿木条打他的屁股， 这使他很尴尬→使尴尬 He started going bald in his twenties.他二十儿",
+              "tip": "em-(使) + bar(木桩，门闩) + r- + ass(屁股) → 调皮捣蛋被大人堵在门后当众数落打屁股，令人无地自容难堪极了 → v. 使尴尬，使难堪",
               "derivations": [
                 {
                   "word": "embarrassment",
@@ -2231,7 +2231,7 @@ window.CET6_DATA = {
               "highlight": "adj.贫瘠的",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "bar（木条）+ren（联想“人\")→那个 The standard of professional cricket has never 人用木条围起来一块“贫的”土地。 beenlower.职业板球的标准从来没这么低过。",
+              "tip": "bar(栅栏，木条) + ren(人) → 土地荒凉干瘪长不出庄稼，农夫只能用木栏圈起贫瘠的不毛之地 → adj. 贫瘠的；不育的；荒芜的",
               "derivations": []
             },
             {
@@ -2434,7 +2434,7 @@ window.CET6_DATA = {
               "highlight": "adj.海洋的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "mar-(海，海洋) + -ine(形容词/名词后缀) → 与海洋相关的；海军士兵 → adj.海洋的，海生的 n.海军陆战队士兵",
+              "tip": "mar-(海洋，海) + -ine(形容词/名词后缀) → 长期在波涛汹涌大海上服役的海军陆战队战士；海洋相关的 → adj. 海洋的，海产的 n. 海军陆战队士兵",
               "derivations": []
             },
             {
@@ -2501,7 +2501,7 @@ window.CET6_DATA = {
               "highlight": "v.爱慕",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "ad-（一再地）+o（形似圆圈）+re（字 母音似“阿姨\")→孩子们因为喜欢阿姨，一再 地把她围在圈中→爱慕；热爱 We will aim to finally eradicate disease and",
+              "tip": "ad-(一再) + ore(金矿，宝藏) → 将心爱之人视若稀世珍宝般全心爱慕崇敬 → v. 爱慕；热爱，崇拜",
               "derivations": [
                 {
                   "word": "adorable",
@@ -2687,7 +2687,7 @@ window.CET6_DATA = {
               "highlight": "n.亲戚",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "relat(关联) + -ive(名词/形容词后缀) → 有血缘关联的人；对比之下的 → n.亲戚，亲属 adj.相关联的；相对的",
+              "tip": "relat(关联，有联系) + -ive(名词/形容词后缀) → 与自己有着千丝万缕血缘亲族纽带相连的家族亲人 → n. 亲戚，亲属 adj. 相对的；相关的",
               "derivations": [
                 {
                   "word": "relativity",
@@ -2735,7 +2735,7 @@ window.CET6_DATA = {
               "highlight": "n.求助",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "re-(反复) + sort(挑选，出门) → 反复走投无路时挑出的最终手段；供人度假放松的名胜 → n. 求助；旅游胜地 v. (to)诉诸，求助于",
               "derivations": []
             },
             {
@@ -2908,7 +2908,7 @@ window.CET6_DATA = {
               "highlight": "n.视力",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "s（联想see）+ight（联想light)→可以 看见光线→视力，视觉；景象 4 The accident deprived him of his sight.这次事 故使他失明。",
+              "tip": "s(联想see看见) + ight(联想light光线) → 眼睛看见外界万物折射的光亮影像 → n. 视力，视觉；景象，名胜 v. 看到，发现",
               "derivations": []
             },
             {
@@ -3121,7 +3121,7 @@ window.CET6_DATA = {
               "highlight": "n.生态",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "e（字母音似“姨”）+cology（音似“靠 了鸡”)→阿姨是养鸡能手，办了一个绿色有机 “生态”农场来养鸡。 He has been stalking her over a period of three",
+              "tip": "eco-(家园，住所) + -logy(学科) → 研究地球家园万物生物与周围环境共生共荣关系的生态学 → n. 生态；生态学",
               "derivations": [],
               "example_en": "Severe oil pollution could cause irreparable damage to the fragile marine ecology.",
               "example_cn": "严重的石油污染可能会对脆弱的海洋生态环境造成无法挽回的破坏。"
@@ -3151,7 +3151,7 @@ window.CET6_DATA = {
               "highlight": "n.生态系统",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 eco-（生态，环境）+ 核心词干，紧扣六级语境考点",
+              "tip": "eco-(家园，生态) + system(系统) → 大自然万物生生不息相互依存的家园系统 → n. 生态系统",
               "derivations": []
             },
             {
@@ -3236,7 +3236,7 @@ window.CET6_DATA = {
               "highlight": "n.胸部",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "b（联想“不\"）+reast（联想rest）→心 脏在“胸部”中间偏左的地方跳动，不休息。 Unit2 It helps people to avoid developing breast cancer. 它有助于人们避免患上乳腺癌。",
+              "tip": "b(大肚子挺起) + reast(联想rest休息) → 母亲用胸脯怀抱哺育婴儿，胸膛是给予安心庇护的心脏之所 → n. 胸部，胸脯；乳房",
               "derivations": []
             },
             {
@@ -3588,7 +3588,7 @@ window.CET6_DATA = {
               "highlight": "adj.女性特有的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "femin（=female）+-ine（形容词后 缀)→女性特有的，妇女的 词以群记3 “生物”相关",
+              "tip": "femin(=female，女性，女人) + -ine(形容词后缀) → 举手投足温婉细腻散发女性优雅特质的 → adj. 女性特有的，妇女的；阴性的",
               "derivations": [
                 {
                   "word": "feminism",
@@ -3730,7 +3730,7 @@ window.CET6_DATA = {
               "highlight": "n.愤怒",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "out（出）+rage（愤怒）→使愤怒出来 激怒 The farm went fully organic in1996.这个农场",
+              "tip": "out-(超出) + rage(狂怒，暴怒) → 听到暴行罪恶内心的愤怒之火瞬间突破理智界限爆发而出 → n. 愤怒，愤慨；暴行 v. 使震怒，激怒",
               "derivations": [
                 {
                   "word": "outrageous",
@@ -4588,7 +4588,7 @@ window.CET6_DATA = {
               "highlight": "v.使恢复精力",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "re-（重新）+fresh（精力充沛；凉爽 的)→使恢复精力；使清凉 The whole room looked old-fashioned.整个房间",
+              "tip": "re-(重新) + fresh(新鲜，精力充沛) → 痛快冲一把冷水脸让大脑重新恢复活力与新鲜精力 → v. 使恢复精力；使清凉；刷新",
               "derivations": [
                 {
                   "word": "refreshment",
@@ -5640,7 +5640,7 @@ window.CET6_DATA = {
               "highlight": "adj.静止的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "sta（联想stay）+-tic→有个人一直待 It was one of the fiercest battles of the 19th 在一个地方站着不动，像是“静止的”。 century.这是19世纪最激烈的战役之一。",
+              "tip": "stat(站立，停住) + -ic → 站在原处纹丝不动像雕塑一样停滞静止的状态；电视天线杂音静电 → adj. 静止的；停滞的 n. 静电；杂音",
               "derivations": [],
               "example_en": "Don't view things as static and isolated.",
               "example_cn": "不要静 止地、孤立地看待事物。"
@@ -5950,7 +5950,7 @@ window.CET6_DATA = {
               "highlight": "n.代理机构",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "agen（t)（代理人)+c+-y（名词后缀） She has the full support of her constituents.她 →代理机构 得到了她的选民们的全力支持。",
+              "tip": "ag-(做，行动) + -ency(机构，组织，同源agent) → 受委托专门替客户代办各类专业事务的法定代理机构 → n. 代理机构；专门机构",
               "derivations": []
             },
             {
@@ -6233,7 +6233,7 @@ window.CET6_DATA = {
               "highlight": "/'deligeit/ n.代表",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "“干”）+da（联想“大\")→爸爸提前说要 门，即清除壁垒→产生壁垒的时候，双方一般 干番大事业，还没行动就开始“鼓吹”了。 会派“代表”进行沟通。 The new indicator is a“propaganda device” to",
+              "tip": "de-(向下，委派) + leg(法律，挑选) + -ate → 组织正式推选委派代表出席国际高峰论坛 → n. 代表；参会人员 v. 授权；委派",
               "derivations": [
                 {
                   "word": "delegation",
@@ -6534,7 +6534,7 @@ window.CET6_DATA = {
               "highlight": "adj.市政的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "civ-(公民，市民，同源city) + -ic(形容词后缀) → 与市民公共生活息息相关的 → adj.市政的；城市的；市民的",
+              "tip": "civ-(公民，市民，同源city) + -ic(形容词后缀) → 与市民日常生活、市政设施与公共责任休戚相关的 → adj. 市政的；城市的；市民的",
               "derivations": []
             },
             {
@@ -7009,7 +7009,7 @@ window.CET6_DATA = {
               "highlight": "n.顶点",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "sum（形似sun）+mit（送）→送到太阳 factors.然而，那种比较忽略了其他相关因素。 上去→顶点；峰会 扩",
+              "tip": "summ(最高，总和，同源sum/summary) + -it → 登上阿尔卑斯最高峰顶；各国元首齐聚一堂的首脑峰会 → n. 顶点；山顶；首脑会议；峰会",
               "derivations": [],
               "example_en": "Let's talk about the day you reached the summit 26 ofMt.Qomolangma.",
               "example_cn": "让我们来谈该你登顶珠穆朗"
@@ -7039,7 +7039,7 @@ window.CET6_DATA = {
               "highlight": "n.顶点",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“匹克”→奥林匹克是 顶尖运动员的比赛→顶点 You are pointing out the errors he has committed.",
+              "tip": "谐音“皮克”/联想peek(偷看) → 登上世界最高山峰才能俯瞰众山小；用电负荷达到最高峰值 → n. 顶点，高峰 v. 达到最高值 adj. 高峰期的",
               "derivations": []
             },
             {
@@ -7301,7 +7301,7 @@ window.CET6_DATA = {
               "highlight": "v.继续",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "re-（重复）+main（主要的）→重复主 123折 要的→保持不变 v.维持（生命、生存）；支持；支撑，承受住",
+              "tip": "re-(在后面) + main(=man，停留，驻守，同源mansion) → 大部队开拔撤退之后依然留守在原地保持不变 → v. 继续；保持不变；剩下；留下",
               "derivations": [],
               "example_en": "The main character remains the same.",
               "example_cn": "主角保 持不变。"
@@ -7329,7 +7329,7 @@ window.CET6_DATA = {
               "highlight": "n.残余部分",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "re-(留在后面) + m(a)n(停留，保持，同源remain) + -ant → 大军离去后遗留在阵地上的残余部分 → n. 残余部分，遗迹",
               "derivations": []
             },
             {
@@ -7836,7 +7836,7 @@ window.CET6_DATA = {
               "highlight": "n.关注",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "re-(一再，反复) + gard(=ward/guard，注视，看护) → 一再深情注视并予以重视尊重 → n. 关注；尊重 v. 将...认为；看待；注视",
               "derivations": []
             },
             {
@@ -7849,7 +7849,7 @@ window.CET6_DATA = {
               "highlight": "n.忽视v.不理会",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "dis-（表否定）+regard（注视）→不注 视→漠视 到 He totally disregarded all the advice he was given.他完全无视别人给他的所有建议。",
+              "tip": "dis-(否定) + regard(注视，关照) → 连正眼都不看一眼直接选择视而不见漠视忽视 → n. 忽视 v. 不理会；漠视",
               "derivations": []
             },
             {
@@ -7862,7 +7862,7 @@ window.CET6_DATA = {
               "highlight": "prep.关于",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "regard(看待，注视) + -ing(介词化) → 顺着目光注视所指涉的事项 → prep. 关于，至于",
               "derivations": []
             },
             {
@@ -7947,7 +7947,7 @@ window.CET6_DATA = {
               "highlight": "n.股份",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "s（联想“蛇”）+take（拿）→拿蛇很危 The advent of the new government resulted in 险，不要拿生命作“赌注”。 many changes，新政府的到来引发了许多变化。",
+              "tip": "联想stick木桩 → 古代跑马圈地把木桩插进地里押上全副身家的大赌注；持有的公司股份 → n. 股份；赌注 v. 以...打赌；拿...冒险",
               "derivations": []
             },
             {
@@ -8443,7 +8443,7 @@ window.CET6_DATA = {
               "highlight": "adj.普遍存在的",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "pre-（提前）+va（音似“我”）+lent The widespread availability ofbroadband is (lend的过去式，借）→我提前借到“普遍存在 making the introduction of remote working a 的”案例书籍学习。 piece of cake.宽带的广泛使用使远程工作的实行 变得小菜一碟。",
+              "tip": "pre-(在前面) + val(强壮，有力量，同源value) + -ent → 势力极强在全社会广泛流行普遍存在的风气 → adj. 普遍存在的；盛行的，流行的",
               "derivations": [
                 {
                   "word": "prevalence",
@@ -8626,7 +8626,7 @@ window.CET6_DATA = {
               "highlight": "n.缺乏",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "de-(离开，不足) + fic(做，形成) + -iency(名词后缀) → 做事未达到合格标准产生短缺缺陷 → n. 缺乏，不足；缺点，缺陷",
               "derivations": []
             },
             {
@@ -8674,7 +8674,7 @@ window.CET6_DATA = {
               "highlight": "n.挫折",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "set（设置）+back（后退）→游戏中设 置的让玩家后退的是“挫折”。 例 The company is punished for infringing on small",
+              "tip": "set(放置，设立) + back(向后退) → 人生道路上突然被设立了一道障碍被逼向后倒退的大挫折 → n. 挫折，阻碍",
               "derivations": []
             },
             {
@@ -8766,7 +8766,7 @@ window.CET6_DATA = {
               "highlight": "v.提到",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "re-（重复）+fer（音似“佛”)→他反复 地“提到”佛。 Unit3 The report refers to this as the coming of the “18-hourcity”.该报告称这是“18小时城市”的",
+              "tip": "re-(回，反复) + fer(带来，搬运，同源transfer) → 在谈话中反复把话题引到某人身上；查阅参考词典 → v. 提到，谈及；参考；查阅",
               "derivations": [],
               "example_en": "For further technical details, please refer to the official documentation attached below.",
               "example_cn": "欲了解更多技术细节，请参阅下方附带的官方技术文档。"
@@ -8951,7 +8951,7 @@ window.CET6_DATA = {
               "highlight": "'ekskwizt/ adj.精美的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 ex-（出，向外；完全，前任）+ 核心词干，紧扣六级语境考点",
+              "tip": "ex-(向外，精挑) + quis(寻求，追求，同源question) + -ite → 万里挑一精益求精搜寻出的宝物 → adj. 精美的，精致的；雅致的；敏锐的",
               "derivations": []
             },
             {
@@ -9353,7 +9353,7 @@ window.CET6_DATA = {
               "highlight": "v.（给….）注射（药物等）",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "in（里面）+ject（扔，投掷)→向里面 扔→注射；投入 Unit3 The doctors injected the newly approved drug into the patient when he was critically ill.医生在 病人病情危重时给他注射了新获批的药物。",
+              "tip": "in-(向内) + ject(扔，投掷) → 医生用注射针筒把救命药剂推进体内；给实体经济注入巨资 → v. 注射(药物)；投入(资金)",
               "derivations": [
                 {
                   "word": "injection",
@@ -9825,7 +9825,7 @@ window.CET6_DATA = {
               "highlight": "n.监督人",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 super-（超级，超过，在...上）+ 核心词干，紧扣六级语境考点",
+              "tip": "super-(在...上方) + vis(看，视察) + -or(人) → 居高临下统揽全局监督指导工作的人 → n. 监督人；指导者；主管",
               "derivations": []
             },
             {
@@ -10228,7 +10228,7 @@ window.CET6_DATA = {
               "highlight": "v.使全神贯注",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 pre-（在前，预先，提前）+ 核心词干，紧扣六级语境考点",
+              "tip": "pre-(提前) + occupy(占据，占用) → 某个念头提前占满整个大脑无法自拔 → v. 使全神贯注；使日夜思考；使忧心忡忡",
               "derivations": []
             },
             {
@@ -10308,7 +10308,7 @@ window.CET6_DATA = {
               "highlight": "n.大学教师adj.学术的",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“挨个点名”→有的“大 The search for a new vaccine will take priority 学教师”一上课先挨个点名。 over allother medicalresearch.研制新的疫苗将",
+              "tip": "源自柏拉图在阿卡德米神林学园(Academy)讲学 → 治学严谨追求真理的高校大学教师与学术学业 → n. 大学教师 adj. 学术的，学业的",
               "derivations": [
                 {
                   "word": "academician",
@@ -11072,7 +11072,7 @@ window.CET6_DATA = {
               "highlight": "n.宇宙",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 un-（不，非，未）+ 核心词干，紧扣六级语境考点",
+              "tip": "uni-(单一，整体) + vers(转动) + -e → 天地万物凝聚为一个整体一同运转的宏大宇宙 → n. 宇宙；天地万物，万象",
               "derivations": []
             },
             {
@@ -11128,7 +11128,7 @@ window.CET6_DATA = {
               "highlight": "adj.每年的",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“按年”→按年计次数 例 prospects of becoming a multi-paycheck household 即“每年的”次数。 could encourage marriages.与这种担忧相反的是，",
+              "tip": "ann-(年，同源anniversary) + -ual(形容词/名词后缀) → 一年一度如期举行颁布的年度盛典或年刊年鉴 → adj. 每年的，一年一次的 n. 年刊；一年生植物",
               "derivations": [],
               "example_en": "The corporation held its annual shareholders meeting in the central conference hall.",
               "example_cn": "该集团公司在中心会议大厅举行了年度股东大会。"
@@ -11184,7 +11184,7 @@ window.CET6_DATA = {
               "highlight": "注意力)的事物 n.转移",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "di-（分开）+vers（转）+-ion（名词后 缀)→转移，转向 You need to ensure that you've converted the",
+              "tip": "di-(分开) + vers(转动) + -ion → 强行把视线或注意力转移到别处；忙碌一天后用于放松消遣的娱乐 → n. 转移，转向；消遣，娱乐",
               "derivations": [],
               "example_en": "Reading mystery novels provided a pleasant diversion from his stressful everyday routine.",
               "example_cn": "阅读推理小说为他从紧张高压的日常工作中提供了一种惬意的休闲解闷。"
@@ -11199,7 +11199,7 @@ window.CET6_DATA = {
               "highlight": "/\"konvats/ v.交谈",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "con-(共同) + vers(转动，说话) + -e → 两人目光转向彼此促膝交谈；转到相反方向 → v. 交谈，谈话 adj. 相反的 n. 相反的事物",
               "derivations": []
             },
             {
@@ -11447,7 +11447,7 @@ window.CET6_DATA = {
               "highlight": "v.创新",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "in-（入）+nov（新）+-ate（动词后级）→ 使新事物进入→创新，改革 The company has evolved into a major chemical",
+              "tip": "in-(向内) + nov(新，新奇，同源novel) + -ate(动词后缀) → 将颠覆性全新构想引入技术研发进行技术创新改革 → v. 创新；改革",
               "derivations": [
                 {
                   "word": "innovation",
@@ -12098,7 +12098,7 @@ window.CET6_DATA = {
               "highlight": "n.观看者",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "spect（看）+at(在）+-or(表示人的后 It was a spectacle not to be missed.这是一个不 可错过的奇观。 级)→在看比赛的人→观看者，观众",
+              "tip": "spect(看) + -at- + -or(表示人的后缀) → 坐在看台上全神贯注观看足球赛事的目睹者现场观众 → n. 观看者，观众",
               "derivations": [],
               "example_en": "They try hard to meet the spectators'expectations. n.",
               "example_cn": "兴旺，繁荣，昌盛 他们努力满足观众的期望。"
@@ -12957,7 +12957,7 @@ window.CET6_DATA = {
               "highlight": "v.欺骗",
               "freq": 3,
               "tip_type": "谐音",
-              "tip": "单词发音类似“弟媳妇”→这部电影 05折 里，主角的弟媳妇是个骗子，“欺骗”了弟弟。 n.构思，设想；概念",
+              "tip": "de-(离开，偏离) + ceive(抓取，同源receive) → 设下陷阱抓走猎物瞒天过海欺骗误导 → v. 欺骗；误导",
               "derivations": [
                 {
                   "word": "deceit",
@@ -12991,7 +12991,7 @@ window.CET6_DATA = {
               "highlight": "v.看待",
               "freq": 3,
               "tip_type": "谐音",
-              "tip": "单词发音类似“破媳妇”→他想破坏 媳妇的计划，被媳妇“察觉”到了。 The tests are designed to detect the disease",
+              "tip": "per-(完全，彻底) + ceive(抓取，把握，同源receive) → 调动全部感官敏锐觉察察觉到危险迹象 → v. 看待；察觉，发觉；理解",
               "derivations": [
                 {
                   "word": "perception",
@@ -13815,7 +13815,7 @@ window.CET6_DATA = {
               "highlight": "v.扮演",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "en-(使）+act（行动）→让一部法律草 The company was prosecuted for breaching the 案行动起来→通过(法律) Health and SafetyAct.这家公司被控违反《卫生安 全条例》。",
+              "tip": "en-(使) + act(法案，行动) → 国会通过法案使条文正式具备法律效力实施；在舞台上扮演角色 → v. 扮演；通过(法律)；实施",
               "derivations": [
                 {
                   "word": "enactment",
@@ -13928,7 +13928,7 @@ window.CET6_DATA = {
               "highlight": "n.结果",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "con-（一起）+sequence（连续）→一起 连续发生的事→结果 词以群记 “审判”相关",
+              "tip": "con-(共同) + sequ(跟随) + -ence → 做事之后随之接踵而来的重大客观后果与重要影响 → n. 结果，后果；重要性",
               "derivations": [
                 {
                   "word": "consequent",
@@ -14059,7 +14059,7 @@ window.CET6_DATA = {
               "highlight": "v.讨好",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "词源同garden(围拢之地) → 王室宫廷聚集断案之处；引申为法庭、球场与追求恋爱 → n. 法院，法庭；球场 v. 讨好，争取；恋爱",
               "derivations": []
             },
             {
@@ -14328,7 +14328,7 @@ window.CET6_DATA = {
               "highlight": "n.(尤指装食品或液体的）硬纸盒",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "car（汽车）+ton（吨）→汽车上拉着 n.质量，品质 吨“塑料罐”。 The quality of air will surely change for the better.空气质量肯定会变得更好。",
+              "tip": "cart-(纸张，纸板，同源card) + -on → 盛装新鲜牛奶或鸡蛋的安全硬纸盒塑料罐 → n. 硬纸盒，塑料罐；纸盒所装物品",
               "derivations": [],
               "example_en": "She bought a large carton of fresh organic milk from the local farmers market.",
               "example_cn": "她从当地农贸市场购买了一大纸盒装的新鲜有机牛奶。"
@@ -15110,7 +15110,7 @@ window.CET6_DATA = {
               "highlight": "v.联合",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "uni-(单一) + -te(动词后缀) → 万众一心手拉手联合团结在一起 → v.联合，联手；联结，统一",
+              "tip": "uni-(单一，一体) + -te(动词后缀) → 万众一心手拉手联合团结在一起凝成一股绳 → v. 联合，联手；联结，统一",
               "derivations": [
                 {
                   "word": "unity",
@@ -15471,7 +15471,7 @@ window.CET6_DATA = {
               "highlight": "v.反驳",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "re-(回，反向) + tort(扭曲，拧转) → 遭受指责时反手拧转话锋猛烈回呛反驳 → v. 反驳，回嘴 n. 回应，反驳",
               "derivations": []
             },
             {
@@ -15530,7 +15530,7 @@ window.CET6_DATA = {
               "highlight": "n.赤字",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "de-(缺乏，不足) + fic(做，形成) + -it → 入不敷出账面上资金断崖式短缺 → n. 赤字，亏损，逆差",
               "derivations": []
             },
             {
@@ -15695,7 +15695,7 @@ window.CET6_DATA = {
               "highlight": "v.（力量、影响等）衰弱",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "de-(向下) + cay(=cad，落下，跌落) → 树木年老体衰枝叶凋零腐朽衰落 → v.&n. (使)腐烂；衰败，衰落",
               "derivations": []
             },
             {
@@ -15899,7 +15899,7 @@ window.CET6_DATA = {
               "highlight": "n.押金",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "de-(向下) + pos(放置) + -it → 把钱存放在银行金库底下；矿物质在地底沉积 → v. 存放，储存；沉积 n. 存款；押金；沉积物",
               "derivations": []
             },
             {
@@ -15938,7 +15938,7 @@ window.CET6_DATA = {
               "highlight": "n.合成物",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "com-(共同) + pos(放置) + -ite → 把多种不同原材料放置拼合在一起的复合材料 → adj. 混合的，复合的 n. 复合材料，综合体",
               "derivations": []
             },
             {
@@ -16194,7 +16194,7 @@ window.CET6_DATA = {
               "highlight": "n.组成部分",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "com-(共同) + pon(=pos，放置) + -ent → 共同拼合组装成整部机器的组成零部件 → n. 组成部分，成分；零部件",
               "derivations": []
             },
             {
@@ -16207,7 +16207,7 @@ window.CET6_DATA = {
               "highlight": "n.拥护者",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 ex-（出，向外；完全，前任）+ 核心词干，紧扣六级语境考点",
+              "tip": "ex-(向外) + pon(=pos，放置) + -ent → 站出来向公众展示解说某理念的人；数学指数 → n. 倡导者，拥护者；阐述者；指数",
               "derivations": []
             },
             {
@@ -16727,7 +16727,7 @@ window.CET6_DATA = {
               "highlight": "v.宣布",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 pro-（向前；赞同，支持）+ 核心词干，紧扣六级语境考点",
+              "tip": "pro-(向前，公开) + claim(呼喊，宣告) → 站在城楼高处面向全天下百姓大声宣布 → v. 宣布，宣告；表明",
               "derivations": []
             },
             {
@@ -16975,7 +16975,7 @@ window.CET6_DATA = {
               "highlight": "adj.大有希望的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 pro-（向前；赞同，支持）+ 核心词干，紧扣六级语境考点",
+              "tip": "promise(许诺，希望) + -ing → 展现出美好前途希望让长辈放心许下宏愿的 → adj. 有前途的，大有希望的",
               "derivations": []
             },
             {
@@ -17053,7 +17053,7 @@ window.CET6_DATA = {
               "highlight": "v.解释",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "de-(完全) + fin(边界，限制) + -e → 把事物概念的界限清清楚楚划定下来下定义 → v. 给...下定义；界定；解释",
               "derivations": []
             },
             {
@@ -17132,7 +17132,7 @@ window.CET6_DATA = {
               "highlight": "n.炼油厂",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "re-(反复) + fine(纯净，提炼) + -ery(场所，工厂) → 反复去除杂质提炼纯度的高精尖炼油厂 → n. 精炼厂，提炼厂",
               "derivations": []
             },
             {
@@ -17145,7 +17145,7 @@ window.CET6_DATA = {
               "highlight": "v.蒸馏",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 dis-（不，相反；分开，散开）+ 核心词干，紧扣六级语境考点",
+              "tip": "dis-(分开) + still(滴下，水滴) → 加热液体使蒸汽冷凝一滴一滴分离滴下萃取 → v. 蒸馏；提炼，浓缩",
               "derivations": []
             },
             {
@@ -17364,7 +17364,7 @@ window.CET6_DATA = {
               "highlight": "n.公司",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "com-(共同) + pan(面包，同源pan) + -y → 在同一张餐桌上共同分享面包的亲密同伴、合伙办的公司 → n. 公司；陪伴；同伴",
               "derivations": []
             },
             {
@@ -17643,7 +17643,7 @@ window.CET6_DATA = {
               "highlight": "n.商人",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“摸钱他”→他是个“商 人”，每天摸钱，和钱打交道。 It poses a potential threat to the retail business",
+              "tip": "merc(贸易，报酬，同源commerce) + -ant(人) → 穿梭于大洋海港之间低买高卖的商业批发商人 → n. 商人，批发商",
               "derivations": [],
               "example_en": "The wealthy maritime merchant traded silk, spices, and tea across continents.",
               "example_cn": "这位富有的远洋商人跨越各大洲从事丝绸、香料和茶叶的国际贸易。"
@@ -17888,7 +17888,7 @@ window.CET6_DATA = {
               "highlight": "prep..（比赛或诉讼中.…..对….",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "各种比赛中经常出现的vs就是 We have collaborated on many projects over the",
+              "tip": "源自拉丁语versus(朝向，对抗) → 两个顶尖高手或原告被告在擂台法庭上的针锋相对 → prep. (比赛或诉讼中)对，对抗",
               "derivations": []
             },
             {
@@ -18034,7 +18034,7 @@ window.CET6_DATA = {
               "highlight": "n.津贴",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "allow(允许）+an(一）+ce(联想“侧\") →领导允许员工在办公室一侧领“津贴”。 Unit5 The job-seekers’allowance has met their actual needs.求职者津贴满足了他们的实际需要。",
+              "tip": "allow(允许，准许) + -ance(名词后缀) → 父母准许孩子每月自由支配的零用钱零花钱或政府津贴 → n. 津贴，补贴；零用钱",
               "derivations": []
             },
             {
@@ -18133,7 +18133,7 @@ window.CET6_DATA = {
               "highlight": "n.税收收人",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "re（字母音似“阿姨”）+venue（联想 venus，维纳斯）→阿姨想变成像维纳斯一样美 丽的女人，于是利用“收入”提升自己的形象。 The speed limit on the freeway is 55 mph.高速",
+              "tip": "re-(回，归来) + ven(来，到达) + -ue → 投出去的资本如滚雪球般流回钱袋里的税收营业收入 → n. 税收收入；收入，收益",
               "derivations": [],
               "example_en": "The expansion in e-commerce helped the company boost its annual sales revenue significantly.",
               "example_cn": "电子商务业务的拓展帮助该公司显著提升了年度销售营业收入。"
@@ -18148,7 +18148,7 @@ window.CET6_DATA = {
               "highlight": "n.清单",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "invent（发明）+-ory（表示场所的后 缀)→他发明了一个放“存货”的智能仓库。 She walked down the aisle of the church on her",
+              "tip": "in-(在内) + vent(来到，发现) + -ory → 仓库货架上所有新到进仓货物的详细清点盘存总清单 → n. 清单；存货，库存 v. 开列清单",
               "derivations": [],
               "example_en": "The warehouse staff conducted an annual audit to check the inventory of spare parts.",
               "example_cn": "仓库管理人员进行了年度盘点审计，以核对备用零部件的库存清单。"
@@ -18285,7 +18285,7 @@ window.CET6_DATA = {
               "highlight": "v.承担",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "under（在.…….下面）+take（拿着）→ 在下边拿着→承担 别 The directors of the company refused to",
+              "tip": "under-(在...下面) + take(拿取，承担) → 把重担扛在自己肩膀底下勇挑大梁承诺负责 → v. 承担，担任；从事；答应",
               "derivations": []
             },
             {
@@ -18525,7 +18525,7 @@ window.CET6_DATA = {
               "highlight": "n.可卡因",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "coca(古柯树叶) + -ine(生物碱后缀) → 从古柯树叶中提炼出的极具成瘾毒性的麻醉毒品 → n. 可卡因",
               "derivations": []
             },
             {
@@ -18797,7 +18797,7 @@ window.CET6_DATA = {
               "highlight": "n.享受",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "谐音“热里吃” → 炎热三伏天里吃冰爽美味的调味汁，尽情享受人生的无穷乐趣 → n. 享受，乐趣；调味汁 v. 喜爱，喜欢",
               "derivations": [],
               "example_en": "The deep ocean floor hosts a surprising diversity of microscopic marine organisms.",
               "example_cn": "深邃的海底深渊孕育着令人惊叹的微型海洋生物多样性。"
@@ -19037,7 +19037,7 @@ window.CET6_DATA = {
               "highlight": "v.分配",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "all(所有）+（)ocate（找出.……的具 It seems reasonable to expect rapid urban growth. 体位置)→找出所有人的位置，再确定把东西 看起来期待城市会飞速发展是有道理的。 “分配”给谁。 护 urbanisation/-zationn.城市化",
+              "tip": "ad-(向) + loc(地方，位置) + -ate(动词后缀) → 把财政救灾专款分配调拨到急需的各个灾区地方 → v. 分配，调拨；划拨",
               "derivations": [
                 {
                   "word": "allocation",
@@ -19131,7 +19131,7 @@ window.CET6_DATA = {
               "highlight": "adu.在市中心adj.市中心的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "me(我）+tro+polit（联想politics）+ -an（形容词后级）→身在“大城市的”我常关注 政治事务。 词以群记5 “财产”相关 currency monetary loan landlord wealth wealthy Unit6 “财产”相关 近义 treasure enrich 相关 Lesson property possess possession",
+              "tip": "down(向下，沿街道) + town(城镇) → 顺着主干道一路前往高楼林立车水马龙的市中心商务区 → adv. 在市中心 adj. 市中心的",
               "derivations": [],
               "example_en": "I need to go downtown this afternoon to attend an important business meeting.",
               "example_cn": "我今天下午得去市中心参加一个重要的商务会议。"
@@ -19146,7 +19146,7 @@ window.CET6_DATA = {
               "highlight": "adj.大城市的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "me(我）+tro+polit（联想politics）+ -an（形容词后级）→身在“大城市的”我常关注 政治事务。 词以群记5 “财产”相关",
+              "tip": "metro(母亲，母城) + polit(城市，公民) + -an → 具备世界母城大都会宏伟繁华气魄的 → adj. 大城市的，大都会的",
               "derivations": []
             },
             {
@@ -19258,7 +19258,7 @@ window.CET6_DATA = {
               "highlight": "n.贷款",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“楼”→一般人买楼房 He used the knowledge to enrich himself.他利 需要“贷款”。 用知识来丰富自己。",
+              "tip": "谐音“漏恩” → 银行借钱贷款给你，如久旱甘霖漏下恩泽 → n. 贷款；借款 v. 借出",
               "derivations": [],
               "example_en": "They are not eligible for a student loan.",
               "example_cn": "他们没 56 有资格申请学生贷款。 n.激励；刺激；动力"
@@ -19288,7 +19288,7 @@ window.CET6_DATA = {
               "highlight": "n.住宅区",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“爱死它的”→有些人 最爱的是自己的“个人财产”。 These 18-hour cities are beginning to make They have a harder time getting a job with waves in real estate rankings.这些“18小时城市” decent pay.他们很难找到一份薪水可观的工作。 开始在房地产排行榜上掀起波澜。",
+              "tip": "stat(站立，立足之地，同源state) + -e → 一个人立足社会的私有房地产、大片庄园与丰厚遗产 → n. 住宅区；庄园；个人财产，遗产",
               "derivations": []
             },
             {
@@ -19360,7 +19360,7 @@ window.CET6_DATA = {
               "highlight": "adj.体面的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "dec(合适，得体，同源decorate) + -ent → 言谈举止端庄得体、收入生活过得去像样的 → adj. 体面的；像样的；正派的",
               "derivations": []
             },
             {
@@ -19689,7 +19689,7 @@ window.CET6_DATA = {
               "highlight": "n.保险费",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 pre-（在前，预先，提前）+ 核心词干，紧扣六级语境考点",
+              "tip": "pre-(提前，在前面) + em(=empt，拿取) + -ium → 先行买单的保费附加费，或顶配高端的高昂溢价 → n. 保险费；额外费用 adj. 高级的",
               "derivations": []
             },
             {
@@ -19737,7 +19737,7 @@ window.CET6_DATA = {
               "highlight": "",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 ex-（出，向外；完全，前任）+ 核心词干，紧扣六级语境考点",
+              "tip": "ex-(向外) + pend(称量，支付) + -iture → 从国库大笔大笔称量支付出去的巨额财政花费开销 → n. 花费，开支；耗费",
               "derivations": []
             },
             {
@@ -20184,7 +20184,7 @@ window.CET6_DATA = {
               "highlight": "v.反驳adv.相反地",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "contra-(相反，对立) + -er → 站在对面柜台接待顾客；在辩论中反向出拳反驳对方观点 → n. 柜台 v. 反驳 adv. 相反地",
               "derivations": []
             },
             {
@@ -20237,7 +20237,7 @@ window.CET6_DATA = {
               "highlight": "adj.负有责任的",
               "freq": 3,
               "tip_type": "对照",
-              "tip": "他对此事是负有责任的（accountable)，",
+              "tip": "account(算账，交代原委) + -able(应当...的) → 面对失职行为必须出面向公众交代清楚负有不可推卸责任的 → adj. 负有责任的；可解释的",
               "derivations": [
                 {
                   "word": "accountability",
@@ -20272,7 +20272,7 @@ window.CET6_DATA = {
               "highlight": "n.职位（或作用）相当的人",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "counter(相对，对等) + part(部分) → 在谈判桌另一侧与自己级别作用完全对等相称的同行对应人员 → n. 职位(或作用)相当的人；对应事物",
               "derivations": []
             },
             {
@@ -20435,7 +20435,7 @@ window.CET6_DATA = {
               "highlight": "/'traensplant/ v.移种",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 trans-（跨越，转移，转变）+ 核心词干，紧扣六级语境考点",
+              "tip": "trans-(跨越，转移) + plant(种植) → 将幼苗或器官跨越空间转移植入到新土壤新肌体中 → v. 移植；移种；迁移 n. 移植",
               "derivations": []
             },
             {
@@ -20501,7 +20501,7 @@ window.CET6_DATA = {
               "highlight": "adj.明显的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "ap（联想“安排”）+parent（父母）→ 父母安排他做家务，显然是想锻炼他→明显的 词以群记 sume相关",
+              "tip": "ap-(=ad-，显现) + par(看见，出现) + -ent → 朗朗乾坤下一眼就能看得清清楚楚显而易见的 → adj. 明显的；显而易见的；表面上的",
               "derivations": [
                 {
                   "word": "apparently",
@@ -20631,7 +20631,7 @@ window.CET6_DATA = {
               "highlight": "v.假定",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "as-（一再地）+su（联想“输”）+me （我）→每个人都有优缺点，对手不可能一再地 You have to assimilate the facts，not just 输给我，这只是一种“假定”。 rememberthem.你需要透彻理解这些事实，而不 仅仅是记住它们。",
+              "tip": "ad-(向) + sum(拿取，承担) → 未经验证直接拿来在脑海中当作前提交差假设；勇敢承担职责 → v. 假定，认为；承担；就职",
               "derivations": [
                 {
                   "word": "assumption",
@@ -21008,7 +21008,7 @@ window.CET6_DATA = {
               "highlight": "v.坚持",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "per(每一）+ sist（站)→他每一天都 She finds it difficult to resist the temptation of 站着，说明他能“坚持”。 ice cream.地发现很难抵抗冰激凌的诱感。",
+              "tip": "per-(始终，贯彻始终) + sist(站立) → 无论风吹雨打始终屹立不倒坚守阵地顽强坚持 → v. 坚持；维持；保持；持续存在",
               "derivations": [
                 {
                   "word": "persistence",
@@ -21036,7 +21036,7 @@ window.CET6_DATA = {
               "highlight": "v.坚持",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "in（在…….里）+sist（联想sister)→几 个姐妹中，妹妹一直“坚持”自己的梦想。 They lack consistent support from peers.他们缺 乏同行的持续支持。",
+              "tip": "in-(在内，坚定) + sist(站立) → 双脚深深扎在立场内部一步不让硬核坚持主张 → v. 坚持；强调",
               "derivations": [
                 {
                   "word": "insistence",
@@ -21268,7 +21268,7 @@ window.CET6_DATA = {
               "highlight": "adj.中世纪的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "“特”)→位于中间的媒体特色不鲜明，",
+              "tip": "medi-(中间) + ev(时代，寿命，同源age) + -al → 处于欧洲古代与近代之间的漫长中世纪风貌的 → adj. 中世纪的；极古老的",
               "derivations": [],
               "example_en": "He began studying medieval history.",
               "example_cn": "他开始学 属于“中等的”媒体。 习中世纪史。"
@@ -21296,7 +21296,7 @@ window.CET6_DATA = {
               "highlight": "n.中午",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "mid（中间）+day（一天）→一天的中 anintermediary.到目前为止，所有的谈判都是通 间（时刻)→中午；正午 过调停人进行的。 词以群记15 over相关",
+              "tip": "mid-(中间) + day(白昼，一天) → 烈日当空太阳升到天空最正中的正午中午时分 → n. 中午；正午",
               "derivations": []
             },
             {
@@ -21930,7 +21930,7 @@ window.CET6_DATA = {
               "highlight": "dispatch n.信件",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "dis-(分开，向外) + patch(=ped，脚，迈步) → 派出快马信使向外紧急发送公文特快专递 → n. 信件；报道；派遣 v. 派遣；发送",
               "derivations": []
             },
             {
@@ -22160,7 +22160,7 @@ window.CET6_DATA = {
               "highlight": "adj.无形的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "in-（否定前缀）+tangible（有形的）一 We have got to abide by the rules.我们必须遵 无形的 守规则。",
+              "tip": "in-(不，非) + tang(=tact，接触，触摸) + -ible → 看得见但伸出手却摸不着的无形资产或玄妙感受 → adj. 无形的；难以捉摸的",
               "derivations": [],
               "example_en": "The benefits are intangible.",
               "example_cn": "好处是难以计算的。 31"
@@ -22311,7 +22311,7 @@ window.CET6_DATA = {
               "highlight": "n.符合",
               "freq": 2,
               "tip_type": "对照",
-              "tip": "accordingto根据，按照→accordn.&v. Unit6 The accord underlined Italy's global reputation. 该协议突显了意大利在全球的声誉。",
+              "tip": "ad-(向) + cord(心，心脏) → 双方心心相印心意相通达成庄严和平协议条约 → n. 符合；正式协议 v. 给予；一致，相符",
               "derivations": [
                 {
                   "word": "accordance",
@@ -23046,7 +23046,7 @@ window.CET6_DATA = {
               "highlight": "v.出席",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "at-（一再地）+tend（趋于→延伸）→ 课堂上他一再地延伸手臂（举手），积极“参加” 里面（内心）延伸→打算 课堂活动。 She was intending to work part time.她打算做",
+              "tip": "ad-(向) + tend(伸展，延伸) → 伸长耳朵专心聆听演讲；亲自出席盛会照料病患 → v. 出席，参加；照顾；专心",
               "derivations": [
                 {
                   "word": "attendance",
@@ -23074,7 +23074,7 @@ window.CET6_DATA = {
               "highlight": "v.主张",
               "freq": 2,
               "tip_type": "对照",
-              "tip": "intendv.打算→intention n. 之间的关系就是“竞争”。 Her intentions in making this proposal are clear.",
+              "tip": "con-(共同) + tend(伸展，拉扯) → 双方拔河互不相让奋力拉扯争夺主张辩护 → v. 主张，认为；竞争，争夺",
               "derivations": [],
               "example_en": "Defense lawyers contend that the strict ruling could have an adverse impact on public rights.",
               "example_cn": "辩护律师坚称，这项严厉裁决可能会对公众合法权益产生不利影响。"
@@ -23239,7 +23239,7 @@ window.CET6_DATA = {
               "highlight": "n.程度",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 ex-（出，向外；完全，前任）+ 核心词干，紧扣六级语境考点",
+              "tip": "ex-(向外) + tent(=tend，伸展) → 土地或影响向外延伸伸展到的边界范围与严重程度 → n. 程度；大小；范围",
               "derivations": []
             },
             {
@@ -24060,7 +24060,7 @@ window.CET6_DATA = {
               "highlight": "adj.不发达的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 un-（不，非，未）+ 核心词干，紧扣六级语境考点",
+              "tip": "under-(不足，在...之下) + developed(发达的) → 工业经济建设严重滞后处于欠发达状态的 → adj. 不发达的，欠发达的",
               "derivations": []
             },
             {
@@ -24250,7 +24250,7 @@ window.CET6_DATA = {
               "highlight": "n.记忆力",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "re-(重新，回) + call(呼唤) → 脑海深处把陈年记忆重新呼唤唤醒出来；车企召回残次批次 → v. 回忆起，回想起；召回 n. 记忆力；召回",
               "derivations": []
             },
             {
@@ -24488,7 +24488,7 @@ window.CET6_DATA = {
               "highlight": "v.值得",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "de-(完全) + serv(服务，劳作) + -e → 既然付出了全心全意的辛勤劳作，就理应获得褒奖与应得回报 → v. 值得；应得，应受",
               "derivations": []
             },
             {
@@ -24594,7 +24594,7 @@ window.CET6_DATA = {
               "highlight": "v.估算",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "谐音“日看” → 每天日日看账本掐指估算核对开支与打算 → v. 估算，计算；想，认为",
               "derivations": []
             },
             {
@@ -24894,7 +24894,7 @@ window.CET6_DATA = {
               "highlight": "v.摸索",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "g（联想“哥\")+rope(绳子）→哥哥晚 They have been complaining of labor shortages 上伸手够绳子，需要“摸索”一番。 for severalyears.他们这些年一直在抱怨劳动力",
+              "tip": "谐音“勾普”/联想grab → 漆黑夜里在抽屉里四处摸索寻找钥匙 → v. 摸索；探索 n. 摸索",
               "derivations": [],
               "example_en": "He groped along the dark hallway trying to find the light switch.",
               "example_cn": "他在漆黑的走廊里摸索着，试图找到电灯开关。"
@@ -25268,7 +25268,7 @@ window.CET6_DATA = {
               "highlight": "n.民主",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "demo(人民，民众) + -cracy(统治，政体) → 权力归于全体公民协商作主的民主制度 → n. 民主；民主政体；民主制度",
               "derivations": []
             },
             {
@@ -25573,7 +25573,7 @@ window.CET6_DATA = {
               "highlight": "n.失败",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "de-(向下) + feat(=fact，做，打倒) → 把擂台对手一拳打翻在地宣告彻底击败 → n.&v. 失败；战胜，打败",
               "derivations": []
             },
             {
@@ -25636,7 +25636,7 @@ window.CET6_DATA = {
               "highlight": "n.手艺",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "a（-）+vi（形似罗马数字6）+-ation over theworld.她的工作包括从世界各地购买手 （名词后缓）→他研究“航空学”，一天进行6次 工艺品。 测试。 52折 artifact 例It uses thelatest aviation technology.它采用最 n.人工制品，手工艺品 新的航空技术。",
+              "tip": "cr-(用手) + aft → 匠人用双手精心打磨雕琢出精美绝伦的工艺品与匠人手艺 → n. 手艺；工艺 v. 精心制作",
               "derivations": []
             },
             {
@@ -25649,7 +25649,7 @@ window.CET6_DATA = {
               "highlight": "n.手工艺",
               "freq": 2,
               "tip_type": "对照",
-              "tip": "手工艺（handicraft）指以手（hand）工 附55折",
+              "tip": "handi-(手工，亲手) + craft(工艺) → 世代相传非机械批量生产的原生态传统手工艺品 → n. 手工艺；手工艺品",
               "derivations": []
             },
             {
@@ -26425,7 +26425,7 @@ window.CET6_DATA = {
               "highlight": "n.交响乐",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 sym-（共同，相似）+ 核心词干，紧扣六级语境考点",
+              "tip": "sym-(共同，和谐) + phon(声音，音调) + -y → 上百件乐器在指挥棒下一同奏出宏大和谐乐章 → n. 交响乐，交响曲",
               "derivations": []
             },
             {
@@ -26460,7 +26460,7 @@ window.CET6_DATA = {
               "highlight": "n.征兆",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 sym-（共同，相似）+ 核心词干，紧扣六级语境考点",
+              "tip": "sym-(共同) + pt(降临，落下) + -om → 病魔侵袭时身体各器官同时显露出来的并发症状征兆 → n. 症状；征兆",
               "derivations": []
             },
             {
@@ -26855,7 +26855,7 @@ window.CET6_DATA = {
               "highlight": "/'rile1/ v.传达",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "re-(再次) + lay(放置，传递) → 赛道上队员手递手接力棒再次接力传递；中继广播设备 → v. 传达，传递；转播 n. 接力赛；轮班",
               "derivations": []
             },
             {
@@ -27859,7 +27859,7 @@ window.CET6_DATA = {
               "highlight": "v.使痴迷",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "ob-（表方向）+se（联想“色”）+ss（联 想“美女”)→人们都朝着一个方向看那位出色 The people of that faraway country have been 的女性，她让人着迷→使痴迷 cruelly oppressed bya dictator.那个遥远国家的人",
+              "tip": "ob-(在面前，困扰) + sess(坐着，围困，同源session) → 某个念头如心魔般死死坐在脑海里挥之不去让人痴迷心神不宁 → v. 使痴迷；使心神不宁",
               "derivations": [
                 {
                   "word": "obsession",
@@ -27983,7 +27983,7 @@ window.CET6_DATA = {
               "highlight": "n.相反",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "contra-(相反，对立) + -ary(形容词/名词后缀) → 完全站在相反反面立场唱对台戏的 → adj. 相反的，对立的 n. 相反，对立面",
               "derivations": []
             },
             {
@@ -28011,7 +28011,7 @@ window.CET6_DATA = {
               "highlight": "v.否认",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“抵赖”→抵赖可以引 申为“否认”。 词以群记 re相关",
+              "tip": "de-(向下) + ny(=neg，不，拒绝) → 斩钉截铁拒绝承认任何指控当面矢口否认 → v. 否认；拒绝",
               "derivations": [
                 {
                   "word": "denial",
@@ -28314,7 +28314,7 @@ window.CET6_DATA = {
               "highlight": "n.新闻报道",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "cover(覆盖，采访) + -age(名词后缀) → 新闻媒体对重大赛事的全面追踪报道与信号覆盖面 → n. 新闻报道；覆盖范围",
               "derivations": []
             },
             {
@@ -28814,7 +28814,7 @@ window.CET6_DATA = {
               "highlight": "adj.严肃的",
               "freq": 3,
               "tip_type": "对照",
-              "tip": "戒指（ring）放在盘子边沿（rim）。 He fastened the papers together with a paper",
+              "tip": "谐音“鬼脸” → 面对狂风暴雨凶险局势脸色铁青严肃沉重、令人极其沮丧的可怕现实 → adj. 严肃的；令人沮丧的；残酷的",
               "derivations": [],
               "example_en": "The rescue team faced a grim reality as flood waters continued to rise overnight.",
               "example_cn": "随着洪水在夜间持续暴涨，救援队面临着极其严峻可怕的现实。"
@@ -29063,7 +29063,7 @@ window.CET6_DATA = {
               "highlight": "adj.足够的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "ad-（一再地）+equate(等同)→如果 一个人的英语水平一再地等同于老师的水平， The other side of that equation is that the US 那么他很可能拥有“足够的”英语知识储备。 needs to save more.等式的另一边则是美国需要",
+              "tip": "ad-(向着) + equ(平等，足够，同源equal) + -ate → 资源供给完全能与实际需求平齐匹配足够使用的 → adj. 足够的，充分的；合乎需要的",
               "derivations": [
                 {
                   "word": "adequately",
@@ -29734,7 +29734,7 @@ window.CET6_DATA = {
               "highlight": "adj.粗糙的",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "谐音“烤死” → 沙漠粗野暴晒把皮肤晒得极其粗糙大颗粒 → adj. 粗糙的；大颗粒的；粗鲁无礼的",
               "derivations": []
             },
             {
@@ -30388,7 +30388,7 @@ window.CET6_DATA = {
               "highlight": "adj.试探性的",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "tent（帐篷）+（t)a（联想“他”）+ti（联 想“踢”）+ve（音似“我”）→我和同学露营时住 在帐篷里，晚上他踢我，试探我睡着了没有→ 试探性的 词以群记 de/di相关",
+              "tip": "tent(=tempt，尝试，试探) + -ative(形容词后缀) → 尚无万全把握而小心翼翼伸出脚试探性的、暂定的方案 → adj. 试探性的；暂定的；犹豫不决的",
               "derivations": []
             },
             {
@@ -30556,7 +30556,7 @@ window.CET6_DATA = {
               "highlight": "n.灰心",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 dis-（不，相反；分开，散开）+ 核心词干，紧扣六级语境考点",
+              "tip": "dis-(失去) + may(力量，能耐，同源might) → 遭遇猝不及防的噩耗瞬间丧失心气感到惊恐绝望 → n.&v. 灰心，丧气；惊恐，使失望",
               "derivations": []
             },
             {
@@ -30595,7 +30595,7 @@ window.CET6_DATA = {
               "highlight": "n.差异",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 dis-（不，相反；分开，散开）+ 核心词干，紧扣六级语境考点",
+              "tip": "dis-(分开，相异) + crep(嘎吱作响，裂缝) + -ancy → 账本与实际库存之间出现不相符的明显差异裂痕 → n. 差异；不符合，不一致",
               "derivations": []
             },
             {
@@ -30621,7 +30621,7 @@ window.CET6_DATA = {
               "highlight": "adj.预定",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 de-（向下；离开；加强语气）+ 核心词干，紧扣六级语境考点",
+              "tip": "destin(命运，目的地，同源destiny) + -ed → 冥冥之中早已被命运之手注定预定的 → adj. 注定的；预定的",
               "derivations": []
             },
             {
@@ -31165,7 +31165,7 @@ window.CET6_DATA = {
               "highlight": "n.优惠券",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "coup(剪下，切下) + -on → 报纸杂志上剪下来能在商场抵扣现金的打折优惠券 → n. 优惠券，礼券",
               "derivations": []
             },
             {
@@ -31728,7 +31728,7 @@ window.CET6_DATA = {
               "highlight": "v.同时发生",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "co-(共同) + in-(向内) + cid(落下，发生) + -e → 两件离奇事件在同一时间同一地点巧合同时发生 → v. 同时发生；相符，巧合",
               "derivations": []
             },
             {
@@ -32020,7 +32020,7 @@ window.CET6_DATA = {
               "highlight": "adj.清晰的",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 dis-（不，相反；分开，散开）+ 核心词干，紧扣六级语境考点",
+              "tip": "dis-(分开) + tinct(=sting，刺，标记) → 身上刻有与众不同的特殊刺绣标记一眼就能辨认出 → adj. 清晰的，明白的；截然不同的",
               "derivations": []
             },
             {
@@ -32046,7 +32046,7 @@ window.CET6_DATA = {
               "highlight": "v.熄灭",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 ex-（出，向外；完全，前任）+ 核心词干，紧扣六级语境考点",
+              "tip": "ex-(向外，熄灭) + tingu(=sting，刺灭，扑灭) + -ish → 消防员英勇出动彻底扑灭烈火使隐患熄灭 → v. 熄灭，扑灭；使破灭",
               "derivations": []
             },
             {
@@ -32172,7 +32172,7 @@ window.CET6_DATA = {
               "highlight": "v.驳斥",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "re-（往回）+fute（=beat，击）→回 击→反驳，否认 词以群记 “授权”相关",
+              "tip": "re-(反向) + fut(击打，倾倒，同源confuse) → 摆出铁证当堂痛击反驳对方谎言驳斥歪理 → v. 驳斥；反驳，否认",
               "derivations": [
                 {
                   "word": "refutation",
@@ -32568,7 +32568,7 @@ window.CET6_DATA = {
               "highlight": "adj.不锋利的",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“不烂它”→拿刀切了 He presents his arguments in a straightforward 半天肉也切不烂它，因为刀子是“不锋利的”。 way.他以直截了当的方式提出了他的论点。 词以群记9 “大的”相关",
+              "tip": "谐音“不烂的” → 刀刃钝了砍不烂肉；讲话从不拐弯抹角直言不讳的直性子 → adj. 不锋利的，钝的；直言不讳的 v. 使变钝",
               "derivations": []
             }
           ]
@@ -33448,7 +33448,7 @@ window.CET6_DATA = {
               "highlight": "n.喜剧",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "com(狂欢，同源comic) + ed(=ode，诗歌，唱曲) + -y → 狂欢庆典上逗得全场观众捧腹大笑的幽默滑稽戏剧 → n. 喜剧；幽默",
               "derivations": []
             },
             {
@@ -33992,7 +33992,7 @@ window.CET6_DATA = {
               "highlight": "n.对称",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 sym-（共同，相似）+ 核心词干，紧扣六级语境考点",
+              "tip": "sym-(相同，对称) + metr(测量，尺寸) + -y → 左右两边对称测量尺寸完全分毫不差的和谐之美 → n. 对称(性)",
               "derivations": []
             },
             {
@@ -34737,7 +34737,7 @@ window.CET6_DATA = {
               "highlight": "n.&.v.倒塌",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "col-（都，一起）+lap（音似“来扑”）+ Unit10 se→大家都来扑向这张床，结果床“坍塌”了。 Lesso 词以群记 dome相关",
+              "tip": "col-(=con-，共同) + lapse(滑落，坍塌) → 承重柱断裂整栋违建大楼轰然倒塌坍塌；神经心理彻底崩溃 → n.&v. 倒塌，坍塌；崩溃；暴跌",
               "derivations": []
             },
             {
@@ -34885,7 +34885,7 @@ window.CET6_DATA = {
               "highlight": "n.管理",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "contra-(相对，反向) + roll(卷轴，账本) → 拿着对照副本严密监视主账本以防舞弊的严密控制指挥 → n.&v. 管理，控制，支配",
               "derivations": []
             },
             {
@@ -34924,7 +34924,7 @@ window.CET6_DATA = {
               "highlight": "/'modarert/ v.（使）缓和",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "mode（联想model）+rate（速度）→ 模特走路的速度是“适度的”。 It would accelerate the progress of AI research.",
+              "tip": "moder(适度，节制，同源mode) + -ate → 不偏不倚处于黄金分割中庸之道、性格温和适度的 → adj. 适度的，温和的 v. (使)缓和；节制 n. 温和派",
               "derivations": [
                 {
                   "word": "moderation",
@@ -35119,7 +35119,7 @@ window.CET6_DATA = {
               "highlight": "n.障碍",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“哦，不是特抠”→我不 In the first round of the competition，three 是特别抠，我只是面临经济“障碍”。 teamswereeliminated.比赛的第一轮淘汰了三支",
+              "tip": "ob-(在对面，阻挡) + stacle(站立之物) → 横亘在前进大路正前方阻碍通行的坚固障碍绊脚石 → n. 障碍，阻碍",
               "derivations": [],
               "example_en": "Determination and resilience helped the young athlete overcome every physical obstacle.",
               "example_cn": "坚韧不拔的毅力与心理韧性帮助这位年轻运动员克服战胜了每一个身体障碍困难。"
@@ -35649,7 +35649,7 @@ window.CET6_DATA = {
               "highlight": "adj.立即的v.促使",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 pro-（向前；赞同，支持）+ 核心词干，紧扣六级语境考点",
+              "tip": "pro-(向前) + mpt(=empt，拿取，买下) → 毫不犹豫立刻向前抢先出手买下；在后台适时给演员提示 → adj. 立即的，迅速的 v. 促使；提示 n. 提示",
               "derivations": []
             },
             {
@@ -35922,7 +35922,7 @@ window.CET6_DATA = {
               "highlight": "v.选举",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "e-（出）+lect（选择）→选择出→选 They tend to negleet training in analytical skills. 举；选择 他们往往会忽视分析技能的训练。",
+              "tip": "e-(向外) + lect(挑选，同源select) → 选民投下庄严神圣一票从众多候选人中选拔挑选出来 → v. 选举，推选；选择，决定",
               "derivations": [
                 {
                   "word": "election",
@@ -36218,7 +36218,7 @@ window.CET6_DATA = {
               "highlight": "n.战斗",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "com-（一起）+bat（=beat)→战斗 The results of the new research would seem to",
+              "tip": "com-(共同，相互) + bat(击打，搏斗，同源battle) → 在战场上短兵相接赤手空拳与犯罪分子英勇搏斗战斗 → n. 战斗，搏斗 v. 与...搏斗，战斗",
               "derivations": [
                 {
                   "word": "combative",
@@ -36253,7 +36253,7 @@ window.CET6_DATA = {
               "highlight": "/'konflikt/ n.抵触",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "con-（所有）+flict（音似“飞来刺他”）→ 所有人飞奔过来刺（打）他，因为发生了“冲突”。 Lesson 2 apartment 近义 flat 相关terrace",
+              "tip": "con-(共同) + flict(打击，冲突，同源afflict) → 两军刀剑在沙场剧烈互砍抵触碰撞引发武装冲突与矛盾 → n. 抵触，冲突，矛盾；战争 v. 冲突，抵触",
               "derivations": []
             },
             {
@@ -36266,7 +36266,7 @@ window.CET6_DATA = {
               "highlight": "v.传授",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 im-（不，非；向内，在...里）+ 核心词干，紧扣六级语境考点",
+              "tip": "im-(=in-，向内) + part(分享，部分) → 把自己的渊博学识毫无保留传授分享给莘莘学子 → v. 传授；告知，赋予",
               "derivations": []
             },
             {
@@ -36466,7 +36466,7 @@ window.CET6_DATA = {
               "highlight": "adj.特别的",
               "freq": 2,
               "tip_type": "谐音",
-              "tip": "单词发音类似“怕踢哭了”→他怕自 With the help of my brother，Iopened the door 已“特别的”脚法把别人踢哭了。 of thecompartment.在我哥哥的帮助下，我打开了",
+              "tip": "part(部分) + -icul- + -ar → 专门挑选出某一部分细节吹毛求疵格外挑剔讲究特定的 → adj. 特别的；特定的；挑剔的 n. 细节",
               "derivations": [
                 {
                   "word": "particularly",
@@ -36488,7 +36488,7 @@ window.CET6_DATA = {
               "highlight": "adv.相隔",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "a（一）+part（部分）→一个一个部分 地→分开 The room is partitioned into three sections.这间 屋子被隔为三小间。 词以群记 “装修”相关",
+              "tip": "a-(向) + part(分开) → 两座城市相隔千里山海相望的分离状态 → adv. 相隔，分开 adj. 分离的",
               "derivations": []
             },
             {
@@ -36987,7 +36987,7 @@ window.CET6_DATA = {
               "highlight": "v.咨询",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "con-（所有的）+sult（联想result）→ 通过“咨询”，所有的问题都有了结果。 The committee will convene at 11:30 AM next",
+              "tip": "con-(共同) + sult(=sel，呼唤，商议，同源counsel) → 遇到难题坐在一起向资深专家医生咨询商议请教 → v. 咨询；请教；商议；查阅",
               "derivations": [
                 {
                   "word": "consultation",
@@ -37073,7 +37073,7 @@ window.CET6_DATA = {
               "highlight": "v.聚集",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 co-（共同，一起）+ 核心词干，紧扣六级语境考点",
+              "tip": "con-(共同，一起) + ven(来，走) + -e → 各国代表从四面八方走到一起召集开会 → v. 聚集，集合；召集，开会",
               "derivations": []
             },
             {
@@ -37322,7 +37322,7 @@ window.CET6_DATA = {
               "highlight": "v.击退",
               "freq": 3,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 re-（一再，重新；向后）+ 核心词干，紧扣六级语境考点",
+              "tip": "re-(回，反向) + pel(推，击打) → 用盾牌猛烈反击将敌军强盗狠狠击退驱除 → v. 击退，驱逐；推开，驱除",
               "derivations": []
             },
             {
@@ -38008,7 +38008,7 @@ window.CET6_DATA = {
               "highlight": "/'eksploit/ v.利用",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 ex-（出，向外；完全，前任）+ 核心词干，紧扣六级语境考点",
+              "tip": "ex-(向外) + ploit(=ply，折叠，展现) → 彻底展开自然矿藏大举开采利用；资本家榨取剩余价值剥削 → v. 利用；剥削；开采 n. 壮举",
               "derivations": []
             },
             {
@@ -38843,7 +38843,7 @@ window.CET6_DATA = {
               "highlight": "/'mpaekt/ v.对.…产生影响",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "im-（=in-，进入）+pact（音似“拍个 它”)→进入房间拍它会对其产生“影响”。 词以群记2 “日常”相关",
+              "tip": "im-(向内) + pact(紧压，撞击) → 陨石以超音速砸向地面带来的巨大冲击力与深远影响 → n. 冲击；巨大影响 v. 冲击；对...产生影响",
               "derivations": []
             },
             {
@@ -39120,7 +39120,7 @@ window.CET6_DATA = {
               "highlight": "n.(火车的）客车厢",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "carri（=carry）+-age（名词后缓）→ 与“运送”相关的事物→客车厢；四轮马车",
+              "tip": "carri(搬运，载客，同源carry) + -age(名词后缀) → 供乘客舒适入座旅行的火车客车厢或四轮马车 → n. (火车的)客车厢；四轮马车；运输",
               "derivations": [],
               "example_en": "There are workers pushing carriages.",
               "example_cn": "有推着四 轮马车的工人。"
@@ -39163,7 +39163,7 @@ window.CET6_DATA = {
               "highlight": "n.旅行拖车",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "car（汽车）+a（一）+van（音似“万”\")→ 万辆汽车→车队 The results are expressed in descending numerical order.结果按数字降序列出。",
+              "tip": "car(车辆，队伍) + a + van(先锋，厢式车) → 丝绸之路上成群骆驼结伴穿越漫漫大漠的旅行队商队或旅行拖车 → n. 旅行拖车；大篷车；旅行队，车队",
               "derivations": [],
               "example_en": "The caravan travelled slowlyeastwards.",
               "example_cn": "车队慢 40 慢向东行进。"
@@ -39265,7 +39265,7 @@ window.CET6_DATA = {
               "highlight": "",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 bio-（生命，生物）+ 核心词干，紧扣六级语境考点",
+              "tip": "bio-(生命，生物) + chemistry(化学) → 研究生物体内各种蛋白质核酸反应机理的前沿生命学科 → n. 生物化学",
               "derivations": []
             },
             {
@@ -39291,7 +39291,7 @@ window.CET6_DATA = {
               "highlight": "n.传记",
               "freq": 2,
               "tip_type": "构词",
-              "tip": "前缀拆解：前缀 bio-（生命，生物）+ 核心词干，紧扣六级语境考点",
+              "tip": "bio-(生命，人生) + graph(书写，记录) + -y → 为伟人一生坎坷辉煌历程立传的人物传记 → n. 传记",
               "derivations": []
             },
             {
