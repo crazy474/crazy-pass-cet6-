@@ -4633,3 +4633,29 @@ function updateHeaderBlitzBadge() {
     tagEl.textContent = "⚡ 极速对决";
   }
 }
+
+
+
+// --- 一键到顶平滑滚动与动态显隐中枢 ---
+function scrollToTop() {
+  if (typeof window !== "undefined" && typeof window.scrollTo === "function") {
+    try {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } catch (e) {
+      try { window.scrollTo(0, 0); } catch(e2){}
+    }
+  }
+  if (typeof playPixelSound === "function") playPixelSound("coin");
+}
+
+function updateBackToTopVisibility() {
+  const btn = document.getElementById("backToTopBtn");
+  if (!btn) return;
+  const scrollY = window.scrollY || (document.documentElement && document.documentElement.scrollTop) || 0;
+  btn.classList.toggle("visible", scrollY > 300);
+}
+
+if (typeof window !== "undefined") {
+  window.scrollToTop = scrollToTop;
+  window.addEventListener("scroll", updateBackToTopVisibility, { passive: true });
+}
