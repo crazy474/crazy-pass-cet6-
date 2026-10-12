@@ -212,7 +212,7 @@ window.CET6_DATA = {
                 }
               ],
               "example_en": "He played a prominent part in the campaign.",
-              "example_cn": "他 n.现场解说，实况报道；评注；批评 在这次运动中发挥了重要作用。"
+              "example_cn": "他在这次运动中发挥了重要作用。"
             },
             {
               "id": "u1_l1_09",
@@ -3139,7 +3139,7 @@ window.CET6_DATA = {
               "tip": "ecolog(y)（生态，生态学）+ -ical（形容词后缀）→ 生态的，生态学的",
               "derivations": [],
               "example_en": "They are living beyond our ecological means.",
-              "example_cn": "他 07 们现在的生活方式超出了生态的承受范围。 n.肢，翼；大树枝"
+              "example_cn": "他们现在的生活方式超出了生态的承受范围。"
             },
             {
               "id": "u2_l1_03",
@@ -3755,7 +3755,7 @@ window.CET6_DATA = {
               "tip": "他的脾气（temper）就像气温 the organism and the surrounding environment. (temperature）一样起伏不定。 分生物体和周围的环境似乎很简单。",
               "derivations": [],
               "example_en": "She cannot stand her boss's bad temper.",
-              "example_cn": "她无法 43 n.避难所；庇护；鸟兽保护区，禁猎区；圣殿 忍受老板的坏脾气。"
+              "example_cn": "她无法忍受老板的坏脾气。"
             },
             {
               "id": "u2_l1_38",
@@ -4302,7 +4302,7 @@ window.CET6_DATA = {
               "tip": "table（平整表面）+ -et（小物体后缀）→ 小扁平药块 → 药片；平板电脑",
               "derivations": [],
               "example_en": "She took a couple of headache tablets.",
-              "example_cn": "她吃了儿 75 片治头痛的药。"
+              "example_cn": "她吃了几片治头痛的药。"
             },
             {
               "id": "u2_l1_70",
@@ -9200,7 +9200,7 @@ window.CET6_DATA = {
                 }
               ],
               "example_en": "The sport has a strict code of conduct.",
-              "example_cn": "这种体育 57 运动有严格的行为规范。 v.引诱，诱惑；怂惠；利诱"
+              "example_cn": "这项体育运动有严格的行为规范。"
             },
             {
               "id": "u3_l3_53",
@@ -12104,8 +12104,8 @@ window.CET6_DATA = {
               "tip_type": "构词",
               "tip": "sus-（在下）+cept（拿）+-ible（能……. may produce spectacular sound effects.有了创造力， 的)→能被拿下的→易受影响的 即使是老式乐器也可能产生令人惊叹的音效。",
               "derivations": [],
-              "example_en": "Some of these plants are more susceptible to 16 frost damage than others.",
-              "example_cn": "其中的一些植物比其他 n.壮观的场面（景象） 植物更容易受到霜冻损害。"
+              "example_en": "Some of these plants are more susceptible to frost damage than others.",
+              "example_cn": "其中的一些植物比其他植物更容易受到霜冻损害。"
             },
             {
               "id": "u4_l3_18",
@@ -12361,7 +12361,7 @@ window.CET6_DATA = {
               "tip": "proto-（最初的，原始的）+type（类 I had a phone call from a prospective client 型)→原型，雏形 today.我今天接到一个潜在客户打来的电话。",
               "derivations": [],
               "example_en": "The prototype is athletic and super smart.",
-              "example_cn": "这个 原型体格健壮、非常聪明。 n.回顾，回想，追溯往事"
+              "example_cn": "这个原型机体格健壮、非常聪明。"
             },
             {
               "id": "u4_l3_33",
@@ -13641,8 +13641,8 @@ window.CET6_DATA = {
               "tip_type": "对照",
               "tip": "证人（witness）需要有一定的智力 (wit)水平。",
               "derivations": [],
-              "example_en": "Many factors influence the accuracy of witness evidence/'evidons/ Have you any evidence to support this allegation? testimony.",
-              "example_cn": "许多因素影响目击者证词的准确性。 n.证据；迹象 你有证据支持这种说法吗？"
+              "example_en": "Many factors influence the accuracy of witness testimony.",
+              "example_cn": "许多因素会影响目击者证词的准确性。"
             },
             {
               "id": "u4_l4_48",
@@ -13790,7 +13790,7 @@ window.CET6_DATA = {
                 }
               ],
               "example_en": "It seemed a perfectly legitimate question.",
-              "example_cn": "这似 52 乎是完全合乎情理的问题。 v.迫害，残害；骚扰"
+              "example_cn": "这似乎是一个完全合乎情理的问题。"
             },
             {
               "id": "u4_l4_55",
@@ -18295,8 +18295,8 @@ window.CET6_DATA = {
               "tip_type": "构词",
               "tip": "under(在…….下面）+go（走）→在下 面走过→经历，遭受",
               "derivations": [],
-              "example_en": "Some children undergo a complete transformation M57 undertake/ianda'terk/ when theybecome teenagers.",
-              "example_cn": "一些儿童进入青春期 会完全变成另一个人。 v.承担，担任；从事；答应"
+              "example_en": "Some children undergo a complete transformation when they become teenagers.",
+              "example_cn": "一些儿童进入青春期后会完全变成另一个人。"
             },
             {
               "id": "u5_l4_59",
@@ -18490,7 +18490,7 @@ window.CET6_DATA = {
               "tip": "单词发音类似“俺爹饱”→俺爹食用 problems and addiction.使用可卡因会导致严重的 了太多食物，吃饱了→可以食用的 健康问题和成瘾。 08",
               "derivations": [],
               "example_en": "It is said seaweed is edible.",
-              "example_cn": "据说，海藻是可以吃的。 n.(食物的）纤维素；(布绳的）纤维"
+              "example_cn": "据说海藻是可以食用的。"
             },
             {
               "id": "u6_l1_04",
@@ -19072,7 +19072,7 @@ window.CET6_DATA = {
                 }
               ],
               "example_en": "More resources are being allocated to the project.",
-              "example_cn": "更多的资源正在被分配给这个项目。 n.市郊，郊区"
+              "example_cn": "更多的资源正在被分配给这个项目。"
             },
             {
               "id": "u6_l1_39",
@@ -19286,7 +19286,7 @@ window.CET6_DATA = {
               "tip": "谐音“漏恩” → 银行借钱贷款给你，如久旱甘霖漏下恩泽 → n. 贷款；借款 v. 借出",
               "derivations": [],
               "example_en": "They are not eligible for a student loan.",
-              "example_cn": "他们没 56 有资格申请学生贷款。 n.激励；刺激；动力"
+              "example_cn": "他们没有资格申请学生贷款。"
             },
             {
               "id": "u6_l1_51",
@@ -19841,7 +19841,7 @@ window.CET6_DATA = {
               "tip": "s（联想“美女\"）+tack（音似“待客”)→ synthesise/-izev.合成；综合 美女结婚时要招待“大量”客人。 89",
               "derivations": [],
               "example_en": "The floor was stacked with boxes.",
-              "example_cn": "地板上码放 n.最突出(或最精彩、最激动人心)的部分 着一撰撰箱子。 强调"
+              "example_cn": "地板上码放着一摞摞箱子。"
             },
             {
               "id": "u6_l1_85",
@@ -20196,8 +20196,8 @@ window.CET6_DATA = {
                   "meaning": "adj.精明的"
                 }
               ],
-              "example_en": "Mothers’devotion to children can hardly be calculated.",
-              "example_cn": "母亲对孩子的奉献难以计算。 n.账户；账目；说明v.认为是，把.....视为"
+              "example_en": "Mothers' devotion to children can hardly be calculated.",
+              "example_cn": "母亲对孩子的奉献难以计算。"
             },
             {
               "id": "u6_l2_10",
@@ -21603,8 +21603,8 @@ window.CET6_DATA = {
               "tip_type": "联想",
               "tip": "turn（转变）+over（超过）→他转变商 made into something useful.进入垃圾场的一些东 业模式，超过了同行，“营业额”大涨。 西会被做成有用的东西。",
               "derivations": [],
-              "example_en": "The city has a rapid population turnover.",
-              "example_cn": "这个 53 城市的人口流动很快。 v.砍，劈；大幅削减n.砍，劈；伤口"
+              "example_en": "The Supreme Court decided to overturn the previous ruling.",
+              "example_cn": "最高法院决定推翻之前的裁决。"
             },
             {
               "id": "u6_l3_52",
@@ -21618,8 +21618,8 @@ window.CET6_DATA = {
               "tip_type": "联想",
               "tip": "turn（转变）+over（超过）→他转变商 made into something useful.进入垃圾场的一些东 业模式，超过了同行，“营业额”大涨。 西会被做成有用的东西。",
               "derivations": [],
-              "example_en": "The city has a rapid population turnover.",
-              "example_cn": "这个 53 城市的人口流动很快。 v.砍，劈；大幅削减n.砍，劈；伤口"
+              "example_en": "The company has a rapid staff turnover.",
+              "example_cn": "这家公司的人员流动率很高。"
             },
             {
               "id": "u6_l3_53",
@@ -23621,8 +23621,8 @@ window.CET6_DATA = {
               "tip_type": "联想",
               "tip": "doc(联想doctor）+trine（音似“纯”) →医生要遵守的“信条”就是“救死扶伤”，动机 纯粹。",
               "derivations": [],
-              "example_en": "He was deeply committed to political doctrines of 63 /eubap/ewbop -(，）ew+（.)op2 People are beginning to question the old dogmas. social equality.",
-              "example_cn": "他深深致力于社会平等的政治学说。 n.教义；信条；教条 妈妈的话是小狗的“信条”。 人们开始质疑旧的信条。"
+              "example_en": "He was deeply committed to political doctrines of social equality.",
+              "example_cn": "他坚定信奉主张社会平等的政治学说。"
             },
             {
               "id": "u7_l1_63",
@@ -24897,8 +24897,8 @@ window.CET6_DATA = {
               "tip_type": "联想",
               "tip": "拟声词 flip（轻弹飞翻之声）→ 用手指轻快翻动书页或硬币 → 翻动，轻抛；轻率翻阅",
               "derivations": [],
-              "example_en": "It is very important to just have a quick flip 07 through.",
-              "example_cn": "快速浏览一下是非常重要的。 n.呻吟声；抱怨"
+              "example_en": "It is very important to just have a quick flip through.",
+              "example_cn": "快速随手翻阅浏览一遍是非常重要的。"
             },
             {
               "id": "u7_l3_03",
@@ -30859,7 +30859,7 @@ window.CET6_DATA = {
               "tip": "vulg-（词根：大众，平民，凡夫俗子）+ -ar（形容词后缀）→ 凡夫俗子粗陋粗鄙未经教化的 → 庸俗的，低俗的；粗鲁的",
               "derivations": [],
               "example_en": "They told some vulgar jokes.",
-              "example_cn": "他们讲了一些低俗 05 的笑话。 n.尊敬；荣幸；荣誉"
+              "example_cn": "他们讲了一些庸俗低级的笑话。"
             },
             {
               "id": "u9_l1_02",
@@ -31702,8 +31702,8 @@ window.CET6_DATA = {
                   "meaning": "adv.临时地；短暂地"
                 }
               ],
-              "example_en": "The woman needs a temporary replacement for 55 her assistant.",
-              "example_cn": "这位女士需要一个临时工代替她的 n.巧合；同时发生 助理。"
+              "example_en": "The woman needs a temporary replacement for her assistant.",
+              "example_cn": "这位女士需要一名临时替工来接替她的助理。"
             },
             {
               "id": "u9_l1_51",
@@ -31718,7 +31718,7 @@ window.CET6_DATA = {
               "tip": "con-（所有的）+temporary（暂时的） met each otherinTokyo.帕特和迈克在东京相 遇，真是太巧了。 →所有人只能暂时跟上“当代的”节奏。 156",
               "derivations": [],
               "example_en": "He was a contemporary of Freud.",
-              "example_cn": "他是弗洛伊德 n.发生率 的同代人。"
+              "example_cn": "他是与弗洛伊德同时代的人。"
             },
             {
               "id": "u9_l1_52",
@@ -32599,7 +32599,7 @@ window.CET6_DATA = {
               "tip": "鲨鱼（shark）的牙齿是锋利的（sharp）。 他真是一个愚蠢的错误。",
               "derivations": [],
               "example_en": "His mind is as sharp as ever.",
-              "example_cn": "他思维敏锐，一如 46 既往。"
+              "example_cn": "他的思维敏锐如初，一如既往。"
             },
             {
               "id": "u9_l2_44",
@@ -36816,7 +36816,7 @@ window.CET6_DATA = {
               "tip": "单词发音类似“坦克”。 海军的 54",
               "derivations": [],
               "example_en": "Both dolphins were put in the same tank.",
-              "example_cn": "两只 n.军，兵团；一群人 海豚都被放在同一个水箱里。"
+              "example_cn": "两只海豚都被安置在同一个水箱里。"
             },
             {
               "id": "u10_l2_51",
@@ -36831,7 +36831,7 @@ window.CET6_DATA = {
               "tip": "bull-（圆球，弹丸）+ -et（小物体后缀）→ 枪膛里射出的金属杀伤弹头 → 子弹",
               "derivations": [],
               "example_en": "He had fired five bullets from his gun.",
-              "example_cn": "他开枪 55 射击了五发子弹。 n.军人；军队；军方"
+              "example_cn": "他用手枪连续发射了五颗子弹。"
             },
             {
               "id": "u10_l2_52",
@@ -37537,8 +37537,8 @@ window.CET6_DATA = {
                   "meaning": "n.连接，联系"
                 }
               ],
-              "example_en": "The twofactors are directlylinked.",
-              "example_cn": "这两个因素 品 268 看见。"
+              "example_en": "The two factors are directly linked.",
+              "example_cn": "这两个关键因素之间存在着直接的关联。"
             },
             {
               "id": "u10_l3_18",
@@ -37582,8 +37582,8 @@ window.CET6_DATA = {
               "tip_type": "联想",
               "tip": "“了\")→阿敏和朋友的哥哥结为夫妻 了→与…·结合",
               "derivations": [],
-              "example_en": "If we mingle with the crowd，we shall not be combine/kam'bain/ noticed.",
-              "example_cn": "如果我们混在人群里，就不会被注意到了。 v.(使）联合，(使）结合"
+              "example_en": "If we mingle with the crowd, we shall not be noticed.",
+              "example_cn": "如果我们混入密集的人群中，就不会引起任何人的注意。"
             },
             {
               "id": "u10_l3_21",
@@ -37659,8 +37659,8 @@ window.CET6_DATA = {
                   "meaning": "n.结合；一体化"
                 }
               ],
-              "example_en": "They have not made any effort to integrate with 20 thelocalcommunity.",
-              "example_cn": "他们完全没有尝试融入本地 v.解体；分裂；瓦解 社区。"
+              "example_en": "They have not made any effort to integrate with the local community.",
+              "example_cn": "他们根本没有作出任何努力来积极融入当地社区。"
             },
             {
               "id": "u10_l3_25",
@@ -38765,8 +38765,8 @@ window.CET6_DATA = {
                   "meaning": "n.冷漠，漠不关心"
                 }
               ],
-              "example_en": "They are indifferent and keep on throwing garbage into theriver.",
-              "example_cn": "他们漠不关心，并继续往河 里扔垃圾。 例"
+              "example_en": "They are indifferent and keep on throwing garbage into the river.",
+              "example_cn": "他们漠不关心，依然不断地向河流中倾倒垃圾。"
             },
             {
               "id": "u10_l4_17",
@@ -39218,8 +39218,8 @@ window.CET6_DATA = {
               "tip_type": "联想",
               "tip": "car(车辆，队伍) + a + van(先锋，厢式车) → 丝绸之路上成群骆驼结伴穿越漫漫大漠的旅行队商队或旅行拖车 → n. 旅行拖车；大篷车；旅行队，车队",
               "derivations": [],
-              "example_en": "The caravan travelled slowlyeastwards.",
-              "example_cn": "车队慢 40 慢向东行进。"
+              "example_en": "The caravan travelled slowly eastwards.",
+              "example_cn": "商队商旅队伍缓缓地一路向东行进。"
             },
             {
               "id": "u10_l4_46",
