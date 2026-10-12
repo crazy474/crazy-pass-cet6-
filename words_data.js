@@ -54,7 +54,7 @@ window.CET6_DATA = {
               "id": "u1_l1_01",
               "num": "01",
               "word": "ambition",
-              "phonetic": "/aem'brfn/",
+              "phonetic": "/æmˈbɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.野心；雄心，抱负",
               "highlight": "n.野心",
@@ -64,7 +64,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ambitious",
-                  "phonetic": "/em'bifas/",
+                  "phonetic": "/æmˈbɪʃəs/",
                   "pos": "adj.",
                   "meaning": "adj.有雄心的，有抱负的"
                 }
@@ -76,7 +76,7 @@ window.CET6_DATA = {
               "id": "u1_l1_02",
               "num": "02",
               "word": "aggressive",
-              "phonetic": "/gresiv/",
+              "phonetic": "/əˈɡresɪv/",
               "pos": "adj.",
               "meaning": "adj.好斗的，侵略的；有进取心的",
               "highlight": "adj.好斗的",
@@ -86,7 +86,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "aggression",
-                  "phonetic": "/agrefn/",
+                  "phonetic": "/əˈɡreʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.攻击性；侵略"
                 }
@@ -108,7 +108,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "congressional",
-                  "phonetic": "/kon'grefanl/",
+                  "phonetic": "/kənˈɡreʃən(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.国会的；代表大会的"
                 }
@@ -133,7 +133,7 @@ window.CET6_DATA = {
               "id": "u1_l1_05",
               "num": "05",
               "word": "ambassador",
-              "phonetic": "/aem'baesada(r)/",
+              "phonetic": "/æmˈbæsədər/",
               "pos": "n.",
               "meaning": "n.大使，使节；代表",
               "highlight": "n.大使",
@@ -158,7 +158,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "conquest",
-                  "phonetic": "/'kogkwest/",
+                  "phonetic": "/ˈkɑːŋkwest/",
                   "pos": "n.",
                   "meaning": "n.征服；占领；占领的地区"
                 },
@@ -176,7 +176,7 @@ window.CET6_DATA = {
               "id": "u1_l1_07",
               "num": "07",
               "word": "eminent",
-              "phonetic": "/'eminant/",
+              "phonetic": "/ˈemɪnənt/",
               "pos": "adj.",
               "meaning": "adj.杰出的，有名的；明显的",
               "highlight": "adj.杰出的",
@@ -196,7 +196,7 @@ window.CET6_DATA = {
               "id": "u1_l1_08",
               "num": "08",
               "word": "prominent",
-              "phonetic": "/'prominant/",
+              "phonetic": "/ˈprɑːmɪnənt/",
               "pos": "adj.",
               "meaning": "adj.突出的；卓越的，著名的；重要的",
               "highlight": "adj.突出的",
@@ -206,7 +206,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "prominence",
-                  "phonetic": "/'prominans/",
+                  "phonetic": "/ˈprɑːmɪnəns/",
                   "pos": "n.",
                   "meaning": "n.重要；突出；卓越，出名"
                 }
@@ -218,7 +218,7 @@ window.CET6_DATA = {
               "id": "u1_l1_09",
               "num": "60",
               "word": "outstanding",
-              "phonetic": "/aut'staendin/",
+              "phonetic": "/aʊtˈstændɪŋ/",
               "pos": "adj.",
               "meaning": "adj.杰出的；突出的；重要的",
               "highlight": "adj.杰出的",
@@ -253,7 +253,7 @@ window.CET6_DATA = {
               "id": "u1_l1_11",
               "num": "11",
               "word": "comment",
-              "phonetic": "/'koment/",
+              "phonetic": "/ˈkɑːment/",
               "pos": "n.",
               "meaning": "n.评论；批评v.评论；表达意见",
               "highlight": "n.评论",
@@ -266,7 +266,7 @@ window.CET6_DATA = {
               "id": "u1_l1_12",
               "num": "12",
               "word": "commentary",
-              "phonetic": "/'komantri/",
+              "phonetic": "/ˈkɑːmənteri/",
               "pos": "n.",
               "meaning": "n.现场解说，实况报道；评注；批评",
               "highlight": "n.现场解说",
@@ -279,7 +279,7 @@ window.CET6_DATA = {
               "id": "u1_l1_13",
               "num": "13",
               "word": "commentator",
-              "phonetic": "/'komanteita(r)/",
+              "phonetic": "/ˈkɑːmənteɪtər/",
               "pos": "n.",
               "meaning": "n.评论员；实况解说员",
               "highlight": "n.评论员",
@@ -294,7 +294,7 @@ window.CET6_DATA = {
               "id": "u1_l1_14",
               "num": "14",
               "word": "brilliant",
-              "phonetic": "/'briliant/",
+              "phonetic": "/ˈbrɪliənt/",
               "pos": "adj.",
               "meaning": "adj.明亮的；巧妙的；聪颖的；使人印 象深的",
               "highlight": "adj.明亮的",
@@ -304,7 +304,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "brilliance",
-                  "phonetic": "/'brilians/",
+                  "phonetic": "/ˈbrɪliəns/",
                   "pos": "n.",
                   "meaning": "n.才华；光彩"
                 }
@@ -329,7 +329,7 @@ window.CET6_DATA = {
               "id": "u1_l1_16",
               "num": "16",
               "word": "terrific",
-              "phonetic": "/ta'rfik/",
+              "phonetic": "/təˈrɪfɪk/",
               "pos": "adj.",
               "meaning": "adj.极好的；了不起的；巨大的",
               "highlight": "adj.极好的",
@@ -344,7 +344,7 @@ window.CET6_DATA = {
               "id": "u1_l1_17",
               "num": "17",
               "word": "grand",
-              "phonetic": "/graend/",
+              "phonetic": "/ɡrænd/",
               "pos": "adj.",
               "meaning": "adj.壮丽的，堂皇的；宏大的；极好的",
               "highlight": "adj.壮丽的",
@@ -359,7 +359,7 @@ window.CET6_DATA = {
               "id": "u1_l1_18",
               "num": "18",
               "word": "magnificent",
-              "phonetic": "/maeg'nifisnt/",
+              "phonetic": "/mæɡˈnɪfɪs(ə)nt/",
               "pos": "adj.",
               "meaning": "adj.壮丽的，宏伟的",
               "highlight": "adj.壮丽的",
@@ -387,7 +387,7 @@ window.CET6_DATA = {
               "id": "u1_l1_20",
               "num": "20",
               "word": "magnify",
-              "phonetic": "/'magnfal/",
+              "phonetic": "/ˈmæɡnɪfaɪ/",
               "pos": "v.",
               "meaning": "v.放大，扩大；增强；夸大",
               "highlight": "v.放大",
@@ -400,7 +400,7 @@ window.CET6_DATA = {
               "id": "u1_l1_21",
               "num": "21",
               "word": "exception",
-              "phonetic": "/ik'sepfn/",
+              "phonetic": "/ɪkˈsepʃn/",
               "pos": "n.",
               "meaning": "n.例外",
               "highlight": "n.例外",
@@ -415,7 +415,7 @@ window.CET6_DATA = {
               "id": "u1_l1_22",
               "num": "22",
               "word": "exceptional",
-              "phonetic": "/nk'sepfanl/",
+              "phonetic": "/ɪkˈsepʃən(ə)l/",
               "pos": "adj.",
               "meaning": "adj.杰出的；不寻常的，罕见的；特 别的",
               "highlight": "adj.杰出的",
@@ -428,7 +428,7 @@ window.CET6_DATA = {
               "id": "u1_l1_23",
               "num": "23",
               "word": "exemplary",
-              "phonetic": "/ig'zemplari/",
+              "phonetic": "/ɪɡˈzempləri/",
               "pos": "adj.",
               "meaning": "adj.典范的，可作榜样的",
               "highlight": "adj.典范的",
@@ -438,7 +438,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "exemplify",
-                  "phonetic": "/ng'zemplifa/",
+                  "phonetic": "/ɪɡˈzemplɪfaɪ/",
                   "pos": "v.",
                   "meaning": "v.举例说明；是.的典范/榜样"
                 }
@@ -448,7 +448,7 @@ window.CET6_DATA = {
               "id": "u1_l1_24",
               "num": "24",
               "word": "instance",
-              "phonetic": "/'instans/",
+              "phonetic": "/ˈɪnstəns/",
               "pos": "n.",
               "meaning": "n.例子，事例v.举…..为例",
               "highlight": "n.例子",
@@ -461,7 +461,7 @@ window.CET6_DATA = {
               "id": "u1_l1_25",
               "num": "25",
               "word": "tremendous",
-              "phonetic": "/tro'mendos/",
+              "phonetic": "/trəˈmendəs/",
               "pos": "adj.",
               "meaning": "adj.巨大的，极大的；极好的",
               "highlight": "adj.巨大的",
@@ -474,7 +474,7 @@ window.CET6_DATA = {
               "id": "u1_l1_26",
               "num": "26",
               "word": "coordinate",
-              "phonetic": "/kəʊˈɔːdɪneɪt/",
+              "phonetic": "/koʊˈɔːrdɪneɪt/",
               "pos": "",
               "meaning": "n. 坐标；套装 v. 使协调；使相互配合",
               "highlight": "/kou'dinat/ n.坐标",
@@ -490,7 +490,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "coordinator",
-                  "phonetic": "/kau'xdinerta(r)/",
+                  "phonetic": "/koʊˈɔːrdɪneɪtər/",
                   "pos": "n.",
                   "meaning": "n.协调者"
                 }
@@ -502,7 +502,7 @@ window.CET6_DATA = {
               "id": "u1_l1_27",
               "num": "27",
               "word": "subordinate",
-              "phonetic": "/sobodinet/",
+              "phonetic": "/səˈbɔːrdɪnət/",
               "pos": "",
               "meaning": "n. 下属 adj. 下级的，次要的 v. 使从属于，使处于次要地位",
               "highlight": "/eupcq,es / n.下属 v.把..置于次要地位",
@@ -512,7 +512,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "subordination",
-                  "phonetic": "/səˌbɔːdɪ'neɪʃn/",
+                  "phonetic": "/səˌbɔːrdɪˈneɪʃn/",
                   "pos": "n.",
                   "meaning": "n. 附属；从属"
                 }
@@ -522,7 +522,7 @@ window.CET6_DATA = {
               "id": "u1_l1_28",
               "num": "28",
               "word": "commonplace",
-              "phonetic": "/'kɒmənpleɪs/",
+              "phonetic": "/ˈkɑːmənpleɪs/",
               "pos": "adj./n.",
               "meaning": "adj. 普通的 n. 常见的事，平常的事；老生常谈",
               "highlight": "adj.普通的 n.常见的事",
@@ -617,7 +617,7 @@ window.CET6_DATA = {
               "id": "u1_l2_03",
               "num": "03",
               "word": "surplus",
-              "phonetic": "/'sɜːpləs/",
+              "phonetic": "/ˈsɜːrplʌs/",
               "pos": "n./adj.",
               "meaning": "n. 剩余，过剩 adj. 过剩的，剩余的",
               "highlight": "n.剩余",
@@ -632,7 +632,7 @@ window.CET6_DATA = {
               "id": "u1_l2_04",
               "num": "04",
               "word": "surpass",
-              "phonetic": "/sapas/",
+              "phonetic": "/sərˈpæs/",
               "pos": "v.",
               "meaning": "v.超过；胜过，优于",
               "highlight": "v.超过",
@@ -647,7 +647,7 @@ window.CET6_DATA = {
               "id": "u1_l2_05",
               "num": "05",
               "word": "transcend",
-              "phonetic": "/traen'send/",
+              "phonetic": "/trænˈsend/",
               "pos": "v.",
               "meaning": "v.超出，超越",
               "highlight": "v.超出",
@@ -662,7 +662,7 @@ window.CET6_DATA = {
               "id": "u1_l2_06",
               "num": "06",
               "word": "precede",
-              "phonetic": "/pri'sid/",
+              "phonetic": "/prɪˈsiːd/",
               "pos": "v.",
               "meaning": "v.先于，在.…前面",
               "highlight": "v.先于",
@@ -672,7 +672,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "preceding",
-                  "phonetic": "/prt'sidin/",
+                  "phonetic": "/prɪˈsiːdɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.在先的，前面的"
                 }
@@ -684,7 +684,7 @@ window.CET6_DATA = {
               "id": "u1_l2_07",
               "num": "07",
               "word": "precedent",
-              "phonetic": "/'presidant/",
+              "phonetic": "/ˈpresɪdənt/",
               "pos": "n.",
               "meaning": "n.前例，先例；惯例",
               "highlight": "n.前例",
@@ -712,7 +712,7 @@ window.CET6_DATA = {
               "id": "u1_l2_09",
               "num": "60",
               "word": "predecessor",
-              "phonetic": "/'pridasesa(r)/",
+              "phonetic": "/ˈpredəsesər/",
               "pos": "n.",
               "meaning": "n.前任，前辈；前身，原先的东西；被替 代的事物",
               "highlight": "n.前任",
@@ -727,7 +727,7 @@ window.CET6_DATA = {
               "id": "u1_l2_10",
               "num": "10",
               "word": "concede",
-              "phonetic": "/kan'sid/",
+              "phonetic": "/kənˈsiːd/",
               "pos": "v.",
               "meaning": "v. 承认；让步，妥协",
               "highlight": "0.承认",
@@ -737,7 +737,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "concession",
-                  "phonetic": "/kan'sen/",
+                  "phonetic": "/kənˈseʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.承认，许可；让步，妥协"
                 }
@@ -764,7 +764,7 @@ window.CET6_DATA = {
               "id": "u1_l2_12",
               "num": "12",
               "word": "successor",
-              "phonetic": "/sok'sesa(r)/",
+              "phonetic": "/səkˈsesər/",
               "pos": "n.",
               "meaning": "n.继承者，接任者；接替的事物",
               "highlight": "n.继承者",
@@ -779,7 +779,7 @@ window.CET6_DATA = {
               "id": "u1_l2_13",
               "num": "13",
               "word": "succession",
-              "phonetic": "/sak'sefn/",
+              "phonetic": "/səkˈseʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.连续的人（或事物）；一连串，一系 列；继任，接替",
               "highlight": "n.连续的人（或事物）",
@@ -789,7 +789,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "successive",
-                  "phonetic": "/sak'sesiv/",
+                  "phonetic": "/səkˈsesɪv/",
                   "pos": "adj.",
                   "meaning": "adj.接连的，连续的"
                 }
@@ -799,7 +799,7 @@ window.CET6_DATA = {
               "id": "u1_l2_14",
               "num": "14",
               "word": "exceed",
-              "phonetic": "/ɪk'siːd/",
+              "phonetic": "/ɪkˈsiːd/",
               "pos": "v.",
               "meaning": "v. 超过（数目或数量）；超越（法律命令等的）限制",
               "highlight": "v.超过（数目或数量）",
@@ -812,7 +812,7 @@ window.CET6_DATA = {
               "id": "u1_l2_15",
               "num": "15",
               "word": "exceedingly",
-              "phonetic": "/nk'sidrgli/",
+              "phonetic": "/ɪkˈsiːdɪŋli/",
               "pos": "adv.",
               "meaning": "adv.极其，非常",
               "highlight": "adv.极其",
@@ -851,7 +851,7 @@ window.CET6_DATA = {
               "id": "u1_l2_18",
               "num": "18",
               "word": "recede",
-              "phonetic": "/rt'sid/",
+              "phonetic": "/rɪˈsiːd/",
               "pos": "v.",
               "meaning": "v.逐渐远去；逐渐减弱；消退",
               "highlight": "v.逐渐远去",
@@ -861,7 +861,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "recession",
-                  "phonetic": "/r'sefn/",
+                  "phonetic": "/rɪˈseʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.经济衰退；退后"
                 }
@@ -871,7 +871,7 @@ window.CET6_DATA = {
               "id": "u1_l2_19",
               "num": "19",
               "word": "proceed",
-              "phonetic": "/pra'sid/",
+              "phonetic": "/proʊˈsiːd/",
               "pos": "v.",
               "meaning": "v.继续做(或从事、进行)；前进",
               "highlight": "v.继续做(或从事、进行)",
@@ -881,7 +881,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "proceeding",
-                  "phonetic": "/pra'sidin/",
+                  "phonetic": "/prəˈsiːdɪŋ/",
                   "pos": "n.",
                   "meaning": "n.事件；诉讼"
                 }
@@ -893,7 +893,7 @@ window.CET6_DATA = {
               "id": "u1_l2_20",
               "num": "20",
               "word": "procession",
-              "phonetic": "/pra'sefn/",
+              "phonetic": "/prəˈseʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.队列；列队行进",
               "highlight": "n.队列",
@@ -923,7 +923,7 @@ window.CET6_DATA = {
               "id": "u1_l2_22",
               "num": "22",
               "word": "ancestor",
-              "phonetic": "/'ensesta(r)/",
+              "phonetic": "/ˈænsestər/",
               "pos": "n.",
               "meaning": "n.祖先；原始种型；原型",
               "highlight": "n.祖先",
@@ -933,7 +933,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ancestry",
-                  "phonetic": "/'ensestri/",
+                  "phonetic": "/ˈænsestri/",
                   "pos": "n.",
                   "meaning": "n.祖宗，祖先"
                 }
@@ -943,7 +943,7 @@ window.CET6_DATA = {
               "id": "u1_l2_23",
               "num": "23",
               "word": "access",
-              "phonetic": "/'aekses/",
+              "phonetic": "/ˈækses/",
               "pos": "v.",
               "meaning": "v.进人；到达；使用；获取 n.进入权；使用权；人口，通道；到达",
               "highlight": "v.进人",
@@ -958,7 +958,7 @@ window.CET6_DATA = {
               "id": "u1_l2_24",
               "num": "24",
               "word": "accessible",
-              "phonetic": "/ak'sesabl/",
+              "phonetic": "/əkˈsesəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.易到达的；易进人的；易使用的； 易接近的；平易近人的；易懂的",
               "highlight": "adj.易到达的",
@@ -973,7 +973,7 @@ window.CET6_DATA = {
               "id": "u1_l2_25",
               "num": "25",
               "word": "accessory",
-              "phonetic": "/ess,xe/",
+              "phonetic": "/əkˈsesəri/",
               "pos": "n.",
               "meaning": "n.附件，附属品；配件；同谋",
               "highlight": "n.附件",
@@ -986,7 +986,7 @@ window.CET6_DATA = {
               "id": "u1_l2_26",
               "num": "26",
               "word": "ascend",
-              "phonetic": "/a'send/",
+              "phonetic": "/əˈsend/",
               "pos": "v.",
               "meaning": "v.上升；登上；晋升",
               "highlight": "v.上升",
@@ -996,7 +996,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ascendancy",
-                  "phonetic": "/a'sendansi/",
+                  "phonetic": "/əˈsendənsi/",
                   "pos": "n.",
                   "meaning": "n.优势；支配地位"
                 }
@@ -1034,7 +1034,7 @@ window.CET6_DATA = {
               "id": "u1_l2_29",
               "num": "29",
               "word": "stable",
-              "phonetic": "/'stetbl/",
+              "phonetic": "/ˈsteɪb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.稳定的，稳固的n.马厩",
               "highlight": "adj.稳定的",
@@ -1044,7 +1044,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "stability",
-                  "phonetic": "/sta'bilati/",
+                  "phonetic": "/stəˈbɪləti/",
                   "pos": "n.",
                   "meaning": "n.稳定(性);稳固(性）"
                 }
@@ -1056,7 +1056,7 @@ window.CET6_DATA = {
               "id": "u1_l2_30",
               "num": "30",
               "word": "descend",
-              "phonetic": "/di'send/",
+              "phonetic": "/dɪˈsend/",
               "pos": "v.",
               "meaning": "v.下降，下来；下斜；降临",
               "highlight": "v.下降",
@@ -1069,7 +1069,7 @@ window.CET6_DATA = {
               "id": "u1_l2_31",
               "num": "31",
               "word": "descent",
-              "phonetic": "/di'sent/",
+              "phonetic": "/dɪˈsent/",
               "pos": "n.",
               "meaning": "n.下降，降落；降临；斜坡；出身",
               "highlight": "n.下降",
@@ -1082,7 +1082,7 @@ window.CET6_DATA = {
               "id": "u1_l2_32",
               "num": "32",
               "word": "descendant",
-              "phonetic": "/di'sendant/",
+              "phonetic": "/dɪˈsendənt/",
               "pos": "n.",
               "meaning": "n.后代",
               "highlight": "n.后代",
@@ -1095,7 +1095,7 @@ window.CET6_DATA = {
               "id": "u1_l2_33",
               "num": "33",
               "word": "offspring",
-              "phonetic": "/'ofsprn/",
+              "phonetic": "/ˈɔːfsprɪŋ/",
               "pos": "n.",
               "meaning": "n.子女；后代；幼崽",
               "highlight": "n.子女",
@@ -1108,7 +1108,7 @@ window.CET6_DATA = {
               "id": "u1_l2_34",
               "num": "34",
               "word": "inherit",
-              "phonetic": "/in'herit/",
+              "phonetic": "/ɪnˈherɪt/",
               "pos": "v.",
               "meaning": "v.继承（遗产）；经遗传获得；接替，继任",
               "highlight": "v.继承（遗产）",
@@ -1118,7 +1118,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inheritance",
-                  "phonetic": "/In'heritans/",
+                  "phonetic": "/ɪnˈherɪtəns/",
                   "pos": "n.",
                   "meaning": "n.继承物；遗产；继承"
                 }
@@ -1128,7 +1128,7 @@ window.CET6_DATA = {
               "id": "u1_l2_35",
               "num": "35",
               "word": "inherent",
-              "phonetic": "/In'hiarant/",
+              "phonetic": "/ɪnˈherənt/",
               "pos": "",
               "meaning": "adj. 内在的，固有的；生来就有的",
               "highlight": "/In'herant; adj.内在的",
@@ -1143,7 +1143,7 @@ window.CET6_DATA = {
               "id": "u1_l2_36",
               "num": "36",
               "word": "coherent",
-              "phonetic": "/kau'hrarant/",
+              "phonetic": "/koʊˈhɪrənt/",
               "pos": "adj.",
               "meaning": "adj.连贯的，一致的；有条理的；清楚 易懂的",
               "highlight": "adj.连贯的",
@@ -1153,7 +1153,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "coherence",
-                  "phonetic": "/kau'hiarans/",
+                  "phonetic": "/koʊˈhɪrəns/",
                   "pos": "n.",
                   "meaning": "n.连贯性；条理性"
                 }
@@ -1175,7 +1175,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "cohesive",
-                  "phonetic": "/kau'hisiv/",
+                  "phonetic": "/koʊˈhiːsɪv/",
                   "pos": "adj.",
                   "meaning": "adj.使结合的；使凝结的；有凝聚力的"
                 }
@@ -1185,7 +1185,7 @@ window.CET6_DATA = {
               "id": "u1_l2_38",
               "num": "38",
               "word": "heir",
-              "phonetic": "/ea(r)/",
+              "phonetic": "/eə(r)/",
               "pos": "n.",
               "meaning": "n.继承人；后嗣",
               "highlight": "n.继承人",
@@ -1222,7 +1222,7 @@ window.CET6_DATA = {
               "id": "u1_l2_40",
               "num": "40",
               "word": "legacy",
-              "phonetic": "/'legasi/",
+              "phonetic": "/ˈleɡəsi/",
               "pos": "n.",
               "meaning": "n.遗产；遗留问题；后遗症",
               "highlight": "n.遗产",
@@ -1263,7 +1263,7 @@ window.CET6_DATA = {
               "id": "u1_l2_42",
               "num": "42",
               "word": "genre",
-              "phonetic": "/eruas,/",
+              "phonetic": "/ˈʒɑːnrə/",
               "pos": "n.",
               "meaning": "n.体裁；类型",
               "highlight": "n.体裁",
@@ -1298,7 +1298,7 @@ window.CET6_DATA = {
               "id": "u1_l2_44",
               "num": "44",
               "word": "homogeneous",
-              "phonetic": "/ˌhɒməˈdʒiːniəs/",
+              "phonetic": "/ˌhoʊməˈdʒiːniəs/",
               "pos": "adj.",
               "meaning": "adj.同种类的",
               "highlight": "adj.同种类的",
@@ -1321,7 +1321,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "degeneration",
-                  "phonetic": "/dɪˌdʒenə'reɪʃn/",
+                  "phonetic": "/dɪˌdʒenəˈreɪʃn/",
                   "pos": "n.",
                   "meaning": "n. 蜕化；衰退；堕落"
                 }
@@ -1331,7 +1331,7 @@ window.CET6_DATA = {
               "id": "u1_l2_46",
               "num": "46",
               "word": "deteriorate",
-              "phonetic": "/ateen,p/",
+              "phonetic": "/dɪˈtɪriəreɪt/",
               "pos": "v.",
               "meaning": "v.恶化，退化",
               "highlight": "v.恶化",
@@ -1341,7 +1341,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "deterioration",
-                  "phonetic": "/dɪˌtɪəriə'reɪʃn/",
+                  "phonetic": "/dɪˌtɪriəˈreɪʃn/",
                   "pos": "n.",
                   "meaning": "n. 恶化，退化"
                 }
@@ -1398,7 +1398,7 @@ window.CET6_DATA = {
               "id": "u1_l3_01",
               "num": "01",
               "word": "terror",
-              "phonetic": "/'tera(r)/",
+              "phonetic": "/ˈterər/",
               "pos": "n.",
               "meaning": "n.惊恐，恐惧；恐怖活动",
               "highlight": "n.惊恐",
@@ -1408,13 +1408,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "terrorism",
-                  "phonetic": "/'terarizam/",
+                  "phonetic": "/ˈterərɪzəm/",
                   "pos": "n.",
                   "meaning": "n.恐怖主义"
                 },
                 {
                   "word": "terrorist",
-                  "phonetic": "/'terarist/",
+                  "phonetic": "/ˈterərɪst/",
                   "pos": "n.",
                   "meaning": "n.恐怖分子"
                 }
@@ -1426,7 +1426,7 @@ window.CET6_DATA = {
               "id": "u1_l3_02",
               "num": "02",
               "word": "terrify",
-              "phonetic": "/'terfal/",
+              "phonetic": "/ˈterɪfaɪ/",
               "pos": "v.",
               "meaning": "v.使恐惧，使害怕",
               "highlight": "v.使恐惧",
@@ -1436,13 +1436,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "terrible",
-                  "phonetic": "/'terabl/",
+                  "phonetic": "/ˈterəb(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.可怕的；非常严重的"
                 },
                 {
                   "word": "terribly",
-                  "phonetic": "/'terabli/",
+                  "phonetic": "/ˈterəbli/",
                   "pos": "adv.",
                   "meaning": "adv.非常，很"
                 }
@@ -1464,7 +1464,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "fright",
-                  "phonetic": "/frait/",
+                  "phonetic": "/fraɪt/",
                   "pos": "n.",
                   "meaning": "n.惊吓；恐怖"
                 }
@@ -1489,7 +1489,7 @@ window.CET6_DATA = {
               "id": "u1_l3_05",
               "num": "05",
               "word": "embed",
-              "phonetic": "/im'bed/",
+              "phonetic": "/ɪmˈbed/",
               "pos": "v.",
               "meaning": "v.把.…….牢牢地嵌人（或插人、埋人）",
               "highlight": "v.把.…….牢牢地嵌人（或插人、埋人）",
@@ -1504,7 +1504,7 @@ window.CET6_DATA = {
               "id": "u1_l3_06",
               "num": "06",
               "word": "scare",
-              "phonetic": "/skea(r)/",
+              "phonetic": "/skeə(r)/",
               "pos": "n.",
               "meaning": "n.恐慌，惊吓，惊恐v.害怕；使惊恐",
               "highlight": "n.恐慌",
@@ -1517,7 +1517,7 @@ window.CET6_DATA = {
               "id": "u1_l3_07",
               "num": "07",
               "word": "panic",
-              "phonetic": "/'paenik/",
+              "phonetic": "/ˈpænɪk/",
               "pos": "n.",
               "meaning": "n.惊慌，恐慌v.（使）恐慌",
               "highlight": "n.惊慌",
@@ -1540,7 +1540,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "deterrent",
-                  "phonetic": "/dr'terant/",
+                  "phonetic": "/dɪˈtɜːrənt/",
                   "pos": "n.",
                   "meaning": "n.威慑物adj.威慑的；制止的"
                 }
@@ -1550,7 +1550,7 @@ window.CET6_DATA = {
               "id": "u1_l3_09",
               "num": "60",
               "word": "alert",
-              "phonetic": "/alat/",
+              "phonetic": "/əˈlɜːrt/",
               "pos": "n.",
               "meaning": "n.警报；警戒，警惕adj.警觉的，警惕 的 v.向….报警；使警觉",
               "highlight": "n.警报",
@@ -1575,7 +1575,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "cautious",
-                  "phonetic": "/sefcx/",
+                  "phonetic": "/ˈkɔːʃəs/",
                   "pos": "adj.",
                   "meaning": "adj.谨慎的，小心的"
                 }
@@ -1605,7 +1605,7 @@ window.CET6_DATA = {
               "id": "u1_l3_12",
               "num": "12",
               "word": "rise",
-              "phonetic": "/raiz/",
+              "phonetic": "/raɪz/",
               "pos": "n.",
               "meaning": "n.上涨，增高 v.上升，增长；起身；起义",
               "highlight": "n.上涨",
@@ -1618,7 +1618,7 @@ window.CET6_DATA = {
               "id": "u1_l3_13",
               "num": "13",
               "word": "arise",
-              "phonetic": "/a'raz/",
+              "phonetic": "/əˈraɪz/",
               "pos": "v.",
               "meaning": "v.出现；产生；起身",
               "highlight": "v.出现",
@@ -1631,7 +1631,7 @@ window.CET6_DATA = {
               "id": "u1_l3_14",
               "num": "14",
               "word": "arouse",
-              "phonetic": "/s'rauz/",
+              "phonetic": "/əˈraʊz/",
               "pos": "v.",
               "meaning": "v.唤醒；引起，激起",
               "highlight": "v.唤醒",
@@ -1641,7 +1641,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "arousal",
-                  "phonetic": "/a'rauzl/",
+                  "phonetic": "/əˈraʊz(ə)l/",
                   "pos": "n.",
                   "meaning": "n.激起，引起（感情、态度）"
                 }
@@ -1651,7 +1651,7 @@ window.CET6_DATA = {
               "id": "u1_l3_15",
               "num": "15",
               "word": "raise",
-              "phonetic": "/reiz/",
+              "phonetic": "/reɪz/",
               "pos": "v.",
               "meaning": "v.提高，增加；举起；筹集；引起，导致； 养育",
               "highlight": "v.提高",
@@ -1679,7 +1679,7 @@ window.CET6_DATA = {
               "id": "u1_l3_17",
               "num": "17",
               "word": "praise",
-              "phonetic": "/preiz/",
+              "phonetic": "/preɪz/",
               "pos": "n.",
               "meaning": "n.&v.称赞，赞美，表扬",
               "highlight": "n.&v.称赞",
@@ -1692,7 +1692,7 @@ window.CET6_DATA = {
               "id": "u1_l3_18",
               "num": "18",
               "word": "compliment",
-              "phonetic": "/ˈkɒmplɪmənt/",
+              "phonetic": "/ˈkɑːmplɪmənt/",
               "pos": "",
               "meaning": "n.&v. 赞扬，称赞，恭维",
               "highlight": "/'kompliment/ n.赞扬",
@@ -1702,7 +1702,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "complimentary",
-                  "phonetic": "/ˌkɒmplɪ'mentri/",
+                  "phonetic": "/ˌkɑːmplɪˈmentri/",
                   "pos": "adj.",
                   "meaning": "adj. 表示钦佩的；赞美的；免费赠送的"
                 }
@@ -1714,7 +1714,7 @@ window.CET6_DATA = {
               "id": "u1_l3_19",
               "num": "19",
               "word": "appraise",
-              "phonetic": "/'preiz/",
+              "phonetic": "/əˈpreɪz/",
               "pos": "v.",
               "meaning": "v.估量；评估；估价；作出评价",
               "highlight": "v.估量",
@@ -1724,7 +1724,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "appraisal",
-                  "phonetic": "/a'preizl/",
+                  "phonetic": "/əˈpreɪz(ə)l/",
                   "pos": "n.",
                   "meaning": "n.评价；估价"
                 }
@@ -1736,7 +1736,7 @@ window.CET6_DATA = {
               "id": "u1_l3_20",
               "num": "20",
               "word": "prize",
-              "phonetic": "/praiz/",
+              "phonetic": "/praɪz/",
               "pos": "n.",
               "meaning": "n.奖品，奖赏v.珍视，高度重视",
               "highlight": "n.奖品",
@@ -1749,7 +1749,7 @@ window.CET6_DATA = {
               "id": "u1_l3_21",
               "num": "21",
               "word": "comprise",
-              "phonetic": "/kompraiz/",
+              "phonetic": "/kəmˈpraɪz/",
               "pos": "v.",
               "meaning": "v.包括，包含；由.….组成",
               "highlight": "v.包括",
@@ -1814,7 +1814,7 @@ window.CET6_DATA = {
               "id": "u1_l3_25",
               "num": "25",
               "word": "trophy",
-              "phonetic": "/'traufi/",
+              "phonetic": "/ˈtroʊfi/",
               "pos": "n.",
               "meaning": "n.奖品；奖杯；战利品",
               "highlight": "n.奖品",
@@ -1829,7 +1829,7 @@ window.CET6_DATA = {
               "id": "u1_l3_26",
               "num": "26",
               "word": "catastrophe",
-              "phonetic": "/ka'taestrafi/",
+              "phonetic": "/kəˈtæstrəfi/",
               "pos": "n.",
               "meaning": "n.灾难，灾祸；困难",
               "highlight": "n.灾难",
@@ -1839,7 +1839,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "catastrophic",
-                  "phonetic": "/kaeta'strofik/",
+                  "phonetic": "/ˌkætəˈstrɑːfɪk/",
                   "pos": "adj.",
                   "meaning": "adj.灾难性的"
                 }
@@ -1849,7 +1849,7 @@ window.CET6_DATA = {
               "id": "u1_l3_27",
               "num": "27",
               "word": "applaud",
-              "phonetic": "/ə'plɔːd/",
+              "phonetic": "/əˈplɔːd/",
               "pos": "v.",
               "meaning": "v. 称赞；鼓掌，拍手喝彩",
               "highlight": "v.称赞",
@@ -1859,7 +1859,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "applause",
-                  "phonetic": "/aploz/",
+                  "phonetic": "/əˈplɔːz/",
                   "pos": "n.",
                   "meaning": "n.掌声；喝彩"
                 }
@@ -1871,7 +1871,7 @@ window.CET6_DATA = {
               "id": "u1_l3_28",
               "num": "28",
               "word": "celebrate",
-              "phonetic": "/'selibreit/",
+              "phonetic": "/ˈselɪbreɪt/",
               "pos": "v.",
               "meaning": "v.庆祝，庆贺；赞美，颂扬",
               "highlight": "v.庆祝",
@@ -1881,7 +1881,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "celebration",
-                  "phonetic": "/iseli'brern/",
+                  "phonetic": "/ˌseləˈbreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.庆典；庆祝活动"
                 }
@@ -1893,7 +1893,7 @@ window.CET6_DATA = {
               "id": "u1_l3_29",
               "num": "29",
               "word": "celebrity",
-              "phonetic": "/sa'lebrati/",
+              "phonetic": "/səˈlebrəti/",
               "pos": "n.",
               "meaning": "n.名人，名流；名望，名誉；著名",
               "highlight": "n.名人",
@@ -1916,7 +1916,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ceremonial",
-                  "phonetic": "/isert'maunial/",
+                  "phonetic": "/ˌserɪˈmoʊniəl/",
                   "pos": "adj.",
                   "meaning": "adj.礼仪的；礼节的"
                 }
@@ -1926,7 +1926,7 @@ window.CET6_DATA = {
               "id": "u1_l3_31",
               "num": "31",
               "word": "ritual",
-              "phonetic": "/lenfu/",
+              "phonetic": "/ˈrɪtʃuəl/",
               "pos": "n.",
               "meaning": "n.仪式，仪规，礼节；习惯",
               "highlight": "n.仪式",
@@ -1952,7 +1952,7 @@ window.CET6_DATA = {
               "id": "u1_l3_33",
               "num": "33",
               "word": "hoist",
-              "phonetic": "/hoist/",
+              "phonetic": "/hɔɪst/",
               "pos": "n.",
               "meaning": "n.起重机；吊车 v.吊起，升起，提起",
               "highlight": "n.起重机",
@@ -1965,7 +1965,7 @@ window.CET6_DATA = {
               "id": "u1_l3_34",
               "num": "34",
               "word": "elevate",
-              "phonetic": "/'elivert/",
+              "phonetic": "/ˈelɪveɪt/",
               "pos": "v.",
               "meaning": "v.举起，抬起；提拔，晋升；提升",
               "highlight": "v.举起",
@@ -1975,13 +1975,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "elevator",
-                  "phonetic": "/'eliveita(r)/",
+                  "phonetic": "/ˈelɪveɪtər/",
                   "pos": "n.",
                   "meaning": "n.电梯；升降机"
                 },
                 {
                   "word": "elevation",
-                  "phonetic": "/iel'verfn/",
+                  "phonetic": "/ˌelɪˈveɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.升高；提拔；提升"
                 }
@@ -2013,7 +2013,7 @@ window.CET6_DATA = {
               "id": "u1_l3_36",
               "num": "36",
               "word": "element",
-              "phonetic": "/'elimant/",
+              "phonetic": "/ˈelɪmənt/",
               "pos": "n.",
               "meaning": "n.元素；因素，要素",
               "highlight": "n.元素",
@@ -2023,7 +2023,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "elementary",
-                  "phonetic": "/ielt'mentri/",
+                  "phonetic": "/ˌelɪˈmentri/",
                   "pos": "adj.",
                   "meaning": "adj.基本的；初级的"
                 }
@@ -2048,7 +2048,7 @@ window.CET6_DATA = {
               "id": "u1_l3_38",
               "num": "38",
               "word": "ingredient",
-              "phonetic": "/in'gridiant/",
+              "phonetic": "/ɪnˈɡriːdiənt/",
               "pos": "n.",
               "meaning": "n.成分，原料；因素，要素",
               "highlight": "n.成分",
@@ -2063,7 +2063,7 @@ window.CET6_DATA = {
               "id": "u1_l3_39",
               "num": "39",
               "word": "ally",
-              "phonetic": "/'aela/",
+              "phonetic": "/ˈælaɪ/",
               "pos": "",
               "meaning": "n. 同盟国；盟友 v. 与...结盟，联合",
               "highlight": "/ala;aela1/ n.同盟国",
@@ -2073,7 +2073,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "alliance",
-                  "phonetic": "/alaons/",
+                  "phonetic": "/əˈlaɪəns/",
                   "pos": "n.",
                   "meaning": "n.联盟"
                 }
@@ -2100,7 +2100,7 @@ window.CET6_DATA = {
               "id": "u1_l3_41",
               "num": "41",
               "word": "log",
-              "phonetic": "/lɒɡ/",
+              "phonetic": "/lɔːɡ/",
               "pos": "n./v.",
               "meaning": "n. 原木；航海日志；日记 v. 记录；行驶；伐木",
               "highlight": "n.原木",
@@ -2128,7 +2128,7 @@ window.CET6_DATA = {
               "id": "u1_l3_43",
               "num": "43",
               "word": "timber",
-              "phonetic": "/'timba(r)/",
+              "phonetic": "/ˈtɪmbər/",
               "pos": "n.",
               "meaning": "n.树木，林木；木材，木料",
               "highlight": "n.树木",
@@ -2188,7 +2188,7 @@ window.CET6_DATA = {
               "id": "u1_l4_01",
               "num": "44",
               "word": "embarrass",
-              "phonetic": "/Im'baeras/",
+              "phonetic": "/ɪmˈbærəs/",
               "pos": "v.",
               "meaning": "v.使尴尬，使难堪",
               "highlight": "v.使尴尬",
@@ -2198,7 +2198,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "embarrassment",
-                  "phonetic": "/im'baerosmant/",
+                  "phonetic": "/ɪmˈbærəsmənt/",
                   "pos": "n.",
                   "meaning": "n.尴尬，困境"
                 }
@@ -2225,7 +2225,7 @@ window.CET6_DATA = {
               "id": "u1_l4_03",
               "num": "46",
               "word": "barren",
-              "phonetic": "/'baeran/",
+              "phonetic": "/ˈbærən/",
               "pos": "adj.",
               "meaning": "adj.贫瘠的；不育的；不结果实的；无 效果的",
               "highlight": "adj.贫瘠的",
@@ -2251,7 +2251,7 @@ window.CET6_DATA = {
               "id": "u1_l4_05",
               "num": "48",
               "word": "bare",
-              "phonetic": "/bea(r)/",
+              "phonetic": "/beə(r)/",
               "pos": "v.",
               "meaning": "v.揭开；脱掉 adj.赤裸的，裸露的；光秃秃的",
               "highlight": "v.揭开",
@@ -2261,7 +2261,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "barely",
-                  "phonetic": "/'beali/",
+                  "phonetic": "/ˈberli/",
                   "pos": "adv.",
                   "meaning": "adv.仅仅；勉强可能；几乎不"
                 }
@@ -2284,7 +2284,7 @@ window.CET6_DATA = {
               "id": "u1_l4_07",
               "num": "50",
               "word": "bold",
-              "phonetic": "/bauld/",
+              "phonetic": "/boʊld/",
               "pos": "adj.",
               "meaning": "adj.勇敢的，大胆的；鲁葬的",
               "highlight": "adj.勇敢的",
@@ -2297,7 +2297,7 @@ window.CET6_DATA = {
               "id": "u1_l4_08",
               "num": "51",
               "word": "cricket",
-              "phonetic": "/'krikit/",
+              "phonetic": "/ˈkrɪkɪt/",
               "pos": "n.",
               "meaning": "n.板球（运动）；蟋蟀",
               "highlight": "n.板球（运动）",
@@ -2367,7 +2367,7 @@ window.CET6_DATA = {
               "id": "u1_l4_12",
               "num": "04",
               "word": "haste",
-              "phonetic": "/hest/",
+              "phonetic": "/heɪst/",
               "pos": "n.",
               "meaning": "n.匆忙，仓促",
               "highlight": "n.匆忙",
@@ -2377,7 +2377,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "hasten",
-                  "phonetic": "/'heisn/",
+                  "phonetic": "/ˈheɪs(ə)n/",
                   "pos": "v.",
                   "meaning": "v.促进，使加快"
                 }
@@ -2387,7 +2387,7 @@ window.CET6_DATA = {
               "id": "u1_l4_13",
               "num": "05",
               "word": "hasty",
-              "phonetic": "/'hersti/",
+              "phonetic": "/ˈheɪsti/",
               "pos": "adj.",
               "meaning": "adj.匆忙的；草率的",
               "highlight": "adj.匆忙的",
@@ -2428,7 +2428,7 @@ window.CET6_DATA = {
               "id": "u1_l4_16",
               "num": "08",
               "word": "marine",
-              "phonetic": "/ma'rin/",
+              "phonetic": "/məˈriːn/",
               "pos": "adj.",
               "meaning": "adj.海洋的",
               "highlight": "adj.海洋的",
@@ -2441,7 +2441,7 @@ window.CET6_DATA = {
               "id": "u1_l4_17",
               "num": "09",
               "word": "swamp",
-              "phonetic": "/swomp/",
+              "phonetic": "/swɑːmp/",
               "pos": "v.",
               "meaning": "v.使陷人；淹没n.沼泽（地）",
               "highlight": "v.使陷人",
@@ -2454,7 +2454,7 @@ window.CET6_DATA = {
               "id": "u1_l4_18",
               "num": "10",
               "word": "overwhelm",
-              "phonetic": "/auva'welm/",
+              "phonetic": "/ˌoʊvərˈwelm/",
               "pos": "v.",
               "meaning": "v.压倒；击败；难以承受；淹没",
               "highlight": "v.压倒",
@@ -2464,13 +2464,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "overwhelming",
-                  "phonetic": "/auvawelmig/",
+                  "phonetic": "/ˌoʊvərˈwelmɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.巨大的；压倒性的"
                 },
                 {
                   "word": "overwhelmingly",
-                  "phonetic": "/auvawelmigli/",
+                  "phonetic": "/ˌoʊvərˈwelmɪŋli/",
                   "pos": "adv.",
                   "meaning": "adv.巨大地；压倒性地"
                 }
@@ -2527,7 +2527,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "admirable",
-                  "phonetic": "/'edmarabl/",
+                  "phonetic": "/ˈædmərəb(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.值得赞赏的，可钦佩的"
                 }
@@ -2557,7 +2557,7 @@ window.CET6_DATA = {
               "id": "u1_l4_23",
               "num": "15",
               "word": "refrain",
-              "phonetic": "/ri'fren/",
+              "phonetic": "/rɪˈfreɪn/",
               "pos": "v.",
               "meaning": "v.克制；避免n.经常重复的评价",
               "highlight": "v.克制",
@@ -2570,7 +2570,7 @@ window.CET6_DATA = {
               "id": "u1_l4_24",
               "num": "16",
               "word": "regulate",
-              "phonetic": "/'regjulet/",
+              "phonetic": "/ˈreɡjuleɪt/",
               "pos": "v.",
               "meaning": "v.控制，管理；调整，调节",
               "highlight": "v.控制",
@@ -2580,19 +2580,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "regulation",
-                  "phonetic": "/iregju'lerSn/",
+                  "phonetic": "/ˌreɡjuˈleɪʃn/",
                   "pos": "n.",
                   "meaning": "n.规则；条例"
                 },
                 {
                   "word": "regulator",
-                  "phonetic": "/'regjuleta(r)/",
+                  "phonetic": "/ˈreɡjuleɪtər/",
                   "pos": "n.",
                   "meaning": "n.监管者；调节器"
                 },
                 {
                   "word": "regulatory",
-                  "phonetic": "/'regialatari/",
+                  "phonetic": "/ˈreɡjələtɔːri/",
                   "pos": "adj.",
                   "meaning": "adj.具有监管权的，监管的"
                 }
@@ -2602,7 +2602,7 @@ window.CET6_DATA = {
               "id": "u1_l4_25",
               "num": "17",
               "word": "regular",
-              "phonetic": "/'regiala(r)/",
+              "phonetic": "/ˈreɡjələr/",
               "pos": "adj.",
               "meaning": "adj.规则的；有规律的n.常客",
               "highlight": "adj.规则的",
@@ -2612,7 +2612,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "regularity",
-                  "phonetic": "/iregju'laerati/",
+                  "phonetic": "/ˌreɡjuˈlærəti/",
                   "pos": "n.",
                   "meaning": "n.规律性；经常性；有规律的事物"
                 }
@@ -2622,7 +2622,7 @@ window.CET6_DATA = {
               "id": "u1_l4_26",
               "num": "18",
               "word": "irregular",
-              "phonetic": "/i'regjala(r)/",
+              "phonetic": "/ɪˈreɡjələr/",
               "pos": "adj.",
               "meaning": "adj.不整齐的；不规则的；不正常的",
               "highlight": "adj.不整齐的",
@@ -2635,7 +2635,7 @@ window.CET6_DATA = {
               "id": "u1_l4_27",
               "num": "19",
               "word": "deregulate",
-              "phonetic": "/di'regjuleit/",
+              "phonetic": "/ˌdiːˈreɡjuleɪt/",
               "pos": "v.",
               "meaning": "v.解除控制，撤销管制",
               "highlight": "v.解除控制",
@@ -2645,7 +2645,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "deregulation",
-                  "phonetic": "/ˌdiːreɡju'leɪʃn/",
+                  "phonetic": "/ˌdiːˌreɡjuˈleɪʃn/",
                   "pos": "n.",
                   "meaning": "n. 解除管制，放松控制"
                 }
@@ -2655,7 +2655,7 @@ window.CET6_DATA = {
               "id": "u1_l4_28",
               "num": "20",
               "word": "relate",
-              "phonetic": "/ri'lert/",
+              "phonetic": "/rɪˈleɪt/",
               "pos": "v.",
               "meaning": "v.有联系，有关联；讲述",
               "highlight": "v.有联系",
@@ -2665,13 +2665,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "relation",
-                  "phonetic": "/ri'lerfn/",
+                  "phonetic": "/rɪˈleɪʃn/",
                   "pos": "n.",
                   "meaning": "n.关系，联系；亲属"
                 },
                 {
                   "word": "relationship",
-                  "phonetic": "/r'lerfnfip/",
+                  "phonetic": "/rɪˈleɪʃ(ə)nʃɪp/",
                   "pos": "n.",
                   "meaning": "n.关系，联系"
                 }
@@ -2681,7 +2681,7 @@ window.CET6_DATA = {
               "id": "u1_l4_29",
               "num": "21",
               "word": "relative",
-              "phonetic": "/'relativ/",
+              "phonetic": "/ˈrelətɪv/",
               "pos": "n.",
               "meaning": "n.亲戚，亲属 adj.相关联的；比较的，相对的",
               "highlight": "n.亲戚",
@@ -2691,7 +2691,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "relativity",
-                  "phonetic": "/irela'tivati/",
+                  "phonetic": "/ˌreləˈtɪvəti/",
                   "pos": "n.",
                   "meaning": "n.相对论；相对性"
                 }
@@ -2701,7 +2701,7 @@ window.CET6_DATA = {
               "id": "u1_l4_30",
               "num": "22",
               "word": "correlate",
-              "phonetic": "/'kɒrəleɪt/",
+              "phonetic": "/ˈkɔːrəleɪt/",
               "pos": "v.",
               "meaning": "v. 相互关联影响；相互依赖",
               "highlight": "v.相互关联影响",
@@ -2711,13 +2711,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "correlation",
-                  "phonetic": "/kora'lerfn/",
+                  "phonetic": "/ˌkɔːrəˈleɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.相关；关联"
                 },
                 {
                   "word": "correlative",
-                  "phonetic": "/korelativ/",
+                  "phonetic": "/kəˈrelətɪv/",
                   "pos": "adj.",
                   "meaning": "adj.密切相关的；互相依赖的"
                 }
@@ -2729,7 +2729,7 @@ window.CET6_DATA = {
               "id": "u1_l4_31",
               "num": "23",
               "word": "resort",
-              "phonetic": "/ri'zot/",
+              "phonetic": "/rɪˈzɔːrt/",
               "pos": "n.",
               "meaning": "n.求助；旅游胜地 v.（～to）求助于，诉诸",
               "highlight": "n.求助",
@@ -2742,7 +2742,7 @@ window.CET6_DATA = {
               "id": "u1_l4_32",
               "num": "24",
               "word": "haunt",
-              "phonetic": "/hont/",
+              "phonetic": "/hɔːnt/",
               "pos": "v.",
               "meaning": "v.紫绕于脑际，使难以忘却 n.常去的地方",
               "highlight": "v.紫绕于脑际",
@@ -2854,7 +2854,7 @@ window.CET6_DATA = {
               "id": "u1_l4_40",
               "num": "32",
               "word": "foremost",
-              "phonetic": "/fomaust/",
+              "phonetic": "/ˈfɔːrmoʊst/",
               "pos": "adj.",
               "meaning": "adj.最重要的；最前的adv.首先",
               "highlight": "adj.最重要的",
@@ -2869,7 +2869,7 @@ window.CET6_DATA = {
               "id": "u1_l4_41",
               "num": "33",
               "word": "beforehand",
-              "phonetic": "/bi'fochaend/",
+              "phonetic": "/bɪˈfɔːrhænd/",
               "pos": "adv.",
               "meaning": "adv.预先，事先",
               "highlight": "adv.预先",
@@ -2902,7 +2902,7 @@ window.CET6_DATA = {
               "id": "u1_l4_43",
               "num": "36",
               "word": "sight",
-              "phonetic": "/sat/",
+              "phonetic": "/saɪt/",
               "pos": "n.",
               "meaning": "n.视力，视觉；景象v.看到，发现",
               "highlight": "n.视力",
@@ -2915,7 +2915,7 @@ window.CET6_DATA = {
               "id": "u1_l4_44",
               "num": "37",
               "word": "sightseeing",
-              "phonetic": "/'sartsin/",
+              "phonetic": "/ˈsaɪtsiːɪŋ/",
               "pos": "n.",
               "meaning": "n.观光",
               "highlight": "n.观光",
@@ -2928,7 +2928,7 @@ window.CET6_DATA = {
               "id": "u1_l4_45",
               "num": "38",
               "word": "oversight",
-              "phonetic": "/'auvasait/",
+              "phonetic": "/ˈoʊvərsaɪt/",
               "pos": "n.",
               "meaning": "n.监督；疏忽，失察",
               "highlight": "n.监督",
@@ -2943,7 +2943,7 @@ window.CET6_DATA = {
               "id": "u1_l4_46",
               "num": "39",
               "word": "insight",
-              "phonetic": "/'insat/",
+              "phonetic": "/ˈɪnsaɪt/",
               "pos": "n.",
               "meaning": "n.洞察力；领悟，了解",
               "highlight": "n.洞察力",
@@ -2953,7 +2953,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "insightful",
-                  "phonetic": "/in'satfl/",
+                  "phonetic": "/ɪnˈsaɪtf(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.富有洞察力的"
                 }
@@ -2975,7 +2975,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "horizontal",
-                  "phonetic": "/hort'zontl/",
+                  "phonetic": "/ˌhɔːrɪˈzɑːnt(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.水平的；与地面平行的n.水平面"
                 }
@@ -2997,13 +2997,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "orientation",
-                  "phonetic": "/orian'terfn/",
+                  "phonetic": "/ˌɔːriənˈteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.方向；目标；观点"
                 },
                 {
                   "word": "oriental",
-                  "phonetic": "/ori'entl/",
+                  "phonetic": "/ˌɔːriˈent(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.东方的；东方人的"
                 }
@@ -3013,7 +3013,7 @@ window.CET6_DATA = {
               "id": "u1_l4_49",
               "num": "42",
               "word": "scene",
-              "phonetic": "/sin/",
+              "phonetic": "/siːn/",
               "pos": "n.",
               "meaning": "n.风景，景色；舞台布景；情景；现场",
               "highlight": "n.风景",
@@ -3023,7 +3023,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "scenic",
-                  "phonetic": "/'sinik/",
+                  "phonetic": "/ˈsiːnɪk/",
                   "pos": "adj.",
                   "meaning": "adj.风景优美的"
                 }
@@ -3168,7 +3168,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "systematic",
-                  "phonetic": "/isiste'maetik/",
+                  "phonetic": "/ˌsɪstəˈmætɪk/",
                   "pos": "adj.",
                   "meaning": "adj.系统的；有条理的"
                 }
@@ -3204,7 +3204,7 @@ window.CET6_DATA = {
               "id": "u2_l1_07",
               "num": "07",
               "word": "limb",
-              "phonetic": "/lim/",
+              "phonetic": "/lɪm/",
               "pos": "n.",
               "meaning": "n.肢，翼；大树枝",
               "highlight": "n.肢",
@@ -3243,7 +3243,7 @@ window.CET6_DATA = {
               "id": "u2_l1_10",
               "num": "10",
               "word": "abreast",
-              "phonetic": "/s'brest/",
+              "phonetic": "/əˈbrest/",
               "pos": "",
               "meaning": "adu.并列，并排，并肩",
               "highlight": "adu.并列",
@@ -3258,7 +3258,7 @@ window.CET6_DATA = {
               "id": "u2_l1_11",
               "num": "11",
               "word": "belly",
-              "phonetic": "/'beli/",
+              "phonetic": "/ˈbeli/",
               "pos": "n.",
               "meaning": "n.腹部；圆形或凸起部分",
               "highlight": "n.腹部",
@@ -3288,7 +3288,7 @@ window.CET6_DATA = {
               "id": "u2_l1_13",
               "num": "13",
               "word": "yard",
-              "phonetic": "/jɑːd/",
+              "phonetic": "/jɑːrd/",
               "pos": "n.",
               "meaning": "n.院子；码（长度单位）",
               "highlight": "n.院子",
@@ -3301,7 +3301,7 @@ window.CET6_DATA = {
               "id": "u2_l1_14",
               "num": "14",
               "word": "insect",
-              "phonetic": "/'insekt/",
+              "phonetic": "/ˈɪnsekt/",
               "pos": "n.",
               "meaning": "n.昆虫",
               "highlight": "n.昆虫",
@@ -3329,7 +3329,7 @@ window.CET6_DATA = {
               "id": "u2_l1_16",
               "num": "16",
               "word": "bleak",
-              "phonetic": "/blik/",
+              "phonetic": "/bliːk/",
               "pos": "adj.",
               "meaning": "adj.不乐观的，无望的；阴冷的；荒",
               "highlight": "adj.不乐观的",
@@ -3344,7 +3344,7 @@ window.CET6_DATA = {
               "id": "u2_l1_17",
               "num": "17",
               "word": "blink",
-              "phonetic": "/bligk/",
+              "phonetic": "/blɪŋk/",
               "pos": "v.",
               "meaning": "v.眨眼睛；（灯光）闪烁n.眨眼",
               "highlight": "v.眨眼睛",
@@ -3359,7 +3359,7 @@ window.CET6_DATA = {
               "id": "u2_l1_18",
               "num": "18",
               "word": "brisk",
-              "phonetic": "/brisk/",
+              "phonetic": "/brɪsk/",
               "pos": "adj.",
               "meaning": "adj.轻快的；敏捷的；麻利的；清 新的",
               "highlight": "adj.轻快的",
@@ -3372,7 +3372,7 @@ window.CET6_DATA = {
               "id": "u2_l1_19",
               "num": "19",
               "word": "humid",
-              "phonetic": "/'hjumid/",
+              "phonetic": "/ˈhjuːmɪd/",
               "pos": "adj.",
               "meaning": "adj.温暖潮湿的，湿热的",
               "highlight": "adj.温暖潮湿的",
@@ -3392,7 +3392,7 @@ window.CET6_DATA = {
               "id": "u2_l1_20",
               "num": "20",
               "word": "moist",
-              "phonetic": "/moist/",
+              "phonetic": "/mɔɪst/",
               "pos": "adj.",
               "meaning": "adj.潮湿的，湿润的",
               "highlight": "adj.潮湿的",
@@ -3402,7 +3402,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "moisture",
-                  "phonetic": "/'moistfa(r)/",
+                  "phonetic": "/ˈmɔɪstʃər/",
                   "pos": "n.",
                   "meaning": "n.潮气；水汽"
                 }
@@ -3414,7 +3414,7 @@ window.CET6_DATA = {
               "id": "u2_l1_21",
               "num": "21",
               "word": "damp",
-              "phonetic": "/daemp/",
+              "phonetic": "/dæmp/",
               "pos": "adj.",
               "meaning": "adj.潮湿的n.潮湿，潮气 v.使潮湿",
               "highlight": "adj.潮湿的n.潮湿",
@@ -3424,7 +3424,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "dampen",
-                  "phonetic": "/daempan/",
+                  "phonetic": "/ˈdæmpən/",
                   "pos": "v.",
                   "meaning": "v.弄湿；抑制，减弱"
                 }
@@ -3436,7 +3436,7 @@ window.CET6_DATA = {
               "id": "u2_l1_22",
               "num": "22",
               "word": "render",
-              "phonetic": "/'renda(r)/",
+              "phonetic": "/ˈrendər/",
               "pos": "v.",
               "meaning": "v.使变得，使处于某状态；给予，回 报；呈献",
               "highlight": "v.使变得",
@@ -3446,7 +3446,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "rendering",
-                  "phonetic": "/'rendarin/",
+                  "phonetic": "/ˈrendərɪŋ/",
                   "pos": "n.",
                   "meaning": "n.演奏；扮演；翻译"
                 }
@@ -3456,7 +3456,7 @@ window.CET6_DATA = {
               "id": "u2_l1_23",
               "num": "23",
               "word": "surrender",
-              "phonetic": "/sa'renda(r)/",
+              "phonetic": "/səˈrendər/",
               "pos": "n.",
               "meaning": "n.投降；屈服 v.投降；自首；放弃，交出",
               "highlight": "n.投降",
@@ -3469,7 +3469,7 @@ window.CET6_DATA = {
               "id": "u2_l1_24",
               "num": "24",
               "word": "drought",
-              "phonetic": "/draut/",
+              "phonetic": "/draʊt/",
               "pos": "n.",
               "meaning": "n.久旱；早灾",
               "highlight": "n.久旱",
@@ -3482,7 +3482,7 @@ window.CET6_DATA = {
               "id": "u2_l1_25",
               "num": "25",
               "word": "humble",
-              "phonetic": "/'hAmbl/",
+              "phonetic": "/ˈhʌmb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.谦逊的；卑微的",
               "highlight": "adj.谦逊的",
@@ -3492,7 +3492,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "humbly",
-                  "phonetic": "/'hAmbli/",
+                  "phonetic": "/ˈhʌmbli/",
                   "pos": "",
                   "meaning": "adu.卑微地；谦逊地"
                 }
@@ -3502,7 +3502,7 @@ window.CET6_DATA = {
               "id": "u2_l1_26",
               "num": "26",
               "word": "tumble",
-              "phonetic": "/'tambl/",
+              "phonetic": "/ˈtʌmb(ə)l/",
               "pos": "n.",
               "meaning": "n.跌倒 v.跌倒；倒塌；骤降",
               "highlight": "n.跌倒 v.跌倒",
@@ -3525,7 +3525,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "humiliation",
-                  "phonetic": "/hjusmli'erfn/",
+                  "phonetic": "/hjuːˌmɪliˈeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.丢脸；羞辱；耻辱"
                 }
@@ -3564,7 +3564,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "humanitarian",
-                  "phonetic": "/hjuimeen'tearian/",
+                  "phonetic": "/hjuːˌmænɪˈteriən/",
                   "pos": "adj.",
                   "meaning": "adj.人道主义的；慈善的"
                 },
@@ -3582,7 +3582,7 @@ window.CET6_DATA = {
               "id": "u2_l1_30",
               "num": "30",
               "word": "feminine",
-              "phonetic": "/'femanin/",
+              "phonetic": "/ˈfemənɪn/",
               "pos": "adj.",
               "meaning": "adj.女性特有的，妇女的；阴性的",
               "highlight": "adj.女性特有的",
@@ -3598,7 +3598,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "feminist",
-                  "phonetic": "/femanist/",
+                  "phonetic": "/ˈfemənɪst/",
                   "pos": "n.",
                   "meaning": "n.女权主义者；女性主义者"
                 }
@@ -3608,7 +3608,7 @@ window.CET6_DATA = {
               "id": "u2_l1_31",
               "num": "31",
               "word": "famine",
-              "phonetic": "/femin/",
+              "phonetic": "/ˈfæmɪn/",
               "pos": "n.",
               "meaning": "n.饥荒，饥饿",
               "highlight": "n.饥荒",
@@ -3638,7 +3638,7 @@ window.CET6_DATA = {
               "id": "u2_l1_33",
               "num": "33",
               "word": "exist",
-              "phonetic": "/ng'zist/",
+              "phonetic": "/ɪɡˈzɪst/",
               "pos": "v.",
               "meaning": "v.存在；实际上有；生存",
               "highlight": "v.存在",
@@ -3648,19 +3648,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "existence",
-                  "phonetic": "/ig'zistans/",
+                  "phonetic": "/ɪɡˈzɪstəns/",
                   "pos": "n.",
                   "meaning": "n.存在；生活，生活方式"
                 },
                 {
                   "word": "existent",
-                  "phonetic": "/igzistant/",
+                  "phonetic": "/ɪɡˈzɪstənt/",
                   "pos": "adj.",
                   "meaning": "adj.存在的 n.存在(或实有)的事物"
                 },
                 {
                   "word": "existing",
-                  "phonetic": "/ig'zistig/",
+                  "phonetic": "/ɪɡˈzɪstɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.现存的；现行的"
                 }
@@ -3670,7 +3670,7 @@ window.CET6_DATA = {
               "id": "u2_l1_34",
               "num": "34",
               "word": "irrigate",
-              "phonetic": "/'iriget/",
+              "phonetic": "/ˈɪrɪɡeɪt/",
               "pos": "v.",
               "meaning": "v.灌溉",
               "highlight": "v.灌溉",
@@ -3680,7 +3680,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "irrigation",
-                  "phonetic": "/ur'gerfn/",
+                  "phonetic": "/ˌɪrɪˈɡeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.灌溉"
                 }
@@ -3690,7 +3690,7 @@ window.CET6_DATA = {
               "id": "u2_l1_35",
               "num": "35",
               "word": "irritable",
-              "phonetic": "/qeu /",
+              "phonetic": "/ˈɪrɪtəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.急躁的，易怒的",
               "highlight": "adj.急躁的",
@@ -3700,19 +3700,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "irritate",
-                  "phonetic": "/'rtent/",
+                  "phonetic": "/ˈɪrɪteɪt/",
                   "pos": "v.",
                   "meaning": "v.使烦恼；刺激"
                 },
                 {
                   "word": "irritation",
-                  "phonetic": "/ur'terfn/",
+                  "phonetic": "/ˌɪrɪˈteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.刺激；刺激物；恼人的事"
                 },
                 {
                   "word": "irritating",
-                  "phonetic": "/'ritert/",
+                  "phonetic": "/ˈɪrɪteɪtɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.气人的，使人不愉快的"
                 }
@@ -3746,7 +3746,7 @@ window.CET6_DATA = {
               "id": "u2_l1_37",
               "num": "37",
               "word": "temper",
-              "phonetic": "/'tempa(r)/",
+              "phonetic": "/ˈtempər/",
               "pos": "n.",
               "meaning": "n.脾气；心情",
               "highlight": "n.脾气",
@@ -3761,7 +3761,7 @@ window.CET6_DATA = {
               "id": "u2_l1_38",
               "num": "38",
               "word": "temperament",
-              "phonetic": "/'tempramant/",
+              "phonetic": "/ˈtemprəmənt/",
               "pos": "n.",
               "meaning": "n.气质，禀性；暴躁；喜怒无常",
               "highlight": "n.气质",
@@ -3774,7 +3774,7 @@ window.CET6_DATA = {
               "id": "u2_l1_39",
               "num": "39",
               "word": "inevitable",
-              "phonetic": "/in'evitabl/",
+              "phonetic": "/ɪnˈevɪtəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.不可避免的；惯常的",
               "highlight": "adj.不可避免的",
@@ -3784,7 +3784,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inevitably",
-                  "phonetic": "/in'evitabli/",
+                  "phonetic": "/ɪnˈevɪtəbli/",
                   "pos": "adv.",
                   "meaning": "adv.不可避免地；必然地"
                 }
@@ -3794,7 +3794,7 @@ window.CET6_DATA = {
               "id": "u2_l1_40",
               "num": "40",
               "word": "organ",
-              "phonetic": "/'gan/",
+              "phonetic": "/ˈɔːrɡən/",
               "pos": "n.",
               "meaning": "n.器官；风琴；（官方的）机构，机关",
               "highlight": "n.器官",
@@ -3807,7 +3807,7 @@ window.CET6_DATA = {
               "id": "u2_l1_41",
               "num": "42",
               "word": "organism",
-              "phonetic": "/ganizam/",
+              "phonetic": "/ˈɔːrɡənɪzəm/",
               "pos": "n.",
               "meaning": "n.生物；有机体；(尤指）微生物",
               "highlight": "n.生物",
@@ -3820,7 +3820,7 @@ window.CET6_DATA = {
               "id": "u2_l1_42",
               "num": "43",
               "word": "sanctuary",
-              "phonetic": "/uenyluaes /",
+              "phonetic": "/ˈsæŋktʃueri/",
               "pos": "n.",
               "meaning": "n.避难所；庇护；鸟兽保护区，禁猎 区；圣殿",
               "highlight": "n.避难所",
@@ -3883,7 +3883,7 @@ window.CET6_DATA = {
               "id": "u2_l1_45",
               "num": "46",
               "word": "diagnose",
-              "phonetic": "/ˈdaɪəɡnəʊz/",
+              "phonetic": "/ˌdaɪəɡˈnoʊs/",
               "pos": "",
               "meaning": "v. 诊断(疾病)；判断",
               "highlight": "idarag'nauz/ v.诊断(疾病);判断",
@@ -3893,7 +3893,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "diagnosis",
-                  "phonetic": "/idarag'nausis/",
+                  "phonetic": "/ˌdaɪəɡˈnoʊsɪs/",
                   "pos": "n.",
                   "meaning": "n.诊断；判断"
                 }
@@ -3903,7 +3903,7 @@ window.CET6_DATA = {
               "id": "u2_l1_46",
               "num": "47",
               "word": "clinic",
-              "phonetic": "/'klinik/",
+              "phonetic": "/ˈklɪnɪk/",
               "pos": "n.",
               "meaning": "n.诊所；临床实习",
               "highlight": "n.诊所",
@@ -3918,7 +3918,7 @@ window.CET6_DATA = {
               "id": "u2_l1_47",
               "num": "48",
               "word": "chronic",
-              "phonetic": "/'kronik/",
+              "phonetic": "/ˈkrɑːnɪk/",
               "pos": "adj.",
               "meaning": "adj.慢性的；长期的",
               "highlight": "adj.慢性的",
@@ -3938,7 +3938,7 @@ window.CET6_DATA = {
               "id": "u2_l1_48",
               "num": "49",
               "word": "chronicle",
-              "phonetic": "/'kronikl/",
+              "phonetic": "/ˈkrɑːnɪk(ə)l/",
               "pos": "n.",
               "meaning": "n.编年史，大事记v.把...载入编 年史；按事件顺序记载",
               "highlight": "n.编年史",
@@ -3953,7 +3953,7 @@ window.CET6_DATA = {
               "id": "u2_l1_49",
               "num": "50",
               "word": "benign",
-              "phonetic": "/bi'nain/",
+              "phonetic": "/bɪˈnaɪn/",
               "pos": "adj.",
               "meaning": "adj.善良的，和善的，慈祥的；良 性的",
               "highlight": "adj.善良的",
@@ -3968,7 +3968,7 @@ window.CET6_DATA = {
               "id": "u2_l1_50",
               "num": "51",
               "word": "wholesome",
-              "phonetic": "/'haulsam/",
+              "phonetic": "/ˈhoʊlsəm/",
               "pos": "adj.",
               "meaning": "adj.有益健康的",
               "highlight": "adj.有益健康的",
@@ -3981,7 +3981,7 @@ window.CET6_DATA = {
               "id": "u2_l1_51",
               "num": "52",
               "word": "malice",
-              "phonetic": "/'melis/",
+              "phonetic": "/ˈmælɪs/",
               "pos": "n.",
               "meaning": "n.恶意；怨恨",
               "highlight": "n.恶意",
@@ -3994,7 +3994,7 @@ window.CET6_DATA = {
               "id": "u2_l1_52",
               "num": "53",
               "word": "malicious",
-              "phonetic": "/ma/lifas/",
+              "phonetic": "/məˈlɪʃəs/",
               "pos": "adj.",
               "meaning": "adj.怀有恶意的，恶毒的",
               "highlight": "adj.怀有恶意的",
@@ -4007,7 +4007,7 @@ window.CET6_DATA = {
               "id": "u2_l1_53",
               "num": "54",
               "word": "malignant",
-              "phonetic": "/ma'lignant/",
+              "phonetic": "/məˈlɪɡnənt/",
               "pos": "adj.",
               "meaning": "adj.恶性的；恶意的，恶毒的",
               "highlight": "adj.恶性的",
@@ -4033,7 +4033,7 @@ window.CET6_DATA = {
               "id": "u2_l1_55",
               "num": "56",
               "word": "acute",
-              "phonetic": "/a'kjut/",
+              "phonetic": "/əˈkjuːt/",
               "pos": "adj.",
               "meaning": "adj.严重的；敏锐的；急性的",
               "highlight": "adj.严重的",
@@ -4046,7 +4046,7 @@ window.CET6_DATA = {
               "id": "u2_l1_56",
               "num": "57",
               "word": "fatal",
-              "phonetic": "/'fertl/",
+              "phonetic": "/ˈfeɪt(ə)l/",
               "pos": "adj.",
               "meaning": "adj.致命的；灾难性的",
               "highlight": "adj.致命的",
@@ -4056,7 +4056,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "fatality",
-                  "phonetic": "/fa'taelati/",
+                  "phonetic": "/feɪˈtæləti/",
                   "pos": "n.",
                   "meaning": "n.致命性；死亡；宿命"
                 }
@@ -4066,7 +4066,7 @@ window.CET6_DATA = {
               "id": "u2_l1_57",
               "num": "58",
               "word": "severe",
-              "phonetic": "/st'va(r)/",
+              "phonetic": "/sɪˈvɪr/",
               "pos": "adj.",
               "meaning": "adj.十分严重的；严厉的，苛刻的",
               "highlight": "adj.十分严重的",
@@ -4076,7 +4076,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "severity",
-                  "phonetic": "/st'verati/",
+                  "phonetic": "/sɪˈverəti/",
                   "pos": "n.",
                   "meaning": "n.严格，严厉；严重"
                 }
@@ -4098,7 +4098,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "terminate",
-                  "phonetic": "/'tsmnet/",
+                  "phonetic": "/ˈtɜːrmɪneɪt/",
                   "pos": "v.",
                   "meaning": "v.(使)结束；到达终点站"
                 }
@@ -4110,7 +4110,7 @@ window.CET6_DATA = {
               "id": "u2_l1_59",
               "num": "60",
               "word": "perish",
-              "phonetic": "/'peris/",
+              "phonetic": "/ˈperɪʃ/",
               "pos": "v.",
               "meaning": "v.死亡；丧失；湮灭，毁灭；碎裂",
               "highlight": "v.死亡",
@@ -4135,13 +4135,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "destruction",
-                  "phonetic": "/dt'strAkjn/",
+                  "phonetic": "/dɪˈstrʌkʃn/",
                   "pos": "n.",
                   "meaning": "n.摧毁，毁灭；破坏"
                 },
                 {
                   "word": "destructive",
-                  "phonetic": "/di'strAktIv/",
+                  "phonetic": "/dɪˈstrʌktɪv/",
                   "pos": "adj.",
                   "meaning": "adj.破坏性的"
                 }
@@ -4151,7 +4151,7 @@ window.CET6_DATA = {
               "id": "u2_l1_61",
               "num": "62",
               "word": "devastate",
-              "phonetic": "/'devastet/",
+              "phonetic": "/ˈdevəsteɪt/",
               "pos": "v.",
               "meaning": "v.摧毁，毁灭；使震惊；使极为忧伤",
               "highlight": "v.摧毁",
@@ -4161,13 +4161,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "devastating",
-                  "phonetic": "/'devastertrn/",
+                  "phonetic": "/ˈdevəsteɪtɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.毁灭性的；令人震惊的"
                 },
                 {
                   "word": "devastation",
-                  "phonetic": "/ideva'stefn/",
+                  "phonetic": "/ˌdevəˈsteɪʃn/",
                   "pos": "n.",
                   "meaning": "n.毁灭；破坏"
                 }
@@ -4177,7 +4177,7 @@ window.CET6_DATA = {
               "id": "u2_l1_62",
               "num": "63",
               "word": "remedy",
-              "phonetic": "/'remadi/",
+              "phonetic": "/ˈremədi/",
               "pos": "v.",
               "meaning": "v.改正；改进 n.治疗，疗法；解决办法",
               "highlight": "v.改正",
@@ -4187,7 +4187,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "remedial",
-                  "phonetic": "/r'midial/",
+                  "phonetic": "/rɪˈmiːdiəl/",
                   "pos": "adj.",
                   "meaning": "adj.补救的；辅导的"
                 }
@@ -4199,7 +4199,7 @@ window.CET6_DATA = {
               "id": "u2_l1_63",
               "num": "64",
               "word": "therapy",
-              "phonetic": "/'Berapi/",
+              "phonetic": "/ˈθerəpi/",
               "pos": "n.",
               "meaning": "n.治疗，疗法",
               "highlight": "n.治疗",
@@ -4209,7 +4209,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "therapist",
-                  "phonetic": "/derapist/",
+                  "phonetic": "/ˈθerəpɪst/",
                   "pos": "n.",
                   "meaning": "n.(某治疗法的)治疗专家"
                 }
@@ -4219,7 +4219,7 @@ window.CET6_DATA = {
               "id": "u2_l1_64",
               "num": "65",
               "word": "salvation",
-              "phonetic": "/sael'verfn/",
+              "phonetic": "/sælˈveɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.解救；解救途径",
               "highlight": "n.解救",
@@ -4265,7 +4265,7 @@ window.CET6_DATA = {
               "id": "u2_l1_67",
               "num": "68",
               "word": "physician",
-              "phonetic": "/ft'zifn/",
+              "phonetic": "/fɪˈzɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.医生，(尤指）内科医生",
               "highlight": "n.医生",
@@ -4278,7 +4278,7 @@ window.CET6_DATA = {
               "id": "u2_l1_68",
               "num": "69",
               "word": "medication",
-              "phonetic": "/medi'kerfn/",
+              "phonetic": "/ˌmedɪˈkeɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.药，药物",
               "highlight": "n.药",
@@ -4293,7 +4293,7 @@ window.CET6_DATA = {
               "id": "u2_l1_69",
               "num": "70",
               "word": "tablet",
-              "phonetic": "/'taeblat/",
+              "phonetic": "/ˈtæblət/",
               "pos": "n.",
               "meaning": "n.药片",
               "highlight": "n.药片",
@@ -4385,7 +4385,7 @@ window.CET6_DATA = {
               "id": "u2_l2_01",
               "num": "73",
               "word": "obscure",
-              "phonetic": "/ab'skjua(r)/",
+              "phonetic": "/əbˈskjʊr/",
               "pos": "v.",
               "meaning": "v.使模糊；使费解；遮蔽 adj.鲜为人知的；模糊的；费解的",
               "highlight": "v.使模糊",
@@ -4395,7 +4395,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "obscurity",
-                  "phonetic": "/ab'skjuarati/",
+                  "phonetic": "/əbˈskjʊrəti/",
                   "pos": "n.",
                   "meaning": "n.费解，晦涩；默默无闻"
                 }
@@ -4418,7 +4418,7 @@ window.CET6_DATA = {
               "id": "u2_l2_03",
               "num": "75",
               "word": "secure",
-              "phonetic": "/st'kjua(r)/",
+              "phonetic": "/sɪˈkjʊr/",
               "pos": "v.",
               "meaning": "v.保护，使安全 adj.安全的；可靠的，稳固的",
               "highlight": "v.保护",
@@ -4428,7 +4428,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "security",
-                  "phonetic": "/st'kjuarati/",
+                  "phonetic": "/sɪˈkjʊrəti/",
                   "pos": "n.",
                   "meaning": "n.安全；抵押品；安保"
                 }
@@ -4438,7 +4438,7 @@ window.CET6_DATA = {
               "id": "u2_l2_04",
               "num": "76",
               "word": "consecutive",
-              "phonetic": "/kan'sekjativ/",
+              "phonetic": "/kənˈsekjətɪv/",
               "pos": "adj.",
               "meaning": "adj.连续不断的",
               "highlight": "adj.连续不断的 Lesson 2",
@@ -4451,7 +4451,7 @@ window.CET6_DATA = {
               "id": "u2_l2_05",
               "num": "01",
               "word": "carbohydrate",
-              "phonetic": "/ˌkɑːbəʊ'haɪdreɪt/",
+              "phonetic": "/ˌkɑːrboʊˈhaɪdreɪt/",
               "pos": "n.",
               "meaning": "n. 碳水化合物",
               "highlight": "",
@@ -4464,7 +4464,7 @@ window.CET6_DATA = {
               "id": "u2_l2_06",
               "num": "02",
               "word": "saturate",
-              "phonetic": "/'saetfarert/",
+              "phonetic": "/ˈsætʃəreɪt/",
               "pos": "v.",
               "meaning": "v.使湿透；使充满；使饱和",
               "highlight": "v.使湿透",
@@ -4484,7 +4484,7 @@ window.CET6_DATA = {
               "id": "u2_l2_07",
               "num": "03",
               "word": "drain",
-              "phonetic": "/drein/",
+              "phonetic": "/dreɪn/",
               "pos": "v.",
               "meaning": "v.使排出；使耗尽 n.排水；下水道；消耗",
               "highlight": "v.使排出",
@@ -4516,7 +4516,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "muddy",
-                  "phonetic": "/'madi/",
+                  "phonetic": "/ˈmʌdi/",
                   "pos": "adj.",
                   "meaning": "adj.多泥的，泥泞的"
                 }
@@ -4528,7 +4528,7 @@ window.CET6_DATA = {
               "id": "u2_l2_09",
               "num": "05",
               "word": "dirt",
-              "phonetic": "/dɜːt/",
+              "phonetic": "/dɜːrt/",
               "pos": "n.",
               "meaning": "n. 泥土；污物；灰尘；丑闻",
               "highlight": "n. 泥土；污物",
@@ -4548,7 +4548,7 @@ window.CET6_DATA = {
               "id": "u2_l2_10",
               "num": "06",
               "word": "trench",
-              "phonetic": "/trents/",
+              "phonetic": "/trentʃ/",
               "pos": "n.",
               "meaning": "n.沟，渠；战壕；海沟",
               "highlight": "n.沟",
@@ -4589,7 +4589,7 @@ window.CET6_DATA = {
               "id": "u2_l2_12",
               "num": "80",
               "word": "refresh",
-              "phonetic": "/ri'fref/",
+              "phonetic": "/rɪˈfreʃ/",
               "pos": "v.",
               "meaning": "v.使恢复精力；使清凉；更新",
               "highlight": "v.使恢复精力",
@@ -4599,7 +4599,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "refreshment",
-                  "phonetic": "/r'frefmant/",
+                  "phonetic": "/rɪˈfreʃmənt/",
                   "pos": "n.",
                   "meaning": "n.点心；恢复精力"
                 }
@@ -4611,7 +4611,7 @@ window.CET6_DATA = {
               "id": "u2_l2_13",
               "num": "09",
               "word": "stale",
-              "phonetic": "/stel/",
+              "phonetic": "/steɪl/",
               "pos": "adj.",
               "meaning": "adj.不新鲜的；厌倦的；没有新意的",
               "highlight": "adj.不新鲜的",
@@ -4624,7 +4624,7 @@ window.CET6_DATA = {
               "id": "u2_l2_14",
               "num": "10",
               "word": "outdated",
-              "phonetic": "/laut'deitid/",
+              "phonetic": "/ˌaʊtˈdeɪtɪd/",
               "pos": "adj.",
               "meaning": "adj.过时的，陈旧的",
               "highlight": "adj.过时的",
@@ -4688,7 +4688,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "recurrence",
-                  "phonetic": "/r'kArans/",
+                  "phonetic": "/rɪˈkɜːrəns/",
                   "pos": "n.",
                   "meaning": "n.重现；复发"
                 }
@@ -4710,7 +4710,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "occurrence",
-                  "phonetic": "/a'kArans/",
+                  "phonetic": "/əˈkɜːrəns/",
                   "pos": "n.",
                   "meaning": "n.出现；发生"
                 }
@@ -4752,7 +4752,7 @@ window.CET6_DATA = {
               "id": "u2_l2_22",
               "num": "18",
               "word": "resource",
-              "phonetic": "/rt'sos/",
+              "phonetic": "/ˈriːsɔːrs/",
               "pos": "n.",
               "meaning": "n.资源；财力；资料；智谋",
               "highlight": "n.资源",
@@ -4762,7 +4762,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "resourceful",
-                  "phonetic": "/rt'sosfl/",
+                  "phonetic": "/rɪˈsɔːrsf(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.机敏的；足智多谋的"
                 }
@@ -4772,7 +4772,7 @@ window.CET6_DATA = {
               "id": "u2_l2_23",
               "num": "19",
               "word": "recycle",
-              "phonetic": "/ri'sarkl/",
+              "phonetic": "/ˌriːˈsaɪk(ə)l/",
               "pos": "v.",
               "meaning": "v.回收，再循环",
               "highlight": "v.回收",
@@ -4802,7 +4802,7 @@ window.CET6_DATA = {
               "id": "u2_l2_25",
               "num": "21",
               "word": "triple",
-              "phonetic": "/'tripl/",
+              "phonetic": "/ˈtrɪp(ə)l/",
               "pos": "v.",
               "meaning": "v.成为三倍，使增至三倍adj.三倍的",
               "highlight": "v.成为三倍",
@@ -4817,7 +4817,7 @@ window.CET6_DATA = {
               "id": "u2_l2_26",
               "num": "22",
               "word": "tribe",
-              "phonetic": "/traib/",
+              "phonetic": "/traɪb/",
               "pos": "n.",
               "meaning": "n.部落；一大群人",
               "highlight": "n.部落",
@@ -4832,7 +4832,7 @@ window.CET6_DATA = {
               "id": "u2_l2_27",
               "num": "23",
               "word": "trivial",
-              "phonetic": "/lelA /",
+              "phonetic": "/ˈtrɪviəl/",
               "pos": "adj.",
               "meaning": "adj.不重要的，琐碎的，微不足道的",
               "highlight": "adj.不重要的",
@@ -4882,7 +4882,7 @@ window.CET6_DATA = {
               "id": "u2_l2_30",
               "num": "26",
               "word": "navigate",
-              "phonetic": "/'navigert/",
+              "phonetic": "/ˈnævɪɡeɪt/",
               "pos": "v.",
               "meaning": "v.导航；航行，航海",
               "highlight": "v.导航",
@@ -4902,7 +4902,7 @@ window.CET6_DATA = {
               "id": "u2_l2_31",
               "num": "27",
               "word": "deviate",
-              "phonetic": "/'diviert/",
+              "phonetic": "/ˈdiːvieɪt/",
               "pos": "v.",
               "meaning": "v.背离，偏离；违背",
               "highlight": "v.背离",
@@ -4912,7 +4912,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "deviation",
-                  "phonetic": "/idivi'erfn/",
+                  "phonetic": "/ˌdiːviˈeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.偏离；违背；偏差"
                 }
@@ -4922,7 +4922,7 @@ window.CET6_DATA = {
               "id": "u2_l2_32",
               "num": "28",
               "word": "indispensable",
-              "phonetic": "/ˌɪndɪ'spensəbl/",
+              "phonetic": "/ˌɪndɪˈspensəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj. 不可或缺的，必不可少的",
               "highlight": "",
@@ -4937,7 +4937,7 @@ window.CET6_DATA = {
               "id": "u2_l2_33",
               "num": "29",
               "word": "essence",
-              "phonetic": "/'esns/",
+              "phonetic": "/ˈes(ə)ns/",
               "pos": "n.",
               "meaning": "n.本质；精髓；精华；精油",
               "highlight": "n.本质",
@@ -4963,7 +4963,7 @@ window.CET6_DATA = {
               "id": "u2_l2_35",
               "num": "31",
               "word": "fundamental",
-              "phonetic": "/fanda'mentl/",
+              "phonetic": "/ˌfʌndəˈment(ə)l/",
               "pos": "adj.",
               "meaning": "adj.根本的；基本的；必不可少的 n.基本原理",
               "highlight": "adj.根本的",
@@ -4978,7 +4978,7 @@ window.CET6_DATA = {
               "id": "u2_l2_36",
               "num": "32",
               "word": "foundation",
-              "phonetic": "/faun'dein/",
+              "phonetic": "/faʊnˈdeɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.基础；根据；创办；基金会；地基",
               "highlight": "n.基础",
@@ -4993,7 +4993,7 @@ window.CET6_DATA = {
               "id": "u2_l2_37",
               "num": "33",
               "word": "cornerstone",
-              "phonetic": "/'konastaun/",
+              "phonetic": "/ˈkɔːrnərstoʊn/",
               "pos": "n.",
               "meaning": "n.基石；基础",
               "highlight": "n.基石",
@@ -5008,7 +5008,7 @@ window.CET6_DATA = {
               "id": "u2_l2_38",
               "num": "34",
               "word": "milestone",
-              "phonetic": "/'malstaun/",
+              "phonetic": "/ˈmaɪlstoʊn/",
               "pos": "n.",
               "meaning": "n.重要事件；里程碑",
               "highlight": "n.重要事件",
@@ -5068,7 +5068,7 @@ window.CET6_DATA = {
               "id": "u2_l2_42",
               "num": "38",
               "word": "imperative",
-              "phonetic": "/im'perativ/",
+              "phonetic": "/ɪmˈperətɪv/",
               "pos": "n.",
               "meaning": "n.重要紧急的事 adj.重要紧急的，迫切的",
               "highlight": "n.重要紧急的事 adj.重要紧急的",
@@ -5083,7 +5083,7 @@ window.CET6_DATA = {
               "id": "u2_l2_43",
               "num": "39",
               "word": "necessary",
-              "phonetic": "/'nesasari/",
+              "phonetic": "/ˈnesəseri/",
               "pos": "adj.",
               "meaning": "adj.必需的，必要的",
               "highlight": "adj.必需的",
@@ -5093,13 +5093,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "necessarily",
-                  "phonetic": "/inesa'serali/",
+                  "phonetic": "/ˌnesəˈserəli/",
                   "pos": "adv.",
                   "meaning": "adv.必然地，不可避免地"
                 },
                 {
                   "word": "necessity",
-                  "phonetic": "/na'sesati/",
+                  "phonetic": "/nəˈsesəti/",
                   "pos": "n.",
                   "meaning": "n.必然；必要；需要"
                 }
@@ -5111,7 +5111,7 @@ window.CET6_DATA = {
               "id": "u2_l2_44",
               "num": "40",
               "word": "necessitate",
-              "phonetic": "/na'sesiteit/",
+              "phonetic": "/nəˈsesɪteɪt/",
               "pos": "v.",
               "meaning": "v.使成为必要",
               "highlight": "v.使成为必要",
@@ -5124,7 +5124,7 @@ window.CET6_DATA = {
               "id": "u2_l2_45",
               "num": "41",
               "word": "primary",
-              "phonetic": "/'pramari/",
+              "phonetic": "/ˈpraɪmeri/",
               "pos": "adj.",
               "meaning": "adj.主要的；最重要的；最初的 n.(美国）初选",
               "highlight": "adj.主要的",
@@ -5199,7 +5199,7 @@ window.CET6_DATA = {
               "id": "u2_l3_02",
               "num": "42",
               "word": "secondary",
-              "phonetic": "/'sekandri/",
+              "phonetic": "/ˈsekənderi/",
               "pos": "adj.",
               "meaning": "adj.次要的；从属的；中学的",
               "highlight": "adj.次要的",
@@ -5214,7 +5214,7 @@ window.CET6_DATA = {
               "id": "u2_l3_03",
               "num": "43",
               "word": "primitive",
-              "phonetic": "/'primativ/",
+              "phonetic": "/ˈprɪmətɪv/",
               "pos": "adj.",
               "meaning": "adj.原始的；本能的",
               "highlight": "adj.原始的",
@@ -5227,7 +5227,7 @@ window.CET6_DATA = {
               "id": "u2_l3_04",
               "num": "44",
               "word": "prime",
-              "phonetic": "/praim/",
+              "phonetic": "/praɪm/",
               "pos": "adj.",
               "meaning": "adj.最重要的，首要的；优质的n.盛 年；鼎盛时期v.使(某人)做好准备",
               "highlight": "adj.最重要的",
@@ -5240,7 +5240,7 @@ window.CET6_DATA = {
               "id": "u2_l3_05",
               "num": "45",
               "word": "prior",
-              "phonetic": "/praia(r)/",
+              "phonetic": "/ˈpraɪər/",
               "pos": "adj.",
               "meaning": "adj.先前的；较早的；优先的；在……. 前面的",
               "highlight": "adj.先前的",
@@ -5253,7 +5253,7 @@ window.CET6_DATA = {
               "id": "u2_l3_06",
               "num": "46",
               "word": "priority",
-              "phonetic": "/pral'orati/",
+              "phonetic": "/praɪˈɔːrəti/",
               "pos": "n.",
               "meaning": "n.优先事项，当务之急；优先权 adj.优先的",
               "highlight": "n.优先事项",
@@ -5266,7 +5266,7 @@ window.CET6_DATA = {
               "id": "u2_l3_07",
               "num": "01",
               "word": "spot",
-              "phonetic": "/spɒt/",
+              "phonetic": "/spɑːt/",
               "pos": "n./v.",
               "meaning": "n. 斑点；污渍；场所 v. 看见，注意到，发现",
               "highlight": "n.斑点",
@@ -5281,7 +5281,7 @@ window.CET6_DATA = {
               "id": "u2_l3_08",
               "num": "02",
               "word": "pottery",
-              "phonetic": "/ueiad/",
+              "phonetic": "/ˈpɑːtəri/",
               "pos": "n.",
               "meaning": "n.陶器；陶土；制陶手艺；制陶厂",
               "highlight": "n.陶器",
@@ -5296,7 +5296,7 @@ window.CET6_DATA = {
               "id": "u2_l3_09",
               "num": "03",
               "word": "spotlight",
-              "phonetic": "/'spotlart/",
+              "phonetic": "/ˈspɑːtlaɪt/",
               "pos": "n.",
               "meaning": "n.聚光灯v.使突出，使显眼",
               "highlight": "n.聚光灯v.使突出",
@@ -5321,7 +5321,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "potentiality",
-                  "phonetic": "/paitenfi'elati/",
+                  "phonetic": "/pəˌtenʃiˈæləti/",
                   "pos": "",
                   "meaning": "/n.潜力；潜在的可能性"
                 }
@@ -5353,7 +5353,7 @@ window.CET6_DATA = {
               "id": "u2_l3_12",
               "num": "06",
               "word": "perpetual",
-              "phonetic": "/pa'petfual/",
+              "phonetic": "/pərˈpetʃuəl/",
               "pos": "adj.",
               "meaning": "adj.不间断的，持续的；永久的",
               "highlight": "adj.不间断的",
@@ -5363,7 +5363,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "perpetuate",
-                  "phonetic": "/pa'petfueit/",
+                  "phonetic": "/pərˈpetʃueɪt/",
                   "pos": "v.",
                   "meaning": "v.使永久化；使持久化；使持续"
                 }
@@ -5375,7 +5375,7 @@ window.CET6_DATA = {
               "id": "u2_l3_13",
               "num": "07",
               "word": "eternal",
-              "phonetic": "/i'tanl/",
+              "phonetic": "/ɪˈtɜːrn(ə)l/",
               "pos": "adj.",
               "meaning": "adj.永恒的，永远的",
               "highlight": "adj.永恒的",
@@ -5423,7 +5423,7 @@ window.CET6_DATA = {
               "id": "u2_l3_16",
               "num": "10",
               "word": "tangle",
-              "phonetic": "/'taengl/",
+              "phonetic": "/ˈtæŋɡ(ə)l/",
               "pos": "n.",
               "meaning": "n.乱糟糟的一堆；混乱；争吵 v.(使)缠结",
               "highlight": "n.乱糟糟的一堆",
@@ -5448,7 +5448,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "messy",
-                  "phonetic": "/'mesi/",
+                  "phonetic": "/ˈmesi/",
                   "pos": "adj.",
                   "meaning": "adj.肮脏的；凌乱的"
                 }
@@ -5470,7 +5470,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "chaotic",
-                  "phonetic": "/ke'otik/",
+                  "phonetic": "/keɪˈɑːtɪk/",
                   "pos": "adj.",
                   "meaning": "adj.混乱的"
                 }
@@ -5538,7 +5538,7 @@ window.CET6_DATA = {
               "id": "u2_l3_23",
               "num": "17",
               "word": "compound",
-              "phonetic": "/'kɒmpaʊnd/",
+              "phonetic": "/ˈkɑːmpaʊnd/",
               "pos": "n./adj./v.",
               "meaning": "n. 混合物；化合物 adj. 复合的 v. 使恶化，加重",
               "highlight": "/kompaund/ n.混合物",
@@ -5553,7 +5553,7 @@ window.CET6_DATA = {
               "id": "u2_l3_24",
               "num": "18",
               "word": "hybrid",
-              "phonetic": "/'haibrid/",
+              "phonetic": "/ˈhaɪbrɪd/",
               "pos": "n.",
               "meaning": "n.杂种动物；杂交植物；（不同事物的） 混合物",
               "highlight": "n.杂种动物",
@@ -5603,7 +5603,7 @@ window.CET6_DATA = {
               "id": "u2_l3_27",
               "num": "21",
               "word": "fluctuate",
-              "phonetic": "/'flaktfuert/",
+              "phonetic": "/ˈflʌktʃueɪt/",
               "pos": "v.",
               "meaning": "v.(大小、数量、质量等)波动，起伏",
               "highlight": "v.(大小、数量、质量等)波动",
@@ -5613,7 +5613,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "fluctuation",
-                  "phonetic": "/flaktfu'erfn/",
+                  "phonetic": "/ˌflʌktʃuˈeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.波动，起伏"
                 }
@@ -5623,7 +5623,7 @@ window.CET6_DATA = {
               "id": "u2_l3_28",
               "num": "22",
               "word": "stationary",
-              "phonetic": "/'sterfanri/",
+              "phonetic": "/ˈsteɪʃəneri/",
               "pos": "adj.",
               "meaning": "adj.不动的，静止的；固定的",
               "highlight": "adj.不动的",
@@ -5633,7 +5633,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "station",
-                  "phonetic": "/'sterfn/",
+                  "phonetic": "/ˈsteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.站；地位；身份；驻地 v.配置；驻扎；安置"
                 }
@@ -5645,7 +5645,7 @@ window.CET6_DATA = {
               "id": "u2_l3_29",
               "num": "23",
               "word": "static",
-              "phonetic": "/'staetik/",
+              "phonetic": "/ˈstætɪk/",
               "pos": "adj.",
               "meaning": "adj.静止的；停滞的n.静电",
               "highlight": "adj.静止的",
@@ -5660,7 +5660,7 @@ window.CET6_DATA = {
               "id": "u2_l3_30",
               "num": "24",
               "word": "statute",
-              "phonetic": "/'staetfut/",
+              "phonetic": "/ˈstætʃuːt/",
               "pos": "n.",
               "meaning": "n.成文法；法规；章程，条例",
               "highlight": "n.成文法",
@@ -5670,7 +5670,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "statutory",
-                  "phonetic": "/'staetfatri/",
+                  "phonetic": "/ˈstætʃətɔːri/",
                   "pos": "adj.",
                   "meaning": "adj.法定的；依法必须执行的"
                 }
@@ -5744,7 +5744,7 @@ window.CET6_DATA = {
               "id": "u2_l4_02",
               "num": "26",
               "word": "statistic",
-              "phonetic": "/sta'tistik/",
+              "phonetic": "/stəˈtɪstɪk/",
               "pos": "n.",
               "meaning": "n.统计数字；统计资料；（一项）统计 数据",
               "highlight": "n.统计数字",
@@ -5754,7 +5754,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "statistical",
-                  "phonetic": "/sta'tistikl/",
+                  "phonetic": "/stəˈtɪstɪk(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.统计的"
                 }
@@ -5766,7 +5766,7 @@ window.CET6_DATA = {
               "id": "u2_l4_03",
               "num": "27",
               "word": "fierce",
-              "phonetic": "/sel /",
+              "phonetic": "/fɪrs/",
               "pos": "adj.",
               "meaning": "adj.凶猛的；猛烈的，强烈的",
               "highlight": "adj.凶猛的",
@@ -5792,7 +5792,7 @@ window.CET6_DATA = {
               "id": "u2_l4_05",
               "num": "29",
               "word": "rigorous",
-              "phonetic": "/'rigoras/",
+              "phonetic": "/ˈrɪɡərəs/",
               "pos": "adj.",
               "meaning": "adj.镇密的；严酷的；严格的",
               "highlight": "adj.镇密的",
@@ -5807,7 +5807,7 @@ window.CET6_DATA = {
               "id": "u2_l4_06",
               "num": "30",
               "word": "rigour",
-              "phonetic": "/'rɪɡə(r)/",
+              "phonetic": "/ˈrɪɡər/",
               "pos": "n.",
               "meaning": "n. 严酷；缜密，严谨",
               "highlight": "n.严酷",
@@ -5833,7 +5833,7 @@ window.CET6_DATA = {
               "id": "u2_l4_08",
               "num": "01",
               "word": "bureau",
-              "phonetic": "/'bjuarau/",
+              "phonetic": "/ˈbjʊroʊ/",
               "pos": "n.",
               "meaning": "n.(美国政府部门的）局，处，科；办事 处；机构",
               "highlight": "n.(美国政府部门的）局",
@@ -5848,7 +5848,7 @@ window.CET6_DATA = {
               "id": "u2_l4_09",
               "num": "02",
               "word": "bureaucrat",
-              "phonetic": "/'bjuarakraet/",
+              "phonetic": "/ˈbjʊrəkræt/",
               "pos": "n.",
               "meaning": "n.官僚主义者；官僚",
               "highlight": "n.官僚主义者",
@@ -5858,13 +5858,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "bureaucratic",
-                  "phonetic": "/bjuara'kraetik/",
+                  "phonetic": "/ˌbjʊrəˈkrætɪk/",
                   "pos": "adj.",
                   "meaning": "adj.官僚的"
                 },
                 {
                   "word": "bureaucracy",
-                  "phonetic": "/bjua'rokrasi/",
+                  "phonetic": "/bjʊˈrɑːkrəsi/",
                   "pos": "n.",
                   "meaning": "n.官僚主义；官体制；官僚作风"
                 }
@@ -5887,7 +5887,7 @@ window.CET6_DATA = {
               "id": "u2_l4_11",
               "num": "04",
               "word": "council",
-              "phonetic": "/'kaunsl/",
+              "phonetic": "/ˈkaʊns(ə)l/",
               "pos": "n.",
               "meaning": "n.政务委员会；地方议会",
               "highlight": "n.政务委员会",
@@ -5897,7 +5897,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "councilor",
-                  "phonetic": "/'kaunsala(r)/",
+                  "phonetic": "/ˈkaʊnsələr/",
                   "pos": "n.",
                   "meaning": "n.市议员；政务委员会委员"
                 }
@@ -5907,7 +5907,7 @@ window.CET6_DATA = {
               "id": "u2_l4_12",
               "num": "05",
               "word": "institute",
-              "phonetic": "/'nstutjut/",
+              "phonetic": "/ˈɪnstɪtuːt/",
               "pos": "n.",
               "meaning": "n.学院；研究所；机构 v.制定（体系；政策等)；实行",
               "highlight": "n.学院",
@@ -5942,7 +5942,7 @@ window.CET6_DATA = {
               "id": "u2_l4_14",
               "num": "07",
               "word": "agent",
-              "phonetic": "/'eɪdʒənt/",
+              "phonetic": "/ˈeɪdʒənt/",
               "pos": "n.",
               "meaning": "n. 代理人，经纪人",
               "highlight": "n.代理人",
@@ -5968,7 +5968,7 @@ window.CET6_DATA = {
               "id": "u2_l4_16",
               "num": "60",
               "word": "substitute",
-              "phonetic": "/'sabsttjut/",
+              "phonetic": "/ˈsʌbstɪtuːt/",
               "pos": "n.",
               "meaning": "n.代替者，代替物 v.（以…….）代替，取代",
               "highlight": "n.代替者",
@@ -5978,7 +5978,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "substitution",
-                  "phonetic": "/ˌsʌbstɪ'tjuːʃn/",
+                  "phonetic": "/ˌsʌbstɪˈtuːʃn/",
                   "pos": "n.",
                   "meaning": "n. 替代；代替物"
                 }
@@ -6018,7 +6018,7 @@ window.CET6_DATA = {
               "id": "u2_l4_18",
               "num": "11",
               "word": "constituent",
-              "phonetic": "/kan'stitfuant/",
+              "phonetic": "/kənˈstɪtʃuənt/",
               "pos": "n.",
               "meaning": "n.(选区的）选民；成分 adj.组成的，构成的",
               "highlight": "n.(选区的）选民",
@@ -6028,7 +6028,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "constituency",
-                  "phonetic": "/kən'stɪtjuənsi/",
+                  "phonetic": "/kənˈstɪtʃuənsi/",
                   "pos": "n.",
                   "meaning": "n. 选区；选区的选民；支持者"
                 }
@@ -6038,7 +6038,7 @@ window.CET6_DATA = {
               "id": "u2_l4_19",
               "num": "12",
               "word": "federal",
-              "phonetic": "/leiepa,/",
+              "phonetic": "/ˈfedərəl/",
               "pos": "adj.",
               "meaning": "adj.联邦政府的",
               "highlight": "adj.联邦政府的",
@@ -6048,7 +6048,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "federation",
-                  "phonetic": "/feda'rerfn/",
+                  "phonetic": "/ˌfedəˈreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.联邦；联合会；联盟"
                 }
@@ -6058,7 +6058,7 @@ window.CET6_DATA = {
               "id": "u2_l4_20",
               "num": "13",
               "word": "commonwealth",
-              "phonetic": "/'kɒmənwelθ/",
+              "phonetic": "/ˈkɑːmənwelθ/",
               "pos": "n.",
               "meaning": "n. 英联邦；联合体",
               "highlight": "n.英联邦",
@@ -6071,7 +6071,7 @@ window.CET6_DATA = {
               "id": "u2_l4_21",
               "num": "14",
               "word": "minister",
-              "phonetic": "/'mnsta(r)/",
+              "phonetic": "/ˈmɪnɪstər/",
               "pos": "n.",
               "meaning": "n.(英国及其他许多国家的)部长；外 交使节；大臣",
               "highlight": "n.(英国及其他许多国家的)部长",
@@ -6081,7 +6081,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ministerial",
-                  "phonetic": "/mint'stariol/",
+                  "phonetic": "/ˌmɪnɪˈstɪriəl/",
                   "pos": "adj.",
                   "meaning": "adj.部长的；大臣的"
                 }
@@ -6107,7 +6107,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "administration",
-                  "phonetic": "/admint'strern/",
+                  "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
                   "pos": "n.",
                   "meaning": "n.(企业、学校等的）管理部门，行政部 门；行政"
                 }
@@ -6119,7 +6119,7 @@ window.CET6_DATA = {
               "id": "u2_l4_23",
               "num": "16",
               "word": "harness",
-              "phonetic": "/'hanis/",
+              "phonetic": "/ˈhɑːrnɪs/",
               "pos": "v.",
               "meaning": "v.控制；给(马等)上挽具 n.挽具，马具；系带",
               "highlight": "v.控制",
@@ -6134,7 +6134,7 @@ window.CET6_DATA = {
               "id": "u2_l4_24",
               "num": "17",
               "word": "ministry",
-              "phonetic": "/'ministri/",
+              "phonetic": "/ˈmɪnɪstri/",
               "pos": "n.",
               "meaning": "n.（政府的）部；牧师",
               "highlight": "n.（政府的）部",
@@ -6149,7 +6149,7 @@ window.CET6_DATA = {
               "id": "u2_l4_25",
               "num": "18",
               "word": "secretary",
-              "phonetic": "/'sekratri/",
+              "phonetic": "/ˈsekrəteri/",
               "pos": "n.",
               "meaning": "n.秘书；干事，文书；部长",
               "highlight": "n.秘书",
@@ -6159,7 +6159,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "secretarial",
-                  "phonetic": "/isekra'tearial/",
+                  "phonetic": "/ˌsekrəˈteriəl/",
                   "pos": "adj.",
                   "meaning": "adj.秘书的；文秘工作的"
                 }
@@ -6169,7 +6169,7 @@ window.CET6_DATA = {
               "id": "u2_l4_26",
               "num": "19",
               "word": "mayor",
-              "phonetic": "/mea(r)/",
+              "phonetic": "/ˈmeɪər/",
               "pos": "n.",
               "meaning": "n.市长",
               "highlight": "n.市长",
@@ -6182,7 +6182,7 @@ window.CET6_DATA = {
               "id": "u2_l4_27",
               "num": "20",
               "word": "official",
-              "phonetic": "/e/",
+              "phonetic": "/əˈfɪʃ(ə)l/",
               "pos": "adj.",
               "meaning": "adj.公务的，公职的；正式的，官方的 n.官员",
               "highlight": "adj.公务的",
@@ -6225,7 +6225,7 @@ window.CET6_DATA = {
               "id": "u2_l4_30",
               "num": "23",
               "word": "knight",
-              "phonetic": "/nat/",
+              "phonetic": "/naɪt/",
               "pos": "n.",
               "meaning": "n.骑士；爵士v.封（某人)为爵士",
               "highlight": "n.骑士",
@@ -6238,7 +6238,7 @@ window.CET6_DATA = {
               "id": "u2_l4_31",
               "num": "24",
               "word": "delegate",
-              "phonetic": "/ˈdelɪɡeɪt/",
+              "phonetic": "/ˈdelɪɡət/",
               "pos": "",
               "meaning": "n. 代表；参会人员 v. 授权；委派",
               "highlight": "/'deligeit/ n.代表",
@@ -6248,7 +6248,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "delegation",
-                  "phonetic": "/idelr'gerfn/",
+                  "phonetic": "/ˌdelɪˈɡeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.代表团；委托"
                 }
@@ -6260,7 +6260,7 @@ window.CET6_DATA = {
               "id": "u2_l4_32",
               "num": "25",
               "word": "threshold",
-              "phonetic": "/refhauld/",
+              "phonetic": "/ˈθreʃhoʊld/",
               "pos": "n.",
               "meaning": "n.门槛，门口；起点；开端",
               "highlight": "n.门槛",
@@ -6275,7 +6275,7 @@ window.CET6_DATA = {
               "id": "u2_l4_33",
               "num": "26",
               "word": "propagate",
-              "phonetic": "/'propagert/",
+              "phonetic": "/ˈprɑːpəɡeɪt/",
               "pos": "v.",
               "meaning": "v.传播，宣传；繁殖",
               "highlight": "v.传播",
@@ -6308,7 +6308,7 @@ window.CET6_DATA = {
               "id": "u2_l4_35",
               "num": "28",
               "word": "publicize",
-              "phonetic": "/'pʌblɪsaɪz/",
+              "phonetic": "/ˈpʌblɪsaɪz/",
               "pos": "v.",
               "meaning": "v. 宣传，推广",
               "highlight": "v.宣传",
@@ -6318,19 +6318,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "public",
-                  "phonetic": "/'pablik/",
+                  "phonetic": "/ˈpʌblɪk/",
                   "pos": "adj.",
                   "meaning": "adj.大众的；公开的n.百姓；公众"
                 },
                 {
                   "word": "publicly",
-                  "phonetic": "/'pablikli/",
+                  "phonetic": "/ˈpʌblɪkli/",
                   "pos": "adv.",
                   "meaning": "adv.公开地"
                 },
                 {
                   "word": "publicity",
-                  "phonetic": "/pAb'lisati/",
+                  "phonetic": "/pʌbˈlɪsəti/",
                   "pos": "n.",
                   "meaning": "n.（媒体的）关注，宣传，报道"
                 }
@@ -6340,7 +6340,7 @@ window.CET6_DATA = {
               "id": "u2_l4_36",
               "num": "29",
               "word": "vote",
-              "phonetic": "/vaut/",
+              "phonetic": "/voʊt/",
               "pos": "n.",
               "meaning": "n.选票；投票权v.选举，投票",
               "highlight": "n.选票",
@@ -6350,7 +6350,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "voter",
-                  "phonetic": "/'vauta(r)/",
+                  "phonetic": "/ˈvoʊtər/",
                   "pos": "n.",
                   "meaning": "n.投票人，选举人"
                 }
@@ -6360,7 +6360,7 @@ window.CET6_DATA = {
               "id": "u2_l4_37",
               "num": "30",
               "word": "veto",
-              "phonetic": "/'vistau/",
+              "phonetic": "/ˈviːtoʊ/",
               "pos": "n.",
               "meaning": "n.否决权v.禁止；反对，否定",
               "highlight": "n.否决权v.禁止",
@@ -6390,7 +6390,7 @@ window.CET6_DATA = {
               "id": "u2_l4_39",
               "num": "32",
               "word": "reign",
-              "phonetic": "/rein/",
+              "phonetic": "/reɪn/",
               "pos": "n.",
               "meaning": "n.(君主）统治时期；任期 v.统治；当政",
               "highlight": "n.(君主）统治时期",
@@ -6400,13 +6400,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "loyal",
-                  "phonetic": "/lec,/",
+                  "phonetic": "/ˈlɔɪəl/",
                   "pos": "adj.",
                   "meaning": "adj.忠诚的，忠实的"
                 },
                 {
                   "word": "loyalty",
-                  "phonetic": "/jetcl,/",
+                  "phonetic": "/ˈlɔɪəlti/",
                   "pos": "n.",
                   "meaning": "n.忠诚，忠实"
                 }
@@ -6448,7 +6448,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "salutation",
-                  "phonetic": "/saelju'tern/",
+                  "phonetic": "/ˌsæljuˈteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.招呼；致意；打招呼；致意的动作"
                 }
@@ -6460,7 +6460,7 @@ window.CET6_DATA = {
               "id": "u2_l4_42",
               "num": "36",
               "word": "sovereign",
-              "phonetic": "/'sovrin/",
+              "phonetic": "/ˈsɑːvrɪn/",
               "pos": "adj.",
               "meaning": "adj.有主权的；权力至高无上的 n.君主；元首",
               "highlight": "adj.有主权的",
@@ -6470,7 +6470,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "sovereignty",
-                  "phonetic": "/'sovranti/",
+                  "phonetic": "/ˈsɑːvrənti/",
                   "pos": "n.",
                   "meaning": "n.主权；最高统治权"
                 }
@@ -6480,7 +6480,7 @@ window.CET6_DATA = {
               "id": "u2_l4_43",
               "num": "37",
               "word": "emperor",
-              "phonetic": "/empara(r)/",
+              "phonetic": "/ˈempərər/",
               "pos": "n.",
               "meaning": "n.皇帝",
               "highlight": "n.皇帝",
@@ -6490,7 +6490,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "empress",
-                  "phonetic": "/'empras/",
+                  "phonetic": "/ˈemprəs/",
                   "pos": "n.",
                   "meaning": "n.女皇；皇后"
                 }
@@ -6500,7 +6500,7 @@ window.CET6_DATA = {
               "id": "u2_l4_44",
               "num": "38",
               "word": "imperial",
-              "phonetic": "/eerd u/",
+              "phonetic": "/ɪmˈpɪriəl/",
               "pos": "adj.",
               "meaning": "adj.帝国的，皇帝的",
               "highlight": "adj.帝国的",
@@ -6526,7 +6526,7 @@ window.CET6_DATA = {
               "id": "u2_l4_45",
               "num": "39",
               "word": "civil",
-              "phonetic": "/'svl/",
+              "phonetic": "/ˈsɪv(ə)l/",
               "pos": "adj.",
               "meaning": "adj.国内的；公民的；平民的，民事的； 有礼貌的",
               "highlight": "adj.国内的",
@@ -6541,7 +6541,7 @@ window.CET6_DATA = {
               "id": "u2_l4_46",
               "num": "40",
               "word": "civic",
-              "phonetic": "/'sivik/",
+              "phonetic": "/ˈsɪvɪk/",
               "pos": "adj.",
               "meaning": "adj.市政的；城市的；市民的",
               "highlight": "adj.市政的",
@@ -6554,7 +6554,7 @@ window.CET6_DATA = {
               "id": "u2_l4_47",
               "num": "41",
               "word": "civilian",
-              "phonetic": "/sa'vilian/",
+              "phonetic": "/səˈvɪliən/",
               "pos": "n.",
               "meaning": "n.平民；老百姓adj.平民的",
               "highlight": "n.平民",
@@ -6621,7 +6621,7 @@ window.CET6_DATA = {
               "id": "u3_l1_01",
               "num": "01",
               "word": "donate",
-              "phonetic": "/dau'nert/",
+              "phonetic": "/ˈdoʊneɪt/",
               "pos": "v.",
               "meaning": "v.捐赠，赠予，捐献",
               "highlight": "v.捐赠",
@@ -6631,13 +6631,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "donation",
-                  "phonetic": "/dau'nern/",
+                  "phonetic": "/doʊˈneɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.捐赠，捐款；献（血）"
                 },
                 {
                   "word": "donor",
-                  "phonetic": "/'dəʊnə(r)/",
+                  "phonetic": "/ˈdoʊnər/",
                   "pos": "n.",
                   "meaning": "n. 捐赠者；捐赠机构"
                 }
@@ -6667,7 +6667,7 @@ window.CET6_DATA = {
               "id": "u3_l1_03",
               "num": "03",
               "word": "charity",
-              "phonetic": "/'tfaerati/",
+              "phonetic": "/ˈtʃærəti/",
               "pos": "n.",
               "meaning": "n.慈善；慈善机构；宽容",
               "highlight": "n.慈善",
@@ -6677,7 +6677,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "charitable",
-                  "phonetic": "/'tfaeratabl/",
+                  "phonetic": "/ˈtʃærətəbl/",
                   "pos": "adj.",
                   "meaning": "adj.慈善的；宽容的"
                 }
@@ -6697,13 +6697,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "contribution",
-                  "phonetic": "/ˌkɒntrɪˈbjuːʃn/",
+                  "phonetic": "/ˌkɑːntrɪˈbjuːʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.贡献；促成作用；捐款"
                 },
                 {
                   "word": "contributor",
-                  "phonetic": "/kən'trɪbjuːtə(r)/",
+                  "phonetic": "/kənˈtrɪbjətər/",
                   "pos": "n.",
                   "meaning": "n. 捐款者；捐赠者；撰稿人；嘉宾"
                 }
@@ -6713,7 +6713,7 @@ window.CET6_DATA = {
               "id": "u3_l1_05",
               "num": "05",
               "word": "tribute",
-              "phonetic": "/'trbjut/",
+              "phonetic": "/ˈtrɪbjuːt/",
               "pos": "n.",
               "meaning": "n.礼物，赠品；贡品；致敬，悼念",
               "highlight": "n.礼物",
@@ -6746,7 +6746,7 @@ window.CET6_DATA = {
               "id": "u3_l1_07",
               "num": "07",
               "word": "distribute",
-              "phonetic": "/dr'strbjut/",
+              "phonetic": "/dɪˈstrɪbjuːt/",
               "pos": "v.",
               "meaning": "v.分发，分配",
               "highlight": "v.分发",
@@ -6756,7 +6756,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "distributive",
-                  "phonetic": "/dr'stribjatv/",
+                  "phonetic": "/dɪˈstrɪbjətɪv/",
                   "pos": "adj.",
                   "meaning": "adj.经销的，分销的"
                 },
@@ -6772,7 +6772,7 @@ window.CET6_DATA = {
               "id": "u3_l1_08",
               "num": "08",
               "word": "transmit",
-              "phonetic": "/traenz'mit/",
+              "phonetic": "/trænzˈmɪt/",
               "pos": "v.",
               "meaning": "v.传送，输送；传播；传染",
               "highlight": "v.传送",
@@ -6782,13 +6782,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "transmitter",
-                  "phonetic": "/trænz'mɪtə(r)/",
+                  "phonetic": "/trænzˈmɪtərˌtrænsˈmɪtər/",
                   "pos": "n.",
                   "meaning": "n. 传送者；发射机"
                 },
                 {
                   "word": "transmission",
-                  "phonetic": "/traenz'mfn/",
+                  "phonetic": "/trænzˈmɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.传送；传播"
                 }
@@ -6798,7 +6798,7 @@ window.CET6_DATA = {
               "id": "u3_l1_09",
               "num": "60",
               "word": "freight",
-              "phonetic": "/frert/",
+              "phonetic": "/freɪt/",
               "pos": "n.",
               "meaning": "n.货物 v.运送(货物）",
               "highlight": "n.货物 v.运送(货物）",
@@ -6813,7 +6813,7 @@ window.CET6_DATA = {
               "id": "u3_l1_10",
               "num": "10",
               "word": "admit",
-              "phonetic": "/arw,pe/",
+              "phonetic": "/ædˈmɪt/",
               "pos": "v.",
               "meaning": "v.承认；准许…进人；接收（人学）",
               "highlight": "v.承认",
@@ -6823,7 +6823,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "admission",
-                  "phonetic": "/ad'mifn/",
+                  "phonetic": "/ədˈmɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.准许加入；承认；门票费"
                 },
@@ -6839,7 +6839,7 @@ window.CET6_DATA = {
               "id": "u3_l1_11",
               "num": "11",
               "word": "admittedly",
-              "phonetic": "/ad'mitidli/",
+              "phonetic": "/ədˈmɪtɪdli/",
               "pos": "adv.",
               "meaning": "adv.诚然，无可否认",
               "highlight": "adv.诚然",
@@ -6862,7 +6862,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "acknowledgement",
-                  "phonetic": "/ak'nolndsmont/",
+                  "phonetic": "/əkˈnɑːlɪdʒmənt/",
                   "pos": "n.",
                   "meaning": "n.承认；感谢，谢礼"
                 }
@@ -6872,7 +6872,7 @@ window.CET6_DATA = {
               "id": "u3_l1_13",
               "num": "13",
               "word": "permit",
-              "phonetic": "/pəˈmɪt/",
+              "phonetic": "/pərˈmɪt/",
               "pos": "",
               "meaning": "v. 允许，准许；使有可能 n. 许可证",
               "highlight": "/'p3mt/ v.允许",
@@ -6882,19 +6882,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "permission",
-                  "phonetic": "/pa'mifn/",
+                  "phonetic": "/pərˈmɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.准许，许可，批准"
                 },
                 {
                   "word": "permissible",
-                  "phonetic": "/pa'misabl/",
+                  "phonetic": "/pərˈmɪsəb(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.容许的，许可的"
                 },
                 {
                   "word": "permissive",
-                  "phonetic": "/pamisiv/",
+                  "phonetic": "/pərˈmɪsɪv/",
                   "pos": "adj.",
                   "meaning": "adj.放任的，纵容的，姑息的"
                 }
@@ -6906,7 +6906,7 @@ window.CET6_DATA = {
               "id": "u3_l1_14",
               "num": "14",
               "word": "submit",
-              "phonetic": "/sab'mit/",
+              "phonetic": "/səbˈmɪt/",
               "pos": "v.",
               "meaning": "v.提交，呈递；服从",
               "highlight": "v.提交",
@@ -6916,7 +6916,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "submission",
-                  "phonetic": "/sab'mfn/",
+                  "phonetic": "/səbˈmɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.屈服；提交"
                 }
@@ -6928,7 +6928,7 @@ window.CET6_DATA = {
               "id": "u3_l1_15",
               "num": "15",
               "word": "submissive",
-              "phonetic": "/sab'msiv/",
+              "phonetic": "/səbˈmɪsɪv/",
               "pos": "adj.",
               "meaning": "adj.服从的，驯服的；听话的",
               "highlight": "adj.服从的",
@@ -6943,7 +6943,7 @@ window.CET6_DATA = {
               "id": "u3_l1_16",
               "num": "16",
               "word": "commission",
-              "phonetic": "/ka'm/n/",
+              "phonetic": "/kəˈmɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.委员会；佣金，回扣；（尤指艺术品） 制作委托v.委托",
               "highlight": "n.委员会",
@@ -6958,7 +6958,7 @@ window.CET6_DATA = {
               "id": "u3_l1_17",
               "num": "17",
               "word": "committee",
-              "phonetic": "/ka'miti/",
+              "phonetic": "/kəˈmɪti/",
               "pos": "n.",
               "meaning": "n.委员会",
               "highlight": "n.委员会",
@@ -6973,7 +6973,7 @@ window.CET6_DATA = {
               "id": "u3_l1_18",
               "num": "18",
               "word": "dismiss",
-              "phonetic": "/dis'mis/",
+              "phonetic": "/dɪsˈmɪs/",
               "pos": "v.",
               "meaning": "v.拒绝考虑；开除，解雇；解散",
               "highlight": "v.拒绝考虑",
@@ -6988,7 +6988,7 @@ window.CET6_DATA = {
               "id": "u3_l1_19",
               "num": "19",
               "word": "dismissal",
-              "phonetic": "/dsmsl/",
+              "phonetic": "/dɪsˈmɪs(ə)l/",
               "pos": "n.",
               "meaning": "n.开除；不予理会",
               "highlight": "n.开除",
@@ -7003,7 +7003,7 @@ window.CET6_DATA = {
               "id": "u3_l1_20",
               "num": "20",
               "word": "mission",
-              "phonetic": "/'mJn/",
+              "phonetic": "/ˈmɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.使命，任务；使团，代表团",
               "highlight": "n.使命",
@@ -7016,7 +7016,7 @@ window.CET6_DATA = {
               "id": "u3_l1_21",
               "num": "21",
               "word": "summit",
-              "phonetic": "/'sAmit/",
+              "phonetic": "/ˈsʌmɪt/",
               "pos": "n.",
               "meaning": "n.顶点；山顶；首脑会议；峰会",
               "highlight": "n.顶点",
@@ -7031,7 +7031,7 @@ window.CET6_DATA = {
               "id": "u3_l1_22",
               "num": "22",
               "word": "climax",
-              "phonetic": "/'klaimaeks/",
+              "phonetic": "/ˈklaɪmæks/",
               "pos": "n.",
               "meaning": "n.顶点，高潮",
               "highlight": "n.顶点",
@@ -7046,7 +7046,7 @@ window.CET6_DATA = {
               "id": "u3_l1_23",
               "num": "23",
               "word": "peak",
-              "phonetic": "/pik/",
+              "phonetic": "/piːk/",
               "pos": "n.",
               "meaning": "n.顶点，高峰v.达到高峰，达到最高 值 adj.最高度的，高峰时期的",
               "highlight": "n.顶点",
@@ -7059,7 +7059,7 @@ window.CET6_DATA = {
               "id": "u3_l1_24",
               "num": "24",
               "word": "emit",
-              "phonetic": "/i'mit/",
+              "phonetic": "/iˈmɪt/",
               "pos": "v.",
               "meaning": "v.发出；散发（光、热、声音、气等）",
               "highlight": "v.发出",
@@ -7069,7 +7069,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "emission",
-                  "phonetic": "/t'mfn/",
+                  "phonetic": "/ɪˈmɪʃn/",
                   "pos": "n.",
                   "meaning": "n.（光、热、气等的）发出，排放；排 放物"
                 }
@@ -7079,7 +7079,7 @@ window.CET6_DATA = {
               "id": "u3_l1_25",
               "num": "25",
               "word": "omit",
-              "phonetic": "/amit/",
+              "phonetic": "/əˈmɪt/",
               "pos": "v.",
               "meaning": "v.删除；忽略；漏掉，遗漏",
               "highlight": "v.删除",
@@ -7089,7 +7089,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "omission",
-                  "phonetic": "/amfn/",
+                  "phonetic": "/əˈmɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.省略；删除"
                 }
@@ -7099,7 +7099,7 @@ window.CET6_DATA = {
               "id": "u3_l1_26",
               "num": "26",
               "word": "intermittent",
-              "phonetic": "/unta'mitant/",
+              "phonetic": "/ˌɪntərˈmɪtənt/",
               "pos": "adj.",
               "meaning": "adj.断断续续的，间歇的",
               "highlight": "adj.断断续续的",
@@ -7112,7 +7112,7 @@ window.CET6_DATA = {
               "id": "u3_l1_27",
               "num": "27",
               "word": "commit",
-              "phonetic": "/ka/mt/",
+              "phonetic": "/kəˈmɪt/",
               "pos": "v.",
               "meaning": "v.犯（罪或错误等）；承诺，保证",
               "highlight": "v.犯（罪或错误等）",
@@ -7122,7 +7122,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "commitment",
-                  "phonetic": "/ko'mtmont/",
+                  "phonetic": "/kəˈmɪtmənt/",
                   "pos": "n.",
                   "meaning": "n.承诺；奉献"
                 }
@@ -7132,7 +7132,7 @@ window.CET6_DATA = {
               "id": "u3_l1_28",
               "num": "28",
               "word": "suicide",
-              "phonetic": "/presrns /",
+              "phonetic": "/ˈsuːɪsaɪd/",
               "pos": "n.",
               "meaning": "n.自杀",
               "highlight": "n.自杀",
@@ -7142,7 +7142,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "suicidal",
-                  "phonetic": "/isua'saidl/",
+                  "phonetic": "/ˌsuːɪˈsaɪd(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.自杀性的；毁灭性的"
                 }
@@ -7152,7 +7152,7 @@ window.CET6_DATA = {
               "id": "u3_l1_29",
               "num": "29",
               "word": "pesticide",
-              "phonetic": "/'pestisaid/",
+              "phonetic": "/ˈpestəsaɪd/",
               "pos": "n.",
               "meaning": "n.杀虫剂，农药",
               "highlight": "n.杀虫剂",
@@ -7177,7 +7177,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "precisely",
-                  "phonetic": "/prt'sasli/",
+                  "phonetic": "/prɪˈsaɪsli/",
                   "pos": "adv.",
                   "meaning": "adv.准确地，恰好地"
                 },
@@ -7195,7 +7195,7 @@ window.CET6_DATA = {
               "id": "u3_l1_31",
               "num": "31",
               "word": "concise",
-              "phonetic": "/kan'sais/",
+              "phonetic": "/kənˈsaɪs/",
               "pos": "adj.",
               "meaning": "adj.简明的；简洁的",
               "highlight": "adj.简明的",
@@ -7210,7 +7210,7 @@ window.CET6_DATA = {
               "id": "u3_l1_32",
               "num": "32",
               "word": "subtle",
-              "phonetic": "/'sʌtl/",
+              "phonetic": "/ˈsʌt(ə)l/",
               "pos": "adj.",
               "meaning": "adj. 微妙的；敏锐的",
               "highlight": "adj.微妙的",
@@ -7220,7 +7220,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "subtlety",
-                  "phonetic": "/'sAtlti/",
+                  "phonetic": "/ˈsʌt(ə)lti/",
                   "pos": "n.",
                   "meaning": "n.微妙；狡猜；敏锐"
                 }
@@ -7230,7 +7230,7 @@ window.CET6_DATA = {
               "id": "u3_l1_33",
               "num": "33",
               "word": "sacrifice",
-              "phonetic": "/'saekrrfas/",
+              "phonetic": "/ˈsækrɪfaɪs/",
               "pos": "n.",
               "meaning": "n.牺牲；祭品v.牺牲；献祭",
               "highlight": "n.牺牲",
@@ -7252,7 +7252,7 @@ window.CET6_DATA = {
               "id": "u3_l1_34",
               "num": "34",
               "word": "deadly",
-              "phonetic": "/'dedli/",
+              "phonetic": "/ˈdedli/",
               "pos": "adj.",
               "meaning": "adj.致命的；非常的 adv.极其，非常",
               "highlight": "adj.致命的",
@@ -7265,7 +7265,7 @@ window.CET6_DATA = {
               "id": "u3_l1_35",
               "num": "35",
               "word": "maintain",
-              "phonetic": "/mein'tein/",
+              "phonetic": "/meɪnˈteɪn/",
               "pos": "v.",
               "meaning": "v.维持，保持；保养；坚持（意见）",
               "highlight": "v.维持",
@@ -7278,7 +7278,7 @@ window.CET6_DATA = {
               "id": "u3_l1_36",
               "num": "36",
               "word": "maintenance",
-              "phonetic": "/'meintanans/",
+              "phonetic": "/ˈmeɪntənəns/",
               "pos": "n.",
               "meaning": "n.维护；保养；维持；抚养费",
               "highlight": "n.维护",
@@ -7293,7 +7293,7 @@ window.CET6_DATA = {
               "id": "u3_l1_37",
               "num": "37",
               "word": "mainstream",
-              "phonetic": "/'meinstrim/",
+              "phonetic": "/ˈmeɪnstriːm/",
               "pos": "n.",
               "meaning": "n.主流思想；主流群体",
               "highlight": "n.主流思想",
@@ -7308,7 +7308,7 @@ window.CET6_DATA = {
               "id": "u3_l1_38",
               "num": "38",
               "word": "remain",
-              "phonetic": "/rmen/",
+              "phonetic": "/rɪˈmeɪn/",
               "pos": "v.",
               "meaning": "v.继续；保持不变；剩下；留下",
               "highlight": "v.继续",
@@ -7323,7 +7323,7 @@ window.CET6_DATA = {
               "id": "u3_l1_39",
               "num": "39",
               "word": "remainder",
-              "phonetic": "/rt'meinda(r)/",
+              "phonetic": "/rɪˈmeɪndər/",
               "pos": "n.",
               "meaning": "n.剩余物，剩余部分；差数；余数",
               "highlight": "n.剩余物",
@@ -7336,7 +7336,7 @@ window.CET6_DATA = {
               "id": "u3_l1_40",
               "num": "40",
               "word": "remnant",
-              "phonetic": "/'remnant/",
+              "phonetic": "/ˈremnənt/",
               "pos": "n.",
               "meaning": "n.残余部分，剩余部分",
               "highlight": "n.残余部分",
@@ -7349,7 +7349,7 @@ window.CET6_DATA = {
               "id": "u3_l1_41",
               "num": "41",
               "word": "retain",
-              "phonetic": "/r'tein/",
+              "phonetic": "/rɪˈteɪn/",
               "pos": "v.",
               "meaning": "v.保持；保留",
               "highlight": "v.保持",
@@ -7359,7 +7359,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "retention",
-                  "phonetic": "/ri'tenfn/",
+                  "phonetic": "/rɪˈtenʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.保持；保留"
                 }
@@ -7369,7 +7369,7 @@ window.CET6_DATA = {
               "id": "u3_l1_42",
               "num": "42",
               "word": "detain",
-              "phonetic": "/di'ten/",
+              "phonetic": "/dɪˈteɪn/",
               "pos": "v.",
               "meaning": "v.拘留；耽搁",
               "highlight": "v.拘留",
@@ -7379,7 +7379,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "detention",
-                  "phonetic": "/di'tenfn/",
+                  "phonetic": "/dɪˈtenʃn/",
                   "pos": "n.",
                   "meaning": "n.拘留；课后留校"
                 }
@@ -7399,13 +7399,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "sustainable",
-                  "phonetic": "/ss'steinabl/",
+                  "phonetic": "/səˈsteɪnəb(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.可持续的"
                 },
                 {
                   "word": "sustainability",
-                  "phonetic": "/səˌsteɪnə'bɪləti/",
+                  "phonetic": "/səˌsteɪnəˈbɪləti/",
                   "pos": "n.",
                   "meaning": "n. 可持续性"
                 }
@@ -7415,7 +7415,7 @@ window.CET6_DATA = {
               "id": "u3_l1_44",
               "num": "44",
               "word": "attain",
-              "phonetic": "/a'tein/",
+              "phonetic": "/əˈteɪn/",
               "pos": "v.",
               "meaning": "v.(通常指经过努力)获得；达到，实现",
               "highlight": "v.(通常指经过努力)获得",
@@ -7425,7 +7425,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "attainment",
-                  "phonetic": "/a'teinmant/",
+                  "phonetic": "/əˈteɪnmənt/",
                   "pos": "n.",
                   "meaning": "n.成就；达到；获得"
                 }
@@ -7445,7 +7445,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "entertainment",
-                  "phonetic": "/enta'tenmant/",
+                  "phonetic": "/ˌentərˈteɪnmənt/",
                   "pos": "",
                   "meaning": "/n.娱乐活动；招待"
                 }
@@ -7470,7 +7470,7 @@ window.CET6_DATA = {
               "id": "u3_l1_47",
               "num": "47",
               "word": "recreation",
-              "phonetic": "/irekri'erfn/",
+              "phonetic": "/ˌriːkriˈeɪʃn/",
               "pos": "n.",
               "meaning": "n.消遣，娱乐",
               "highlight": "n.消遣",
@@ -7480,7 +7480,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "recreational",
-                  "phonetic": "/rekrierfonl/",
+                  "phonetic": "/ˌrekriˈeɪʃən(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.娱乐的，消遣的"
                 }
@@ -7492,7 +7492,7 @@ window.CET6_DATA = {
               "id": "u3_l1_48",
               "num": "48",
               "word": "amuse",
-              "phonetic": "/ə'mjuːz/",
+              "phonetic": "/əˈmjuːz/",
               "pos": "v.",
               "meaning": "v. 逗乐，逗笑",
               "highlight": "v.逗乐",
@@ -7502,13 +7502,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "amusement",
-                  "phonetic": "/a'mjuzmant/",
+                  "phonetic": "/əˈmjuːzmənt/",
                   "pos": "n.",
                   "meaning": "n.娱乐，消遭活动"
                 },
                 {
                   "word": "amusing",
-                  "phonetic": "/amjuzin/",
+                  "phonetic": "/əˈmjuːzɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.逗人笑的；有乐趣的；好笑的"
                 }
@@ -7518,7 +7518,7 @@ window.CET6_DATA = {
               "id": "u3_l1_49",
               "num": "49",
               "word": "amaze",
-              "phonetic": "/ameiz/",
+              "phonetic": "/əˈmeɪz/",
               "pos": "v.",
               "meaning": "v.使惊奇；使惊",
               "highlight": "v.使惊奇",
@@ -7528,13 +7528,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "amazing",
-                  "phonetic": "/a'meizin/",
+                  "phonetic": "/əˈmeɪzɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.令人惊奇的；令人惊喜的"
                 },
                 {
                   "word": "amazement",
-                  "phonetic": "/a'meizmant/",
+                  "phonetic": "/əˈmeɪzmənt/",
                   "pos": "n.",
                   "meaning": "n.惊奇；惊"
                 }
@@ -7608,7 +7608,7 @@ window.CET6_DATA = {
               "id": "u3_l2_02",
               "num": "51",
               "word": "obtain",
-              "phonetic": "/ab'tein/",
+              "phonetic": "/əbˈteɪn/",
               "pos": "v.",
               "meaning": "v.(尤指经努力）获得，赢得",
               "highlight": "v.(尤指经努力）获得",
@@ -7618,7 +7618,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "obtainment",
-                  "phonetic": "/ab'teinmant/",
+                  "phonetic": "/əb'teinmənt/",
                   "pos": "n.",
                   "meaning": "n.获得"
                 }
@@ -7658,7 +7658,7 @@ window.CET6_DATA = {
               "id": "u3_l2_05",
               "num": "03",
               "word": "offend",
-              "phonetic": "/a'fend/",
+              "phonetic": "/əˈfend/",
               "pos": "v.",
               "meaning": "v.得罪；冒犯；违反；犯罪",
               "highlight": "v.得罪",
@@ -7668,19 +7668,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "offense",
-                  "phonetic": "/ə'fens/",
+                  "phonetic": "/əˈfens/",
                   "pos": "n.",
                   "meaning": "n. 犯罪；冒犯"
                 },
                 {
                   "word": "offensive",
-                  "phonetic": "/a'fensiv/",
+                  "phonetic": "/əˈfensɪv/",
                   "pos": "n.",
                   "meaning": "n.进攻；攻击 adj.冒犯的；攻击性的；令人不适的"
                 },
                 {
                   "word": "offender",
-                  "phonetic": "/ofenda(r)/",
+                  "phonetic": "/əˈfendər/",
                   "pos": "n.",
                   "meaning": "n.罪犯；妨害..的人（或事物）"
                 }
@@ -7692,7 +7692,7 @@ window.CET6_DATA = {
               "id": "u3_l2_06",
               "num": "04",
               "word": "defend",
-              "phonetic": "/dr'fend/",
+              "phonetic": "/dɪˈfend/",
               "pos": "v.",
               "meaning": "v.防御；保卫",
               "highlight": "v.防御",
@@ -7702,13 +7702,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "defensive",
-                  "phonetic": "/di'fensiv/",
+                  "phonetic": "/dɪˈfensɪv/",
                   "pos": "adj.",
                   "meaning": "adj.防御的；自卫的"
                 },
                 {
                   "word": "defendant",
-                  "phonetic": "/di'fendant/",
+                  "phonetic": "/dɪˈfendənt/",
                   "pos": "n.",
                   "meaning": "n.被告人"
                 }
@@ -7718,7 +7718,7 @@ window.CET6_DATA = {
               "id": "u3_l2_07",
               "num": "05",
               "word": "intrude",
-              "phonetic": "/in'trud/",
+              "phonetic": "/ɪnˈtruːd/",
               "pos": "v.",
               "meaning": "v.闯人，侵人；打扰",
               "highlight": "v.闯人",
@@ -7734,7 +7734,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "intruder",
-                  "phonetic": "/in'truda(r)/",
+                  "phonetic": "/ɪnˈtruːdər/",
                   "pos": "n.",
                   "meaning": "n.闯人者，侵人者"
                 }
@@ -7746,7 +7746,7 @@ window.CET6_DATA = {
               "id": "u3_l2_08",
               "num": "06",
               "word": "invade",
-              "phonetic": "/In'veid/",
+              "phonetic": "/ɪnˈveɪd/",
               "pos": "v.",
               "meaning": "v.侵略；人侵；涌入",
               "highlight": "v.侵略",
@@ -7762,13 +7762,13 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "invasive",
-                  "phonetic": "/In'veIsrv/",
+                  "phonetic": "/ɪnˈveɪsɪv/",
                   "pos": "adj.",
                   "meaning": "adj.侵人的；侵袭的"
                 },
                 {
                   "word": "invader",
-                  "phonetic": "/In'veida(r)/",
+                  "phonetic": "/ɪnˈveɪdər/",
                   "pos": "n.",
                   "meaning": "n.武装入侵的军队（或国家）；侵略者"
                 }
@@ -7793,7 +7793,7 @@ window.CET6_DATA = {
               "id": "u3_l2_10",
               "num": "08",
               "word": "helmet",
-              "phonetic": "/'helmt/",
+              "phonetic": "/ˈhelmɪt/",
               "pos": "n.",
               "meaning": "n.头盔，防护帽",
               "highlight": "n.头盔",
@@ -7823,7 +7823,7 @@ window.CET6_DATA = {
               "id": "u3_l2_12",
               "num": "10",
               "word": "guard",
-              "phonetic": "/ɡɑːd/",
+              "phonetic": "/ɡɑːrd/",
               "pos": "n./v.",
               "meaning": "n. 卫兵，警卫；警戒，保卫 v. 守卫，防守",
               "highlight": "n.卫兵",
@@ -7910,7 +7910,7 @@ window.CET6_DATA = {
               "id": "u3_l2_18",
               "num": "16",
               "word": "hazard",
-              "phonetic": "/'haezad/",
+              "phonetic": "/ˈhæzərd/",
               "pos": "n.",
               "meaning": "n.危险，危害v.胃.….的风险",
               "highlight": "n.危险",
@@ -7920,7 +7920,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "hazardous",
-                  "phonetic": "/'haezadas/",
+                  "phonetic": "/ˈhæzərdəs/",
                   "pos": "adj.",
                   "meaning": "adj.危险的；有害的"
                 }
@@ -7932,7 +7932,7 @@ window.CET6_DATA = {
               "id": "u3_l2_19",
               "num": "17",
               "word": "harass",
-              "phonetic": "/'hærəs/",
+              "phonetic": "/həˈræs/",
               "pos": "v.",
               "meaning": "v. 侵扰；骚扰；不断攻击（敌人）",
               "highlight": "",
@@ -7942,7 +7942,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "harassment",
-                  "phonetic": "/ha'raesmant/",
+                  "phonetic": "/həˈræsmənt/",
                   "pos": "",
                   "meaning": "n. 侵扰；骚扰"
                 }
@@ -7954,7 +7954,7 @@ window.CET6_DATA = {
               "id": "u3_l2_20",
               "num": "18",
               "word": "stake",
-              "phonetic": "/sterk/",
+              "phonetic": "/steɪk/",
               "pos": "n.",
               "meaning": "n.股份；赌注 v.以...打赌；拿...冒险",
               "highlight": "n.股份",
@@ -8006,7 +8006,7 @@ window.CET6_DATA = {
               "id": "u3_l2_23",
               "num": "21",
               "word": "experience",
-              "phonetic": "/k'spiorians/",
+              "phonetic": "/ɪkˈspɪriəns/",
               "pos": "n.",
               "meaning": "n.经验；经历，体验v.经历，体验",
               "highlight": "n.经验",
@@ -8016,7 +8016,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "experienced",
-                  "phonetic": "/ik'spiarianst/",
+                  "phonetic": "/ɪkˈspɪriənst/",
                   "pos": "adj.",
                   "meaning": "adj.有经验的，熟练的；有阅历的"
                 }
@@ -8026,7 +8026,7 @@ window.CET6_DATA = {
               "id": "u3_l2_24",
               "num": "22",
               "word": "advent",
-              "phonetic": "/edvent/",
+              "phonetic": "/ˈædvent/",
               "pos": "n.",
               "meaning": "n.(重要事件、人物、发明等的）出现； 到来",
               "highlight": "n.(重要事件、人物、发明等的）出现",
@@ -8052,7 +8052,7 @@ window.CET6_DATA = {
               "id": "u3_l2_26",
               "num": "24",
               "word": "ventilate",
-              "phonetic": "/'ventuleit/",
+              "phonetic": "/ˈventɪleɪt/",
               "pos": "v.",
               "meaning": "v.使通风；（用呼吸机）给……供氧",
               "highlight": "v.使通风",
@@ -8062,7 +8062,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ventilation",
-                  "phonetic": "/ivent'lerfn/",
+                  "phonetic": "/ˌventɪˈleɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.通风；通风系统"
                 }
@@ -8139,7 +8139,7 @@ window.CET6_DATA = {
               "id": "u3_l2_31",
               "num": "29",
               "word": "jeopardy",
-              "phonetic": "/ˈdʒepədi/",
+              "phonetic": "/ˈdʒepərdi/",
               "pos": "n.",
               "meaning": "n.危险，风险；危险处境",
               "highlight": "n.危险",
@@ -8149,7 +8149,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "jeopardize",
-                  "phonetic": "/'dʒepədaɪz/",
+                  "phonetic": "/ˈdʒepərdaɪz/",
                   "pos": "v.",
                   "meaning": "v. 损害，危及"
                 }
@@ -8161,7 +8161,7 @@ window.CET6_DATA = {
               "id": "u3_l2_32",
               "num": "30",
               "word": "peril",
-              "phonetic": "/'peral/",
+              "phonetic": "/ˈperəl/",
               "pos": "n.",
               "meaning": "n.巨大的危险，危难",
               "highlight": "n.巨大的危险",
@@ -8171,7 +8171,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "perilous",
-                  "phonetic": "/'peralas/",
+                  "phonetic": "/ˈperələs/",
                   "pos": "adj.",
                   "meaning": "adj.危险的，艰险的"
                 }
@@ -8181,7 +8181,7 @@ window.CET6_DATA = {
               "id": "u3_l2_33",
               "num": "31",
               "word": "fortune",
-              "phonetic": "/'fotfun/",
+              "phonetic": "/ˈfɔːrtʃən/",
               "pos": "n.",
               "meaning": "n.机会，运气；巨款；命运",
               "highlight": "n.机会",
@@ -8201,7 +8201,7 @@ window.CET6_DATA = {
               "id": "u3_l2_34",
               "num": "32",
               "word": "misfortune",
-              "phonetic": "/mis'fotfun/",
+              "phonetic": "/ˌmɪsˈfɔːrtʃən/",
               "pos": "n.",
               "meaning": "n.不幸；不幸的事故；厄运",
               "highlight": "n.不幸",
@@ -8216,7 +8216,7 @@ window.CET6_DATA = {
               "id": "u3_l2_35",
               "num": "33",
               "word": "mislead",
-              "phonetic": "/mis'lid/",
+              "phonetic": "/ˌmɪsˈliːd/",
               "pos": "v.",
               "meaning": "v.误导，引入歧途",
               "highlight": "v.误导",
@@ -8226,7 +8226,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "misleading",
-                  "phonetic": "/mis'lidig/",
+                  "phonetic": "/ˌmɪsˈliːdɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.误导的，引入歧途的"
                 }
@@ -8236,7 +8236,7 @@ window.CET6_DATA = {
               "id": "u3_l2_36",
               "num": "34",
               "word": "steer",
-              "phonetic": "/stia(r)/",
+              "phonetic": "/stɪr/",
               "pos": "v.",
               "meaning": "v.驾驶；引导",
               "highlight": "v.驾驶",
@@ -8298,7 +8298,7 @@ window.CET6_DATA = {
               "id": "u3_l3_01",
               "num": "01",
               "word": "pretext",
-              "phonetic": "/'pritekst/",
+              "phonetic": "/ˈpriːtekst/",
               "pos": "n.",
               "meaning": "n.借口，托辞",
               "highlight": "n.借口",
@@ -8313,7 +8313,7 @@ window.CET6_DATA = {
               "id": "u3_l3_02",
               "num": "02",
               "word": "protest",
-              "phonetic": "/ˈprəʊtest/",
+              "phonetic": "/ˈproʊtest/",
               "pos": "",
               "meaning": "v. (公开)反对，抗议 n. 抗议，反对；抗议活动",
               "highlight": "/'prautest/ v.（公开）反对",
@@ -8328,7 +8328,7 @@ window.CET6_DATA = {
               "id": "u3_l3_03",
               "num": "03",
               "word": "contest",
-              "phonetic": "/ˈkɒntest/",
+              "phonetic": "/ˈkɑːntest/",
               "pos": "",
               "meaning": "n. 竞争；比赛 v. 争辩，质疑",
               "highlight": "/kan'test/ n.竞争",
@@ -8338,7 +8338,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "contestant",
-                  "phonetic": "/kan'testant/",
+                  "phonetic": "/kənˈtestənt/",
                   "pos": "n.",
                   "meaning": "n.比赛者；竞争者"
                 }
@@ -8348,7 +8348,7 @@ window.CET6_DATA = {
               "id": "u3_l3_04",
               "num": "04",
               "word": "provoke",
-              "phonetic": "/pra'vauk/",
+              "phonetic": "/prəˈvoʊk/",
               "pos": "v.",
               "meaning": "v.激起，引起；激怒",
               "highlight": "v.激起",
@@ -8358,7 +8358,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "provocation",
-                  "phonetic": "/prova'kerfn/",
+                  "phonetic": "/ˌprɑːvəˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.挑鲜，激怒"
                 }
@@ -8395,7 +8395,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "advocacy",
-                  "phonetic": "/aedvakasi/",
+                  "phonetic": "/ˈædvəkəsi/",
                   "pos": "n.",
                   "meaning": "n.拥护，支持；提倡"
                 }
@@ -8405,7 +8405,7 @@ window.CET6_DATA = {
               "id": "u3_l3_07",
               "num": "07",
               "word": "profound",
-              "phonetic": "/pra'faund/",
+              "phonetic": "/prəˈfaʊnd/",
               "pos": "adj.",
               "meaning": "adj.巨大的；深远的；知识渊博的",
               "highlight": "adj.巨大的",
@@ -8420,7 +8420,7 @@ window.CET6_DATA = {
               "id": "u3_l3_08",
               "num": "08",
               "word": "profile",
-              "phonetic": "/'praufal/",
+              "phonetic": "/ˈproʊfaɪl/",
               "pos": "n.",
               "meaning": "n.概述，简介；（侧面）轮廓；面部的 侧影",
               "highlight": "n.概述",
@@ -8435,7 +8435,7 @@ window.CET6_DATA = {
               "id": "u3_l3_09",
               "num": "60",
               "word": "previous",
-              "phonetic": "/'privias/",
+              "phonetic": "/ˈpriːviəs/",
               "pos": "adj.",
               "meaning": "adj.先前的，以前的",
               "highlight": "adj.先前的",
@@ -8450,7 +8450,7 @@ window.CET6_DATA = {
               "id": "u3_l3_10",
               "num": "10",
               "word": "prevalent",
-              "phonetic": "/'prevalant/",
+              "phonetic": "/ˈprevələnt/",
               "pos": "adj.",
               "meaning": "adj.普遍存在的；盛行的，流行的",
               "highlight": "adj.普遍存在的",
@@ -8460,7 +8460,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "prevalence",
-                  "phonetic": "/'prevalans/",
+                  "phonetic": "/ˈprevələns/",
                   "pos": "n.",
                   "meaning": "n.流行，普遍"
                 }
@@ -8470,7 +8470,7 @@ window.CET6_DATA = {
               "id": "u3_l3_11",
               "num": "11",
               "word": "pop",
-              "phonetic": "/pop/",
+              "phonetic": "/pɑːp/",
               "pos": "v.",
               "meaning": "v.蹦出；发出爆裂声 adj.流行的；通俗的n.流行音乐",
               "highlight": "v.蹦出",
@@ -8483,7 +8483,7 @@ window.CET6_DATA = {
               "id": "u3_l3_12",
               "num": "12",
               "word": "prevail",
-              "phonetic": "/pri'veil/",
+              "phonetic": "/prɪˈveɪl/",
               "pos": "v.",
               "meaning": "v.盛行，流行；获胜，战胜，压倒",
               "highlight": "v.盛行",
@@ -8496,7 +8496,7 @@ window.CET6_DATA = {
               "id": "u3_l3_13",
               "num": "13",
               "word": "avail",
-              "phonetic": "/aveil/",
+              "phonetic": "/əˈveɪl/",
               "pos": "n.",
               "meaning": "n.效用；利益 v.有帮助，有益；利用",
               "highlight": "n.效用",
@@ -8506,7 +8506,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "available",
-                  "phonetic": "/averlabl/",
+                  "phonetic": "/əˈveɪləb(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.可获得的，可购得的；可找到的； 有空的"
                 }
@@ -8516,7 +8516,7 @@ window.CET6_DATA = {
               "id": "u3_l3_14",
               "num": "14",
               "word": "availability",
-              "phonetic": "/avenla'bilati/",
+              "phonetic": "/əˌveɪləˈbɪləti/",
               "pos": "n.",
               "meaning": "n.可用性；实用性",
               "highlight": "n.可用性",
@@ -8529,7 +8529,7 @@ window.CET6_DATA = {
               "id": "u3_l3_15",
               "num": "15",
               "word": "proficient",
-              "phonetic": "/prs'fifnt/",
+              "phonetic": "/prəˈfɪʃ(ə)nt/",
               "pos": "adj.",
               "meaning": "adj.熟练的；精通的；训练有素的",
               "highlight": "adj.熟练的",
@@ -8539,7 +8539,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "proficiency",
-                  "phonetic": "/pra'fifnsi/",
+                  "phonetic": "/prəˈfɪʃ(ə)nsi/",
                   "pos": "n.",
                   "meaning": "n.精通；熟练"
                 }
@@ -8551,7 +8551,7 @@ window.CET6_DATA = {
               "id": "u3_l3_16",
               "num": "16",
               "word": "artificial",
-              "phonetic": "/ˌɑːtɪˈfɪʃl/",
+              "phonetic": "/ˌɑːrtɪˈfɪʃ(ə)l/",
               "pos": "adj.",
               "meaning": "adj.人工的，人为的；虚假的",
               "highlight": "adj.人工的",
@@ -8566,7 +8566,7 @@ window.CET6_DATA = {
               "id": "u3_l3_17",
               "num": "17",
               "word": "sufficient",
-              "phonetic": "/sa'fifnt/",
+              "phonetic": "/səˈfɪʃ(ə)nt/",
               "pos": "adj.",
               "meaning": "adj.足够的，充足的",
               "highlight": "adj.足够的",
@@ -8581,7 +8581,7 @@ window.CET6_DATA = {
               "id": "u3_l3_18",
               "num": "18",
               "word": "suffice",
-              "phonetic": "/sa'fais/",
+              "phonetic": "/səˈfaɪs/",
               "pos": "v.",
               "meaning": "v.足够，足以",
               "highlight": "v.足够",
@@ -8596,7 +8596,7 @@ window.CET6_DATA = {
               "id": "u3_l3_19",
               "num": "19",
               "word": "efficient",
-              "phonetic": "/r'fifnt/",
+              "phonetic": "/ɪˈfɪʃ(ə)nt/",
               "pos": "adj.",
               "meaning": "adj.效率高的；有能力的",
               "highlight": "adj.效率高的",
@@ -8606,7 +8606,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "efficiency",
-                  "phonetic": "/t'frfnsi/",
+                  "phonetic": "/ɪˈfɪʃ(ə)nsi/",
                   "pos": "n.",
                   "meaning": "n.效率"
                 }
@@ -8618,7 +8618,7 @@ window.CET6_DATA = {
               "id": "u3_l3_20",
               "num": "20",
               "word": "deficient",
-              "phonetic": "/uP/",
+              "phonetic": "/dɪˈfɪʃ(ə)nt/",
               "pos": "adj.",
               "meaning": "adj.缺乏的；有缺陷的",
               "highlight": "adj.缺乏的",
@@ -8633,7 +8633,7 @@ window.CET6_DATA = {
               "id": "u3_l3_21",
               "num": "21",
               "word": "deficiency",
-              "phonetic": "/su,P/",
+              "phonetic": "/dɪˈfɪʃ(ə)nsi/",
               "pos": "n.",
               "meaning": "n.缺乏；缺点",
               "highlight": "n.缺乏",
@@ -8666,7 +8666,7 @@ window.CET6_DATA = {
               "id": "u3_l3_23",
               "num": "23",
               "word": "drawback",
-              "phonetic": "/'drobaek/",
+              "phonetic": "/ˈdrɔːbæk/",
               "pos": "n.",
               "meaning": "n.缺点；不利条件",
               "highlight": "n.缺点",
@@ -8681,7 +8681,7 @@ window.CET6_DATA = {
               "id": "u3_l3_24",
               "num": "24",
               "word": "setback",
-              "phonetic": "/'setbaek/",
+              "phonetic": "/ˈsetbæk/",
               "pos": "n.",
               "meaning": "n.挫折，阻碍",
               "highlight": "n.挫折",
@@ -8704,7 +8704,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "handicapped",
-                  "phonetic": "/'haendikapt/",
+                  "phonetic": "/ˈhændikæpt/",
                   "pos": "adj.",
                   "meaning": "adj.有生理缺陷的，残疾的"
                 }
@@ -8714,7 +8714,7 @@ window.CET6_DATA = {
               "id": "u3_l3_26",
               "num": "26",
               "word": "fault",
-              "phonetic": "/forlt/",
+              "phonetic": "/fɔːlt/",
               "pos": "n.",
               "meaning": "n.责任；过失；缺点；故障v.找出缺点",
               "highlight": "n.责任",
@@ -8727,7 +8727,7 @@ window.CET6_DATA = {
               "id": "u3_l3_27",
               "num": "27",
               "word": "default",
-              "phonetic": "/pcJ,IP/",
+              "phonetic": "/dɪˈfɔːlt/",
               "pos": "n.",
               "meaning": "n.违约；拖欠；(术语）默认 v.违约；不履行义务",
               "highlight": "n.违约",
@@ -8750,7 +8750,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "infringement",
-                  "phonetic": "/ɪn'frɪndʒmənt/",
+                  "phonetic": "/ɪnˈfrɪndʒmənt/",
                   "pos": "n.",
                   "meaning": "n. 侵犯；违背"
                 }
@@ -8760,7 +8760,7 @@ window.CET6_DATA = {
               "id": "u3_l3_29",
               "num": "29",
               "word": "breach",
-              "phonetic": "/brit/",
+              "phonetic": "/briːtʃ/",
               "pos": "n.",
               "meaning": "n.&.v.违背；违反；破坏",
               "highlight": "n.&.v.违背",
@@ -8788,7 +8788,7 @@ window.CET6_DATA = {
               "id": "u3_l3_31",
               "num": "31",
               "word": "reference",
-              "phonetic": "/'refrans/",
+              "phonetic": "/ˈrefrəns/",
               "pos": "n.",
               "meaning": "n.谈及；参考，参考书目",
               "highlight": "n.谈及",
@@ -8801,7 +8801,7 @@ window.CET6_DATA = {
               "id": "u3_l3_32",
               "num": "32",
               "word": "referee",
-              "phonetic": "/refa'rit/",
+              "phonetic": "/ˌrefəˈriː/",
               "pos": "n.",
               "meaning": "n.裁判员；介绍人；推荐人v.当裁判",
               "highlight": "n.裁判员",
@@ -8826,7 +8826,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "conference",
-                  "phonetic": "/'konfarans/",
+                  "phonetic": "/ˈkɑːnfərəns/",
                   "pos": "n.",
                   "meaning": "n.会议；商讨会"
                 }
@@ -8846,13 +8846,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "fertilizer",
-                  "phonetic": "/'fɜːtəlaɪzə(r)/",
+                  "phonetic": "/ˈfɜːrtəlaɪzər/",
                   "pos": "n.",
                   "meaning": "n. 肥料，化肥"
                 },
                 {
                   "word": "fertility",
-                  "phonetic": "/fa'tilati/",
+                  "phonetic": "/fərˈtɪləti/",
                   "pos": "n.",
                   "meaning": "n.富饶；能生育性；可繁殖性"
                 }
@@ -8874,7 +8874,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inference",
-                  "phonetic": "/'nfarans/",
+                  "phonetic": "/ˈɪnfərəns/",
                   "pos": "n.",
                   "meaning": "n.推断，推理，推论"
                 }
@@ -8896,7 +8896,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "denotation",
-                  "phonetic": "/dinau'terfn/",
+                  "phonetic": "/ˌdiːnoʊˈteɪʃn/",
                   "pos": "n.",
                   "meaning": "n.指称，指称之物，指称意义；外延"
                 }
@@ -8919,7 +8919,7 @@ window.CET6_DATA = {
               "id": "u3_l3_38",
               "num": "38",
               "word": "implication",
-              "phonetic": "/umpls'ker/n/",
+              "phonetic": "/ˌɪmplɪˈkeɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.可能的影响（后果）；含意，暗示；牵 涉，牵连",
               "highlight": "n.可能的影响（后果）",
@@ -8934,7 +8934,7 @@ window.CET6_DATA = {
               "id": "u3_l3_39",
               "num": "39",
               "word": "implicit",
-              "phonetic": "/m'plsit/",
+              "phonetic": "/ɪmˈplɪsɪt/",
               "pos": "adj.",
               "meaning": "adj.含蓄的；内含的；隐含其中的",
               "highlight": "adj.含蓄的",
@@ -8949,7 +8949,7 @@ window.CET6_DATA = {
               "id": "u3_l3_40",
               "num": "40",
               "word": "explicit",
-              "phonetic": "/nk'splist/",
+              "phonetic": "/ɪkˈsplɪsɪt/",
               "pos": "adj.",
               "meaning": "adj.清楚明确的；直截了当的",
               "highlight": "adj.清楚明确的",
@@ -8962,7 +8962,7 @@ window.CET6_DATA = {
               "id": "u3_l3_41",
               "num": "41",
               "word": "exquisite",
-              "phonetic": "/ˈekskwɪzɪt/",
+              "phonetic": "/ɪkˈskwɪzɪt/",
               "pos": "",
               "meaning": "adj. 精美的，精致的；雅致的；敏锐的",
               "highlight": "'ekskwizt/ adj.精美的",
@@ -8988,7 +8988,7 @@ window.CET6_DATA = {
               "id": "u3_l3_43",
               "num": "43",
               "word": "manifest",
-              "phonetic": "/'manfest/",
+              "phonetic": "/ˈmænɪfest/",
               "pos": "v.",
               "meaning": "v.表明；显现 的 n.旅客名单；货单 adj.明显的；显而易见",
               "highlight": "v.表明",
@@ -8998,7 +8998,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "manifestation",
-                  "phonetic": "/maenfe'sterfn/",
+                  "phonetic": "/ˌmænɪfəˈsteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.显示；表明；表示"
                 }
@@ -9008,7 +9008,7 @@ window.CET6_DATA = {
               "id": "u3_l3_44",
               "num": "44",
               "word": "indicate",
-              "phonetic": "/'indikert/",
+              "phonetic": "/ˈɪndɪkeɪt/",
               "pos": "v.",
               "meaning": "v.表明，显示；指出；指示",
               "highlight": "v.表明",
@@ -9030,7 +9030,7 @@ window.CET6_DATA = {
               "id": "u3_l3_45",
               "num": "45",
               "word": "indicative",
-              "phonetic": "/In'dikativ/",
+              "phonetic": "/ɪnˈdɪkətɪv/",
               "pos": "adj.",
               "meaning": "adj.象征的；表明的，指示的 n.(动词的）陈述语气",
               "highlight": "adj.象征的",
@@ -9043,7 +9043,7 @@ window.CET6_DATA = {
               "id": "u3_l3_46",
               "num": "46",
               "word": "indicator",
-              "phonetic": "/'indikeita(r)/",
+              "phonetic": "/ˈɪndɪkeɪtər/",
               "pos": "n.",
               "meaning": "n.指示物；指示者；指针；（汽车的）转 向指示灯",
               "highlight": "n.指示物",
@@ -9056,7 +9056,7 @@ window.CET6_DATA = {
               "id": "u3_l3_47",
               "num": "47",
               "word": "demonstrate",
-              "phonetic": "/'demonstrert/",
+              "phonetic": "/ˈdemənstreɪt/",
               "pos": "v.",
               "meaning": "v.证明，说明；演示；示威游行；表现",
               "highlight": "v.证明",
@@ -9066,13 +9066,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "demonstration",
-                  "phonetic": "/ideman'strern/",
+                  "phonetic": "/ˌdemənˈstreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.论证；示范；游行示威；表露"
                 },
                 {
                   "word": "demonstrative",
-                  "phonetic": "/dt'monstrativ/",
+                  "phonetic": "/dɪˈmɑːnstrətɪv/",
                   "pos": "adj.",
                   "meaning": "adj.感情外露的；指示的 n.指示代词；限定词"
                 }
@@ -9084,7 +9084,7 @@ window.CET6_DATA = {
               "id": "u3_l3_48",
               "num": "48",
               "word": "illustrate",
-              "phonetic": "/'lastrert/",
+              "phonetic": "/ˈɪləstreɪt/",
               "pos": "v.",
               "meaning": "v.(用示例、图画等）说明，解释",
               "highlight": "v.(用示例、图画等）说明",
@@ -9094,13 +9094,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "illustration",
-                  "phonetic": "/tla'strer/n/",
+                  "phonetic": "/ˌɪləˈstreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.图解；插图；示例"
                 },
                 {
                   "word": "illustrative",
-                  "phonetic": "/'lastrativ/",
+                  "phonetic": "/ɪˈlʌstrətɪv/",
                   "pos": "adj.",
                   "meaning": "adj.说明的；解释性的"
                 }
@@ -9112,7 +9112,7 @@ window.CET6_DATA = {
               "id": "u3_l3_49",
               "num": "49",
               "word": "deduce",
-              "phonetic": "/dɪ'djuːs/",
+              "phonetic": "/dɪˈduːs/",
               "pos": "v.",
               "meaning": "v. 推论，推断；演绎",
               "highlight": "v.推论",
@@ -9132,7 +9132,7 @@ window.CET6_DATA = {
               "id": "u3_l3_50",
               "num": "50",
               "word": "introduce",
-              "phonetic": "/untra'djurs/",
+              "phonetic": "/ˌɪntrəˈduːs/",
               "pos": "v.",
               "meaning": "v.介绍；采用；引进",
               "highlight": "v.介绍",
@@ -9142,7 +9142,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "introduction",
-                  "phonetic": "/ntro'dakfn/",
+                  "phonetic": "/ˌɪntrəˈdʌkʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.介绍；采用；引进"
                 }
@@ -9152,7 +9152,7 @@ window.CET6_DATA = {
               "id": "u3_l3_51",
               "num": "51",
               "word": "deduct",
-              "phonetic": "/di'dakt/",
+              "phonetic": "/dɪˈdʌkt/",
               "pos": "v.",
               "meaning": "v.扣除，减去",
               "highlight": "v.扣除",
@@ -9162,19 +9162,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "deduction",
-                  "phonetic": "/uvp,p/",
+                  "phonetic": "/dɪˈdʌkʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.演绎；推论，推理；扣除"
                 },
                 {
                   "word": "deductive",
-                  "phonetic": "/Anxvp,P/",
+                  "phonetic": "/dɪˈdʌktɪv/",
                   "pos": "adj.",
                   "meaning": "adj.演绎的；推论的，推理的"
                 },
                 {
                   "word": "deductible",
-                  "phonetic": "/d'dktabl/",
+                  "phonetic": "/dɪˈdʌktəbl/",
                   "pos": "adj.",
                   "meaning": "adj.可扣除的，可减免的 n.免赔额；自负额"
                 }
@@ -9194,7 +9194,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "conductor",
-                  "phonetic": "/kan'dkta(r)/",
+                  "phonetic": "/kənˈdʌktər/",
                   "pos": "n.",
                   "meaning": "n.（管弦乐队、合唱队等的）指挥；列车 长；售票员"
                 }
@@ -9219,7 +9219,7 @@ window.CET6_DATA = {
               "id": "u3_l3_54",
               "num": "54",
               "word": "induce",
-              "phonetic": "/in'djuss/",
+              "phonetic": "/ɪnˈduːs/",
               "pos": "v.",
               "meaning": "v.劝诱，诱使；引起",
               "highlight": "v.劝诱",
@@ -9229,7 +9229,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inducement",
-                  "phonetic": "/n'djusmant/",
+                  "phonetic": "/ɪnˈduːsmənt/",
                   "pos": "n.",
                   "meaning": "n.引诱；刺激；诱因"
                 }
@@ -9239,7 +9239,7 @@ window.CET6_DATA = {
               "id": "u3_l3_55",
               "num": "55",
               "word": "seduce",
-              "phonetic": "/st'djus/",
+              "phonetic": "/sɪˈduːs/",
               "pos": "v.",
               "meaning": "v.引诱，诱惑；诱奸；勾引",
               "highlight": "v.引诱",
@@ -9249,13 +9249,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "seduction",
-                  "phonetic": "/st'dakfn/",
+                  "phonetic": "/sɪˈdʌkʃn/",
                   "pos": "n.",
                   "meaning": "n.诱奸；诱感力，吸引力"
                 },
                 {
                   "word": "seductive",
-                  "phonetic": "/st'daktiv/",
+                  "phonetic": "/sɪˈdʌktɪv/",
                   "pos": "adj.",
                   "meaning": "adj.诱人的，迷人的，有魅力的，有吸 引力的"
                 }
@@ -9265,7 +9265,7 @@ window.CET6_DATA = {
               "id": "u3_l3_56",
               "num": "56",
               "word": "lure",
-              "phonetic": "/lua(r)/",
+              "phonetic": "/lʊr/",
               "pos": "v.",
               "meaning": "v.引诱，诱惑；吸引",
               "highlight": "v.引诱",
@@ -9338,7 +9338,7 @@ window.CET6_DATA = {
               "id": "u3_l4_02",
               "num": "58",
               "word": "attempt",
-              "phonetic": "/a'tempt/",
+              "phonetic": "/əˈtempt/",
               "pos": "n.",
               "meaning": "n.&v.企图，试图，尝试",
               "highlight": "n.&v.企图",
@@ -9351,7 +9351,7 @@ window.CET6_DATA = {
               "id": "u3_l4_03",
               "num": "59",
               "word": "temptation",
-              "phonetic": "/temp'tern/",
+              "phonetic": "/tempˈteɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.引诱，诱惑",
               "highlight": "n.引诱",
@@ -9374,7 +9374,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "injection",
-                  "phonetic": "/ɪnˈdʒekʃn/",
+                  "phonetic": "/ɪnˈdʒekʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.注射；（液体）注人"
                 }
@@ -9384,7 +9384,7 @@ window.CET6_DATA = {
               "id": "u3_l4_05",
               "num": "02",
               "word": "project",
-              "phonetic": "/ˈprɒdʒekt/",
+              "phonetic": "/ˈprɑːdʒekt/",
               "pos": "",
               "meaning": "n. 项目；方案；工程；计划 v. 预计，推想；投影",
               "highlight": "/pra'd3ekt/ n.项目",
@@ -9443,7 +9443,7 @@ window.CET6_DATA = {
               "id": "u3_l4_08",
               "num": "05",
               "word": "object",
-              "phonetic": "/ˈɒbdʒɪkt/",
+              "phonetic": "/ˈɑːbdʒekt/",
               "pos": "",
               "meaning": "n. 物品，东西；对象；宾语 v. 反对",
               "highlight": "/ob'd3ekt/ n.物品",
@@ -9475,13 +9475,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "stuffy",
-                  "phonetic": "/yvis /",
+                  "phonetic": "/ˈstʌfi/",
                   "pos": "adj.",
                   "meaning": "adj.闷热的；一本正经的，古板的"
                 },
                 {
                   "word": "stuffing",
-                  "phonetic": "/'stAfrg/",
+                  "phonetic": "/ˈstʌfɪŋ/",
                   "pos": "n.",
                   "meaning": "n.填料；填充物"
                 }
@@ -9519,7 +9519,7 @@ window.CET6_DATA = {
               "id": "u3_l4_12",
               "num": "09",
               "word": "subject",
-              "phonetic": "/ˈsʌbdʒɪkt/",
+              "phonetic": "/ˈsʌbdʒekt/",
               "pos": "",
               "meaning": "n. 主题；学科；主语 v. 使顺从；使遭受",
               "highlight": "/sab'dsekt/ v.使顺从",
@@ -9549,7 +9549,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ejection",
-                  "phonetic": "/r'dsekfn/",
+                  "phonetic": "/ɪˈdʒekʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.驱逐；喷射"
                 }
@@ -9620,7 +9620,7 @@ window.CET6_DATA = {
               "id": "u3_l4_18",
               "num": "15",
               "word": "visualize",
-              "phonetic": "/'vɪʒuəlaɪz/",
+              "phonetic": "/ˈvɪʒuəlaɪz/",
               "pos": "v.",
               "meaning": "v. 想象，构思，设想",
               "highlight": "v.想象",
@@ -9668,7 +9668,7 @@ window.CET6_DATA = {
               "id": "u3_l4_21",
               "num": "18",
               "word": "visible",
-              "phonetic": "/'vizabl/",
+              "phonetic": "/ˈvɪzəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.看得见的，可见的；明显的",
               "highlight": "adj.看得见的",
@@ -9712,7 +9712,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "interviewee",
-                  "phonetic": "/untorvjur'iz/",
+                  "phonetic": "/ˌɪntərvjuːˈiː/",
                   "pos": "n.",
                   "meaning": "n.参加面试者；被采访者"
                 }
@@ -9724,7 +9724,7 @@ window.CET6_DATA = {
               "id": "u3_l4_23",
               "num": "20",
               "word": "preview",
-              "phonetic": "/'privju/",
+              "phonetic": "/ˈpriːvjuː/",
               "pos": "v.",
               "meaning": "v.预演；预展；写预评n.预映；预展",
               "highlight": "v.预演",
@@ -9739,7 +9739,7 @@ window.CET6_DATA = {
               "id": "u3_l4_24",
               "num": "21",
               "word": "interfere",
-              "phonetic": "/unta'fta(r)/",
+              "phonetic": "/ˌɪntərˈfɪr/",
               "pos": "v.",
               "meaning": "v.干涉，干预",
               "highlight": "v.干涉",
@@ -9749,7 +9749,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "interference",
-                  "phonetic": "/suezeljeju/",
+                  "phonetic": "/ˌɪntərˈfɪrəns/",
                   "pos": "n.",
                   "meaning": "n.干涉，干预，介人"
                 }
@@ -9759,7 +9759,7 @@ window.CET6_DATA = {
               "id": "u3_l4_25",
               "num": "22",
               "word": "intervene",
-              "phonetic": "/unta'vin/",
+              "phonetic": "/ˌɪntərˈviːn/",
               "pos": "v.",
               "meaning": "v.干预，介人；打岔，插话；阻碍",
               "highlight": "v.干预",
@@ -9769,7 +9769,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "intervention",
-                  "phonetic": "/unta'venfn/",
+                  "phonetic": "/ˌɪntərˈvenʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.出面；干预；打断（别人的话）"
                 }
@@ -9781,7 +9781,7 @@ window.CET6_DATA = {
               "id": "u3_l4_26",
               "num": "23",
               "word": "interact",
-              "phonetic": "/untar'ekt/",
+              "phonetic": "/ˌɪntərˈækt/",
               "pos": "v.",
               "meaning": "v.交流；交往；相互影响；相互作用",
               "highlight": "v.交流",
@@ -9791,7 +9791,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "interactive",
-                  "phonetic": "/ntaraektv/",
+                  "phonetic": "/ˌɪntərˈæktɪv/",
                   "pos": "adj.",
                   "meaning": "adj.交互的；合作的；相互影响的， 互相配合的"
                 }
@@ -9849,7 +9849,7 @@ window.CET6_DATA = {
               "id": "u3_l4_30",
               "num": "27",
               "word": "monitor",
-              "phonetic": "/'monita(r)/",
+              "phonetic": "/ˈmɑːnɪtər/",
               "pos": "n.",
               "meaning": "n.班长，监督员；显示器，监视器 v.监视，监督；检查；监听",
               "highlight": "n.班长",
@@ -9882,7 +9882,7 @@ window.CET6_DATA = {
               "id": "u3_l4_32",
               "num": "29",
               "word": "inferior",
-              "phonetic": "/in'fraria(r)/",
+              "phonetic": "/ɪnˈfɪriər/",
               "pos": "adj.",
               "meaning": "adj.级别低的，下级的；较差的，次的 n.(能力或地位）低于他人者；下属，下级",
               "highlight": "adj.级别低的",
@@ -9892,7 +9892,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inferiority",
-                  "phonetic": "/ɪnˌfɪəriˈɒrəti/",
+                  "phonetic": "/ɪnˌfɪriˈɔːrəti/",
                   "pos": "n.",
                   "meaning": "n.低等，劣等；劣势"
                 }
@@ -9917,7 +9917,7 @@ window.CET6_DATA = {
               "id": "u3_l4_34",
               "num": "31",
               "word": "supreme",
-              "phonetic": "/su'prim/",
+              "phonetic": "/suˈpriːm/",
               "pos": "adj.",
               "meaning": "adj.(权力、重要性或影响力)最高 的，至高无上的；(程度）很大的",
               "highlight": "adj.(权力、重要性或影响力)最高 的",
@@ -9927,7 +9927,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "supremacy",
-                  "phonetic": "/su'premasi/",
+                  "phonetic": "/suːˈpreməsi/",
                   "pos": "n.",
                   "meaning": "n.至高无上；最大权力；最高地位"
                 }
@@ -10033,7 +10033,7 @@ window.CET6_DATA = {
               "id": "u4_l1_01",
               "num": "01",
               "word": "scholar",
-              "phonetic": "/'skola(r)/",
+              "phonetic": "/ˈskɑːlər/",
               "pos": "n.",
               "meaning": "n.学者；奖学金获得者",
               "highlight": "n.学者",
@@ -10043,19 +10043,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "scholarly",
-                  "phonetic": "/'skolali/",
+                  "phonetic": "/ˈskɑːlərli/",
                   "pos": "adj.",
                   "meaning": "adj.学术性的；有学问的"
                 },
                 {
                   "word": "scholarship",
-                  "phonetic": "/'skolafip/",
+                  "phonetic": "/ˈskɑːlərʃɪp/",
                   "pos": "n.",
                   "meaning": "n.奖学金；学问；学术研究"
                 },
                 {
                   "word": "scholastic",
-                  "phonetic": "/ska'laestik/",
+                  "phonetic": "/skəˈlæstɪk/",
                   "pos": "adj.",
                   "meaning": "adj.学校的；教育的；学业的"
                 }
@@ -10067,7 +10067,7 @@ window.CET6_DATA = {
               "id": "u4_l1_02",
               "num": "02",
               "word": "expert",
-              "phonetic": "/'ekspɜːt/",
+              "phonetic": "/ˈekspɜːrt/",
               "pos": "n./adj.",
               "meaning": "n. 专家，行家 adj. 专家的，内行的",
               "highlight": "n.专家",
@@ -10110,7 +10110,7 @@ window.CET6_DATA = {
               "id": "u4_l1_05",
               "num": "05",
               "word": "tutor",
-              "phonetic": "/'tjurta(r)/",
+              "phonetic": "/ˈtuːtər/",
               "pos": "n.",
               "meaning": "n.导师；家庭教师v.辅导",
               "highlight": "n.导师",
@@ -10120,7 +10120,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "tutorial",
-                  "phonetic": "/jeuen/",
+                  "phonetic": "/tuːˈtɔːriəl/",
                   "pos": "n.",
                   "meaning": "n.个别辅导时间，辅导课 adj.导师的；私人教师的；辅导的"
                 }
@@ -10130,7 +10130,7 @@ window.CET6_DATA = {
               "id": "u4_l1_06",
               "num": "06",
               "word": "professor",
-              "phonetic": "/pra'fesa(r)/",
+              "phonetic": "/prəˈfesər/",
               "pos": "n.",
               "meaning": "n.教授；（大学的）讲师，教员",
               "highlight": "n.教授",
@@ -10143,7 +10143,7 @@ window.CET6_DATA = {
               "id": "u4_l1_07",
               "num": "07",
               "word": "profession",
-              "phonetic": "/pra'fefn/",
+              "phonetic": "/prəˈfeʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.职业；行业；表白",
               "highlight": "n.职业",
@@ -10153,7 +10153,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "professional",
-                  "phonetic": "/pra'fefanl/",
+                  "phonetic": "/prəˈfeʃən(ə)l/",
                   "pos": "n.",
                   "meaning": "n.专业人员，内行；职业选手 adj.专业的；职业的"
                 }
@@ -10165,7 +10165,7 @@ window.CET6_DATA = {
               "id": "u4_l1_08",
               "num": "08",
               "word": "faculty",
-              "phonetic": "/'feklti/",
+              "phonetic": "/ˈfæk(ə)lti/",
               "pos": "",
               "meaning": "赋；才能 n.(高等院校的）系，院；全体教师；天",
               "highlight": "赋",
@@ -10193,7 +10193,7 @@ window.CET6_DATA = {
               "id": "u4_l1_10",
               "num": "10",
               "word": "occupy",
-              "phonetic": "/'okjupal/",
+              "phonetic": "/ˈɑːkjupaɪ/",
               "pos": "v.",
               "meaning": "v.使用，占用；忙着（做某事）",
               "highlight": "v.使用",
@@ -10203,13 +10203,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "occupancy",
-                  "phonetic": "/'okjapansi/",
+                  "phonetic": "/ˈɑːkjəpənsi/",
                   "pos": "n.",
                   "meaning": "n.占用，使用，居住"
                 },
                 {
                   "word": "occupant",
-                  "phonetic": "/uedelya,/",
+                  "phonetic": "/ˈɑːkjəpənt/",
                   "pos": "n.",
                   "meaning": "n.使用者，居住者；乘坐者"
                 }
@@ -10219,7 +10219,7 @@ window.CET6_DATA = {
               "id": "u4_l1_11",
               "num": "11",
               "word": "occupation",
-              "phonetic": "/okju'perfn/",
+              "phonetic": "/ˌɑːkjuˈpeɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.职业，工作",
               "highlight": "n.职业",
@@ -10229,7 +10229,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "occupational",
-                  "phonetic": "/okjupeifanl/",
+                  "phonetic": "/ˌɑːkjuˈpeɪʃən(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.职业的"
                 }
@@ -10252,7 +10252,7 @@ window.CET6_DATA = {
               "id": "u4_l1_13",
               "num": "13",
               "word": "confession",
-              "phonetic": "/kan'fefn/",
+              "phonetic": "/kənˈfeʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.供认，坦白；承认",
               "highlight": "n.供认",
@@ -10262,7 +10262,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "confess",
-                  "phonetic": "/kan'fes/",
+                  "phonetic": "/kənˈfes/",
                   "pos": "v.",
                   "meaning": "v.供认；承认（错误或罪行)；忏悔"
                 }
@@ -10304,7 +10304,7 @@ window.CET6_DATA = {
               "id": "u4_l1_16",
               "num": "16",
               "word": "forum",
-              "phonetic": "/foram/",
+              "phonetic": "/ˈfɔːrəm/",
               "pos": "n.",
               "meaning": "n.论坛，讨论会",
               "highlight": "n.论坛",
@@ -10319,7 +10319,7 @@ window.CET6_DATA = {
               "id": "u4_l1_17",
               "num": "17",
               "word": "academic",
-              "phonetic": "/iakademk/",
+              "phonetic": "/ˌækəˈdemɪk/",
               "pos": "n.",
               "meaning": "n.大学教师adj.学术的，学业的",
               "highlight": "n.大学教师adj.学术的",
@@ -10329,7 +10329,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "academician",
-                  "phonetic": "/akaeda'mfn/",
+                  "phonetic": "/ˌəkædəˈmɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.院士；学会会员"
                 }
@@ -10341,7 +10341,7 @@ window.CET6_DATA = {
               "id": "u4_l1_18",
               "num": "18",
               "word": "academy",
-              "phonetic": "/a'kedami/",
+              "phonetic": "/əˈkædəmi/",
               "pos": "n.",
               "meaning": "n.专科院校：（艺术、文学、科学等的） 研究院；学会",
               "highlight": "n.专科院校：（艺术、文学、科学等的） 研究院",
@@ -10356,7 +10356,7 @@ window.CET6_DATA = {
               "id": "u4_l1_19",
               "num": "19",
               "word": "epidemic",
-              "phonetic": "/iepr'demik/",
+              "phonetic": "/ˌepɪˈdemɪk/",
               "pos": "n.",
               "meaning": "n.传染病；（坏事）泛滥，蔓延 adj.流行的",
               "highlight": "n.传染病",
@@ -10371,7 +10371,7 @@ window.CET6_DATA = {
               "id": "u4_l1_20",
               "num": "20",
               "word": "vaccine",
-              "phonetic": "/'vaeksin/",
+              "phonetic": "/vækˈsiːn/",
               "pos": "n.",
               "meaning": "n.疫苗",
               "highlight": "n.疫苗",
@@ -10387,7 +10387,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "vaccination",
-                  "phonetic": "/ivaekst'ner/n/",
+                  "phonetic": "/ˌvæksɪˈneɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.疫苗接种"
                 }
@@ -10397,7 +10397,7 @@ window.CET6_DATA = {
               "id": "u4_l1_21",
               "num": "21",
               "word": "immune",
-              "phonetic": "/t'mjun/",
+              "phonetic": "/ɪˈmjuːn/",
               "pos": "adj.",
               "meaning": "adj.有免疫力的；不受影响的；豁免的",
               "highlight": "adj.有免疫力的",
@@ -10417,7 +10417,7 @@ window.CET6_DATA = {
               "id": "u4_l1_22",
               "num": "22",
               "word": "immunize",
-              "phonetic": "/'ɪmjunaɪz/",
+              "phonetic": "/ˈɪmjunaɪz/",
               "pos": "v.",
               "meaning": "v. (尤指通过注射疫苗)使免疫",
               "highlight": "v.(尤指通过注射疫苗）使免疫",
@@ -10430,7 +10430,7 @@ window.CET6_DATA = {
               "id": "u4_l1_23",
               "num": "23",
               "word": "insulate",
-              "phonetic": "/'insjulet/",
+              "phonetic": "/ˈɪnsəleɪt/",
               "pos": "v.",
               "meaning": "v.使隔热；使隔音；使绝缘；使免受（不 良影响)；隔离",
               "highlight": "v.使隔热",
@@ -10440,13 +10440,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "insulation",
-                  "phonetic": "/unsju'lerfn/",
+                  "phonetic": "/ˌɪnsəˈleɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.隔绝；绝缘材料"
                 },
                 {
                   "word": "insulator",
-                  "phonetic": "/'insjulerta(r)/",
+                  "phonetic": "/ˈɪnsəleɪtər/",
                   "pos": "n.",
                   "meaning": "n.隔热（或绝缘、隔音等的）材料（或装 置）"
                 }
@@ -10456,7 +10456,7 @@ window.CET6_DATA = {
               "id": "u4_l1_24",
               "num": "24",
               "word": "section",
-              "phonetic": "/'sekfn/",
+              "phonetic": "/ˈsekʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.部分；部门；（书、报等的）节 v.切开；做切片",
               "highlight": "n.部分",
@@ -10471,7 +10471,7 @@ window.CET6_DATA = {
               "id": "u4_l1_25",
               "num": "25",
               "word": "sector",
-              "phonetic": "/'sekta(r)/",
+              "phonetic": "/ˈsektər/",
               "pos": "n.",
               "meaning": "n.(尤指商业、贸易等的）部门；行业； 区域",
               "highlight": "n.(尤指商业、贸易等的）部门",
@@ -10496,7 +10496,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "segmental",
-                  "phonetic": "/seg'mentl/",
+                  "phonetic": "/seɡˈmentl/",
                   "pos": "adj.",
                   "meaning": "adj.音段的"
                 }
@@ -10508,7 +10508,7 @@ window.CET6_DATA = {
               "id": "u4_l1_27",
               "num": "27",
               "word": "senior",
-              "phonetic": "/'sinia(r)/",
+              "phonetic": "/ˈsiːniər/",
               "pos": "adj.",
               "meaning": "adj. 级别(或地位)高的；资深的；年长的 n. 毕业班学生；老年人",
               "highlight": "adj.级别(或地位)高的",
@@ -10518,7 +10518,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "seniority",
-                  "phonetic": "/isini'orati/",
+                  "phonetic": "/ˌsiːnˈjɔːrəti/",
                   "pos": "n.",
                   "meaning": "n.资历；年长；级别高"
                 }
@@ -10545,7 +10545,7 @@ window.CET6_DATA = {
               "id": "u4_l1_29",
               "num": "29",
               "word": "bachelor",
-              "phonetic": "/'baetfala(r)/",
+              "phonetic": "/ˈbætʃələr/",
               "pos": "n.",
               "meaning": "n.未婚男子，单身汉；学士",
               "highlight": "n.未婚男子",
@@ -10608,7 +10608,7 @@ window.CET6_DATA = {
               "id": "u4_l1_33",
               "num": "33",
               "word": "adolescent",
-              "phonetic": "/eds'lesnt/",
+              "phonetic": "/ˌædəˈles(ə)nt/",
               "pos": "n.",
               "meaning": "n.青少年",
               "highlight": "n.青少年",
@@ -10623,7 +10623,7 @@ window.CET6_DATA = {
               "id": "u4_l1_34",
               "num": "34",
               "word": "adolescence",
-              "phonetic": "/aeda'lesns/",
+              "phonetic": "/ˌædəˈles(ə)ns/",
               "pos": "n.",
               "meaning": "n.青春期；青春",
               "highlight": "n.青春期",
@@ -10638,7 +10638,7 @@ window.CET6_DATA = {
               "id": "u4_l1_35",
               "num": "35",
               "word": "idle",
-              "phonetic": "/'aidl/",
+              "phonetic": "/ˈaɪd(ə)l/",
               "pos": "adj.",
               "meaning": "adj.不工作的；空闲的；无所事事的 v.无所事事；（发动机）空转",
               "highlight": "adj.不工作的",
@@ -10648,7 +10648,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "idly",
-                  "phonetic": "/'aidli/",
+                  "phonetic": "/ˈaɪdli/",
                   "pos": "adv.",
                   "meaning": "adv.毫无目的地；漫不经心地；闲散地"
                 }
@@ -10660,7 +10660,7 @@ window.CET6_DATA = {
               "id": "u4_l1_36",
               "num": "36",
               "word": "private",
-              "phonetic": "/'praivat/",
+              "phonetic": "/ˈpraɪvət/",
               "pos": "adj.",
               "meaning": "adj.私有的；秘密的，私人的",
               "highlight": "adj.私有的",
@@ -10670,13 +10670,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "privacy",
-                  "phonetic": "/'privasi/",
+                  "phonetic": "/ˈpraɪvəsi/",
                   "pos": "n.",
                   "meaning": "n.隐私；私密"
                 },
                 {
                   "word": "privatization",
-                  "phonetic": "/ˌpraɪvətaɪ'zeɪʃn/",
+                  "phonetic": "/ˌpraɪvətəˈzeɪʃn/",
                   "pos": "n.",
                   "meaning": "n. 私有化"
                 }
@@ -10686,7 +10686,7 @@ window.CET6_DATA = {
               "id": "u4_l1_37",
               "num": "37",
               "word": "whisper",
-              "phonetic": "/'wispa(r)/",
+              "phonetic": "/ˈwɪspər/",
               "pos": "n.",
               "meaning": "n.耳语，低语；谣言 v.耳语，低语，小声说",
               "highlight": "n.耳语",
@@ -10699,7 +10699,7 @@ window.CET6_DATA = {
               "id": "u4_l1_38",
               "num": "38",
               "word": "gossip",
-              "phonetic": "/'gpsip/",
+              "phonetic": "/ˈɡɑːsɪp/",
               "pos": "v.",
               "meaning": "v.说闲话 n.流言冀语；闲聊；爱说长道短的人",
               "highlight": "v.说闲话 n.流言冀语",
@@ -10712,7 +10712,7 @@ window.CET6_DATA = {
               "id": "u4_l1_39",
               "num": "39",
               "word": "mutter",
-              "phonetic": "/'mAta(r)/",
+              "phonetic": "/ˈmʌtər/",
               "pos": "n.",
               "meaning": "n.嘀咕；低语声 v.嘀咕；（私下）抱怨，发牢骚",
               "highlight": "n.嘀咕",
@@ -10745,7 +10745,7 @@ window.CET6_DATA = {
               "id": "u4_l1_41",
               "num": "41",
               "word": "mature",
-              "phonetic": "/məˈtʃʊə(r)/",
+              "phonetic": "/məˈtʃʊr/",
               "pos": "",
               "meaning": "adj. 成熟的；理智的，明白事理的 v. 成熟",
               "highlight": "/mo'tua(r); 年的",
@@ -10755,7 +10755,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "maturity",
-                  "phonetic": "/uezen,eu/",
+                  "phonetic": "/məˈtʃʊrəti/",
                   "pos": "",
                   "meaning": "n. 成熟(期)；到期(应付款)"
                 }
@@ -10814,7 +10814,7 @@ window.CET6_DATA = {
               "id": "u4_l2_01",
               "num": "42",
               "word": "premature",
-              "phonetic": "/'prematfa(r)/",
+              "phonetic": "/ˌpriːməˈtʃʊr/",
               "pos": "adj.",
               "meaning": "adj.过早的；早产的；仓促的",
               "highlight": "adj.过早的",
@@ -10829,7 +10829,7 @@ window.CET6_DATA = {
               "id": "u4_l2_02",
               "num": "43",
               "word": "moral",
-              "phonetic": "/leraw/",
+              "phonetic": "/ˈmɔːrəl/",
               "pos": "n.",
               "meaning": "n.道德准则（标准）；寓意；教育意义 adj.道德（上）的；品行端正的",
               "highlight": "n.道德准则（标准）",
@@ -10839,7 +10839,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "morality",
-                  "phonetic": "/ma'raeloti/",
+                  "phonetic": "/məˈræləti/",
                   "pos": "n.",
                   "meaning": "n.道德，道德观；道德规范"
                 }
@@ -10886,7 +10886,7 @@ window.CET6_DATA = {
               "id": "u4_l2_05",
               "num": "46",
               "word": "campaign",
-              "phonetic": "/kem'pein/",
+              "phonetic": "/kæmˈpeɪn/",
               "pos": "n.",
               "meaning": "n.运动；战役v.参加运动，领导运动",
               "highlight": "n.运动",
@@ -10901,7 +10901,7 @@ window.CET6_DATA = {
               "id": "u4_l2_06",
               "num": "01",
               "word": "scope",
-              "phonetic": "/skaup/",
+              "phonetic": "/skoʊp/",
               "pos": "n.",
               "meaning": "n.(活动、书籍等的）范围，领域；机会",
               "highlight": "n.(活动、书籍等的）范围",
@@ -10914,7 +10914,7 @@ window.CET6_DATA = {
               "id": "u4_l2_07",
               "num": "02",
               "word": "terrain",
-              "phonetic": "/ta'rein/",
+              "phonetic": "/təˈreɪn/",
               "pos": "n.",
               "meaning": "n.地形，地势",
               "highlight": "n.地形",
@@ -10942,7 +10942,7 @@ window.CET6_DATA = {
               "id": "u4_l2_09",
               "num": "04",
               "word": "sphere",
-              "phonetic": "/sfia(r)/",
+              "phonetic": "/sfɪr/",
               "pos": "n.",
               "meaning": "n.球形；范围，领域",
               "highlight": "n.球形",
@@ -10962,7 +10962,7 @@ window.CET6_DATA = {
               "id": "u4_l2_10",
               "num": "05",
               "word": "domain",
-              "phonetic": "/dau'mein/",
+              "phonetic": "/doʊˈmeɪn/",
               "pos": "",
               "meaning": "n. (知识、活动的)领域，范围；领土，势力范围",
               "highlight": "/da'mein; n.(知识、活动的)领域",
@@ -10975,7 +10975,7 @@ window.CET6_DATA = {
               "id": "u4_l2_11",
               "num": "06",
               "word": "hemisphere",
-              "phonetic": "/'hemisfa(r)/",
+              "phonetic": "/ˈhemɪsfɪr/",
               "pos": "n.",
               "meaning": "n.(地球或大脑的)半球",
               "highlight": "n.(地球或大脑的)半球",
@@ -10988,7 +10988,7 @@ window.CET6_DATA = {
               "id": "u4_l2_12",
               "num": "07",
               "word": "atmosphere",
-              "phonetic": "/aetmasfra(r)/",
+              "phonetic": "/ˈætməsfɪr/",
               "pos": "n.",
               "meaning": "n.大气层；气氛，氛围；气体",
               "highlight": "n.大气层",
@@ -10998,7 +10998,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "atmospheric",
-                  "phonetic": "/aetmas'ferrk/",
+                  "phonetic": "/ˌætməsˈfɪrɪk/",
                   "pos": "adj.",
                   "meaning": "adj.大气的，大气层的"
                 }
@@ -11031,7 +11031,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "surroundings",
-                  "phonetic": "/sa'raundigz/",
+                  "phonetic": "/səˈraʊndɪŋz/",
                   "pos": "n.",
                   "meaning": "n.环境"
                 }
@@ -11053,7 +11053,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "moody",
-                  "phonetic": "/'mudi/",
+                  "phonetic": "/ˈmuːdi/",
                   "pos": "adj.",
                   "meaning": "adj.情绪多变的，喜怒无常的"
                 }
@@ -11063,7 +11063,7 @@ window.CET6_DATA = {
               "id": "u4_l2_16",
               "num": "11",
               "word": "climate",
-              "phonetic": "/'klaimat/",
+              "phonetic": "/ˈklaɪmət/",
               "pos": "n.",
               "meaning": "n.气候（区）；环境气氛；风气，氛围",
               "highlight": "n.气候（区）",
@@ -11073,7 +11073,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "climatic",
-                  "phonetic": "/klal'matik/",
+                  "phonetic": "/klaɪˈmætɪk/",
                   "pos": "adj.",
                   "meaning": "adj.气候的"
                 }
@@ -11111,7 +11111,7 @@ window.CET6_DATA = {
               "id": "u4_l2_19",
               "num": "14",
               "word": "widespread",
-              "phonetic": "/'wardspred/",
+              "phonetic": "/ˈwaɪdspred/",
               "pos": "adj.",
               "meaning": "adj.分布广的；普遍的，广泛的",
               "highlight": "adj.分布广的",
@@ -11170,7 +11170,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "diversity",
-                  "phonetic": "/dai'vstsati/",
+                  "phonetic": "/daɪˈvɜːrsəti/",
                   "pos": "n.",
                   "meaning": "n.差异，不同；多样性"
                 }
@@ -11182,7 +11182,7 @@ window.CET6_DATA = {
               "id": "u4_l2_23",
               "num": "18",
               "word": "divert",
-              "phonetic": "/das'vat/",
+              "phonetic": "/daɪˈvɜːrt/",
               "pos": "",
               "meaning": "的注意力 v.使转向；使绕道；改变；转移（某人）",
               "highlight": "的注意力 v.使转向",
@@ -11212,7 +11212,7 @@ window.CET6_DATA = {
               "id": "u4_l2_25",
               "num": "20",
               "word": "converse",
-              "phonetic": "/kənˈvɜːs/",
+              "phonetic": "/kənˈvɜːrs/",
               "pos": "",
               "meaning": "v. 交谈，谈话 adj. 相反的 n. 相反的事物；反面",
               "highlight": "/\"konvats/ v.交谈",
@@ -11225,7 +11225,7 @@ window.CET6_DATA = {
               "id": "u4_l2_26",
               "num": "21",
               "word": "controversy",
-              "phonetic": "/kan'trovasi/",
+              "phonetic": "/ˈkɑːntrəvɜːrsi/",
               "pos": "",
               "meaning": "n. 争议，公开辩论；论战",
               "highlight": "/'kontrov3si; n.争议",
@@ -11260,7 +11260,7 @@ window.CET6_DATA = {
               "id": "u4_l2_28",
               "num": "23",
               "word": "convert",
-              "phonetic": "/kənˈvɜːt/",
+              "phonetic": "/kənˈvɜːrt/",
               "pos": "",
               "meaning": "n. 皈依者 v. (使)转变，转换；(使)改变",
               "highlight": "/'konvat/ n.皈依者 v.(使)转变",
@@ -11316,7 +11316,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inversion",
-                  "phonetic": "/ɪnˈvɜːʃn/",
+                  "phonetic": "/ɪnˈvɜːrʒ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.倒置，颠倒，倒转"
                 }
@@ -11350,7 +11350,7 @@ window.CET6_DATA = {
               "id": "u4_l2_32",
               "num": "27",
               "word": "reversible",
-              "phonetic": "/rt'vasabl/",
+              "phonetic": "/rɪˈvɜːrsəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.可逆的；可翻转的；可两面穿的， 正反两用的",
               "highlight": "adj.可逆的",
@@ -11385,7 +11385,7 @@ window.CET6_DATA = {
               "id": "u4_l2_34",
               "num": "29",
               "word": "adversary",
-              "phonetic": "/edvasari/",
+              "phonetic": "/ˈædvərseri/",
               "pos": "n.",
               "meaning": "n.(辩论、战斗中的)敌手，对手",
               "highlight": "n.(辩论、战斗中的)敌手",
@@ -11400,7 +11400,7 @@ window.CET6_DATA = {
               "id": "u4_l2_35",
               "num": "30",
               "word": "versatile",
-              "phonetic": "/'vstsatal/",
+              "phonetic": "/ˈvɜːrsət(ə)l/",
               "pos": "adj.",
               "meaning": "adj.多才多艺的；多功能的",
               "highlight": "adj.多才多艺的",
@@ -11445,7 +11445,7 @@ window.CET6_DATA = {
               "id": "u4_l2_38",
               "num": "33",
               "word": "vocal",
-              "phonetic": "/'vaukl/",
+              "phonetic": "/ˈvoʊk(ə)l/",
               "pos": "adj.",
               "meaning": "adj.噪音的；发声的；歌唱的；直言不 讳的",
               "highlight": "adj.噪音的",
@@ -11460,7 +11460,7 @@ window.CET6_DATA = {
               "id": "u4_l2_39",
               "num": "34",
               "word": "innovate",
-              "phonetic": "/'inavert/",
+              "phonetic": "/ˈɪnəveɪt/",
               "pos": "v.",
               "meaning": "v.创新；改革",
               "highlight": "v.创新",
@@ -11470,13 +11470,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "innovation",
-                  "phonetic": "/una'verfn/",
+                  "phonetic": "/ˌɪnəˈveɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.创造，创新；改革"
                 },
                 {
                   "word": "innovative",
-                  "phonetic": "/'navativ/",
+                  "phonetic": "/ˈɪnəveɪtɪv/",
                   "pos": "",
                   "meaning": "adj. 革新的；创新的"
                 }
@@ -11506,7 +11506,7 @@ window.CET6_DATA = {
               "id": "u4_l2_41",
               "num": "36",
               "word": "renovate",
-              "phonetic": "/'renavert/",
+              "phonetic": "/ˈrenəveɪt/",
               "pos": "v.",
               "meaning": "v.修复；翻新；重新粉刷",
               "highlight": "v.修复",
@@ -11516,7 +11516,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "renovation",
-                  "phonetic": "/irena'vern/",
+                  "phonetic": "/ˌrenəˈveɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.修复；翻新；重新粉刷"
                 }
@@ -11528,7 +11528,7 @@ window.CET6_DATA = {
               "id": "u4_l2_42",
               "num": "37",
               "word": "evolve",
-              "phonetic": "/t'volv/",
+              "phonetic": "/ɪˈvɑːlv/",
               "pos": "v.",
               "meaning": "v.进化；逐步发展；逐渐演变",
               "highlight": "v.进化",
@@ -11554,7 +11554,7 @@ window.CET6_DATA = {
               "id": "u4_l2_43",
               "num": "38",
               "word": "involve",
-              "phonetic": "/In'volv/",
+              "phonetic": "/ɪnˈvɑːlv/",
               "pos": "v.",
               "meaning": "v.涉及；包含；需要；参与",
               "highlight": "v.涉及",
@@ -11564,13 +11564,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "involvement",
-                  "phonetic": "/In'volvmant/",
+                  "phonetic": "/ɪnˈvɑːlvmənt/",
                   "pos": "n.",
                   "meaning": "n.参与，加入；插手"
                 },
                 {
                   "word": "involved",
-                  "phonetic": "/In'volvd/",
+                  "phonetic": "/ɪnˈvɑːlvd/",
                   "pos": "adj.",
                   "meaning": "adj.卷人的，有关的；复杂的"
                 }
@@ -11580,7 +11580,7 @@ window.CET6_DATA = {
               "id": "u4_l2_44",
               "num": "39",
               "word": "revolve",
-              "phonetic": "/r'volv/",
+              "phonetic": "/rɪˈvɑːlv/",
               "pos": "v.",
               "meaning": "v.旋转；环绕",
               "highlight": "v.旋转",
@@ -11613,7 +11613,7 @@ window.CET6_DATA = {
               "id": "u4_l2_46",
               "num": "41",
               "word": "revolt",
-              "phonetic": "/r'vault/",
+              "phonetic": "/rɪˈvoʊlt/",
               "pos": "n.",
               "meaning": "n.反抗；起义；造反 v.叛逆；反抗，反叛",
               "highlight": "n.反抗",
@@ -11628,7 +11628,7 @@ window.CET6_DATA = {
               "id": "u4_l2_47",
               "num": "42",
               "word": "renaissance",
-              "phonetic": "/ri'neisns/",
+              "phonetic": "/ˈrenəsɑːns/",
               "pos": "n.",
               "meaning": "n.(尤指某种艺术形式、音乐形式等 的)复兴",
               "highlight": "n.(尤指某种艺术形式、音乐形式等 的)复兴",
@@ -11663,7 +11663,7 @@ window.CET6_DATA = {
               "id": "u4_l2_49",
               "num": "44",
               "word": "vivid",
-              "phonetic": "/PIAIA/",
+              "phonetic": "/ˈvɪvɪd/",
               "pos": "adj.",
               "meaning": "adj.生动的，逼真的；鲜艳的",
               "highlight": "adj.生动的",
@@ -11676,7 +11676,7 @@ window.CET6_DATA = {
               "id": "u4_l2_50",
               "num": "45",
               "word": "survive",
-              "phonetic": "/sa/vaiv/",
+              "phonetic": "/sərˈvaɪv/",
               "pos": "v.",
               "meaning": "v.生存，幸存，生还",
               "highlight": "v.生存",
@@ -11686,7 +11686,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "survivor",
-                  "phonetic": "/sa/vaiva(r)/",
+                  "phonetic": "/sərˈvaɪvər/",
                   "pos": "n.",
                   "meaning": "n.生还者，幸存者"
                 },
@@ -11704,7 +11704,7 @@ window.CET6_DATA = {
               "id": "u4_l2_51",
               "num": "46",
               "word": "reform",
-              "phonetic": "/rifom/",
+              "phonetic": "/rɪˈfɔːrm/",
               "pos": "n.",
               "meaning": "n.改革，改良 v.改革，改进；改造（行为）",
               "highlight": "n.改革",
@@ -11714,13 +11714,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "reformation",
-                  "phonetic": "/refo'mern/",
+                  "phonetic": "/ˌrefərˈmeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.改革，改进"
                 },
                 {
                   "word": "reformist",
-                  "phonetic": "/rfomist/",
+                  "phonetic": "/rɪˈfɔːrmɪst/",
                   "pos": "n.",
                   "meaning": "n.改良者，改革者adj.主张改革的， 改革派的；改良主义的"
                 }
@@ -11730,7 +11730,7 @@ window.CET6_DATA = {
               "id": "u4_l2_52",
               "num": "47",
               "word": "conform",
-              "phonetic": "/kanfom/",
+              "phonetic": "/kənˈfɔːrm/",
               "pos": "v.",
               "meaning": "v.遵守，遵从；相一致，相吻合",
               "highlight": "v.遵守",
@@ -11740,7 +11740,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "conformity",
-                  "phonetic": "/kan'fomati/",
+                  "phonetic": "/kənˈfɔːrməti/",
                   "pos": "n.",
                   "meaning": "n.(对社会规则的）遵从，遵守"
                 }
@@ -11750,7 +11750,7 @@ window.CET6_DATA = {
               "id": "u4_l2_53",
               "num": "48",
               "word": "uniform",
-              "phonetic": "/ junfom/",
+              "phonetic": "/ˈjuːnɪfɔːrm/",
               "pos": "n.",
               "meaning": "n.校服；制服",
               "highlight": "n.校服",
@@ -11843,7 +11843,7 @@ window.CET6_DATA = {
               "id": "u4_l3_03",
               "num": "51",
               "word": "formulate",
-              "phonetic": "/'fomjuleit/",
+              "phonetic": "/ˈfɔːrmjuleɪt/",
               "pos": "v.",
               "meaning": "v.制定；规划；构想；确切表达",
               "highlight": "v.制定",
@@ -11863,7 +11863,7 @@ window.CET6_DATA = {
               "id": "u4_l3_04",
               "num": "52",
               "word": "formal",
-              "phonetic": "/foml/",
+              "phonetic": "/ˈfɔːrm(ə)l/",
               "pos": "adj.",
               "meaning": "adj.正规的，正式的；形式上的；整 齐的",
               "highlight": "adj.正规的",
@@ -11899,7 +11899,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "informant",
-                  "phonetic": "/in'fomant/",
+                  "phonetic": "/ɪnˈfɔːrmənt/",
                   "pos": "n.",
                   "meaning": "n.告密者；合作者"
                 }
@@ -11909,7 +11909,7 @@ window.CET6_DATA = {
               "id": "u4_l3_06",
               "num": "54",
               "word": "perform",
-              "phonetic": "/pa'fom/",
+              "phonetic": "/pərˈfɔːrm/",
               "pos": "v.",
               "meaning": "v.演出，表演；做；执行；工作，运转",
               "highlight": "v.演出",
@@ -11919,13 +11919,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "performance",
-                  "phonetic": "/pafomans/",
+                  "phonetic": "/pərˈfɔːrməns/",
                   "pos": "n.",
                   "meaning": "n.表演，演出；表现；业绩"
                 },
                 {
                   "word": "performer",
-                  "phonetic": "/pa'foma(r)/",
+                  "phonetic": "/pərˈfɔːrmər/",
                   "pos": "n.",
                   "meaning": "n.表演者，演出者"
                 }
@@ -11935,7 +11935,7 @@ window.CET6_DATA = {
               "id": "u4_l3_07",
               "num": "01",
               "word": "inspect",
-              "phonetic": "/In'spekt/",
+              "phonetic": "/ɪnˈspekt/",
               "pos": "v.",
               "meaning": "v.仔细检查，检验；视察",
               "highlight": "v.仔细检查",
@@ -11945,7 +11945,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inspection",
-                  "phonetic": "/mn'spekfn/",
+                  "phonetic": "/ɪnˈspekʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.视察；检查"
                 }
@@ -11957,7 +11957,7 @@ window.CET6_DATA = {
               "id": "u4_l3_08",
               "num": "02",
               "word": "inspector",
-              "phonetic": "/in'spekta(r)/",
+              "phonetic": "/ɪnˈspektər/",
               "pos": "n.",
               "meaning": "n.检查员；视察员，巡视员；（警察） 巡官",
               "highlight": "n.检查员",
@@ -11972,7 +11972,7 @@ window.CET6_DATA = {
               "id": "u4_l3_09",
               "num": "03",
               "word": "expect",
-              "phonetic": "/ik'spekt/",
+              "phonetic": "/ɪkˈspekt/",
               "pos": "v.",
               "meaning": "v.预期；期待；要求，期望；猜想",
               "highlight": "v.预期",
@@ -11982,7 +11982,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "expectation",
-                  "phonetic": "/ekspek'teifn/",
+                  "phonetic": "/ˌekspekˈteɪʃn/",
                   "pos": "n.",
                   "meaning": "n.预料；预期；期望"
                 }
@@ -11992,7 +11992,7 @@ window.CET6_DATA = {
               "id": "u4_l3_10",
               "num": "04",
               "word": "expectancy",
-              "phonetic": "/tk'spektansi/",
+              "phonetic": "/ɪkˈspektənsi/",
               "pos": "n.",
               "meaning": "n.预期；期待；期望",
               "highlight": "n.预期",
@@ -12002,7 +12002,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "life expectancy",
-                  "phonetic": "/laɪf ɪk'spektənsi/",
+                  "phonetic": "/ˈlaɪf ɪkˈspektənsi/",
                   "pos": "n. phr.",
                   "meaning": "n. 预期寿命"
                 }
@@ -12027,7 +12027,7 @@ window.CET6_DATA = {
               "id": "u4_l3_12",
               "num": "06",
               "word": "prolong",
-              "phonetic": "/pra'lon/",
+              "phonetic": "/prəˈlɔːŋ/",
               "pos": "v.",
               "meaning": "v.延长",
               "highlight": "v.延长",
@@ -12042,7 +12042,7 @@ window.CET6_DATA = {
               "id": "u4_l3_13",
               "num": "07",
               "word": "lengthy",
-              "phonetic": "/'legoi/",
+              "phonetic": "/ˈleŋθi/",
               "pos": "adj.",
               "meaning": "adj.长时间的；长的",
               "highlight": "adj.长时间的",
@@ -12057,7 +12057,7 @@ window.CET6_DATA = {
               "id": "u4_l3_14",
               "num": "08",
               "word": "aspect",
-              "phonetic": "/aespekt/",
+              "phonetic": "/ˈæspekt/",
               "pos": "n.",
               "meaning": "n.方面；方位；外观，外表",
               "highlight": "n.方面",
@@ -12070,7 +12070,7 @@ window.CET6_DATA = {
               "id": "u4_l3_15",
               "num": "09",
               "word": "suspect",
-              "phonetic": "/'sʌspekt/",
+              "phonetic": "/səˈspekt/",
               "pos": "n./adj./v.",
               "meaning": "n. 犯罪嫌疑人 adj. 可疑的 v. 猜想；怀疑",
               "highlight": "n.犯罪嫌疑人adj.可疑的 v.猜想",
@@ -12083,7 +12083,7 @@ window.CET6_DATA = {
               "id": "u4_l3_16",
               "num": "10",
               "word": "suspicion",
-              "phonetic": "/saspifn/",
+              "phonetic": "/səˈspɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.怀疑，嫌疑",
               "highlight": "n.怀疑",
@@ -12096,7 +12096,7 @@ window.CET6_DATA = {
               "id": "u4_l3_17",
               "num": "11",
               "word": "susceptible",
-              "phonetic": "/sa'septabl/",
+              "phonetic": "/səˈseptəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.易受影响的；易得病的",
               "highlight": "adj.易受影响的",
@@ -12111,7 +12111,7 @@ window.CET6_DATA = {
               "id": "u4_l3_18",
               "num": "12",
               "word": "spectator",
-              "phonetic": "/spek'teta(r)/",
+              "phonetic": "/ˈspekteɪtər/",
               "pos": "n.",
               "meaning": "n.观看者，观众",
               "highlight": "n.观看者",
@@ -12126,7 +12126,7 @@ window.CET6_DATA = {
               "id": "u4_l3_19",
               "num": "13",
               "word": "respect",
-              "phonetic": "/ri'spekt/",
+              "phonetic": "/rɪˈspekt/",
               "pos": "n.",
               "meaning": "n.尊敬；方面v.尊敬；遵守",
               "highlight": "n.尊敬",
@@ -12136,13 +12136,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "respectable",
-                  "phonetic": "/r'spektabl/",
+                  "phonetic": "/rɪˈspektəbl/",
                   "pos": "adj.",
                   "meaning": "adj.体面的；值得尊敬的"
                 },
                 {
                   "word": "respectful",
-                  "phonetic": "/rt'spektfl/",
+                  "phonetic": "/rɪˈspektfl/",
                   "pos": "adj.",
                   "meaning": "adj.有礼貌的，尊敬的"
                 }
@@ -12152,7 +12152,7 @@ window.CET6_DATA = {
               "id": "u4_l3_20",
               "num": "14",
               "word": "respective",
-              "phonetic": "/rt'spektiv/",
+              "phonetic": "/rɪˈspektɪv/",
               "pos": "adj.",
               "meaning": "adj.分别的，各自的",
               "highlight": "adj.分别的",
@@ -12162,7 +12162,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "respectively",
-                  "phonetic": "/r'spektivli/",
+                  "phonetic": "/rɪˈspektɪvli/",
                   "pos": "adv.",
                   "meaning": "adv.各自，分别；依次为；顺序为"
                 }
@@ -12172,7 +12172,7 @@ window.CET6_DATA = {
               "id": "u4_l3_21",
               "num": "15",
               "word": "spectacular",
-              "phonetic": "/spek'taekjala(r)/",
+              "phonetic": "/spekˈtækjələr/",
               "pos": "adj.",
               "meaning": "adj.壮观的；令人惊叹的 n.壮观的场面；精彩的表演",
               "highlight": "adj.壮观的",
@@ -12187,7 +12187,7 @@ window.CET6_DATA = {
               "id": "u4_l3_22",
               "num": "16",
               "word": "spectacle",
-              "phonetic": "/'spektakl/",
+              "phonetic": "/ˈspektək(ə)l/",
               "pos": "n.",
               "meaning": "n.壮观的场面（景象）",
               "highlight": "n.壮观的场面（景象）",
@@ -12200,7 +12200,7 @@ window.CET6_DATA = {
               "id": "u4_l3_23",
               "num": "17",
               "word": "prosperity",
-              "phonetic": "/pro'sperati/",
+              "phonetic": "/prɑːˈsperəti/",
               "pos": "n.",
               "meaning": "n.兴旺，繁荣，昌盛",
               "highlight": "n.兴旺",
@@ -12210,13 +12210,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "prosper",
-                  "phonetic": "/'prospa(r)/",
+                  "phonetic": "/ˈprɑːspər/",
                   "pos": "v.",
                   "meaning": "v.繁荣，兴旺，发达"
                 },
                 {
                   "word": "prosperous",
-                  "phonetic": "/'prosparas/",
+                  "phonetic": "/ˈprɑːspərəs/",
                   "pos": "adj.",
                   "meaning": "adj.繁荣的，兴旺的，发达的"
                 }
@@ -12226,7 +12226,7 @@ window.CET6_DATA = {
               "id": "u4_l3_24",
               "num": "18",
               "word": "spectrum",
-              "phonetic": "/'spektram/",
+              "phonetic": "/ˈspektrəm/",
               "pos": "",
               "meaning": "度；光谱，频谱 n.（观点、人、情况等的）范围，幅",
               "highlight": "度",
@@ -12239,7 +12239,7 @@ window.CET6_DATA = {
               "id": "u4_l3_25",
               "num": "19",
               "word": "conspicuous",
-              "phonetic": "/kan'spikjuas/",
+              "phonetic": "/kənˈspɪkjuəs/",
               "pos": "adj.",
               "meaning": "adj.明显的，引人注目的",
               "highlight": "adj.明显的",
@@ -12254,7 +12254,7 @@ window.CET6_DATA = {
               "id": "u4_l3_26",
               "num": "21",
               "word": "scorn",
-              "phonetic": "/skon/",
+              "phonetic": "/skɔːrn/",
               "pos": "n.",
               "meaning": "n.&.v.轻视，鄱视，蔑视",
               "highlight": "n.&.v.轻视",
@@ -12264,7 +12264,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "scornful",
-                  "phonetic": "/'skonfl/",
+                  "phonetic": "/ˈskɔːnf(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.轻蔑的，鄙视的"
                 }
@@ -12274,7 +12274,7 @@ window.CET6_DATA = {
               "id": "u4_l3_27",
               "num": "22",
               "word": "perspective",
-              "phonetic": "/pa'spektiv/",
+              "phonetic": "/pərˈspektɪv/",
               "pos": "n.",
               "meaning": "n.角度，观点，看法；透视法；景观",
               "highlight": "n.角度",
@@ -12302,7 +12302,7 @@ window.CET6_DATA = {
               "id": "u4_l3_29",
               "num": "24",
               "word": "standpoint",
-              "phonetic": "/'staendpoint/",
+              "phonetic": "/ˈstændpɔɪnt/",
               "pos": "n.",
               "meaning": "n.立场，观点",
               "highlight": "n.立场",
@@ -12315,7 +12315,7 @@ window.CET6_DATA = {
               "id": "u4_l3_30",
               "num": "25",
               "word": "substance",
-              "phonetic": "/'sAbstans/",
+              "phonetic": "/ˈsʌbstəns/",
               "pos": "n.",
               "meaning": "n.物质；主旨；实质",
               "highlight": "n.物质",
@@ -12325,7 +12325,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "substantial",
-                  "phonetic": "/sab'staenfl/",
+                  "phonetic": "/səbˈstænʃ(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.大量的；重大的"
                 }
@@ -12337,7 +12337,7 @@ window.CET6_DATA = {
               "id": "u4_l3_31",
               "num": "26",
               "word": "stereotype",
-              "phonetic": "/'steriatap/",
+              "phonetic": "/ˈsteriətaɪp/",
               "pos": "n.",
               "meaning": "n.刻板印象，老一套u.对..….形 成模式化(或类型化)的看法",
               "highlight": "n.刻板印象",
@@ -12352,7 +12352,7 @@ window.CET6_DATA = {
               "id": "u4_l3_32",
               "num": "27",
               "word": "prototype",
-              "phonetic": "/'prautataip/",
+              "phonetic": "/ˈproʊtətaɪp/",
               "pos": "n.",
               "meaning": "n.原型，雏形",
               "highlight": "n.原型",
@@ -12367,7 +12367,7 @@ window.CET6_DATA = {
               "id": "u4_l3_33",
               "num": "28",
               "word": "speculate",
-              "phonetic": "/'spekjulert/",
+              "phonetic": "/ˈspekjuleɪt/",
               "pos": "v.",
               "meaning": "v.猜测，推测；投机",
               "highlight": "v.猜测",
@@ -12377,13 +12377,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "speculation",
-                  "phonetic": "/ispekju'lerfn/",
+                  "phonetic": "/ˌspekjuˈleɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.猜测；投机买卖"
                 },
                 {
                   "word": "speculative",
-                  "phonetic": "/'spekjalativ/",
+                  "phonetic": "/ˈspekjələtɪv/",
                   "pos": "adj.",
                   "meaning": "adj.猜测的；投机的"
                 }
@@ -12393,7 +12393,7 @@ window.CET6_DATA = {
               "id": "u4_l3_34",
               "num": "29",
               "word": "articulate",
-              "phonetic": "/ɑːˈtɪkjuleɪt/",
+              "phonetic": "/ɑːrˈtɪkjuleɪt/",
               "pos": "",
               "meaning": "v. 清楚地表达；口齿清楚地讲 adj. 能说会道的；清晰的",
               "highlight": "/a:'tkjalat/ v.清楚地表达",
@@ -12403,7 +12403,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "articulation",
-                  "phonetic": "/aitkju'lern/",
+                  "phonetic": "/ɑːrˌtɪkjuˈleɪʃn/",
                   "pos": "n.",
                   "meaning": "n.表达；说话；发音；清晰"
                 }
@@ -12413,7 +12413,7 @@ window.CET6_DATA = {
               "id": "u4_l3_35",
               "num": "30",
               "word": "prospect",
-              "phonetic": "/ˈprɒspekt/",
+              "phonetic": "/ˈprɑːspekt/",
               "pos": "",
               "meaning": "n. 前景，展望；希望；可能性 v. 勘探；寻找",
               "highlight": "/pra'spekt/ n.前景",
@@ -12426,7 +12426,7 @@ window.CET6_DATA = {
               "id": "u4_l3_36",
               "num": "31",
               "word": "prospective",
-              "phonetic": "/pra'spektiv/",
+              "phonetic": "/prəˈspektɪv/",
               "pos": "adj.",
               "meaning": "adj.有望的；预期的；潜在的",
               "highlight": "adj.有望的",
@@ -12439,7 +12439,7 @@ window.CET6_DATA = {
               "id": "u4_l3_37",
               "num": "32",
               "word": "retrospect",
-              "phonetic": "/'retraspekt/",
+              "phonetic": "/ˈretrəspekt/",
               "pos": "n.",
               "meaning": "n.回顾，回想，追溯往事",
               "highlight": "n.回顾",
@@ -12449,7 +12449,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "retrospective",
-                  "phonetic": "/retra'spektiv/",
+                  "phonetic": "/ˌretrəˈspektɪv/",
                   "pos": "adj.",
                   "meaning": "adj.回顾的；有追溯效力的"
                 }
@@ -12469,13 +12469,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "portrait",
-                  "phonetic": "/'potrert/",
+                  "phonetic": "/ˈpɔːrtrət/",
                   "pos": "n.",
                   "meaning": "n.（人的）肖像，画像；（对事物的） 描绘"
                 },
                 {
                   "word": "portrayal",
-                  "phonetic": "/por'treral/",
+                  "phonetic": "/pɔːrˈtreɪəl/",
                   "pos": "n.",
                   "meaning": "n.描绘，描写"
                 }
@@ -12485,7 +12485,7 @@ window.CET6_DATA = {
               "id": "u4_l3_39",
               "num": "34",
               "word": "sculpture",
-              "phonetic": "/'skalptfa(r)/",
+              "phonetic": "/ˈskʌlptʃər/",
               "pos": "n.",
               "meaning": "n.雕像；雕塑品",
               "highlight": "n.雕像",
@@ -12522,7 +12522,7 @@ window.CET6_DATA = {
               "id": "u4_l3_41",
               "num": "36",
               "word": "describe",
-              "phonetic": "/dr'skrarb/",
+              "phonetic": "/dɪˈskraɪb/",
               "pos": "v.",
               "meaning": "v.描述，形容；描写",
               "highlight": "v.描述",
@@ -12532,13 +12532,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "description",
-                  "phonetic": "/dr'skripfn/",
+                  "phonetic": "/dɪˈskrɪpʃn/",
                   "pos": "n.",
                   "meaning": "n.描写（文字）；形容；说明；类型"
                 },
                 {
                   "word": "descriptive",
-                  "phonetic": "/dr'skriptv/",
+                  "phonetic": "/dɪˈskrɪptɪv/",
                   "pos": "adj.",
                   "meaning": "adj.描写的；叙述的；说明的"
                 }
@@ -12550,7 +12550,7 @@ window.CET6_DATA = {
               "id": "u4_l3_42",
               "num": "37",
               "word": "depict",
-              "phonetic": "/di'pikt/",
+              "phonetic": "/dɪˈpɪkt/",
               "pos": "v.",
               "meaning": "v.描绘；描写，描述，刻画",
               "highlight": "v.描绘",
@@ -12563,7 +12563,7 @@ window.CET6_DATA = {
               "id": "u4_l3_43",
               "num": "38",
               "word": "ascribe",
-              "phonetic": "/askrarb/",
+              "phonetic": "/əˈskraɪb/",
               "pos": "v.",
               "meaning": "v.把...归因于",
               "highlight": "v.把...归因于",
@@ -12578,7 +12578,7 @@ window.CET6_DATA = {
               "id": "u4_l3_44",
               "num": "39",
               "word": "prescribe",
-              "phonetic": "/pri'skrab/",
+              "phonetic": "/prɪˈskraɪb/",
               "pos": "v.",
               "meaning": "v.给……开药（开处方）；规定",
               "highlight": "v.给……开药（开处方）",
@@ -12588,7 +12588,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "prescription",
-                  "phonetic": "/prt'skripfn/",
+                  "phonetic": "/prɪˈskrɪpʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.处方，药方；(医生开的)处方药"
                 }
@@ -12600,7 +12600,7 @@ window.CET6_DATA = {
               "id": "u4_l3_45",
               "num": "40",
               "word": "subscribe",
-              "phonetic": "/ssb'skrab/",
+              "phonetic": "/səbˈskraɪb/",
               "pos": "v.",
               "meaning": "v.订购；订阅；申请；报名；认购（股 份）",
               "highlight": "v.订购",
@@ -12610,7 +12610,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "subscriber",
-                  "phonetic": "/sob'skrarba(r)/",
+                  "phonetic": "/səbˈskraɪbər/",
                   "pos": "n.",
                   "meaning": "n.订阅人；消费者；用户"
                 }
@@ -12620,7 +12620,7 @@ window.CET6_DATA = {
               "id": "u4_l3_46",
               "num": "41",
               "word": "subscription",
-              "phonetic": "/sab'skripfn/",
+              "phonetic": "/səbˈskrɪpʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.(报刊等的）订阅费；订阅；捐助",
               "highlight": "n.(报刊等的）订阅费",
@@ -12633,7 +12633,7 @@ window.CET6_DATA = {
               "id": "u4_l3_47",
               "num": "42",
               "word": "script",
-              "phonetic": "/skript/",
+              "phonetic": "/skrɪpt/",
               "pos": "n.",
               "meaning": "n.剧本，讲稿；笔迹，手迹 u.写剧本",
               "highlight": "n.剧本",
@@ -12653,7 +12653,7 @@ window.CET6_DATA = {
               "id": "u4_l3_48",
               "num": "43",
               "word": "manuscript",
-              "phonetic": "/'maenjuskript/",
+              "phonetic": "/ˈmænjuskrɪpt/",
               "pos": "n.",
               "meaning": "n.手稿，原稿；手抄本",
               "highlight": "n.手稿",
@@ -12668,7 +12668,7 @@ window.CET6_DATA = {
               "id": "u4_l3_49",
               "num": "44",
               "word": "transcript",
-              "phonetic": "/'traenskript/",
+              "phonetic": "/ˈtrænskrɪpt/",
               "pos": "n.",
               "meaning": "n.抄本；脊本",
               "highlight": "n.抄本",
@@ -12683,7 +12683,7 @@ window.CET6_DATA = {
               "id": "u4_l3_50",
               "num": "45",
               "word": "manual",
-              "phonetic": "/'menjual/",
+              "phonetic": "/ˈmænjuəl/",
               "pos": "n.",
               "meaning": "n.说明书，使用手册 adj.手工的；手动的；体力的",
               "highlight": "n.说明书",
@@ -12709,7 +12709,7 @@ window.CET6_DATA = {
               "id": "u4_l3_52",
               "num": "47",
               "word": "manufacturer",
-              "phonetic": "/ˌmænju'fæktʃərə(r)/",
+              "phonetic": "/ˌmænjuˈfæktʃərər/",
               "pos": "n.",
               "meaning": "n. 生产者，制造者，生产商",
               "highlight": "",
@@ -12722,7 +12722,7 @@ window.CET6_DATA = {
               "id": "u4_l3_53",
               "num": "48",
               "word": "mandate",
-              "phonetic": "/'mandert/",
+              "phonetic": "/ˈmændeɪt/",
               "pos": "v.",
               "meaning": "v.强制执行；授权 n.授权；（政府的）任期；委托书",
               "highlight": "v.强制执行",
@@ -12811,7 +12811,7 @@ window.CET6_DATA = {
               "id": "u4_l4_02",
               "num": "50",
               "word": "maneuver",
-              "phonetic": "/mə'nuːvə(r)/",
+              "phonetic": "/məˈnuːvər/",
               "pos": "n./v.",
               "meaning": "n. 机动动作；策略，手段 v. 操纵，控制",
               "highlight": "maneuver n.机动动作",
@@ -12834,7 +12834,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "affectionate",
-                  "phonetic": "/a'fekfonat/",
+                  "phonetic": "/əˈfekʃənət/",
                   "pos": "adj.",
                   "meaning": "adj.表示关爱的"
                 }
@@ -12844,7 +12844,7 @@ window.CET6_DATA = {
               "id": "u4_l4_04",
               "num": "52",
               "word": "facility",
-              "phonetic": "/e[isef/",
+              "phonetic": "/fəˈsɪləti/",
               "pos": "n.",
               "meaning": "n.设备，设施；天赋，才能",
               "highlight": "n.设备",
@@ -12854,7 +12854,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "facilitate",
-                  "phonetic": "/fo'siliteit/",
+                  "phonetic": "/fəˈsɪlɪteɪt/",
                   "pos": "v.",
                   "meaning": "v.促进，促使；使便利"
                 },
@@ -12870,7 +12870,7 @@ window.CET6_DATA = {
               "id": "u4_l4_05",
               "num": "53",
               "word": "infect",
-              "phonetic": "/in'fekt/",
+              "phonetic": "/ɪnˈfekt/",
               "pos": "v.",
               "meaning": "v.传染；影响",
               "highlight": "v.传染",
@@ -12898,7 +12898,7 @@ window.CET6_DATA = {
               "id": "u4_l4_06",
               "num": "54",
               "word": "defect",
-              "phonetic": "/'difekt/",
+              "phonetic": "/ˈdiːfekt/",
               "pos": "n.",
               "meaning": "n.缺点，缺陷",
               "highlight": "n.缺点",
@@ -12908,7 +12908,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "defective",
-                  "phonetic": "/di'fektiv/",
+                  "phonetic": "/dɪˈfektɪv/",
                   "pos": "",
                   "meaning": "病的 adj.有缺点的，有缺陷的，有毛"
                 }
@@ -12920,7 +12920,7 @@ window.CET6_DATA = {
               "id": "u4_l4_07",
               "num": "55",
               "word": "effect",
-              "phonetic": "/i'fekt/",
+              "phonetic": "/ɪˈfekt/",
               "pos": "n.",
               "meaning": "n.生效；效果v.实现；引起",
               "highlight": "n.生效",
@@ -12930,7 +12930,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "effective",
-                  "phonetic": "/i'fektiv/",
+                  "phonetic": "/ɪˈfektɪv/",
                   "pos": "adj.",
                   "meaning": "adj.有效的；产生预期效果的"
                 }
@@ -12942,7 +12942,7 @@ window.CET6_DATA = {
               "id": "u4_l4_08",
               "num": "56",
               "word": "void",
-              "phonetic": "/vord/",
+              "phonetic": "/vɔɪd/",
               "pos": "adj.",
               "meaning": "adj.无效的；缺乏...….的 n.空虚感；空白v.使无效",
               "highlight": "adj.无效的",
@@ -12955,7 +12955,7 @@ window.CET6_DATA = {
               "id": "u4_l4_09",
               "num": "01",
               "word": "fake",
-              "phonetic": "/feik/",
+              "phonetic": "/feɪk/",
               "pos": "n.",
               "meaning": "n.假货；骗子adj.假的v.伪造",
               "highlight": "n.假货",
@@ -12970,7 +12970,7 @@ window.CET6_DATA = {
               "id": "u4_l4_10",
               "num": "02",
               "word": "deceive",
-              "phonetic": "/ di'siv/",
+              "phonetic": "/dɪˈsiːv/",
               "pos": "v.",
               "meaning": "v.欺骗；误导",
               "highlight": "v.欺骗",
@@ -12980,19 +12980,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "deceit",
-                  "phonetic": "/di'sirt/",
+                  "phonetic": "/dɪˈsiːt/",
                   "pos": "n.",
                   "meaning": "n.欺骗，欺诈"
                 },
                 {
                   "word": "deception",
-                  "phonetic": "/dr'sepfn/",
+                  "phonetic": "/dɪˈsepʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.欺骗（行为）"
                 },
                 {
                   "word": "deceptive",
-                  "phonetic": "/di'septiv/",
+                  "phonetic": "/dɪˈseptɪv/",
                   "pos": "adj.",
                   "meaning": "adj.欺骗性的；误导的"
                 }
@@ -13004,7 +13004,7 @@ window.CET6_DATA = {
               "id": "u4_l4_11",
               "num": "03",
               "word": "perceive",
-              "phonetic": "/pasiv/",
+              "phonetic": "/pərˈsiːv/",
               "pos": "v.",
               "meaning": "v.看待；察觉，发觉",
               "highlight": "v.看待",
@@ -13014,13 +13014,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "perception",
-                  "phonetic": "/pa'sepfn/",
+                  "phonetic": "/pərˈsepʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.知觉；感知；洞察力；认识，看法"
                 },
                 {
                   "word": "perceptive",
-                  "phonetic": "/pa'septiv/",
+                  "phonetic": "/pərˈseptɪv/",
                   "pos": "adj.",
                   "meaning": "adj.理解力强的；有洞察力的；思维 敏捷的"
                 }
@@ -13032,7 +13032,7 @@ window.CET6_DATA = {
               "id": "u4_l4_12",
               "num": "04",
               "word": "conceive",
-              "phonetic": "/kan'siv/",
+              "phonetic": "/kənˈsiːv/",
               "pos": "v.",
               "meaning": "v.设想，构思；怀孕",
               "highlight": "v.设想",
@@ -13045,7 +13045,7 @@ window.CET6_DATA = {
               "id": "u4_l4_13",
               "num": "05",
               "word": "conception",
-              "phonetic": "/kan'sepfn/",
+              "phonetic": "/kənˈsepʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.构思，设想；概念",
               "highlight": "n.构思",
@@ -13058,7 +13058,7 @@ window.CET6_DATA = {
               "id": "u4_l4_14",
               "num": "06",
               "word": "detect",
-              "phonetic": "/dr'tekt/",
+              "phonetic": "/dɪˈtekt/",
               "pos": "v.",
               "meaning": "v.发现；查明；侦察出",
               "highlight": "v.发现",
@@ -13068,13 +13068,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "detection",
-                  "phonetic": "/dr'tekjn/",
+                  "phonetic": "/dɪˈtekʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.探测；察觉；发现"
                 },
                 {
                   "word": "detective",
-                  "phonetic": "/di'tektiv/",
+                  "phonetic": "/dɪˈtektɪv/",
                   "pos": "n.",
                   "meaning": "n.侦探；警探；私人侦探"
                 }
@@ -13084,7 +13084,7 @@ window.CET6_DATA = {
               "id": "u4_l4_15",
               "num": "07",
               "word": "scout",
-              "phonetic": "/skaut/",
+              "phonetic": "/skaʊt/",
               "pos": "n.",
               "meaning": "n.侦察员；侦察机（舰）v.搜索，侦察",
               "highlight": "n.侦察员",
@@ -13097,7 +13097,7 @@ window.CET6_DATA = {
               "id": "u4_l4_16",
               "num": "08",
               "word": "appeal",
-              "phonetic": "/ə'piːl/",
+              "phonetic": "/əˈpiːl/",
               "pos": "n./v.",
               "meaning": "n. 呼吁，恳求；上诉 v. 有吸引力；呼吁；上诉",
               "highlight": "n.呼吁",
@@ -13107,7 +13107,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "appealing",
-                  "phonetic": "/apilin/",
+                  "phonetic": "/əˈpiːlɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.有吸引力的；令人感兴趣的；悬 求的"
                 }
@@ -13139,7 +13139,7 @@ window.CET6_DATA = {
               "id": "u4_l4_18",
               "num": "10",
               "word": "accuse",
-              "phonetic": "/a'kjuz/",
+              "phonetic": "/əˈkjuːz/",
               "pos": "v.",
               "meaning": "v.控告，控诉；遣责",
               "highlight": "v.控告",
@@ -13149,7 +13149,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "accusation",
-                  "phonetic": "/aekju'zern/",
+                  "phonetic": "/ˌækjuˈzeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.控告，起诉；告发；遣责"
                 }
@@ -13161,7 +13161,7 @@ window.CET6_DATA = {
               "id": "u4_l4_19",
               "num": "11",
               "word": "blame",
-              "phonetic": "/bleim/",
+              "phonetic": "/bleɪm/",
               "pos": "n.",
               "meaning": "n.责备；（坏事或错事的）责任 v.责备，责怪；把..归答于",
               "highlight": "n.责备",
@@ -13211,7 +13211,7 @@ window.CET6_DATA = {
               "id": "u4_l4_22",
               "num": "14",
               "word": "indict",
-              "phonetic": "/In'dat/",
+              "phonetic": "/ɪnˈdaɪt/",
               "pos": "v.",
               "meaning": "v.控告，起诉",
               "highlight": "v.控告",
@@ -13221,7 +13221,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "indictment",
-                  "phonetic": "/in'datmont/",
+                  "phonetic": "/ɪnˈdaɪtmənt/",
                   "pos": "n.",
                   "meaning": "n.控告；衰败迹象"
                 }
@@ -13233,7 +13233,7 @@ window.CET6_DATA = {
               "id": "u4_l4_23",
               "num": "15",
               "word": "guilt",
-              "phonetic": "/glt/",
+              "phonetic": "/ɡɪlt/",
               "pos": "n.",
               "meaning": "n.内疚；犯罪，罪行",
               "highlight": "n.内疚",
@@ -13243,7 +13243,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "guilty",
-                  "phonetic": "/'glti/",
+                  "phonetic": "/ˈɡɪlti/",
                   "pos": "adj.",
                   "meaning": "adj.内疚的；有罪责的"
                 }
@@ -13253,7 +13253,7 @@ window.CET6_DATA = {
               "id": "u4_l4_24",
               "num": "16",
               "word": "crime",
-              "phonetic": "/kraim/",
+              "phonetic": "/kraɪm/",
               "pos": "n.",
               "meaning": "n.犯罪，犯罪行为",
               "highlight": "n.犯罪",
@@ -13263,7 +13263,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "criminal",
-                  "phonetic": "/'krmnl/",
+                  "phonetic": "/ˈkrɪmɪn(ə)l/",
                   "pos": "n.",
                   "meaning": "n.罪犯，犯罪者adj.犯罪的，犯法的"
                 }
@@ -13275,7 +13275,7 @@ window.CET6_DATA = {
               "id": "u4_l4_25",
               "num": "17",
               "word": "discriminate",
-              "phonetic": "/di'skriminet/",
+              "phonetic": "/dɪˈskrɪmɪneɪt/",
               "pos": "v.",
               "meaning": "v.区分，辨别；歧视；偏袒",
               "highlight": "v.区分",
@@ -13285,13 +13285,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "discrimination",
-                  "phonetic": "/dɪˌskrɪmɪ'neɪʃn/",
+                  "phonetic": "/dɪˌskrɪmɪˈneɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n. 区别对待；歧视；辨别力"
                 },
                 {
                   "word": "discriminatory",
-                  "phonetic": "/dɪ'skrɪmɪnətəri/",
+                  "phonetic": "/dɪˈskrɪmɪnətɔːri/",
                   "pos": "adj.",
                   "meaning": "adj. 区别对待的；不公正的；歧视的"
                 }
@@ -13301,7 +13301,7 @@ window.CET6_DATA = {
               "id": "u4_l4_26",
               "num": "18",
               "word": "prison",
-              "phonetic": "/'prizn/",
+              "phonetic": "/ˈprɪzn/",
               "pos": "n.",
               "meaning": "n.监狱，牢笼；监禁",
               "highlight": "n.监狱",
@@ -13311,7 +13311,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "prisoner",
-                  "phonetic": "/'prizna(r)/",
+                  "phonetic": "/ˈprɪz(ə)nər/",
                   "pos": "n.",
                   "meaning": "n.囚犯，犯人；羁押候审者"
                 }
@@ -13321,7 +13321,7 @@ window.CET6_DATA = {
               "id": "u4_l4_27",
               "num": "19",
               "word": "imprison",
-              "phonetic": "/im'prizn/",
+              "phonetic": "/ɪmˈprɪzn/",
               "pos": "v.",
               "meaning": "v.监禁，关押；束缚",
               "highlight": "v.监禁",
@@ -13331,7 +13331,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "imprisonment",
-                  "phonetic": "/im'priznmant/",
+                  "phonetic": "/ɪmˈprɪznmənt/",
                   "pos": "n.",
                   "meaning": "n.监禁"
                 }
@@ -13341,7 +13341,7 @@ window.CET6_DATA = {
               "id": "u4_l4_28",
               "num": "20",
               "word": "blackmail",
-              "phonetic": "/'blaekmeil/",
+              "phonetic": "/ˈblækmeɪl/",
               "pos": "n.",
               "meaning": "n.&v.勒索，敲诈；胁迫",
               "highlight": "n.&v.勒索",
@@ -13354,7 +13354,7 @@ window.CET6_DATA = {
               "id": "u4_l4_29",
               "num": "21",
               "word": "kidnap",
-              "phonetic": "/'kidnaep/",
+              "phonetic": "/ˈkɪdnæp/",
               "pos": "v.",
               "meaning": "v.&.n.劫持；绑架",
               "highlight": "v.&.n.劫持",
@@ -13382,7 +13382,7 @@ window.CET6_DATA = {
               "id": "u4_l4_31",
               "num": "23",
               "word": "hack",
-              "phonetic": "/haek/",
+              "phonetic": "/hæk/",
               "pos": "n.",
               "meaning": "n.砍，劈；人侵v.砍，劈；非法侵人（他 人的计算机系统）",
               "highlight": "n.砍",
@@ -13392,7 +13392,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "hacker",
-                  "phonetic": "/'haeka(r)/",
+                  "phonetic": "/ˈhækər/",
                   "pos": "n.",
                   "meaning": "n.黑客"
                 }
@@ -13404,7 +13404,7 @@ window.CET6_DATA = {
               "id": "u4_l4_32",
               "num": "24",
               "word": "database",
-              "phonetic": "/'deitabeis/",
+              "phonetic": "/ˈdeɪtəbeɪs/",
               "pos": "n.",
               "meaning": "n.（储存在计算机中的）数据库",
               "highlight": "n.（储存在计算机中的）数据库",
@@ -13417,7 +13417,7 @@ window.CET6_DATA = {
               "id": "u4_l4_33",
               "num": "25",
               "word": "smuggle",
-              "phonetic": "/'smagl/",
+              "phonetic": "/ˈsmʌɡ(ə)l/",
               "pos": "v.",
               "meaning": "v.走私，偷运",
               "highlight": "v.走私",
@@ -13427,13 +13427,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "smuggling",
-                  "phonetic": "/'smAglin/",
+                  "phonetic": "/ˈsmʌɡlɪŋ/",
                   "pos": "n.",
                   "meaning": "n.走私(罪)"
                 },
                 {
                   "word": "robbery",
-                  "phonetic": "/'robari/",
+                  "phonetic": "/ˈrɑːbəri/",
                   "pos": "n.",
                   "meaning": "n.盗窃；抢劫，掠夺"
                 }
@@ -13445,7 +13445,7 @@ window.CET6_DATA = {
               "id": "u4_l4_34",
               "num": "27",
               "word": "grab",
-              "phonetic": "/greb/",
+              "phonetic": "/ɡræb/",
               "pos": "n.",
               "meaning": "n.抓取；抢夺v.抓住；搜取",
               "highlight": "n.抓取",
@@ -13458,7 +13458,7 @@ window.CET6_DATA = {
               "id": "u4_l4_35",
               "num": "28",
               "word": "snatch",
-              "phonetic": "/snatS/",
+              "phonetic": "/snætʃ/",
               "pos": "n.",
               "meaning": "n.抓；抢夺v.一把抓起；一下夺过",
               "highlight": "n.抓",
@@ -13473,7 +13473,7 @@ window.CET6_DATA = {
               "id": "u4_l4_36",
               "num": "29",
               "word": "snap",
-              "phonetic": "/snaep/",
+              "phonetic": "/snæp/",
               "pos": "n.",
               "meaning": "n.(尤指关上或断裂的声音)啪嗒声，咔 噻声v.拍照；（使）断裂adj.仓促的",
               "highlight": "n.(尤指关上或断裂的声音)啪嗒声",
@@ -13488,7 +13488,7 @@ window.CET6_DATA = {
               "id": "u4_l4_37",
               "num": "30",
               "word": "penalty",
-              "phonetic": "/'penalti/",
+              "phonetic": "/ˈpenəlti/",
               "pos": "n.",
               "meaning": "n.惩罚，处罚；害处",
               "highlight": "n.惩罚",
@@ -13533,7 +13533,7 @@ window.CET6_DATA = {
               "id": "u4_l4_40",
               "num": "33",
               "word": "lawsuit",
-              "phonetic": "/'losut/",
+              "phonetic": "/ˈlɔːsuːt/",
               "pos": "n.",
               "meaning": "n.诉讼，起诉",
               "highlight": "n.诉讼",
@@ -13546,7 +13546,7 @@ window.CET6_DATA = {
               "id": "u4_l4_41",
               "num": "34",
               "word": "prove",
-              "phonetic": "/pruv/",
+              "phonetic": "/pruːv/",
               "pos": "v.",
               "meaning": "v.证明，证实；显示",
               "highlight": "v.证明",
@@ -13574,7 +13574,7 @@ window.CET6_DATA = {
               "id": "u4_l4_43",
               "num": "36",
               "word": "approve",
-              "phonetic": "/apruv/",
+              "phonetic": "/əˈpruːv/",
               "pos": "v.",
               "meaning": "v.赞成，同意；批准",
               "highlight": "v.赞成",
@@ -13594,7 +13594,7 @@ window.CET6_DATA = {
               "id": "u4_l4_44",
               "num": "37",
               "word": "sanction",
-              "phonetic": "/'saergkjn/",
+              "phonetic": "/ˈsæŋkʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.批准，同意；制裁v.批准，同意",
               "highlight": "n.批准",
@@ -13607,7 +13607,7 @@ window.CET6_DATA = {
               "id": "u4_l4_45",
               "num": "38",
               "word": "testimony",
-              "phonetic": "/'testimani/",
+              "phonetic": "/ˈtestɪmoʊni/",
               "pos": "n.",
               "meaning": "n.证据；(尤指法庭上的）证词",
               "highlight": "n.证据",
@@ -13620,7 +13620,7 @@ window.CET6_DATA = {
               "id": "u4_l4_46",
               "num": "39",
               "word": "testify",
-              "phonetic": "/'testfal/",
+              "phonetic": "/ˈtestɪfaɪ/",
               "pos": "v.",
               "meaning": "v.(尤指出庭）作证，证明",
               "highlight": "v.(尤指出庭）作证",
@@ -13633,7 +13633,7 @@ window.CET6_DATA = {
               "id": "u4_l4_47",
               "num": "40",
               "word": "witness",
-              "phonetic": "/'witnos/",
+              "phonetic": "/ˈwɪtnəs/",
               "pos": "n.",
               "meaning": "n.证人，目击者；证据 v.目击；为.……作证",
               "highlight": "n.证人",
@@ -13648,7 +13648,7 @@ window.CET6_DATA = {
               "id": "u4_l4_48",
               "num": "41",
               "word": "evidence",
-              "phonetic": "/'evidans/",
+              "phonetic": "/ˈevɪdəns/",
               "pos": "n.",
               "meaning": "n.证据；迹象",
               "highlight": "n.证据",
@@ -13658,7 +13658,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "evident",
-                  "phonetic": "/'evidant/",
+                  "phonetic": "/ˈevɪdənt/",
                   "pos": "adj.",
                   "meaning": "adj.明显的，显然的"
                 }
@@ -13670,7 +13670,7 @@ window.CET6_DATA = {
               "id": "u4_l4_49",
               "num": "42",
               "word": "rebel",
-              "phonetic": "/'rebl/",
+              "phonetic": "/ˈreb(ə)l/",
               "pos": "n.",
               "meaning": "n.反叛者",
               "highlight": "n.反叛者",
@@ -13680,13 +13680,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "rebellion",
-                  "phonetic": "/ri'beljan/",
+                  "phonetic": "/rɪˈbeljən/",
                   "pos": "n.",
                   "meaning": "n.叛乱；反抗"
                 },
                 {
                   "word": "rebellious",
-                  "phonetic": "/ri'beljas/",
+                  "phonetic": "/rɪˈbeljəs/",
                   "pos": "adj.",
                   "meaning": "adj.反叛的；叛逆的；桀警不驯的"
                 }
@@ -13708,7 +13708,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "validity",
-                  "phonetic": "/epi,en/",
+                  "phonetic": "/vəˈlɪdəti/",
                   "pos": "n.",
                   "meaning": "n.有效；合法性；（正式的）认可"
                 },
@@ -13751,7 +13751,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "legalize",
-                  "phonetic": "/'liːɡəlaɪz/",
+                  "phonetic": "/ˈliːɡəlaɪz/",
                   "pos": "v.",
                   "meaning": "v. 使合法化"
                 }
@@ -13761,7 +13761,7 @@ window.CET6_DATA = {
               "id": "u4_l4_53",
               "num": "46",
               "word": "illegal",
-              "phonetic": "/z'ligl/",
+              "phonetic": "/ɪˈliːɡ(ə)l/",
               "pos": "adj.",
               "meaning": "adj.不合法的，非法的 n.非法移民；非法劳工",
               "highlight": "adj.不合法的",
@@ -13828,7 +13828,7 @@ window.CET6_DATA = {
               "id": "u4_l4_56",
               "num": "49",
               "word": "enact",
-              "phonetic": "/t'naekt/",
+              "phonetic": "/ɪˈnækt/",
               "pos": "v.",
               "meaning": "v.扮演；通过(法律)；实施",
               "highlight": "v.扮演",
@@ -13838,7 +13838,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "enactment",
-                  "phonetic": "/t'naektmant/",
+                  "phonetic": "/ɪˈnæktmənt/",
                   "pos": "n.",
                   "meaning": "n.(法律的)制定，颁布；法律"
                 }
@@ -13848,7 +13848,7 @@ window.CET6_DATA = {
               "id": "u4_l4_57",
               "num": "50",
               "word": "execute",
-              "phonetic": "/'ekskjut/",
+              "phonetic": "/ˈeksɪkjuːt/",
               "pos": "v.",
               "meaning": "v.(尤指依法）处决；执行",
               "highlight": "v.(尤指依法）处决",
@@ -13868,7 +13868,7 @@ window.CET6_DATA = {
               "id": "u4_l4_58",
               "num": "51",
               "word": "executive",
-              "phonetic": "/g'zekjatv/",
+              "phonetic": "/ɪɡˈzekjətɪv/",
               "pos": "n.",
               "meaning": "n.经理，主管；行政领导 adj.行政的，管理的",
               "highlight": "n.经理",
@@ -13901,7 +13901,7 @@ window.CET6_DATA = {
               "id": "u4_l4_60",
               "num": "53",
               "word": "prosecute",
-              "phonetic": "/'prosrkjut/",
+              "phonetic": "/ˈprɑːsɪkjuːt/",
               "pos": "v.",
               "meaning": "v.起诉，控告；检举",
               "highlight": "v.起诉",
@@ -13921,7 +13921,7 @@ window.CET6_DATA = {
               "id": "u4_l4_61",
               "num": "54",
               "word": "sequence",
-              "phonetic": "/'sitkwans/",
+              "phonetic": "/ˈsiːkwəns/",
               "pos": "n.",
               "meaning": "n.一系列；顺序，次序v.按顺序排列",
               "highlight": "n.一系列",
@@ -13941,7 +13941,7 @@ window.CET6_DATA = {
               "id": "u4_l4_62",
               "num": "55",
               "word": "consequence",
-              "phonetic": "/'konsikwans/",
+              "phonetic": "/ˈkɑːnsɪkwens/",
               "pos": "n.",
               "meaning": "n.结果，后果；重要性",
               "highlight": "n.结果",
@@ -13951,13 +13951,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "consequent",
-                  "phonetic": "/'konsikwant/",
+                  "phonetic": "/ˈkɑːnsɪkwent/",
                   "pos": "adj.",
                   "meaning": "adj.随之发生的；作为结果的"
                 },
                 {
                   "word": "consequently",
-                  "phonetic": "/'konsikwantli/",
+                  "phonetic": "/ˈkɑːnsɪkwentli/",
                   "pos": "adv.",
                   "meaning": "adv.因此，所以"
                 }
@@ -13967,7 +13967,7 @@ window.CET6_DATA = {
               "id": "u4_l4_63",
               "num": "56",
               "word": "subsequent",
-              "phonetic": "/'sAbsikwant/",
+              "phonetic": "/ˈsʌbsɪkwənt/",
               "pos": "adj.",
               "meaning": "adj.随后的；后来的",
               "highlight": "adj.随后的",
@@ -14038,7 +14038,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "justification",
-                  "phonetic": "/ˌdʒʌstɪfɪˈkeɪʃn/",
+                  "phonetic": "/ˌdʒʌstɪfɪˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.正当理由"
                 }
@@ -14072,7 +14072,7 @@ window.CET6_DATA = {
               "id": "u4_l4_69",
               "num": "62",
               "word": "court",
-              "phonetic": "/kot/",
+              "phonetic": "/kɔːrt/",
               "pos": "v.",
               "meaning": "v.讨好，争取；招致；恋爱 n.法院，法庭；球场",
               "highlight": "v.讨好",
@@ -14110,7 +14110,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "juror",
-                  "phonetic": "/dsuara(r)/",
+                  "phonetic": "/ˈdʒʊrər/",
                   "pos": "n.",
                   "meaning": "n.陪审团成员；陪审员"
                 }
@@ -14120,7 +14120,7 @@ window.CET6_DATA = {
               "id": "u4_l4_72",
               "num": "65",
               "word": "judiciary",
-              "phonetic": "/dʒuːˈdɪʃəri/",
+              "phonetic": "/dʒuˈdɪʃieri/",
               "pos": "n.",
               "meaning": "n.审判人员；司法部门；司法系统",
               "highlight": "n.审判人员",
@@ -14135,7 +14135,7 @@ window.CET6_DATA = {
               "id": "u4_l4_73",
               "num": "66",
               "word": "jurisdiction",
-              "phonetic": "/ˌdʒʊərɪsˈdɪkʃn/",
+              "phonetic": "/ˌdʒʊrɪsˈdɪkʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.司法权，审判权；管辖权；管辖范围",
               "highlight": "n.司法权",
@@ -14148,7 +14148,7 @@ window.CET6_DATA = {
               "id": "u4_l4_74",
               "num": "67",
               "word": "outlaw",
-              "phonetic": "/cane, /",
+              "phonetic": "/ˈaʊtlɔː/",
               "pos": "v.",
               "meaning": "v.宣布..不合法，使..成为非法 n.亡命徒，逃犯",
               "highlight": "v.宣布..不合法",
@@ -14176,7 +14176,7 @@ window.CET6_DATA = {
               "id": "u4_l4_76",
               "num": "69",
               "word": "entrust",
-              "phonetic": "/in'trast/",
+              "phonetic": "/ɪnˈtrʌst/",
               "pos": "v.",
               "meaning": "v.委托，托付",
               "highlight": "v.委托",
@@ -14189,7 +14189,7 @@ window.CET6_DATA = {
               "id": "u4_l4_77",
               "num": "71",
               "word": "condemn",
-              "phonetic": "/kan'dem/",
+              "phonetic": "/kənˈdem/",
               "pos": "v.",
               "meaning": "v.遣责；宣判；证明...有罪",
               "highlight": "v.遣责",
@@ -14199,7 +14199,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "condemnation",
-                  "phonetic": "/kondem'ner/n/",
+                  "phonetic": "/ˌkɑːndemˈneɪʃn/",
                   "pos": "n.",
                   "meaning": "n.遣责；指责"
                 }
@@ -14209,7 +14209,7 @@ window.CET6_DATA = {
               "id": "u4_l4_78",
               "num": "72",
               "word": "warrant",
-              "phonetic": "/'worant/",
+              "phonetic": "/ˈwɔːrənt/",
               "pos": "n.",
               "meaning": "n.授权令；许可；正当理由 v.需要；值得；保证（某物是真的）",
               "highlight": "n.授权令",
@@ -14239,7 +14239,7 @@ window.CET6_DATA = {
               "id": "u4_l4_80",
               "num": "74",
               "word": "tenant",
-              "phonetic": "/'tenant/",
+              "phonetic": "/ˈtenənt/",
               "pos": "n.",
               "meaning": "n.房客；租户；佃户",
               "highlight": "n.房客",
@@ -14254,7 +14254,7 @@ window.CET6_DATA = {
               "id": "u4_l4_81",
               "num": "75",
               "word": "abundant",
-              "phonetic": "/'bandant/",
+              "phonetic": "/əˈbʌndənt/",
               "pos": "adj.",
               "meaning": "adj.大量的，充裕的",
               "highlight": "adj.大量的",
@@ -14267,7 +14267,7 @@ window.CET6_DATA = {
               "id": "u4_l4_82",
               "num": "76",
               "word": "abundance",
-              "phonetic": "/suepuvq,e/",
+              "phonetic": "/əˈbʌndəns/",
               "pos": "n.",
               "meaning": "n.大量，充裕",
               "highlight": "n.大量",
@@ -14280,7 +14280,7 @@ window.CET6_DATA = {
               "id": "u4_l4_83",
               "num": "77",
               "word": "ample",
-              "phonetic": "/'empl/",
+              "phonetic": "/ˈæmp(ə)l/",
               "pos": "adj.",
               "meaning": "adj.足够的，丰裕的；硕大的",
               "highlight": "adj.足够的",
@@ -14308,7 +14308,7 @@ window.CET6_DATA = {
               "id": "u4_l4_85",
               "num": "79",
               "word": "scarce",
-              "phonetic": "/skeas/",
+              "phonetic": "/skeəs/",
               "pos": "adj.",
               "meaning": "adj.缺乏的，稀少的",
               "highlight": "adj.缺乏的",
@@ -14318,7 +14318,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "scarcely",
-                  "phonetic": "/'skeasli/",
+                  "phonetic": "/ˈskersli/",
                   "pos": "adv.",
                   "meaning": "adv.勉强；刚；几乎不；简直不"
                 }
@@ -14328,7 +14328,7 @@ window.CET6_DATA = {
               "id": "u4_l4_86",
               "num": "80",
               "word": "scarcity",
-              "phonetic": "/'skeasati/",
+              "phonetic": "/ˈskersəti/",
               "pos": "n.",
               "meaning": "n.缺乏，稀少",
               "highlight": "n.缺乏",
@@ -14379,7 +14379,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "quantitative",
-                  "phonetic": "/'kwontitativ/",
+                  "phonetic": "/ˈkwɑːntəteɪtɪv/",
                   "pos": "adj.",
                   "meaning": "adj.数量的；量化的；定量的"
                 }
@@ -14399,7 +14399,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "qualitative",
-                  "phonetic": "/'kwolitatv/",
+                  "phonetic": "/ˈkwɑːlɪteɪtɪv/",
                   "pos": "adj.",
                   "meaning": "adj.质量的；定性的；性质的"
                 }
@@ -14463,7 +14463,7 @@ window.CET6_DATA = {
               "id": "u5_l1_01",
               "num": "01",
               "word": "ascertain",
-              "phonetic": "/aesa'tein/",
+              "phonetic": "/ˌæsərˈteɪn/",
               "pos": "v.",
               "meaning": "v.查明，弄清",
               "highlight": "v.查明",
@@ -14493,7 +14493,7 @@ window.CET6_DATA = {
               "id": "u5_l1_03",
               "num": "03",
               "word": "certificate",
-              "phonetic": "/sa'tfikat/",
+              "phonetic": "/sərˈtɪfɪkət/",
               "pos": "n.",
               "meaning": "n.证明（书）；（毕业）文凭；合格证书",
               "highlight": "n.证明（书）",
@@ -14503,7 +14503,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "certification",
-                  "phonetic": "/isstft'kerfn/",
+                  "phonetic": "/ˌsɜːrtɪfɪˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.证明；鉴定"
                 }
@@ -14515,7 +14515,7 @@ window.CET6_DATA = {
               "id": "u5_l1_04",
               "num": "04",
               "word": "diploma",
-              "phonetic": "/di'plauma/",
+              "phonetic": "/dɪˈploʊmə/",
               "pos": "n.",
               "meaning": "n.文凭课程；毕业文凭",
               "highlight": "n.文凭课程",
@@ -14543,7 +14543,7 @@ window.CET6_DATA = {
               "id": "u5_l1_06",
               "num": "06",
               "word": "diplomat",
-              "phonetic": "/'diplamaet/",
+              "phonetic": "/ˈdɪpləmæt/",
               "pos": "n.",
               "meaning": "n.外交官；善于交际的人，圆通的人",
               "highlight": "n.外交官",
@@ -14553,13 +14553,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "diplomatic",
-                  "phonetic": "/idipla'maetik/",
+                  "phonetic": "/ˌdɪpləˈmætɪk/",
                   "pos": "adj.",
                   "meaning": "adj.外交的；有手腕的；圆通的"
                 },
                 {
                   "word": "diplomacy",
-                  "phonetic": "/dr'plaumasi/",
+                  "phonetic": "/dɪˈploʊməsi/",
                   "pos": "n.",
                   "meaning": "n.外交；外交技巧；外交手腕"
                 }
@@ -14581,13 +14581,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "verification",
-                  "phonetic": "/ivernft'kerfn/",
+                  "phonetic": "/ˌverɪfɪˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.核实；查对；核准"
                 },
                 {
                   "word": "rectification",
-                  "phonetic": "/rektfi'kerfn/",
+                  "phonetic": "/ˌrektɪfɪˈkeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.纠正"
                 }
@@ -14597,7 +14597,7 @@ window.CET6_DATA = {
               "id": "u5_l1_08",
               "num": "09",
               "word": "simplify",
-              "phonetic": "/'simplafal/",
+              "phonetic": "/ˈsɪmplɪfaɪ/",
               "pos": "v.",
               "meaning": "v.使简化",
               "highlight": "v.使简化",
@@ -14607,13 +14607,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "simplicity",
-                  "phonetic": "/simplisati/",
+                  "phonetic": "/sɪmˈplɪsəti/",
                   "pos": "n.",
                   "meaning": "n.简单；淳朴"
                 },
                 {
                   "word": "simply",
-                  "phonetic": "/'simpli/",
+                  "phonetic": "/ˈsɪmpli/",
                   "pos": "adv.",
                   "meaning": "adv.仅仅，只，不过；简单地"
                 }
@@ -14625,7 +14625,7 @@ window.CET6_DATA = {
               "id": "u5_l1_09",
               "num": "10",
               "word": "purify",
-              "phonetic": "/'pjuarifal/",
+              "phonetic": "/ˈpjʊrɪfaɪ/",
               "pos": "v.",
               "meaning": "v.使（某物）洁净，净化",
               "highlight": "v.使（某物）洁净",
@@ -14635,13 +14635,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "pure",
-                  "phonetic": "/pjua(r)/",
+                  "phonetic": "/pjʊr/",
                   "pos": "adj.",
                   "meaning": "adj.纯的；纯净的；完全的"
                 },
                 {
                   "word": "purity",
-                  "phonetic": "/'pjuarati/",
+                  "phonetic": "/ˈpjʊrəti/",
                   "pos": "n.",
                   "meaning": "n.纯洁；纯净；纯粹"
                 }
@@ -14651,7 +14651,7 @@ window.CET6_DATA = {
               "id": "u5_l1_10",
               "num": "11",
               "word": "crystal",
-              "phonetic": "/'kristl/",
+              "phonetic": "/ˈkrɪst(ə)l/",
               "pos": "n.",
               "meaning": "n.水晶；结晶体 adj.清澈透明的",
               "highlight": "n.水晶",
@@ -14676,13 +14676,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "clarification",
-                  "phonetic": "/ˌklærəfɪ'keɪʃn/",
+                  "phonetic": "/ˌklærəfɪˈkeɪʃn/",
                   "pos": "n.",
                   "meaning": "n. 澄清，阐明"
                 },
                 {
                   "word": "clarity",
-                  "phonetic": "/'klerati/",
+                  "phonetic": "/ˈklærəti/",
                   "pos": "n.",
                   "meaning": "n.清晰，清楚，明确"
                 }
@@ -14709,7 +14709,7 @@ window.CET6_DATA = {
               "id": "u5_l1_13",
               "num": "14",
               "word": "classified",
-              "phonetic": "/'klaesrfaid/",
+              "phonetic": "/ˈklæsɪfaɪd/",
               "pos": "adj.",
               "meaning": "adj.分类的，归类的；（资料、文件等） 机密的",
               "highlight": "adj.分类的",
@@ -14722,7 +14722,7 @@ window.CET6_DATA = {
               "id": "u5_l1_14",
               "num": "15",
               "word": "classic",
-              "phonetic": "/'klaesik/",
+              "phonetic": "/ˈklæsɪk/",
               "pos": "n.",
               "meaning": "n.经典作品，名著，杰作 adj.最优秀的，第一流的；典型的",
               "highlight": "n.经典作品",
@@ -14732,7 +14732,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "classical",
-                  "phonetic": "/'klaesikl/",
+                  "phonetic": "/ˈklæsɪk(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.古典的；经典的；传统的"
                 }
@@ -14742,7 +14742,7 @@ window.CET6_DATA = {
               "id": "u5_l1_15",
               "num": "16",
               "word": "grade",
-              "phonetic": "/gred/",
+              "phonetic": "/ɡreɪd/",
               "pos": "n.",
               "meaning": "n.品级；级别；成绩；年级 v.将…分等级；给….评分",
               "highlight": "n.品级",
@@ -14755,7 +14755,7 @@ window.CET6_DATA = {
               "id": "u5_l1_16",
               "num": "17",
               "word": "ratify",
-              "phonetic": "/'raetufal/",
+              "phonetic": "/ˈrætɪfaɪ/",
               "pos": "v.",
               "meaning": "v.正式批准；使正式生效",
               "highlight": "v.正式批准",
@@ -14775,7 +14775,7 @@ window.CET6_DATA = {
               "id": "u5_l1_17",
               "num": "18",
               "word": "rating",
-              "phonetic": "/'retin/",
+              "phonetic": "/ˈreɪtɪŋ/",
               "pos": "n.",
               "meaning": "n.等级；评分；收视率",
               "highlight": "n.等级",
@@ -14801,7 +14801,7 @@ window.CET6_DATA = {
               "id": "u5_l1_19",
               "num": "20",
               "word": "ration",
-              "phonetic": "/'raefn/",
+              "phonetic": "/ˈræʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.配给量；正常量v.定量供应；配给",
               "highlight": "n.配给量",
@@ -14824,7 +14824,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "modification",
-                  "phonetic": "/modifi'kerfn/",
+                  "phonetic": "/ˌmɑːdɪfɪˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.修改；改进；改变"
                 }
@@ -14844,7 +14844,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "alteration",
-                  "phonetic": "/olta'rerfn/",
+                  "phonetic": "/ˌɔːltəˈreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.改变；变化"
                 }
@@ -14854,7 +14854,7 @@ window.CET6_DATA = {
               "id": "u5_l1_22",
               "num": "23",
               "word": "alternate",
-              "phonetic": "/ˈɔːltəneɪt/",
+              "phonetic": "/ˈɔːltərnət/",
               "pos": "",
               "meaning": "adj. 交替的；轮流的 n. 替代者，候补者 v. 使交替；轮流",
               "highlight": "/ol'tsnat/adj. n.代替者",
@@ -14876,7 +14876,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "alternation",
-                  "phonetic": "/olta/neifn/",
+                  "phonetic": "/ˌɔːltərˈneɪʃn/",
                   "pos": "n.",
                   "meaning": "n.交替；轮流"
                 },
@@ -14892,7 +14892,7 @@ window.CET6_DATA = {
               "id": "u5_l1_23",
               "num": "24",
               "word": "vary",
-              "phonetic": "/'veari/",
+              "phonetic": "/ˈveri/",
               "pos": "v.",
               "meaning": "v.相异；变化",
               "highlight": "v.相异",
@@ -14902,13 +14902,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "variable",
-                  "phonetic": "/'veariabl/",
+                  "phonetic": "/ˈveriəb(ə)l/",
                   "pos": "n.",
                   "meaning": "n.变量，可变因素 adj.可变的；易变的，多变的"
                 },
                 {
                   "word": "variant",
-                  "phonetic": "/'veariont/",
+                  "phonetic": "/ˈveriənt/",
                   "pos": "n.",
                   "meaning": "n.变种；变体；变形 adj.不同的；变异的"
                 }
@@ -14918,7 +14918,7 @@ window.CET6_DATA = {
               "id": "u5_l1_24",
               "num": "25",
               "word": "variation",
-              "phonetic": "/iveari'erfn/",
+              "phonetic": "/ˌveriˈeɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.差异；变化；变更",
               "highlight": "n.差异",
@@ -14931,7 +14931,7 @@ window.CET6_DATA = {
               "id": "u5_l1_25",
               "num": "26",
               "word": "shift",
-              "phonetic": "/Sft/",
+              "phonetic": "/ʃɪft/",
               "pos": "v.",
               "meaning": "v.转移，转变n.转变；（轮或换）班",
               "highlight": "v.转移",
@@ -14957,7 +14957,7 @@ window.CET6_DATA = {
               "id": "u5_l1_27",
               "num": "28",
               "word": "bill",
-              "phonetic": "/bil/",
+              "phonetic": "/bɪl/",
               "pos": "n.",
               "meaning": "n.账单；议案，法案；票据",
               "highlight": "n.账单",
@@ -14983,7 +14983,7 @@ window.CET6_DATA = {
               "id": "u5_l1_29",
               "num": "30",
               "word": "amend",
-              "phonetic": "/a'mend/",
+              "phonetic": "/əˈmend/",
               "pos": "v.",
               "meaning": "v.修正，修订（法律文件、声明等）",
               "highlight": "v.修正",
@@ -14993,7 +14993,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "amendment",
-                  "phonetic": "/a'mendmant/",
+                  "phonetic": "/əˈmendmənt/",
                   "pos": "n.",
                   "meaning": "n.(法律、文件的）改动，修正，修订"
                 }
@@ -15003,7 +15003,7 @@ window.CET6_DATA = {
               "id": "u5_l1_30",
               "num": "31",
               "word": "commend",
-              "phonetic": "/ka'mend/",
+              "phonetic": "/kəˈmend/",
               "pos": "v.",
               "meaning": "v.(尤指公开地）赞扬，表扬；推荐，举荐",
               "highlight": "v.(尤指公开地）赞扬",
@@ -15013,7 +15013,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "commendation",
-                  "phonetic": "/komen'dern/",
+                  "phonetic": "/ˌkɑːmenˈdeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.赞扬，称赞；奖励"
                 }
@@ -15023,7 +15023,7 @@ window.CET6_DATA = {
               "id": "u5_l1_31",
               "num": "32",
               "word": "recommend",
-              "phonetic": "/reka'mend/",
+              "phonetic": "/ˌrekəˈmend/",
               "pos": "v.",
               "meaning": "v.推荐，举荐；建议，劝告",
               "highlight": "v.推荐",
@@ -15033,7 +15033,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "recommendation",
-                  "phonetic": "/ˌrekəmen'deɪʃn/",
+                  "phonetic": "/ˌrekəmenˈdeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n. 正式建议，提议；推荐，介绍"
                 }
@@ -15053,7 +15053,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "amplification",
-                  "phonetic": "/aemplaf'kerfn/",
+                  "phonetic": "/ˌæmplɪfɪˈkeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.扩大；充实"
                 }
@@ -15083,7 +15083,7 @@ window.CET6_DATA = {
               "id": "u5_l1_34",
               "num": "35",
               "word": "quantify",
-              "phonetic": "/'kwontfal/",
+              "phonetic": "/ˈkwɑːntɪfaɪ/",
               "pos": "v.",
               "meaning": "v.量化",
               "highlight": "v.量化",
@@ -15093,7 +15093,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "quantification",
-                  "phonetic": "/kwontfr' ker/n/",
+                  "phonetic": "/ˌkwɑːntɪfɪˈkeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.量化"
                 }
@@ -15113,7 +15113,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "unification",
-                  "phonetic": "/junft'kerfn/",
+                  "phonetic": "/ˌjuːnɪfɪˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.统一；联合"
                 }
@@ -15153,7 +15153,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "reunification",
-                  "phonetic": "/ˌriːjuːnɪfɪ'keɪʃn/",
+                  "phonetic": "/ˌriːˌjuːnɪfɪˈkeɪʃn/",
                   "pos": "n.",
                   "meaning": "n. 重新统一"
                 },
@@ -15169,7 +15169,7 @@ window.CET6_DATA = {
               "id": "u5_l1_38",
               "num": "39",
               "word": "specify",
-              "phonetic": "/'spesifa/",
+              "phonetic": "/ˈspesɪfaɪ/",
               "pos": "v.",
               "meaning": "v.具体说明；明确规定；详述",
               "highlight": "v.具体说明",
@@ -15179,7 +15179,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "specification",
-                  "phonetic": "/ispestfi'ker/n/",
+                  "phonetic": "/ˌspesɪfɪˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.规格；规范；明细单；说明书"
                 }
@@ -15189,7 +15189,7 @@ window.CET6_DATA = {
               "id": "u5_l1_39",
               "num": "40",
               "word": "specific",
-              "phonetic": "/spa'sifik/",
+              "phonetic": "/spəˈsɪfɪk/",
               "pos": "adj.",
               "meaning": "adj.特定的；明确的；具体的；特有的",
               "highlight": "adj.特定的",
@@ -15199,7 +15199,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "specifically",
-                  "phonetic": "/spa'sifikli/",
+                  "phonetic": "/spəˈsɪfɪkli/",
                   "pos": "adv.",
                   "meaning": "adv.特意；专门地；明确地；具体地"
                 }
@@ -15219,19 +15219,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "specialize",
-                  "phonetic": "/'speʃəlaɪz/",
+                  "phonetic": "/ˈspeʃəlaɪz/",
                   "pos": "v.",
                   "meaning": "v. 专门研究；专攻"
                 },
                 {
                   "word": "specialization",
-                  "phonetic": "/ˌspeʃəlaɪ'zeɪʃn/",
+                  "phonetic": "/ˌspeʃələˈzeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n. 特别化；专门化"
                 },
                 {
                   "word": "specialist",
-                  "phonetic": "/'spefalist/",
+                  "phonetic": "/ˈspeʃəlɪst/",
                   "pos": "n.",
                   "meaning": "n.专家；专科医生"
                 }
@@ -15241,7 +15241,7 @@ window.CET6_DATA = {
               "id": "u5_l1_41",
               "num": "42",
               "word": "speciality",
-              "phonetic": "/speli'aelati/",
+              "phonetic": "/ˌspeʃiˈæləti/",
               "pos": "n.",
               "meaning": "n.特产；专业；专长",
               "highlight": "n.特产",
@@ -15254,7 +15254,7 @@ window.CET6_DATA = {
               "id": "u5_l1_42",
               "num": "43",
               "word": "especially",
-              "phonetic": "/t'spefali/",
+              "phonetic": "/ɪˈspeʃəli/",
               "pos": "",
               "meaning": "adu.尤其；特别；专门；非常",
               "highlight": "adu.尤其",
@@ -15267,7 +15267,7 @@ window.CET6_DATA = {
               "id": "u5_l1_43",
               "num": "44",
               "word": "specimen",
-              "phonetic": "/'spesiman/",
+              "phonetic": "/ˈspesɪmən/",
               "pos": "n.",
               "meaning": "n.样品；样本，标本",
               "highlight": "n.样品",
@@ -15280,7 +15280,7 @@ window.CET6_DATA = {
               "id": "u5_l1_44",
               "num": "45",
               "word": "bust",
-              "phonetic": "/bAst/",
+              "phonetic": "/bʌst/",
               "pos": "n.",
               "meaning": "n.半身像；突击检查v.打破，摔碎；突 击搜查adj.破产的；破的",
               "highlight": "n.半身像",
@@ -15293,7 +15293,7 @@ window.CET6_DATA = {
               "id": "u5_l1_45",
               "num": "46",
               "word": "burst",
-              "phonetic": "/barst/",
+              "phonetic": "/bɜːrst/",
               "pos": "v.",
               "meaning": "v.爆炸，爆裂；突然发生n.爆炸；突发",
               "highlight": "v.爆炸",
@@ -15306,7 +15306,7 @@ window.CET6_DATA = {
               "id": "u5_l1_46",
               "num": "47",
               "word": "robust",
-              "phonetic": "/rau'bAst/",
+              "phonetic": "/roʊˈbʌst/",
               "pos": "adj.",
               "meaning": "adj.强健的，强壮的，结实的；坚定的； 稳固的",
               "highlight": "adj.强健的",
@@ -15332,7 +15332,7 @@ window.CET6_DATA = {
               "id": "u5_l1_48",
               "num": "49",
               "word": "plastic",
-              "phonetic": "/'plaestk/",
+              "phonetic": "/ˈplæstɪk/",
               "pos": "n.",
               "meaning": "n.塑料adj.塑料制的；可塑的",
               "highlight": "n.塑料adj.塑料制的",
@@ -15345,7 +15345,7 @@ window.CET6_DATA = {
               "id": "u5_l1_49",
               "num": "50",
               "word": "elastic",
-              "phonetic": "/t'laestik/",
+              "phonetic": "/ɪˈlæstɪk/",
               "pos": "adj.",
               "meaning": "adj.有弹性的；灵活的n.橡皮圈",
               "highlight": "adj.有弹性的",
@@ -15355,7 +15355,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "elasticity",
-                  "phonetic": "/ilae'stisati/",
+                  "phonetic": "/ˌiːlæˈstɪsəti/",
                   "pos": "n.",
                   "meaning": "n.弹性；弹力"
                 }
@@ -15412,7 +15412,7 @@ window.CET6_DATA = {
               "id": "u5_l2_01",
               "num": "51",
               "word": "flexible",
-              "phonetic": "/fleksabl/",
+              "phonetic": "/ˈfleksəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.柔韧的，易弯曲的；灵活的，可通 融的",
               "highlight": "adj.柔韧的",
@@ -15432,7 +15432,7 @@ window.CET6_DATA = {
               "id": "u5_l2_02",
               "num": "52",
               "word": "reflect",
-              "phonetic": "/ri'flekt/",
+              "phonetic": "/rɪˈflekt/",
               "pos": "v.",
               "meaning": "v.反射；反映；反省",
               "highlight": "v.反射",
@@ -15448,7 +15448,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "reflective",
-                  "phonetic": "/ri'flektiv/",
+                  "phonetic": "/rɪˈflektɪv/",
                   "pos": "adj.",
                   "meaning": "adj.沉思的，深思的；反射热的，反光 的；典型的，代表性的"
                 }
@@ -15484,7 +15484,7 @@ window.CET6_DATA = {
               "id": "u5_l2_04",
               "num": "54",
               "word": "retort",
-              "phonetic": "/ri'tort/",
+              "phonetic": "/rɪˈtɔːrt/",
               "pos": "v.",
               "meaning": "v.反驳，回嘴n.回应，反驳",
               "highlight": "v.反驳",
@@ -15510,7 +15510,7 @@ window.CET6_DATA = {
               "id": "u5_l2_06",
               "num": "01",
               "word": "breakdown",
-              "phonetic": "/'brerkdaun/",
+              "phonetic": "/ˈbreɪkdaʊn/",
               "pos": "n.",
               "meaning": "n.(汽车或机器的）故障，损坏；（关系 的)破裂；失败",
               "highlight": "n.(汽车或机器的）故障",
@@ -15523,7 +15523,7 @@ window.CET6_DATA = {
               "id": "u5_l2_07",
               "num": "02",
               "word": "bankrupt",
-              "phonetic": "/'baenkrapt/",
+              "phonetic": "/ˈbæŋkrʌpt/",
               "pos": "n.",
               "meaning": "n.破产者v.使破产 adj.破产的，倒闭的",
               "highlight": "n.破产者v.使破产 adj.破产的",
@@ -15533,7 +15533,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "bankruptcy",
-                  "phonetic": "/'baenkraptsi/",
+                  "phonetic": "/ˈbæŋkrʌptsi/",
                   "pos": "n.",
                   "meaning": "n.破产，倒闭；（名誉等的）彻底消失"
                 }
@@ -15543,7 +15543,7 @@ window.CET6_DATA = {
               "id": "u5_l2_08",
               "num": "03",
               "word": "deficit",
-              "phonetic": "/'defisit/",
+              "phonetic": "/ˈdefɪsɪt/",
               "pos": "n.",
               "meaning": "n.赤字，亏损，逆差",
               "highlight": "n.赤字",
@@ -15556,7 +15556,7 @@ window.CET6_DATA = {
               "id": "u5_l2_09",
               "num": "04",
               "word": "interrupt",
-              "phonetic": "/unta'rapt/",
+              "phonetic": "/ˌɪntəˈrʌpt/",
               "pos": "v.",
               "meaning": "v.打断(某人的）讲话；打扰；使中断",
               "highlight": "v.打断(某人的）讲话",
@@ -15566,7 +15566,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "interruption",
-                  "phonetic": "/unta'rapfn/",
+                  "phonetic": "/ˌɪntəˈrʌpʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.打扰；插嘴；阻断物；中断时间"
                 }
@@ -15576,7 +15576,7 @@ window.CET6_DATA = {
               "id": "u5_l2_10",
               "num": "05",
               "word": "erupt",
-              "phonetic": "/i'rapt/",
+              "phonetic": "/ɪˈrʌpt/",
               "pos": "v.",
               "meaning": "v.突然发生；爆发；喷发；迸发",
               "highlight": "v.突然发生",
@@ -15586,7 +15586,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "eruption",
-                  "phonetic": "/i'rapfn/",
+                  "phonetic": "/ɪˈrʌpʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.突然发生；爆发；喷发"
                 }
@@ -15596,7 +15596,7 @@ window.CET6_DATA = {
               "id": "u5_l2_11",
               "num": "06",
               "word": "disrupt",
-              "phonetic": "/dis'rapt/",
+              "phonetic": "/dɪsˈrʌpt/",
               "pos": "v.",
               "meaning": "v.扰乱，使混乱，打乱",
               "highlight": "v.扰乱",
@@ -15606,13 +15606,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "disruptive",
-                  "phonetic": "/dis'raptv/",
+                  "phonetic": "/dɪsˈrʌptɪv/",
                   "pos": "adj.",
                   "meaning": "adj.引起混乱的；扰乱性的；破坏性的"
                 },
                 {
                   "word": "disruption",
-                  "phonetic": "/dis'rapfn/",
+                  "phonetic": "/dɪsˈrʌpʃn/",
                   "pos": "n.",
                   "meaning": "n.中断，分裂，破坏"
                 }
@@ -15622,7 +15622,7 @@ window.CET6_DATA = {
               "id": "u5_l2_12",
               "num": "07",
               "word": "abrupt",
-              "phonetic": "/a'brapt/",
+              "phonetic": "/əˈbrʌpt/",
               "pos": "adj.",
               "meaning": "adj.突然的，意外的；粗鲁的，生硬的",
               "highlight": "adj.突然的",
@@ -15635,7 +15635,7 @@ window.CET6_DATA = {
               "id": "u5_l2_13",
               "num": "08",
               "word": "corrupt",
-              "phonetic": "/ko'rpt/",
+              "phonetic": "/kəˈrʌpt/",
               "pos": "v.",
               "meaning": "v.使腐化；破坏 adj.腐败的；不道德的",
               "highlight": "v.使腐化",
@@ -15645,7 +15645,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "corruption",
-                  "phonetic": "/ka'rapfn/",
+                  "phonetic": "/kəˈrʌpʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.腐败；受贿；堕落"
                 }
@@ -15655,7 +15655,7 @@ window.CET6_DATA = {
               "id": "u5_l2_14",
               "num": "09",
               "word": "rot",
-              "phonetic": "/rot/",
+              "phonetic": "/rɑːt/",
               "pos": "n.",
               "meaning": "n.腐烂；腐败v.（使）腐烂，（使）腐败",
               "highlight": "n.腐烂",
@@ -15665,7 +15665,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "rotten",
-                  "phonetic": "/'rotn/",
+                  "phonetic": "/ˈrɑːt(ə)n/",
                   "pos": "adj.",
                   "meaning": "adj.腐烂的，腐败的"
                 }
@@ -15675,7 +15675,7 @@ window.CET6_DATA = {
               "id": "u5_l2_15",
               "num": "10",
               "word": "rotate",
-              "phonetic": "/rau'tert/",
+              "phonetic": "/ˈroʊteɪt/",
               "pos": "v.",
               "meaning": "v.（使）旋转，（使）转动；由.……轮值",
               "highlight": "v.（使）旋转",
@@ -15685,7 +15685,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "rotation",
-                  "phonetic": "/rau'terfn/",
+                  "phonetic": "/roʊˈteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.旋转，转动；轮换"
                 }
@@ -15695,7 +15695,7 @@ window.CET6_DATA = {
               "id": "u5_l2_16",
               "num": "11",
               "word": "erode",
-              "phonetic": "/t'raud/",
+              "phonetic": "/ɪˈroʊd/",
               "pos": "v.",
               "meaning": "v.腐蚀；风化；逐渐毁坏；削弱",
               "highlight": "v.腐蚀",
@@ -15721,7 +15721,7 @@ window.CET6_DATA = {
               "id": "u5_l2_18",
               "num": "13",
               "word": "bribe",
-              "phonetic": "/braab/",
+              "phonetic": "/braɪb/",
               "pos": "n.",
               "meaning": "n.贿赂 v.贿赂，收买",
               "highlight": "n.贿赂 v.贿赂",
@@ -15731,7 +15731,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "bribery",
-                  "phonetic": "/eqreq,/",
+                  "phonetic": "/ˈbraɪbəri/",
                   "pos": "n.",
                   "meaning": "n.贿赂"
                 }
@@ -15751,7 +15751,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "debtor",
-                  "phonetic": "/'deta(r)/",
+                  "phonetic": "/ˈdetər/",
                   "pos": "n.",
                   "meaning": "n.债务人；借方"
                 }
@@ -15761,7 +15761,7 @@ window.CET6_DATA = {
               "id": "u5_l2_20",
               "num": "15",
               "word": "indebted",
-              "phonetic": "/n'detid/",
+              "phonetic": "/ɪnˈdetɪd/",
               "pos": "adj.",
               "meaning": "adj.负债的；感激的，蒙恩的",
               "highlight": "adj.负债的",
@@ -15774,7 +15774,7 @@ window.CET6_DATA = {
               "id": "u5_l2_21",
               "num": "16",
               "word": "levy",
-              "phonetic": "/'levi/",
+              "phonetic": "/ˈlevi/",
               "pos": "n.",
               "meaning": "n.征收额；税款v.征收，征（税）",
               "highlight": "n.征收额",
@@ -15807,7 +15807,7 @@ window.CET6_DATA = {
               "id": "u5_l2_23",
               "num": "18",
               "word": "inflate",
-              "phonetic": "/in'fleit/",
+              "phonetic": "/ɪnˈfleɪt/",
               "pos": "v.",
               "meaning": "v.使充气，膨胀",
               "highlight": "v.使充气",
@@ -15817,7 +15817,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inflation",
-                  "phonetic": "/in'flerfn/",
+                  "phonetic": "/ɪnˈfleɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.通货膨胀；充气"
                 }
@@ -15840,7 +15840,7 @@ window.CET6_DATA = {
               "id": "u5_l2_25",
               "num": "20",
               "word": "fade",
-              "phonetic": "/ferd/",
+              "phonetic": "/feɪd/",
               "pos": "v.",
               "meaning": "v.褪色；逐渐消失，淡出",
               "highlight": "v.褪色",
@@ -15853,7 +15853,7 @@ window.CET6_DATA = {
               "id": "u5_l2_26",
               "num": "21",
               "word": "shred",
-              "phonetic": "/Sred/",
+              "phonetic": "/ʃred/",
               "pos": "n.",
               "meaning": "n.细条，碎片；一丁点 碎片；把(文件)放进碎纸机粉碎 .把.….….撕成",
               "highlight": "n.细条",
@@ -15866,7 +15866,7 @@ window.CET6_DATA = {
               "id": "u5_l2_27",
               "num": "22",
               "word": "sheet",
-              "phonetic": "/Sit/",
+              "phonetic": "/ʃiːt/",
               "pos": "n.",
               "meaning": "n.床单，被单；纸张；薄片，一片",
               "highlight": "n.床单",
@@ -15892,7 +15892,7 @@ window.CET6_DATA = {
               "id": "u5_l2_29",
               "num": "24",
               "word": "coast",
-              "phonetic": "/kaust/",
+              "phonetic": "/koʊst/",
               "pos": "n.",
               "meaning": "n.海岸，海滨",
               "highlight": "n.海岸",
@@ -15902,7 +15902,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "coastal",
-                  "phonetic": "/'kaustl/",
+                  "phonetic": "/ˈkoʊst(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.沿海的；靠近海岸的"
                 }
@@ -15925,7 +15925,7 @@ window.CET6_DATA = {
               "id": "u5_l2_31",
               "num": "26",
               "word": "compose",
-              "phonetic": "/kam'pauz/",
+              "phonetic": "/kəmˈpoʊz/",
               "pos": "v.",
               "meaning": "v.组成，构成；作曲，创作",
               "highlight": "v.组成",
@@ -15941,7 +15941,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "composer",
-                  "phonetic": "/kam'pauza(r)/",
+                  "phonetic": "/kəmˈpoʊzər/",
                   "pos": "n.",
                   "meaning": "n.作曲家"
                 }
@@ -15951,7 +15951,7 @@ window.CET6_DATA = {
               "id": "u5_l2_32",
               "num": "27",
               "word": "composite",
-              "phonetic": "/'kompazit/",
+              "phonetic": "/kəmˈpɑːzət/",
               "pos": "n.",
               "meaning": "n.合成物，混合物；复合材料 adj.合成的",
               "highlight": "n.合成物",
@@ -15964,7 +15964,7 @@ window.CET6_DATA = {
               "id": "u5_l2_33",
               "num": "28",
               "word": "compile",
-              "phonetic": "/kam'pail/",
+              "phonetic": "/kəmˈpaɪl/",
               "pos": "v.",
               "meaning": "v.编写，编纂；汇编；编译",
               "highlight": "v.编写",
@@ -15974,7 +15974,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "compilation",
-                  "phonetic": "/komp'lerfn/",
+                  "phonetic": "/ˌkɑːmpɪˈleɪʃn/",
                   "pos": "n.",
                   "meaning": "n.收集；编纂，编写"
                 }
@@ -15984,7 +15984,7 @@ window.CET6_DATA = {
               "id": "u5_l2_34",
               "num": "29",
               "word": "pile",
-              "phonetic": "/pal/",
+              "phonetic": "/paɪl/",
               "pos": "n.",
               "meaning": "n.絮，堆；成堆的东西v.堆放，叠放",
               "highlight": "n.絮",
@@ -15997,7 +15997,7 @@ window.CET6_DATA = {
               "id": "u5_l2_35",
               "num": "30",
               "word": "file",
-              "phonetic": "/fail/",
+              "phonetic": "/faɪl/",
               "pos": "n.",
               "meaning": "n.文件夹；卷宗；档案v.（把文件等） 归档；提起（诉讼);提出（申请）",
               "highlight": "n.文件夹",
@@ -16010,7 +16010,7 @@ window.CET6_DATA = {
               "id": "u5_l2_36",
               "num": "31",
               "word": "posture",
-              "phonetic": "/postfa(r)/",
+              "phonetic": "/ˈpɑːstʃər/",
               "pos": "n.",
               "meaning": "n.(坐、立的）姿势；态度，立场 v.故作姿态",
               "highlight": "n.(坐、立的）姿势",
@@ -16020,7 +16020,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "pose",
-                  "phonetic": "/pauz/",
+                  "phonetic": "/poʊz/",
                   "pos": "n.",
                   "meaning": "n.(为画像、拍照等摆的）姿势 v.造成（威胁、问题等），引起，产生"
                 }
@@ -16030,7 +16030,7 @@ window.CET6_DATA = {
               "id": "u5_l2_37",
               "num": "32",
               "word": "propose",
-              "phonetic": "/pra'pauz/",
+              "phonetic": "/prəˈpoʊz/",
               "pos": "v.",
               "meaning": "v.提议，建议；打算；求婚",
               "highlight": "v.提议",
@@ -16063,7 +16063,7 @@ window.CET6_DATA = {
               "id": "u5_l2_39",
               "num": "34",
               "word": "position",
-              "phonetic": "/pazisn/",
+              "phonetic": "/pəˈzɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.观点，立场；位置，地方；职务",
               "highlight": "n.观点",
@@ -16076,7 +16076,7 @@ window.CET6_DATA = {
               "id": "u5_l2_40",
               "num": "35",
               "word": "expose",
-              "phonetic": "/ik'spauz/",
+              "phonetic": "/ɪkˈspoʊz/",
               "pos": "v.",
               "meaning": "v.使接触；暴露；揭露",
               "highlight": "v.使接触",
@@ -16096,7 +16096,7 @@ window.CET6_DATA = {
               "id": "u5_l2_41",
               "num": "36",
               "word": "exposition",
-              "phonetic": "/iekspazin/",
+              "phonetic": "/ˌekspəˈzɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.解释，说明，阐述；商品交易会，产品 博览会",
               "highlight": "n.解释",
@@ -16109,7 +16109,7 @@ window.CET6_DATA = {
               "id": "u5_l2_42",
               "num": "37",
               "word": "dispose",
-              "phonetic": "/dɪ'spəʊz/",
+              "phonetic": "/dɪˈspoʊz/",
               "pos": "v.",
               "meaning": "v. 使倾向于；布置，安排；处理，扔掉",
               "highlight": "v.使倾向于",
@@ -16125,7 +16125,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "disposal",
-                  "phonetic": "/dɪ'spəʊzl/",
+                  "phonetic": "/dɪˈspoʊz(ə)l/",
                   "pos": "n.",
                   "meaning": "n. 清除；处理；(企业、财产等的)变卖"
                 }
@@ -16135,7 +16135,7 @@ window.CET6_DATA = {
               "id": "u5_l2_43",
               "num": "38",
               "word": "impose",
-              "phonetic": "/m'pauz/",
+              "phonetic": "/ɪmˈpoʊz/",
               "pos": "v.",
               "meaning": "v.推行，采用；强制实行，把….强加于",
               "highlight": "v.推行",
@@ -16161,7 +16161,7 @@ window.CET6_DATA = {
               "id": "u5_l2_44",
               "num": "39",
               "word": "oppose",
-              "phonetic": "/ə'pəʊz/",
+              "phonetic": "/əˈpoʊz/",
               "pos": "v.",
               "meaning": "v. 反对，对抗；与...角逐",
               "highlight": "v.反对",
@@ -16181,7 +16181,7 @@ window.CET6_DATA = {
               "id": "u5_l2_45",
               "num": "40",
               "word": "opposite",
-              "phonetic": "/azeda/",
+              "phonetic": "/ˈɑːpəzɪt/",
               "pos": "adj.",
               "meaning": "adj.对面的，相反的n.对立面，反面",
               "highlight": "adj.对面的",
@@ -16194,7 +16194,7 @@ window.CET6_DATA = {
               "id": "u5_l2_46",
               "num": "41",
               "word": "opponent",
-              "phonetic": "/a'paunant/",
+              "phonetic": "/əˈpoʊnənt/",
               "pos": "n.",
               "meaning": "n.对手，竞争者；反对者",
               "highlight": "n.对手",
@@ -16207,7 +16207,7 @@ window.CET6_DATA = {
               "id": "u5_l2_47",
               "num": "42",
               "word": "component",
-              "phonetic": "/kom'paunant/",
+              "phonetic": "/kəmˈpoʊnənt/",
               "pos": "n.",
               "meaning": "n.组成部分；成分，部件",
               "highlight": "n.组成部分",
@@ -16220,7 +16220,7 @@ window.CET6_DATA = {
               "id": "u5_l2_48",
               "num": "43",
               "word": "exponent",
-              "phonetic": "/ik'spaunant/",
+              "phonetic": "/ɪkˈspoʊnənt/",
               "pos": "n.",
               "meaning": "n.拥护者，倡导者；能手，大师；指数",
               "highlight": "n.拥护者",
@@ -16233,7 +16233,7 @@ window.CET6_DATA = {
               "id": "u5_l2_49",
               "num": "44",
               "word": "rival",
-              "phonetic": "/'raivl/",
+              "phonetic": "/ˈraɪv(ə)l/",
               "pos": "n.",
               "meaning": "n.竞争对手.与.…….相匹敌，比得上",
               "highlight": "n.竞争对手.与.…….相匹敌",
@@ -16243,7 +16243,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "rivalry",
-                  "phonetic": "/'rarvlri/",
+                  "phonetic": "/ˈraɪv(ə)lri/",
                   "pos": "n.",
                   "meaning": "n.竞争，竞赛，较量"
                 }
@@ -16253,7 +16253,7 @@ window.CET6_DATA = {
               "id": "u5_l2_50",
               "num": "45",
               "word": "positive",
-              "phonetic": "/'pozativ/",
+              "phonetic": "/ˈpɑːzətɪv/",
               "pos": "adj.",
               "meaning": "adj.赞同的；积极乐观的，有信心的； 积极的",
               "highlight": "adj.赞同的",
@@ -16266,7 +16266,7 @@ window.CET6_DATA = {
               "id": "u5_l2_51",
               "num": "46",
               "word": "negative",
-              "phonetic": "/'negotiv/",
+              "phonetic": "/ˈneɡətɪv/",
               "pos": "adj.",
               "meaning": "adj.有害的，消极的，负面的；否定的",
               "highlight": "adj.有害的",
@@ -16279,7 +16279,7 @@ window.CET6_DATA = {
               "id": "u5_l2_52",
               "num": "47",
               "word": "optimistic",
-              "phonetic": "/opt'mistik/",
+              "phonetic": "/ˌɑːptɪˈmɪstɪk/",
               "pos": "adj.",
               "meaning": "adj.乐观的，乐观主义的",
               "highlight": "adj.乐观的",
@@ -16289,13 +16289,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "optimism",
-                  "phonetic": "/'optimizam/",
+                  "phonetic": "/ˈɑːptɪmɪzəm/",
                   "pos": "n.",
                   "meaning": "n.乐观；乐观主义"
                 },
                 {
                   "word": "optimist",
-                  "phonetic": "/'optimist/",
+                  "phonetic": "/ˈɑːptɪmɪst/",
                   "pos": "n.",
                   "meaning": "n.乐观的人；乐天派"
                 }
@@ -16305,7 +16305,7 @@ window.CET6_DATA = {
               "id": "u5_l2_53",
               "num": "48",
               "word": "passive",
-              "phonetic": "/'paesiv/",
+              "phonetic": "/ˈpæsɪv/",
               "pos": "adj.",
               "meaning": "adj.被动的，消极的",
               "highlight": "adj.被动的",
@@ -16365,7 +16365,7 @@ window.CET6_DATA = {
               "id": "u5_l3_01",
               "num": "49",
               "word": "reluctant",
-              "phonetic": "/ri'laktant/",
+              "phonetic": "/rɪˈlʌktənt/",
               "pos": "adj.",
               "meaning": "adj.不情愿的",
               "highlight": "adj.不情愿的",
@@ -16375,7 +16375,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "reluctance",
-                  "phonetic": "/rlaktans/",
+                  "phonetic": "/rɪˈlʌktəns/",
                   "pos": "n.",
                   "meaning": "n.勉强，不情愿"
                 }
@@ -16398,7 +16398,7 @@ window.CET6_DATA = {
               "id": "u5_l3_03",
               "num": "51",
               "word": "latitude",
-              "phonetic": "/'laetitjud/",
+              "phonetic": "/ˈlætɪtuːd/",
               "pos": "n.",
               "meaning": "n.纬度；选择（做什么事或做事方式） 的自由",
               "highlight": "n.纬度",
@@ -16411,7 +16411,7 @@ window.CET6_DATA = {
               "id": "u5_l3_04",
               "num": "52",
               "word": "aptitude",
-              "phonetic": "/'æptɪtjuːd/",
+              "phonetic": "/ˈæptɪtuːd/",
               "pos": "n.",
               "meaning": "n. 天资，天赋",
               "highlight": "n.天资",
@@ -16424,7 +16424,7 @@ window.CET6_DATA = {
               "id": "u5_l3_05",
               "num": "01",
               "word": "export",
-              "phonetic": "/'ekspɔːt/",
+              "phonetic": "/ɪkˈspɔːrt/",
               "pos": "n./v.",
               "meaning": "n. 出口，输出；出口产品 v. 输出",
               "highlight": "n.出口",
@@ -16444,7 +16444,7 @@ window.CET6_DATA = {
               "id": "u5_l3_06",
               "num": "02",
               "word": "import",
-              "phonetic": "/ˈɪmpɔːt/",
+              "phonetic": "/ˈɪmpɔːrt/",
               "pos": "",
               "meaning": "n. 进口，输入的产品或劳务 v. 进口，输入",
               "highlight": "/'mpot/ n.进口",
@@ -16464,7 +16464,7 @@ window.CET6_DATA = {
               "id": "u5_l3_07",
               "num": "03",
               "word": "porter",
-              "phonetic": "/porta(r)/",
+              "phonetic": "/ˈpɔːrtər/",
               "pos": "n.",
               "meaning": "n.行李员，搬运工；护工；门卫",
               "highlight": "n.行李员",
@@ -16477,7 +16477,7 @@ window.CET6_DATA = {
               "id": "u5_l3_08",
               "num": "04",
               "word": "deport",
-              "phonetic": "/dɪ'pɔːt/",
+              "phonetic": "/dɪˈpɔːrt/",
               "pos": "v.",
               "meaning": "v. 驱逐出境，递解出境",
               "highlight": "v.驱逐出境",
@@ -16497,7 +16497,7 @@ window.CET6_DATA = {
               "id": "u5_l3_09",
               "num": "05",
               "word": "support",
-              "phonetic": "/sə'pɔːt/",
+              "phonetic": "/səˈpɔːrt/",
               "pos": "n./v.",
               "meaning": "n. 支持，拥护；支撑物 v. 支持；支撑；养活",
               "highlight": "n.支持",
@@ -16507,7 +16507,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "supporter",
-                  "phonetic": "/saporta(r)/",
+                  "phonetic": "/səˈpɔːrtər/",
                   "pos": "n.",
                   "meaning": "n.支持者，拥护者"
                 }
@@ -16517,7 +16517,7 @@ window.CET6_DATA = {
               "id": "u5_l3_10",
               "num": "06",
               "word": "endorse",
-              "phonetic": "/In'docs/",
+              "phonetic": "/ɪnˈdɔːrs/",
               "pos": "v.",
               "meaning": "v.(公开）赞同，支持，认可",
               "highlight": "v.(公开）赞同",
@@ -16527,7 +16527,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "endorsement",
-                  "phonetic": "/In'dosmant/",
+                  "phonetic": "/ɪnˈdɔːrsmənt/",
                   "pos": "n.",
                   "meaning": "n.支持，认可"
                 }
@@ -16537,7 +16537,7 @@ window.CET6_DATA = {
               "id": "u5_l3_11",
               "num": "07",
               "word": "transport",
-              "phonetic": "/ˈtrænspɔːt/",
+              "phonetic": "/ˈtrænspɔːrt/",
               "pos": "",
               "meaning": "n. 交通运输系统；运输工具 v. 运输",
               "highlight": "/'trensport/ n.交通运输系统",
@@ -16547,7 +16547,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "transportation",
-                  "phonetic": "/traenspor'tern/",
+                  "phonetic": "/ˌtrænspərˈteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.交通运输系统"
                 }
@@ -16592,7 +16592,7 @@ window.CET6_DATA = {
               "id": "u5_l3_14",
               "num": "10",
               "word": "opportunity",
-              "phonetic": "/eunedal/",
+              "phonetic": "/ˌɑːpərˈtuːnəti/",
               "pos": "n.",
               "meaning": "n.机会；时机",
               "highlight": "n.机会",
@@ -16605,7 +16605,7 @@ window.CET6_DATA = {
               "id": "u5_l3_15",
               "num": "11",
               "word": "porch",
-              "phonetic": "/ed/",
+              "phonetic": "/pɔːrtʃ/",
               "pos": "n.",
               "meaning": "n.门廊，走廊",
               "highlight": "n.门廊",
@@ -16631,7 +16631,7 @@ window.CET6_DATA = {
               "id": "u5_l3_17",
               "num": "13",
               "word": "deem",
-              "phonetic": "/dim/",
+              "phonetic": "/diːm/",
               "pos": "v.",
               "meaning": "v.认为，相信",
               "highlight": "v.认为",
@@ -16670,7 +16670,7 @@ window.CET6_DATA = {
               "id": "u5_l3_19",
               "num": "15",
               "word": "insert",
-              "phonetic": "/ɪnˈsɜːt/",
+              "phonetic": "/ɪnˈsɜːrt/",
               "pos": "",
               "meaning": "v. 插入，放进；加入 n. (报刊)插页广告；插入物",
               "highlight": "/1n's3t/ v.插入",
@@ -16690,7 +16690,7 @@ window.CET6_DATA = {
               "id": "u5_l3_20",
               "num": "16",
               "word": "claim",
-              "phonetic": "/kleim/",
+              "phonetic": "/kleɪm/",
               "pos": "n.",
               "meaning": "n.声明，宣称；索赔 v.宣称，声称；断言",
               "highlight": "n.声明",
@@ -16703,7 +16703,7 @@ window.CET6_DATA = {
               "id": "u5_l3_21",
               "num": "17",
               "word": "exclaim",
-              "phonetic": "/k'skleim/",
+              "phonetic": "/ɪkˈskleɪm/",
               "pos": "v.",
               "meaning": "v.(尤因强烈的情感或痛苦而）惊叫， 呼喊",
               "highlight": "v.(尤因强烈的情感或痛苦而）惊叫",
@@ -16713,13 +16713,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "exclamation",
-                  "phonetic": "/ekskla'mern/",
+                  "phonetic": "/ˌekskləˈmeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.感叹；感叹词"
                 },
                 {
                   "word": "exclamatory",
-                  "phonetic": "/zk'sklaematri/",
+                  "phonetic": "/ɪkˈsklæmətɔːriˌekˈsklæmətɔːri/",
                   "pos": "adj.",
                   "meaning": "adj.表示感叹的；惊叹的"
                 }
@@ -16729,7 +16729,7 @@ window.CET6_DATA = {
               "id": "u5_l3_22",
               "num": "18",
               "word": "acclaim",
-              "phonetic": "/skleim/",
+              "phonetic": "/əˈkleɪm/",
               "pos": "v.",
               "meaning": "v.称赞，为.喝彩；推崇",
               "highlight": "v.称赞",
@@ -16742,7 +16742,7 @@ window.CET6_DATA = {
               "id": "u5_l3_23",
               "num": "19",
               "word": "proclaim",
-              "phonetic": "/pra'klerm/",
+              "phonetic": "/prəˈkleɪm/",
               "pos": "v.",
               "meaning": "v.宣布，宣告；声明",
               "highlight": "v.宣布",
@@ -16755,7 +16755,7 @@ window.CET6_DATA = {
               "id": "u5_l3_24",
               "num": "20",
               "word": "proclamation",
-              "phonetic": "/proklamerfn/",
+              "phonetic": "/ˌprɑːkləˈmeɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.宣言；公告；声明",
               "highlight": "n.宣言",
@@ -16768,7 +16768,7 @@ window.CET6_DATA = {
               "id": "u5_l3_25",
               "num": "21",
               "word": "declare",
-              "phonetic": "/dr'klea(r)/",
+              "phonetic": "/dɪˈkler/",
               "pos": "v.",
               "meaning": "v.公布，宣布，宣告",
               "highlight": "v.公布",
@@ -16784,7 +16784,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "declarative",
-                  "phonetic": "/dt'klaeratv/",
+                  "phonetic": "/dɪˈklærətɪv/",
                   "pos": "adj.",
                   "meaning": "adj.陈述的"
                 }
@@ -16804,7 +16804,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "allegation",
-                  "phonetic": "/iaelagerfn/",
+                  "phonetic": "/ˌæləˈɡeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.（无证据的）说法，指控"
                 },
@@ -16839,7 +16839,7 @@ window.CET6_DATA = {
               "id": "u5_l3_28",
               "num": "24",
               "word": "swear",
-              "phonetic": "/swea(r)/",
+              "phonetic": "/sweə(r)/",
               "pos": "v.",
               "meaning": "v.发誓，宣暂；诅咒",
               "highlight": "v.发誓",
@@ -16875,7 +16875,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "assurance",
-                  "phonetic": "/suexef,e/",
+                  "phonetic": "/əˈʃʊrəns/",
                   "pos": "",
                   "meaning": "n. 保证；确信"
                 }
@@ -16885,7 +16885,7 @@ window.CET6_DATA = {
               "id": "u5_l3_31",
               "num": "27",
               "word": "reassure",
-              "phonetic": "/ˌriːəˈʃʊə(r)/",
+              "phonetic": "/ˌriːəˈʃʊr/",
               "pos": "",
               "meaning": "v. 使安心，打消...的疑虑",
               "highlight": "ria/o(r)/ v.使…安心打消..的疑虑",
@@ -16918,7 +16918,7 @@ window.CET6_DATA = {
               "id": "u5_l3_33",
               "num": "29",
               "word": "insure",
-              "phonetic": "/ɪnˈʃʊə(r)/",
+              "phonetic": "/ɪnˈʃʊr/",
               "pos": "",
               "meaning": "v. 投保，给...保险；接受投保，承保",
               "highlight": "/In'fua(r); v.投保",
@@ -16928,7 +16928,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "insurance",
-                  "phonetic": "/sueef ,u/",
+                  "phonetic": "/ɪnˈʃʊrəns/",
                   "pos": "",
                   "meaning": "n. 保险；保险费"
                 }
@@ -16951,7 +16951,7 @@ window.CET6_DATA = {
               "id": "u5_l3_35",
               "num": "31",
               "word": "persuade",
-              "phonetic": "/pa'sweid/",
+              "phonetic": "/pərˈsweɪd/",
               "pos": "v.",
               "meaning": "v.劝说，说服；使信服",
               "highlight": "v.劝说",
@@ -16967,7 +16967,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "persuasive",
-                  "phonetic": "/pa'sweisiv/",
+                  "phonetic": "/pərˈsweɪsɪv/",
                   "pos": "adj.",
                   "meaning": "adj.有说服力的"
                 }
@@ -16977,7 +16977,7 @@ window.CET6_DATA = {
               "id": "u5_l3_36",
               "num": "32",
               "word": "promise",
-              "phonetic": "/'promis/",
+              "phonetic": "/ˈprɑːmɪs/",
               "pos": "n.",
               "meaning": "n.保证；诺言，承诺；迹象v.承诺；答 应；保证；预示..可能发生",
               "highlight": "n.保证",
@@ -16990,7 +16990,7 @@ window.CET6_DATA = {
               "id": "u5_l3_37",
               "num": "33",
               "word": "promising",
-              "phonetic": "/'promsn/",
+              "phonetic": "/ˈprɑːmɪsɪŋ/",
               "pos": "adj.",
               "meaning": "adj.大有希望的，很有前途的",
               "highlight": "adj.大有希望的",
@@ -17029,7 +17029,7 @@ window.CET6_DATA = {
               "id": "u5_l3_40",
               "num": "36",
               "word": "infinite",
-              "phonetic": "/'nfinat/",
+              "phonetic": "/ˈɪnfɪnət/",
               "pos": "adj.",
               "meaning": "adj.无限的，无穷的",
               "highlight": "adj.无限的",
@@ -17039,7 +17039,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "infinity",
-                  "phonetic": "/in'finati/",
+                  "phonetic": "/ɪnˈfɪnəti/",
                   "pos": "n.",
                   "meaning": "n.无限，无穷"
                 },
@@ -17068,7 +17068,7 @@ window.CET6_DATA = {
               "id": "u5_l3_42",
               "num": "38",
               "word": "define",
-              "phonetic": "/di'fain/",
+              "phonetic": "/dɪˈfaɪn/",
               "pos": "v.",
               "meaning": "v.解释，说明；给..下定义；阐明， 界定",
               "highlight": "v.解释",
@@ -17081,7 +17081,7 @@ window.CET6_DATA = {
               "id": "u5_l3_43",
               "num": "39",
               "word": "definite",
-              "phonetic": "/'definat/",
+              "phonetic": "/ˈdefɪnət/",
               "pos": "adj.",
               "meaning": "adj.肯定的，确定的；明显的，清楚的",
               "highlight": "adj.肯定的",
@@ -17091,7 +17091,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "definitely",
-                  "phonetic": "/'definatli/",
+                  "phonetic": "/ˈdefɪnətli/",
                   "pos": "adv.",
                   "meaning": "adv.确切地；明确地；清楚地"
                 }
@@ -17101,7 +17101,7 @@ window.CET6_DATA = {
               "id": "u5_l3_44",
               "num": "40",
               "word": "definition",
-              "phonetic": "/idefi'nfn/",
+              "phonetic": "/ˌdefɪˈnɪʃn/",
               "pos": "n.",
               "meaning": "n.解释；定义",
               "highlight": "n.解释",
@@ -17114,7 +17114,7 @@ window.CET6_DATA = {
               "id": "u5_l3_45",
               "num": "41",
               "word": "indefinite",
-              "phonetic": "/In'definat/",
+              "phonetic": "/ɪnˈdefɪnət/",
               "pos": "adj.",
               "meaning": "adj.模糊不清的，不明确的；无限 期的",
               "highlight": "adj.模糊不清的",
@@ -17127,7 +17127,7 @@ window.CET6_DATA = {
               "id": "u5_l3_46",
               "num": "42",
               "word": "refine",
-              "phonetic": "/ri'fain/",
+              "phonetic": "/rɪˈfaɪn/",
               "pos": "v.",
               "meaning": "v.精炼，提炼；改进",
               "highlight": "v.精炼",
@@ -17137,7 +17137,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "refinement",
-                  "phonetic": "/ri'fainmant/",
+                  "phonetic": "/rɪˈfaɪnmənt/",
                   "pos": "n.",
                   "meaning": "n.精炼，提炼，提纯；改进，改善"
                 }
@@ -17147,7 +17147,7 @@ window.CET6_DATA = {
               "id": "u5_l3_47",
               "num": "43",
               "word": "refinery",
-              "phonetic": "/ri'fainari/",
+              "phonetic": "/rɪˈfaɪnəri/",
               "pos": "n.",
               "meaning": "n.炼油厂，提炼厂，精炼厂，精制厂",
               "highlight": "n.炼油厂",
@@ -17160,7 +17160,7 @@ window.CET6_DATA = {
               "id": "u5_l3_48",
               "num": "44",
               "word": "distil",
-              "phonetic": "/di'stul/",
+              "phonetic": "/dɪˈstɪl/",
               "pos": "v.",
               "meaning": "v.蒸馏；用蒸馏法提取；提炼；浓缩",
               "highlight": "v.蒸馏",
@@ -17173,7 +17173,7 @@ window.CET6_DATA = {
               "id": "u5_l3_49",
               "num": "45",
               "word": "confine",
-              "phonetic": "/kan'fan/",
+              "phonetic": "/kənˈfaɪn/",
               "pos": "v.",
               "meaning": "v.约束，限定，限制；使离不开",
               "highlight": "v.约束",
@@ -17183,7 +17183,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "confinement",
-                  "phonetic": "/kon'fainmant/",
+                  "phonetic": "/kənˈfaɪnmənt/",
                   "pos": "n.",
                   "meaning": "n.禁闭，监禁，关押"
                 }
@@ -17193,7 +17193,7 @@ window.CET6_DATA = {
               "id": "u5_l3_50",
               "num": "46",
               "word": "restrain",
-              "phonetic": "/rt'strein/",
+              "phonetic": "/rɪˈstreɪn/",
               "pos": "v.",
               "meaning": "v.阻止，制止，约束",
               "highlight": "v.阻止",
@@ -17203,7 +17203,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "restraint",
-                  "phonetic": "/rt'streint/",
+                  "phonetic": "/rɪˈstreɪnt/",
                   "pos": "n.",
                   "meaning": "n.约束力；限制，克制"
                 }
@@ -17213,7 +17213,7 @@ window.CET6_DATA = {
               "id": "u5_l3_51",
               "num": "47",
               "word": "constrain",
-              "phonetic": "/kan'strein/",
+              "phonetic": "/kənˈstreɪn/",
               "pos": "v.",
               "meaning": "v.阻止；限制",
               "highlight": "v.阻止",
@@ -17223,7 +17223,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "constraint",
-                  "phonetic": "/kan'streint/",
+                  "phonetic": "/kənˈstreɪnt/",
                   "pos": "n.",
                   "meaning": "n.限制，限定，约束"
                 }
@@ -17233,7 +17233,7 @@ window.CET6_DATA = {
               "id": "u5_l3_52",
               "num": "48",
               "word": "stifle",
-              "phonetic": "/'staifl/",
+              "phonetic": "/ˈstaɪf(ə)l/",
               "pos": "v.",
               "meaning": "v.阻止，抑制，压抑（感情）；（使）感到 室息",
               "highlight": "v.阻止",
@@ -17246,7 +17246,7 @@ window.CET6_DATA = {
               "id": "u5_l3_53",
               "num": "49",
               "word": "strain",
-              "phonetic": "/strein/",
+              "phonetic": "/streɪn/",
               "pos": "n.",
               "meaning": "n.焦虑，紧张；负担；拉力v.拉伤；竭 力；用力推（或拉)，拉紧；使过劳",
               "highlight": "n.焦虑",
@@ -17308,7 +17308,7 @@ window.CET6_DATA = {
               "id": "u5_l4_01",
               "num": "01",
               "word": "chilly",
-              "phonetic": "/'tli/",
+              "phonetic": "/ˈtʃɪli/",
               "pos": "adj.",
               "meaning": "adj.寒冷的；阴冷的",
               "highlight": "adj.寒冷的",
@@ -17336,7 +17336,7 @@ window.CET6_DATA = {
               "id": "u5_l4_03",
               "num": "52",
               "word": "cozy",
-              "phonetic": "/'kəʊzi/",
+              "phonetic": "/ˈkoʊzi/",
               "pos": "adj.",
               "meaning": "adj. 暖和舒适的；亲密无间的",
               "highlight": "的",
@@ -17349,7 +17349,7 @@ window.CET6_DATA = {
               "id": "u5_l4_04",
               "num": "01",
               "word": "block",
-              "phonetic": "/blok/",
+              "phonetic": "/blɑːk/",
               "pos": "n.",
               "meaning": "n.大块；街区；大楼；阻碍物 v.阻碍；堵塞",
               "highlight": "n.大块",
@@ -17364,7 +17364,7 @@ window.CET6_DATA = {
               "id": "u5_l4_05",
               "num": "02",
               "word": "bloc",
-              "phonetic": "/blok/",
+              "phonetic": "/blɑːk/",
               "pos": "n.",
               "meaning": "n.集团，阵营",
               "highlight": "n.集团",
@@ -17392,7 +17392,7 @@ window.CET6_DATA = {
               "id": "u5_l4_07",
               "num": "04",
               "word": "accompany",
-              "phonetic": "/akAmpani/",
+              "phonetic": "/əˈkʌmpəni/",
               "pos": "v.",
               "meaning": "v.陪伴；伴随；为.伴奏",
               "highlight": "v.陪伴",
@@ -17405,7 +17405,7 @@ window.CET6_DATA = {
               "id": "u5_l4_08",
               "num": "05",
               "word": "companion",
-              "phonetic": "/kam'paenjan/",
+              "phonetic": "/kəmˈpænjən/",
               "pos": "n.",
               "meaning": "n.伴侣，同伴；陪伴",
               "highlight": "n.伴侣",
@@ -17415,7 +17415,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "companionship",
-                  "phonetic": "/kəm'pænjənʃɪp/",
+                  "phonetic": "/kəmˈpænjənʃɪp/",
                   "pos": "n.",
                   "meaning": "n. 友谊，交情；伴侣关系"
                 }
@@ -17425,7 +17425,7 @@ window.CET6_DATA = {
               "id": "u5_l4_09",
               "num": "06",
               "word": "multiply",
-              "phonetic": "/'maltplai/",
+              "phonetic": "/ˈmʌltɪplaɪ/",
               "pos": "v.",
               "meaning": "v.乘；（使)成倍增加；(使）大大增加； 繁殖",
               "highlight": "v.乘",
@@ -17435,7 +17435,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "multiplication",
-                  "phonetic": "/mAltpli'kerfn/",
+                  "phonetic": "/ˌmʌltɪplɪˈkeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.乘；相乘；增加"
                 }
@@ -17445,7 +17445,7 @@ window.CET6_DATA = {
               "id": "u5_l4_10",
               "num": "07",
               "word": "multiple",
-              "phonetic": "/'mAltipl/",
+              "phonetic": "/ˈmʌltɪp(ə)l/",
               "pos": "adj.",
               "meaning": "adj.数量多的；多种的n.倍数",
               "highlight": "adj.数量多的",
@@ -17483,7 +17483,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "affiliation",
-                  "phonetic": "/afiliern/",
+                  "phonetic": "/əˌfɪliˈeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.隶属关系；隶属，从属"
                 }
@@ -17510,7 +17510,7 @@ window.CET6_DATA = {
               "id": "u5_l4_14",
               "num": "11",
               "word": "affix",
-              "phonetic": "/ə'fɪks/",
+              "phonetic": "/əˈfɪks/",
               "pos": "n./v.",
               "meaning": "n. 词缀 v. 粘上，贴上；附上",
               "highlight": "n.词缀 v.粘上",
@@ -17547,7 +17547,7 @@ window.CET6_DATA = {
               "id": "u5_l4_16",
               "num": "13",
               "word": "affirm",
-              "phonetic": "/ue],e/",
+              "phonetic": "/əˈfɜːrm/",
               "pos": "v.",
               "meaning": "v.肯定属实；申明；断言",
               "highlight": "v.肯定属实",
@@ -17557,13 +17557,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "affirmation",
-                  "phonetic": "/aefa'mer/n/",
+                  "phonetic": "/ˌæfərˈmeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.断言；肯定"
                 },
                 {
                   "word": "affirmative",
-                  "phonetic": "/afsmativ/",
+                  "phonetic": "/əˈfɜːrmətɪv/",
                   "pos": "n.",
                   "meaning": "n.肯定；同意 adj.肯定的；同意的"
                 }
@@ -17575,7 +17575,7 @@ window.CET6_DATA = {
               "id": "u5_l4_17",
               "num": "14",
               "word": "enterprise",
-              "phonetic": "/'entapraiz/",
+              "phonetic": "/ˈentərpraɪz/",
               "pos": "n.",
               "meaning": "n.公司，企业",
               "highlight": "n.公司",
@@ -17585,7 +17585,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "enterprising",
-                  "phonetic": "/'entapraizi/",
+                  "phonetic": "/ˈentərpraɪzɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.有事业心的；有进取心的；有创 业精神的"
                 }
@@ -17607,7 +17607,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "entrepreneurial",
-                  "phonetic": "/leuxuendenua/",
+                  "phonetic": "/ˌɑːntrəprəˈnɜːriəl/",
                   "pos": "adj.",
                   "meaning": "adj.创业的；企业家的"
                 }
@@ -17633,7 +17633,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "commercialize",
-                  "phonetic": "/kə'mɜːʃəlaɪz/",
+                  "phonetic": "/kəˈmɜːrʃəlaɪz/",
                   "pos": "v.",
                   "meaning": "v. 利用...牟利；商业化"
                 }
@@ -17645,7 +17645,7 @@ window.CET6_DATA = {
               "id": "u5_l4_20",
               "num": "17",
               "word": "commodity",
-              "phonetic": "/ka'modati/",
+              "phonetic": "/kəˈmɑːdəti/",
               "pos": "n.",
               "meaning": "n.商品；有用的东西，有使用价值的 事物",
               "highlight": "n.商品",
@@ -17658,7 +17658,7 @@ window.CET6_DATA = {
               "id": "u5_l4_21",
               "num": "18",
               "word": "merchant",
-              "phonetic": "/'matfant/",
+              "phonetic": "/ˈmɜːrtʃənt/",
               "pos": "n.",
               "meaning": "n.商人，批发商",
               "highlight": "n.商人",
@@ -17673,7 +17673,7 @@ window.CET6_DATA = {
               "id": "u5_l4_22",
               "num": "19",
               "word": "merchandise",
-              "phonetic": "/ˈmɜːtʃəndaɪs/",
+              "phonetic": "/ˈmɜːrtʃəndaɪs/",
               "pos": "",
               "meaning": "n. 商品，货品 v. 经商，销售",
               "highlight": "m3:tfandaiz/ n.商品",
@@ -17699,7 +17699,7 @@ window.CET6_DATA = {
               "id": "u5_l4_24",
               "num": "21",
               "word": "wholesale",
-              "phonetic": "/'haulseil/",
+              "phonetic": "/ˈhoʊlseɪl/",
               "pos": "adv.",
               "meaning": "adv.批量地 n.批发 adj.大规模的；批发的",
               "highlight": "adv.批量地 n.批发 adj.大规模的",
@@ -17712,7 +17712,7 @@ window.CET6_DATA = {
               "id": "u5_l4_25",
               "num": "22",
               "word": "retail",
-              "phonetic": "/'riteil/",
+              "phonetic": "/ˈriːteɪl/",
               "pos": "n.",
               "meaning": "n.零售 v.零售 adv.以零售方式",
               "highlight": "n.零售 v.零售 adv.以零售方式",
@@ -17722,7 +17722,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "retailer",
-                  "phonetic": "/'rirteila(r)/",
+                  "phonetic": "/ˈriːteɪlər/",
                   "pos": "n.",
                   "meaning": "n.零售商"
                 }
@@ -17732,7 +17732,7 @@ window.CET6_DATA = {
               "id": "u5_l4_26",
               "num": "23",
               "word": "entail",
-              "phonetic": "/in'tel/",
+              "phonetic": "/ɪnˈteɪl/",
               "pos": "v.",
               "meaning": "v.牵涉；需要，使必要",
               "highlight": "v.牵涉",
@@ -17745,7 +17745,7 @@ window.CET6_DATA = {
               "id": "u5_l4_27",
               "num": "24",
               "word": "afford",
-              "phonetic": "/ə'fɔːd/",
+              "phonetic": "/əˈfɔːrd/",
               "pos": "v.",
               "meaning": "v. 买得起；（有时间）做；承担得起（后果）",
               "highlight": "v.买得起",
@@ -17799,7 +17799,7 @@ window.CET6_DATA = {
               "id": "u5_l4_30",
               "num": "27",
               "word": "corporation",
-              "phonetic": "/kopa'rern/",
+              "phonetic": "/ˌkɔːrpəˈreɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.(大)公司，企业",
               "highlight": "n.(大)公司",
@@ -17821,7 +17821,7 @@ window.CET6_DATA = {
               "id": "u5_l4_31",
               "num": "28",
               "word": "incorporate",
-              "phonetic": "/In'kopareit/",
+              "phonetic": "/ɪnˈkɔːrpəreɪt/",
               "pos": "v.",
               "meaning": "v.将.…….并人，包含",
               "highlight": "v.将.…….并人",
@@ -17843,7 +17843,7 @@ window.CET6_DATA = {
               "id": "u5_l4_32",
               "num": "29",
               "word": "compete",
-              "phonetic": "/kom'pit/",
+              "phonetic": "/kəmˈpiːt/",
               "pos": "v.",
               "meaning": "v.参加比赛；竞争",
               "highlight": "v.参加比赛",
@@ -17853,7 +17853,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "competitor",
-                  "phonetic": "/kam'petita(r)/",
+                  "phonetic": "/kəmˈpetɪtər/",
                   "pos": "n.",
                   "meaning": "n.竞争者"
                 },
@@ -17865,7 +17865,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "competitive",
-                  "phonetic": "/kom'petativ/",
+                  "phonetic": "/kəmˈpetətɪv/",
                   "pos": "adj.",
                   "meaning": "adj.竞争的；有竞争力的；好胜的"
                 }
@@ -17875,7 +17875,7 @@ window.CET6_DATA = {
               "id": "u5_l4_33",
               "num": "30",
               "word": "competent",
-              "phonetic": "/'kompitant/",
+              "phonetic": "/ˈkɑːmpɪtənt/",
               "pos": "adj.",
               "meaning": "adj.有能力的，能胜任的",
               "highlight": "adj.有能力的",
@@ -17890,7 +17890,7 @@ window.CET6_DATA = {
               "id": "u5_l4_34",
               "num": "31",
               "word": "competence",
-              "phonetic": "/'kompitans/",
+              "phonetic": "/ˈkɑːmpɪtəns/",
               "pos": "n.",
               "meaning": "n.能力；技能",
               "highlight": "n.能力",
@@ -17916,7 +17916,7 @@ window.CET6_DATA = {
               "id": "u5_l4_36",
               "num": "33",
               "word": "operate",
-              "phonetic": "/'oparert/",
+              "phonetic": "/ˈɑːpəreɪt/",
               "pos": "v.",
               "meaning": "v.经营，营业；操作；动手术",
               "highlight": "v.经营",
@@ -17926,13 +17926,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "operative",
-                  "phonetic": "/'oparativ/",
+                  "phonetic": "/ˈɑːpərətɪv/",
                   "pos": "n.",
                   "meaning": "n.工人，(尤指）技术工人；特工 adj.运作中的；可使用的"
                 },
                 {
                   "word": "operation",
-                  "phonetic": "/ufiaiedar/",
+                  "phonetic": "/ˌɑːpəˈreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.手术；（有组织的）活动，行动；企 业，公司"
                 },
@@ -17944,7 +17944,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "operator",
-                  "phonetic": "/'oparerta(r)/",
+                  "phonetic": "/ˈɑːpəreɪtər/",
                   "pos": "n.",
                   "meaning": "n.操作人员"
                 }
@@ -17954,7 +17954,7 @@ window.CET6_DATA = {
               "id": "u5_l4_37",
               "num": "34",
               "word": "cooperate",
-              "phonetic": "/kau'oparet/",
+              "phonetic": "/koʊˈɑːpəreɪt/",
               "pos": "v.",
               "meaning": "v.合作，协作",
               "highlight": "v.合作",
@@ -17974,7 +17974,7 @@ window.CET6_DATA = {
               "id": "u5_l4_38",
               "num": "35",
               "word": "cooperative",
-              "phonetic": "/kau'oparativ/",
+              "phonetic": "/koʊˈɑːpərətɪv/",
               "pos": "n.",
               "meaning": "n.合作企业；合作性组织adj.合作 的，同心协力的；协助的，配合的",
               "highlight": "n.合作企业",
@@ -17987,7 +17987,7 @@ window.CET6_DATA = {
               "id": "u5_l4_39",
               "num": "36",
               "word": "collaborate",
-              "phonetic": "/ka'laebareit/",
+              "phonetic": "/kəˈlæbəreɪt/",
               "pos": "v.",
               "meaning": "v.合作，协作",
               "highlight": "v.合作",
@@ -17997,7 +17997,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "collaborative",
-                  "phonetic": "/kolaebaratv/",
+                  "phonetic": "/kəˈlæbəreɪtɪv/",
                   "pos": "adj.",
                   "meaning": "adj.合作的，协作的，协力的"
                 }
@@ -18017,7 +18017,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "elaboration",
-                  "phonetic": "/laeba'rerfn/",
+                  "phonetic": "/ɪˌlæbəˈreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.精心制作（或计划)；精致；详尽 阐述"
                 }
@@ -18027,7 +18027,7 @@ window.CET6_DATA = {
               "id": "u5_l4_41",
               "num": "38",
               "word": "subsidy",
-              "phonetic": "/'sAbsadi/",
+              "phonetic": "/ˈsʌbsədi/",
               "pos": "n.",
               "meaning": "n.补贴，补助金，津贴",
               "highlight": "n.补贴",
@@ -18037,7 +18037,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "subsidize",
-                  "phonetic": "/'sʌbsɪdaɪz/",
+                  "phonetic": "/ˈsʌbsɪdaɪz/",
                   "pos": "v.",
                   "meaning": "v. 资助，补助，给...发津贴"
                 }
@@ -18049,7 +18049,7 @@ window.CET6_DATA = {
               "id": "u5_l4_42",
               "num": "39",
               "word": "allowance",
-              "phonetic": "/alauans/",
+              "phonetic": "/əˈlaʊəns/",
               "pos": "n.",
               "meaning": "n.津贴，补贴；零用钱",
               "highlight": "n.津贴",
@@ -18062,7 +18062,7 @@ window.CET6_DATA = {
               "id": "u5_l4_43",
               "num": "40",
               "word": "bonus",
-              "phonetic": "/seuneq,/",
+              "phonetic": "/ˈboʊnəs/",
               "pos": "n.",
               "meaning": "n.奖金，红利；意外收获，额外的好处",
               "highlight": "n.奖金",
@@ -18077,7 +18077,7 @@ window.CET6_DATA = {
               "id": "u5_l4_44",
               "num": "41",
               "word": "dole",
-              "phonetic": "/daul/",
+              "phonetic": "/doʊl/",
               "pos": "n.",
               "meaning": "n.失业救济金 v.(～out）发放，发给；施舍",
               "highlight": "n.失业救济金 v.(～out）发放",
@@ -18092,7 +18092,7 @@ window.CET6_DATA = {
               "id": "u5_l4_45",
               "num": "42",
               "word": "dividend",
-              "phonetic": "/'dividend/",
+              "phonetic": "/ˈdɪvɪdend/",
               "pos": "n.",
               "meaning": "n.红利；股息，股利",
               "highlight": "n.红利",
@@ -18163,7 +18163,7 @@ window.CET6_DATA = {
               "id": "u5_l4_50",
               "num": "47",
               "word": "inventory",
-              "phonetic": "/'invantri/",
+              "phonetic": "/ˈɪnvəntɔːri/",
               "pos": "n.",
               "meaning": "n.清单；存货，库存v.开列清单",
               "highlight": "n.清单",
@@ -18239,7 +18239,7 @@ window.CET6_DATA = {
               "id": "u5_l4_55",
               "num": "52",
               "word": "aisle",
-              "phonetic": "/al/",
+              "phonetic": "/aɪl/",
               "pos": "n.",
               "meaning": "n.走道，过道",
               "highlight": "n.走道",
@@ -18249,7 +18249,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "underlying",
-                  "phonetic": "/Anda/la/",
+                  "phonetic": "/ˌʌndərˈlaɪɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.根本的；潜在的，隐含的"
                 }
@@ -18259,7 +18259,7 @@ window.CET6_DATA = {
               "id": "u5_l4_56",
               "num": "54",
               "word": "underline",
-              "phonetic": "/Anda'lain/",
+              "phonetic": "/ˌʌndərˈlaɪn/",
               "pos": "v.",
               "meaning": "v.在（词语等下）画线；强调，使突出",
               "highlight": "v.在（词语等下）画线",
@@ -18272,7 +18272,7 @@ window.CET6_DATA = {
               "id": "u5_l4_57",
               "num": "55",
               "word": "undermine",
-              "phonetic": "/Anda'main/",
+              "phonetic": "/ˌʌndərˈmaɪn/",
               "pos": "v.",
               "meaning": "v.逐渐削弱；从根基处破坏",
               "highlight": "v.逐渐削弱",
@@ -18287,7 +18287,7 @@ window.CET6_DATA = {
               "id": "u5_l4_58",
               "num": "56",
               "word": "undergo",
-              "phonetic": "/ianda'gou/",
+              "phonetic": "/ˌʌndərˈɡoʊ/",
               "pos": "v.",
               "meaning": "v.经历，遭受",
               "highlight": "v.经历",
@@ -18302,7 +18302,7 @@ window.CET6_DATA = {
               "id": "u5_l4_59",
               "num": "57",
               "word": "undertake",
-              "phonetic": "/Anda'terk/",
+              "phonetic": "/ˌʌndərˈteɪk/",
               "pos": "v.",
               "meaning": "v.承担，担任；从事；答应",
               "highlight": "v.承担",
@@ -18315,7 +18315,7 @@ window.CET6_DATA = {
               "id": "u5_l4_60",
               "num": "58",
               "word": "deadline",
-              "phonetic": "/'dedlain/",
+              "phonetic": "/ˈdedlaɪn/",
               "pos": "n.",
               "meaning": "n.截止日期，最后期限",
               "highlight": "n.截止日期",
@@ -18330,7 +18330,7 @@ window.CET6_DATA = {
               "id": "u5_l4_61",
               "num": "59",
               "word": "guideline",
-              "phonetic": "/'gadlain/",
+              "phonetic": "/ˈɡaɪdlaɪn/",
               "pos": "n.",
               "meaning": "n.指导方针，指导原则，行动纲领， 要",
               "highlight": "n.指导方针",
@@ -18345,7 +18345,7 @@ window.CET6_DATA = {
               "id": "u5_l4_62",
               "num": "60",
               "word": "skyline",
-              "phonetic": "/'skarlain/",
+              "phonetic": "/ˈskaɪlaɪn/",
               "pos": "n.",
               "meaning": "n.轮廊线，天际线",
               "highlight": "n.轮廊线",
@@ -18360,7 +18360,7 @@ window.CET6_DATA = {
               "id": "u5_l4_63",
               "num": "61",
               "word": "streamline",
-              "phonetic": "/'strimlain/",
+              "phonetic": "/ˈstriːmlaɪn/",
               "pos": "",
               "meaning": "率更高；精简 v.使成流线型；使（系统、机构等）效",
               "highlight": "率更高",
@@ -18375,7 +18375,7 @@ window.CET6_DATA = {
               "id": "u5_l4_64",
               "num": "62",
               "word": "align",
-              "phonetic": "/alain/",
+              "phonetic": "/əˈlaɪn/",
               "pos": "",
               "meaning": "结盟 v.（尤指）成一直线；使一致；与.……",
               "highlight": "结盟 v.（尤指）成一直线",
@@ -18385,7 +18385,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "alignment",
-                  "phonetic": "/lanmant/",
+                  "phonetic": "/əˈlaɪnmənt/",
                   "pos": "n.",
                   "meaning": "n.排成直线；结盟 云上印 包邮到家，线上5分/张打印"
                 }
@@ -18451,7 +18451,7 @@ window.CET6_DATA = {
               "id": "u6_l1_01",
               "num": "01",
               "word": "recipe",
-              "phonetic": "/'resapi/",
+              "phonetic": "/ˈresəpi/",
               "pos": "n.",
               "meaning": "n.烹饪法，食谱；秘诀",
               "highlight": "n.烹饪法",
@@ -18466,7 +18466,7 @@ window.CET6_DATA = {
               "id": "u6_l1_02",
               "num": "02",
               "word": "reciprocal",
-              "phonetic": "/rt'siprakl/",
+              "phonetic": "/rɪˈsɪprək(ə)l/",
               "pos": "adj.",
               "meaning": "adj.互惠的，相互的",
               "highlight": "adj.互惠的",
@@ -18481,7 +18481,7 @@ window.CET6_DATA = {
               "id": "u6_l1_03",
               "num": "03",
               "word": "edible",
-              "phonetic": "/'edabl/",
+              "phonetic": "/ˈedəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.可以食用的",
               "highlight": "adj.可以食用的",
@@ -18496,7 +18496,7 @@ window.CET6_DATA = {
               "id": "u6_l1_04",
               "num": "04",
               "word": "poison",
-              "phonetic": "/'poizn/",
+              "phonetic": "/ˈpɔɪzn/",
               "pos": "n.",
               "meaning": "n.毒药，毒素v.毒害，下毒",
               "highlight": "n.毒药",
@@ -18506,7 +18506,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "poisonous",
-                  "phonetic": "/seuezied/",
+                  "phonetic": "/ˈpɔɪzənəs/",
                   "pos": "adj.",
                   "meaning": "adj.有毒的"
                 }
@@ -18518,7 +18518,7 @@ window.CET6_DATA = {
               "id": "u6_l1_05",
               "num": "05",
               "word": "toxic",
-              "phonetic": "/'tokstk/",
+              "phonetic": "/ˈtɑːksɪk/",
               "pos": "adj.",
               "meaning": "adj.有毒的，引起中毒的",
               "highlight": "adj.有毒的",
@@ -18531,7 +18531,7 @@ window.CET6_DATA = {
               "id": "u6_l1_06",
               "num": "06",
               "word": "dioxide",
-              "phonetic": "/daɪ'ɒksaɪd/",
+              "phonetic": "/daɪˈɑːksaɪd/",
               "pos": "n.",
               "meaning": "n. 二氧化物",
               "highlight": "n.二氧化物",
@@ -18544,7 +18544,7 @@ window.CET6_DATA = {
               "id": "u6_l1_07",
               "num": "07",
               "word": "cocaine",
-              "phonetic": "/kau'ken/",
+              "phonetic": "/koʊˈkeɪn/",
               "pos": "n.",
               "meaning": "n.可卡因",
               "highlight": "n.可卡因",
@@ -18557,7 +18557,7 @@ window.CET6_DATA = {
               "id": "u6_l1_08",
               "num": "08",
               "word": "fiber",
-              "phonetic": "/'faɪbə(r)/",
+              "phonetic": "/ˈfaɪbər/",
               "pos": "n.",
               "meaning": "n. (食物的)纤维素；(布绳的)纤维",
               "highlight": "n.(食物的）纤维素",
@@ -18585,7 +18585,7 @@ window.CET6_DATA = {
               "id": "u6_l1_10",
               "num": "10",
               "word": "well-being",
-              "phonetic": "/'wel bin/",
+              "phonetic": "/ˈwel biːɪŋ/",
               "pos": "n.",
               "meaning": "n.健康，舒适，幸福；（国家的）繁荣",
               "highlight": "n.健康",
@@ -18600,7 +18600,7 @@ window.CET6_DATA = {
               "id": "u6_l1_11",
               "num": "11",
               "word": "diet",
-              "phonetic": "/vetep/",
+              "phonetic": "/ˈdaɪət/",
               "pos": "n.",
               "meaning": "n.日常饮食，日常食物v.节食",
               "highlight": "n.日常饮食",
@@ -18610,7 +18610,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "dietary",
-                  "phonetic": "/ueterep,/",
+                  "phonetic": "/ˈdaɪəteri/",
                   "pos": "adj.",
                   "meaning": "adj.饮食的"
                 }
@@ -18620,7 +18620,7 @@ window.CET6_DATA = {
               "id": "u6_l1_12",
               "num": "12",
               "word": "calorie",
-              "phonetic": "/'kaelari/",
+              "phonetic": "/ˈkæləri/",
               "pos": "n.",
               "meaning": "n.卡路里，热量",
               "highlight": "n.卡路里",
@@ -18633,7 +18633,7 @@ window.CET6_DATA = {
               "id": "u6_l1_13",
               "num": "13",
               "word": "nutrition",
-              "phonetic": "/nju'trin/",
+              "phonetic": "/nuˈtrɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.营养，滋养；营养学",
               "highlight": "n.营养",
@@ -18668,7 +18668,7 @@ window.CET6_DATA = {
               "id": "u6_l1_15",
               "num": "15",
               "word": "nourish",
-              "phonetic": "/juvu/",
+              "phonetic": "/ˈnɜːrɪʃ/",
               "pos": "v.",
               "meaning": "v.滋养；培养（感情、观念或信念)；保 持，怀有",
               "highlight": "v.滋养",
@@ -18678,7 +18678,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "nourishment",
-                  "phonetic": "/'narifmant/",
+                  "phonetic": "/ˈnɜːrɪʃmənt/",
                   "pos": "n.",
                   "meaning": "n.营养；营养品"
                 }
@@ -18688,7 +18688,7 @@ window.CET6_DATA = {
               "id": "u6_l1_16",
               "num": "16",
               "word": "foster",
-              "phonetic": "/'fosta(r)/",
+              "phonetic": "/ˈfɑːstər/",
               "pos": "v.",
               "meaning": "v.促进，培养；抚育，照料",
               "highlight": "v.促进",
@@ -18716,7 +18716,7 @@ window.CET6_DATA = {
               "id": "u6_l1_18",
               "num": "18",
               "word": "cultivate",
-              "phonetic": "/'kaltivet/",
+              "phonetic": "/ˈkʌltɪveɪt/",
               "pos": "v.",
               "meaning": "v.耕作；培育，培养",
               "highlight": "v.耕作",
@@ -18726,7 +18726,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "cultivation",
-                  "phonetic": "/kAltt'verfn/",
+                  "phonetic": "/ˌkʌltɪˈveɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.耕种，种植；（品质或技巧的）培养"
                 }
@@ -18738,7 +18738,7 @@ window.CET6_DATA = {
               "id": "u6_l1_19",
               "num": "19",
               "word": "breed",
-              "phonetic": "/brid/",
+              "phonetic": "/briːd/",
               "pos": "v.",
               "meaning": "v.饲养，培育；孕育",
               "highlight": "v.饲养",
@@ -18753,7 +18753,7 @@ window.CET6_DATA = {
               "id": "u6_l1_20",
               "num": "20",
               "word": "pasta",
-              "phonetic": "/'paesta/",
+              "phonetic": "/ˈpɑːstə/",
               "pos": "n.",
               "meaning": "n.意大利面食",
               "highlight": "n.意大利面食",
@@ -18763,7 +18763,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "pastry",
-                  "phonetic": "/'peistri/",
+                  "phonetic": "/ˈpeɪstri/",
                   "pos": "n.",
                   "meaning": "n.油酥面团；油酥糕点"
                 }
@@ -18790,7 +18790,7 @@ window.CET6_DATA = {
               "id": "u6_l1_22",
               "num": "22",
               "word": "cocktail",
-              "phonetic": "/'kokteil/",
+              "phonetic": "/ˈkɑːkteɪl/",
               "pos": "n.",
               "meaning": "n.鸡尾酒",
               "highlight": "n.鸡尾酒",
@@ -18803,7 +18803,7 @@ window.CET6_DATA = {
               "id": "u6_l1_23",
               "num": "23",
               "word": "cafeteria",
-              "phonetic": "/eenejaex/",
+              "phonetic": "/ˌkæfəˈtɪriə/",
               "pos": "n.",
               "meaning": "n.自助餐厅，自助食堂",
               "highlight": "n.自助餐厅",
@@ -18816,7 +18816,7 @@ window.CET6_DATA = {
               "id": "u6_l1_24",
               "num": "24",
               "word": "relish",
-              "phonetic": "/'relas/",
+              "phonetic": "/ˈrelɪʃ/",
               "pos": "n.",
               "meaning": "n.享受，乐趣；调味汁v.喜爱，喜欢",
               "highlight": "n.享受",
@@ -18859,7 +18859,7 @@ window.CET6_DATA = {
               "id": "u6_l1_27",
               "num": "27",
               "word": "fragrant",
-              "phonetic": "/freigront/",
+              "phonetic": "/ˈfreɪɡrənt/",
               "pos": "adj.",
               "meaning": "adj.香的，芳香的",
               "highlight": "adj.香的",
@@ -18869,7 +18869,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "fragrance",
-                  "phonetic": "/'freigrans/",
+                  "phonetic": "/ˈfreɪɡrəns/",
                   "pos": "n.",
                   "meaning": "n.香气；香味"
                 }
@@ -18881,7 +18881,7 @@ window.CET6_DATA = {
               "id": "u6_l1_28",
               "num": "28",
               "word": "odour",
-              "phonetic": "/auda(r)/",
+              "phonetic": "/ˈoʊdər/",
               "pos": "n.",
               "meaning": "n.(尤指难闻的）气味；臭味",
               "highlight": "n.(尤指难闻的）气味",
@@ -18891,7 +18891,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "odorous",
-                  "phonetic": "/'əʊdərəs/",
+                  "phonetic": "/ˈoʊdərəs/",
                   "pos": "adj.",
                   "meaning": "adj. 有气味的，香的，臭的"
                 }
@@ -18923,7 +18923,7 @@ window.CET6_DATA = {
               "id": "u6_l1_30",
               "num": "30",
               "word": "dormitory",
-              "phonetic": "/'domatri/",
+              "phonetic": "/ˈdɔːrmətɔːri/",
               "pos": "n.",
               "meaning": "n.集体宿舍；学生宿舍",
               "highlight": "n.集体宿舍",
@@ -18936,7 +18936,7 @@ window.CET6_DATA = {
               "id": "u6_l1_31",
               "num": "31",
               "word": "lavatory",
-              "phonetic": "/'laevatri/",
+              "phonetic": "/ˈlævətɔːri/",
               "pos": "n.",
               "meaning": "n.洗手间，厕所",
               "highlight": "n.洗手间",
@@ -18962,7 +18962,7 @@ window.CET6_DATA = {
               "id": "u6_l1_33",
               "num": "33",
               "word": "grocery",
-              "phonetic": "/uesneif/",
+              "phonetic": "/ˈɡroʊsəri/",
               "pos": "n.",
               "meaning": "n.食品杂货店",
               "highlight": "n.食品杂货店",
@@ -18972,7 +18972,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "grocer",
-                  "phonetic": "/grausa(r)/",
+                  "phonetic": "/ˈɡroʊsər/",
                   "pos": "n.",
                   "meaning": "n.食物杂货商；食物杂货店"
                 }
@@ -18982,7 +18982,7 @@ window.CET6_DATA = {
               "id": "u6_l1_34",
               "num": "34",
               "word": "scenery",
-              "phonetic": "/'sinari/",
+              "phonetic": "/ˈsiːnəri/",
               "pos": "n.",
               "meaning": "n.风景，景色；舞台布景",
               "highlight": "n.风景",
@@ -18997,7 +18997,7 @@ window.CET6_DATA = {
               "id": "u6_l1_35",
               "num": "35",
               "word": "nursery",
-              "phonetic": "/eseu/",
+              "phonetic": "/ˈnɜːrsəri/",
               "pos": "n.",
               "meaning": "n.托儿所，幼儿园；儿童房",
               "highlight": "n.托儿所",
@@ -19012,7 +19012,7 @@ window.CET6_DATA = {
               "id": "u6_l1_36",
               "num": "36",
               "word": "local",
-              "phonetic": "/'laukl/",
+              "phonetic": "/ˈloʊk(ə)l/",
               "pos": "n.",
               "meaning": "n.本地人 adj.当地的",
               "highlight": "n.本地人 adj.当地的",
@@ -19022,7 +19022,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "locality",
-                  "phonetic": "/lau'kaelati/",
+                  "phonetic": "/loʊˈkæləti/",
                   "pos": "n.",
                   "meaning": "n.地区；地方，地点"
                 }
@@ -19034,7 +19034,7 @@ window.CET6_DATA = {
               "id": "u6_l1_37",
               "num": "37",
               "word": "locate",
-              "phonetic": "/lau'ket/",
+              "phonetic": "/ˈloʊkeɪt/",
               "pos": "v.",
               "meaning": "v.找出…的具体位置；把.设置 在；位于",
               "highlight": "v.找出…的具体位置",
@@ -19044,7 +19044,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "location",
-                  "phonetic": "/lau'ker/n/",
+                  "phonetic": "/loʊˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.位置，地点；定位"
                 }
@@ -19056,7 +19056,7 @@ window.CET6_DATA = {
               "id": "u6_l1_38",
               "num": "38",
               "word": "allocate",
-              "phonetic": "/'aelakert/",
+              "phonetic": "/ˈæləkeɪt/",
               "pos": "v.",
               "meaning": "v.分配，调拨",
               "highlight": "v.分配",
@@ -19091,7 +19091,7 @@ window.CET6_DATA = {
               "id": "u6_l1_40",
               "num": "40",
               "word": "situation",
-              "phonetic": "/stfu'erfn/",
+              "phonetic": "/ˌsɪtʃuˈeɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.情况，状况；位置",
               "highlight": "n.情况",
@@ -19114,13 +19114,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "urbanize",
-                  "phonetic": "/'ɜːbənaɪz/",
+                  "phonetic": "/ˈɜːrbənaɪz/",
                   "pos": "v.",
                   "meaning": "v. 使都市化"
                 },
                 {
                   "word": "urbanization",
-                  "phonetic": "/ˌɜːbənaɪ'zeɪʃn/",
+                  "phonetic": "/ˌɜːrbənəˈzeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n. 城市化"
                 }
@@ -19150,7 +19150,7 @@ window.CET6_DATA = {
               "id": "u6_l1_43",
               "num": "43",
               "word": "downtown",
-              "phonetic": "/idaun'taun/",
+              "phonetic": "/ˌdaʊnˈtaʊn/",
               "pos": "",
               "meaning": "adu.在市中心adj.市中心的",
               "highlight": "adu.在市中心adj.市中心的",
@@ -19165,7 +19165,7 @@ window.CET6_DATA = {
               "id": "u6_l1_44",
               "num": "44",
               "word": "metropolitan",
-              "phonetic": "/metrapolitan/",
+              "phonetic": "/ˌmetrəˈpɑːlɪtən/",
               "pos": "adj.",
               "meaning": "adj.大城市的，大都会的；本土的",
               "highlight": "adj.大城市的",
@@ -19178,7 +19178,7 @@ window.CET6_DATA = {
               "id": "u6_l1_45",
               "num": "45",
               "word": "continent",
-              "phonetic": "/'kontinant/",
+              "phonetic": "/ˈkɑːntɪnənt/",
               "pos": "n.",
               "meaning": "n.大陆；洲",
               "highlight": "n.大陆",
@@ -19188,7 +19188,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "continental",
-                  "phonetic": "/konti'nentl/",
+                  "phonetic": "/ˌkɑːntɪˈnent(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.大陆的；大洲的"
                 }
@@ -19200,7 +19200,7 @@ window.CET6_DATA = {
               "id": "u6_l1_46",
               "num": "46",
               "word": "current",
-              "phonetic": "/'kArant/",
+              "phonetic": "/ˈkɜːrənt/",
               "pos": "n.",
               "meaning": "n.(海洋或江河的)水流；电流 adj.当前的；流行的",
               "highlight": "n.(海洋或江河的)水流",
@@ -19210,7 +19210,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "currently",
-                  "phonetic": "/'kArantli/",
+                  "phonetic": "/ˈkɜːrəntli/",
                   "pos": "adv.",
                   "meaning": "adv.目前，当前"
                 }
@@ -19222,7 +19222,7 @@ window.CET6_DATA = {
               "id": "u6_l1_47",
               "num": "47",
               "word": "currency",
-              "phonetic": "/'kAransi/",
+              "phonetic": "/ˈkɜːrənsi/",
               "pos": "n.",
               "meaning": "n.流行；通货；货币",
               "highlight": "n.流行",
@@ -19237,7 +19237,7 @@ window.CET6_DATA = {
               "id": "u6_l1_48",
               "num": "48",
               "word": "monetary",
-              "phonetic": "/'mantri/",
+              "phonetic": "/ˈmɑːnɪteri/",
               "pos": "adj.",
               "meaning": "adj.货币的，钱的（尤指一国的货币）",
               "highlight": "adj.货币的",
@@ -19247,7 +19247,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "money",
-                  "phonetic": "/'mani/",
+                  "phonetic": "/ˈmʌni/",
                   "pos": "n.",
                   "meaning": "n.钱；薪水；收入"
                 }
@@ -19277,7 +19277,7 @@ window.CET6_DATA = {
               "id": "u6_l1_50",
               "num": "50",
               "word": "loan",
-              "phonetic": "/laun/",
+              "phonetic": "/loʊn/",
               "pos": "n.",
               "meaning": "n.贷款",
               "highlight": "n.贷款",
@@ -19307,7 +19307,7 @@ window.CET6_DATA = {
               "id": "u6_l1_52",
               "num": "52",
               "word": "estate",
-              "phonetic": "/'stert/",
+              "phonetic": "/ɪˈsteɪt/",
               "pos": "n.",
               "meaning": "n.住宅区；工业区；（通常指农村的）大 片私有土地；个人财产(尤指遗产)",
               "highlight": "n.住宅区",
@@ -19320,7 +19320,7 @@ window.CET6_DATA = {
               "id": "u6_l1_53",
               "num": "53",
               "word": "wealth",
-              "phonetic": "/wele/",
+              "phonetic": "/welθ/",
               "pos": "n.",
               "meaning": "n.财产，财富；大量",
               "highlight": "n.财产",
@@ -19353,7 +19353,7 @@ window.CET6_DATA = {
               "id": "u6_l1_55",
               "num": "55",
               "word": "enrich",
-              "phonetic": "/in'rt/",
+              "phonetic": "/ɪnˈrɪtʃ/",
               "pos": "v.",
               "meaning": "v.充实，使丰富；使富有",
               "highlight": "v.充实",
@@ -19366,7 +19366,7 @@ window.CET6_DATA = {
               "id": "u6_l1_56",
               "num": "56",
               "word": "incentive",
-              "phonetic": "/In'sentiv/",
+              "phonetic": "/ɪnˈsentɪv/",
               "pos": "n.",
               "meaning": "n.激励；刺激；动力",
               "highlight": "n.激励",
@@ -19379,7 +19379,7 @@ window.CET6_DATA = {
               "id": "u6_l1_57",
               "num": "57",
               "word": "decent",
-              "phonetic": "/'disnt/",
+              "phonetic": "/ˈdiːsnt/",
               "pos": "adj.",
               "meaning": "adj.体面的；像样的；正派的",
               "highlight": "adj.体面的",
@@ -19392,7 +19392,7 @@ window.CET6_DATA = {
               "id": "u6_l1_58",
               "num": "58",
               "word": "accent",
-              "phonetic": "/'eksent/",
+              "phonetic": "/ˈæksent/",
               "pos": "n.",
               "meaning": "n.口音；重音；强调；特点 v.强调；重读；带..口音讲话",
               "highlight": "n.口音",
@@ -19405,7 +19405,7 @@ window.CET6_DATA = {
               "id": "u6_l1_59",
               "num": "59",
               "word": "property",
-              "phonetic": "/uedad/",
+              "phonetic": "/ˈprɑːpərti/",
               "pos": "n.",
               "meaning": "n.所有物；财产；不动产，房地产",
               "highlight": "n.所有物",
@@ -19415,7 +19415,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "proper",
-                  "phonetic": "/'propa(r)/",
+                  "phonetic": "/ˈprɑːpər/",
                   "pos": "adj.",
                   "meaning": "adj.正确的；恰当的；符合规则的"
                 }
@@ -19427,7 +19427,7 @@ window.CET6_DATA = {
               "id": "u6_l1_60",
               "num": "60",
               "word": "appropriate",
-              "phonetic": "/eudneid,e/",
+              "phonetic": "/əˈproʊpriət/",
               "pos": "adj.",
               "meaning": "adj.适当的，合适的",
               "highlight": "adj.适当的",
@@ -19442,7 +19442,7 @@ window.CET6_DATA = {
               "id": "u6_l1_61",
               "num": "61",
               "word": "suitable",
-              "phonetic": "/'sutabl/",
+              "phonetic": "/ˈsuːtəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.合适的，适宜的",
               "highlight": "adj.合适的",
@@ -19470,7 +19470,7 @@ window.CET6_DATA = {
               "id": "u6_l1_63",
               "num": "63",
               "word": "outfit",
-              "phonetic": "/'aʊtfɪt/",
+              "phonetic": "/ˈaʊtfɪt/",
               "pos": "n./v.",
               "meaning": "n. 全套服装；全套装备 v. 装备；供给服装",
               "highlight": "v.装备",
@@ -19483,7 +19483,7 @@ window.CET6_DATA = {
               "id": "u6_l1_64",
               "num": "64",
               "word": "suite",
-              "phonetic": "/swit/",
+              "phonetic": "/swiːt/",
               "pos": "n.",
               "meaning": "n.套房（尤指酒店的豪华套房）；一套 家具；一批随员",
               "highlight": "n.套房（尤指酒店的豪华套房）",
@@ -19498,7 +19498,7 @@ window.CET6_DATA = {
               "id": "u6_l1_65",
               "num": "65",
               "word": "possess",
-              "phonetic": "/pazes/",
+              "phonetic": "/pəˈzes/",
               "pos": "v.",
               "meaning": "v.拥有，具有",
               "highlight": "v.拥有",
@@ -19508,13 +19508,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "possession",
-                  "phonetic": "/pazefn/",
+                  "phonetic": "/pəˈzeʃn/",
                   "pos": "n.",
                   "meaning": "n.拥有；财产"
                 },
                 {
                   "word": "possessive",
-                  "phonetic": "/pa'zesv/",
+                  "phonetic": "/pəˈzesɪv/",
                   "pos": "adj.",
                   "meaning": "adj.要求悉心关爱的；占有欲强的"
                 }
@@ -19526,7 +19526,7 @@ window.CET6_DATA = {
               "id": "u6_l1_66",
               "num": "66",
               "word": "fund",
-              "phonetic": "/fAnd/",
+              "phonetic": "/fʌnd/",
               "pos": "n.",
               "meaning": "n.基金；资金.为.….提供资金",
               "highlight": "n.基金",
@@ -19561,7 +19561,7 @@ window.CET6_DATA = {
               "id": "u6_l1_68",
               "num": "68",
               "word": "finance",
-              "phonetic": "/'fainens/",
+              "phonetic": "/ˈfaɪnæns/",
               "pos": "n.",
               "meaning": "n.资金；金融；财务v.提供资金",
               "highlight": "n.资金",
@@ -19642,7 +19642,7 @@ window.CET6_DATA = {
               "id": "u6_l1_73",
               "num": "73",
               "word": "profit",
-              "phonetic": "/ajad /",
+              "phonetic": "/ˈprɑːfɪt/",
               "pos": "n.",
               "meaning": "n.利润；好处v.获益，得到好处",
               "highlight": "n.利润",
@@ -19662,7 +19662,7 @@ window.CET6_DATA = {
               "id": "u6_l1_74",
               "num": "74",
               "word": "benefit",
-              "phonetic": "/'benfit/",
+              "phonetic": "/ˈbenɪfɪt/",
               "pos": "n.",
               "meaning": "n.优势；益处v.使受益",
               "highlight": "n.优势",
@@ -19672,13 +19672,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "beneficial",
-                  "phonetic": "/benr'fnfl/",
+                  "phonetic": "/ˌbenɪˈfɪʃ(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.有利的"
                 },
                 {
                   "word": "beneficiary",
-                  "phonetic": "/benr'fifari/",
+                  "phonetic": "/ˌbenɪˈfɪʃieri/",
                   "pos": "n.",
                   "meaning": "n.受益者；遗产继承人"
                 }
@@ -19688,7 +19688,7 @@ window.CET6_DATA = {
               "id": "u6_l1_75",
               "num": "75",
               "word": "pension",
-              "phonetic": "/'penfn/",
+              "phonetic": "/ˈpenʃən/",
               "pos": "n.",
               "meaning": "n.养老金，退休金",
               "highlight": "n.养老金",
@@ -19698,7 +19698,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "pensioner",
-                  "phonetic": "/penfana(r)/",
+                  "phonetic": "/ˈpenʃənər/",
                   "pos": "n.",
                   "meaning": "n.领养老金(或退休金、抚恤金)者"
                 }
@@ -19708,7 +19708,7 @@ window.CET6_DATA = {
               "id": "u6_l1_76",
               "num": "76",
               "word": "premium",
-              "phonetic": "/'primiam/",
+              "phonetic": "/ˈpriːmiəm/",
               "pos": "n.",
               "meaning": "n.保险费；额外费用",
               "highlight": "n.保险费",
@@ -19721,7 +19721,7 @@ window.CET6_DATA = {
               "id": "u6_l1_77",
               "num": "77",
               "word": "expense",
-              "phonetic": "/zk'spens/",
+              "phonetic": "/ɪkˈspens/",
               "pos": "n.",
               "meaning": "n.费用，花费",
               "highlight": "n.费用",
@@ -19731,7 +19731,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "expensive",
-                  "phonetic": "/lk'spensiv/",
+                  "phonetic": "/ɪkˈspensɪv/",
                   "pos": "adj.",
                   "meaning": "adj.昂贵的，花钱多的，价格高的"
                 }
@@ -19741,7 +19741,7 @@ window.CET6_DATA = {
               "id": "u6_l1_78",
               "num": "78",
               "word": "dispense",
-              "phonetic": "/dɪ'spens/",
+              "phonetic": "/dɪˈspens/",
               "pos": "v.",
               "meaning": "v. 分配，分发；提供",
               "highlight": "v.分配",
@@ -19756,7 +19756,7 @@ window.CET6_DATA = {
               "id": "u6_l1_79",
               "num": "79",
               "word": "expenditure",
-              "phonetic": "/ɪk'spendɪtʃə(r)/",
+              "phonetic": "/ɪkˈspendɪtʃər/",
               "pos": "n.",
               "meaning": "n. 花费，开支；耗费",
               "highlight": "",
@@ -19779,7 +19779,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "monopolize",
-                  "phonetic": "/mə'nɒpəlaɪz/",
+                  "phonetic": "/məˈnɑːpəlaɪz/",
                   "pos": "v.",
                   "meaning": "v. 独占，垄断"
                 }
@@ -19791,7 +19791,7 @@ window.CET6_DATA = {
               "id": "u6_l1_81",
               "num": "81",
               "word": "policy",
-              "phonetic": "/'polasi/",
+              "phonetic": "/ˈpɑːləsi/",
               "pos": "n.",
               "meaning": "n.政策，方针；原则",
               "highlight": "n.政策",
@@ -19804,7 +19804,7 @@ window.CET6_DATA = {
               "id": "u6_l1_82",
               "num": "82",
               "word": "stock",
-              "phonetic": "/stok/",
+              "phonetic": "/stɑːk/",
               "pos": "n.",
               "meaning": "n.（商店的）现货，存货；股票；家畜 v.储存",
               "highlight": "n.（商店的）现货",
@@ -19817,7 +19817,7 @@ window.CET6_DATA = {
               "id": "u6_l1_83",
               "num": "83",
               "word": "livestock",
-              "phonetic": "/'laivstok/",
+              "phonetic": "/ˈlaɪvstɑːk/",
               "pos": "n.",
               "meaning": "n.牲畜，家畜",
               "highlight": "n.牲畜",
@@ -19832,7 +19832,7 @@ window.CET6_DATA = {
               "id": "u6_l1_84",
               "num": "84",
               "word": "stack",
-              "phonetic": "/staek/",
+              "phonetic": "/stæk/",
               "pos": "n.",
               "meaning": "n.一叠；大量 v.(使）放成整齐的一叠（或一擦、一堆）",
               "highlight": "n.一叠",
@@ -19847,7 +19847,7 @@ window.CET6_DATA = {
               "id": "u6_l1_85",
               "num": "85",
               "word": "valuable",
-              "phonetic": "/'vaeljuabl/",
+              "phonetic": "/ˈvæljuəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.宝贵的；贵重的",
               "highlight": "adj.宝贵的",
@@ -19882,7 +19882,7 @@ window.CET6_DATA = {
               "id": "u6_l1_87",
               "num": "87",
               "word": "emphasis",
-              "phonetic": "/'emfsis/",
+              "phonetic": "/ˈemfəsɪs/",
               "pos": "n.",
               "meaning": "n.强调；重视；重要性",
               "highlight": "n.强调",
@@ -19898,7 +19898,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "emphatic",
-                  "phonetic": "/Im'faetuk/",
+                  "phonetic": "/ɪmˈfætɪk/",
                   "pos": "adj.",
                   "meaning": "adj.强调的；有力的"
                 }
@@ -19908,7 +19908,7 @@ window.CET6_DATA = {
               "id": "u6_l1_88",
               "num": "88",
               "word": "synthesis",
-              "phonetic": "/sinfoss/",
+              "phonetic": "/ˈsɪnθəsɪs/",
               "pos": "n.",
               "meaning": "n.综合；结合，合成",
               "highlight": "n.综合",
@@ -19918,13 +19918,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "synthetic",
-                  "phonetic": "/sin'etik/",
+                  "phonetic": "/sɪnˈθetɪk/",
                   "pos": "adj.",
                   "meaning": "adj.人造的；合成的；综合的 n.合成物；合成剂"
                 },
                 {
                   "word": "synthesize",
-                  "phonetic": "/'sɪnθəsaɪz/",
+                  "phonetic": "/ˈsɪnθəsaɪz/",
                   "pos": "v.",
                   "meaning": "v. 合成；综合"
                 }
@@ -19934,7 +19934,7 @@ window.CET6_DATA = {
               "id": "u6_l1_89",
               "num": "89",
               "word": "highlight",
-              "phonetic": "/'harlart/",
+              "phonetic": "/ˈhaɪlaɪt/",
               "pos": "n.",
               "meaning": "n.最突出（或最精彩、最激动人心）的 部分 v.突出；强调",
               "highlight": "n.最突出（或最精彩、最激动人心）的 部分 v.突出",
@@ -19949,7 +19949,7 @@ window.CET6_DATA = {
               "id": "u6_l1_90",
               "num": "90",
               "word": "limelight",
-              "phonetic": "/'larmlart/",
+              "phonetic": "/ˈlaɪmlaɪt/",
               "pos": "n.",
               "meaning": "n.公众关注的焦点",
               "highlight": "n.公众关注的焦点",
@@ -20009,7 +20009,7 @@ window.CET6_DATA = {
               "id": "u6_l2_01",
               "num": "01",
               "word": "grave",
-              "phonetic": "/grerv/",
+              "phonetic": "/ɡreɪv/",
               "pos": "n.",
               "meaning": "n.坟墓adj.严重的；严肃的",
               "highlight": "n.坟墓adj.严重的",
@@ -20019,7 +20019,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "gravity",
-                  "phonetic": "/'graevati/",
+                  "phonetic": "/ˈɡrævəti/",
                   "pos": "n.",
                   "meaning": "n.重力；严重性；庄严"
                 }
@@ -20031,7 +20031,7 @@ window.CET6_DATA = {
               "id": "u6_l2_02",
               "num": "02",
               "word": "aggravate",
-              "phonetic": "/egravert/",
+              "phonetic": "/ˈæɡrəveɪt/",
               "pos": "v.",
               "meaning": "v.使严重，使恶化；激怒",
               "highlight": "v.使严重",
@@ -20041,7 +20041,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "aggravation",
-                  "phonetic": "/aegra'verfn/",
+                  "phonetic": "/ˌæɡrəˈveɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.恶化；加剧"
                 }
@@ -20053,7 +20053,7 @@ window.CET6_DATA = {
               "id": "u6_l2_03",
               "num": "03",
               "word": "grant",
-              "phonetic": "/grant/",
+              "phonetic": "/ɡrænt/",
               "pos": "n.",
               "meaning": "n.拨款，补助金v.给予；准予；承认",
               "highlight": "n.拨款",
@@ -20063,7 +20063,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "granted",
-                  "phonetic": "/'grantid/",
+                  "phonetic": "/ˈɡræntɪd/",
                   "pos": "adv.",
                   "meaning": "adv.的确，诚然"
                 }
@@ -20075,7 +20075,7 @@ window.CET6_DATA = {
               "id": "u6_l2_04",
               "num": "04",
               "word": "grind",
-              "phonetic": "/graind/",
+              "phonetic": "/ɡraɪnd/",
               "pos": "v.",
               "meaning": "v.磨碎；使锋利 n.刺耳的摩擦声；苦差事",
               "highlight": "v.磨碎",
@@ -20090,7 +20090,7 @@ window.CET6_DATA = {
               "id": "u6_l2_05",
               "num": "05",
               "word": "grid",
-              "phonetic": "/pub/",
+              "phonetic": "/ɡrɪd/",
               "pos": "n.",
               "meaning": "n.网格；输电网",
               "highlight": "n.网格",
@@ -20115,13 +20115,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "grief",
-                  "phonetic": "/grif/",
+                  "phonetic": "/ɡriːf/",
                   "pos": "n.",
                   "meaning": "n.悲伤，悲痛"
                 },
                 {
                   "word": "grievous",
-                  "phonetic": "/'grivas/",
+                  "phonetic": "/ˈɡriːvəs/",
                   "pos": "adj.",
                   "meaning": "adj.极严重的；使人痛苦的；令人伤 心的"
                 }
@@ -20133,7 +20133,7 @@ window.CET6_DATA = {
               "id": "u6_l2_07",
               "num": "07",
               "word": "relieve",
-              "phonetic": "/ ri'liv/",
+              "phonetic": "/rɪˈliːv/",
               "pos": "v.",
               "meaning": "v.减轻，缓和（不快或痛苦）",
               "highlight": "v.减轻",
@@ -20143,7 +20143,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "relief",
-                  "phonetic": "/ri'lif/",
+                  "phonetic": "/rɪˈliːf/",
                   "pos": "n.",
                   "meaning": "n.宽慰；救济；（焦虑、痛苦等的）减 轻，消除"
                 }
@@ -20165,7 +20165,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "alleviation",
-                  "phonetic": "/ailivi'erfn/",
+                  "phonetic": "/əˌliːviˈeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.减轻，缓解"
                 }
@@ -20175,7 +20175,7 @@ window.CET6_DATA = {
               "id": "u6_l2_09",
               "num": "60",
               "word": "calculate",
-              "phonetic": "/'kalkjuleit/",
+              "phonetic": "/ˈkælkjuleɪt/",
               "pos": "v.",
               "meaning": "v.计算，核算；估计，推测",
               "highlight": "v.计算",
@@ -20216,7 +20216,7 @@ window.CET6_DATA = {
               "id": "u6_l2_11",
               "num": "11",
               "word": "account",
-              "phonetic": "/'kaunt/",
+              "phonetic": "/əˈkaʊnt/",
               "pos": "v.",
               "meaning": "v.认为是，把.….视为 n.账户；账目；说明",
               "highlight": "v.认为是",
@@ -20226,7 +20226,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "accounting",
-                  "phonetic": "/o'kauntin/",
+                  "phonetic": "/əˈkaʊntɪŋ/",
                   "pos": "n.",
                   "meaning": "n.会计"
                 }
@@ -20236,7 +20236,7 @@ window.CET6_DATA = {
               "id": "u6_l2_12",
               "num": "12",
               "word": "accountant",
-              "phonetic": "/a'kauntant/",
+              "phonetic": "/əˈkaʊntənt/",
               "pos": "n.",
               "meaning": "n.会计，会计师",
               "highlight": "n.会计",
@@ -20246,7 +20246,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "accountancy",
-                  "phonetic": "/a'kauntansi/",
+                  "phonetic": "/əˈkaʊntənsi/",
                   "pos": "n.",
                   "meaning": "n.会计工作；会计职业"
                 }
@@ -20256,7 +20256,7 @@ window.CET6_DATA = {
               "id": "u6_l2_13",
               "num": "13",
               "word": "accountable",
-              "phonetic": "/a'kauntabl/",
+              "phonetic": "/əˈkaʊntəbl/",
               "pos": "adj.",
               "meaning": "adj.负有责任的",
               "highlight": "adj.负有责任的",
@@ -20266,7 +20266,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "accountability",
-                  "phonetic": "/akaunta'biloti/",
+                  "phonetic": "/əˌkaʊntəˈbɪləti/",
                   "pos": "n.",
                   "meaning": "n.负有责任"
                 }
@@ -20276,7 +20276,7 @@ window.CET6_DATA = {
               "id": "u6_l2_14",
               "num": "14",
               "word": "discount",
-              "phonetic": "/'diskaunt/",
+              "phonetic": "/ˈdɪskaʊnt/",
               "pos": "n.",
               "meaning": "n.折扣v.打折，打折出售",
               "highlight": "n.折扣v.打折",
@@ -20304,7 +20304,7 @@ window.CET6_DATA = {
               "id": "u6_l2_16",
               "num": "16",
               "word": "counterfeit",
-              "phonetic": "/'kauntafit/",
+              "phonetic": "/ˈkaʊntərfɪt/",
               "pos": "adj.",
               "meaning": "adj.伪造的 v.伪造；仿造 n.仿造品",
               "highlight": "adj.伪造的 v.伪造",
@@ -20317,7 +20317,7 @@ window.CET6_DATA = {
               "id": "u6_l2_17",
               "num": "17",
               "word": "counteract",
-              "phonetic": "/kauntar'ekt/",
+              "phonetic": "/ˌkaʊntərˈækt/",
               "pos": "v.",
               "meaning": "v.抵制；抵消；抵抗",
               "highlight": "v.抵制",
@@ -20327,7 +20327,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "counteraction",
-                  "phonetic": "/ˌkaʊntər'ækʃn/",
+                  "phonetic": "/ˌkaʊntərˈækʃən/",
                   "pos": "n.",
                   "meaning": "n. 抵制；抵消；抵抗"
                 }
@@ -20339,7 +20339,7 @@ window.CET6_DATA = {
               "id": "u6_l2_18",
               "num": "18",
               "word": "boycott",
-              "phonetic": "/'borkot/",
+              "phonetic": "/ˈbɔɪkɑːt/",
               "pos": "n.",
               "meaning": "n.抵制行动v.拒绝购买；抵制",
               "highlight": "n.抵制行动v.拒绝购买",
@@ -20367,7 +20367,7 @@ window.CET6_DATA = {
               "id": "u6_l2_20",
               "num": "20",
               "word": "confront",
-              "phonetic": "/kan'frant/",
+              "phonetic": "/kənˈfrʌnt/",
               "pos": "v.",
               "meaning": "v.面对；对抗",
               "highlight": "v.面对",
@@ -20377,7 +20377,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "confrontation",
-                  "phonetic": "/konfran'tern/",
+                  "phonetic": "/ˌkɑːnfrənˈteɪʃn/",
                   "pos": "n.",
                   "meaning": "n.对抗；冲突"
                 }
@@ -20389,7 +20389,7 @@ window.CET6_DATA = {
               "id": "u6_l2_21",
               "num": "21",
               "word": "transaction",
-              "phonetic": "/traenzaekfn/",
+              "phonetic": "/trænˈzækʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.交易",
               "highlight": "n.交易",
@@ -20404,7 +20404,7 @@ window.CET6_DATA = {
               "id": "u6_l2_22",
               "num": "22",
               "word": "transit",
-              "phonetic": "/'traenzit/",
+              "phonetic": "/ˈtrænzɪt/",
               "pos": "n.",
               "meaning": "n.运输，运送",
               "highlight": "n.运输",
@@ -20414,7 +20414,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "transition",
-                  "phonetic": "/traenzifn/",
+                  "phonetic": "/trænˈzɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.过渡；变迁"
                 },
@@ -20432,7 +20432,7 @@ window.CET6_DATA = {
               "id": "u6_l2_23",
               "num": "23",
               "word": "transform",
-              "phonetic": "/traens'fom/",
+              "phonetic": "/trænsˈfɔːrm/",
               "pos": "v.",
               "meaning": "v.使改变形态",
               "highlight": "v.使改变形态",
@@ -20442,7 +20442,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "transformation",
-                  "phonetic": "/ˌtrænsfə'meɪʃn/",
+                  "phonetic": "/ˌtrænsfərˈmeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n. 变化，改革，转化"
                 }
@@ -20454,7 +20454,7 @@ window.CET6_DATA = {
               "id": "u6_l2_24",
               "num": "24",
               "word": "transplant",
-              "phonetic": "/trænsˈplɑːnt/",
+              "phonetic": "/trænsˈplænt/",
               "pos": "",
               "meaning": "v. 移植；移种；迁移 n. 移植",
               "highlight": "/'traensplant/ v.移种",
@@ -20477,7 +20477,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "transference",
-                  "phonetic": "/'trensfarons/",
+                  "phonetic": "/trænsˈfɜːrəns/",
                   "pos": "n.",
                   "meaning": "n.转移；调动"
                 }
@@ -20487,7 +20487,7 @@ window.CET6_DATA = {
               "id": "u6_l2_26",
               "num": "26",
               "word": "transient",
-              "phonetic": "/'tranziont/",
+              "phonetic": "/ˈtrænʃənt/",
               "pos": "adj.",
               "meaning": "adj.短暂的；临时的 n.过往旅客；临时工",
               "highlight": "adj.短暂的",
@@ -20500,7 +20500,7 @@ window.CET6_DATA = {
               "id": "u6_l2_27",
               "num": "27",
               "word": "transparent",
-              "phonetic": "/traens'peerant/",
+              "phonetic": "/trænsˈpærənt/",
               "pos": "adj.",
               "meaning": "adj.透明的；易懂的",
               "highlight": "adj.透明的",
@@ -20510,7 +20510,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "transparency",
-                  "phonetic": "/traens'paeransi/",
+                  "phonetic": "/trænsˈpærənsi/",
                   "pos": "n.",
                   "meaning": "n.透明；易懂"
                 }
@@ -20520,7 +20520,7 @@ window.CET6_DATA = {
               "id": "u6_l2_28",
               "num": "28",
               "word": "apparent",
-              "phonetic": "/o'paeront/",
+              "phonetic": "/əˈpærənt/",
               "pos": "adj.",
               "meaning": "adj.明显的；显而易见的",
               "highlight": "adj.明显的",
@@ -20540,7 +20540,7 @@ window.CET6_DATA = {
               "id": "u6_l2_29",
               "num": "29",
               "word": "opaque",
-              "phonetic": "/əʊ'peɪk/",
+              "phonetic": "/oʊˈpeɪk/",
               "pos": "adj.",
               "meaning": "adj. 不透明的；难理解的",
               "highlight": "adj.不透明的",
@@ -20555,7 +20555,7 @@ window.CET6_DATA = {
               "id": "u6_l2_30",
               "num": "30",
               "word": "consume",
-              "phonetic": "/kon'sjum/",
+              "phonetic": "/kənˈsuːm/",
               "pos": "",
               "meaning": "消耗，耗费",
               "highlight": "消耗",
@@ -20571,7 +20571,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "consumption",
-                  "phonetic": "/kon'sampfn/",
+                  "phonetic": "/kənˈsʌmpʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.消费；消耗量"
                 }
@@ -20591,7 +20591,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "resumption",
-                  "phonetic": "/r'zAmpfn/",
+                  "phonetic": "/rɪˈzʌmpʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.重新开始；恢复"
                 },
@@ -20609,7 +20609,7 @@ window.CET6_DATA = {
               "id": "u6_l2_32",
               "num": "32",
               "word": "presume",
-              "phonetic": "/pr'zjum/",
+              "phonetic": "/prɪˈzuːm/",
               "pos": "v.",
               "meaning": "v.假设，假定；设想",
               "highlight": "v.假设",
@@ -20619,7 +20619,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "presumption",
-                  "phonetic": "/pr'zAmpfn/",
+                  "phonetic": "/prɪˈzʌmpʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.推测，假定"
                 },
@@ -20660,7 +20660,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "assumption",
-                  "phonetic": "/a'smpsn/",
+                  "phonetic": "/əˈsʌmpʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.假设；承担；担任"
                 }
@@ -20672,7 +20672,7 @@ window.CET6_DATA = {
               "id": "u6_l2_35",
               "num": "35",
               "word": "resemble",
-              "phonetic": "/ri'zembl/",
+              "phonetic": "/rɪˈzemb(ə)l/",
               "pos": "",
               "meaning": "u.看起来像，与...相似",
               "highlight": "u.看起来像",
@@ -20682,7 +20682,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "resemblance",
-                  "phonetic": "/ri'zemblons/",
+                  "phonetic": "/rɪˈzembləns/",
                   "pos": "n.",
                   "meaning": "n.相似，相像"
                 }
@@ -20739,7 +20739,7 @@ window.CET6_DATA = {
               "id": "u6_l3_01",
               "num": "36",
               "word": "assemble",
-              "phonetic": "/a'sembl/",
+              "phonetic": "/əˈsemb(ə)l/",
               "pos": "v.",
               "meaning": "v.聚集；组装",
               "highlight": "v.聚集",
@@ -20749,7 +20749,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "assembly",
-                  "phonetic": "/a'sembli/",
+                  "phonetic": "/əˈsembli/",
                   "pos": "n.",
                   "meaning": "n.装配；立法机构；议会"
                 }
@@ -20759,7 +20759,7 @@ window.CET6_DATA = {
               "id": "u6_l3_02",
               "num": "37",
               "word": "similar",
-              "phonetic": "/'simala(r)/",
+              "phonetic": "/ˈsɪmələr/",
               "pos": "adj.",
               "meaning": "adj.相像的，相仿的，类似的",
               "highlight": "adj.相像的",
@@ -20772,7 +20772,7 @@ window.CET6_DATA = {
               "id": "u6_l3_03",
               "num": "38",
               "word": "similarity",
-              "phonetic": "/sima'laerati/",
+              "phonetic": "/ˌsɪməˈlærəti/",
               "pos": "n.",
               "meaning": "n.相像性，相似点",
               "highlight": "n.相像性",
@@ -20785,7 +20785,7 @@ window.CET6_DATA = {
               "id": "u6_l3_04",
               "num": "39",
               "word": "assimilate",
-              "phonetic": "/a'simalert/",
+              "phonetic": "/əˈsɪməleɪt/",
               "pos": "v.",
               "meaning": "v.透彻理解；吸收；(使）同化",
               "highlight": "v.透彻理解",
@@ -20795,7 +20795,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "assimilation",
-                  "phonetic": "/asima'leifn/",
+                  "phonetic": "/əˌsɪməˈleɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.吸收；接受"
                 }
@@ -20825,7 +20825,7 @@ window.CET6_DATA = {
               "id": "u6_l3_06",
               "num": "41",
               "word": "absurd",
-              "phonetic": "/pres,qe /",
+              "phonetic": "/əbˈsɜːrd/",
               "pos": "adj.",
               "meaning": "adj.可笑的，荒谬的",
               "highlight": "adj.可笑的",
@@ -20835,7 +20835,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "absurdity",
-                  "phonetic": "/ab'sadati/",
+                  "phonetic": "/əbˈsɜːrdəti/",
                   "pos": "n.",
                   "meaning": "n.荒唐"
                 }
@@ -20845,7 +20845,7 @@ window.CET6_DATA = {
               "id": "u6_l3_07",
               "num": "01",
               "word": "appease",
-              "phonetic": "/apiz/",
+              "phonetic": "/əˈpiːz/",
               "pos": "v.",
               "meaning": "v.安抚，抚慰",
               "highlight": "v.安抚",
@@ -20855,7 +20855,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "appeasement",
-                  "phonetic": "/'pizmant/",
+                  "phonetic": "/əˈpiːzmənt/",
                   "pos": "n.",
                   "meaning": "n.安抚，抚慰"
                 }
@@ -20867,7 +20867,7 @@ window.CET6_DATA = {
               "id": "u6_l3_08",
               "num": "02",
               "word": "console",
-              "phonetic": "/kənˈsəʊl/",
+              "phonetic": "/kənˈsoʊl/",
               "pos": "",
               "meaning": "v. 安慰，抚慰 n. 操纵台，控制台",
               "highlight": "/'konsaul/ v.安慰",
@@ -20877,7 +20877,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "consolation",
-                  "phonetic": "/konsa/lerfn/",
+                  "phonetic": "/ˌkɑːnsəˈleɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.安慰，慰藉"
                 }
@@ -20889,7 +20889,7 @@ window.CET6_DATA = {
               "id": "u6_l3_09",
               "num": "03",
               "word": "sole",
-              "phonetic": "/saul/",
+              "phonetic": "/soʊl/",
               "pos": "adj.",
               "meaning": "adj.唯一的；独占的，专有的",
               "highlight": "adj.唯一的",
@@ -20899,7 +20899,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "solely",
-                  "phonetic": "/'saulli/",
+                  "phonetic": "/ˈsoʊlli/",
                   "pos": "adv.",
                   "meaning": "adv.仅，只；单独地"
                 }
@@ -20911,7 +20911,7 @@ window.CET6_DATA = {
               "id": "u6_l3_10",
               "num": "04",
               "word": "solemn",
-              "phonetic": "/'solam/",
+              "phonetic": "/ˈsɑːləm/",
               "pos": "adj.",
               "meaning": "adj.冷峻的，表情严肃的；庄重的",
               "highlight": "adj.冷峻的",
@@ -20921,7 +20921,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "solemnity",
-                  "phonetic": "/ss'lemnati/",
+                  "phonetic": "/səˈlemnəti/",
                   "pos": "n.",
                   "meaning": "n.庄严；庄重"
                 }
@@ -20931,7 +20931,7 @@ window.CET6_DATA = {
               "id": "u6_l3_11",
               "num": "05",
               "word": "solitary",
-              "phonetic": "/'solatri/",
+              "phonetic": "/ˈsɑːləteri/",
               "pos": "adj.",
               "meaning": "adj.唯一的；单独的；孤单的",
               "highlight": "adj.唯一的",
@@ -20951,7 +20951,7 @@ window.CET6_DATA = {
               "id": "u6_l3_12",
               "num": "06",
               "word": "solo",
-              "phonetic": "/saulau/",
+              "phonetic": "/ˈsoʊloʊ/",
               "pos": "n.",
               "meaning": "n.独唱；独奏；单人表演 adj.独自的；独唱的",
               "highlight": "n.独唱",
@@ -20974,7 +20974,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "silent",
-                  "phonetic": "/'salant/",
+                  "phonetic": "/ˈsaɪlənt/",
                   "pos": "adj.",
                   "meaning": "adj.沉默的；安静的"
                 }
@@ -20986,7 +20986,7 @@ window.CET6_DATA = {
               "id": "u6_l3_14",
               "num": "08",
               "word": "mute",
-              "phonetic": "/mjut/",
+              "phonetic": "/mjuːt/",
               "pos": "v.",
               "meaning": "v.消音；减音 n.静音 adj.沉默的；无声的",
               "highlight": "v.消音",
@@ -20999,7 +20999,7 @@ window.CET6_DATA = {
               "id": "u6_l3_15",
               "num": "60",
               "word": "assist",
-              "phonetic": "/a'sst/",
+              "phonetic": "/əˈsɪst/",
               "pos": "n.",
               "meaning": "n.助攻 v.帮助，协助",
               "highlight": "n.助攻 v.帮助",
@@ -21009,13 +21009,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "assistant",
-                  "phonetic": "/a'sistant/",
+                  "phonetic": "/əˈsɪstənt/",
                   "pos": "n.",
                   "meaning": "n.助手 adj.助理的；副的"
                 },
                 {
                   "word": "assistance",
-                  "phonetic": "/a'sistans/",
+                  "phonetic": "/əˈsɪstəns/",
                   "pos": "n.",
                   "meaning": "n.帮助；援助；支持"
                 }
@@ -21027,7 +21027,7 @@ window.CET6_DATA = {
               "id": "u6_l3_16",
               "num": "10",
               "word": "persist",
-              "phonetic": "/pa'sist/",
+              "phonetic": "/pərˈsɪst/",
               "pos": "v.",
               "meaning": "v.坚持；维持；保持；持续存在",
               "highlight": "v.坚持",
@@ -21037,13 +21037,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "persistence",
-                  "phonetic": "/pa'sistans/",
+                  "phonetic": "/pərˈsɪstəns/",
                   "pos": "n.",
                   "meaning": "n.坚持；锲而不舍"
                 },
                 {
                   "word": "persistent",
-                  "phonetic": "/pa'sstant/",
+                  "phonetic": "/pərˈsɪstənt/",
                   "pos": "adj.",
                   "meaning": "adj.坚持不懈的；执着的"
                 }
@@ -21055,7 +21055,7 @@ window.CET6_DATA = {
               "id": "u6_l3_17",
               "num": "11",
               "word": "insist",
-              "phonetic": "/In'sst/",
+              "phonetic": "/ɪnˈsɪst/",
               "pos": "v.",
               "meaning": "v.坚持；强调",
               "highlight": "v.坚持",
@@ -21065,13 +21065,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "insistence",
-                  "phonetic": "/In'sistans/",
+                  "phonetic": "/ɪnˈsɪstəns/",
                   "pos": "n.",
                   "meaning": "n.坚决要求；坚持"
                 },
                 {
                   "word": "insistent",
-                  "phonetic": "/in'sistant/",
+                  "phonetic": "/ɪnˈsɪstənt/",
                   "pos": "adj.",
                   "meaning": "adj.坚持的"
                 }
@@ -21083,7 +21083,7 @@ window.CET6_DATA = {
               "id": "u6_l3_18",
               "num": "12",
               "word": "consist",
-              "phonetic": "/kan'sist/",
+              "phonetic": "/kənˈsɪst/",
               "pos": "v.",
               "meaning": "v.由.…….组成（或构成）",
               "highlight": "v.由.…….组成（或构成）",
@@ -21096,7 +21096,7 @@ window.CET6_DATA = {
               "id": "u6_l3_19",
               "num": "13",
               "word": "resist",
-              "phonetic": "/rzist/",
+              "phonetic": "/rɪˈzɪst/",
               "pos": "v.",
               "meaning": "v.抵制；阻挡；反抗，抵抗",
               "highlight": "v.抵制",
@@ -21106,13 +21106,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "resistant",
-                  "phonetic": "/rt'zistant/",
+                  "phonetic": "/rɪˈzɪstənt/",
                   "pos": "adj.",
                   "meaning": "adj.有抵抗力的"
                 },
                 {
                   "word": "resistance",
-                  "phonetic": "/ri'zistons/",
+                  "phonetic": "/rɪˈzɪstəns/",
                   "pos": "n.",
                   "meaning": "n.抵制；抵抗"
                 }
@@ -21122,7 +21122,7 @@ window.CET6_DATA = {
               "id": "u6_l3_20",
               "num": "14",
               "word": "consistent",
-              "phonetic": "/kan'sistant/",
+              "phonetic": "/kənˈsɪstənt/",
               "pos": "adj.",
               "meaning": "adj.连续的；一贯的；一致的",
               "highlight": "adj.连续的",
@@ -21132,7 +21132,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "consistency",
-                  "phonetic": "/kon'sistansi/",
+                  "phonetic": "/kənˈsɪstənsi/",
                   "pos": "n.",
                   "meaning": "n.一致性，连贯性"
                 }
@@ -21142,7 +21142,7 @@ window.CET6_DATA = {
               "id": "u6_l3_21",
               "num": "15",
               "word": "subsistence",
-              "phonetic": "/sab'sstans/",
+              "phonetic": "/səbˈsɪstəns/",
               "pos": "n.",
               "meaning": "n.勉强维持生活",
               "highlight": "n.勉强维持生活",
@@ -21155,7 +21155,7 @@ window.CET6_DATA = {
               "id": "u6_l3_22",
               "num": "17",
               "word": "constant",
-              "phonetic": "/'konstont/",
+              "phonetic": "/ˈkɑːnstənt/",
               "pos": "adj.",
               "meaning": "adj.持续不断的；始终如一的 n.常量",
               "highlight": "adj.持续不断的",
@@ -21170,7 +21170,7 @@ window.CET6_DATA = {
               "id": "u6_l3_23",
               "num": "18",
               "word": "instant",
-              "phonetic": "/'instant/",
+              "phonetic": "/ˈɪnstənt/",
               "pos": "adj.",
               "meaning": "adj.立即的，立刻的；即食的n.瞬间",
               "highlight": "adj.立即的",
@@ -21185,7 +21185,7 @@ window.CET6_DATA = {
               "id": "u6_l3_24",
               "num": "19",
               "word": "instantaneous",
-              "phonetic": "/unstan'ternias/",
+              "phonetic": "/ˌɪnstənˈteɪniəs/",
               "pos": "adj.",
               "meaning": "adj.立刻的，立即的",
               "highlight": "adj.立刻的",
@@ -21198,7 +21198,7 @@ window.CET6_DATA = {
               "id": "u6_l3_25",
               "num": "20",
               "word": "immediate",
-              "phonetic": "/t'midiat/",
+              "phonetic": "/ɪˈmiːdiət/",
               "pos": "adj.",
               "meaning": "adj.立即的，立刻的；目前的；迫切的",
               "highlight": "adj.立即的",
@@ -21218,7 +21218,7 @@ window.CET6_DATA = {
               "id": "u6_l3_26",
               "num": "21",
               "word": "mediate",
-              "phonetic": "/'midieit/",
+              "phonetic": "/ˈmiːdieɪt/",
               "pos": "v.",
               "meaning": "v.调停；调解；找到方法",
               "highlight": "v.调停",
@@ -21228,13 +21228,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "mediator",
-                  "phonetic": "/'midierta(r)/",
+                  "phonetic": "/ˈmiːdieɪtər/",
                   "pos": "n.",
                   "meaning": "n.调停者"
                 },
                 {
                   "word": "mediation",
-                  "phonetic": "/midi'erfn/",
+                  "phonetic": "/ˌmiːdiˈeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.调停；调解"
                 }
@@ -21246,7 +21246,7 @@ window.CET6_DATA = {
               "id": "u6_l3_27",
               "num": "22",
               "word": "medium",
-              "phonetic": "/'midiom/",
+              "phonetic": "/ˈmiːdiəm/",
               "pos": "adj.",
               "meaning": "adj.中等的n.媒介；手段，方法",
               "highlight": "adj.中等的n.媒介",
@@ -21261,7 +21261,7 @@ window.CET6_DATA = {
               "id": "u6_l3_28",
               "num": "23",
               "word": "amid",
-              "phonetic": "/pue/",
+              "phonetic": "/əˈmɪd/",
               "pos": "prep.",
               "meaning": "prep.在..过程中；在.中",
               "highlight": "prep.在..过程中",
@@ -21274,7 +21274,7 @@ window.CET6_DATA = {
               "id": "u6_l3_29",
               "num": "24",
               "word": "midst",
-              "phonetic": "/midst/",
+              "phonetic": "/mɪdst/",
               "pos": "n.",
               "meaning": "n.中部；中间",
               "highlight": "n.中部",
@@ -21328,7 +21328,7 @@ window.CET6_DATA = {
               "id": "u6_l3_33",
               "num": "28",
               "word": "midwife",
-              "phonetic": "/'midwaif/",
+              "phonetic": "/ˈmɪdwaɪf/",
               "pos": "n.",
               "meaning": "n.助产士；接生员；产婆",
               "highlight": "n.助产士",
@@ -21341,7 +21341,7 @@ window.CET6_DATA = {
               "id": "u6_l3_34",
               "num": "29",
               "word": "intermediate",
-              "phonetic": "/unts'midiot/",
+              "phonetic": "/ˌɪntərˈmiːdiət/",
               "pos": "adj.",
               "meaning": "adj.中间的；中等的n.中级学生",
               "highlight": "adj.中间的",
@@ -21354,7 +21354,7 @@ window.CET6_DATA = {
               "id": "u6_l3_35",
               "num": "30",
               "word": "intermediary",
-              "phonetic": "/unts'midiori/",
+              "phonetic": "/ˌɪntərˈmiːdieri/",
               "pos": "n.",
               "meaning": "n.中间人；调解人",
               "highlight": "n.中间人",
@@ -21367,7 +21367,7 @@ window.CET6_DATA = {
               "id": "u6_l3_36",
               "num": "31",
               "word": "overtime",
-              "phonetic": "/auvataim/",
+              "phonetic": "/ˈoʊvərtaɪm/",
               "pos": "n.",
               "meaning": "n.加班（时间)；加班费；加时",
               "highlight": "n.加班（时间)",
@@ -21382,7 +21382,7 @@ window.CET6_DATA = {
               "id": "u6_l3_37",
               "num": "32",
               "word": "overtake",
-              "phonetic": "/iauva'terk/",
+              "phonetic": "/ˌoʊvərˈteɪk/",
               "pos": "v.",
               "meaning": "v.超过，赶上；突然发生",
               "highlight": "v.超过",
@@ -21397,7 +21397,7 @@ window.CET6_DATA = {
               "id": "u6_l3_38",
               "num": "33",
               "word": "overthrow",
-              "phonetic": "/ˌəʊvəˈθrəʊ/",
+              "phonetic": "/ˌoʊvərˈθroʊ/",
               "pos": "",
               "meaning": "v.&n. 推翻，打倒；瓦解",
               "highlight": "/auva0rau/ v.推翻",
@@ -21455,7 +21455,7 @@ window.CET6_DATA = {
               "id": "u6_l3_42",
               "num": "37",
               "word": "overhaul",
-              "phonetic": "/ˈəʊvəhɔːl/",
+              "phonetic": "/ˌoʊvərˈhɔːl/",
               "pos": "",
               "meaning": "n.&v. 彻底检修，大修；改造；超过",
               "highlight": "/Tcqesne/ n.检修",
@@ -21470,7 +21470,7 @@ window.CET6_DATA = {
               "id": "u6_l3_43",
               "num": "38",
               "word": "overcome",
-              "phonetic": "/auva/kAm/",
+              "phonetic": "/ˌoʊvərˈkʌm/",
               "pos": "v.",
               "meaning": "v.克服；解决；战胜",
               "highlight": "v.克服",
@@ -21485,7 +21485,7 @@ window.CET6_DATA = {
               "id": "u6_l3_44",
               "num": "39",
               "word": "overhear",
-              "phonetic": "/auva/hia(r)/",
+              "phonetic": "/ˌoʊvərˈhɪr/",
               "pos": "v.",
               "meaning": "v.偶然听到；无意中听到",
               "highlight": "v.偶然听到",
@@ -21500,7 +21500,7 @@ window.CET6_DATA = {
               "id": "u6_l3_45",
               "num": "40",
               "word": "overseas",
-              "phonetic": "/auva'siz/",
+              "phonetic": "/ˌoʊvərˈsiːz/",
               "pos": "adj.",
               "meaning": "adj.外国的；海外的adv.在国外",
               "highlight": "adj.外国的",
@@ -21515,7 +21515,7 @@ window.CET6_DATA = {
               "id": "u6_l3_46",
               "num": "41",
               "word": "override",
-              "phonetic": "/auva'raid/",
+              "phonetic": "/ˌoʊvərˈraɪd/",
               "pos": "v.",
               "meaning": "v.否决，推翻；比...更重要；凌驾于",
               "highlight": "v.否决",
@@ -21545,7 +21545,7 @@ window.CET6_DATA = {
               "id": "u6_l3_48",
               "num": "43",
               "word": "comprehension",
-              "phonetic": "/kompr'hen/n/",
+              "phonetic": "/ˌkɑːmprɪˈhenʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.理解（力)；理解测试",
               "highlight": "n.理解（力)",
@@ -21555,7 +21555,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "comprehend",
-                  "phonetic": "/komprt'hend/",
+                  "phonetic": "/ˌkɑːmprɪˈhend/",
                   "pos": "v.",
                   "meaning": "v.理解，领悟"
                 }
@@ -21565,7 +21565,7 @@ window.CET6_DATA = {
               "id": "u6_l3_49",
               "num": "44",
               "word": "comprehensive",
-              "phonetic": "/kompr'hensiv/",
+              "phonetic": "/ˌkɑːmprɪˈhensɪv/",
               "pos": "adj.",
               "meaning": "adj.综合的，全面的；详尽的",
               "highlight": "adj.综合的",
@@ -21580,7 +21580,7 @@ window.CET6_DATA = {
               "id": "u6_l3_50",
               "num": "45",
               "word": "overnight",
-              "phonetic": "/ˌəʊvəˈnaɪt/",
+              "phonetic": "/ˌoʊvərˈnaɪt/",
               "pos": "",
               "meaning": "adv. 在夜间；一夜之间，突然 adj. 一夜之间的；突然的",
               "highlight": "/'uvanait/ adv.在夜间",
@@ -21638,7 +21638,7 @@ window.CET6_DATA = {
               "id": "u6_l3_54",
               "num": "49",
               "word": "slump",
-              "phonetic": "/slamp/",
+              "phonetic": "/slʌmp/",
               "pos": "n.",
               "meaning": "n.骤降，猛跌；萧条v.倒下；骤降",
               "highlight": "n.骤降",
@@ -21651,7 +21651,7 @@ window.CET6_DATA = {
               "id": "u6_l3_55",
               "num": "50",
               "word": "lump",
-              "phonetic": "/lsmp/",
+              "phonetic": "/lʌmp/",
               "pos": "n.",
               "meaning": "n.块；肿块；隆起 v.把.…归并在一起",
               "highlight": "n.块",
@@ -21664,7 +21664,7 @@ window.CET6_DATA = {
               "id": "u6_l3_56",
               "num": "51",
               "word": "bump",
-              "phonetic": "/bamp/",
+              "phonetic": "/bʌmp/",
               "pos": "n.",
               "meaning": "n.碰撞(声);肿块v.碰撞；颠簸而行",
               "highlight": "n.碰撞(声);肿块v.碰撞",
@@ -21677,7 +21677,7 @@ window.CET6_DATA = {
               "id": "u6_l3_57",
               "num": "52",
               "word": "dump",
-              "phonetic": "/dsmp/",
+              "phonetic": "/dʌmp/",
               "pos": "n.",
               "meaning": "n.垃圾场v.丢弃，倾倒",
               "highlight": "n.垃圾场v.丢弃",
@@ -21690,7 +21690,7 @@ window.CET6_DATA = {
               "id": "u6_l3_58",
               "num": "53",
               "word": "slash",
-              "phonetic": "/slaes/",
+              "phonetic": "/slæʃ/",
               "pos": "v.",
               "meaning": "v.砍，劈；大幅削减n.砍，劈；伤口",
               "highlight": "v.砍",
@@ -21760,7 +21760,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "assignment",
-                  "phonetic": "/a'sainmant/",
+                  "phonetic": "/əˈsaɪnmənt/",
                   "pos": "n.",
                   "meaning": "n.任务；分配"
                 }
@@ -21770,7 +21770,7 @@ window.CET6_DATA = {
               "id": "u6_l4_02",
               "num": "02",
               "word": "signify",
-              "phonetic": "/'signfai/",
+              "phonetic": "/ˈsɪɡnɪfaɪ/",
               "pos": "v.",
               "meaning": "v.代表；表示；象征；要紧",
               "highlight": "v.代表",
@@ -21785,7 +21785,7 @@ window.CET6_DATA = {
               "id": "u6_l4_03",
               "num": "03",
               "word": "significant",
-              "phonetic": "/sig'nfikant/",
+              "phonetic": "/sɪɡˈnɪfɪkənt/",
               "pos": "adj.",
               "meaning": "adj.重大的，重要的；显著的",
               "highlight": "adj.重大的",
@@ -21795,7 +21795,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "significance",
-                  "phonetic": "/sig'nfikans/",
+                  "phonetic": "/sɪɡˈnɪfɪkəns/",
                   "pos": "n.",
                   "meaning": "n.意义，重要性"
                 }
@@ -21805,7 +21805,7 @@ window.CET6_DATA = {
               "id": "u6_l4_04",
               "num": "04",
               "word": "resign",
-              "phonetic": "/ri'zain/",
+              "phonetic": "/rɪˈzaɪn/",
               "pos": "v.",
               "meaning": "v.辞职，辞去",
               "highlight": "v.辞职",
@@ -21815,7 +21815,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "resignation",
-                  "phonetic": "/irezig'nerfn/",
+                  "phonetic": "/ˌrezɪɡˈneɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.辞职；辞职信"
                 }
@@ -21827,7 +21827,7 @@ window.CET6_DATA = {
               "id": "u6_l4_05",
               "num": "05",
               "word": "appoint",
-              "phonetic": "/apoint/",
+              "phonetic": "/əˈpɔɪnt/",
               "pos": "v.",
               "meaning": "v.任命，委任，安排；确定",
               "highlight": "v.任命",
@@ -21837,7 +21837,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "appointment",
-                  "phonetic": "/aporntmant/",
+                  "phonetic": "/əˈpɔɪntmənt/",
                   "pos": "n.",
                   "meaning": "n.约会；预约；约定"
                 }
@@ -21849,7 +21849,7 @@ window.CET6_DATA = {
               "id": "u6_l4_06",
               "num": "06",
               "word": "designate",
-              "phonetic": "/'dezignert/",
+              "phonetic": "/ˈdezɪɡneɪt/",
               "pos": "v.",
               "meaning": "v.指派；指定；标明",
               "highlight": "v.指派",
@@ -21859,7 +21859,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "designation",
-                  "phonetic": "/idezig'nerfn/",
+                  "phonetic": "/ˌdezɪɡˈneɪʃn/",
                   "pos": "n.",
                   "meaning": "n.选定；委任；名称"
                 }
@@ -21869,7 +21869,7 @@ window.CET6_DATA = {
               "id": "u6_l4_07",
               "num": "07",
               "word": "nominate",
-              "phonetic": "/'nomnert/",
+              "phonetic": "/ˈnɑːmɪneɪt/",
               "pos": "v.",
               "meaning": "v.提名；任命，指派",
               "highlight": "v.提名",
@@ -21879,13 +21879,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "nominee",
-                  "phonetic": "/inom'nir/",
+                  "phonetic": "/ˌnɑːmɪˈniː/",
                   "pos": "n.",
                   "meaning": "n.被任命者"
                 },
                 {
                   "word": "nomination",
-                  "phonetic": "/nomi'ner/n/",
+                  "phonetic": "/ˌnɑːmɪˈneɪʃn/",
                   "pos": "n.",
                   "meaning": "n.提名；任命，指派"
                 }
@@ -21895,7 +21895,7 @@ window.CET6_DATA = {
               "id": "u6_l4_08",
               "num": "80",
               "word": "nominal",
-              "phonetic": "/'nominl/",
+              "phonetic": "/ˈnɑːmɪn(ə)l/",
               "pos": "adj.",
               "meaning": "adj.名义上的；有名无实的；很小的",
               "highlight": "adj.名义上的",
@@ -21908,7 +21908,7 @@ window.CET6_DATA = {
               "id": "u6_l4_09",
               "num": "09",
               "word": "culminate",
-              "phonetic": "/'kAlmnert/",
+              "phonetic": "/ˈkʌlmɪneɪt/",
               "pos": "v.",
               "meaning": "v.告终，结束",
               "highlight": "v.告终",
@@ -21923,7 +21923,7 @@ window.CET6_DATA = {
               "id": "u6_l4_10",
               "num": "10",
               "word": "namely",
-              "phonetic": "/'neimli/",
+              "phonetic": "/ˈneɪmli/",
               "pos": "adv.",
               "meaning": "adv.即，也就是",
               "highlight": "adv.即",
@@ -21936,7 +21936,7 @@ window.CET6_DATA = {
               "id": "u6_l4_11",
               "num": "11",
               "word": "nickname",
-              "phonetic": "/'ntknerm/",
+              "phonetic": "/ˈnɪkneɪm/",
               "pos": "n.",
               "meaning": "n.绰号，外号v.给….起绰号",
               "highlight": "n.绰号",
@@ -21949,7 +21949,7 @@ window.CET6_DATA = {
               "id": "u6_l4_12",
               "num": "12",
               "word": "despatch",
-              "phonetic": "/di'spaet /",
+              "phonetic": "/dɪˈspætʃ/",
               "pos": "",
               "meaning": "n. 信件；快报；派遣；发送 v. 派遣；发送",
               "highlight": "dispatch n.信件",
@@ -21962,7 +21962,7 @@ window.CET6_DATA = {
               "id": "u6_l4_13",
               "num": "13",
               "word": "patch",
-              "phonetic": "/paet/",
+              "phonetic": "/pætʃ/",
               "pos": "n.",
               "meaning": "n.斑；小块；补丁",
               "highlight": "n.斑",
@@ -21985,7 +21985,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "abusive",
-                  "phonetic": "/s'bjusiv/",
+                  "phonetic": "/əˈbjuːsɪv/",
                   "pos": "adj.",
                   "meaning": "adj.辱骂的；虐待的"
                 }
@@ -21995,7 +21995,7 @@ window.CET6_DATA = {
               "id": "u6_l4_15",
               "num": "15",
               "word": "abolish",
-              "phonetic": "/a'bolis/",
+              "phonetic": "/əˈbɑːlɪʃ/",
               "pos": "v.",
               "meaning": "v.废除，废止",
               "highlight": "v.废除",
@@ -22050,7 +22050,7 @@ window.CET6_DATA = {
               "id": "u6_l4_18",
               "num": "18",
               "word": "inborn",
-              "phonetic": "/un'bon/",
+              "phonetic": "/ˌɪnˈbɔːrn/",
               "pos": "adj.",
               "meaning": "adj.天生的，先天的",
               "highlight": "adj.天生的",
@@ -22085,7 +22085,7 @@ window.CET6_DATA = {
               "id": "u6_l4_20",
               "num": "20",
               "word": "depreciate",
-              "phonetic": "/di'prifiet/",
+              "phonetic": "/dɪˈpriːʃieɪt/",
               "pos": "v.",
               "meaning": "v.贬值；贬低；轻视",
               "highlight": "v.贬值",
@@ -22095,7 +22095,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "depreciation",
-                  "phonetic": "/duprifi'erfn/",
+                  "phonetic": "/dɪˌpriːʃiˈeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.贬值；贬低；轻视"
                 }
@@ -22105,7 +22105,7 @@ window.CET6_DATA = {
               "id": "u6_l4_21",
               "num": "21",
               "word": "approach",
-              "phonetic": "/o'prauts/",
+              "phonetic": "/əˈproʊtʃ/",
               "pos": "n.",
               "meaning": "n.方式，方法；接近v.接近；对付",
               "highlight": "n.方式",
@@ -22118,7 +22118,7 @@ window.CET6_DATA = {
               "id": "u6_l4_22",
               "num": "22",
               "word": "attach",
-              "phonetic": "/a'taetf/",
+              "phonetic": "/əˈtætʃ/",
               "pos": "v.",
               "meaning": "v.系；贴；绑；固定；附",
               "highlight": "v.系",
@@ -22128,7 +22128,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "attachment",
-                  "phonetic": "/a'taetfmant/",
+                  "phonetic": "/əˈtætʃmənt/",
                   "pos": "n.",
                   "meaning": "n.附件；附属物；连接；依恋"
                 }
@@ -22140,7 +22140,7 @@ window.CET6_DATA = {
               "id": "u6_l4_23",
               "num": "23",
               "word": "detach",
-              "phonetic": "/d'taet/",
+              "phonetic": "/dɪˈtætʃ/",
               "pos": "v.",
               "meaning": "v.拆卸；分开，脱离",
               "highlight": "v.拆卸",
@@ -22150,13 +22150,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "detached",
-                  "phonetic": "/,p/",
+                  "phonetic": "/dɪˈtætʃt/",
                   "pos": "adj.",
                   "meaning": "adj.单独的；冷漠的"
                 },
                 {
                   "word": "detachment",
-                  "phonetic": "/di'taetfmant/",
+                  "phonetic": "/dɪˈtætʃmənt/",
                   "pos": "n.",
                   "meaning": "n.分离；超然；冷漠"
                 }
@@ -22179,7 +22179,7 @@ window.CET6_DATA = {
               "id": "u6_l4_25",
               "num": "25",
               "word": "intangible",
-              "phonetic": "/ɪnˈtændʒəbl/",
+              "phonetic": "/ɪnˈtændʒəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.无形的；难以形容（或理解、度 量)的",
               "highlight": "adj.无形的",
@@ -22194,7 +22194,7 @@ window.CET6_DATA = {
               "id": "u6_l4_26",
               "num": "26",
               "word": "stick",
-              "phonetic": "/stik/",
+              "phonetic": "/stɪk/",
               "pos": "n.",
               "meaning": "n.枝条 v.粘贴；粘住；卡住；将….刺人；容忍",
               "highlight": "n.枝条 v.粘贴",
@@ -22204,7 +22204,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "sticky",
-                  "phonetic": "/'stiki/",
+                  "phonetic": "/ˈstɪki/",
                   "pos": "adj.",
                   "meaning": "adj.黏（性）的"
                 }
@@ -22216,7 +22216,7 @@ window.CET6_DATA = {
               "id": "u6_l4_27",
               "num": "27",
               "word": "strike",
-              "phonetic": "/strark/",
+              "phonetic": "/straɪk/",
               "pos": "n.",
               "meaning": "n.罢工；袭击；击打 v.击，撞；罢工；突然想到",
               "highlight": "n.罢工",
@@ -22229,7 +22229,7 @@ window.CET6_DATA = {
               "id": "u6_l4_28",
               "num": "28",
               "word": "adhere",
-              "phonetic": "/(x)ery,pe /",
+              "phonetic": "/ədˈhɪr/",
               "pos": "v.",
               "meaning": "v.黏附；附着；坚持；遵守",
               "highlight": "v.黏附",
@@ -22249,7 +22249,7 @@ window.CET6_DATA = {
               "id": "u6_l4_29",
               "num": "29",
               "word": "cling",
-              "phonetic": "/klig/",
+              "phonetic": "/klɪŋ/",
               "pos": "v.",
               "meaning": "v.抓紧，紧抱；粘住，附着；依恋",
               "highlight": "v.抓紧",
@@ -22262,7 +22262,7 @@ window.CET6_DATA = {
               "id": "u6_l4_30",
               "num": "30",
               "word": "abide",
-              "phonetic": "/preq,e/",
+              "phonetic": "/əˈbaɪd/",
               "pos": "v.",
               "meaning": "v.遵守；容忍",
               "highlight": "v.遵守",
@@ -22275,7 +22275,7 @@ window.CET6_DATA = {
               "id": "u6_l4_31",
               "num": "31",
               "word": "comply",
-              "phonetic": "/kam'plal/",
+              "phonetic": "/kəmˈplaɪ/",
               "pos": "v.",
               "meaning": "v.遵守；服从，顺从",
               "highlight": "v.遵守",
@@ -22285,7 +22285,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "compliance",
-                  "phonetic": "/kam'plaians/",
+                  "phonetic": "/kəmˈplaɪəns/",
                   "pos": "n.",
                   "meaning": "n.服从；遵从"
                 }
@@ -22295,7 +22295,7 @@ window.CET6_DATA = {
               "id": "u6_l4_32",
               "num": "32",
               "word": "obedient",
-              "phonetic": "/sbidiant/",
+              "phonetic": "/əˈbiːdiənt/",
               "pos": "adj.",
               "meaning": "adj.顺从的，服从的",
               "highlight": "adj.顺从的",
@@ -22305,7 +22305,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "obedience",
-                  "phonetic": "/a'bidians/",
+                  "phonetic": "/əˈbiːdiəns/",
                   "pos": "n.",
                   "meaning": "n.顺从，服从"
                 }
@@ -22317,7 +22317,7 @@ window.CET6_DATA = {
               "id": "u6_l4_33",
               "num": "33",
               "word": "acupuncture",
-              "phonetic": "/'ækjupʌŋktʃə(r)/",
+              "phonetic": "/ˈækjupʌŋktʃər/",
               "pos": "n.",
               "meaning": "n. 针刺疗法，针灸",
               "highlight": "",
@@ -22340,7 +22340,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "accordance",
-                  "phonetic": "/a'kodns/",
+                  "phonetic": "/əˈkɔːrdns/",
                   "pos": "n.",
                   "meaning": "n.依照，依据"
                 }
@@ -22350,7 +22350,7 @@ window.CET6_DATA = {
               "id": "u6_l4_35",
               "num": "35",
               "word": "accordingly",
-              "phonetic": "/a'kodigli/",
+              "phonetic": "/əˈkɔːrdɪŋli/",
               "pos": "adv.",
               "meaning": "adv.相应地；因此，从而",
               "highlight": "adv.相应地",
@@ -22365,7 +22365,7 @@ window.CET6_DATA = {
               "id": "u6_l4_36",
               "num": "36",
               "word": "discord",
-              "phonetic": "/'dɪskɔːd/",
+              "phonetic": "/ˈdɪskɔːrd/",
               "pos": "n.",
               "meaning": "n. 不一致；不和，纷争",
               "highlight": "n.不一致",
@@ -22380,7 +22380,7 @@ window.CET6_DATA = {
               "id": "u6_l4_37",
               "num": "37",
               "word": "record",
-              "phonetic": "/ˈrekɔːd/",
+              "phonetic": "/ˈrekərd/",
               "pos": "",
               "meaning": "n. 记录；最高纪录；唱片 v. 记录；录制",
               "highlight": "/'rekod/ n.记录",
@@ -22390,7 +22390,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "recording",
-                  "phonetic": "/r'kodig/",
+                  "phonetic": "/rɪˈkɔːrdɪŋ/",
                   "pos": "n.",
                   "meaning": "n.录制，音像制品"
                 },
@@ -22406,7 +22406,7 @@ window.CET6_DATA = {
               "id": "u6_l4_38",
               "num": "38",
               "word": "document",
-              "phonetic": "/ˈdɒkjumənt/",
+              "phonetic": "/ˈdɑːkjumənt/",
               "pos": "",
               "meaning": "n. 文件，公文；文档 v. 记录，记载",
               "highlight": "/'dokjumant/ n.文件",
@@ -22416,7 +22416,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "documentary",
-                  "phonetic": "/dokju'mentri/",
+                  "phonetic": "/ˌdɑːkjuˈment(ə)ri/",
                   "pos": "n.",
                   "meaning": "n.纪录片 adj.纪实的；文件的；文献的"
                 }
@@ -22482,7 +22482,7 @@ window.CET6_DATA = {
               "id": "u7_l1_01",
               "num": "01",
               "word": "accommodate",
-              "phonetic": "/a'komadert/",
+              "phonetic": "/əˈkɑːmədeɪt/",
               "pos": "v.",
               "meaning": "v.为(某人)提供住宿；容纳；适应",
               "highlight": "v.为(某人)提供住宿",
@@ -22492,7 +22492,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "accommodation",
-                  "phonetic": "/akoma'derfn/",
+                  "phonetic": "/əˌkɑːməˈdeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.住处；办公处；住宿；和解"
                 }
@@ -22504,7 +22504,7 @@ window.CET6_DATA = {
               "id": "u7_l1_02",
               "num": "02",
               "word": "adapt",
-              "phonetic": "/a'dept/",
+              "phonetic": "/əˈdæpt/",
               "pos": "v.",
               "meaning": "v.使适应，使适合；改造；改编",
               "highlight": "v.使适应",
@@ -22514,13 +22514,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "adaptation",
-                  "phonetic": "/aedaep'terfn/",
+                  "phonetic": "/ˌædæpˈteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.适应；改编本"
                 },
                 {
                   "word": "adaptive",
-                  "phonetic": "/'deptv/",
+                  "phonetic": "/əˈdæptɪv/",
                   "pos": "adj.",
                   "meaning": "adj.适应的；有适应能力的"
                 }
@@ -22543,7 +22543,7 @@ window.CET6_DATA = {
               "id": "u7_l1_04",
               "num": "04",
               "word": "accustom",
-              "phonetic": "/a'kAstom/",
+              "phonetic": "/əˈkʌstəm/",
               "pos": "v.",
               "meaning": "v.使习惯；使适应",
               "highlight": "v.使习惯",
@@ -22553,7 +22553,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "accustomed",
-                  "phonetic": "/a'kAstamd/",
+                  "phonetic": "/əˈkʌstəmd/",
                   "pos": "adj.",
                   "meaning": "adj.惯常的；习惯的"
                 }
@@ -22563,7 +22563,7 @@ window.CET6_DATA = {
               "id": "u7_l1_05",
               "num": "05",
               "word": "custom",
-              "phonetic": "/'kAstam/",
+              "phonetic": "/ˈkʌstəm/",
               "pos": "n.",
               "meaning": "n.习惯；习俗，风俗；光顾",
               "highlight": "n.习惯",
@@ -22573,7 +22573,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "customary",
-                  "phonetic": "/'kAstamari/",
+                  "phonetic": "/ˈkʌstəmeri/",
                   "pos": "adj.",
                   "meaning": "adj.习俗的；习惯的"
                 }
@@ -22583,7 +22583,7 @@ window.CET6_DATA = {
               "id": "u7_l1_06",
               "num": "06",
               "word": "customs",
-              "phonetic": "/'kAstamz/",
+              "phonetic": "/ˈkʌstəmz/",
               "pos": "n.",
               "meaning": "n.海关；关税",
               "highlight": "n.海关",
@@ -22596,7 +22596,7 @@ window.CET6_DATA = {
               "id": "u7_l1_07",
               "num": "07",
               "word": "customer",
-              "phonetic": "/'kAstoma(r)/",
+              "phonetic": "/ˈkʌstəmər/",
               "pos": "n.",
               "meaning": "n.顾客，客户，消费者",
               "highlight": "n.顾客",
@@ -22611,7 +22611,7 @@ window.CET6_DATA = {
               "id": "u7_l1_08",
               "num": "08",
               "word": "client",
-              "phonetic": "/'klaiant/",
+              "phonetic": "/ˈklaɪənt/",
               "pos": "n.",
               "meaning": "n.顾客，客户",
               "highlight": "n.顾客",
@@ -22626,7 +22626,7 @@ window.CET6_DATA = {
               "id": "u7_l1_09",
               "num": "60",
               "word": "patron",
-              "phonetic": "/'pertran/",
+              "phonetic": "/ˈpeɪtrən/",
               "pos": "n.",
               "meaning": "n.赞助人，赞助商；顾客",
               "highlight": "n.赞助人",
@@ -22646,7 +22646,7 @@ window.CET6_DATA = {
               "id": "u7_l1_10",
               "num": "10",
               "word": "sponsor",
-              "phonetic": "/'sponsa(r)/",
+              "phonetic": "/ˈspɑːnsər/",
               "pos": "v.",
               "meaning": "v.赞助，资助；提交（法案等） n.赞助者，赞助商；倡议者",
               "highlight": "v.赞助",
@@ -22656,7 +22656,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "sponsorship",
-                  "phonetic": "/'sponsafip/",
+                  "phonetic": "/ˈspɑːnsərʃɪp/",
                   "pos": "n.",
                   "meaning": "n.资助；倡议"
                 }
@@ -22668,7 +22668,7 @@ window.CET6_DATA = {
               "id": "u7_l1_11",
               "num": "11",
               "word": "spontaneous",
-              "phonetic": "/spon'teinias/",
+              "phonetic": "/spɑːnˈteɪniəs/",
               "pos": "adj.",
               "meaning": "adj.自发的；自然的",
               "highlight": "adj.自发的",
@@ -22678,7 +22678,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "spontaneity",
-                  "phonetic": "/isponta'neiati/",
+                  "phonetic": "/ˌspɑːntəˈneɪəti/",
                   "pos": "n.",
                   "meaning": "n.自发性；自然"
                 }
@@ -22706,7 +22706,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "exhaustive",
-                  "phonetic": "/ngzotstiv/",
+                  "phonetic": "/ɪɡˈzɔːstɪv/",
                   "pos": "adj.",
                   "meaning": "adj.详尽的；彻底的；全面的"
                 }
@@ -22716,7 +22716,7 @@ window.CET6_DATA = {
               "id": "u7_l1_13",
               "num": "13",
               "word": "weary",
-              "phonetic": "/'wari/",
+              "phonetic": "/ˈwɪri/",
               "pos": "adj.",
               "meaning": "adj.疲劳的，疲倦的，疲惫的",
               "highlight": "adj.疲劳的",
@@ -22738,7 +22738,7 @@ window.CET6_DATA = {
               "id": "u7_l1_14",
               "num": "14",
               "word": "labour",
-              "phonetic": "/ˈleɪbə(r)/",
+              "phonetic": "/ˈleɪbər/",
               "pos": "n.",
               "meaning": "n.劳动；劳动力",
               "highlight": "n.劳动",
@@ -22782,7 +22782,7 @@ window.CET6_DATA = {
               "id": "u7_l1_16",
               "num": "16",
               "word": "fatigue",
-              "phonetic": "/faltig/",
+              "phonetic": "/fəˈtiːɡ/",
               "pos": "n.",
               "meaning": "n.疲乏，疲劳，劳累",
               "highlight": "n.疲乏",
@@ -22797,7 +22797,7 @@ window.CET6_DATA = {
               "id": "u7_l1_17",
               "num": "17",
               "word": "obese",
-              "phonetic": "/au'bis/",
+              "phonetic": "/oʊˈbiːs/",
               "pos": "adj.",
               "meaning": "adj.臃肿的，虚胖的，病态肥胖的",
               "highlight": "adj.臃肿的",
@@ -22843,7 +22843,7 @@ window.CET6_DATA = {
               "id": "u7_l1_20",
               "num": "20",
               "word": "ponder",
-              "phonetic": "/'ponda(r)/",
+              "phonetic": "/ˈpɑːndər/",
               "pos": "v.",
               "meaning": "v.沉思，考虑，琢磨",
               "highlight": "v.沉思",
@@ -22856,7 +22856,7 @@ window.CET6_DATA = {
               "id": "u7_l1_21",
               "num": "21",
               "word": "response",
-              "phonetic": "/rt'spons/",
+              "phonetic": "/rɪˈspɑːns/",
               "pos": "n.",
               "meaning": "n.回答，答复；反应，响应",
               "highlight": "n.回答",
@@ -22866,7 +22866,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "respond",
-                  "phonetic": "/rt'spond/",
+                  "phonetic": "/rɪˈspɑːnd/",
                   "pos": "v.",
                   "meaning": "v.回答，回应；作出反应"
                 },
@@ -22882,7 +22882,7 @@ window.CET6_DATA = {
               "id": "u7_l1_22",
               "num": "22",
               "word": "responsive",
-              "phonetic": "/rt'sponsiv/",
+              "phonetic": "/rɪˈspɑːnsɪv/",
               "pos": "adj.",
               "meaning": "adj.反应快的，灵敏的，积极（回应）的",
               "highlight": "adj.反应快的",
@@ -22897,7 +22897,7 @@ window.CET6_DATA = {
               "id": "u7_l1_23",
               "num": "23",
               "word": "feedback",
-              "phonetic": "/fidbaek/",
+              "phonetic": "/ˈfiːdbæk/",
               "pos": "n.",
               "meaning": "n.反馈意见（或信息）",
               "highlight": "n.反馈意见（或信息）",
@@ -22912,7 +22912,7 @@ window.CET6_DATA = {
               "id": "u7_l1_24",
               "num": "24",
               "word": "echo",
-              "phonetic": "/'ekau/",
+              "phonetic": "/ˈekoʊ/",
               "pos": "v.",
               "meaning": "v.&.n.回声；反响；共鸣",
               "highlight": "v.&.n.回声",
@@ -22927,7 +22927,7 @@ window.CET6_DATA = {
               "id": "u7_l1_25",
               "num": "25",
               "word": "correspond",
-              "phonetic": "/kora'spond/",
+              "phonetic": "/ˌkɔːrəˈspɑːnd/",
               "pos": "v.",
               "meaning": "v.相一致，符合，类似于……；通信",
               "highlight": "v.相一致",
@@ -22937,19 +22937,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "correspondence",
-                  "phonetic": "/koraspondans/",
+                  "phonetic": "/ˌkɔːrəˈspɑːndəns/",
                   "pos": "n.",
                   "meaning": "n.相关；通信"
                 },
                 {
                   "word": "correspondent",
-                  "phonetic": "/kora'spondant/",
+                  "phonetic": "/ˌkɔːrəˈspɑːndənt/",
                   "pos": "n.",
                   "meaning": "n.记者；通讯员；通信者"
                 },
                 {
                   "word": "corresponding",
-                  "phonetic": "/upuadseax/",
+                  "phonetic": "/ˌkɔːrəˈspɑːndɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.符合的；相应的；相关的"
                 }
@@ -22991,7 +22991,7 @@ window.CET6_DATA = {
               "id": "u7_l1_28",
               "num": "28",
               "word": "shelter",
-              "phonetic": "/'felta(r)/",
+              "phonetic": "/ˈʃeltər/",
               "pos": "n.",
               "meaning": "n.遮蔽，庇护；庇护所；避难所 v.为…提供庇护所；收容；躲避",
               "highlight": "n.遮蔽",
@@ -23006,7 +23006,7 @@ window.CET6_DATA = {
               "id": "u7_l1_29",
               "num": "29",
               "word": "haven",
-              "phonetic": "/'heivn/",
+              "phonetic": "/ˈheɪv(ə)n/",
               "pos": "n.",
               "meaning": "n.安全的地方；避难所",
               "highlight": "n.安全的地方",
@@ -23036,7 +23036,7 @@ window.CET6_DATA = {
               "id": "u7_l1_31",
               "num": "31",
               "word": "slum",
-              "phonetic": "/slam/",
+              "phonetic": "/slʌm/",
               "pos": "n.",
               "meaning": "n.贫民窟，贫民区；非常脏乱的地方",
               "highlight": "n.贫民窟",
@@ -23059,7 +23059,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "tendency",
-                  "phonetic": "/'tendansi/",
+                  "phonetic": "/ˈtendənsi/",
                   "pos": "n.",
                   "meaning": "n.倾向，趋势"
                 }
@@ -23069,7 +23069,7 @@ window.CET6_DATA = {
               "id": "u7_l1_33",
               "num": "33",
               "word": "attend",
-              "phonetic": "/a'tend/",
+              "phonetic": "/əˈtend/",
               "pos": "v.",
               "meaning": "v.出席，参加；照顾",
               "highlight": "v.出席",
@@ -23079,13 +23079,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "attendance",
-                  "phonetic": "/s'tendans/",
+                  "phonetic": "/əˈtendəns/",
                   "pos": "n.",
                   "meaning": "n.出席，参加；上学"
                 },
                 {
                   "word": "attendant",
-                  "phonetic": "/a'tendant/",
+                  "phonetic": "/əˈtendənt/",
                   "pos": "n.",
                   "meaning": "n.服务员；随从；护理者"
                 }
@@ -23097,7 +23097,7 @@ window.CET6_DATA = {
               "id": "u7_l1_34",
               "num": "34",
               "word": "contend",
-              "phonetic": "/kan'tend/",
+              "phonetic": "/kənˈtend/",
               "pos": "v.",
               "meaning": "v.主张，认为；竞争，争夺",
               "highlight": "v.主张",
@@ -23112,7 +23112,7 @@ window.CET6_DATA = {
               "id": "u7_l1_35",
               "num": "35",
               "word": "contention",
-              "phonetic": "/kan'tenJn/",
+              "phonetic": "/kənˈtenʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.争吵，争执；看法，观点",
               "highlight": "n.争吵",
@@ -23122,7 +23122,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "contentious",
-                  "phonetic": "/kan'tenfas/",
+                  "phonetic": "/kənˈtenʃəs/",
                   "pos": "adj.",
                   "meaning": "adj.引起争论的；爱争论的"
                 }
@@ -23132,7 +23132,7 @@ window.CET6_DATA = {
               "id": "u7_l1_36",
               "num": "36",
               "word": "intend",
-              "phonetic": "/In'tend/",
+              "phonetic": "/ɪnˈtend/",
               "pos": "v.",
               "meaning": "v.打算，计划，想要；意指",
               "highlight": "v.打算",
@@ -23145,7 +23145,7 @@ window.CET6_DATA = {
               "id": "u7_l1_37",
               "num": "37",
               "word": "intent",
-              "phonetic": "/in'tent/",
+              "phonetic": "/ɪnˈtent/",
               "pos": "n.",
               "meaning": "n. 意图，目的 adj. 热切的；专注的",
               "highlight": "n.意图",
@@ -23158,7 +23158,7 @@ window.CET6_DATA = {
               "id": "u7_l1_38",
               "num": "38",
               "word": "intention",
-              "phonetic": "/In'tenfn/",
+              "phonetic": "/ɪnˈtenʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.打算；意图，目的",
               "highlight": "n.打算",
@@ -23168,7 +23168,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "intentional",
-                  "phonetic": "/In'tenfonl/",
+                  "phonetic": "/ɪnˈtenʃən(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.故意的，存心的"
                 }
@@ -23178,7 +23178,7 @@ window.CET6_DATA = {
               "id": "u7_l1_39",
               "num": "39",
               "word": "extend",
-              "phonetic": "/sk'stend/",
+              "phonetic": "/ɪkˈstend/",
               "pos": "v.",
               "meaning": "v.延伸；延长；扩展",
               "highlight": "v.延伸",
@@ -23188,13 +23188,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "extended",
-                  "phonetic": "/nk'stendid/",
+                  "phonetic": "/ɪkˈstendɪd/",
                   "pos": "adj.",
                   "meaning": "adj.延长了的；扩展了的"
                 },
                 {
                   "word": "extension",
-                  "phonetic": "/nk'stenfn/",
+                  "phonetic": "/ɪkˈstenʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.扩大；延伸"
                 }
@@ -23206,7 +23206,7 @@ window.CET6_DATA = {
               "id": "u7_l1_40",
               "num": "40",
               "word": "extensive",
-              "phonetic": "/ik'stensiv/",
+              "phonetic": "/ɪkˈstensɪv/",
               "pos": "adj.",
               "meaning": "adj.广阔的；大量的；广泛的",
               "highlight": "adj.广阔的",
@@ -23221,7 +23221,7 @@ window.CET6_DATA = {
               "id": "u7_l1_41",
               "num": "41",
               "word": "stretch",
-              "phonetic": "/strets/",
+              "phonetic": "/stretʃ/",
               "pos": "n.",
               "meaning": "n.一片；（连续的）一段时间；伸展 v.伸展，舒展；拉紧；拉长",
               "highlight": "n.一片",
@@ -23236,7 +23236,7 @@ window.CET6_DATA = {
               "id": "u7_l1_42",
               "num": "42",
               "word": "space",
-              "phonetic": "/speis/",
+              "phonetic": "/speɪs/",
               "pos": "n.",
               "meaning": "n.外层空间；太空；空间",
               "highlight": "n.外层空间",
@@ -23246,13 +23246,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "spacious",
-                  "phonetic": "/'speɪʃəs/",
+                  "phonetic": "/ˈspeɪʃəs/",
                   "pos": "adj.",
                   "meaning": "adj. 宽敞的"
                 },
                 {
                   "word": "spatial",
-                  "phonetic": "/'sperl/",
+                  "phonetic": "/ˈspeɪʃ(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.空间的"
                 }
@@ -23262,7 +23262,7 @@ window.CET6_DATA = {
               "id": "u7_l1_43",
               "num": "43",
               "word": "extent",
-              "phonetic": "/k'stent/",
+              "phonetic": "/ɪkˈstent/",
               "pos": "n.",
               "meaning": "n.程度；大小；范围",
               "highlight": "n.程度",
@@ -23275,7 +23275,7 @@ window.CET6_DATA = {
               "id": "u7_l1_44",
               "num": "44",
               "word": "scale",
-              "phonetic": "/skeil/",
+              "phonetic": "/skeɪl/",
               "pos": "n.",
               "meaning": "n.规模，程度；等级 v.攀登，到达.….顶点",
               "highlight": "n.规模",
@@ -23288,7 +23288,7 @@ window.CET6_DATA = {
               "id": "u7_l1_45",
               "num": "45",
               "word": "pattern",
-              "phonetic": "/'patn/",
+              "phonetic": "/ˈpætərn/",
               "pos": "n.",
               "meaning": "n.模式，方式；榜样；图案，花样；模型",
               "highlight": "n.模式",
@@ -23303,7 +23303,7 @@ window.CET6_DATA = {
               "id": "u7_l1_46",
               "num": "46",
               "word": "dimension",
-              "phonetic": "/di'menJn/",
+              "phonetic": "/daɪˈmenʃn/",
               "pos": "",
               "meaning": "n. 维(构成空间的因素)；尺寸；规模；范围；方面",
               "highlight": "/dai'menfn; n.维（构成空间的因素)",
@@ -23313,7 +23313,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "dimensional",
-                  "phonetic": "/dat'menfanl/",
+                  "phonetic": "/daɪˈmenʃən(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.尺寸的；维度的"
                 }
@@ -23325,7 +23325,7 @@ window.CET6_DATA = {
               "id": "u7_l1_47",
               "num": "47",
               "word": "mention",
-              "phonetic": "/'menfn/",
+              "phonetic": "/ˈmenʃ(ə)n/",
               "pos": "v.",
               "meaning": "v.提到；写到；说到n.提及；说起",
               "highlight": "v.提到",
@@ -23366,7 +23366,7 @@ window.CET6_DATA = {
               "id": "u7_l1_49",
               "num": "49",
               "word": "apt",
-              "phonetic": "/ept/",
+              "phonetic": "/æpt/",
               "pos": "adj.",
               "meaning": "adj.恰当的；易于.……..有....倾向的",
               "highlight": "adj.恰当的",
@@ -23389,7 +23389,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "option",
-                  "phonetic": "/'ɒpʃn/",
+                  "phonetic": "/ˈɑːpʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n. 选择；可选择的东西；选项"
                 }
@@ -23401,7 +23401,7 @@ window.CET6_DATA = {
               "id": "u7_l1_51",
               "num": "51",
               "word": "optional",
-              "phonetic": "/uefda/",
+              "phonetic": "/ˈɑːpʃən(ə)l/",
               "pos": "adj.",
               "meaning": "adj.可选择的，非强制的",
               "highlight": "adj.可选择的",
@@ -23416,7 +23416,7 @@ window.CET6_DATA = {
               "id": "u7_l1_52",
               "num": "52",
               "word": "optical",
-              "phonetic": "/'optikl/",
+              "phonetic": "/ˈɑːptɪk(ə)l/",
               "pos": "adj.",
               "meaning": "adj.视力的；视觉的；光学的；有助于 视力的",
               "highlight": "adj.视力的",
@@ -23426,7 +23426,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "optic",
-                  "phonetic": "/'optuk/",
+                  "phonetic": "/ˈɑːptɪk/",
                   "pos": "adj.",
                   "meaning": "adj.眼的；视觉的"
                 }
@@ -23436,7 +23436,7 @@ window.CET6_DATA = {
               "id": "u7_l1_53",
               "num": "53",
               "word": "optimal",
-              "phonetic": "/'ɒptɪməl/",
+              "phonetic": "/ˈɑːptɪməl/",
               "pos": "adj.",
               "meaning": "adj. 最佳的；最适宜的",
               "highlight": "adj.最佳的",
@@ -23451,7 +23451,7 @@ window.CET6_DATA = {
               "id": "u7_l1_54",
               "num": "54",
               "word": "optimum",
-              "phonetic": "/'ɒptɪməm/",
+              "phonetic": "/ˈɑːptɪməm/",
               "pos": "adj./n.",
               "meaning": "adj. 最佳的；最适宜的 n. 最适条件",
               "highlight": "adj.最佳的",
@@ -23464,7 +23464,7 @@ window.CET6_DATA = {
               "id": "u7_l1_55",
               "num": "55",
               "word": "compulsory",
-              "phonetic": "/kam'palsari/",
+              "phonetic": "/kəmˈpʌlsəri/",
               "pos": "adj.",
               "meaning": "adj.强制的，强迫的",
               "highlight": "adj.强制的",
@@ -23477,7 +23477,7 @@ window.CET6_DATA = {
               "id": "u7_l1_56",
               "num": "56",
               "word": "discipline",
-              "phonetic": "/'disaplin/",
+              "phonetic": "/ˈdɪsəplɪn/",
               "pos": "n.",
               "meaning": "n.训练，管教；纪律；学科，科目 .训练；管教",
               "highlight": "n.训练",
@@ -23487,7 +23487,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "disciplined",
-                  "phonetic": "/'disaplind/",
+                  "phonetic": "/ˈdɪsəplɪnd/",
                   "pos": "adj.",
                   "meaning": "adj.受过训练的；遵守纪律的"
                 },
@@ -23505,7 +23505,7 @@ window.CET6_DATA = {
               "id": "u7_l1_57",
               "num": "57",
               "word": "punctual",
-              "phonetic": "/'pagktfual/",
+              "phonetic": "/ˈpʌŋktʃuəl/",
               "pos": "adj.",
               "meaning": "adj.准时的，守时的",
               "highlight": "adj.准时的",
@@ -23515,7 +23515,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "punctuality",
-                  "phonetic": "/epaenjyovd/",
+                  "phonetic": "/ˌpʌŋktʃuˈæləti/",
                   "pos": "n.",
                   "meaning": "n.准时"
                 }
@@ -23527,7 +23527,7 @@ window.CET6_DATA = {
               "id": "u7_l1_58",
               "num": "58",
               "word": "principle",
-              "phonetic": "/'prinsapl/",
+              "phonetic": "/ˈprɪnsəp(ə)l/",
               "pos": "n.",
               "meaning": "n.法则，原则；行为准则",
               "highlight": "n.法则",
@@ -23542,7 +23542,7 @@ window.CET6_DATA = {
               "id": "u7_l1_59",
               "num": "59",
               "word": "principal",
-              "phonetic": "/'prinsapl/",
+              "phonetic": "/ˈprɪnsəp(ə)l/",
               "pos": "n.",
               "meaning": "n.校长；首长adj.最重要的，主要的",
               "highlight": "n.校长",
@@ -23557,7 +23557,7 @@ window.CET6_DATA = {
               "id": "u7_l1_60",
               "num": "60",
               "word": "methodology",
-              "phonetic": "/ˌmeθə'dɒlədʒi/",
+              "phonetic": "/ˌmeθəˈdɑːlədʒi/",
               "pos": "n.",
               "meaning": "n. 方法论；方法，原则",
               "highlight": "",
@@ -23601,7 +23601,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "idealistic",
-                  "phonetic": "/aidia'listik/",
+                  "phonetic": "/ˌaɪdiəˈlɪstɪk/",
                   "pos": "adj.",
                   "meaning": "adj.理想主义的；空想的"
                 }
@@ -23613,7 +23613,7 @@ window.CET6_DATA = {
               "id": "u7_l1_62",
               "num": "62",
               "word": "doctrine",
-              "phonetic": "/'doktrin/",
+              "phonetic": "/ˈdɑːktrɪn/",
               "pos": "n.",
               "meaning": "n.教义，主义；学说，信条",
               "highlight": "n.教义",
@@ -23628,7 +23628,7 @@ window.CET6_DATA = {
               "id": "u7_l1_63",
               "num": "63",
               "word": "dogma",
-              "phonetic": "/etubap,/",
+              "phonetic": "/ˈdɔːɡmə/",
               "pos": "n.",
               "meaning": "n.教义；信条；教条",
               "highlight": "n.教义",
@@ -23641,7 +23641,7 @@ window.CET6_DATA = {
               "id": "u7_l1_64",
               "num": "64",
               "word": "hospitable",
-              "phonetic": "/ho'spitabl/",
+              "phonetic": "/ˈhɑːspɪtəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.好客的，热情的",
               "highlight": "adj.好客的",
@@ -23651,7 +23651,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "hospitality",
-                  "phonetic": "/hospi'taelati/",
+                  "phonetic": "/ˌhɑːspɪˈtæləti/",
                   "pos": "n.",
                   "meaning": "n.好客，殷勤"
                 }
@@ -23723,7 +23723,7 @@ window.CET6_DATA = {
               "id": "u7_l2_01",
               "num": "01",
               "word": "cordiality",
-              "phonetic": "/kodi'aelati/",
+              "phonetic": "/ˌkɔːrdʒiˈæləti/",
               "pos": "n.",
               "meaning": "n.令人愉快和友好的品质",
               "highlight": "n.令人愉快和友好的品质 Lesson 2 序 号",
@@ -23736,7 +23736,7 @@ window.CET6_DATA = {
               "id": "u7_l2_02",
               "num": "01",
               "word": "acquire",
-              "phonetic": "/a'kwaa(r)/",
+              "phonetic": "/əˈkwaɪər/",
               "pos": "v.",
               "meaning": "v.获得，得到",
               "highlight": "v.获得",
@@ -23782,7 +23782,7 @@ window.CET6_DATA = {
               "id": "u7_l2_05",
               "num": "04",
               "word": "require",
-              "phonetic": "/ri'kwaia(r)/",
+              "phonetic": "/rɪˈkwaɪər/",
               "pos": "v.",
               "meaning": "v.需要；要求",
               "highlight": "v.需要",
@@ -23792,13 +23792,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "requirement",
-                  "phonetic": "/r'kwaamant/",
+                  "phonetic": "/rɪˈkwaɪərmənt/",
                   "pos": "n.",
                   "meaning": "n.所需的东西；规定，要求"
                 },
                 {
                   "word": "requisite",
-                  "phonetic": "/'rekwizit/",
+                  "phonetic": "/ˈrekwɪzɪt/",
                   "pos": "adj.",
                   "meaning": "adj.必需的 1n.必需的事物"
                 }
@@ -23808,7 +23808,7 @@ window.CET6_DATA = {
               "id": "u7_l2_06",
               "num": "05",
               "word": "prerequisite",
-              "phonetic": "/pri'rekwazit/",
+              "phonetic": "/ˌpriːˈrekwəzɪt/",
               "pos": "n.",
               "meaning": "n.先决条件，前提，必备条件",
               "highlight": "n.先决条件",
@@ -23833,7 +23833,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "plead",
-                  "phonetic": "/plid/",
+                  "phonetic": "/pliːd/",
                   "pos": "v.",
                   "meaning": "v.恳求；为.…..辩护"
                 }
@@ -23845,7 +23845,7 @@ window.CET6_DATA = {
               "id": "u7_l2_08",
               "num": "07",
               "word": "request",
-              "phonetic": "/ri'kwest/",
+              "phonetic": "/rɪˈkwest/",
               "pos": "v.",
               "meaning": "v.&n.请求，要求",
               "highlight": "v.&n.请求",
@@ -23871,7 +23871,7 @@ window.CET6_DATA = {
               "id": "u7_l2_10",
               "num": "60",
               "word": "questionnaire",
-              "phonetic": "/kwestanea(r)/",
+              "phonetic": "/ˌkwestʃəˈner/",
               "pos": "n.",
               "meaning": "n.调查表，调查问卷，问卷",
               "highlight": "n.调查表",
@@ -23906,7 +23906,7 @@ window.CET6_DATA = {
               "id": "u7_l2_12",
               "num": "11",
               "word": "power",
-              "phonetic": "/paua(r)/",
+              "phonetic": "/ˈpaʊər/",
               "pos": "n.",
               "meaning": "n.权力，权势，职权；力量，动力；电力 v.驱动，推动；（使）迅猛移动",
               "highlight": "n.权力",
@@ -23916,7 +23916,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "powerful",
-                  "phonetic": "/'pauafl/",
+                  "phonetic": "/ˈpaʊərf(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.有权势的；力量大的"
                 }
@@ -23928,7 +23928,7 @@ window.CET6_DATA = {
               "id": "u7_l2_13",
               "num": "12",
               "word": "willpower",
-              "phonetic": "/'wilpaua(r)/",
+              "phonetic": "/ˈwɪlpaʊər/",
               "pos": "n.",
               "meaning": "n.意志力",
               "highlight": "n.意志力",
@@ -23973,7 +23973,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "enforcement",
-                  "phonetic": "/In'fosmant/",
+                  "phonetic": "/ɪnˈfɔːrsmənt/",
                   "pos": "n.",
                   "meaning": "n.执行"
                 }
@@ -23999,13 +23999,13 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "obliged",
-                  "phonetic": "/ə'blaɪdʒd/",
+                  "phonetic": "/əˈblaɪdʒd/",
                   "pos": "adj.",
                   "meaning": "adj. 感激的；有责任的"
                 },
                 {
                   "word": "obligatory",
-                  "phonetic": "/s'bligotri/",
+                  "phonetic": "/əˈblɪɡətɔːri/",
                   "pos": "",
                   "meaning": "制的 adj.（按法律、规定等）必须的，强"
                 }
@@ -24015,7 +24015,7 @@ window.CET6_DATA = {
               "id": "u7_l2_17",
               "num": "16",
               "word": "reinforce",
-              "phonetic": "/rin'fos/",
+              "phonetic": "/ˌriːɪnˈfɔːrs/",
               "pos": "v.",
               "meaning": "v.加强，强化；加固",
               "highlight": "v.加强",
@@ -24025,7 +24025,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "reinforcement",
-                  "phonetic": "/rin'fosmant/",
+                  "phonetic": "/ˌriːɪnˈfɔːrsmənt/",
                   "pos": "n.",
                   "meaning": "n.巩固，加强；援军"
                 }
@@ -24047,7 +24047,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "enhancement",
-                  "phonetic": "/in'hansmant/",
+                  "phonetic": "/ɪnˈhænsmənt/",
                   "pos": "n.",
                   "meaning": "n.提高，增加；增强"
                 }
@@ -24098,7 +24098,7 @@ window.CET6_DATA = {
               "id": "u7_l2_21",
               "num": "20",
               "word": "boost",
-              "phonetic": "/bust/",
+              "phonetic": "/buːst/",
               "pos": "n.",
               "meaning": "n.帮助；激励；提高 v.使增长，使兴旺",
               "highlight": "n.帮助",
@@ -24111,7 +24111,7 @@ window.CET6_DATA = {
               "id": "u7_l2_22",
               "num": "21",
               "word": "boast",
-              "phonetic": "/baust/",
+              "phonetic": "/boʊst/",
               "pos": "n.",
               "meaning": "n.引以为豪的事物，感到骄傲的事物 v.自夸，自吹自擂",
               "highlight": "n.引以为豪的事物",
@@ -24121,7 +24121,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "boastful",
-                  "phonetic": "/'baustfl/",
+                  "phonetic": "/ˈboʊstfl/",
                   "pos": "adj.",
                   "meaning": "adj.自吹自擂的，自夸的"
                 }
@@ -24144,7 +24144,7 @@ window.CET6_DATA = {
               "id": "u7_l2_24",
               "num": "23",
               "word": "overstate",
-              "phonetic": "/iauva/steit/",
+              "phonetic": "/ˌoʊvərˈsteɪt/",
               "pos": "v.",
               "meaning": "v.夸大，夸张，言过其实",
               "highlight": "v.夸大",
@@ -24157,7 +24157,7 @@ window.CET6_DATA = {
               "id": "u7_l2_25",
               "num": "24",
               "word": "state",
-              "phonetic": "/stet/",
+              "phonetic": "/steɪt/",
               "pos": "n.",
               "meaning": "n.状态；国家；政府；州v.陈述，说 明；声明adj.国家的；州的",
               "highlight": "n.状态",
@@ -24167,7 +24167,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "statement",
-                  "phonetic": "/'steitmont/",
+                  "phonetic": "/ˈsteɪtmənt/",
                   "pos": "n.",
                   "meaning": "n.声明；观点"
                 }
@@ -24177,7 +24177,7 @@ window.CET6_DATA = {
               "id": "u7_l2_26",
               "num": "25",
               "word": "memory",
-              "phonetic": "/'memori/",
+              "phonetic": "/ˈmeməri/",
               "pos": "n.",
               "meaning": "n.回忆，记忆；记忆力；存储器",
               "highlight": "n.回忆",
@@ -24192,7 +24192,7 @@ window.CET6_DATA = {
               "id": "u7_l2_27",
               "num": "26",
               "word": "memorize",
-              "phonetic": "/'meməraɪz/",
+              "phonetic": "/ˈmeməraɪz/",
               "pos": "v.",
               "meaning": "v. 记住，熟记",
               "highlight": "v.记住",
@@ -24205,7 +24205,7 @@ window.CET6_DATA = {
               "id": "u7_l2_28",
               "num": "27",
               "word": "memo",
-              "phonetic": "/'memau/",
+              "phonetic": "/ˈmemoʊ/",
               "pos": "n.",
               "meaning": "n.备忘录",
               "highlight": "n.备忘录",
@@ -24220,7 +24220,7 @@ window.CET6_DATA = {
               "id": "u7_l2_29",
               "num": "28",
               "word": "commemorate",
-              "phonetic": "/ka'memareit/",
+              "phonetic": "/kəˈmeməreɪt/",
               "pos": "v.",
               "meaning": "v.纪念；庆祝，为……举行纪念活动",
               "highlight": "v.纪念",
@@ -24230,7 +24230,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "commemoration",
-                  "phonetic": "/kəˌmemə'reɪʃn/",
+                  "phonetic": "/kəˌmeməˈreɪʃn/",
                   "pos": "n.",
                   "meaning": "n. 纪念；纪念仪式"
                 }
@@ -24240,7 +24240,7 @@ window.CET6_DATA = {
               "id": "u7_l2_30",
               "num": "29",
               "word": "memorial",
-              "phonetic": "/eueueu/",
+              "phonetic": "/məˈmɔːriəl/",
               "pos": "adj.",
               "meaning": "adj.纪念的；悼念的 n.纪念碑；纪念物；纪念品",
               "highlight": "adj.纪念的",
@@ -24255,7 +24255,7 @@ window.CET6_DATA = {
               "id": "u7_l2_31",
               "num": "30",
               "word": "monument",
-              "phonetic": "/'monjumont/",
+              "phonetic": "/ˈmɑːnjumənt/",
               "pos": "n.",
               "meaning": "n.纪念碑；遗址，遗迹；名胜古迹",
               "highlight": "n.纪念碑",
@@ -24265,7 +24265,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "monumental",
-                  "phonetic": "/monju'mentl/",
+                  "phonetic": "/ˌmɑːnjuˈment(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.重要的；意义深远的；不朽的"
                 }
@@ -24275,7 +24275,7 @@ window.CET6_DATA = {
               "id": "u7_l2_32",
               "num": "31",
               "word": "recall",
-              "phonetic": "/,/",
+              "phonetic": "/rɪˈkɔːl/",
               "pos": "n.",
               "meaning": "n.记忆力；召回 v.回忆起，回想起；召回",
               "highlight": "n.记忆力",
@@ -24288,7 +24288,7 @@ window.CET6_DATA = {
               "id": "u7_l2_33",
               "num": "32",
               "word": "remind",
-              "phonetic": "/r'maind/",
+              "phonetic": "/rɪˈmaɪnd/",
               "pos": "v.",
               "meaning": "v.提醒；使想起",
               "highlight": "v.提醒",
@@ -24303,7 +24303,7 @@ window.CET6_DATA = {
               "id": "u7_l2_34",
               "num": "33",
               "word": "reminder",
-              "phonetic": "/ri'mainda(r) /",
+              "phonetic": "/rɪˈmaɪndər/",
               "pos": "n.",
               "meaning": "n.勾起回忆的事物，起提醒作用的事 物；提示单，通知单",
               "highlight": "n.勾起回忆的事物",
@@ -24316,7 +24316,7 @@ window.CET6_DATA = {
               "id": "u7_l2_35",
               "num": "34",
               "word": "mindset",
-              "phonetic": "/'maindset/",
+              "phonetic": "/ˈmaɪndset/",
               "pos": "n.",
               "meaning": "n.观念模式；思维倾向",
               "highlight": "n.观念模式",
@@ -24331,7 +24331,7 @@ window.CET6_DATA = {
               "id": "u7_l2_36",
               "num": "35",
               "word": "represent",
-              "phonetic": "/repri'zent/",
+              "phonetic": "/ˌreprɪˈzent/",
               "pos": "v.",
               "meaning": "v.代表；相当于；描述",
               "highlight": "v.代表",
@@ -24341,7 +24341,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "representative",
-                  "phonetic": "/repri'zentotv/",
+                  "phonetic": "/ˌreprɪˈzentətɪv/",
                   "pos": "n.",
                   "meaning": "n.代表，代理人 adj.典型的，有代表性的"
                 }
@@ -24351,7 +24351,7 @@ window.CET6_DATA = {
               "id": "u7_l2_37",
               "num": "36",
               "word": "replace",
-              "phonetic": "/ri'pleis/",
+              "phonetic": "/rɪˈpleɪs/",
               "pos": "",
               "meaning": "代替，取代；以.…替换，更换",
               "highlight": "代替",
@@ -24361,13 +24361,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "replacement",
-                  "phonetic": "/r'pleismant/",
+                  "phonetic": "/rɪˈpleɪsmənt/",
                   "pos": "n.",
                   "meaning": "n.更换，替换；替代的人或物"
                 },
                 {
                   "word": "irreplaceable",
-                  "phonetic": "/ur'plesabl/",
+                  "phonetic": "/ˌɪrɪˈpleɪsəbl/",
                   "pos": "adj.",
                   "meaning": "adj.不可替代的，独一无二的"
                 }
@@ -24377,7 +24377,7 @@ window.CET6_DATA = {
               "id": "u7_l2_38",
               "num": "37",
               "word": "displace",
-              "phonetic": "/dis'ples/",
+              "phonetic": "/dɪsˈpleɪs/",
               "pos": "v.",
               "meaning": "v.取代，替代；移动，挪开；撤职，免职",
               "highlight": "v.取代",
@@ -24387,7 +24387,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "displacement",
-                  "phonetic": "/dis'plersmant/",
+                  "phonetic": "/dɪsˈpleɪsmənt/",
                   "pos": "n.",
                   "meaning": "n.取代，替代；移位；免职"
                 }
@@ -24432,7 +24432,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "observant",
-                  "phonetic": "/ob'zavant/",
+                  "phonetic": "/əbˈzɜːrvənt/",
                   "pos": "adj.",
                   "meaning": "adj.善于观察的；观察力敏锐的"
                 }
@@ -24460,7 +24460,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "reservation",
-                  "phonetic": "/ireza'verfn/",
+                  "phonetic": "/ˌrezərˈveɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.预订，预约；保留意见"
                 },
@@ -24488,7 +24488,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "conservation",
-                  "phonetic": "/konsa'verfn/",
+                  "phonetic": "/ˌkɑːnsərˈveɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.保护；保存；节约"
                 }
@@ -24536,7 +24536,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "preservation",
-                  "phonetic": "/preza'verfn/",
+                  "phonetic": "/ˌprezərˈveɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.保护；保存；保留；保持"
                 },
@@ -24570,7 +24570,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "mate",
-                  "phonetic": "/meit/",
+                  "phonetic": "/meɪt/",
                   "pos": "n.",
                   "meaning": "n.朋友，伙伴；伴侣"
                 }
@@ -24582,7 +24582,7 @@ window.CET6_DATA = {
               "id": "u7_l2_47",
               "num": "46",
               "word": "estimate",
-              "phonetic": "/'estimat/",
+              "phonetic": "/ˈestɪmət/",
               "pos": "n.",
               "meaning": "n.估计，估算；估价",
               "highlight": "n.估计",
@@ -24592,7 +24592,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "estimation",
-                  "phonetic": "/est'meifn/",
+                  "phonetic": "/ˌestɪˈmeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.估计；判断；评价"
                 }
@@ -24619,7 +24619,7 @@ window.CET6_DATA = {
               "id": "u7_l2_49",
               "num": "48",
               "word": "reckon",
-              "phonetic": "/'rekan/",
+              "phonetic": "/ˈrekən/",
               "pos": "v.",
               "meaning": "v.估算，计算；想，认为",
               "highlight": "v.估算",
@@ -24632,7 +24632,7 @@ window.CET6_DATA = {
               "id": "u7_l2_50",
               "num": "49",
               "word": "reckless",
-              "phonetic": "/'reklas/",
+              "phonetic": "/ˈrekləs/",
               "pos": "adj.",
               "meaning": "adj.鲁莽的，不顾后果的，轻率的",
               "highlight": "adj.鲁莽的",
@@ -24657,7 +24657,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "intimacy",
-                  "phonetic": "/'intmasi/",
+                  "phonetic": "/ˈɪntɪməsi/",
                   "pos": "n.",
                   "meaning": "n.亲密；密切"
                 }
@@ -24667,7 +24667,7 @@ window.CET6_DATA = {
               "id": "u7_l2_52",
               "num": "51",
               "word": "inmate",
-              "phonetic": "/'nmeit/",
+              "phonetic": "/ˈɪnmeɪt/",
               "pos": "n.",
               "meaning": "n.(监狱或精神病院等的）同住者；同 狱犯人",
               "highlight": "n.(监狱或精神病院等的）同住者",
@@ -24680,7 +24680,7 @@ window.CET6_DATA = {
               "id": "u7_l2_53",
               "num": "52",
               "word": "approximate",
-              "phonetic": "/əˈprɒksɪmət/",
+              "phonetic": "/əˈprɑːksɪmət/",
               "pos": "",
               "meaning": "adj. 大约的，近似的 v. 近似，接近",
               "highlight": "/aproksimat/ adj.大约的",
@@ -24690,13 +24690,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "approximately",
-                  "phonetic": "/aproksimatli/",
+                  "phonetic": "/əˈprɑːksɪmətli/",
                   "pos": "adv.",
                   "meaning": "adv.大概，大约"
                 },
                 {
                   "word": "approximation",
-                  "phonetic": "/aproksmer/n/",
+                  "phonetic": "/əˌprɑːksɪˈmeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.近似值；粗略估算；类似事物"
                 }
@@ -24706,7 +24706,7 @@ window.CET6_DATA = {
               "id": "u7_l2_54",
               "num": "53",
               "word": "proximity",
-              "phonetic": "/prok'simati/",
+              "phonetic": "/prɑːkˈsɪməti/",
               "pos": "n.",
               "meaning": "n.(时间或空间）接近，邻近，靠近",
               "highlight": "n.(时间或空间）接近",
@@ -24716,7 +24716,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "proximate",
-                  "phonetic": "/'proksimat/",
+                  "phonetic": "/ˈprɑːksɪmət/",
                   "pos": "adj.",
                   "meaning": "adj.（时间、顺序等）最接近的，最邻 近的"
                 }
@@ -24726,7 +24726,7 @@ window.CET6_DATA = {
               "id": "u7_l2_55",
               "num": "54",
               "word": "ultimate",
-              "phonetic": "/leunv,/",
+              "phonetic": "/ˈʌltɪmət/",
               "pos": "n.",
               "meaning": "n.最好的事物，极品，精华 adj.最后的，最终的；根本的",
               "highlight": "n.最好的事物",
@@ -24746,7 +24746,7 @@ window.CET6_DATA = {
               "id": "u7_l2_56",
               "num": "55",
               "word": "imitate",
-              "phonetic": "/'mitert/",
+              "phonetic": "/ˈɪmɪteɪt/",
               "pos": "v.",
               "meaning": "v.模仿，仿效",
               "highlight": "v.模仿",
@@ -24762,7 +24762,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "imitative",
-                  "phonetic": "/'mtatv/",
+                  "phonetic": "/ˈɪmɪteɪtɪv/",
                   "pos": "adj.",
                   "meaning": "adj.模仿的；仿制的"
                 }
@@ -24772,7 +24772,7 @@ window.CET6_DATA = {
               "id": "u7_l2_57",
               "num": "56",
               "word": "simulate",
-              "phonetic": "/'simjulert/",
+              "phonetic": "/ˈsɪmjuleɪt/",
               "pos": "v.",
               "meaning": "v.假装，装作；模仿；模拟",
               "highlight": "v.假装",
@@ -24782,7 +24782,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "simulation",
-                  "phonetic": "/istmju'lerfn/",
+                  "phonetic": "/ˌsɪmjuˈleɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.模拟；假装；冒充"
                 }
@@ -24794,7 +24794,7 @@ window.CET6_DATA = {
               "id": "u7_l2_58",
               "num": "57",
               "word": "stimulate",
-              "phonetic": "/'stimjuleit/",
+              "phonetic": "/ˈstɪmjuleɪt/",
               "pos": "v.",
               "meaning": "v.促进；激发，激励；刺激",
               "highlight": "v.促进",
@@ -24809,7 +24809,7 @@ window.CET6_DATA = {
               "id": "u7_l2_59",
               "num": "58",
               "word": "simultaneous",
-              "phonetic": "/siml'teinias/",
+              "phonetic": "/ˌsaɪm(ə)lˈteɪniəs/",
               "pos": "adj.",
               "meaning": "adj.同时发生(或进行)的，同步的",
               "highlight": "adj.同时发生(或进行)的",
@@ -24819,7 +24819,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "simultaneously",
-                  "phonetic": "/siml'teiniasli/",
+                  "phonetic": "/ˌsaɪm(ə)lˈteɪniəsli/",
                   "pos": "adv.",
                   "meaning": "adv.同时发生(或进行)地；同步地"
                 }
@@ -24876,7 +24876,7 @@ window.CET6_DATA = {
               "id": "u7_l3_01",
               "num": "01",
               "word": "flap",
-              "phonetic": "/flaep/",
+              "phonetic": "/flæp/",
               "pos": "n.",
               "meaning": "n.拍打，振（翅）v.拍击，摆动；振（翅）",
               "highlight": "n.拍打",
@@ -24889,7 +24889,7 @@ window.CET6_DATA = {
               "id": "u7_l3_02",
               "num": "02",
               "word": "flip",
-              "phonetic": "/flip/",
+              "phonetic": "/flɪp/",
               "pos": "v.",
               "meaning": "v.使快速翻转；抛掷；浏览n.轻抛；筋 斗，空翻；浏览adj.轻率的；轻浮的",
               "highlight": "v.使快速翻转",
@@ -24904,7 +24904,7 @@ window.CET6_DATA = {
               "id": "u7_l3_03",
               "num": "03",
               "word": "grip",
-              "phonetic": "/grip/",
+              "phonetic": "/ɡrɪp/",
               "pos": "v.",
               "meaning": "v.紧握；使感兴趣；对…有强烈影响 n.紧握；影响力；理解",
               "highlight": "v.紧握",
@@ -24919,7 +24919,7 @@ window.CET6_DATA = {
               "id": "u7_l3_04",
               "num": "04",
               "word": "grope",
-              "phonetic": "/graup/",
+              "phonetic": "/ɡroʊp/",
               "pos": "v.",
               "meaning": "v.摸索；搜索n.摸",
               "highlight": "v.摸索",
@@ -24934,7 +24934,7 @@ window.CET6_DATA = {
               "id": "u7_l3_05",
               "num": "05",
               "word": "rope",
-              "phonetic": "/raup/",
+              "phonetic": "/roʊp/",
               "pos": "n.",
               "meaning": "n.粗绳；绳索v.用绳子捆",
               "highlight": "n.粗绳",
@@ -24947,7 +24947,7 @@ window.CET6_DATA = {
               "id": "u7_l3_06",
               "num": "06",
               "word": "groan",
-              "phonetic": "/graun/",
+              "phonetic": "/ɡroʊn/",
               "pos": "v.",
               "meaning": "v.呻吟；抱怨，发牢骚",
               "highlight": "v.呻吟",
@@ -24960,7 +24960,7 @@ window.CET6_DATA = {
               "id": "u7_l3_07",
               "num": "07",
               "word": "moan",
-              "phonetic": "/maun/",
+              "phonetic": "/moʊn/",
               "pos": "n.",
               "meaning": "n.呻吟声；抱怨v.呻吟；抱怨",
               "highlight": "n.呻吟声",
@@ -24973,7 +24973,7 @@ window.CET6_DATA = {
               "id": "u7_l3_08",
               "num": "80",
               "word": "complain",
-              "phonetic": "/kom'plein/",
+              "phonetic": "/kəmˈpleɪn/",
               "pos": "v.",
               "meaning": "v.抱怨，埋怨；投诉",
               "highlight": "v.抱怨",
@@ -24983,7 +24983,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "complaint",
-                  "phonetic": "/kam'pleint/",
+                  "phonetic": "/kəmˈpleɪnt/",
                   "pos": "n.",
                   "meaning": "n.抱怨；投诉"
                 }
@@ -25045,7 +25045,7 @@ window.CET6_DATA = {
               "id": "u7_l3_12",
               "num": "12",
               "word": "litter",
-              "phonetic": "/'lita(r)/",
+              "phonetic": "/ˈlɪtər/",
               "pos": "v.",
               "meaning": "v.使凌乱；乱扔n.垃圾；废弃物；杂物",
               "highlight": "v.使凌乱",
@@ -25060,7 +25060,7 @@ window.CET6_DATA = {
               "id": "u7_l3_13",
               "num": "13",
               "word": "gaze",
-              "phonetic": "/geiz/",
+              "phonetic": "/ɡeɪz/",
               "pos": "n.",
               "meaning": "n.凝视，注视v.盯着看，凝视",
               "highlight": "n.凝视",
@@ -25073,7 +25073,7 @@ window.CET6_DATA = {
               "id": "u7_l3_14",
               "num": "14",
               "word": "blush",
-              "phonetic": "/bla/",
+              "phonetic": "/blʌʃ/",
               "pos": "v.",
               "meaning": "v.(因难为情而)脸红；感到羞愧 n.脸红",
               "highlight": "v.(因难为情而)脸红",
@@ -25101,7 +25101,7 @@ window.CET6_DATA = {
               "id": "u7_l3_16",
               "num": "16",
               "word": "splash",
-              "phonetic": "/splae /",
+              "phonetic": "/splæʃ/",
               "pos": "n.",
               "meaning": "n.落水声；溅洒后留下的污渍 v.把(水、泥等）泼在…上，溅在…上",
               "highlight": "n.落水声",
@@ -25116,7 +25116,7 @@ window.CET6_DATA = {
               "id": "u7_l3_17",
               "num": "17",
               "word": "glare",
-              "phonetic": "/glea(r)/",
+              "phonetic": "/ɡleə(r)/",
               "pos": "n.",
               "meaning": "n.刺眼的强光；怒视 v.怒目而视；发出刺眼的强光",
               "highlight": "n.刺眼的强光",
@@ -25129,7 +25129,7 @@ window.CET6_DATA = {
               "id": "u7_l3_18",
               "num": "18",
               "word": "glimpse",
-              "phonetic": "/glimps/",
+              "phonetic": "/ɡlɪmps/",
               "pos": "n.",
               "meaning": "n.一警，飞快的一看；短暂的感受（或体 验、体会）v.臀见，看一眼；开始理解",
               "highlight": "n.一警",
@@ -25142,7 +25142,7 @@ window.CET6_DATA = {
               "id": "u7_l3_19",
               "num": "19",
               "word": "stare",
-              "phonetic": "/stea(r)/",
+              "phonetic": "/steə(r)/",
               "pos": "n.",
               "meaning": "n.&.v.盯着看；凝视；注视",
               "highlight": "n.&.v.盯着看",
@@ -25155,7 +25155,7 @@ window.CET6_DATA = {
               "id": "u7_l3_20",
               "num": "20",
               "word": "scan",
-              "phonetic": "/skaen/",
+              "phonetic": "/skæn/",
               "pos": "n.",
               "meaning": "n.扫描检查；浏览 v.细看，审视；浏览；扫描",
               "highlight": "n.扫描检查",
@@ -25175,7 +25175,7 @@ window.CET6_DATA = {
               "id": "u7_l3_21",
               "num": "21",
               "word": "scandal",
-              "phonetic": "/'skaendl/",
+              "phonetic": "/ˈskænd(ə)l/",
               "pos": "n.",
               "meaning": "n.丑行，丑闻，可耻的行为",
               "highlight": "n.丑行",
@@ -25185,7 +25185,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "scandalous",
-                  "phonetic": "/'skaendalas/",
+                  "phonetic": "/ˈskændələs/",
                   "pos": "adj.",
                   "meaning": "adj.可耻的；不可原谅的"
                 }
@@ -25205,7 +25205,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "dazzling",
-                  "phonetic": "/'daezln/",
+                  "phonetic": "/ˈdæzlɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.炫目的；令人眼花缭乱的"
                 }
@@ -25215,7 +25215,7 @@ window.CET6_DATA = {
               "id": "u7_l3_23",
               "num": "23",
               "word": "scratch",
-              "phonetic": "/skraetf/",
+              "phonetic": "/skrætʃ/",
               "pos": "n.",
               "meaning": "n.划痕；刮(或擦、抓)的刺耳声；挠痒 v.挠，播；抓破，抓伤（皮肤）",
               "highlight": "n.划痕",
@@ -25230,7 +25230,7 @@ window.CET6_DATA = {
               "id": "u7_l3_24",
               "num": "24",
               "word": "scrape",
-              "phonetic": "/skreip/",
+              "phonetic": "/skreɪp/",
               "pos": "n.",
               "meaning": "n.刮，铲；刮擦声；擦伤，擦痕 v.刮掉，削去；擦伤，蹭破",
               "highlight": "n.刮",
@@ -25243,7 +25243,7 @@ window.CET6_DATA = {
               "id": "u7_l3_25",
               "num": "25",
               "word": "scrap",
-              "phonetic": "/skraep/",
+              "phonetic": "/skræp/",
               "pos": "n.",
               "meaning": "n.碎片；一点点；废品，废弃材料；争吵 v.放弃；抛弃；报废；打架",
               "highlight": "n.碎片",
@@ -25256,7 +25256,7 @@ window.CET6_DATA = {
               "id": "u7_l3_26",
               "num": "26",
               "word": "scrub",
-              "phonetic": "/skrAb/",
+              "phonetic": "/skrʌb/",
               "pos": "n.",
               "meaning": "n.擦洗；刷洗；木丛；矮树丛 v.擦洗；刷洗",
               "highlight": "n.擦洗",
@@ -25271,7 +25271,7 @@ window.CET6_DATA = {
               "id": "u7_l3_27",
               "num": "27",
               "word": "democratic",
-              "phonetic": "/dema'kraetik/",
+              "phonetic": "/ˌdeməˈkrætɪk/",
               "pos": "adj.",
               "meaning": "adj.民主的，民主政体的；民主制的； 平等的",
               "highlight": "adj.民主的",
@@ -25281,7 +25281,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "democrat",
-                  "phonetic": "/'demakraet/",
+                  "phonetic": "/ˈdeməkræt/",
                   "pos": "n.",
                   "meaning": "n.(美国)民主党党员，民主党人，民主 党支持者"
                 }
@@ -25293,7 +25293,7 @@ window.CET6_DATA = {
               "id": "u7_l3_28",
               "num": "28",
               "word": "democracy",
-              "phonetic": "/di'mokrasi/",
+              "phonetic": "/dɪˈmɑːkrəsi/",
               "pos": "n.",
               "meaning": "n.民主；民主政体；民主制度",
               "highlight": "n.民主",
@@ -25306,7 +25306,7 @@ window.CET6_DATA = {
               "id": "u7_l3_29",
               "num": "29",
               "word": "category",
-              "phonetic": "/'ketogori/",
+              "phonetic": "/ˈkætəɡɔːri/",
               "pos": "n.",
               "meaning": "n.种类，范畴",
               "highlight": "n.种类",
@@ -25319,7 +25319,7 @@ window.CET6_DATA = {
               "id": "u7_l3_30",
               "num": "30",
               "word": "cater",
-              "phonetic": "/'kerta(r)/",
+              "phonetic": "/ˈkeɪtər/",
               "pos": "v.",
               "meaning": "v.提供饮食；满足，迎合",
               "highlight": "v.提供饮食",
@@ -25334,7 +25334,7 @@ window.CET6_DATA = {
               "id": "u7_l3_31",
               "num": "31",
               "word": "delicate",
-              "phonetic": "/'delikat/",
+              "phonetic": "/ˈdelɪkət/",
               "pos": "adj.",
               "meaning": "adj.易碎的，脆弱的；精巧的，精致的",
               "highlight": "adj.易碎的",
@@ -25349,7 +25349,7 @@ window.CET6_DATA = {
               "id": "u7_l3_32",
               "num": "32",
               "word": "dedicate",
-              "phonetic": "/'dedikert/",
+              "phonetic": "/ˈdedɪkeɪt/",
               "pos": "v.",
               "meaning": "v.致力于，献身于；献给",
               "highlight": "v.致力于",
@@ -25359,7 +25359,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "dedication",
-                  "phonetic": "/idedi'kerfn/",
+                  "phonetic": "/ˌdedɪˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.热忧，奉献"
                 }
@@ -25386,7 +25386,7 @@ window.CET6_DATA = {
               "id": "u7_l3_34",
               "num": "34",
               "word": "index",
-              "phonetic": "/'ɪndeks/",
+              "phonetic": "/ˈɪndeks/",
               "pos": "n./v.",
               "meaning": "n. 索引；卡片目录；指数；指标 v. 为...编索引",
               "highlight": "n.索引",
@@ -25399,7 +25399,7 @@ window.CET6_DATA = {
               "id": "u7_l3_35",
               "num": "35",
               "word": "appetite",
-              "phonetic": "/eprtait/",
+              "phonetic": "/ˈæpɪtaɪt/",
               "pos": "n.",
               "meaning": "n.胃口；爱好",
               "highlight": "n.胃口",
@@ -25412,7 +25412,7 @@ window.CET6_DATA = {
               "id": "u7_l3_36",
               "num": "36",
               "word": "petition",
-              "phonetic": "/po'tusn/",
+              "phonetic": "/pəˈtɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.请愿（书)；正式请求，祈求 v.祈求，请求；请愿",
               "highlight": "n.请愿（书)",
@@ -25422,7 +25422,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "petitioner",
-                  "phonetic": "/pa'tufana(r)/",
+                  "phonetic": "/pəˈtɪʃənər/",
                   "pos": "n.",
                   "meaning": "n.请愿者；请求者"
                 }
@@ -25432,7 +25432,7 @@ window.CET6_DATA = {
               "id": "u7_l3_37",
               "num": "37",
               "word": "frustrate",
-              "phonetic": "/frA'strert/",
+              "phonetic": "/ˈfrʌstreɪt/",
               "pos": "v.",
               "meaning": "v.使懊恼；使沮丧；使挫败；阻止",
               "highlight": "v.使懊恼",
@@ -25442,13 +25442,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "frustrating",
-                  "phonetic": "/frA'streiti/",
+                  "phonetic": "/ˈfrʌstreɪtɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.令人懊恼的；令人沮丧的"
                 },
                 {
                   "word": "frustration",
-                  "phonetic": "/frA'strerfn/",
+                  "phonetic": "/frʌˈstreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.懊恼；沮丧；挫败"
                 }
@@ -25458,7 +25458,7 @@ window.CET6_DATA = {
               "id": "u7_l3_38",
               "num": "38",
               "word": "accomplish",
-              "phonetic": "/a'kAmplas/",
+              "phonetic": "/əˈkɑːmplɪʃ/",
               "pos": "v.",
               "meaning": "v.完成；实现(尤指通过努力)",
               "highlight": "v.完成",
@@ -25468,7 +25468,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "accomplishment",
-                  "phonetic": "/a'kAmplimant/",
+                  "phonetic": "/əˈkɑːmplɪʃmənt/",
                   "pos": "",
                   "meaning": "/n.成就，成绩"
                 }
@@ -25478,7 +25478,7 @@ window.CET6_DATA = {
               "id": "u7_l3_39",
               "num": "39",
               "word": "achieve",
-              "phonetic": "/a'tfiv/",
+              "phonetic": "/əˈtʃiːv/",
               "pos": "v.",
               "meaning": "v.(凭长期努力)达到（某目标、地位、 标准）；成功；完成",
               "highlight": "v.(凭长期努力)达到（某目标、地位、 标准）",
@@ -25488,7 +25488,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "achievement",
-                  "phonetic": "/a'tfivmant/",
+                  "phonetic": "/əˈtʃiːvmənt/",
                   "pos": "n.",
                   "meaning": "n.成就；完成"
                 }
@@ -25523,7 +25523,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "victorious",
-                  "phonetic": "/vk'torias/",
+                  "phonetic": "/vɪkˈtɔːriəs/",
                   "pos": "adj.",
                   "meaning": "adj.胜利的；获胜的"
                 }
@@ -25550,7 +25550,7 @@ window.CET6_DATA = {
               "id": "u7_l3_43",
               "num": "43",
               "word": "tournament",
-              "phonetic": "/'tuonamant/",
+              "phonetic": "/ˈtʊrnəmənt/",
               "pos": "n.",
               "meaning": "n.锦标赛；联赛",
               "highlight": "n.锦标赛",
@@ -25563,7 +25563,7 @@ window.CET6_DATA = {
               "id": "u7_l3_44",
               "num": "44",
               "word": "champion",
-              "phonetic": "/'tfaempion/",
+              "phonetic": "/ˈtʃæmpiən/",
               "pos": "n.",
               "meaning": "n.冠军；第一名；优胜者",
               "highlight": "n.冠军",
@@ -25573,7 +25573,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "championship",
-                  "phonetic": "/'tfampiansp/",
+                  "phonetic": "/ˈtʃæmpiənʃɪp/",
                   "pos": "n.",
                   "meaning": "n.锦标赛；冠军地位"
                 }
@@ -25583,7 +25583,7 @@ window.CET6_DATA = {
               "id": "u7_l3_45",
               "num": "45",
               "word": "feat",
-              "phonetic": "/fit/",
+              "phonetic": "/fiːt/",
               "pos": "n.",
               "meaning": "n.业绩，功绩；壮举",
               "highlight": "n.业绩",
@@ -25598,7 +25598,7 @@ window.CET6_DATA = {
               "id": "u7_l3_46",
               "num": "46",
               "word": "defeat",
-              "phonetic": "/dr'fit/",
+              "phonetic": "/dɪˈfiːt/",
               "pos": "n.",
               "meaning": "n.失败；战胜，击败v.打败，战胜",
               "highlight": "n.失败",
@@ -25611,7 +25611,7 @@ window.CET6_DATA = {
               "id": "u7_l3_47",
               "num": "47",
               "word": "punch",
-              "phonetic": "/pAnt/",
+              "phonetic": "/pʌntʃ/",
               "pos": "n.",
               "meaning": "n.重拳击打；打孔机v.用拳猛击；（用 打孔器等）打孔；按（键)，压(按钮）",
               "highlight": "n.重拳击打",
@@ -25639,7 +25639,7 @@ window.CET6_DATA = {
               "id": "u7_l3_49",
               "num": "49",
               "word": "technical",
-              "phonetic": "/'teknikl/",
+              "phonetic": "/ˈteknɪk(ə)l/",
               "pos": "adj.",
               "meaning": "adj.技术的；技巧的；工艺的",
               "highlight": "adj.技术的",
@@ -25649,7 +25649,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "technician",
-                  "phonetic": "/tek'nifn/",
+                  "phonetic": "/tekˈnɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.技术员；技师"
                 }
@@ -25713,7 +25713,7 @@ window.CET6_DATA = {
               "id": "u7_l3_54",
               "num": "54",
               "word": "jerk",
-              "phonetic": "/dsack/",
+              "phonetic": "/dʒɜːrk/",
               "pos": "v.",
               "meaning": "v.&.n.急拉；猛推；猝然一动",
               "highlight": "v.&.n.急拉",
@@ -25728,7 +25728,7 @@ window.CET6_DATA = {
               "id": "u7_l3_55",
               "num": "55",
               "word": "aviation",
-              "phonetic": "/evi'erfn/",
+              "phonetic": "/ˌeɪviˈeɪʃn/",
               "pos": "n.",
               "meaning": "n.航空（学）；飞机制造业",
               "highlight": "n.航空（学）",
@@ -25788,7 +25788,7 @@ window.CET6_DATA = {
               "id": "u7_l4_01",
               "num": "01",
               "word": "preside",
-              "phonetic": "/pri'zad/",
+              "phonetic": "/prɪˈzaɪd/",
               "pos": "v.",
               "meaning": "v.主持（会议、仪式等）；担任（会议） 主席",
               "highlight": "v.主持（会议、仪式等）",
@@ -25798,19 +25798,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "president",
-                  "phonetic": "/'prezdant/",
+                  "phonetic": "/ˈprezɪdənt/",
                   "pos": "n.",
                   "meaning": "n.总统；国家主席；会长；总裁"
                 },
                 {
                   "word": "presidential",
-                  "phonetic": "/prez'denfl/",
+                  "phonetic": "/ˌprezɪˈdenʃl/",
                   "pos": "adj.",
                   "meaning": "adj.总统的；国家主席的"
                 },
                 {
                   "word": "presidency",
-                  "phonetic": "/'prezidansi/",
+                  "phonetic": "/ˈprezɪdənsi/",
                   "pos": "n.",
                   "meaning": "n.总统(或主席）的职位；任期"
                 }
@@ -25822,7 +25822,7 @@ window.CET6_DATA = {
               "id": "u7_l4_02",
               "num": "02",
               "word": "reside",
-              "phonetic": "/rt'zaid/",
+              "phonetic": "/rɪˈzaɪd/",
               "pos": "v.",
               "meaning": "v.居住，定居",
               "highlight": "v.居住",
@@ -25832,7 +25832,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "resident",
-                  "phonetic": "/'rezidont/",
+                  "phonetic": "/ˈrezɪdənt/",
                   "pos": "n.",
                   "meaning": "n.居民；住户adj.居住的，居留的"
                 },
@@ -25850,7 +25850,7 @@ window.CET6_DATA = {
               "id": "u7_l4_03",
               "num": "03",
               "word": "residence",
-              "phonetic": "/'rezidans/",
+              "phonetic": "/ˈrezɪdəns/",
               "pos": "n.",
               "meaning": "n.住所；居住；定居；（在他国的）居 住权",
               "highlight": "n.住所",
@@ -25873,13 +25873,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "dweller",
-                  "phonetic": "/dwela(r)/",
+                  "phonetic": "/ˈdwelər/",
                   "pos": "n.",
                   "meaning": "n.居民，居住者"
                 },
                 {
                   "word": "dwelling",
-                  "phonetic": "/'dwelin/",
+                  "phonetic": "/ˈdwelɪŋ/",
                   "pos": "n.",
                   "meaning": "n.住宅，住所"
                 }
@@ -25891,7 +25891,7 @@ window.CET6_DATA = {
               "id": "u7_l4_05",
               "num": "05",
               "word": "inhabit",
-              "phonetic": "/in'haebit/",
+              "phonetic": "/ɪnˈhæbɪt/",
               "pos": "v.",
               "meaning": "v.居住在.….栖居于…",
               "highlight": "v.居住在.….栖居于….",
@@ -25901,7 +25901,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inhabitant",
-                  "phonetic": "/In'haebitont/",
+                  "phonetic": "/ɪnˈhæbɪtənt/",
                   "pos": "n.",
                   "meaning": "n.居民，居住者"
                 }
@@ -25913,7 +25913,7 @@ window.CET6_DATA = {
               "id": "u7_l4_06",
               "num": "06",
               "word": "habitat",
-              "phonetic": "/'habitaet/",
+              "phonetic": "/ˈhæbɪtæt/",
               "pos": "n.",
               "meaning": "n.(动植物的）生活环境；（动物的）栖 息地",
               "highlight": "n.(动植物的）生活环境",
@@ -25926,7 +25926,7 @@ window.CET6_DATA = {
               "id": "u7_l4_07",
               "num": "07",
               "word": "settle",
-              "phonetic": "/'setl/",
+              "phonetic": "/ˈset(ə)l/",
               "pos": "v.",
               "meaning": "v.安顿，定居；解决",
               "highlight": "v.安顿",
@@ -25936,7 +25936,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "settlement",
-                  "phonetic": "/'setlmant/",
+                  "phonetic": "/ˈset(ə)lmənt/",
                   "pos": "n.",
                   "meaning": "n.解决，处理；协议"
                 }
@@ -25948,7 +25948,7 @@ window.CET6_DATA = {
               "id": "u7_l4_08",
               "num": "08",
               "word": "address",
-              "phonetic": "/sdres/",
+              "phonetic": "/əˈdres/",
               "pos": "n.",
               "meaning": "n.住址；演讲v.演说；解决，处理",
               "highlight": "n.住址",
@@ -25963,7 +25963,7 @@ window.CET6_DATA = {
               "id": "u7_l4_09",
               "num": "60",
               "word": "tackle",
-              "phonetic": "/'tekl/",
+              "phonetic": "/ˈtæk(ə)l/",
               "pos": "v.",
               "meaning": "v.应付，解决（难题或局面）；与……交 涉 n.（足球等中的）抢断球",
               "highlight": "v.应付",
@@ -25978,7 +25978,7 @@ window.CET6_DATA = {
               "id": "u7_l4_10",
               "num": "10",
               "word": "cope",
-              "phonetic": "/kaup/",
+              "phonetic": "/koʊp/",
               "pos": "v.",
               "meaning": "v.应付，处理",
               "highlight": "v.应付",
@@ -25993,7 +25993,7 @@ window.CET6_DATA = {
               "id": "u7_l4_11",
               "num": "11",
               "word": "solve",
-              "phonetic": "/solv/",
+              "phonetic": "/sɑːlv/",
               "pos": "v.",
               "meaning": "v.解决，处理",
               "highlight": "v.解决",
@@ -26003,13 +26003,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "solution",
-                  "phonetic": "/sə'luːʃn/",
+                  "phonetic": "/səˈluːʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n. 解决办法；处理手段；答案；溶液"
                 },
                 {
                   "word": "solvent",
-                  "phonetic": "/'solvant/",
+                  "phonetic": "/ˈsɑːlvənt/",
                   "pos": "n.",
                   "meaning": "n.溶剂adj.可溶解的；有偿付能力的"
                 }
@@ -26019,7 +26019,7 @@ window.CET6_DATA = {
               "id": "u7_l4_12",
               "num": "12",
               "word": "resolve",
-              "phonetic": "/rzolv/",
+              "phonetic": "/rɪˈzɑːlv/",
               "pos": "n.",
               "meaning": "n.决心 v.解决（问题或困难)；下决心，决定",
               "highlight": "n.决心 v.解决（问题或困难)",
@@ -26035,7 +26035,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "resolute",
-                  "phonetic": "/'rezalut/",
+                  "phonetic": "/ˈrezəluːt/",
                   "pos": "adj.",
                   "meaning": "adj.坚决的；有决心的"
                 }
@@ -26045,7 +26045,7 @@ window.CET6_DATA = {
               "id": "u7_l4_13",
               "num": "13",
               "word": "dissolve",
-              "phonetic": "/di'zolv/",
+              "phonetic": "/dɪˈzɑːlv/",
               "pos": "v.",
               "meaning": "v.(使）溶解；解除；(使）消失",
               "highlight": "v.(使）溶解",
@@ -26058,7 +26058,7 @@ window.CET6_DATA = {
               "id": "u7_l4_14",
               "num": "15",
               "word": "trace",
-              "phonetic": "/treis/",
+              "phonetic": "/treɪs/",
               "pos": "n.",
               "meaning": "n.踪迹，痕迹；遗迹 v.追溯；(通过调查）找到，发现",
               "highlight": "n.踪迹",
@@ -26071,7 +26071,7 @@ window.CET6_DATA = {
               "id": "u7_l4_15",
               "num": "17",
               "word": "rail",
-              "phonetic": "/reil/",
+              "phonetic": "/reɪl/",
               "pos": "n.",
               "meaning": "n.栏杆；铁轨，轨道，铁路",
               "highlight": "n.栏杆",
@@ -26086,7 +26086,7 @@ window.CET6_DATA = {
               "id": "u7_l4_16",
               "num": "18",
               "word": "trail",
-              "phonetic": "/treil/",
+              "phonetic": "/treɪl/",
               "pos": "v.",
               "meaning": "v.跟踪，追踪；拖，拉 n.踪迹，痕迹：（乡间的）小路",
               "highlight": "v.跟踪",
@@ -26096,7 +26096,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "trailer",
-                  "phonetic": "/'trerla(r)/",
+                  "phonetic": "/ˈtreɪlər/",
                   "pos": "n.",
                   "meaning": "n.拖车；活动房屋"
                 }
@@ -26106,7 +26106,7 @@ window.CET6_DATA = {
               "id": "u7_l4_17",
               "num": "19",
               "word": "derail",
-              "phonetic": "/dir'reil/",
+              "phonetic": "/diːˈreɪl/",
               "pos": "v.",
               "meaning": "v.(使）脱轨，出轨；阻挠，破坏",
               "highlight": "v.(使）脱轨",
@@ -26116,7 +26116,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "derailment",
-                  "phonetic": "/di'rerlmant/",
+                  "phonetic": "/diːˈreɪlmənt/",
                   "pos": "n.",
                   "meaning": "n.脱轨"
                 }
@@ -26160,13 +26160,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "analogue",
-                  "phonetic": "/'enalog/",
+                  "phonetic": "/ˈænəlɔːɡ/",
                   "pos": "adj.",
                   "meaning": "adj.模拟的n.相似物"
                 },
                 {
                   "word": "analogous",
-                  "phonetic": "/analagas/",
+                  "phonetic": "/əˈnæləɡəs/",
                   "pos": "adj.",
                   "meaning": "adj.相似的；类似的"
                 }
@@ -26178,7 +26178,7 @@ window.CET6_DATA = {
               "id": "u7_l4_20",
               "num": "22",
               "word": "analyze",
-              "phonetic": "/'ænəlaɪz/",
+              "phonetic": "/ˈænəlaɪz/",
               "pos": "v.",
               "meaning": "v. 分析",
               "highlight": "v.分析",
@@ -26188,19 +26188,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "analysis",
-                  "phonetic": "/a'naelass/",
+                  "phonetic": "/əˈnæləsɪs/",
                   "pos": "n.",
                   "meaning": "n.分析；分析结果"
                 },
                 {
                   "word": "analytical",
-                  "phonetic": "/aens'lstikl/",
+                  "phonetic": "/ˌænəˈlɪtɪk(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.分析的；解析的"
                 },
                 {
                   "word": "analyst",
-                  "phonetic": "/enalist/",
+                  "phonetic": "/ˈænəlɪst/",
                   "pos": "n.",
                   "meaning": "n.分析者；化验员"
                 }
@@ -26210,7 +26210,7 @@ window.CET6_DATA = {
               "id": "u7_l4_21",
               "num": "23",
               "word": "dialogue",
-              "phonetic": "/'daralog/",
+              "phonetic": "/ˈdaɪəlɔːɡ/",
               "pos": "n.",
               "meaning": "n.对话，对白",
               "highlight": "n.对话",
@@ -26245,7 +26245,7 @@ window.CET6_DATA = {
               "id": "u7_l4_23",
               "num": "25",
               "word": "spirit",
-              "phonetic": "/'spirt/",
+              "phonetic": "/ˈspɪrɪt/",
               "pos": "n.",
               "meaning": "n.精神，心灵；情绪，兴致",
               "highlight": "n.精神",
@@ -26255,7 +26255,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "spiritual",
-                  "phonetic": "/lenfuds /",
+                  "phonetic": "/ˈspɪrɪtʃuəl/",
                   "pos": "adj.",
                   "meaning": "adj.精神的，心灵的"
                 }
@@ -26265,7 +26265,7 @@ window.CET6_DATA = {
               "id": "u7_l4_24",
               "num": "26",
               "word": "inspire",
-              "phonetic": "/in'spara(r)/",
+              "phonetic": "/ɪnˈspaɪər/",
               "pos": "v.",
               "meaning": "v.激励，鼓励；激起，唤起",
               "highlight": "v.激励",
@@ -26280,7 +26280,7 @@ window.CET6_DATA = {
               "id": "u7_l4_25",
               "num": "27",
               "word": "inspiration",
-              "phonetic": "/unsparerfn/",
+              "phonetic": "/ˌɪnspəˈreɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.灵感",
               "highlight": "n.灵感",
@@ -26290,7 +26290,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inspirational",
-                  "phonetic": "/nspa'refonl/",
+                  "phonetic": "/ˌɪnspəˈreɪʃənl/",
                   "pos": "adj.",
                   "meaning": "adj.启发灵感的；鼓舞人心的"
                 }
@@ -26312,7 +26312,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "aspiration",
-                  "phonetic": "/aespa'rerfn/",
+                  "phonetic": "/ˌæspəˈreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.渴望；抱负，志向"
                 }
@@ -26322,7 +26322,7 @@ window.CET6_DATA = {
               "id": "u7_l4_27",
               "num": "29",
               "word": "conspire",
-              "phonetic": "/kan'spaia(r)/",
+              "phonetic": "/kənˈspaɪər/",
               "pos": "v.",
               "meaning": "v.共谋；密谋",
               "highlight": "v.共谋",
@@ -26368,7 +26368,7 @@ window.CET6_DATA = {
               "id": "u7_l4_30",
               "num": "32",
               "word": "cease",
-              "phonetic": "/sis/",
+              "phonetic": "/siːs/",
               "pos": "v.",
               "meaning": "v.停止，终止，终了",
               "highlight": "v.停止",
@@ -26381,7 +26381,7 @@ window.CET6_DATA = {
               "id": "u7_l4_31",
               "num": "33",
               "word": "suspend",
-              "phonetic": "/sə'spend/",
+              "phonetic": "/səˈspend/",
               "pos": "v.",
               "meaning": "v. 悬，挂；暂停，中止",
               "highlight": "v.悬",
@@ -26391,13 +26391,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "suspense",
-                  "phonetic": "/sa'spens/",
+                  "phonetic": "/səˈspens/",
                   "pos": "n.",
                   "meaning": "n.担心；焦虑；兴奋；悬念"
                 },
                 {
                   "word": "suspension",
-                  "phonetic": "/so'spenfn/",
+                  "phonetic": "/səˈspenʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.暂令停职（或停学、停赛等）；暂缓； 推迟"
                 }
@@ -26424,7 +26424,7 @@ window.CET6_DATA = {
               "id": "u7_l4_33",
               "num": "35",
               "word": "appendix",
-              "phonetic": "/a'pendiks/",
+              "phonetic": "/əˈpendɪks/",
               "pos": "n.",
               "meaning": "n.阑尾；（书末的）附录",
               "highlight": "n.阑尾",
@@ -26437,7 +26437,7 @@ window.CET6_DATA = {
               "id": "u7_l4_34",
               "num": "36",
               "word": "postpone",
-              "phonetic": "/pa'spaun/",
+              "phonetic": "/poʊˈspoʊn/",
               "pos": "v.",
               "meaning": "v.延迟，延期",
               "highlight": "v.延迟",
@@ -26452,7 +26452,7 @@ window.CET6_DATA = {
               "id": "u7_l4_35",
               "num": "37",
               "word": "symphony",
-              "phonetic": "/'simfani/",
+              "phonetic": "/ˈsɪmfəni/",
               "pos": "n.",
               "meaning": "n.交响乐，交响曲",
               "highlight": "n.交响乐",
@@ -26465,7 +26465,7 @@ window.CET6_DATA = {
               "id": "u7_l4_36",
               "num": "38",
               "word": "melody",
-              "phonetic": "/'meladi/",
+              "phonetic": "/ˈmelədi/",
               "pos": "n.",
               "meaning": "n.旋律，曲调；悦耳的音乐",
               "highlight": "n.旋律",
@@ -26475,7 +26475,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "melodious",
-                  "phonetic": "/ma/laudias/",
+                  "phonetic": "/məˈloʊdiəs/",
                   "pos": "adj.",
                   "meaning": "adj.悦耳的；优美动听的"
                 }
@@ -26487,7 +26487,7 @@ window.CET6_DATA = {
               "id": "u7_l4_37",
               "num": "39",
               "word": "symptom",
-              "phonetic": "/'simptam/",
+              "phonetic": "/ˈsɪmptəm/",
               "pos": "n.",
               "meaning": "n.征兆；症状",
               "highlight": "n.征兆",
@@ -26500,7 +26500,7 @@ window.CET6_DATA = {
               "id": "u7_l4_38",
               "num": "40",
               "word": "symposium",
-              "phonetic": "/sim'pauziam/",
+              "phonetic": "/sɪmˈpoʊziəm/",
               "pos": "n.",
               "meaning": "n.专题讨论会；研讨会",
               "highlight": "n.专题讨论会",
@@ -26515,7 +26515,7 @@ window.CET6_DATA = {
               "id": "u7_l4_39",
               "num": "41",
               "word": "sympathy",
-              "phonetic": "/'simpai/",
+              "phonetic": "/ˈsɪmpəθi/",
               "pos": "n.",
               "meaning": "n.同情；赞同，支持",
               "highlight": "n.同情",
@@ -26525,7 +26525,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "sympathize",
-                  "phonetic": "/'sɪmpəθaɪz/",
+                  "phonetic": "/ˈsɪmpəθaɪz/",
                   "pos": "v.",
                   "meaning": "v. 同情；赞同，支持"
                 }
@@ -26585,7 +26585,7 @@ window.CET6_DATA = {
               "id": "u7_l4_43",
               "num": "45",
               "word": "naive",
-              "phonetic": "/nariv/",
+              "phonetic": "/naɪˈiːv/",
               "pos": "adj.",
               "meaning": "adj.幼稚的，轻信的；天真的，率直的",
               "highlight": "adj.幼稚的",
@@ -26605,7 +26605,7 @@ window.CET6_DATA = {
               "id": "u7_l4_44",
               "num": "46",
               "word": "innocent",
-              "phonetic": "/'inasnt/",
+              "phonetic": "/ˈɪnəs(ə)nt/",
               "pos": "adj.",
               "meaning": "adj.清白的，无罪的；天真的；无知的",
               "highlight": "adj.清白的",
@@ -26615,7 +26615,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "innocence",
-                  "phonetic": "/'inasns/",
+                  "phonetic": "/ˈɪnəsns/",
                   "pos": "n.",
                   "meaning": "n.清白；天真"
                 }
@@ -26681,7 +26681,7 @@ window.CET6_DATA = {
               "id": "u8_l1_01",
               "num": "01",
               "word": "fold",
-              "phonetic": "/fauld/",
+              "phonetic": "/foʊld/",
               "pos": "n.",
               "meaning": "n.褶，褶痕；折叠部分 v.折叠，对折；包，裹",
               "highlight": "n.褶",
@@ -26696,7 +26696,7 @@ window.CET6_DATA = {
               "id": "u8_l1_02",
               "num": "02",
               "word": "unfold",
-              "phonetic": "/ʌn'fəʊld/",
+              "phonetic": "/ʌnˈfoʊld/",
               "pos": "v.",
               "meaning": "v. (使)展开，打开；展示；发生，发展",
               "highlight": "v.(使）展开",
@@ -26724,7 +26724,7 @@ window.CET6_DATA = {
               "id": "u8_l1_04",
               "num": "04",
               "word": "wrinkle",
-              "phonetic": "/'rigkl/",
+              "phonetic": "/ˈrɪŋk(ə)l/",
               "pos": "n.",
               "meaning": "n.皱纹；褶皱，皱痕 v.(使脸上）起皱纹，皱起；(使）起褶皱",
               "highlight": "n.皱纹",
@@ -26737,7 +26737,7 @@ window.CET6_DATA = {
               "id": "u8_l1_05",
               "num": "05",
               "word": "zigzag",
-              "phonetic": "/'zigzeg/",
+              "phonetic": "/ˈzɪɡzæɡ/",
               "pos": "n.",
               "meaning": "n.锯齿形线条（或形状）；之字形 v.曲折前进",
               "highlight": "n.锯齿形线条（或形状）",
@@ -26750,7 +26750,7 @@ window.CET6_DATA = {
               "id": "u8_l1_06",
               "num": "06",
               "word": "overlap",
-              "phonetic": "/ˌəʊvəˈlæp/",
+              "phonetic": "/ˌoʊvərˈlæp/",
               "pos": "",
               "meaning": "v. 部分重叠，交叠 n. 重叠部分；重叠时间",
               "highlight": "/auvalaep/ v.部分重叠",
@@ -26780,7 +26780,7 @@ window.CET6_DATA = {
               "id": "u8_l1_08",
               "num": "08",
               "word": "lay-off",
-              "phonetic": "/ˈleɪ ɒf/",
+              "phonetic": "/ˈleɪ ɔːf/",
               "pos": "n.",
               "meaning": "n.解雇，裁员",
               "highlight": "n.解雇",
@@ -26806,7 +26806,7 @@ window.CET6_DATA = {
               "id": "u8_l1_10",
               "num": "10",
               "word": "layman",
-              "phonetic": "/'lermon/",
+              "phonetic": "/ˈleɪmən/",
               "pos": "n.",
               "meaning": "n.非专业人员，门外汉，外行人",
               "highlight": "n.非专业人员",
@@ -26821,7 +26821,7 @@ window.CET6_DATA = {
               "id": "u8_l1_11",
               "num": "11",
               "word": "amateur",
-              "phonetic": "/amata(r)/",
+              "phonetic": "/ˈæmətər/",
               "pos": "n.",
               "meaning": "n.业余爱好者，外行adj.业余的",
               "highlight": "n.业余爱好者",
@@ -26836,7 +26836,7 @@ window.CET6_DATA = {
               "id": "u8_l1_12",
               "num": "12",
               "word": "veteran",
-              "phonetic": "/'vetaran/",
+              "phonetic": "/ˈvetərən/",
               "pos": "n.",
               "meaning": "n.老兵，退伍军人；经验丰富的人， 老手",
               "highlight": "n.老兵",
@@ -26851,7 +26851,7 @@ window.CET6_DATA = {
               "id": "u8_l1_13",
               "num": "13",
               "word": "sophisticated",
-              "phonetic": "/sa'fistikertid/",
+              "phonetic": "/səˈfɪstɪkeɪtɪd/",
               "pos": "adj.",
               "meaning": "adj.见多识广的；老练的；复杂的，精 密的，先进的",
               "highlight": "adj.见多识广的",
@@ -26861,7 +26861,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "sophistication",
-                  "phonetic": "/saifisti'kerfn/",
+                  "phonetic": "/səˌfɪstɪˈkeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.老练，世故；复杂巧妙；高水平"
                 }
@@ -26871,7 +26871,7 @@ window.CET6_DATA = {
               "id": "u8_l1_14",
               "num": "14",
               "word": "layout",
-              "phonetic": "/'leraut/",
+              "phonetic": "/ˈleɪaʊt/",
               "pos": "n.",
               "meaning": "n.布局；设计；版面编排，版面设计",
               "highlight": "n.布局",
@@ -26897,7 +26897,7 @@ window.CET6_DATA = {
               "id": "u8_l1_16",
               "num": "16",
               "word": "delay",
-              "phonetic": "/dr'ler/",
+              "phonetic": "/dɪˈleɪ/",
               "pos": "n.",
               "meaning": "n.延期；耽摘，延误，延迟（或耽搁、拖 延)的时间v.延迟，延期，推迟",
               "highlight": "n.延期",
@@ -26910,7 +26910,7 @@ window.CET6_DATA = {
               "id": "u8_l1_17",
               "num": "17",
               "word": "deputy",
-              "phonetic": "/'depjuti/",
+              "phonetic": "/ˈdepjuti/",
               "pos": "n.",
               "meaning": "n.副手，副职；代理",
               "highlight": "n.副手",
@@ -26936,7 +26936,7 @@ window.CET6_DATA = {
               "id": "u8_l1_19",
               "num": "19",
               "word": "outline",
-              "phonetic": "/autlain/",
+              "phonetic": "/ˈaʊtlaɪn/",
               "pos": "n.",
               "meaning": "n.提纲，纲要；梗概；轮廓v.概述；提 出的纲要画.…的轮廓",
               "highlight": "n.提纲",
@@ -26951,7 +26951,7 @@ window.CET6_DATA = {
               "id": "u8_l1_20",
               "num": "20",
               "word": "outlook",
-              "phonetic": "/'autluk/",
+              "phonetic": "/ˈaʊtlʊk/",
               "pos": "n.",
               "meaning": "n.景色；前景；观点；世界观；人生观",
               "highlight": "n.景色",
@@ -26966,7 +26966,7 @@ window.CET6_DATA = {
               "id": "u8_l1_21",
               "num": "21",
               "word": "outlet",
-              "phonetic": "/'autlet/",
+              "phonetic": "/ˈaʊtlet/",
               "pos": "n.",
               "meaning": "n.专营店，经销店；折扣店；出路，表现 机会；出口",
               "highlight": "n.专营店",
@@ -26992,7 +26992,7 @@ window.CET6_DATA = {
               "id": "u8_l1_23",
               "num": "23",
               "word": "outer",
-              "phonetic": "/auta(r)/",
+              "phonetic": "/ˈaʊtər/",
               "pos": "adj.",
               "meaning": "adj.外表的，外边的，外部的",
               "highlight": "adj.外表的",
@@ -27017,7 +27017,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "indoors",
-                  "phonetic": "/un'doz/",
+                  "phonetic": "/ˌɪnˈdɔːrz/",
                   "pos": "adv.",
                   "meaning": "adv.在室内"
                 }
@@ -27029,7 +27029,7 @@ window.CET6_DATA = {
               "id": "u8_l1_25",
               "num": "25",
               "word": "outdoor",
-              "phonetic": "/'aʊtdɔː(r)/",
+              "phonetic": "/ˈaʊtdɔːr/",
               "pos": "adj.",
               "meaning": "adj. 户外的，室外的",
               "highlight": "adj.户外的",
@@ -27039,7 +27039,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "outdoors",
-                  "phonetic": "/ˌaʊt'dɔːz/",
+                  "phonetic": "/ˌaʊtˈdɔːrz/",
                   "pos": "adv./n.",
                   "meaning": "adv. 在户外，在野外 n. 野外，旷野，郊外"
                 }
@@ -27051,7 +27051,7 @@ window.CET6_DATA = {
               "id": "u8_l1_26",
               "num": "26",
               "word": "turnout",
-              "phonetic": "/'tsnaut/",
+              "phonetic": "/ˈtɜːrnaʊt/",
               "pos": "n.",
               "meaning": "n.出席人数，到场人数；投票人数",
               "highlight": "n.出席人数",
@@ -27064,7 +27064,7 @@ window.CET6_DATA = {
               "id": "u8_l1_27",
               "num": "27",
               "word": "inward",
-              "phonetic": "/pemu /",
+              "phonetic": "/ˈɪnwərd/",
               "pos": "adj.",
               "meaning": "adj.内心的，精神的；向内的 adv.向内；向中心",
               "highlight": "adj.内心的",
@@ -27079,7 +27079,7 @@ window.CET6_DATA = {
               "id": "u8_l1_28",
               "num": "28",
               "word": "outward",
-              "phonetic": "/'autwad/",
+              "phonetic": "/ˈaʊtwərd/",
               "pos": "adj.",
               "meaning": "adj.表面的，外表的；外出的；向外的 adv.朝外面，向外",
               "highlight": "adj.表面的",
@@ -27092,7 +27092,7 @@ window.CET6_DATA = {
               "id": "u8_l1_29",
               "num": "29",
               "word": "interior",
-              "phonetic": "/in'tiaria(r)/",
+              "phonetic": "/ɪnˈtɪriər/",
               "pos": "n.",
               "meaning": "n.内部adj.内部的，里面的",
               "highlight": "n.内部adj.内部的",
@@ -27107,7 +27107,7 @@ window.CET6_DATA = {
               "id": "u8_l1_30",
               "num": "30",
               "word": "exterior",
-              "phonetic": "/nk'staria(r)/",
+              "phonetic": "/ɪkˈstɪriər/",
               "pos": "n.",
               "meaning": "n.（尤指建筑物的）外部，外观 adj.外面的，外部的",
               "highlight": "n.（尤指建筑物的）外部",
@@ -27120,7 +27120,7 @@ window.CET6_DATA = {
               "id": "u8_l1_31",
               "num": "31",
               "word": "internal",
-              "phonetic": "/in'tsnl/",
+              "phonetic": "/ɪnˈtɜːrn(ə)l/",
               "pos": "adj.",
               "meaning": "adj.内部的；内政的；国内的",
               "highlight": "adj.内部的",
@@ -27146,7 +27146,7 @@ window.CET6_DATA = {
               "id": "u8_l1_33",
               "num": "33",
               "word": "outcome",
-              "phonetic": "/'autkAm/",
+              "phonetic": "/ˈaʊtkʌm/",
               "pos": "n.",
               "meaning": "n.结果，成果",
               "highlight": "n.结果",
@@ -27159,7 +27159,7 @@ window.CET6_DATA = {
               "id": "u8_l1_34",
               "num": "34",
               "word": "outbreak",
-              "phonetic": "/'autbrerk/",
+              "phonetic": "/ˈaʊtbreɪk/",
               "pos": "n.",
               "meaning": "n.（暴力、疾病等坏事的）爆发，突然 发生",
               "highlight": "n.（暴力、疾病等坏事的）爆发",
@@ -27172,7 +27172,7 @@ window.CET6_DATA = {
               "id": "u8_l1_35",
               "num": "35",
               "word": "output",
-              "phonetic": "/'aʊtpʊt/",
+              "phonetic": "/ˈaʊtpʊt/",
               "pos": "n./v.",
               "meaning": "n. (人、机器、机构的)产量，输出量 v. 输出",
               "highlight": "n.(人、机器、机构的）产量",
@@ -27185,7 +27185,7 @@ window.CET6_DATA = {
               "id": "u8_l1_36",
               "num": "36",
               "word": "input",
-              "phonetic": "/'input/",
+              "phonetic": "/ˈɪnpʊt/",
               "pos": "n.",
               "meaning": "n.投入资源（指时间、知识、思想等）； 投入，输入v.输入（信息）",
               "highlight": "n.投入资源（指时间、知识、思想等）",
@@ -27198,7 +27198,7 @@ window.CET6_DATA = {
               "id": "u8_l1_37",
               "num": "37",
               "word": "yield",
-              "phonetic": "/jild/",
+              "phonetic": "/jiːld/",
               "pos": "n.",
               "meaning": "n.产量；利润v.出产；产生；屈服",
               "highlight": "n.产量",
@@ -27233,7 +27233,7 @@ window.CET6_DATA = {
               "id": "u8_l1_39",
               "num": "39",
               "word": "blank",
-              "phonetic": "/blaenk/",
+              "phonetic": "/blæŋk/",
               "pos": "adj.",
               "meaning": "adj.空白的，空的；没有表情的 白处，空格v.突然记不起，不理睬 n.空",
               "highlight": "adj.空白的",
@@ -27263,7 +27263,7 @@ window.CET6_DATA = {
               "id": "u8_l1_41",
               "num": "41",
               "word": "evacuate",
-              "phonetic": "/t'vaekjuert/",
+              "phonetic": "/ɪˈvækjueɪt/",
               "pos": "v.",
               "meaning": "v.(把人从危险的地方）疏散，转移，撤 离；排泄",
               "highlight": "v.(把人从危险的地方）疏散",
@@ -27273,7 +27273,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "evacuation",
-                  "phonetic": "/ivaekju'erfn/",
+                  "phonetic": "/ɪˌvækjuˈeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.疏散，撤离；排泄"
                 }
@@ -27283,7 +27283,7 @@ window.CET6_DATA = {
               "id": "u8_l1_42",
               "num": "42",
               "word": "vacation",
-              "phonetic": "/veɪˈkeɪʃn/",
+              "phonetic": "/veɪˈkeɪʃ(ə)n/",
               "pos": "",
               "meaning": "n. 假期，休假 v. 度假，休假",
               "highlight": "vet'kern/ n.假期",
@@ -27348,7 +27348,7 @@ window.CET6_DATA = {
               "id": "u8_l1_46",
               "num": "46",
               "word": "commute",
-              "phonetic": "/ka'mjut/",
+              "phonetic": "/kəˈmjuːt/",
               "pos": "n.",
               "meaning": "n.上下班的路程，通勤 v.上下班往返，通勤；减刑",
               "highlight": "n.上下班的路程",
@@ -27358,7 +27358,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "commuter",
-                  "phonetic": "/ka'mjuta(r)/",
+                  "phonetic": "/kəˈmjuːtər/",
                   "pos": "n.",
                   "meaning": "n.长途上下班往返的人，通勤者"
                 }
@@ -27370,7 +27370,7 @@ window.CET6_DATA = {
               "id": "u8_l1_47",
               "num": "47",
               "word": "shuttle",
-              "phonetic": "/'fatl/",
+              "phonetic": "/ˈʃʌt(ə)l/",
               "pos": "v.",
               "meaning": "v.穿梭，往返运送n.来往于两地之间 的航班(或班车、火车)",
               "highlight": "v.穿梭",
@@ -27429,7 +27429,7 @@ window.CET6_DATA = {
               "id": "u8_l1_51",
               "num": "51",
               "word": "yoga",
-              "phonetic": "/'jauga/",
+              "phonetic": "/ˈjoʊɡə/",
               "pos": "n.",
               "meaning": "n.瑜伽",
               "highlight": "n.瑜伽",
@@ -27459,7 +27459,7 @@ window.CET6_DATA = {
               "id": "u8_l1_53",
               "num": "53",
               "word": "wander",
-              "phonetic": "/'wonda(r)/",
+              "phonetic": "/ˈwɑːndər/",
               "pos": "v.",
               "meaning": "v.徘徊，闲逛，漫步；走神；（河流、道路 等)婉蜓曲折",
               "highlight": "v.徘徊",
@@ -27474,7 +27474,7 @@ window.CET6_DATA = {
               "id": "u8_l1_54",
               "num": "54",
               "word": "linger",
-              "phonetic": "/'lnga(r)/",
+              "phonetic": "/ˈlɪŋɡər/",
               "pos": "v.",
               "meaning": "v.继续存留；逗留，徘徊；拖延，磨蹭",
               "highlight": "v.继续存留",
@@ -27487,7 +27487,7 @@ window.CET6_DATA = {
               "id": "u8_l1_55",
               "num": "55",
               "word": "stroll",
-              "phonetic": "/straul/",
+              "phonetic": "/stroʊl/",
               "pos": "n.",
               "meaning": "n.&.v.散步，闲逛，溜达",
               "highlight": "n.&.v.散步",
@@ -27515,7 +27515,7 @@ window.CET6_DATA = {
               "id": "u8_l1_57",
               "num": "57",
               "word": "sneak",
-              "phonetic": "/snick/",
+              "phonetic": "/sniːk/",
               "pos": "v.",
               "meaning": "v.偷偷地走，淄；偷偷地做",
               "highlight": "v.偷偷地走",
@@ -27592,7 +27592,7 @@ window.CET6_DATA = {
               "id": "u8_l2_02",
               "num": "59",
               "word": "creep",
-              "phonetic": "/krisp/",
+              "phonetic": "/kriːp/",
               "pos": "v.",
               "meaning": "v.手脚地移动；匍匐行进，爬行； 蔓延",
               "highlight": "v.手脚地移动",
@@ -27607,7 +27607,7 @@ window.CET6_DATA = {
               "id": "u8_l2_03",
               "num": "60",
               "word": "cripple",
-              "phonetic": "/'kripl/",
+              "phonetic": "/ˈkrɪp(ə)l/",
               "pos": "v.",
               "meaning": "v.使残废；使成病子；严重毁坏 n.残疾人；瘤子",
               "highlight": "v.使残废",
@@ -27622,7 +27622,7 @@ window.CET6_DATA = {
               "id": "u8_l2_04",
               "num": "61",
               "word": "climb",
-              "phonetic": "/klaim/",
+              "phonetic": "/klaɪm/",
               "pos": "v.",
               "meaning": "v.攀登；上升n.攀登；增值",
               "highlight": "v.攀登",
@@ -27635,7 +27635,7 @@ window.CET6_DATA = {
               "id": "u8_l2_05",
               "num": "62",
               "word": "chase",
-              "phonetic": "/tfeis/",
+              "phonetic": "/tʃeɪs/",
               "pos": "v.",
               "meaning": "v.&.n.努力获取；追赶；追求",
               "highlight": "v.&.n.努力获取",
@@ -27648,7 +27648,7 @@ window.CET6_DATA = {
               "id": "u8_l2_06",
               "num": "63",
               "word": "prey",
-              "phonetic": "/prel/",
+              "phonetic": "/preɪ/",
               "pos": "n.",
               "meaning": "n.猎物；受害者v.捕食；欺凌，坑骗",
               "highlight": "n.猎物",
@@ -27663,7 +27663,7 @@ window.CET6_DATA = {
               "id": "u8_l2_07",
               "num": "64",
               "word": "predator",
-              "phonetic": "/'predata(r)/",
+              "phonetic": "/ˈpredətər/",
               "pos": "n.",
               "meaning": "n.捕食性动物；掠夺者；弱肉强食者",
               "highlight": "n.捕食性动物",
@@ -27673,7 +27673,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "predatory",
-                  "phonetic": "/'predatri/",
+                  "phonetic": "/ˈpredətɔːri/",
                   "pos": "adj.",
                   "meaning": "adj.捕食性的；欺负弱小的"
                 }
@@ -27683,7 +27683,7 @@ window.CET6_DATA = {
               "id": "u8_l2_08",
               "num": "65",
               "word": "stumble",
-              "phonetic": "/'stambl/",
+              "phonetic": "/ˈstʌmb(ə)l/",
               "pos": "v.",
               "meaning": "v.跌跌撞撞地走，購珊而行；绊脚；（不 顺畅地)说，读，演奏",
               "highlight": "v.跌跌撞撞地走",
@@ -27696,7 +27696,7 @@ window.CET6_DATA = {
               "id": "u8_l2_09",
               "num": "66",
               "word": "stump",
-              "phonetic": "/stAmp/",
+              "phonetic": "/stʌmp/",
               "pos": "n.",
               "meaning": "n.树桩；残根，残段",
               "highlight": "n.树桩",
@@ -27709,7 +27709,7 @@ window.CET6_DATA = {
               "id": "u8_l2_10",
               "num": "67",
               "word": "stun",
-              "phonetic": "/stAn/",
+              "phonetic": "/stʌn/",
               "pos": "v.",
               "meaning": "v.使昏迷；使震惊",
               "highlight": "v.使昏迷",
@@ -27732,7 +27732,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "supplier",
-                  "phonetic": "/saplaia(r)/",
+                  "phonetic": "/səˈplaɪər/",
                   "pos": "n.",
                   "meaning": "n.供应者；供货商"
                 }
@@ -27752,7 +27752,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "supplementary",
-                  "phonetic": "/ˌsʌplɪ'mentri/",
+                  "phonetic": "/ˌsʌplɪˈmentri/",
                   "pos": "adj.",
                   "meaning": "adj. 增补的，附加的"
                 }
@@ -27764,7 +27764,7 @@ window.CET6_DATA = {
               "id": "u8_l2_13",
               "num": "03",
               "word": "complement",
-              "phonetic": "/ˈkɒmplɪment/",
+              "phonetic": "/ˈkɑːmplɪment/",
               "pos": "",
               "meaning": "v. 补充；使相配；使完美 n. 补充物；互补物",
               "highlight": "/'komplimant/ v.补充",
@@ -27774,7 +27774,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "complementary",
-                  "phonetic": "/komplt'mentri/",
+                  "phonetic": "/ˌkɑːmplɪˈment(ə)ri/",
                   "pos": "adj.",
                   "meaning": "adj.互补的，补充的，相互补足的"
                 }
@@ -27796,7 +27796,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "implementation",
-                  "phonetic": "/umplmen'tern/",
+                  "phonetic": "/ˌɪmplɪmenˈteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.实施，履行"
                 }
@@ -27808,7 +27808,7 @@ window.CET6_DATA = {
               "id": "u8_l2_15",
               "num": "05",
               "word": "compensate",
-              "phonetic": "/'kompenset/",
+              "phonetic": "/ˈkɑːmpenseɪt/",
               "pos": "v.",
               "meaning": "v.偿还，补偿",
               "highlight": "v.偿还",
@@ -27818,13 +27818,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "compensation",
-                  "phonetic": "/kompen'seifn/",
+                  "phonetic": "/ˌkɑːmpenˈseɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.补偿物；赔偿金"
                 },
                 {
                   "word": "compensatory",
-                  "phonetic": "/kompen'sertori/",
+                  "phonetic": "/kəmˈpensətɔːri/",
                   "pos": "adj.",
                   "meaning": "adj.补偿性的"
                 }
@@ -27836,7 +27836,7 @@ window.CET6_DATA = {
               "id": "u8_l2_16",
               "num": "06",
               "word": "addict",
-              "phonetic": "/'aedikt/",
+              "phonetic": "/ˈædɪkt/",
               "pos": "n.",
               "meaning": "n.吸毒成瘾的人；对.……着迷的人",
               "highlight": "n.吸毒成瘾的人",
@@ -27846,13 +27846,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "addiction",
-                  "phonetic": "/odikjn/",
+                  "phonetic": "/əˈdɪkʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.瘾；人迷；嗜好"
                 },
                 {
                   "word": "addictive",
-                  "phonetic": "/odiktiv/",
+                  "phonetic": "/əˈdɪktɪv/",
                   "pos": "adj.",
                   "meaning": "adj.使人上瘾的"
                 }
@@ -27892,7 +27892,7 @@ window.CET6_DATA = {
               "id": "u8_l2_18",
               "num": "08",
               "word": "obsess",
-              "phonetic": "/ob'ses/",
+              "phonetic": "/əbˈses/",
               "pos": "v.",
               "meaning": "v.使痴迷；使……心神不宁；对… 过分担心",
               "highlight": "v.使痴迷",
@@ -27902,13 +27902,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "obsession",
-                  "phonetic": "/ab'sefn/",
+                  "phonetic": "/əbˈseʃn/",
                   "pos": "n.",
                   "meaning": "n.痴迷；困扰"
                 },
                 {
                   "word": "obsessive",
-                  "phonetic": "/ab'sesiv/",
+                  "phonetic": "/əbˈsesɪv/",
                   "pos": "adj.",
                   "meaning": "adj.着迷的；难以释怀的 n.强迫症患者"
                 }
@@ -27920,7 +27920,7 @@ window.CET6_DATA = {
               "id": "u8_l2_19",
               "num": "09",
               "word": "predict",
-              "phonetic": "/pri'dikt/",
+              "phonetic": "/prɪˈdɪkt/",
               "pos": "v.",
               "meaning": "v.预言，预测",
               "highlight": "v.预言",
@@ -27930,13 +27930,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "prediction",
-                  "phonetic": "/pri'dikfn/",
+                  "phonetic": "/prɪˈdɪkʃn/",
                   "pos": "n.",
                   "meaning": "n.预言，预测"
                 },
                 {
                   "word": "predictable",
-                  "phonetic": "/pri'diktabl/",
+                  "phonetic": "/prɪˈdɪktəb(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.可预见的"
                 }
@@ -27946,7 +27946,7 @@ window.CET6_DATA = {
               "id": "u8_l2_20",
               "num": "10",
               "word": "dictate",
-              "phonetic": "/dɪkˈteɪt/",
+              "phonetic": "/ˈdɪkteɪt/",
               "pos": "",
               "meaning": "v. 口述；强制规定；支配 n. 命令，规定",
               "highlight": "/dik'tert/ v.口述",
@@ -27956,7 +27956,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "dictation",
-                  "phonetic": "/dik'terfn/",
+                  "phonetic": "/dɪkˈteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.口述；听写"
                 }
@@ -27966,7 +27966,7 @@ window.CET6_DATA = {
               "id": "u8_l2_21",
               "num": "11",
               "word": "dictator",
-              "phonetic": "/dik'terta(r)/",
+              "phonetic": "/ˈdɪkteɪtər/",
               "pos": "n.",
               "meaning": "n.独裁者；霸道的人",
               "highlight": "n.独裁者",
@@ -27979,7 +27979,7 @@ window.CET6_DATA = {
               "id": "u8_l2_22",
               "num": "12",
               "word": "contradict",
-              "phonetic": "/kontra'dikt/",
+              "phonetic": "/ˌkɑːntrəˈdɪkt/",
               "pos": "v.",
               "meaning": "v.反驳，驳斥；与……矛盾",
               "highlight": "v.反驳",
@@ -27994,7 +27994,7 @@ window.CET6_DATA = {
               "id": "u8_l2_23",
               "num": "13",
               "word": "contradiction",
-              "phonetic": "/kontra'dik/n/",
+              "phonetic": "/ˌkɑːntrəˈdɪkʃn/",
               "pos": "n.",
               "meaning": "n.矛盾，不一致；反驳",
               "highlight": "n.矛盾",
@@ -28004,7 +28004,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "contradictory",
-                  "phonetic": "/kontra'diktari/",
+                  "phonetic": "/ˌkɑːntrəˈdɪktəri/",
                   "pos": "adj.",
                   "meaning": "adj.矛盾的"
                 }
@@ -28016,7 +28016,7 @@ window.CET6_DATA = {
               "id": "u8_l2_24",
               "num": "14",
               "word": "contrary",
-              "phonetic": "/'kontrari/",
+              "phonetic": "/ˈkɑːntreri/",
               "pos": "n.",
               "meaning": "n.相反，对立面 adj.相反的，相对的",
               "highlight": "n.相反",
@@ -28029,7 +28029,7 @@ window.CET6_DATA = {
               "id": "u8_l2_25",
               "num": "15",
               "word": "contrast",
-              "phonetic": "/ˈkɒntrɑːst/",
+              "phonetic": "/ˈkɑːntræst/",
               "pos": "",
               "meaning": "n. 明显的差异；对比 v. 对比，对照",
               "highlight": "/kan'trarst/ n.明显的差异",
@@ -28054,7 +28054,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "denial",
-                  "phonetic": "/lereu,Ip/",
+                  "phonetic": "/dɪˈnaɪəl/",
                   "pos": "n.",
                   "meaning": "n.否认；拒绝给予"
                 }
@@ -28102,7 +28102,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "envious",
-                  "phonetic": "/'envias/",
+                  "phonetic": "/ˈenviəs/",
                   "pos": "adj.",
                   "meaning": "adj.羡慕的；忌妒的"
                 }
@@ -28146,7 +28146,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "resentment",
-                  "phonetic": "/ri'zentmant/",
+                  "phonetic": "/rɪˈzentmənt/",
                   "pos": "n.",
                   "meaning": "n.愤恨，怨恨，不满"
                 }
@@ -28156,7 +28156,7 @@ window.CET6_DATA = {
               "id": "u8_l2_31",
               "num": "21",
               "word": "consent",
-              "phonetic": "/kan'sent/",
+              "phonetic": "/kənˈsent/",
               "pos": "v.",
               "meaning": "v.&n.同意，准许",
               "highlight": "v.&n.同意",
@@ -28171,7 +28171,7 @@ window.CET6_DATA = {
               "id": "u8_l2_32",
               "num": "22",
               "word": "recognize",
-              "phonetic": "/'rekəɡnaɪz/",
+              "phonetic": "/ˈrekəɡnaɪz/",
               "pos": "v.",
               "meaning": "v. 认识；辨别出；承认；意识到",
               "highlight": "v.认识",
@@ -28181,7 +28181,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "recognition",
-                  "phonetic": "/irekag'nifn/",
+                  "phonetic": "/ˌrekəɡˈnɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.认识；承认，认可"
                 }
@@ -28191,7 +28191,7 @@ window.CET6_DATA = {
               "id": "u8_l2_33",
               "num": "23",
               "word": "cognitive",
-              "phonetic": "/'kognativ/",
+              "phonetic": "/ˈkɑːɡnətɪv/",
               "pos": "adj.",
               "meaning": "adj.认知的；感知的",
               "highlight": "adj.认知的",
@@ -28201,7 +28201,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "cognition",
-                  "phonetic": "/kog'nn/",
+                  "phonetic": "/kɑːɡˈnɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.认识，认知"
                 }
@@ -28223,7 +28223,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "awareness",
-                  "phonetic": "/a'weanas/",
+                  "phonetic": "/əˈwernəs/",
                   "pos": "n.",
                   "meaning": "n.认识，意识"
                 }
@@ -28235,7 +28235,7 @@ window.CET6_DATA = {
               "id": "u8_l2_35",
               "num": "25",
               "word": "beware",
-              "phonetic": "/br'wea(r)/",
+              "phonetic": "/bɪˈwer/",
               "pos": "v.",
               "meaning": "v.当心，注意，谨防",
               "highlight": "v.当心",
@@ -28258,7 +28258,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "consciousness",
-                  "phonetic": "/'konfasnas/",
+                  "phonetic": "/ˈkɑːnʃəsnəs/",
                   "pos": "n.",
                   "meaning": "n.神志清醒；意识"
                 }
@@ -28268,7 +28268,7 @@ window.CET6_DATA = {
               "id": "u8_l2_37",
               "num": "27",
               "word": "identify",
-              "phonetic": "/at'dentifal/",
+              "phonetic": "/aɪˈdentɪfaɪ/",
               "pos": "v.",
               "meaning": "v.认出，识别；确定；表明身份",
               "highlight": "v.认出",
@@ -28278,7 +28278,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "identification",
-                  "phonetic": "/aidentufi'kerjn/",
+                  "phonetic": "/aɪˌdentɪfɪˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.鉴定，识别；身份证明（文件）"
                 }
@@ -28288,7 +28288,7 @@ window.CET6_DATA = {
               "id": "u8_l2_38",
               "num": "28",
               "word": "identity",
-              "phonetic": "/ar'dentati/",
+              "phonetic": "/aɪˈdentəti/",
               "pos": "n.",
               "meaning": "n.身份；特性；一致，相同",
               "highlight": "n.身份",
@@ -28301,7 +28301,7 @@ window.CET6_DATA = {
               "id": "u8_l2_39",
               "num": "29",
               "word": "identical",
-              "phonetic": "/al'dentikl/",
+              "phonetic": "/aɪˈdentɪk(ə)l/",
               "pos": "adj.",
               "meaning": "adj.完全相同的",
               "highlight": "adj.完全相同的",
@@ -28324,7 +28324,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "journalist",
-                  "phonetic": "/ˈdʒɜːnəlɪst/",
+                  "phonetic": "/ˈdʒɜːrnəlɪst/",
                   "pos": "n.",
                   "meaning": "n.新闻记者，新闻工作者"
                 }
@@ -28362,7 +28362,7 @@ window.CET6_DATA = {
               "id": "u8_l2_43",
               "num": "33",
               "word": "edit",
-              "phonetic": "/'edit/",
+              "phonetic": "/ˈedɪt/",
               "pos": "n.",
               "meaning": "n.编辑v.编辑，校订",
               "highlight": "n.编辑v.编辑",
@@ -28372,19 +28372,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "editor",
-                  "phonetic": "/'edita(r)/",
+                  "phonetic": "/ˈedɪtər/",
                   "pos": "n.",
                   "meaning": "n.主编；编辑"
                 },
                 {
                   "word": "editorial",
-                  "phonetic": "/eds'torial/",
+                  "phonetic": "/ˌedɪˈtɔːriəl/",
                   "pos": "adj.",
                   "meaning": "adj.编辑的n.（报刊的）社论"
                 },
                 {
                   "word": "edition",
-                  "phonetic": "/t'difn/",
+                  "phonetic": "/ɪˈdɪʃn/",
                   "pos": "n.",
                   "meaning": "n.版本"
                 }
@@ -28407,7 +28407,7 @@ window.CET6_DATA = {
               "id": "u8_l2_45",
               "num": "35",
               "word": "novel",
-              "phonetic": "/'novl/",
+              "phonetic": "/ˈnɑːv(ə)l/",
               "pos": "adj.",
               "meaning": "adj.新颖的；与众不同的 n.（长篇）小说",
               "highlight": "adj.新颖的",
@@ -28417,13 +28417,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "novelty",
-                  "phonetic": "/'novlti/",
+                  "phonetic": "/ˈnɑːv(ə)lti/",
                   "pos": "n.",
                   "meaning": "n.新奇，新颖"
                 },
                 {
                   "word": "novelist",
-                  "phonetic": "/'novalist/",
+                  "phonetic": "/ˈnɑːvəlɪst/",
                   "pos": "n.",
                   "meaning": "n.小说家"
                 }
@@ -28435,7 +28435,7 @@ window.CET6_DATA = {
               "id": "u8_l2_46",
               "num": "36",
               "word": "fiction",
-              "phonetic": "/fikfn/",
+              "phonetic": "/ˈfɪkʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.小说；虚构的事",
               "highlight": "n.小说",
@@ -28445,7 +28445,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "fictional",
-                  "phonetic": "/ue/",
+                  "phonetic": "/ˈfɪkʃən(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.虚构的；小说（中）的"
                 }
@@ -28457,7 +28457,7 @@ window.CET6_DATA = {
               "id": "u8_l2_47",
               "num": "37",
               "word": "episode",
-              "phonetic": "/'episaud/",
+              "phonetic": "/ˈepɪsoʊd/",
               "pos": "n.",
               "meaning": "n.插曲，一段情节；一集",
               "highlight": "n.插曲",
@@ -28482,7 +28482,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "literature",
-                  "phonetic": "/'lrtoratfa/",
+                  "phonetic": "/ˈlɪtərətʃʊr/",
                   "pos": "n.",
                   "meaning": "n.文学，文学作品；文献"
                 },
@@ -28494,7 +28494,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "literacy",
-                  "phonetic": "/sele,/",
+                  "phonetic": "/ˈlɪtərəsi/",
                   "pos": "n.",
                   "meaning": "n.读写能力"
                 }
@@ -28534,13 +28534,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "pressure",
-                  "phonetic": "/'prefa(r)/",
+                  "phonetic": "/ˈpreʃər/",
                   "pos": "n.",
                   "meaning": "n.压力；紧张；催促"
                 },
                 {
                   "word": "pressing",
-                  "phonetic": "/'presi/",
+                  "phonetic": "/ˈpresɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.紧急的，急迫的"
                 }
@@ -28550,7 +28550,7 @@ window.CET6_DATA = {
               "id": "u8_l2_51",
               "num": "41",
               "word": "oppress",
-              "phonetic": "/a'pres/",
+              "phonetic": "/əˈpres/",
               "pos": "v.",
               "meaning": "v.压迫，压制；使烦恼，压抑",
               "highlight": "v.压迫",
@@ -28560,13 +28560,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "oppression",
-                  "phonetic": "/aprefn/",
+                  "phonetic": "/əˈpreʃn/",
                   "pos": "n.",
                   "meaning": "n.压迫；压抑；镇压"
                 },
                 {
                   "word": "oppressive",
-                  "phonetic": "/apresrv/",
+                  "phonetic": "/əˈpresɪv/",
                   "pos": "adj.",
                   "meaning": "adj.压迫的；压制的"
                 }
@@ -28576,7 +28576,7 @@ window.CET6_DATA = {
               "id": "u8_l2_52",
               "num": "42",
               "word": "impress",
-              "phonetic": "/Im'pres/",
+              "phonetic": "/ɪmˈpres/",
               "pos": "v.",
               "meaning": "v.使钦佩，使敬仰；给.….留下深刻 印象",
               "highlight": "v.使钦佩",
@@ -28592,7 +28592,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "impression",
-                  "phonetic": "/Im'prefn/",
+                  "phonetic": "/ɪmˈpreʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.印象"
                 }
@@ -28602,7 +28602,7 @@ window.CET6_DATA = {
               "id": "u8_l2_53",
               "num": "43",
               "word": "repress",
-              "phonetic": "/ri'pres/",
+              "phonetic": "/rɪˈpres/",
               "pos": "v.",
               "meaning": "v.克制，抑制；压制，镇压",
               "highlight": "v.克制",
@@ -28612,13 +28612,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "repression",
-                  "phonetic": "/r'prefn/",
+                  "phonetic": "/rɪˈpreʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.压制，镇压；克制"
                 },
                 {
                   "word": "repressive",
-                  "phonetic": "/r'presiv/",
+                  "phonetic": "/rɪˈpresɪv/",
                   "pos": "adj.",
                   "meaning": "adj.抑制的；压制的；严苛的"
                 }
@@ -28628,7 +28628,7 @@ window.CET6_DATA = {
               "id": "u8_l2_54",
               "num": "44",
               "word": "depress",
-              "phonetic": "/di'pres/",
+              "phonetic": "/dɪˈpres/",
               "pos": "v.",
               "meaning": "v.使沮丧；使萧条；按下；降低",
               "highlight": "v.使沮丧",
@@ -28638,7 +28638,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "depression",
-                  "phonetic": "/di'prefn/",
+                  "phonetic": "/dɪˈpreʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.沮丧；抑郁症；萧条期"
                 }
@@ -28650,7 +28650,7 @@ window.CET6_DATA = {
               "id": "u8_l2_55",
               "num": "45",
               "word": "suppress",
-              "phonetic": "/sa'pres/",
+              "phonetic": "/səˈpres/",
               "pos": "v.",
               "meaning": "v.镇压，压制；抑制",
               "highlight": "v.镇压",
@@ -28660,13 +28660,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "suppression",
-                  "phonetic": "/sa'prefn/",
+                  "phonetic": "/səˈpreʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.镇压，压制；抑制"
                 },
                 {
                   "word": "suppressive",
-                  "phonetic": "/sa'presiv/",
+                  "phonetic": "/səˈpresɪv/",
                   "pos": "adj.",
                   "meaning": "adj.抑制的；镇压的"
                 }
@@ -28678,7 +28678,7 @@ window.CET6_DATA = {
               "id": "u8_l2_56",
               "num": "46",
               "word": "distress",
-              "phonetic": "/di'stres/",
+              "phonetic": "/dɪˈstres/",
               "pos": "n.",
               "meaning": "n.悲痛，痛苦；优虑；困苦 v.使痛苦；使忧虑",
               "highlight": "n.悲痛",
@@ -28688,7 +28688,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "distressful",
-                  "phonetic": "/di'stresfal/",
+                  "phonetic": "/dɪˈstresfəl/",
                   "pos": "adj.",
                   "meaning": "adj.苦恼的；不幸的"
                 }
@@ -28747,7 +28747,7 @@ window.CET6_DATA = {
               "id": "u8_l3_01",
               "num": "47",
               "word": "agony",
-              "phonetic": "/egani/",
+              "phonetic": "/ˈæɡəni/",
               "pos": "n.",
               "meaning": "n.极大的痛苦；苦难",
               "highlight": "n.极大的痛苦",
@@ -28762,7 +28762,7 @@ window.CET6_DATA = {
               "id": "u8_l3_02",
               "num": "48",
               "word": "misery",
-              "phonetic": "/eziw /",
+              "phonetic": "/ˈmɪzəri/",
               "pos": "n.",
               "meaning": "n.痛苦，悲惨；穷困",
               "highlight": "n.痛苦",
@@ -28772,7 +28772,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "miserable",
-                  "phonetic": "/'mizrabl/",
+                  "phonetic": "/ˈmɪzrəb(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.痛苦的；可怜的；令人不快的"
                 }
@@ -28797,7 +28797,7 @@ window.CET6_DATA = {
               "id": "u8_l3_04",
               "num": "50",
               "word": "notwithstanding",
-              "phonetic": "/notw/staendir/",
+              "phonetic": "/ˌnɑːtwɪθˈstændɪŋ/",
               "pos": "prep.",
               "meaning": "prep.尽管 adv.&.conj.尽管如此",
               "highlight": "prep.尽管 adv.&.conj.尽管如此",
@@ -28849,7 +28849,7 @@ window.CET6_DATA = {
               "id": "u8_l3_07",
               "num": "02",
               "word": "grim",
-              "phonetic": "/grim/",
+              "phonetic": "/ɡrɪm/",
               "pos": "adj.",
               "meaning": "adj.严肃的；令人沮丧的",
               "highlight": "adj.严肃的",
@@ -28864,7 +28864,7 @@ window.CET6_DATA = {
               "id": "u8_l3_08",
               "num": "03",
               "word": "trim",
-              "phonetic": "/trim/",
+              "phonetic": "/trɪm/",
               "pos": "adj.",
               "meaning": "adj.整齐的；苗条的v.修剪；修饰 n.修剪；饰物",
               "highlight": "adj.整齐的",
@@ -28879,7 +28879,7 @@ window.CET6_DATA = {
               "id": "u8_l3_09",
               "num": "04",
               "word": "mow",
-              "phonetic": "/mau/",
+              "phonetic": "/moʊ/",
               "pos": "v.",
               "meaning": "v.割，修剪",
               "highlight": "v.割",
@@ -28894,7 +28894,7 @@ window.CET6_DATA = {
               "id": "u8_l3_10",
               "num": "05",
               "word": "clip",
-              "phonetic": "/klp/",
+              "phonetic": "/klɪp/",
               "pos": "n.",
               "meaning": "n.夹子；回形针；片段；修剪 v.夹住；修剪；碰撞",
               "highlight": "n.夹子",
@@ -28907,7 +28907,7 @@ window.CET6_DATA = {
               "id": "u8_l3_11",
               "num": "06",
               "word": "chop",
-              "phonetic": "/da/",
+              "phonetic": "/tʃɑːp/",
               "pos": "v.",
               "meaning": "v.切碎；砍，劈；削减；取消 n.猪（或羊等）排；砍，劈",
               "highlight": "v.切碎",
@@ -28920,7 +28920,7 @@ window.CET6_DATA = {
               "id": "u8_l3_12",
               "num": "07",
               "word": "boundary",
-              "phonetic": "/'baundri/",
+              "phonetic": "/ˈbaʊndri/",
               "pos": "n.",
               "meaning": "n.边界，分界线，界限",
               "highlight": "n.边界",
@@ -28996,7 +28996,7 @@ window.CET6_DATA = {
               "id": "u8_l3_17",
               "num": "12",
               "word": "bound",
-              "phonetic": "/baund/",
+              "phonetic": "/baʊnd/",
               "pos": "n.",
               "meaning": "n.界限，限度；跳跃adj.肯定的；有责 任的v.跳跃着跑；以某物为界",
               "highlight": "n.界限",
@@ -29026,7 +29026,7 @@ window.CET6_DATA = {
               "id": "u8_l3_19",
               "num": "14",
               "word": "bias",
-              "phonetic": "/sereq,/",
+              "phonetic": "/ˈbaɪəs/",
               "pos": "n.",
               "meaning": "n.偏心，偏见，偏爱v.使有偏见",
               "highlight": "n.偏心",
@@ -29041,7 +29041,7 @@ window.CET6_DATA = {
               "id": "u8_l3_20",
               "num": "15",
               "word": "ambiguous",
-              "phonetic": "/aem'bigjuas/",
+              "phonetic": "/æmˈbɪɡjuəs/",
               "pos": "adj.",
               "meaning": "adj.模棱两可的，不明确的",
               "highlight": "adj.模棱两可的",
@@ -29051,7 +29051,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ambiguity",
-                  "phonetic": "/iaembr'gjuati/",
+                  "phonetic": "/ˌæmbɪˈɡjuːəti/",
                   "pos": "n.",
                   "meaning": "n.模棱两可，不明确"
                 }
@@ -29063,7 +29063,7 @@ window.CET6_DATA = {
               "id": "u8_l3_21",
               "num": "16",
               "word": "equity",
-              "phonetic": "/'ekwati/",
+              "phonetic": "/ˈekwəti/",
               "pos": "n.",
               "meaning": "n.公平，公正；股票；资产净值",
               "highlight": "n.公平",
@@ -29073,7 +29073,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "equitable",
-                  "phonetic": "/'ekwitabl/",
+                  "phonetic": "/ˈekwɪtəb(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.公平合理的；公正的"
                 }
@@ -29083,7 +29083,7 @@ window.CET6_DATA = {
               "id": "u8_l3_22",
               "num": "17",
               "word": "equate",
-              "phonetic": "/t'kwert/",
+              "phonetic": "/ɪˈkweɪt/",
               "pos": "v.",
               "meaning": "v.等同",
               "highlight": "v.等同",
@@ -29098,7 +29098,7 @@ window.CET6_DATA = {
               "id": "u8_l3_23",
               "num": "18",
               "word": "adequate",
-              "phonetic": "/'edikwat/",
+              "phonetic": "/ˈædɪkwət/",
               "pos": "adj.",
               "meaning": "adj.足够的，充分的；合乎需要的",
               "highlight": "adj.足够的",
@@ -29108,7 +29108,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "adequately",
-                  "phonetic": "/edikwatli/",
+                  "phonetic": "/ˈædɪkwətli/",
                   "pos": "adv.",
                   "meaning": "adv.足够地，充分地"
                 }
@@ -29120,7 +29120,7 @@ window.CET6_DATA = {
               "id": "u8_l3_24",
               "num": "19",
               "word": "equivalent",
-              "phonetic": "/t'kwivalont/",
+              "phonetic": "/ɪˈkwɪvələnt/",
               "pos": "adj.",
               "meaning": "adj.等值的；等同的 n.等同物；等价物",
               "highlight": "adj.等值的",
@@ -29146,7 +29146,7 @@ window.CET6_DATA = {
               "id": "u8_l3_26",
               "num": "21",
               "word": "arrogant",
-              "phonetic": "/'eragont/",
+              "phonetic": "/ˈærəɡənt/",
               "pos": "adj.",
               "meaning": "adj.做慢的，自大的",
               "highlight": "adj.做慢的",
@@ -29156,7 +29156,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "arrogance",
-                  "phonetic": "/'eragons/",
+                  "phonetic": "/ˈærəɡəns/",
                   "pos": "n.",
                   "meaning": "n.傲慢，自大"
                 }
@@ -29168,7 +29168,7 @@ window.CET6_DATA = {
               "id": "u8_l3_27",
               "num": "22",
               "word": "eloquent",
-              "phonetic": "/'elakwant/",
+              "phonetic": "/ˈeləkwənt/",
               "pos": "adj.",
               "meaning": "adj.雄辩的，能言善辩的",
               "highlight": "adj.雄辩的",
@@ -29178,7 +29178,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "eloquence",
-                  "phonetic": "/'elakwans/",
+                  "phonetic": "/ˈeləkwəns/",
                   "pos": "n.",
                   "meaning": "n.雄辩；口才"
                 }
@@ -29188,7 +29188,7 @@ window.CET6_DATA = {
               "id": "u8_l3_28",
               "num": "23",
               "word": "hostile",
-              "phonetic": "/'hostail/",
+              "phonetic": "/ˈhɑːst(ə)l/",
               "pos": "adj.",
               "meaning": "adj.敌意的，敌视的",
               "highlight": "adj.敌意的",
@@ -29198,7 +29198,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "hostility",
-                  "phonetic": "/ho'stulati/",
+                  "phonetic": "/hɑːˈstɪləti/",
                   "pos": "n.",
                   "meaning": "n.敌意，对抗"
                 }
@@ -29208,7 +29208,7 @@ window.CET6_DATA = {
               "id": "u8_l3_29",
               "num": "24",
               "word": "anxious",
-              "phonetic": "/aenkfas/",
+              "phonetic": "/ˈæŋkʃəs/",
               "pos": "adj.",
               "meaning": "adj.焦虑的；渴望的",
               "highlight": "adj.焦虑的",
@@ -29218,7 +29218,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "anxiety",
-                  "phonetic": "/aenzarati/",
+                  "phonetic": "/æŋˈzaɪəti/",
                   "pos": "n.",
                   "meaning": "n.忧虑，担忧；渴望"
                 }
@@ -29228,7 +29228,7 @@ window.CET6_DATA = {
               "id": "u8_l3_30",
               "num": "25",
               "word": "dreadful",
-              "phonetic": "/'dredfl/",
+              "phonetic": "/ˈdredf(ə)l/",
               "pos": "adj.",
               "meaning": "adj.可怕的，令人畏惧的",
               "highlight": "adj.可怕的",
@@ -29241,7 +29241,7 @@ window.CET6_DATA = {
               "id": "u8_l3_31",
               "num": "26",
               "word": "dread",
-              "phonetic": "/paxp/",
+              "phonetic": "/dred/",
               "pos": "v.",
               "meaning": "v.非常害怕；极为担心n.恐惧 adj.可怕的",
               "highlight": "v.非常害怕",
@@ -29269,7 +29269,7 @@ window.CET6_DATA = {
               "id": "u8_l3_33",
               "num": "28",
               "word": "critic",
-              "phonetic": "/'kritik/",
+              "phonetic": "/ˈkrɪtɪk/",
               "pos": "n.",
               "meaning": "n.批评家，评论家",
               "highlight": "n.批评家",
@@ -29279,13 +29279,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "criticism",
-                  "phonetic": "/'krtsizam/",
+                  "phonetic": "/ˈkrɪtɪsɪzəm/",
                   "pos": "n.",
                   "meaning": "n.批评，批判；评论"
                 },
                 {
                   "word": "critical",
-                  "phonetic": "/'kritikl/",
+                  "phonetic": "/ˈkrɪtɪk(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.关键的；批评的"
                 }
@@ -29295,7 +29295,7 @@ window.CET6_DATA = {
               "id": "u8_l3_34",
               "num": "29",
               "word": "criterion",
-              "phonetic": "/kral'tiarion/",
+              "phonetic": "/kraɪˈtɪriən/",
               "pos": "n.",
               "meaning": "n.(批评判断的）标准，准则",
               "highlight": "n.(批评判断的）标准",
@@ -29310,7 +29310,7 @@ window.CET6_DATA = {
               "id": "u8_l3_35",
               "num": "30",
               "word": "confident",
-              "phonetic": "/'konfidant/",
+              "phonetic": "/ˈkɑːnfɪdənt/",
               "pos": "adj.",
               "meaning": "adj.自信的；有把握的",
               "highlight": "adj.自信的",
@@ -29320,7 +29320,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "confidence",
-                  "phonetic": "/'konfidans/",
+                  "phonetic": "/ˈkɑːnfɪdəns/",
                   "pos": "n.",
                   "meaning": "n.信心，自信"
                 }
@@ -29330,7 +29330,7 @@ window.CET6_DATA = {
               "id": "u8_l3_36",
               "num": "31",
               "word": "cynical",
-              "phonetic": "/'sinikl/",
+              "phonetic": "/ˈsɪnɪk(ə)l/",
               "pos": "adj.",
               "meaning": "adj.愤世嫉俗的；悲观的；怀疑的",
               "highlight": "adj.愤世嫉俗的",
@@ -29340,7 +29340,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "cynicism",
-                  "phonetic": "/snisizam/",
+                  "phonetic": "/ˈsɪnɪsɪzəm/",
                   "pos": "n.",
                   "meaning": "n.愤世嫉俗；犬儒主义"
                 }
@@ -29432,7 +29432,7 @@ window.CET6_DATA = {
               "id": "u8_l3_41",
               "num": "36",
               "word": "coward",
-              "phonetic": "/'kauad/",
+              "phonetic": "/ˈkaʊərd/",
               "pos": "n.",
               "meaning": "n.儒夫，胆怯者",
               "highlight": "n.儒夫",
@@ -29442,13 +29442,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "cowardly",
-                  "phonetic": "/'kauadli/",
+                  "phonetic": "/ˈkaʊərdli/",
                   "pos": "adj.",
                   "meaning": "adj.胆小的"
                 },
                 {
                   "word": "cowardice",
-                  "phonetic": "/'kauadis/",
+                  "phonetic": "/ˈkaʊərdɪs/",
                   "pos": "n.",
                   "meaning": "n.胆小，儒弱"
                 }
@@ -29458,7 +29458,7 @@ window.CET6_DATA = {
               "id": "u8_l3_42",
               "num": "37",
               "word": "timid",
-              "phonetic": "/'timid/",
+              "phonetic": "/ˈtɪmɪd/",
               "pos": "adj.",
               "meaning": "adj.胆小的，羞怯的",
               "highlight": "adj.胆小的",
@@ -29471,7 +29471,7 @@ window.CET6_DATA = {
               "id": "u8_l3_43",
               "num": "38",
               "word": "intimidate",
-              "phonetic": "/In'tmdeit/",
+              "phonetic": "/ɪnˈtɪmɪdeɪt/",
               "pos": "v.",
               "meaning": "v.恐吓；威胁；使害怕，使失去信心",
               "highlight": "v.恐吓",
@@ -29481,7 +29481,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "intimidation",
-                  "phonetic": "/initm'derfn/",
+                  "phonetic": "/ɪnˌtɪmɪˈdeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.威胁；恐吓"
                 }
@@ -29511,7 +29511,7 @@ window.CET6_DATA = {
               "id": "u8_l3_45",
               "num": "40",
               "word": "elegant",
-              "phonetic": "/'eligant/",
+              "phonetic": "/ˈelɪɡənt/",
               "pos": "adj.",
               "meaning": "adj.优美的，高雅的；巧妙的",
               "highlight": "adj.优美的",
@@ -29521,7 +29521,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "elegance",
-                  "phonetic": "/'eligons/",
+                  "phonetic": "/ˈelɪɡəns/",
                   "pos": "n.",
                   "meaning": "n.优雅，雅致"
                 }
@@ -29533,7 +29533,7 @@ window.CET6_DATA = {
               "id": "u8_l3_46",
               "num": "41",
               "word": "grace",
-              "phonetic": "/greis/",
+              "phonetic": "/ɡreɪs/",
               "pos": "n.",
               "meaning": "n.优雅，体面；宽限期；恩宠 v.为.……增色，美化",
               "highlight": "n.优雅",
@@ -29543,13 +29543,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "graceful",
-                  "phonetic": "/'grersfl/",
+                  "phonetic": "/ˈɡreɪsf(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.优美的；得体的"
                 },
                 {
                   "word": "gracious",
-                  "phonetic": "/'grerfas/",
+                  "phonetic": "/ˈɡreɪʃəs/",
                   "pos": "adj.",
                   "meaning": "adj.和蔼的，慈祥的，有礼貌的"
                 }
@@ -29561,7 +29561,7 @@ window.CET6_DATA = {
               "id": "u8_l3_47",
               "num": "42",
               "word": "luxury",
-              "phonetic": "/ev,/",
+              "phonetic": "/ˈlʌkʃəri/",
               "pos": "n.",
               "meaning": "n.奢华，奢侈；奢侈品",
               "highlight": "n.奢华",
@@ -29583,7 +29583,7 @@ window.CET6_DATA = {
               "id": "u8_l3_48",
               "num": "43",
               "word": "extravagant",
-              "phonetic": "/ik'straevagont/",
+              "phonetic": "/ɪkˈstrævəɡənt/",
               "pos": "adj.",
               "meaning": "adj.奢侈的；挥霍的；过度的",
               "highlight": "adj.奢侈的",
@@ -29593,7 +29593,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "extravagance",
-                  "phonetic": "/ɪk'strævəɡəns/",
+                  "phonetic": "/ɪkˈstrævəɡəns/",
                   "pos": "n.",
                   "meaning": "n. 奢侈；挥霍，铺张浪费"
                 }
@@ -29605,7 +29605,7 @@ window.CET6_DATA = {
               "id": "u8_l3_49",
               "num": "44",
               "word": "reliable",
-              "phonetic": "/qer,/",
+              "phonetic": "/rɪˈlaɪəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.可靠的，可信赖的",
               "highlight": "adj.可靠的",
@@ -29615,7 +29615,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "reliance",
-                  "phonetic": "/ri'laans/",
+                  "phonetic": "/rɪˈlaɪəns/",
                   "pos": "n.",
                   "meaning": "n.依靠，依赖"
                 }
@@ -29637,7 +29637,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "liability",
-                  "phonetic": "/ilara'bilati/",
+                  "phonetic": "/ˌlaɪəˈbɪləti/",
                   "pos": "n.",
                   "meaning": "n.责任；累赘；负债"
                 }
@@ -29647,7 +29647,7 @@ window.CET6_DATA = {
               "id": "u8_l3_51",
               "num": "46",
               "word": "credible",
-              "phonetic": "/'kredabl/",
+              "phonetic": "/ˈkredəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.可信的，可靠的",
               "highlight": "adj.可信的",
@@ -29657,13 +29657,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "credibility",
-                  "phonetic": "/kreda'bilati/",
+                  "phonetic": "/ˌkredəˈbɪləti/",
                   "pos": "n.",
                   "meaning": "n.可信性，可靠性"
                 },
                 {
                   "word": "incredible",
-                  "phonetic": "/mn'kredabl/",
+                  "phonetic": "/ɪnˈkredəb(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.难以置信的；极好的；极大的"
                 }
@@ -29675,7 +29675,7 @@ window.CET6_DATA = {
               "id": "u8_l3_52",
               "num": "47",
               "word": "skeptical",
-              "phonetic": "/'skeptɪkl/",
+              "phonetic": "/ˈskeptɪk(ə)l/",
               "pos": "adj.",
               "meaning": "adj. 表示怀疑的；不相信的",
               "highlight": "/'skeptikl/ adj.表示怀疑的",
@@ -29685,7 +29685,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "skepticism",
-                  "phonetic": "/'skeptɪsɪzəm/",
+                  "phonetic": "/ˈskeptɪsɪzəm/",
                   "pos": "n.",
                   "meaning": "n. 怀疑态度；怀疑主义"
                 }
@@ -29695,7 +29695,7 @@ window.CET6_DATA = {
               "id": "u8_l3_53",
               "num": "48",
               "word": "dubious",
-              "phonetic": "/'djuːbiəs/",
+              "phonetic": "/ˈduːbiəs/",
               "pos": "adj.",
               "meaning": "adj. 怀疑的；无把握的，拿不准的；可疑的",
               "highlight": "adj.怀疑的",
@@ -29708,7 +29708,7 @@ window.CET6_DATA = {
               "id": "u8_l3_54",
               "num": "49",
               "word": "decide",
-              "phonetic": "/di'said/",
+              "phonetic": "/dɪˈsaɪd/",
               "pos": "v.",
               "meaning": "v.决定；选定",
               "highlight": "v.决定",
@@ -29718,7 +29718,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "decisive",
-                  "phonetic": "/di'saisiv/",
+                  "phonetic": "/dɪˈsaɪsɪv/",
                   "pos": "adj.",
                   "meaning": "adj.决定性的，关键的；果断的"
                 },
@@ -29769,7 +29769,7 @@ window.CET6_DATA = {
               "id": "u8_l3_57",
               "num": "52",
               "word": "coarse",
-              "phonetic": "/kocs/",
+              "phonetic": "/kɔːrs/",
               "pos": "adj.",
               "meaning": "adj.粗糙的；大颗粒的；粗鲁无礼的",
               "highlight": "adj.粗糙的",
@@ -29782,7 +29782,7 @@ window.CET6_DATA = {
               "id": "u8_l3_58",
               "num": "53",
               "word": "slip",
-              "phonetic": "/slip/",
+              "phonetic": "/slɪp/",
               "pos": "v.",
               "meaning": "v.滑（倒）；溜走；下降 n.滑倒；差错，疏漏；纸条",
               "highlight": "v.滑（倒）",
@@ -29792,13 +29792,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "slipper",
-                  "phonetic": "/'slipa(r)/",
+                  "phonetic": "/ˈslɪpər/",
                   "pos": "n.",
                   "meaning": "n.拖鞋"
                 },
                 {
                   "word": "slippery",
-                  "phonetic": "/'slipari/",
+                  "phonetic": "/ˈslɪpəri/",
                   "pos": "adj.",
                   "meaning": "adj.光滑的"
                 }
@@ -29808,7 +29808,7 @@ window.CET6_DATA = {
               "id": "u8_l3_59",
               "num": "54",
               "word": "rough",
-              "phonetic": "/Jvx/",
+              "phonetic": "/rʌf/",
               "pos": "adj.",
               "meaning": "adj.粗糙的，粗略的；粗野的；艰难的",
               "highlight": "adj.粗糙的",
@@ -29818,7 +29818,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "roughly",
-                  "phonetic": "/'rafli/",
+                  "phonetic": "/ˈrʌfli/",
                   "pos": "",
                   "meaning": "adu.大约，大致"
                 }
@@ -29828,7 +29828,7 @@ window.CET6_DATA = {
               "id": "u8_l3_60",
               "num": "55",
               "word": "tough",
-              "phonetic": "/Jv/",
+              "phonetic": "/tʌf/",
               "pos": "adj.",
               "meaning": "adj.坚强的；艰苦的，艰难的；严厉的； 强硬的",
               "highlight": "adj.坚强的",
@@ -29858,7 +29858,7 @@ window.CET6_DATA = {
               "id": "u8_l3_62",
               "num": "57",
               "word": "ridiculous",
-              "phonetic": "/serexp,/",
+              "phonetic": "/rɪˈdɪkjələs/",
               "pos": "adj.",
               "meaning": "adj.可笑的；荒谬的",
               "highlight": "adj.可笑的",
@@ -29871,7 +29871,7 @@ window.CET6_DATA = {
               "id": "u8_l3_63",
               "num": "58",
               "word": "restless",
-              "phonetic": "/'restlas/",
+              "phonetic": "/ˈrestləs/",
               "pos": "adj.",
               "meaning": "adj.坐立不安的，待不住的；不耐烦的",
               "highlight": "adj.坐立不安的",
@@ -29886,7 +29886,7 @@ window.CET6_DATA = {
               "id": "u8_l3_64",
               "num": "59",
               "word": "outgoing",
-              "phonetic": "/aut'gourn/",
+              "phonetic": "/ˈaʊtɡoʊɪŋ/",
               "pos": "adj.",
               "meaning": "adj.爱交际的，外向的；将卸任的；向 外的",
               "highlight": "adj.爱交际的",
@@ -29916,7 +29916,7 @@ window.CET6_DATA = {
               "id": "u8_l3_66",
               "num": "61",
               "word": "daring",
-              "phonetic": "/'dearig/",
+              "phonetic": "/ˈderɪŋ/",
               "pos": "adj.",
               "meaning": "adj.勇敢的，敢于冒险的 n.大胆，勇敢；胆量",
               "highlight": "adj.勇敢的",
@@ -29978,7 +29978,7 @@ window.CET6_DATA = {
               "id": "u8_l4_01",
               "num": "01",
               "word": "radiate",
-              "phonetic": "/'reidiert/",
+              "phonetic": "/ˈreɪdieɪt/",
               "pos": "v.",
               "meaning": "v.（使热、光、能量）辐射，放射；散发",
               "highlight": "v.（使热、光、能量）辐射",
@@ -29988,13 +29988,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "radiation",
-                  "phonetic": "/irerdi'erfn/",
+                  "phonetic": "/ˌreɪdiˈeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.辐射；放射线"
                 },
                 {
                   "word": "radiator",
-                  "phonetic": "/'reidierta(r)/",
+                  "phonetic": "/ˈreɪdieɪtər/",
                   "pos": "n.",
                   "meaning": "n.散热器；暖气片"
                 }
@@ -30006,7 +30006,7 @@ window.CET6_DATA = {
               "id": "u8_l4_02",
               "num": "02",
               "word": "radiant",
-              "phonetic": "/'rerdiant/",
+              "phonetic": "/ˈreɪdiənt/",
               "pos": "adj.",
               "meaning": "adj.喜气洋洋的，容光焕发的；灿烂 的；辐射的",
               "highlight": "adj.喜气洋洋的",
@@ -30019,7 +30019,7 @@ window.CET6_DATA = {
               "id": "u8_l4_03",
               "num": "03",
               "word": "radioactive",
-              "phonetic": "/reidiau'ektiv/",
+              "phonetic": "/ˌreɪdioʊˈæktɪv/",
               "pos": "adj.",
               "meaning": "adj.放射性的，有辐射的",
               "highlight": "adj.放射性的",
@@ -30029,7 +30029,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "radioactivity",
-                  "phonetic": "/rediaueek'tivoti/",
+                  "phonetic": "/ˌreɪdioʊækˈtɪvəti/",
                   "pos": "n.",
                   "meaning": "n.放射性"
                 }
@@ -30039,7 +30039,7 @@ window.CET6_DATA = {
               "id": "u8_l4_04",
               "num": "04",
               "word": "silicon",
-              "phonetic": "/'slikan/",
+              "phonetic": "/ˈsɪlɪkən/",
               "pos": "n.",
               "meaning": "n.硅",
               "highlight": "n.硅",
@@ -30091,7 +30091,7 @@ window.CET6_DATA = {
               "id": "u8_l4_08",
               "num": "08",
               "word": "polish",
-              "phonetic": "/ad,/",
+              "phonetic": "/ˈpɑːlɪʃ/",
               "pos": "n.",
               "meaning": "n.亮光剂；擦亮，磨光 v.擦亮，抛光；修改，润色",
               "highlight": "n.亮光剂",
@@ -30114,13 +30114,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "enlightenment",
-                  "phonetic": "/In'laitnmant/",
+                  "phonetic": "/ɪnˈlaɪt(ə)nmənt/",
                   "pos": "n.",
                   "meaning": "n.启迪，启发；开导"
                 },
                 {
                   "word": "enlightening",
-                  "phonetic": "/in'lartni/",
+                  "phonetic": "/ɪnˈlaɪtnɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.有启迪的，使人感悟的"
                 }
@@ -30132,7 +30132,7 @@ window.CET6_DATA = {
               "id": "u8_l4_10",
               "num": "10",
               "word": "delight",
-              "phonetic": "/ds'lart/",
+              "phonetic": "/dɪˈlaɪt/",
               "pos": "n.",
               "meaning": "n.高兴v.使高兴；使愉快",
               "highlight": "n.高兴v.使高兴",
@@ -30142,7 +30142,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "delightful",
-                  "phonetic": "/dr'lartfl/",
+                  "phonetic": "/dɪˈlaɪtf(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.使人快乐的，令人愉快的；宜 人的"
                 }
@@ -30152,7 +30152,7 @@ window.CET6_DATA = {
               "id": "u8_l4_11",
               "num": "11",
               "word": "plight",
-              "phonetic": "/plat/",
+              "phonetic": "/plaɪt/",
               "pos": "n.",
               "meaning": "n.苦难，困境",
               "highlight": "n.苦难",
@@ -30167,7 +30167,7 @@ window.CET6_DATA = {
               "id": "u8_l4_12",
               "num": "12",
               "word": "dilemma",
-              "phonetic": "/di'lema/",
+              "phonetic": "/dɪˈlemə/",
               "pos": "n.",
               "meaning": "n.(进退两难的）窘境，困境",
               "highlight": "n.(进退两难的）窘境",
@@ -30182,7 +30182,7 @@ window.CET6_DATA = {
               "id": "u8_l4_13",
               "num": "14",
               "word": "strap",
-              "phonetic": "/straep/",
+              "phonetic": "/stræp/",
               "pos": "n.",
               "meaning": "n.带子v.用带子系（或捆、扎、扣）好",
               "highlight": "n.带子v.用带子系（或捆、扎、扣）好",
@@ -30197,7 +30197,7 @@ window.CET6_DATA = {
               "id": "u8_l4_14",
               "num": "16",
               "word": "stripe",
-              "phonetic": "/straip/",
+              "phonetic": "/straɪp/",
               "pos": "n.",
               "meaning": "n.条纹；线条",
               "highlight": "n.条纹",
@@ -30212,7 +30212,7 @@ window.CET6_DATA = {
               "id": "u8_l4_15",
               "num": "17",
               "word": "ignite",
-              "phonetic": "/ig'nat/",
+              "phonetic": "/ɪɡˈnaɪt/",
               "pos": "v.",
               "meaning": "v.点燃，（使）燃烧，着火",
               "highlight": "v.点燃",
@@ -30222,7 +30222,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ignition",
-                  "phonetic": "/ig'nfn/",
+                  "phonetic": "/ɪɡˈnɪʃn/",
                   "pos": "n.",
                   "meaning": "n.点燃；点火装置"
                 }
@@ -30234,7 +30234,7 @@ window.CET6_DATA = {
               "id": "u8_l4_16",
               "num": "18",
               "word": "illuminate",
-              "phonetic": "/r'luminert/",
+              "phonetic": "/ɪˈluːmɪneɪt/",
               "pos": "v.",
               "meaning": "v.照明，照亮；阐明，解释",
               "highlight": "v.照明",
@@ -30244,7 +30244,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "illumination",
-                  "phonetic": "/lum'nerjn/",
+                  "phonetic": "/ɪˌluːmɪˈneɪʃn/",
                   "pos": "n.",
                   "meaning": "n.启示；阐明；照明"
                 }
@@ -30278,7 +30278,7 @@ window.CET6_DATA = {
               "id": "u8_l4_18",
               "num": "20",
               "word": "fantasy",
-              "phonetic": "/faentasi/",
+              "phonetic": "/ˈfæntəsi/",
               "pos": "n.",
               "meaning": "n.幻想，想象",
               "highlight": "n.幻想",
@@ -30291,7 +30291,7 @@ window.CET6_DATA = {
               "id": "u8_l4_19",
               "num": "21",
               "word": "fantastic",
-              "phonetic": "/faen'taestik/",
+              "phonetic": "/fænˈtæstɪk/",
               "pos": "adj.",
               "meaning": "adj.极好的，了不起的；不切实际的",
               "highlight": "adj.极好的",
@@ -30304,7 +30304,7 @@ window.CET6_DATA = {
               "id": "u8_l4_20",
               "num": "22",
               "word": "fancy",
-              "phonetic": "/'fensi/",
+              "phonetic": "/ˈfænsi/",
               "pos": "",
               "meaning": "杂的；精致的n.想象(力);爱好 v.认为，想象；想要；自负adj.异常复",
               "highlight": "杂的",
@@ -30317,7 +30317,7 @@ window.CET6_DATA = {
               "id": "u8_l4_21",
               "num": "23",
               "word": "consider",
-              "phonetic": "/kon'sida(r)/",
+              "phonetic": "/kənˈsɪdər/",
               "pos": "v.",
               "meaning": "v.仔细考虑；认为",
               "highlight": "v.仔细考虑",
@@ -30327,7 +30327,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "considering",
-                  "phonetic": "/kan'sidarn/",
+                  "phonetic": "/kənˈsɪdərɪŋ/",
                   "pos": "prep.",
                   "meaning": "prep.&conj.考虑到；就.….而言； 鉴于"
                 },
@@ -30343,7 +30343,7 @@ window.CET6_DATA = {
               "id": "u8_l4_22",
               "num": "24",
               "word": "considerate",
-              "phonetic": "/kan'sidarat/",
+              "phonetic": "/kənˈsɪdərət/",
               "pos": "adj.",
               "meaning": "adj.体贴的，体谅的；考虑周到的",
               "highlight": "adj.体贴的",
@@ -30356,7 +30356,7 @@ window.CET6_DATA = {
               "id": "u8_l4_23",
               "num": "25",
               "word": "considerable",
-              "phonetic": "/kan'sidarabl/",
+              "phonetic": "/kənˈsɪdərəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.相当大(或多、重要等）的",
               "highlight": "adj.相当大(或多、重要等）的",
@@ -30369,7 +30369,7 @@ window.CET6_DATA = {
               "id": "u8_l4_24",
               "num": "26",
               "word": "negotiate",
-              "phonetic": "/ni'gaufiert/",
+              "phonetic": "/nɪˈɡoʊʃieɪt/",
               "pos": "v.",
               "meaning": "v.谈判，协商；达成(协议)",
               "highlight": "v.谈判",
@@ -30385,7 +30385,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "negotiation",
-                  "phonetic": "/nigaufi'ern/",
+                  "phonetic": "/nɪˌɡoʊʃiˈeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.谈判，磋商，协商"
                 }
@@ -30395,7 +30395,7 @@ window.CET6_DATA = {
               "id": "u8_l4_25",
               "num": "27",
               "word": "hesitate",
-              "phonetic": "/'heziteit/",
+              "phonetic": "/ˈhezɪteɪt/",
               "pos": "v.",
               "meaning": "v.犹豫；顾虑，疑虑",
               "highlight": "v.犹豫",
@@ -30405,7 +30405,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "hesitation",
-                  "phonetic": "/hezi'terfn/",
+                  "phonetic": "/ˌhezɪˈteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.犹豫，迟疑不决"
                 },
@@ -30423,7 +30423,7 @@ window.CET6_DATA = {
               "id": "u8_l4_26",
               "num": "28",
               "word": "tentative",
-              "phonetic": "/'tentatv/",
+              "phonetic": "/ˈtentətɪv/",
               "pos": "adj.",
               "meaning": "adj.试探性的；犹豫不决的，不确定 的；暂定的",
               "highlight": "adj.试探性的",
@@ -30451,7 +30451,7 @@ window.CET6_DATA = {
               "id": "u8_l4_28",
               "num": "30",
               "word": "crude",
-              "phonetic": "/krud/",
+              "phonetic": "/kruːd/",
               "pos": "adj.",
               "meaning": "adj.粗略的；粗鲁的，粗俗的；天然的",
               "highlight": "adj.粗略的",
@@ -30498,7 +30498,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "desirous",
-                  "phonetic": "/seerez,IP/",
+                  "phonetic": "/dɪˈzaɪərəs/",
                   "pos": "adj.",
                   "meaning": "adj.渴望的，希望的"
                 }
@@ -30508,7 +30508,7 @@ window.CET6_DATA = {
               "id": "u8_l4_31",
               "num": "33",
               "word": "desirable",
-              "phonetic": "/Iqeserez,IP/",
+              "phonetic": "/dɪˈzaɪərəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.理想的；值得拥有的；值得做的",
               "highlight": "adj.理想的",
@@ -30518,7 +30518,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "desirability",
-                  "phonetic": "/dizarara'bilati/",
+                  "phonetic": "/dɪˌzaɪərəˈbɪləti/",
                   "pos": "n.",
                   "meaning": "n.希求；欲求"
                 }
@@ -30528,7 +30528,7 @@ window.CET6_DATA = {
               "id": "u8_l4_32",
               "num": "34",
               "word": "radical",
-              "phonetic": "/'raedikl/",
+              "phonetic": "/ˈrædɪk(ə)l/",
               "pos": "n.",
               "meaning": "n.激进分子 adj.激进的；根本的，彻底的",
               "highlight": "n.激进分子 adj.激进的",
@@ -30551,7 +30551,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "extremity",
-                  "phonetic": "/ik'stremati/",
+                  "phonetic": "/ɪkˈstreməti/",
                   "pos": "n.",
                   "meaning": "n.极端，末端；尽头"
                 }
@@ -30561,7 +30561,7 @@ window.CET6_DATA = {
               "id": "u8_l4_34",
               "num": "36",
               "word": "despair",
-              "phonetic": "/dr'spea(r)/",
+              "phonetic": "/dɪˈsper/",
               "pos": "n.",
               "meaning": "n.绝望v.绝望，感到无望",
               "highlight": "n.绝望v.绝望",
@@ -30576,7 +30576,7 @@ window.CET6_DATA = {
               "id": "u8_l4_35",
               "num": "37",
               "word": "impair",
-              "phonetic": "/m'pea(r)/",
+              "phonetic": "/ɪmˈper/",
               "pos": "v.",
               "meaning": "v.损害；削弱",
               "highlight": "v.损害",
@@ -30604,7 +30604,7 @@ window.CET6_DATA = {
               "id": "u8_l4_37",
               "num": "39",
               "word": "diminish",
-              "phonetic": "/dr'mnsf/",
+              "phonetic": "/dɪˈmɪnɪʃ/",
               "pos": "v.",
               "meaning": "v.减少，（使）减弱，降低；贬低",
               "highlight": "v.减少",
@@ -30617,7 +30617,7 @@ window.CET6_DATA = {
               "id": "u8_l4_38",
               "num": "40",
               "word": "desperate",
-              "phonetic": "/ezedsp,/",
+              "phonetic": "/ˈdespərət/",
               "pos": "adj.",
               "meaning": "adj.拼命的；绝望的；非常需要的；危 急的",
               "highlight": "adj.拼命的",
@@ -30630,7 +30630,7 @@ window.CET6_DATA = {
               "id": "u8_l4_39",
               "num": "41",
               "word": "discrepancy",
-              "phonetic": "/di'skrepansi/",
+              "phonetic": "/dɪˈskrepənsi/",
               "pos": "n.",
               "meaning": "n.差异；不符合，不一致",
               "highlight": "n.差异",
@@ -30643,7 +30643,7 @@ window.CET6_DATA = {
               "id": "u8_l4_40",
               "num": "42",
               "word": "destiny",
-              "phonetic": "/'destani/",
+              "phonetic": "/ˈdestəni/",
               "pos": "n.",
               "meaning": "n.命运，天命，天数",
               "highlight": "n.命运",
@@ -30656,7 +30656,7 @@ window.CET6_DATA = {
               "id": "u8_l4_41",
               "num": "43",
               "word": "destined",
-              "phonetic": "/'destind/",
+              "phonetic": "/ˈdestɪnd/",
               "pos": "adj.",
               "meaning": "adj.预定；注定的",
               "highlight": "adj.预定",
@@ -30679,7 +30679,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "deliberation",
-                  "phonetic": "/dulaba'renjn/",
+                  "phonetic": "/dɪˌlɪbəˈreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.审议，考虑；审慎"
                 }
@@ -30691,7 +30691,7 @@ window.CET6_DATA = {
               "id": "u8_l4_43",
               "num": "45",
               "word": "liberate",
-              "phonetic": "/'libarert/",
+              "phonetic": "/ˈlɪbəreɪt/",
               "pos": "v.",
               "meaning": "v.解放；使自由，使摆脱约束（或限制） 号",
               "highlight": "v.解放",
@@ -30701,19 +30701,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "liberal",
-                  "phonetic": "/'lrbaral/",
+                  "phonetic": "/ˈlɪbərəl/",
                   "pos": "adj.",
                   "meaning": "adj.开明的；自由的，开放的"
                 },
                 {
                   "word": "liberty",
-                  "phonetic": "/'lrbati/",
+                  "phonetic": "/ˈlɪbərti/",
                   "pos": "n.",
                   "meaning": "n.自由"
                 },
                 {
                   "word": "liberation",
-                  "phonetic": "/liba'rerfn/",
+                  "phonetic": "/ˌlɪbəˈreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.解放"
                 }
@@ -30740,7 +30740,7 @@ window.CET6_DATA = {
               "id": "u8_l4_45",
               "num": "47",
               "word": "contemplate",
-              "phonetic": "/'kontamplert/",
+              "phonetic": "/ˈkɑːntəmpleɪt/",
               "pos": "v.",
               "meaning": "v.考虑；沉思，深思熟虑",
               "highlight": "v.考虑",
@@ -30750,13 +30750,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "contemplation",
-                  "phonetic": "/ˌkɒntəm'pleɪʃn/",
+                  "phonetic": "/ˌkɑːntəmˈpleɪʃn/",
                   "pos": "n.",
                   "meaning": "n. 深思，沉思，冥想；默默注视"
                 },
                 {
                   "word": "contemplative",
-                  "phonetic": "/kan'templativ/",
+                  "phonetic": "/kənˈtemplətɪv/",
                   "pos": "adj.",
                   "meaning": "adj.深思熟虑的，冥想的"
                 }
@@ -30850,7 +30850,7 @@ window.CET6_DATA = {
               "id": "u9_l1_01",
               "num": "01",
               "word": "vulgar",
-              "phonetic": "/'valga(r)/",
+              "phonetic": "/ˈvʌlɡər/",
               "pos": "adj.",
               "meaning": "adj.粗俗的，粗野的；庸俗的",
               "highlight": "adj.粗俗的",
@@ -30906,7 +30906,7 @@ window.CET6_DATA = {
               "id": "u9_l1_05",
               "num": "05",
               "word": "honour",
-              "phonetic": "/'ona(r)/",
+              "phonetic": "/ˈɑːnər/",
               "pos": "n.",
               "meaning": "n.尊敬；荣幸；荣誉v.尊重（某人)；给 予表扬(或奖励、头衔、称号)",
               "highlight": "n.尊敬",
@@ -30916,13 +30916,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "honorable",
-                  "phonetic": "/'ɒnərəbl/",
+                  "phonetic": "/ˈɑːnərəb(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj. 可敬的，值得钦佩的"
                 },
                 {
                   "word": "honorary",
-                  "phonetic": "/ueeua /",
+                  "phonetic": "/ˈɑːnəreri/",
                   "pos": "adj.",
                   "meaning": "adj.荣誉的；名誉的"
                 }
@@ -30952,7 +30952,7 @@ window.CET6_DATA = {
               "id": "u9_l1_07",
               "num": "07",
               "word": "trigger",
-              "phonetic": "/'triga(r)/",
+              "phonetic": "/ˈtrɪɡər/",
               "pos": "v.",
               "meaning": "v.引发，引起，触发 n.扳机；起因，诱因",
               "highlight": "v.引发",
@@ -30965,7 +30965,7 @@ window.CET6_DATA = {
               "id": "u9_l1_08",
               "num": "08",
               "word": "lag",
-              "phonetic": "/laeg/",
+              "phonetic": "/læɡ/",
               "pos": "v.",
               "meaning": "v.发展缓慢；滞后，落后于",
               "highlight": "v.发展缓慢",
@@ -30980,7 +30980,7 @@ window.CET6_DATA = {
               "id": "u9_l1_09",
               "num": "09",
               "word": "lame",
-              "phonetic": "/leim/",
+              "phonetic": "/leɪm/",
               "pos": "adj.",
               "meaning": "adj.跛的；没有说服力的",
               "highlight": "adj.跛的",
@@ -30995,7 +30995,7 @@ window.CET6_DATA = {
               "id": "u9_l1_10",
               "num": "10",
               "word": "tame",
-              "phonetic": "/tem/",
+              "phonetic": "/teɪm/",
               "pos": "v.",
               "meaning": "v.驯服；制服 adj.（动物）驯服的；温顺的",
               "highlight": "v.驯服",
@@ -31078,7 +31078,7 @@ window.CET6_DATA = {
               "id": "u9_l1_15",
               "num": "15",
               "word": "pregnant",
-              "phonetic": "/'pregnant/",
+              "phonetic": "/ˈpreɡnənt/",
               "pos": "adj.",
               "meaning": "adj.怀孕的；意味深长的",
               "highlight": "adj.怀孕的",
@@ -31088,7 +31088,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "pregnancy",
-                  "phonetic": "/'pregnansi/",
+                  "phonetic": "/ˈpreɡnənsi/",
                   "pos": "n.",
                   "meaning": "n.妊娠，怀孕"
                 }
@@ -31098,7 +31098,7 @@ window.CET6_DATA = {
               "id": "u9_l1_16",
               "num": "16",
               "word": "divorce",
-              "phonetic": "/di'vots/",
+              "phonetic": "/dɪˈvɔːrs/",
               "pos": "n.",
               "meaning": "n.&v.离婚；分离",
               "highlight": "n.&v.离婚",
@@ -31141,7 +31141,7 @@ window.CET6_DATA = {
               "id": "u9_l1_19",
               "num": "19",
               "word": "duplicate",
-              "phonetic": "/ˈdjuːplɪkeɪt/",
+              "phonetic": "/ˈduːplɪkeɪt/",
               "pos": "",
               "meaning": "v. 复制，复印 adj. 复制的，副本的 n. 复制品，副本",
               "highlight": "/'dju:plikent/ v.复制",
@@ -31171,7 +31171,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "reproduction",
-                  "phonetic": "/ripra'dakfn/",
+                  "phonetic": "/ˌriːprəˈdʌkʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.生殖，繁殖；复制"
                 },
@@ -31235,7 +31235,7 @@ window.CET6_DATA = {
               "id": "u9_l1_24",
               "num": "24",
               "word": "reputation",
-              "phonetic": "/irepju'terfn/",
+              "phonetic": "/ˌrepjuˈteɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.名声，名誉",
               "highlight": "n.名声",
@@ -31248,7 +31248,7 @@ window.CET6_DATA = {
               "id": "u9_l1_25",
               "num": "25",
               "word": "renown",
-              "phonetic": "/ri'naun/",
+              "phonetic": "/rɪˈnaʊn/",
               "pos": "n.",
               "meaning": "n.名誉，声誉",
               "highlight": "n.名誉",
@@ -31258,7 +31258,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "renowned",
-                  "phonetic": "/rt'naund/",
+                  "phonetic": "/rɪˈnaʊnd/",
                   "pos": "adj.",
                   "meaning": "adj.有名望的，著名的"
                 }
@@ -31280,7 +31280,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "notation",
-                  "phonetic": "/nau'terfn/",
+                  "phonetic": "/noʊˈteɪʃn/",
                   "pos": "n.",
                   "meaning": "n.符号，记号"
                 }
@@ -31307,7 +31307,7 @@ window.CET6_DATA = {
               "id": "u9_l1_28",
               "num": "28",
               "word": "anonymous",
-              "phonetic": "/anonimas/",
+              "phonetic": "/əˈnɑːnɪməs/",
               "pos": "adj.",
               "meaning": "adj.匿名的，不知姓名的；无特色的",
               "highlight": "adj.匿名的",
@@ -31317,7 +31317,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "anonymity",
-                  "phonetic": "/aena'nimati/",
+                  "phonetic": "/ˌænəˈnɪməti/",
                   "pos": "n.",
                   "meaning": "n.匿名；无特色"
                 }
@@ -31329,7 +31329,7 @@ window.CET6_DATA = {
               "id": "u9_l1_29",
               "num": "29",
               "word": "notorious",
-              "phonetic": "/nau'torios/",
+              "phonetic": "/noʊˈtɔːriəs/",
               "pos": "adj.",
               "meaning": "adj.声名狼籍的，臭名昭著的",
               "highlight": "adj.声名狼籍的",
@@ -31339,7 +31339,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "notoriety",
-                  "phonetic": "/nauta'raiati/",
+                  "phonetic": "/ˌnoʊtəˈraɪəti/",
                   "pos": "n.",
                   "meaning": "n.恶名，坏名声"
                 }
@@ -31349,7 +31349,7 @@ window.CET6_DATA = {
               "id": "u9_l1_30",
               "num": "30",
               "word": "esteem",
-              "phonetic": "/r'stim/",
+              "phonetic": "/ɪˈstiːm/",
               "pos": "n.",
               "meaning": "n.&v.尊重；敬重",
               "highlight": "n.&v.尊重",
@@ -31364,7 +31364,7 @@ window.CET6_DATA = {
               "id": "u9_l1_31",
               "num": "31",
               "word": "dignity",
-              "phonetic": "/geubip,/",
+              "phonetic": "/ˈdɪɡnəti/",
               "pos": "n.",
               "meaning": "n.尊严；庄重，体面；自尊心",
               "highlight": "n.尊严",
@@ -31384,7 +31384,7 @@ window.CET6_DATA = {
               "id": "u9_l1_32",
               "num": "32",
               "word": "indignant",
-              "phonetic": "/n'dignant/",
+              "phonetic": "/ɪnˈdɪɡnənt/",
               "pos": "adj.",
               "meaning": "adj.愤怒的，愤愤不平的",
               "highlight": "adj.愤怒的",
@@ -31394,7 +31394,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "indignation",
-                  "phonetic": "/ndg'nein/",
+                  "phonetic": "/ˌɪndɪɡˈneɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.愤慨，愤怒"
                 }
@@ -31419,7 +31419,7 @@ window.CET6_DATA = {
               "id": "u9_l1_34",
               "num": "34",
               "word": "reveal",
-              "phonetic": "/Au/",
+              "phonetic": "/rɪˈviːl/",
               "pos": "v.",
               "meaning": "v.揭示；透露，展现，显露",
               "highlight": "v.揭示",
@@ -31434,7 +31434,7 @@ window.CET6_DATA = {
               "id": "u9_l1_35",
               "num": "35",
               "word": "revelation",
-              "phonetic": "/ireva'lerfn/",
+              "phonetic": "/ˌrevəˈleɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.被揭露的真相；披露，揭露",
               "highlight": "n.被揭露的真相",
@@ -31449,7 +31449,7 @@ window.CET6_DATA = {
               "id": "u9_l1_36",
               "num": "36",
               "word": "release",
-              "phonetic": "/ri'lis/",
+              "phonetic": "/rɪˈliːs/",
               "pos": "v.",
               "meaning": "v.&.n.释放；发布，发行",
               "highlight": "v.&.n.释放",
@@ -31464,7 +31464,7 @@ window.CET6_DATA = {
               "id": "u9_l1_37",
               "num": "37",
               "word": "veil",
-              "phonetic": "/verl/",
+              "phonetic": "/veɪl/",
               "pos": "n.",
               "meaning": "n.面纱；薄薄的遮盖层 v.戴面纱；遮掩",
               "highlight": "n.面纱",
@@ -31477,7 +31477,7 @@ window.CET6_DATA = {
               "id": "u9_l1_38",
               "num": "38",
               "word": "unveil",
-              "phonetic": "/aan'venl/",
+              "phonetic": "/ˌʌnˈveɪl/",
               "pos": "v.",
               "meaning": "v.为……揭幕；将.….公之于众，展示",
               "highlight": "v.为……揭幕",
@@ -31503,7 +31503,7 @@ window.CET6_DATA = {
               "id": "u9_l1_40",
               "num": "40",
               "word": "disclose",
-              "phonetic": "/dɪs'kləʊz/",
+              "phonetic": "/dɪsˈkloʊz/",
               "pos": "v.",
               "meaning": "v. 揭露，透露，泄露",
               "highlight": "v.揭露",
@@ -31513,7 +31513,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "disclosure",
-                  "phonetic": "/disklauga(r)/",
+                  "phonetic": "/dɪsˈkloʊʒər/",
                   "pos": "n.",
                   "meaning": "n.揭露，透露，公开"
                 }
@@ -31523,7 +31523,7 @@ window.CET6_DATA = {
               "id": "u9_l1_41",
               "num": "41",
               "word": "enclose",
-              "phonetic": "/in'klauz/",
+              "phonetic": "/ɪnˈkloʊz/",
               "pos": "v.",
               "meaning": "v.把..….围起来；随信附上",
               "highlight": "v.把..….围起来",
@@ -31533,7 +31533,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "enclosure",
-                  "phonetic": "/mn'klauga(r)/",
+                  "phonetic": "/ɪnˈkloʊʒər/",
                   "pos": "n.",
                   "meaning": "n.围场；（信中的）附件"
                 }
@@ -31545,7 +31545,7 @@ window.CET6_DATA = {
               "id": "u9_l1_42",
               "num": "42",
               "word": "closet",
-              "phonetic": "/'klozt/",
+              "phonetic": "/ˈklɑːzɪt/",
               "pos": "n.",
               "meaning": "n.壁橱 v.把..…关在房间里 adj.隐藏（身份等）的",
               "highlight": "n.壁橱 v.把..…关在房间里 adj.隐藏（身份等）的",
@@ -31560,7 +31560,7 @@ window.CET6_DATA = {
               "id": "u9_l1_43",
               "num": "43",
               "word": "conceal",
-              "phonetic": "/kan'sil/",
+              "phonetic": "/kənˈsiːl/",
               "pos": "v.",
               "meaning": "v.隐藏，隐瞒；掩盖",
               "highlight": "v.隐藏",
@@ -31595,7 +31595,7 @@ window.CET6_DATA = {
               "id": "u9_l1_45",
               "num": "45",
               "word": "fabricate",
-              "phonetic": "/'febrikeit/",
+              "phonetic": "/ˈfæbrɪkeɪt/",
               "pos": "v.",
               "meaning": "v.编造，捏造；制造",
               "highlight": "v.编造",
@@ -31617,7 +31617,7 @@ window.CET6_DATA = {
               "id": "u9_l1_46",
               "num": "46",
               "word": "fabric",
-              "phonetic": "/'faebrik/",
+              "phonetic": "/ˈfæbrɪk/",
               "pos": "n.",
               "meaning": "n.织物，布料；（社会、机构、建筑物等 的)结构",
               "highlight": "n.织物",
@@ -31630,7 +31630,7 @@ window.CET6_DATA = {
               "id": "u9_l1_47",
               "num": "47",
               "word": "texture",
-              "phonetic": "/'tekstfa(r)/",
+              "phonetic": "/ˈtekstʃər/",
               "pos": "n.",
               "meaning": "n.质地；手感；口感",
               "highlight": "n.质地",
@@ -31675,7 +31675,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "greasy",
-                  "phonetic": "/'grisi/",
+                  "phonetic": "/ˈɡriːsi/",
                   "pos": "adj.",
                   "meaning": "adj.多油的；油污的，沾油脂的"
                 }
@@ -31687,7 +31687,7 @@ window.CET6_DATA = {
               "id": "u9_l1_50",
               "num": "50",
               "word": "temporary",
-              "phonetic": "/'temprori/",
+              "phonetic": "/ˈtempəreri/",
               "pos": "adj.",
               "meaning": "adj.暂时的，临时的；短暂的",
               "highlight": "adj.暂时的",
@@ -31697,7 +31697,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "temporarily",
-                  "phonetic": "/'temprarali/",
+                  "phonetic": "/ˌtempəˈrerəli/",
                   "pos": "adv.",
                   "meaning": "adv.临时地；短暂地"
                 }
@@ -31709,7 +31709,7 @@ window.CET6_DATA = {
               "id": "u9_l1_51",
               "num": "51",
               "word": "contemporary",
-              "phonetic": "/kan'temprari/",
+              "phonetic": "/kənˈtempəreri/",
               "pos": "n.",
               "meaning": "n.同代人；同龄人 adj.同时代的，当代的",
               "highlight": "n.同代人",
@@ -31724,7 +31724,7 @@ window.CET6_DATA = {
               "id": "u9_l1_52",
               "num": "52",
               "word": "temporal",
-              "phonetic": "/'temparol/",
+              "phonetic": "/ˈtempərəl/",
               "pos": "adj.",
               "meaning": "adj.时间的；短暂的；世俗的",
               "highlight": "adj.时间的",
@@ -31737,7 +31737,7 @@ window.CET6_DATA = {
               "id": "u9_l1_53",
               "num": "53",
               "word": "occasion",
-              "phonetic": "/a'kern/",
+              "phonetic": "/əˈkeɪʒn/",
               "pos": "n.",
               "meaning": "n.特殊场合；时机",
               "highlight": "n.特殊场合",
@@ -31763,7 +31763,7 @@ window.CET6_DATA = {
               "id": "u9_l1_54",
               "num": "54",
               "word": "coincide",
-              "phonetic": "/kaun'said/",
+              "phonetic": "/ˌkoʊɪnˈsaɪd/",
               "pos": "v.",
               "meaning": "v.同时发生；相符，一致",
               "highlight": "v.同时发生",
@@ -31776,7 +31776,7 @@ window.CET6_DATA = {
               "id": "u9_l1_55",
               "num": "55",
               "word": "coincidence",
-              "phonetic": "/kau'nsidans/",
+              "phonetic": "/koʊˈɪnsɪdəns/",
               "pos": "n.",
               "meaning": "n.巧合；同时发生",
               "highlight": "n.巧合",
@@ -31789,7 +31789,7 @@ window.CET6_DATA = {
               "id": "u9_l1_56",
               "num": "56",
               "word": "incidence",
-              "phonetic": "/'insidons/",
+              "phonetic": "/ˈɪnsɪdəns/",
               "pos": "n.",
               "meaning": "n.发生率",
               "highlight": "n.发生率",
@@ -31802,7 +31802,7 @@ window.CET6_DATA = {
               "id": "u9_l1_57",
               "num": "57",
               "word": "incident",
-              "phonetic": "/'insidant/",
+              "phonetic": "/ˈɪnsɪdənt/",
               "pos": "n.",
               "meaning": "n.事件；（两国间的）冲突",
               "highlight": "n.事件",
@@ -31815,7 +31815,7 @@ window.CET6_DATA = {
               "id": "u9_l1_58",
               "num": "58",
               "word": "incidental",
-              "phonetic": "/unst'dentl/",
+              "phonetic": "/ˌɪnsɪˈdent(ə)l/",
               "pos": "adj.",
               "meaning": "adj.附带发生的，次要的；非有意的 n.附带事件",
               "highlight": "adj.附带发生的",
@@ -31825,7 +31825,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "incidentally",
-                  "phonetic": "/unst'dentli/",
+                  "phonetic": "/ˌɪnsɪˈdent(ə)li/",
                   "pos": "adv.",
                   "meaning": "adv.偶然地；顺便提一句"
                 }
@@ -31882,7 +31882,7 @@ window.CET6_DATA = {
               "id": "u9_l2_01",
               "num": "01",
               "word": "complex",
-              "phonetic": "/'kompleks/",
+              "phonetic": "/kəmˈpleks/",
               "pos": "n.",
               "meaning": "n.(类型相似的）建筑群 adj.复杂的；难以理解的",
               "highlight": "n.(类型相似的）建筑群 adj.复杂的",
@@ -31892,7 +31892,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "complexity",
-                  "phonetic": "/kam'pleksati/",
+                  "phonetic": "/kəmˈpleksəti/",
                   "pos": "n.",
                   "meaning": "n.复杂性；复杂之处"
                 }
@@ -31917,7 +31917,7 @@ window.CET6_DATA = {
               "id": "u9_l2_03",
               "num": "03",
               "word": "perplex",
-              "phonetic": "/pa'pleks/",
+              "phonetic": "/pərˈpleks/",
               "pos": "v.",
               "meaning": "v.使困惑，使费解",
               "highlight": "v.使困惑",
@@ -31927,7 +31927,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "perplexity",
-                  "phonetic": "/pa'pleksati/",
+                  "phonetic": "/pərˈpleksəti/",
                   "pos": "n.",
                   "meaning": "n.困惑；迷惘"
                 }
@@ -31939,7 +31939,7 @@ window.CET6_DATA = {
               "id": "u9_l2_04",
               "num": "04",
               "word": "complicate",
-              "phonetic": "/'komplikert/",
+              "phonetic": "/ˈkɑːmplɪkeɪt/",
               "pos": "v.",
               "meaning": "v.使复杂化",
               "highlight": "v.使复杂化",
@@ -31949,13 +31949,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "complicated",
-                  "phonetic": "/'komplikeitid/",
+                  "phonetic": "/ˈkɑːmplɪkeɪtɪd/",
                   "pos": "adj.",
                   "meaning": "adj.复杂的；难懂的"
                 },
                 {
                   "word": "complication",
-                  "phonetic": "/komplt'kerfn/",
+                  "phonetic": "/ˌkɑːmplɪˈkeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.使复杂化的问题(情况)；并发症"
                 }
@@ -31967,7 +31967,7 @@ window.CET6_DATA = {
               "id": "u9_l2_05",
               "num": "05",
               "word": "intricate",
-              "phonetic": "/'ntrikat/",
+              "phonetic": "/ˈɪntrɪkət/",
               "pos": "adj.",
               "meaning": "adj.错综复杂的；难理解的",
               "highlight": "adj.错综复杂的",
@@ -31977,7 +31977,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "intricacy",
-                  "phonetic": "/'ntrikasi/",
+                  "phonetic": "/ˈɪntrɪkəsi/",
                   "pos": "n.",
                   "meaning": "n.错综复杂的事物（或细节）"
                 }
@@ -31987,7 +31987,7 @@ window.CET6_DATA = {
               "id": "u9_l2_06",
               "num": "06",
               "word": "intrinsic",
-              "phonetic": "/in'trinzik/",
+              "phonetic": "/ɪnˈtrɪnzɪk/",
               "pos": "adj.",
               "meaning": "adj.固有的，内在的，本质的",
               "highlight": "adj.固有的",
@@ -31997,7 +31997,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "intrinsically",
-                  "phonetic": "/In'trinzikli/",
+                  "phonetic": "/ɪnˈtrɪnzɪkliˌɪnˈtrɪnsɪkli/",
                   "pos": "",
                   "meaning": "adu.本质上"
                 }
@@ -32007,7 +32007,7 @@ window.CET6_DATA = {
               "id": "u9_l2_07",
               "num": "07",
               "word": "instinct",
-              "phonetic": "/'nstinkt/",
+              "phonetic": "/ˈɪnstɪŋkt/",
               "pos": "n.",
               "meaning": "n.本能，天性；直觉",
               "highlight": "n.本能",
@@ -32022,7 +32022,7 @@ window.CET6_DATA = {
               "id": "u9_l2_08",
               "num": "08",
               "word": "distinguish",
-              "phonetic": "/di'stungwJ/",
+              "phonetic": "/dɪˈstɪŋɡwɪʃ/",
               "pos": "v.",
               "meaning": "v.区分；使出众",
               "highlight": "v.区分",
@@ -32044,7 +32044,7 @@ window.CET6_DATA = {
               "id": "u9_l2_09",
               "num": "09",
               "word": "distinction",
-              "phonetic": "/dr'stinkfn/",
+              "phonetic": "/dɪˈstɪŋkʃn/",
               "pos": "n.",
               "meaning": "n.差别，区别；特点，特质，不同凡响",
               "highlight": "n.差别",
@@ -32057,7 +32057,7 @@ window.CET6_DATA = {
               "id": "u9_l2_10",
               "num": "10",
               "word": "distinct",
-              "phonetic": "/di'stigkt/",
+              "phonetic": "/dɪˈstɪŋkt/",
               "pos": "adj.",
               "meaning": "adj.清晰的，明白的；截然不同的",
               "highlight": "adj.清晰的",
@@ -32070,7 +32070,7 @@ window.CET6_DATA = {
               "id": "u9_l2_11",
               "num": "11",
               "word": "distinctive",
-              "phonetic": "/di'stinktiv/",
+              "phonetic": "/dɪˈstɪŋktɪv/",
               "pos": "adj.",
               "meaning": "adj.独特的，有特色的",
               "highlight": "adj.独特的",
@@ -32083,7 +32083,7 @@ window.CET6_DATA = {
               "id": "u9_l2_12",
               "num": "12",
               "word": "extinguish",
-              "phonetic": "/zk'stingwf/",
+              "phonetic": "/ɪkˈstɪŋɡwɪʃ/",
               "pos": "v.",
               "meaning": "v.熄灭，扑灭；使破灭",
               "highlight": "v.熄灭",
@@ -32116,7 +32116,7 @@ window.CET6_DATA = {
               "id": "u9_l2_14",
               "num": "14",
               "word": "bewilder",
-              "phonetic": "/br'wilda(r)/",
+              "phonetic": "/bɪˈwɪldər/",
               "pos": "v.",
               "meaning": "v.使糊涂，使迷惑",
               "highlight": "v.使糊涂",
@@ -32126,7 +32126,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "bewilderment",
-                  "phonetic": "/bt'wldomont/",
+                  "phonetic": "/bɪˈwɪldərmənt/",
                   "pos": "n.",
                   "meaning": "n.迷惘；困惑"
                 }
@@ -32136,7 +32136,7 @@ window.CET6_DATA = {
               "id": "u9_l2_15",
               "num": "15",
               "word": "baffle",
-              "phonetic": "/'baefl/",
+              "phonetic": "/ˈbæf(ə)l/",
               "pos": "v.",
               "meaning": "v.使困惑；难住",
               "highlight": "v.使困惑",
@@ -32189,7 +32189,7 @@ window.CET6_DATA = {
               "id": "u9_l2_18",
               "num": "18",
               "word": "diffuse",
-              "phonetic": "/dɪ'fjuːz/",
+              "phonetic": "/dɪˈfjuːz/",
               "pos": "v./adj.",
               "meaning": "v. 普及；散布；渗透 adj. 弥漫的",
               "highlight": "v.普及",
@@ -32199,7 +32199,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "diffusion",
-                  "phonetic": "/dɪ'fjuːʒn/",
+                  "phonetic": "/dɪˈfjuːʒn/",
                   "pos": "n.",
                   "meaning": "n. 传播，散布"
                 }
@@ -32219,7 +32219,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "refutation",
-                  "phonetic": "/irefju'terfn/",
+                  "phonetic": "/ˌrefjuˈteɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.反驳"
                 }
@@ -32229,7 +32229,7 @@ window.CET6_DATA = {
               "id": "u9_l2_20",
               "num": "20",
               "word": "disperse",
-              "phonetic": "/di'spars/",
+              "phonetic": "/dɪˈspɜːrs/",
               "pos": "v.",
               "meaning": "v.(使)分散；传播，散布",
               "highlight": "v.(使)分散",
@@ -32266,7 +32266,7 @@ window.CET6_DATA = {
               "id": "u9_l2_22",
               "num": "22",
               "word": "authorize",
-              "phonetic": "/'ɔːθəraɪz/",
+              "phonetic": "/ˈɔːθəraɪz/",
               "pos": "v.",
               "meaning": "v. 批准；授权",
               "highlight": "v.批准",
@@ -32279,7 +32279,7 @@ window.CET6_DATA = {
               "id": "u9_l2_23",
               "num": "23",
               "word": "copyright",
-              "phonetic": "/'kopirait/",
+              "phonetic": "/ˈkɑːpiraɪt/",
               "pos": "n.",
               "meaning": "n.版权；著作权",
               "highlight": "n.版权",
@@ -32312,7 +32312,7 @@ window.CET6_DATA = {
               "id": "u9_l2_25",
               "num": "25",
               "word": "entitle",
-              "phonetic": "/In'tartl/",
+              "phonetic": "/ɪnˈtaɪt(ə)l/",
               "pos": "v.",
               "meaning": "v.使..有权利或资格",
               "highlight": "v.使..有权利或资格",
@@ -32327,7 +32327,7 @@ window.CET6_DATA = {
               "id": "u9_l2_26",
               "num": "26",
               "word": "virtual",
-              "phonetic": "/lenfeA/",
+              "phonetic": "/ˈvɜːrtʃuəl/",
               "pos": "adj.",
               "meaning": "adj.事实上的；虚拟的",
               "highlight": "adj.事实上的",
@@ -32379,7 +32379,7 @@ window.CET6_DATA = {
               "id": "u9_l2_29",
               "num": "29",
               "word": "complete",
-              "phonetic": "/kom'plit/",
+              "phonetic": "/kəmˈpliːt/",
               "pos": "adj.",
               "meaning": "adj.完全的，彻底的；完整的 v.完成；填写（表格）",
               "highlight": "adj.完全的",
@@ -32392,7 +32392,7 @@ window.CET6_DATA = {
               "id": "u9_l2_30",
               "num": "30",
               "word": "practicable",
-              "phonetic": "/'prektikabl/",
+              "phonetic": "/ˈpræktɪkəbl/",
               "pos": "adj.",
               "meaning": "adj.可行的，行得通的",
               "highlight": "adj.可行的",
@@ -32405,7 +32405,7 @@ window.CET6_DATA = {
               "id": "u9_l2_31",
               "num": "31",
               "word": "malpractice",
-              "phonetic": "/mael'praektis/",
+              "phonetic": "/ˌmælˈpræktɪs/",
               "pos": "n.",
               "meaning": "n.渎职，玩忽职守",
               "highlight": "n.渎职",
@@ -32418,7 +32418,7 @@ window.CET6_DATA = {
               "id": "u9_l2_32",
               "num": "32",
               "word": "practical",
-              "phonetic": "/'praektikl/",
+              "phonetic": "/ˈpræktɪk(ə)l/",
               "pos": "adj.",
               "meaning": "adj.实际的；实用的n.实践课",
               "highlight": "adj.实际的",
@@ -32428,7 +32428,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "practicality",
-                  "phonetic": "/praekt'kaelati/",
+                  "phonetic": "/ˌpræktɪˈkæləti/",
                   "pos": "n.",
                   "meaning": "n.可行性"
                 }
@@ -32451,7 +32451,7 @@ window.CET6_DATA = {
               "id": "u9_l2_34",
               "num": "34",
               "word": "generous",
-              "phonetic": "/dsenaras/",
+              "phonetic": "/ˈdʒenərəs/",
               "pos": "adj.",
               "meaning": "adj.慷慨的，大方的；宽宏大量的",
               "highlight": "adj.慷慨的",
@@ -32464,7 +32464,7 @@ window.CET6_DATA = {
               "id": "u9_l2_35",
               "num": "35",
               "word": "genius",
-              "phonetic": "/dsinias/",
+              "phonetic": "/ˈdʒiːniəs/",
               "pos": "n.",
               "meaning": "n.天才；天资",
               "highlight": "n.天才",
@@ -32514,7 +32514,7 @@ window.CET6_DATA = {
               "id": "u9_l2_38",
               "num": "88",
               "word": "nuisance",
-              "phonetic": "/'njursns/",
+              "phonetic": "/ˈnuːs(ə)ns/",
               "pos": "n.",
               "meaning": "n.令人讨厌的人或事物",
               "highlight": "n.令人讨厌的人或事物",
@@ -32544,7 +32544,7 @@ window.CET6_DATA = {
               "id": "u9_l2_40",
               "num": "40",
               "word": "intellect",
-              "phonetic": "/'intalekt/",
+              "phonetic": "/ˈɪntəlekt/",
               "pos": "n.",
               "meaning": "n.智力高的人；(尤指高等的）智力",
               "highlight": "n.智力高的人",
@@ -32577,7 +32577,7 @@ window.CET6_DATA = {
               "id": "u9_l2_42",
               "num": "42",
               "word": "intelligible",
-              "phonetic": "/ɪn'telɪdʒəbl/",
+              "phonetic": "/ɪnˈtelɪdʒəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj. 明白易懂的，可理解的",
               "highlight": "",
@@ -32605,7 +32605,7 @@ window.CET6_DATA = {
               "id": "u9_l2_44",
               "num": "44",
               "word": "blunt",
-              "phonetic": "/blant/",
+              "phonetic": "/blʌnt/",
               "pos": "adj.",
               "meaning": "adj.不锋利的，钝的；直言不讳的",
               "highlight": "adj.不锋利的",
@@ -32719,7 +32719,7 @@ window.CET6_DATA = {
               "id": "u9_l3_05",
               "num": "49",
               "word": "immense",
-              "phonetic": "/t'mens/",
+              "phonetic": "/ɪˈmens/",
               "pos": "adj.",
               "meaning": "adj.极大的，巨大的",
               "highlight": "adj.极大的",
@@ -32729,13 +32729,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "immensely",
-                  "phonetic": "/t'mensli/",
+                  "phonetic": "/ɪˈmensli/",
                   "pos": "adv.",
                   "meaning": "adv.非常；极大地"
                 },
                 {
                   "word": "immensity",
-                  "phonetic": "/t'mensati/",
+                  "phonetic": "/ɪˈmensəti/",
                   "pos": "n.",
                   "meaning": "n.巨大；广大"
                 }
@@ -32762,7 +32762,7 @@ window.CET6_DATA = {
               "id": "u9_l3_07",
               "num": "51",
               "word": "commence",
-              "phonetic": "/ka'mens/",
+              "phonetic": "/kəˈmens/",
               "pos": "v.",
               "meaning": "v.开始；着手",
               "highlight": "v.开始",
@@ -32772,7 +32772,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "commencement",
-                  "phonetic": "/kə'mensmənt/",
+                  "phonetic": "/kəˈmensmənt/",
                   "pos": "n.",
                   "meaning": "n. 开始；开端；毕业典礼"
                 }
@@ -32797,7 +32797,7 @@ window.CET6_DATA = {
               "id": "u9_l3_09",
               "num": "53",
               "word": "mighty",
-              "phonetic": "/'maiti/",
+              "phonetic": "/ˈmaɪti/",
               "pos": "adj.",
               "meaning": "adj.强而有力的；巨大的adv.非常",
               "highlight": "adj.强而有力的",
@@ -32810,7 +32810,7 @@ window.CET6_DATA = {
               "id": "u9_l3_10",
               "num": "54",
               "word": "almighty",
-              "phonetic": "/ureu[e/",
+              "phonetic": "/ɔːlˈmaɪti/",
               "pos": "adj.",
               "meaning": "adj.全能的；极大的；全能者",
               "highlight": "adj.全能的",
@@ -32825,7 +32825,7 @@ window.CET6_DATA = {
               "id": "u9_l3_11",
               "num": "55",
               "word": "lofty",
-              "phonetic": "/al/",
+              "phonetic": "/ˈlɔːfti/",
               "pos": "adj.",
               "meaning": "adj.巍峨的；崇高的，高尚的",
               "highlight": "adj.巍峨的",
@@ -32850,13 +32850,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "fragmentary",
-                  "phonetic": "/uuetufaex/",
+                  "phonetic": "/ˈfræɡmənteri/",
                   "pos": "adj.",
                   "meaning": "adj.残缺不全的，不完整的"
                 },
                 {
                   "word": "fragmentation",
-                  "phonetic": "/ˌfræɡmen'teɪʃn/",
+                  "phonetic": "/ˌfræɡmenˈteɪʃn/",
                   "pos": "n.",
                   "meaning": "n. 分裂，破裂"
                 }
@@ -32868,7 +32868,7 @@ window.CET6_DATA = {
               "id": "u9_l3_13",
               "num": "03",
               "word": "frantic",
-              "phonetic": "/fraentik/",
+              "phonetic": "/ˈfræntɪk/",
               "pos": "adj.",
               "meaning": "adj.紧张忙乱的，手忙脚乱的；发狂 似的",
               "highlight": "adj.紧张忙乱的",
@@ -32878,7 +32878,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "frantically",
-                  "phonetic": "/fraentikli/",
+                  "phonetic": "/ˈfræntɪkli/",
                   "pos": "",
                   "meaning": "adu.疯狂地；紧张忙乱地"
                 }
@@ -32903,7 +32903,7 @@ window.CET6_DATA = {
               "id": "u9_l3_15",
               "num": "05",
               "word": "fracture",
-              "phonetic": "/frektfa(r)/",
+              "phonetic": "/ˈfræktʃər/",
               "pos": "v.",
               "meaning": "v.折断，破裂 ：n.骨折，断裂",
               "highlight": "v.折断",
@@ -32916,7 +32916,7 @@ window.CET6_DATA = {
               "id": "u9_l3_16",
               "num": "06",
               "word": "frame",
-              "phonetic": "/frerm/",
+              "phonetic": "/freɪm/",
               "pos": "n.",
               "meaning": "n.框架；骨架 v.(给）装框架；制定",
               "highlight": "n.框架",
@@ -32942,7 +32942,7 @@ window.CET6_DATA = {
               "id": "u9_l3_18",
               "num": "80",
               "word": "flame",
-              "phonetic": "/flerm/",
+              "phonetic": "/fleɪm/",
               "pos": "n.",
               "meaning": "n.火焰v.燃烧；（因强烈情绪而）变红",
               "highlight": "n.火焰v.燃烧",
@@ -32955,7 +32955,7 @@ window.CET6_DATA = {
               "id": "u9_l3_19",
               "num": "09",
               "word": "flare",
-              "phonetic": "/flea(r)/",
+              "phonetic": "/fleə(r)/",
               "pos": "n.",
               "meaning": "n.(短暂的）旺火；闪光 v.燃烧；闪耀，闪光",
               "highlight": "n.(短暂的）旺火",
@@ -32968,7 +32968,7 @@ window.CET6_DATA = {
               "id": "u9_l3_20",
               "num": "10",
               "word": "pin",
-              "phonetic": "/prn/",
+              "phonetic": "/pɪn/",
               "pos": "n.",
               "meaning": "n.液体，流体adj.流动的",
               "highlight": "n.液体",
@@ -32981,7 +32981,7 @@ window.CET6_DATA = {
               "id": "u9_l3_21",
               "num": "11",
               "word": "solid",
-              "phonetic": "/'sɒlɪd/",
+              "phonetic": "/ˈsɑːlɪd/",
               "pos": "adj./n.",
               "meaning": "adj. 固体的；结实的，坚实的 n. 固体",
               "highlight": "adj.固体的",
@@ -32991,13 +32991,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "solidity",
-                  "phonetic": "/epl,es/",
+                  "phonetic": "/səˈlɪdəti/",
                   "pos": "n.",
                   "meaning": "n.固态；坚固性"
                 },
                 {
                   "word": "solidify",
-                  "phonetic": "/sa'ldfal/",
+                  "phonetic": "/səˈlɪdɪfaɪ/",
                   "pos": "v.",
                   "meaning": "v.巩固；（使)变成固体"
                 }
@@ -33007,7 +33007,7 @@ window.CET6_DATA = {
               "id": "u9_l3_22",
               "num": "12",
               "word": "watertight",
-              "phonetic": "/'wotatait/",
+              "phonetic": "/ˈwɔːtərtaɪt/",
               "pos": "adj.",
               "meaning": "adj.防水的；无懈可击的",
               "highlight": "adj.防水的",
@@ -33020,7 +33020,7 @@ window.CET6_DATA = {
               "id": "u9_l3_23",
               "num": "13",
               "word": "consolidate",
-              "phonetic": "/kan'solidet/",
+              "phonetic": "/kənˈsɑːlɪdeɪt/",
               "pos": "v.",
               "meaning": "v.使加强，使巩固；合并",
               "highlight": "v.使加强",
@@ -33030,7 +33030,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "consolidation",
-                  "phonetic": "/kənˌsɒlɪ'deɪʃn/",
+                  "phonetic": "/kənˌsɑːləˈdeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n. 巩固；合并"
                 }
@@ -33040,7 +33040,7 @@ window.CET6_DATA = {
               "id": "u9_l3_24",
               "num": "14",
               "word": "solidarity",
-              "phonetic": "/isol'daerati/",
+              "phonetic": "/ˌsɑːlɪˈdærəti/",
               "pos": "n.",
               "meaning": "n.团结",
               "highlight": "n.团结",
@@ -33053,7 +33053,7 @@ window.CET6_DATA = {
               "id": "u9_l3_25",
               "num": "15",
               "word": "flatter",
-              "phonetic": "/flaeta(r)/",
+              "phonetic": "/ˈflætər/",
               "pos": "v.",
               "meaning": "v.讨好，奉承",
               "highlight": "v.讨好",
@@ -33096,7 +33096,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "fluency",
-                  "phonetic": "/suen[/",
+                  "phonetic": "/ˈfluːənsi/",
                   "pos": "n.",
                   "meaning": "n.流利，流畅"
                 }
@@ -33106,7 +33106,7 @@ window.CET6_DATA = {
               "id": "u9_l3_28",
               "num": "18",
               "word": "affluent",
-              "phonetic": "/uene,/",
+              "phonetic": "/ˈæfluənt/",
               "pos": "adj.",
               "meaning": "adj.富裕的",
               "highlight": "adj.富裕的",
@@ -33116,7 +33116,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "affluence",
-                  "phonetic": "/suen /",
+                  "phonetic": "/ˈæfluəns/",
                   "pos": "n.",
                   "meaning": "n.富裕"
                 }
@@ -33136,7 +33136,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "originality",
-                  "phonetic": "/eeueepite/",
+                  "phonetic": "/əˌrɪdʒəˈnæləti/",
                   "pos": "n.",
                   "meaning": "n.独创性，创意，独特构思"
                 }
@@ -33205,7 +33205,7 @@ window.CET6_DATA = {
               "id": "u9_l3_34",
               "num": "24",
               "word": "cult",
-              "phonetic": "/kalt/",
+              "phonetic": "/kʌlt/",
               "pos": "n.",
               "meaning": "n.狂热，风尚，热潮；异教团体 adj.受到狂热崇拜的",
               "highlight": "n.狂热",
@@ -33218,7 +33218,7 @@ window.CET6_DATA = {
               "id": "u9_l3_35",
               "num": "25",
               "word": "idol",
-              "phonetic": "/'ardl/",
+              "phonetic": "/ˈaɪdl/",
               "pos": "n.",
               "meaning": "n.偶像",
               "highlight": "n.偶像",
@@ -33251,7 +33251,7 @@ window.CET6_DATA = {
               "id": "u9_l3_37",
               "num": "27",
               "word": "derive",
-              "phonetic": "/di'raiv/",
+              "phonetic": "/dɪˈraɪv/",
               "pos": "v.",
               "meaning": "v.起源于；来自",
               "highlight": "v.起源于",
@@ -33261,13 +33261,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "derivative",
-                  "phonetic": "/di'rivatv/",
+                  "phonetic": "/dɪˈrɪvətɪv/",
                   "pos": "adj.",
                   "meaning": "adj.模仿他人的n.派生词；衍生物"
                 },
                 {
                   "word": "derivation",
-                  "phonetic": "/ideri'verfn/",
+                  "phonetic": "/ˌderɪˈveɪʃn/",
                   "pos": "n.",
                   "meaning": "n.(尤指词语的)起源，派生"
                 }
@@ -33277,7 +33277,7 @@ window.CET6_DATA = {
               "id": "u9_l3_38",
               "num": "28",
               "word": "deprive",
-              "phonetic": "/d'prav/",
+              "phonetic": "/dɪˈpraɪv/",
               "pos": "v.",
               "meaning": "v.剥夺，使丧失",
               "highlight": "v.剥夺",
@@ -33290,7 +33290,7 @@ window.CET6_DATA = {
               "id": "u9_l3_39",
               "num": "29",
               "word": "strive",
-              "phonetic": "/straiv/",
+              "phonetic": "/straɪv/",
               "pos": "v.",
               "meaning": "v.努力，奋斗；力求",
               "highlight": "v.努力",
@@ -33316,7 +33316,7 @@ window.CET6_DATA = {
               "id": "u9_l3_41",
               "num": "31",
               "word": "contrive",
-              "phonetic": "/kan'traiv/",
+              "phonetic": "/kənˈtraɪv/",
               "pos": "v.",
               "meaning": "v.设法做到；策划；发明，设计",
               "highlight": "v.设法做到",
@@ -33329,7 +33329,7 @@ window.CET6_DATA = {
               "id": "u9_l3_42",
               "num": "32",
               "word": "retrieve",
-              "phonetic": "/ri'triv/",
+              "phonetic": "/rɪˈtriːv/",
               "pos": "v.",
               "meaning": "v.取回；挽回；检索（储存于计算机的 信息）",
               "highlight": "v.取回",
@@ -33339,7 +33339,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "retrieval",
-                  "phonetic": "/ri'trivl/",
+                  "phonetic": "/rɪˈtriːv(ə)l/",
                   "pos": "n.",
                   "meaning": "n.取回；数据检索"
                 }
@@ -33349,7 +33349,7 @@ window.CET6_DATA = {
               "id": "u9_l3_43",
               "num": "33",
               "word": "peculiar",
-              "phonetic": "/pr'kjulia(r)/",
+              "phonetic": "/pɪˈkjuːliər/",
               "pos": "adj.",
               "meaning": "adj.怪异的，奇怪的；特殊的",
               "highlight": "adj.怪异的",
@@ -33359,7 +33359,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "peculiarity",
-                  "phonetic": "/pɪˌkjuːli'ærəti/",
+                  "phonetic": "/pɪˌkjuːliˈærəti/",
                   "pos": "n.",
                   "meaning": "n. 特点；古怪，奇怪"
                 }
@@ -33369,7 +33369,7 @@ window.CET6_DATA = {
               "id": "u9_l3_44",
               "num": "34",
               "word": "exotic",
-              "phonetic": "/ig'zotik/",
+              "phonetic": "/ɪɡˈzɑːtɪk/",
               "pos": "adj.",
               "meaning": "adj.异国情调的；奇异的",
               "highlight": "adj.异国情调的",
@@ -33395,7 +33395,7 @@ window.CET6_DATA = {
               "id": "u9_l3_46",
               "num": "36",
               "word": "acquaint",
-              "phonetic": "/a'kweint/",
+              "phonetic": "/əˈkweɪnt/",
               "pos": "v.",
               "meaning": "v.使熟悉，使了解",
               "highlight": "v.使熟悉",
@@ -33405,7 +33405,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "acquaintance",
-                  "phonetic": "/a'kweintons/",
+                  "phonetic": "/əˈkweɪntəns/",
                   "pos": "n.",
                   "meaning": "n.熟人；认识"
                 }
@@ -33415,7 +33415,7 @@ window.CET6_DATA = {
               "id": "u9_l3_47",
               "num": "37",
               "word": "alien",
-              "phonetic": "/'erlian/",
+              "phonetic": "/ˈeɪliən/",
               "pos": "n.",
               "meaning": "n.外星人；外国人 adj.陌生的；外国的",
               "highlight": "n.外星人",
@@ -33425,13 +33425,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "alienate",
-                  "phonetic": "/'elianeit/",
+                  "phonetic": "/ˈeɪliəneɪt/",
                   "pos": "v.",
                   "meaning": "v.使疏远；离间"
                 },
                 {
                   "word": "alienation",
-                  "phonetic": "/ierlia'nefn/",
+                  "phonetic": "/ˌeɪliəˈneɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.离间；疏远"
                 }
@@ -33441,7 +33441,7 @@ window.CET6_DATA = {
               "id": "u9_l3_48",
               "num": "38",
               "word": "isolate",
-              "phonetic": "/'asalert/",
+              "phonetic": "/ˈaɪsəleɪt/",
               "pos": "v.",
               "meaning": "v.(使)隔离，孤立",
               "highlight": "v.(使)隔离",
@@ -33451,7 +33451,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "isolation",
-                  "phonetic": "/iaisa'lerfn/",
+                  "phonetic": "/ˌaɪsəˈleɪʃn/",
                   "pos": "n.",
                   "meaning": "n.隔离；隔离状态，孤立状态"
                 }
@@ -33471,13 +33471,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "dramatic",
-                  "phonetic": "/dra'maetik/",
+                  "phonetic": "/drəˈmætɪk/",
                   "pos": "adj.",
                   "meaning": "adj.戏剧性的；引人注目的"
                 },
                 {
                   "word": "dramatically",
-                  "phonetic": "/dra'maetikli/",
+                  "phonetic": "/drəˈmætɪkli/",
                   "pos": "adv.",
                   "meaning": "adv.戏剧性地；剧烈地；明显地"
                 }
@@ -33536,7 +33536,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "disastrous",
-                  "phonetic": "/dr'zastras/",
+                  "phonetic": "/dɪˈzæstrəs/",
                   "pos": "adj.",
                   "meaning": "adj.极糟糕的；灾难性的"
                 }
@@ -33632,7 +33632,7 @@ window.CET6_DATA = {
               "id": "u9_l4_01",
               "num": "46",
               "word": "tremble",
-              "phonetic": "/'trembl/",
+              "phonetic": "/ˈtremb(ə)l/",
               "pos": "v.",
               "meaning": "v.&n.（因紧张、激动、惊慌等）颤抖， 哆嗽；极担心",
               "highlight": "v.&n.（因紧张、激动、惊慌等）颤抖",
@@ -33645,7 +33645,7 @@ window.CET6_DATA = {
               "id": "u9_l4_02",
               "num": "47",
               "word": "tender",
-              "phonetic": "/'tenda(r)/",
+              "phonetic": "/ˈtendər/",
               "pos": "adj.",
               "meaning": "adj.温柔的；（食物）嫩的；脆弱的",
               "highlight": "adj.温柔的",
@@ -33658,7 +33658,7 @@ window.CET6_DATA = {
               "id": "u9_l4_03",
               "num": "48",
               "word": "vulnerable",
-              "phonetic": "/'vAlnarabl/",
+              "phonetic": "/ˈvʌlnərəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.脆弱的；易受.….…伤害的",
               "highlight": "adj.脆弱的",
@@ -33691,7 +33691,7 @@ window.CET6_DATA = {
               "id": "u9_l4_05",
               "num": "01",
               "word": "bacteria",
-              "phonetic": "/baek'tiaria/",
+              "phonetic": "/bækˈtɪriə/",
               "pos": "n.",
               "meaning": "n.细菌",
               "highlight": "n.细菌",
@@ -33750,7 +33750,7 @@ window.CET6_DATA = {
               "id": "u9_l4_09",
               "num": "05",
               "word": "chemical",
-              "phonetic": "/'kemikl/",
+              "phonetic": "/ˈkemɪk(ə)l/",
               "pos": "n.",
               "meaning": "n.化学品adj.化学的",
               "highlight": "n.化学品adj.化学的",
@@ -33766,7 +33766,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "chemist",
-                  "phonetic": "/'kemist/",
+                  "phonetic": "/ˈkemɪst/",
                   "pos": "n.",
                   "meaning": "n.药剂师；药店"
                 }
@@ -33776,7 +33776,7 @@ window.CET6_DATA = {
               "id": "u9_l4_10",
               "num": "06",
               "word": "initiate",
-              "phonetic": "/l'nfiert/",
+              "phonetic": "/ɪˈnɪʃieɪt/",
               "pos": "v.",
               "meaning": "v.开始，发起，创始；使了解",
               "highlight": "v.开始",
@@ -33786,7 +33786,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "initiation",
-                  "phonetic": "/lunfi'erfn/",
+                  "phonetic": "/ɪˌnɪʃiˈeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.开始，发起，创始"
                 }
@@ -33835,7 +33835,7 @@ window.CET6_DATA = {
               "id": "u9_l4_14",
               "num": "10",
               "word": "launch",
-              "phonetic": "/lontf/",
+              "phonetic": "/lɔːntʃ/",
               "pos": "v.",
               "meaning": "v.开始从事，发起；发射n.（航天器的） 发射；（产品的）上市；(事件的）发起",
               "highlight": "v.开始从事",
@@ -33848,7 +33848,7 @@ window.CET6_DATA = {
               "id": "u9_l4_15",
               "num": "11",
               "word": "minimum",
-              "phonetic": "/'mnmom/",
+              "phonetic": "/ˈmɪnɪməm/",
               "pos": "n.",
               "meaning": "n.最小值；最少量 adj.最低的；最小的",
               "highlight": "n.最小值",
@@ -33861,7 +33861,7 @@ window.CET6_DATA = {
               "id": "u9_l4_16",
               "num": "12",
               "word": "maximum",
-              "phonetic": "/'maeksimom/",
+              "phonetic": "/ˈmæksɪməm/",
               "pos": "n.",
               "meaning": "n.最大量；最大限度 adj.最高的；最多的",
               "highlight": "n.最大量",
@@ -33871,7 +33871,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "maximal",
-                  "phonetic": "/'maeksiml/",
+                  "phonetic": "/ˈmæksɪml/",
                   "pos": "adj.",
                   "meaning": "adj.最大的；最高的"
                 }
@@ -33881,7 +33881,7 @@ window.CET6_DATA = {
               "id": "u9_l4_17",
               "num": "13",
               "word": "minimal",
-              "phonetic": "/mnml/",
+              "phonetic": "/ˈmɪnɪm(ə)l/",
               "pos": "adj.",
               "meaning": "adj.极小的，极少的",
               "highlight": "adj.极小的",
@@ -33907,7 +33907,7 @@ window.CET6_DATA = {
               "id": "u9_l4_19",
               "num": "16",
               "word": "minimize",
-              "phonetic": "/'mɪnɪmaɪz/",
+              "phonetic": "/ˈmɪnɪmaɪz/",
               "pos": "v.",
               "meaning": "v. 使减少到最低限度，使最小化；低估",
               "highlight": "v.使减少到最低限度",
@@ -33920,7 +33920,7 @@ window.CET6_DATA = {
               "id": "u9_l4_20",
               "num": "17",
               "word": "maximize",
-              "phonetic": "/'mæksɪmaɪz/",
+              "phonetic": "/ˈmæksɪmaɪz/",
               "pos": "v.",
               "meaning": "v. 使增加到最大限度；充分利用",
               "highlight": "v.使增加到最大限度",
@@ -33953,7 +33953,7 @@ window.CET6_DATA = {
               "id": "u9_l4_22",
               "num": "19",
               "word": "mass",
-              "phonetic": "/maes/",
+              "phonetic": "/mæs/",
               "pos": "n.",
               "meaning": "n.大量；群众v.聚集 adj.大批的；数量极多的",
               "highlight": "n.大量",
@@ -33966,7 +33966,7 @@ window.CET6_DATA = {
               "id": "u9_l4_23",
               "num": "20",
               "word": "massive",
-              "phonetic": "/'maesiv/",
+              "phonetic": "/ˈmæsɪv/",
               "pos": "adj.",
               "meaning": "adj.大而重的；巨大的，强大的",
               "highlight": "adj.大而重的",
@@ -33979,7 +33979,7 @@ window.CET6_DATA = {
               "id": "u9_l4_24",
               "num": "22",
               "word": "parameter",
-              "phonetic": "/pə'ræmɪtə(r)/",
+              "phonetic": "/pəˈræmɪtər/",
               "pos": "n.",
               "meaning": "n. 范围，界限；参数",
               "highlight": "",
@@ -33992,7 +33992,7 @@ window.CET6_DATA = {
               "id": "u9_l4_25",
               "num": "23",
               "word": "metric",
-              "phonetic": "/'metrik/",
+              "phonetic": "/ˈmetrɪk/",
               "pos": "n.",
               "meaning": "n.度量工具，衡量指标 adj.米制的；公制的",
               "highlight": "n.度量工具",
@@ -34021,7 +34021,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "geometrically",
-                  "phonetic": "/ˌdʒiːə'metrɪkli/",
+                  "phonetic": "/ˌdʒiːəˈmetrɪkli/",
                   "pos": "adv.",
                   "meaning": "adv. 几何上；按几何级数"
                 }
@@ -34031,7 +34031,7 @@ window.CET6_DATA = {
               "id": "u9_l4_27",
               "num": "25",
               "word": "symmetry",
-              "phonetic": "/'simatri/",
+              "phonetic": "/ˈsɪmətri/",
               "pos": "n.",
               "meaning": "n.对称",
               "highlight": "n.对称",
@@ -34044,7 +34044,7 @@ window.CET6_DATA = {
               "id": "u9_l4_28",
               "num": "26",
               "word": "cemetery",
-              "phonetic": "/'sematri/",
+              "phonetic": "/ˈseməteri/",
               "pos": "n.",
               "meaning": "n.墓地，公墓",
               "highlight": "n.墓地",
@@ -34057,7 +34057,7 @@ window.CET6_DATA = {
               "id": "u9_l4_29",
               "num": "27",
               "word": "diameter",
-              "phonetic": "/dat'emita(r)/",
+              "phonetic": "/daɪˈæmɪtər/",
               "pos": "n.",
               "meaning": "n.直径",
               "highlight": "n.直径",
@@ -34083,7 +34083,7 @@ window.CET6_DATA = {
               "id": "u9_l4_31",
               "num": "29",
               "word": "paradise",
-              "phonetic": "/'paeradais/",
+              "phonetic": "/ˈpærədaɪs/",
               "pos": "n.",
               "meaning": "n.天堂；乐园（指美好的环境）",
               "highlight": "n.天堂",
@@ -34096,7 +34096,7 @@ window.CET6_DATA = {
               "id": "u9_l4_32",
               "num": "30",
               "word": "paradox",
-              "phonetic": "/paeradoks/",
+              "phonetic": "/ˈpærədɑːks/",
               "pos": "n.",
               "meaning": "n.论；矛盾的人（或事物、情况）",
               "highlight": "n.论",
@@ -34106,7 +34106,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "paradoxical",
-                  "phonetic": "/paersdoksikl/",
+                  "phonetic": "/ˌpærəˈdɑːksɪk(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.自相矛盾的；出乎意料的"
                 }
@@ -34129,7 +34129,7 @@ window.CET6_DATA = {
               "id": "u9_l4_34",
               "num": "32",
               "word": "parade",
-              "phonetic": "/pa'red/",
+              "phonetic": "/pəˈreɪd/",
               "pos": "n.",
               "meaning": "n.游行；阅兵；炫耀 v.游行；炫耀",
               "highlight": "n.游行",
@@ -34142,7 +34142,7 @@ window.CET6_DATA = {
               "id": "u9_l4_35",
               "num": "33",
               "word": "patrol",
-              "phonetic": "/pa'traul/",
+              "phonetic": "/pəˈtroʊl/",
               "pos": "n.",
               "meaning": "n.&v.巡逻，巡查",
               "highlight": "n.&v.巡逻",
@@ -34155,7 +34155,7 @@ window.CET6_DATA = {
               "id": "u9_l4_36",
               "num": "34",
               "word": "cruise",
-              "phonetic": "/kruz/",
+              "phonetic": "/kruːz/",
               "pos": "v.",
               "meaning": "v.乘船游览n.乘船游览；航行",
               "highlight": "v.乘船游览n.乘船游览",
@@ -34175,7 +34175,7 @@ window.CET6_DATA = {
               "id": "u9_l4_37",
               "num": "35",
               "word": "patriot",
-              "phonetic": "/'paetriat/",
+              "phonetic": "/ˈpeɪtriət/",
               "pos": "n.",
               "meaning": "n.爱国者",
               "highlight": "n.爱国者",
@@ -34185,7 +34185,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "patriotism",
-                  "phonetic": "/'paetriatzam/",
+                  "phonetic": "/ˈpeɪtriətɪzəm/",
                   "pos": "n.",
                   "meaning": "n.爱国主义；爱国精神"
                 }
@@ -34195,7 +34195,7 @@ window.CET6_DATA = {
               "id": "u9_l4_38",
               "num": "36",
               "word": "patriotic",
-              "phonetic": "/petri'otuk/",
+              "phonetic": "/ˌpeɪtriˈɑːtɪk/",
               "pos": "adj.",
               "meaning": "adj.爱国的",
               "highlight": "adj.爱国的",
@@ -34208,7 +34208,7 @@ window.CET6_DATA = {
               "id": "u9_l4_39",
               "num": "37",
               "word": "parasite",
-              "phonetic": "/'paerasat/",
+              "phonetic": "/ˈpærəsaɪt/",
               "pos": "n.",
               "meaning": "n.寄生虫；靠他人为生的人",
               "highlight": "n.寄生虫",
@@ -34221,7 +34221,7 @@ window.CET6_DATA = {
               "id": "u9_l4_40",
               "num": "38",
               "word": "paradigm",
-              "phonetic": "/'peradam/",
+              "phonetic": "/ˈpærədaɪm/",
               "pos": "n.",
               "meaning": "n.范例，典范，样式",
               "highlight": "n.范例",
@@ -34251,7 +34251,7 @@ window.CET6_DATA = {
               "id": "u9_l4_42",
               "num": "40",
               "word": "sensible",
-              "phonetic": "/'sensabl/",
+              "phonetic": "/ˈsensəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.明智的，合理的；可感觉到的，明 显的",
               "highlight": "adj.明智的",
@@ -34264,7 +34264,7 @@ window.CET6_DATA = {
               "id": "u9_l4_43",
               "num": "41",
               "word": "sensitive",
-              "phonetic": "/'sensativ/",
+              "phonetic": "/ˈsensətɪv/",
               "pos": "adj.",
               "meaning": "adj.善解人意的；敏感的",
               "highlight": "adj.善解人意的",
@@ -34274,7 +34274,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "sensitivity",
-                  "phonetic": "/isensa'tivati/",
+                  "phonetic": "/ˌsensəˈtɪvəti/",
                   "pos": "n.",
                   "meaning": "n.体贴；敏感性；灵敏度"
                 }
@@ -34286,7 +34286,7 @@ window.CET6_DATA = {
               "id": "u9_l4_44",
               "num": "42",
               "word": "sensation",
-              "phonetic": "/sen'sern/",
+              "phonetic": "/senˈseɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.知觉，感觉；轰动",
               "highlight": "n.知觉",
@@ -34296,7 +34296,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "sensational",
-                  "phonetic": "/sen'serfanl/",
+                  "phonetic": "/senˈseɪʃən(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.轰动的；耸人听闻的"
                 }
@@ -34308,7 +34308,7 @@ window.CET6_DATA = {
               "id": "u9_l4_45",
               "num": "43",
               "word": "sentiment",
-              "phonetic": "/'sentimant/",
+              "phonetic": "/ˈsentɪmənt/",
               "pos": "n.",
               "meaning": "n.(基于情感的）观点，看法；情绪",
               "highlight": "n.(基于情感的）观点",
@@ -34318,7 +34318,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "sentimental",
-                  "phonetic": "/isent'mentl/",
+                  "phonetic": "/ˌsentɪˈment(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.情感的；伤感的；多愁善感的"
                 }
@@ -34330,7 +34330,7 @@ window.CET6_DATA = {
               "id": "u9_l4_46",
               "num": "44",
               "word": "nonsense",
-              "phonetic": "/'nonsns/",
+              "phonetic": "/ˈnɑːnsens/",
               "pos": "n.",
               "meaning": "n.胡扯，胡言乱语；毫无意义的话",
               "highlight": "n.胡扯",
@@ -34343,7 +34343,7 @@ window.CET6_DATA = {
               "id": "u9_l4_47",
               "num": "45",
               "word": "intensive",
-              "phonetic": "/in'tensv/",
+              "phonetic": "/ɪnˈtensɪv/",
               "pos": "",
               "meaning": "致的 adj.加强的；密集的；彻底的；十分细",
               "highlight": "致的 adj.加强的",
@@ -34356,7 +34356,7 @@ window.CET6_DATA = {
               "id": "u9_l4_48",
               "num": "46",
               "word": "intense",
-              "phonetic": "/in'tens/",
+              "phonetic": "/ɪnˈtens/",
               "pos": "adj.",
               "meaning": "adj.很大的，十分强烈的；激烈的",
               "highlight": "adj.很大的",
@@ -34366,7 +34366,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "intensity",
-                  "phonetic": "/in'tensati/",
+                  "phonetic": "/ɪnˈtensəti/",
                   "pos": "n.",
                   "meaning": "n.强烈；紧张"
                 },
@@ -34392,7 +34392,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "density",
-                  "phonetic": "/'densati/",
+                  "phonetic": "/ˈdensəti/",
                   "pos": "n.",
                   "meaning": "n.密度"
                 }
@@ -34402,7 +34402,7 @@ window.CET6_DATA = {
               "id": "u9_l4_50",
               "num": "48",
               "word": "condense",
-              "phonetic": "/kan'dens/",
+              "phonetic": "/kənˈdens/",
               "pos": "v.",
               "meaning": "v.凝结；压缩；浓缩",
               "highlight": "v.凝结",
@@ -34412,7 +34412,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "condensation",
-                  "phonetic": "/ˌkɒnden'seɪʃn/",
+                  "phonetic": "/ˌkɑːndenˈseɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n. 冷凝，凝结；浓缩"
                 }
@@ -34422,7 +34422,7 @@ window.CET6_DATA = {
               "id": "u9_l4_51",
               "num": "49",
               "word": "capital",
-              "phonetic": "/'kaepitl/",
+              "phonetic": "/ˈkæpɪt(ə)l/",
               "pos": "n.",
               "meaning": "n.首都；资本，资金adj.大写的",
               "highlight": "n.首都",
@@ -34432,13 +34432,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "capitalist",
-                  "phonetic": "/'kepitolst/",
+                  "phonetic": "/ˈkæpɪtəlɪst/",
                   "pos": "n.",
                   "meaning": "n.资本主义者"
                 },
                 {
                   "word": "capitalism",
-                  "phonetic": "/uezienrdarx,/",
+                  "phonetic": "/ˈkæpɪtəlɪzəm/",
                   "pos": "n.",
                   "meaning": "n.资本主义"
                 }
@@ -34448,7 +34448,7 @@ window.CET6_DATA = {
               "id": "u9_l4_52",
               "num": "50",
               "word": "capacity",
-              "phonetic": "/ka'paesati/",
+              "phonetic": "/kəˈpæsəti/",
               "pos": "n.",
               "meaning": "n.容量；能力",
               "highlight": "n.容量",
@@ -34461,7 +34461,7 @@ window.CET6_DATA = {
               "id": "u9_l4_53",
               "num": "51",
               "word": "capable",
-              "phonetic": "/'kerpabl/",
+              "phonetic": "/ˈkeɪpəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.有能力的；能力强的",
               "highlight": "adj.有能力的",
@@ -34471,7 +34471,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "capability",
-                  "phonetic": "/kerpa'brlati/",
+                  "phonetic": "/ˌkeɪpəˈbɪləti/",
                   "pos": "n.",
                   "meaning": "n.能力，才能"
                 }
@@ -34494,7 +34494,7 @@ window.CET6_DATA = {
               "id": "u9_l4_55",
               "num": "53",
               "word": "captive",
-              "phonetic": "/'kaeptv/",
+              "phonetic": "/ˈkæptɪv/",
               "pos": "adj.",
               "meaning": "adj.被监禁的n.囚徒",
               "highlight": "adj.被监禁的n.囚徒",
@@ -34520,7 +34520,7 @@ window.CET6_DATA = {
               "id": "u9_l4_57",
               "num": "55",
               "word": "caption",
-              "phonetic": "/'kepfn/",
+              "phonetic": "/ˈkæpʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.(图片、漫画等的）说明文字；（电视 屏幕上的)字幕；标题",
               "highlight": "n.(图片、漫画等的）说明文字",
@@ -34533,7 +34533,7 @@ window.CET6_DATA = {
               "id": "u9_l4_58",
               "num": "56",
               "word": "clutch",
-              "phonetic": "/klatf/",
+              "phonetic": "/klʌtʃ/",
               "pos": "v.",
               "meaning": "v.紧握，抓紧n.控制；离合器",
               "highlight": "v.紧握",
@@ -34546,7 +34546,7 @@ window.CET6_DATA = {
               "id": "u9_l4_59",
               "num": "57",
               "word": "cape",
-              "phonetic": "/keip/",
+              "phonetic": "/keɪp/",
               "pos": "n.",
               "meaning": "n.披风，斗篷；角",
               "highlight": "n.披风",
@@ -34559,7 +34559,7 @@ window.CET6_DATA = {
               "id": "u9_l4_60",
               "num": "58",
               "word": "escape",
-              "phonetic": "/i'skeip/",
+              "phonetic": "/ɪˈskeɪp/",
               "pos": "v.",
               "meaning": "v.逃跑；逃避，摆脱n.逃跑",
               "highlight": "v.逃跑",
@@ -34572,7 +34572,7 @@ window.CET6_DATA = {
               "id": "u9_l4_61",
               "num": "59",
               "word": "cabin",
-              "phonetic": "/'kaebin/",
+              "phonetic": "/ˈkæbɪn/",
               "pos": "n.",
               "meaning": "n.小木屋；船舱；客舱",
               "highlight": "n.小木屋",
@@ -34598,7 +34598,7 @@ window.CET6_DATA = {
               "id": "u9_l4_63",
               "num": "61",
               "word": "cable",
-              "phonetic": "/'kerbl/",
+              "phonetic": "/ˈkeɪb(ə)l/",
               "pos": "n.",
               "meaning": "n.缆绳；电缆",
               "highlight": "n.缆绳",
@@ -34665,7 +34665,7 @@ window.CET6_DATA = {
               "id": "u10_l1_01",
               "num": "01",
               "word": "collide",
-              "phonetic": "/ka'laid/",
+              "phonetic": "/kəˈlaɪd/",
               "pos": "v.",
               "meaning": "v.碰撞，相撞；抵触，冲突",
               "highlight": "v.碰撞",
@@ -34685,7 +34685,7 @@ window.CET6_DATA = {
               "id": "u10_l1_02",
               "num": "02",
               "word": "clash",
-              "phonetic": "/klae/",
+              "phonetic": "/klæʃ/",
               "pos": "n.",
               "meaning": "n.冲突；不协调；撞击声 v.冲突；争论",
               "highlight": "n.冲突",
@@ -34698,7 +34698,7 @@ window.CET6_DATA = {
               "id": "u10_l1_03",
               "num": "03",
               "word": "crash",
-              "phonetic": "/krae/",
+              "phonetic": "/kræʃ/",
               "pos": "v.",
               "meaning": "v.碰撞，撞击，坠毁；暴跌 n.撞车，碰撞",
               "highlight": "v.碰撞",
@@ -34711,7 +34711,7 @@ window.CET6_DATA = {
               "id": "u10_l1_04",
               "num": "04",
               "word": "crush",
-              "phonetic": "/kraf/",
+              "phonetic": "/krʌʃ/",
               "pos": "v.",
               "meaning": "v.压碎，捣碎；镇压 n.(狭小空间中）拥挤的人群；迷恋",
               "highlight": "v.压碎",
@@ -34724,7 +34724,7 @@ window.CET6_DATA = {
               "id": "u10_l1_05",
               "num": "05",
               "word": "smash",
-              "phonetic": "/smaes/",
+              "phonetic": "/smæʃ/",
               "pos": "n.",
               "meaning": "n.破碎v.打碎；猛击；粉碎",
               "highlight": "n.破碎v.打碎",
@@ -34750,7 +34750,7 @@ window.CET6_DATA = {
               "id": "u10_l1_07",
               "num": "07",
               "word": "crumble",
-              "phonetic": "/'krambl/",
+              "phonetic": "/ˈkrʌmb(ə)l/",
               "pos": "v.",
               "meaning": "v.（使）粉碎；碎裂，崩裂，坍塌；崩溃",
               "highlight": "v.（使）粉碎",
@@ -34763,7 +34763,7 @@ window.CET6_DATA = {
               "id": "u10_l1_08",
               "num": "08",
               "word": "ashamed",
-              "phonetic": "/'fermd/",
+              "phonetic": "/əˈʃeɪmd/",
               "pos": "adj.",
               "meaning": "adj.惭愧的，羞愧的；尴尬的",
               "highlight": "adj.惭愧的",
@@ -34778,7 +34778,7 @@ window.CET6_DATA = {
               "id": "u10_l1_09",
               "num": "09",
               "word": "collapse",
-              "phonetic": "/ka'laeps/",
+              "phonetic": "/kəˈlæps/",
               "pos": "n.",
               "meaning": "n.&.v.倒塌，坍塌；崩溃",
               "highlight": "n.&.v.倒塌",
@@ -34791,7 +34791,7 @@ window.CET6_DATA = {
               "id": "u10_l1_10",
               "num": "10",
               "word": "elapse",
-              "phonetic": "/'laeps/",
+              "phonetic": "/ɪˈlæps/",
               "pos": "v.",
               "meaning": "v.(时间）消逝，流逝",
               "highlight": "v.(时间）消逝",
@@ -34806,7 +34806,7 @@ window.CET6_DATA = {
               "id": "u10_l1_11",
               "num": "11",
               "word": "dome",
-              "phonetic": "/daum/",
+              "phonetic": "/doʊm/",
               "pos": "n.",
               "meaning": "n.弯顶，圆屋顶；圆顶状物",
               "highlight": "n.弯顶",
@@ -34832,7 +34832,7 @@ window.CET6_DATA = {
               "id": "u10_l1_13",
               "num": "13",
               "word": "chapel",
-              "phonetic": "/'tfaepl/",
+              "phonetic": "/ˈtʃæp(ə)l/",
               "pos": "n.",
               "meaning": "n.小教堂",
               "highlight": "n.小教堂",
@@ -34845,7 +34845,7 @@ window.CET6_DATA = {
               "id": "u10_l1_14",
               "num": "14",
               "word": "domestic",
-              "phonetic": "/da'mestik/",
+              "phonetic": "/dəˈmestɪk/",
               "pos": "adj.",
               "meaning": "adj.本国的，国内的；家用的；家庭的",
               "highlight": "adj.本国的",
@@ -34858,7 +34858,7 @@ window.CET6_DATA = {
               "id": "u10_l1_15",
               "num": "15",
               "word": "dominate",
-              "phonetic": "/'dominet/",
+              "phonetic": "/ˈdɑːmɪneɪt/",
               "pos": "v.",
               "meaning": "v.支配，统治，控制，影响；（在比赛 中)占有优势，占据主动",
               "highlight": "v.支配",
@@ -34868,7 +34868,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "domination",
-                  "phonetic": "/idomt'nern/",
+                  "phonetic": "/ˌdɑːmɪˈneɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.支配，控制，影响"
                 }
@@ -34878,7 +34878,7 @@ window.CET6_DATA = {
               "id": "u10_l1_16",
               "num": "16",
               "word": "dominance",
-              "phonetic": "/sueuuap/",
+              "phonetic": "/ˈdɑːmɪnəns/",
               "pos": "n.",
               "meaning": "n.优势；支配，控制",
               "highlight": "n.优势",
@@ -34891,7 +34891,7 @@ window.CET6_DATA = {
               "id": "u10_l1_17",
               "num": "17",
               "word": "predominate",
-              "phonetic": "/pri'dominet/",
+              "phonetic": "/prɪˈdɑːmɪneɪt/",
               "pos": "v.",
               "meaning": "v.(在数量上)占优势；占主导地位",
               "highlight": "v.(在数量上)占优势",
@@ -34906,7 +34906,7 @@ window.CET6_DATA = {
               "id": "u10_l1_18",
               "num": "18",
               "word": "predominant",
-              "phonetic": "/pr'dominant/",
+              "phonetic": "/prɪˈdɑːmɪnənt/",
               "pos": "adj.",
               "meaning": "adj.显著的；盛行的；占优势的；主 导的",
               "highlight": "adj.显著的",
@@ -34916,7 +34916,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "predominance",
-                  "phonetic": "/sueuuap,ud/",
+                  "phonetic": "/prɪˈdɑːmɪnəns/",
                   "pos": "n.",
                   "meaning": "n.(数量上的）优势；主导地位"
                 }
@@ -34926,7 +34926,7 @@ window.CET6_DATA = {
               "id": "u10_l1_19",
               "num": "19",
               "word": "control",
-              "phonetic": "/kan'traul/",
+              "phonetic": "/kənˈtroʊl/",
               "pos": "n.",
               "meaning": "n.管理，控制，支配 v.指挥；控制，支配",
               "highlight": "n.管理",
@@ -34939,7 +34939,7 @@ window.CET6_DATA = {
               "id": "u10_l1_20",
               "num": "20",
               "word": "manipulate",
-              "phonetic": "/ma'npjuleit/",
+              "phonetic": "/məˈnɪpjuleɪt/",
               "pos": "v.",
               "meaning": "v.操纵，控制；（熟练地）操作，使用",
               "highlight": "v.操纵",
@@ -34949,13 +34949,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "manipulation",
-                  "phonetic": "/manpju'ler/n/",
+                  "phonetic": "/məˌnɪpjuˈleɪʃn/",
                   "pos": "n.",
                   "meaning": "n.操纵，（暗中）控制"
                 },
                 {
                   "word": "manipulative",
-                  "phonetic": "/Anelefdrueu/",
+                  "phonetic": "/məˈnɪpjəleɪtɪv/",
                   "pos": "adj.",
                   "meaning": "adj.善于操纵的，会控制的"
                 }
@@ -34965,7 +34965,7 @@ window.CET6_DATA = {
               "id": "u10_l1_21",
               "num": "21",
               "word": "moderate",
-              "phonetic": "/ˈmɒdərət/",
+              "phonetic": "/ˈmɑːdərət/",
               "pos": "",
               "meaning": "adj. 适度的，温和的 v. (使)缓和；节制 n. 温和派",
               "highlight": "/'modarert/ v.（使）缓和",
@@ -34981,7 +34981,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "moderator",
-                  "phonetic": "/'modareta(r)/",
+                  "phonetic": "/ˈmɑːdəreɪtər/",
                   "pos": "n.",
                   "meaning": "n.调解人，调停人"
                 }
@@ -34991,7 +34991,7 @@ window.CET6_DATA = {
               "id": "u10_l1_22",
               "num": "22",
               "word": "accelerate",
-              "phonetic": "/ak'selarert/",
+              "phonetic": "/əkˈseləreɪt/",
               "pos": "v.",
               "meaning": "v.(使)加速，加快",
               "highlight": "v.(使)加速",
@@ -35004,7 +35004,7 @@ window.CET6_DATA = {
               "id": "u10_l1_23",
               "num": "23",
               "word": "tolerate",
-              "phonetic": "/'tolaret/",
+              "phonetic": "/ˈtɑːləreɪt/",
               "pos": "v.",
               "meaning": "v.容忍，容许；忍受，忍耐",
               "highlight": "v.容忍",
@@ -35014,13 +35014,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "tolerant",
-                  "phonetic": "/'tolarant/",
+                  "phonetic": "/ˈtɑːlərənt/",
                   "pos": "adj.",
                   "meaning": "adj.容忍的；宽容的"
                 },
                 {
                   "word": "tolerance",
-                  "phonetic": "/suezefa,/",
+                  "phonetic": "/ˈtɑːlərəns/",
                   "pos": "n.",
                   "meaning": "n.忍受；宽容"
                 },
@@ -35036,7 +35036,7 @@ window.CET6_DATA = {
               "id": "u10_l1_24",
               "num": "24",
               "word": "endure",
-              "phonetic": "/n'djua(r)/",
+              "phonetic": "/ɪnˈdʊr/",
               "pos": "v.",
               "meaning": "v.忍受；持续存在",
               "highlight": "v.忍受",
@@ -35046,7 +35046,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "endurance",
-                  "phonetic": "/mn'djuarans/",
+                  "phonetic": "/ɪnˈdʊrəns/",
                   "pos": "n.",
                   "meaning": "n.忍耐力，耐久力"
                 }
@@ -35058,7 +35058,7 @@ window.CET6_DATA = {
               "id": "u10_l1_25",
               "num": "25",
               "word": "duration",
-              "phonetic": "/dju'rerfn/",
+              "phonetic": "/duˈreɪʃn/",
               "pos": "n.",
               "meaning": "n.持续，持续时间",
               "highlight": "n.持续",
@@ -35073,7 +35073,7 @@ window.CET6_DATA = {
               "id": "u10_l1_26",
               "num": "26",
               "word": "tenure",
-              "phonetic": "/'tenja(r)/",
+              "phonetic": "/ˈtenjər/",
               "pos": "n.",
               "meaning": "n.任期，任职",
               "highlight": "n.任期",
@@ -35088,7 +35088,7 @@ window.CET6_DATA = {
               "id": "u10_l1_27",
               "num": "27",
               "word": "evaporate",
-              "phonetic": "/'vaepareit/",
+              "phonetic": "/ɪˈvæpəreɪt/",
               "pos": "v.",
               "meaning": "v.(使）蒸发，挥发；(逐渐）消失",
               "highlight": "v.(使）蒸发",
@@ -35110,7 +35110,7 @@ window.CET6_DATA = {
               "id": "u10_l1_28",
               "num": "28",
               "word": "vanish",
-              "phonetic": "/'vaensf/",
+              "phonetic": "/ˈvænɪʃ/",
               "pos": "v.",
               "meaning": "v.突然消失；不存在",
               "highlight": "v.突然消失",
@@ -35148,7 +35148,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "hindrance",
-                  "phonetic": "/'hindrans/",
+                  "phonetic": "/ˈhɪndrəns/",
                   "pos": "n.",
                   "meaning": "n.妨碍；造成妨碍的人（或物）"
                 }
@@ -35160,7 +35160,7 @@ window.CET6_DATA = {
               "id": "u10_l1_31",
               "num": "31",
               "word": "obstacle",
-              "phonetic": "/'obstakl/",
+              "phonetic": "/ˈɑːbstək(ə)l/",
               "pos": "n.",
               "meaning": "n.障碍，阻碍",
               "highlight": "n.障碍",
@@ -35175,7 +35175,7 @@ window.CET6_DATA = {
               "id": "u10_l1_32",
               "num": "32",
               "word": "prevent",
-              "phonetic": "/pri'vent/",
+              "phonetic": "/prɪˈvent/",
               "pos": "v.",
               "meaning": "v.阻止，阻碍",
               "highlight": "v.阻止",
@@ -35185,13 +35185,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "prevention",
-                  "phonetic": "/pr'venJn/",
+                  "phonetic": "/prɪˈvenʃn/",
                   "pos": "n.",
                   "meaning": "n.预防；防止"
                 },
                 {
                   "word": "preventive",
-                  "phonetic": "/pr'ventiv/",
+                  "phonetic": "/prɪˈventɪv/",
                   "pos": "adj.",
                   "meaning": "adj.预防性的，防备的"
                 }
@@ -35203,7 +35203,7 @@ window.CET6_DATA = {
               "id": "u10_l1_33",
               "num": "33",
               "word": "exclude",
-              "phonetic": "/ik'sklusd/",
+              "phonetic": "/ɪkˈskluːd/",
               "pos": "v.",
               "meaning": "v.不包括，不放在考虑之列；把…. 排斥在外",
               "highlight": "v.不包括",
@@ -35213,7 +35213,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "exclusive",
-                  "phonetic": "/ik'sklussiv/",
+                  "phonetic": "/ɪkˈskluːsɪv/",
                   "pos": "n.",
                   "meaning": "n.独家新闻，独家报道 adj.独有的；排外的"
                 },
@@ -35257,7 +35257,7 @@ window.CET6_DATA = {
               "id": "u10_l1_35",
               "num": "35",
               "word": "eliminate",
-              "phonetic": "/r'lmnert/",
+              "phonetic": "/ɪˈlɪmɪneɪt/",
               "pos": "v.",
               "meaning": "v.排除，消除；（比赛中）淘汰",
               "highlight": "v.排除",
@@ -35267,7 +35267,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "elimination",
-                  "phonetic": "/ulrm'ner/n/",
+                  "phonetic": "/ɪˌlɪmɪˈneɪʃn/",
                   "pos": "n.",
                   "meaning": "n.排除；淘汰；消灭"
                 }
@@ -35290,7 +35290,7 @@ window.CET6_DATA = {
               "id": "u10_l1_37",
               "num": "37",
               "word": "convenience",
-              "phonetic": "/kan'vinians/",
+              "phonetic": "/kənˈviːniəns/",
               "pos": "n.",
               "meaning": "n.方便，便利；便利设施",
               "highlight": "n.方便",
@@ -35303,7 +35303,7 @@ window.CET6_DATA = {
               "id": "u10_l1_38",
               "num": "38",
               "word": "handy",
-              "phonetic": "/'haendi/",
+              "phonetic": "/ˈhændi/",
               "pos": "adj.",
               "meaning": "adj.手边的，就近的；方便的，便利的",
               "highlight": "adj.手边的",
@@ -35318,7 +35318,7 @@ window.CET6_DATA = {
               "id": "u10_l1_39",
               "num": "39",
               "word": "convince",
-              "phonetic": "/kan'vins/",
+              "phonetic": "/kənˈvɪns/",
               "pos": "v.",
               "meaning": "v.使确信；使信服；说服",
               "highlight": "v.使确信",
@@ -35328,7 +35328,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "convincing",
-                  "phonetic": "/kon'vinsi/",
+                  "phonetic": "/kənˈvɪnsɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.令人信服的，有说服力的"
                 }
@@ -35340,7 +35340,7 @@ window.CET6_DATA = {
               "id": "u10_l1_40",
               "num": "40",
               "word": "automate",
-              "phonetic": "/'otomert/",
+              "phonetic": "/ˈɔːtəmeɪt/",
               "pos": "v.",
               "meaning": "v.使自动化",
               "highlight": "v.使自动化",
@@ -35350,7 +35350,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "automation",
-                  "phonetic": "/ota'merfn/",
+                  "phonetic": "/ˌɔːtəˈmeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.自动化"
                 }
@@ -35362,7 +35362,7 @@ window.CET6_DATA = {
               "id": "u10_l1_41",
               "num": "41",
               "word": "automatic",
-              "phonetic": "/ota'matik/",
+              "phonetic": "/ˌɔːtəˈmætɪk/",
               "pos": "n.",
               "meaning": "n.自动换挡汽车 adj.自动的，自动化的；无意识的",
               "highlight": "n.自动换挡汽车 adj.自动的",
@@ -35375,7 +35375,7 @@ window.CET6_DATA = {
               "id": "u10_l1_42",
               "num": "42",
               "word": "vehicle",
-              "phonetic": "/'viakl/",
+              "phonetic": "/ˈviːəkl/",
               "pos": "n.",
               "meaning": "n.交通工具，车辆；手段，工具",
               "highlight": "n.交通工具",
@@ -35390,7 +35390,7 @@ window.CET6_DATA = {
               "id": "u10_l1_43",
               "num": "43",
               "word": "saddle",
-              "phonetic": "/'saedl/",
+              "phonetic": "/ˈsæd(ə)l/",
               "pos": "n.",
               "meaning": "n.马鞍；（自行车或摩托车的)车座 v.给（马）备鞍",
               "highlight": "n.马鞍",
@@ -35405,7 +35405,7 @@ window.CET6_DATA = {
               "id": "u10_l1_44",
               "num": "44",
               "word": "pedal",
-              "phonetic": "/'pedl/",
+              "phonetic": "/ˈped(ə)l/",
               "pos": "n.",
               "meaning": "n.（自行车等的）踏板；（钢琴、风琴等 的)踏板v.骑自行车；踩踏板",
               "highlight": "n.（自行车等的）踏板",
@@ -35420,7 +35420,7 @@ window.CET6_DATA = {
               "id": "u10_l1_45",
               "num": "45",
               "word": "pedestrian",
-              "phonetic": "/padestrian/",
+              "phonetic": "/pəˈdestriən/",
               "pos": "n.",
               "meaning": "n.行人，步行者 adj.行人的；平庸乏味的",
               "highlight": "n.行人",
@@ -35435,7 +35435,7 @@ window.CET6_DATA = {
               "id": "u10_l1_46",
               "num": "46",
               "word": "array",
-              "phonetic": "/arel/",
+              "phonetic": "/əˈreɪ/",
               "pos": "n.",
               "meaning": "n.大量；排列v.排列",
               "highlight": "n.大量",
@@ -35448,7 +35448,7 @@ window.CET6_DATA = {
               "id": "u10_l1_47",
               "num": "47",
               "word": "display",
-              "phonetic": "/di'splel/",
+              "phonetic": "/dɪˈspleɪ/",
               "pos": "n.",
               "meaning": "n.陈列，展览；展示，表演 v.陈列，展出，展示；显露，显示",
               "highlight": "n.陈列",
@@ -35461,7 +35461,7 @@ window.CET6_DATA = {
               "id": "u10_l1_48",
               "num": "48",
               "word": "exhibit",
-              "phonetic": "/g'zibit/",
+              "phonetic": "/ɪɡˈzɪbɪt/",
               "pos": "n.",
               "meaning": "n.展览品，陈列品v.展出，陈列",
               "highlight": "n.展览品",
@@ -35483,7 +35483,7 @@ window.CET6_DATA = {
               "id": "u10_l1_49",
               "num": "49",
               "word": "inhibit",
-              "phonetic": "/in'hrbrt/",
+              "phonetic": "/ɪnˈhɪbɪt/",
               "pos": "v.",
               "meaning": "v.阻止，阻碍；抑制；使拘束",
               "highlight": "v.阻止",
@@ -35493,7 +35493,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "inhibition",
-                  "phonetic": "/unhr'bifn/",
+                  "phonetic": "/ˌɪnɪˈbɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.阻止，禁止"
                 }
@@ -35505,7 +35505,7 @@ window.CET6_DATA = {
               "id": "u10_l1_50",
               "num": "50",
               "word": "prohibit",
-              "phonetic": "/prs'hbt/",
+              "phonetic": "/prəˈhɪbɪt/",
               "pos": "v.",
               "meaning": "v.禁止，阻止",
               "highlight": "v.禁止",
@@ -35515,13 +35515,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "prohibition",
-                  "phonetic": "/prau'bifn/",
+                  "phonetic": "/ˌproʊɪˈbɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.(尤指通过法律的）禁止，阻止"
                 },
                 {
                   "word": "prohibitive",
-                  "phonetic": "/pra/hrbativ/",
+                  "phonetic": "/prəˈhɪbətɪv/",
                   "pos": "adj.",
                   "meaning": "adj.（以法令）禁止的；贵得买不起的"
                 }
@@ -35531,7 +35531,7 @@ window.CET6_DATA = {
               "id": "u10_l1_51",
               "num": "51",
               "word": "choke",
-              "phonetic": "/tfauk/",
+              "phonetic": "/tʃoʊk/",
               "pos": "v.",
               "meaning": "v.（使）室息，卡住；（使）硬噎；堵塞 n.室息；哽噎",
               "highlight": "v.（使）室息",
@@ -35557,7 +35557,7 @@ window.CET6_DATA = {
               "id": "u10_l1_53",
               "num": "53",
               "word": "mobile",
-              "phonetic": "/'maubail/",
+              "phonetic": "/ˈmoʊbəl/",
               "pos": "adj.",
               "meaning": "adj.可移动的",
               "highlight": "adj.可移动的",
@@ -35567,7 +35567,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "mobilize",
-                  "phonetic": "/'məʊbɪlaɪz/",
+                  "phonetic": "/ˈmoʊbəlaɪz/",
                   "pos": "v.",
                   "meaning": "v. 组织，动员；调用"
                 }
@@ -35594,7 +35594,7 @@ window.CET6_DATA = {
               "id": "u10_l1_55",
               "num": "55",
               "word": "rational",
-              "phonetic": "/'raefnal/",
+              "phonetic": "/ˈræʃ(ə)nəl/",
               "pos": "adj.",
               "meaning": "adj.合理的，理性的；理智的",
               "highlight": "adj.合理的",
@@ -35607,7 +35607,7 @@ window.CET6_DATA = {
               "id": "u10_l1_56",
               "num": "56",
               "word": "irrational",
-              "phonetic": "/ɪˈræʃənl/",
+              "phonetic": "/ɪˈræʃən(ə)l/",
               "pos": "adj.",
               "meaning": "adj.不合理的，不理性的",
               "highlight": "adj.不合理的",
@@ -35622,7 +35622,7 @@ window.CET6_DATA = {
               "id": "u10_l1_57",
               "num": "57",
               "word": "motivate",
-              "phonetic": "/'mautivet/",
+              "phonetic": "/ˈmoʊtɪveɪt/",
               "pos": "v.",
               "meaning": "v.成为….的动机；激发，激励",
               "highlight": "v.成为….的动机",
@@ -35632,7 +35632,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "motivation",
-                  "phonetic": "/maut'ver/n/",
+                  "phonetic": "/ˌmoʊtɪˈveɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.动机；动力"
                 }
@@ -35644,7 +35644,7 @@ window.CET6_DATA = {
               "id": "u10_l1_58",
               "num": "58",
               "word": "motel",
-              "phonetic": "/mau'tel/",
+              "phonetic": "/moʊˈtel/",
               "pos": "n.",
               "meaning": "n.汽车旅馆",
               "highlight": "n.汽车旅馆",
@@ -35659,7 +35659,7 @@ window.CET6_DATA = {
               "id": "u10_l1_59",
               "num": "59",
               "word": "promote",
-              "phonetic": "/pra'maut/",
+              "phonetic": "/prəˈmoʊt/",
               "pos": "v.",
               "meaning": "v.促进，推动；提升；推销",
               "highlight": "v.促进",
@@ -35679,7 +35679,7 @@ window.CET6_DATA = {
               "id": "u10_l1_60",
               "num": "60",
               "word": "remote",
-              "phonetic": "/rt'maut/",
+              "phonetic": "/rɪˈmoʊt/",
               "pos": "adj.",
               "meaning": "adj.遥远的；疏远的；远程的",
               "highlight": "adj.遥远的",
@@ -35692,7 +35692,7 @@ window.CET6_DATA = {
               "id": "u10_l1_61",
               "num": "61",
               "word": "prompt",
-              "phonetic": "/prompt/",
+              "phonetic": "/prɑːmpt/",
               "pos": "adj.",
               "meaning": "adj.立即的v.促使；激励n.提示",
               "highlight": "adj.立即的v.促使",
@@ -35742,7 +35742,7 @@ window.CET6_DATA = {
               "id": "u10_l1_64",
               "num": "64",
               "word": "antagonism",
-              "phonetic": "/aen'taegonizam/",
+              "phonetic": "/ænˈtæɡənɪzəm/",
               "pos": "n.",
               "meaning": "n.对抗情绪；敌对；敌意",
               "highlight": "n.对抗情绪",
@@ -35755,7 +35755,7 @@ window.CET6_DATA = {
               "id": "u10_l1_65",
               "num": "65",
               "word": "impetus",
-              "phonetic": "/'mpitos/",
+              "phonetic": "/ˈɪmpɪtəs/",
               "pos": "n.",
               "meaning": "n.动力；推动",
               "highlight": "n.动力",
@@ -35768,7 +35768,7 @@ window.CET6_DATA = {
               "id": "u10_l1_66",
               "num": "66",
               "word": "impulse",
-              "phonetic": "/'ɪmpʌls/",
+              "phonetic": "/ˈɪmpʌls/",
               "pos": "n.",
               "meaning": "n. 冲动，心血来潮；推动力；刺激",
               "highlight": "n.冲动",
@@ -35778,7 +35778,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "impulsive",
-                  "phonetic": "/Im'palsv/",
+                  "phonetic": "/ɪmˈpʌlsɪv/",
                   "pos": "adj.",
                   "meaning": "adj.凭冲动行事的；易冲动的"
                 }
@@ -35788,7 +35788,7 @@ window.CET6_DATA = {
               "id": "u10_l1_67",
               "num": "67",
               "word": "pulse",
-              "phonetic": "/pals/",
+              "phonetic": "/pʌls/",
               "pos": "n.",
               "meaning": "n.脉搏v.搏动，跳动",
               "highlight": "n.脉搏v.搏动",
@@ -35801,7 +35801,7 @@ window.CET6_DATA = {
               "id": "u10_l1_68",
               "num": "68",
               "word": "locomotive",
-              "phonetic": "/laokamautiv/",
+              "phonetic": "/ˌloʊkəˈmoʊtɪv/",
               "pos": "n.",
               "meaning": "n.机车；火车头adj.移动的，运动的",
               "highlight": "n.机车",
@@ -35844,7 +35844,7 @@ window.CET6_DATA = {
               "id": "u10_l1_71",
               "num": "71",
               "word": "baby boom",
-              "phonetic": "/'beɪbi buːm/",
+              "phonetic": "/ˈbeɪbi buːm/",
               "pos": "n.",
               "meaning": "n. 生育高峰(期)",
               "highlight": "n.生育高峰（期）",
@@ -35854,7 +35854,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "baby boomer",
-                  "phonetic": "/'beɪbi buːmə(r)/",
+                  "phonetic": "/ˈbeɪbi buːmə(r)/",
                   "pos": "n.",
                   "meaning": "n. 生育高峰期出生的人"
                 }
@@ -35877,7 +35877,7 @@ window.CET6_DATA = {
               "id": "u10_l1_73",
               "num": "73",
               "word": "bloom",
-              "phonetic": "/blum/",
+              "phonetic": "/bluːm/",
               "pos": "v.",
               "meaning": "v.开花；兴旺n.花朵",
               "highlight": "v.开花",
@@ -35965,7 +35965,7 @@ window.CET6_DATA = {
               "id": "u10_l2_02",
               "num": "01",
               "word": "elect",
-              "phonetic": "/s'lekt/",
+              "phonetic": "/ɪˈlekt/",
               "pos": "v.",
               "meaning": "v.选举，推选；选择，决定（做某事）",
               "highlight": "v.选举",
@@ -35975,7 +35975,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "election",
-                  "phonetic": "/t'lekfn/",
+                  "phonetic": "/ɪˈlekʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.选举，推选（尤指从政）"
                 },
@@ -35993,7 +35993,7 @@ window.CET6_DATA = {
               "id": "u10_l2_03",
               "num": "02",
               "word": "select",
-              "phonetic": "/st'lekt/",
+              "phonetic": "/sɪˈlekt/",
               "pos": "v.",
               "meaning": "v.选择；挑选",
               "highlight": "v.选择",
@@ -36009,7 +36009,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "selective",
-                  "phonetic": "/si'lektv/",
+                  "phonetic": "/sɪˈlektɪv/",
                   "pos": "adj.",
                   "meaning": "adj.选择性的，有选择的"
                 }
@@ -36019,7 +36019,7 @@ window.CET6_DATA = {
               "id": "u10_l2_04",
               "num": "03",
               "word": "collective",
-              "phonetic": "/ks'lektiv/",
+              "phonetic": "/kəˈlektɪv/",
               "pos": "adj.",
               "meaning": "adj.集体的，共有的，共同的",
               "highlight": "adj.集体的",
@@ -36034,7 +36034,7 @@ window.CET6_DATA = {
               "id": "u10_l2_05",
               "num": "04",
               "word": "neglect",
-              "phonetic": "/ni'glekt/",
+              "phonetic": "/nɪˈɡlekt/",
               "pos": "v.",
               "meaning": "v.疏于照顾；忽视，不予重视；疏漏， 疏忽n.忽略，忽视",
               "highlight": "v.疏于照顾",
@@ -36044,7 +36044,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "neglectful",
-                  "phonetic": "/nr'glektfl/",
+                  "phonetic": "/nɪˈɡlektfl/",
                   "pos": "adj.",
                   "meaning": "adj.马虎的；不重视的，忽视的"
                 }
@@ -36093,7 +36093,7 @@ window.CET6_DATA = {
               "id": "u10_l2_09",
               "num": "08",
               "word": "ignorant",
-              "phonetic": "/'gnarant/",
+              "phonetic": "/ˈɪɡnərənt/",
               "pos": "adj.",
               "meaning": "adj.无知的，愚昧的；很无礼的",
               "highlight": "adj.无知的",
@@ -36103,7 +36103,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ignorance",
-                  "phonetic": "/'ignarans/",
+                  "phonetic": "/ˈɪɡnərəns/",
                   "pos": "n.",
                   "meaning": "n.无知"
                 }
@@ -36113,7 +36113,7 @@ window.CET6_DATA = {
               "id": "u10_l2_10",
               "num": "60",
               "word": "annoy",
-              "phonetic": "/a'not/",
+              "phonetic": "/əˈnɔɪ/",
               "pos": "v.",
               "meaning": "v.使恼怒，使生气；打扰",
               "highlight": "v.使恼怒",
@@ -36138,7 +36138,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "notional",
-                  "phonetic": "/luefneu /",
+                  "phonetic": "/ˈnoʊʃənl/",
                   "pos": "adj.",
                   "meaning": "adj.猜测的；理论上的"
                 }
@@ -36160,7 +36160,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "lecturer",
-                  "phonetic": "/lektfara(r)/",
+                  "phonetic": "/ˈlektʃərər/",
                   "pos": "n.",
                   "meaning": "n.讲课者，演讲者"
                 }
@@ -36172,7 +36172,7 @@ window.CET6_DATA = {
               "id": "u10_l2_13",
               "num": "12",
               "word": "dialect",
-              "phonetic": "/'daalekt/",
+              "phonetic": "/ˈdaɪəlekt/",
               "pos": "n.",
               "meaning": "n.方言，土话",
               "highlight": "n.方言",
@@ -36187,7 +36187,7 @@ window.CET6_DATA = {
               "id": "u10_l2_14",
               "num": "13",
               "word": "dispute",
-              "phonetic": "/dɪ'spjuːt/",
+              "phonetic": "/dɪˈspjuːt/",
               "pos": "n./v.",
               "meaning": "n. 争论，辩论；纠纷 v. 对...表示异议(或怀疑)",
               "highlight": "n.争论",
@@ -36209,7 +36209,7 @@ window.CET6_DATA = {
               "id": "u10_l2_15",
               "num": "14",
               "word": "debate",
-              "phonetic": "/di'bert/",
+              "phonetic": "/dɪˈbeɪt/",
               "pos": "n.",
               "meaning": "n.&v.争论，辩论",
               "highlight": "n.&v.争论",
@@ -36222,7 +36222,7 @@ window.CET6_DATA = {
               "id": "u10_l2_16",
               "num": "15",
               "word": "beat",
-              "phonetic": "/bit/",
+              "phonetic": "/biːt/",
               "pos": "n.",
               "meaning": "n.跳动（声)；击鼓声；振翅声 v.打败（某人)；敲打",
               "highlight": "n.跳动（声)",
@@ -36235,7 +36235,7 @@ window.CET6_DATA = {
               "id": "u10_l2_17",
               "num": "16",
               "word": "whip",
-              "phonetic": "/wip/",
+              "phonetic": "/wɪp/",
               "pos": "n.",
               "meaning": "n.鞭子v.鞭策；鞭打",
               "highlight": "n.鞭子v.鞭策",
@@ -36248,7 +36248,7 @@ window.CET6_DATA = {
               "id": "u10_l2_18",
               "num": "17",
               "word": "bat",
-              "phonetic": "/baet/",
+              "phonetic": "/bæt/",
               "pos": "n.",
               "meaning": "n.球棒，球拍，球板；蝙蝠 v.用球板（棒）击（球)；眨眼",
               "highlight": "n.球棒",
@@ -36261,7 +36261,7 @@ window.CET6_DATA = {
               "id": "u10_l2_19",
               "num": "18",
               "word": "combat",
-              "phonetic": "/kombaet/",
+              "phonetic": "/ˈkɑːmbæt/",
               "pos": "n.",
               "meaning": "n.战斗，搏斗；打仗 v.与..….搏斗，战斗",
               "highlight": "n.战斗",
@@ -36283,7 +36283,7 @@ window.CET6_DATA = {
               "id": "u10_l2_20",
               "num": "19",
               "word": "battle",
-              "phonetic": "/'batl/",
+              "phonetic": "/ˈbæt(ə)l/",
               "pos": "n.",
               "meaning": "n.战斗，战争；较量 v.搏斗；奋斗；斗争",
               "highlight": "n.战斗",
@@ -36296,7 +36296,7 @@ window.CET6_DATA = {
               "id": "u10_l2_21",
               "num": "20",
               "word": "conflict",
-              "phonetic": "/ˈkɒnflɪkt/",
+              "phonetic": "/ˈkɑːnflɪkt/",
               "pos": "",
               "meaning": "n. 抵触，冲突，矛盾；战争 v. 矛盾，冲突，抵触",
               "highlight": "/'konflikt/ n.抵触",
@@ -36335,7 +36335,7 @@ window.CET6_DATA = {
               "id": "u10_l2_24",
               "num": "23",
               "word": "intuition",
-              "phonetic": "/untju'fn/",
+              "phonetic": "/ˌɪntuˈɪʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.直觉力；（一种）直觉",
               "highlight": "n.直觉力",
@@ -36355,7 +36355,7 @@ window.CET6_DATA = {
               "id": "u10_l2_25",
               "num": "24",
               "word": "depart",
-              "phonetic": "/dr'pat/",
+              "phonetic": "/dɪˈpɑːrt/",
               "pos": "v.",
               "meaning": "v.离开；出发，启程",
               "highlight": "v.离开",
@@ -36418,7 +36418,7 @@ window.CET6_DATA = {
               "id": "u10_l2_28",
               "num": "27",
               "word": "department",
-              "phonetic": "/di'partmant/",
+              "phonetic": "/dɪˈpɑːrtmənt/",
               "pos": "n.",
               "meaning": "n.部；司；局；处；系；（医院的）科； 部门",
               "highlight": "n.部",
@@ -36446,7 +36446,7 @@ window.CET6_DATA = {
               "id": "u10_l2_30",
               "num": "29",
               "word": "flat",
-              "phonetic": "/flaet/",
+              "phonetic": "/flæt/",
               "pos": "adj.",
               "meaning": "adj.平坦的，平的；无趣的n.公寓",
               "highlight": "adj.平坦的",
@@ -36461,7 +36461,7 @@ window.CET6_DATA = {
               "id": "u10_l2_31",
               "num": "30",
               "word": "terrace",
-              "phonetic": "/'teras/",
+              "phonetic": "/ˈterəs/",
               "pos": "n.",
               "meaning": "n.露天平台，阳台",
               "highlight": "n.露天平台",
@@ -36491,7 +36491,7 @@ window.CET6_DATA = {
               "id": "u10_l2_33",
               "num": "32",
               "word": "ranch",
-              "phonetic": "/rantf/",
+              "phonetic": "/ræntʃ/",
               "pos": "n.",
               "meaning": "n.牧场，大农场",
               "highlight": "n.牧场",
@@ -36511,7 +36511,7 @@ window.CET6_DATA = {
               "id": "u10_l2_34",
               "num": "34",
               "word": "particular",
-              "phonetic": "/pa'tikjala(r)/",
+              "phonetic": "/pərˈtɪkjələr/",
               "pos": "adj.",
               "meaning": "adj.特别的；特定的；挑剔的n.细节",
               "highlight": "adj.特别的",
@@ -36521,7 +36521,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "particularly",
-                  "phonetic": "/pa'tikjalali/",
+                  "phonetic": "/pərˈtɪkjələrli/",
                   "pos": "adv.",
                   "meaning": "adv.特别；尤其"
                 }
@@ -36533,7 +36533,7 @@ window.CET6_DATA = {
               "id": "u10_l2_35",
               "num": "35",
               "word": "apart",
-              "phonetic": "/a'pat/",
+              "phonetic": "/əˈpɑːrt/",
               "pos": "adv.",
               "meaning": "adv.相隔，分开adj.分离的",
               "highlight": "adv.相隔",
@@ -36546,7 +36546,7 @@ window.CET6_DATA = {
               "id": "u10_l2_36",
               "num": "36",
               "word": "compartment",
-              "phonetic": "/kom'patmant/",
+              "phonetic": "/kəmˈpɑːrtmənt/",
               "pos": "n.",
               "meaning": "n.(客车车厢内的)隔间；(家具等的） 分隔间",
               "highlight": "n.(客车车厢内的)隔间",
@@ -36572,7 +36572,7 @@ window.CET6_DATA = {
               "id": "u10_l2_38",
               "num": "38",
               "word": "decorate",
-              "phonetic": "/'dekareit/",
+              "phonetic": "/ˈdekəreɪt/",
               "pos": "v.",
               "meaning": "v.装饰，装修",
               "highlight": "v.装饰",
@@ -36582,13 +36582,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "decoration",
-                  "phonetic": "/deka'rerfn/",
+                  "phonetic": "/ˌdekəˈreɪʃn/",
                   "pos": "n.",
                   "meaning": "n.装饰，装潢"
                 },
                 {
                   "word": "decorative",
-                  "phonetic": "/'dekarativ/",
+                  "phonetic": "/ˈdekəreɪtɪv/",
                   "pos": "adj.",
                   "meaning": "adj.装饰性的，作装饰用的"
                 }
@@ -36613,7 +36613,7 @@ window.CET6_DATA = {
               "id": "u10_l2_40",
               "num": "40",
               "word": "ornament",
-              "phonetic": "/'onmant/",
+              "phonetic": "/ˈɔːrnəmənt/",
               "pos": "n.",
               "meaning": "n.装饰；装饰品v.装饰，点缀",
               "highlight": "n.装饰",
@@ -36623,7 +36623,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "ornamental",
-                  "phonetic": "/ona'mentl/",
+                  "phonetic": "/ˌɔːrnəˈment(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.装饰性的，点缀的"
                 }
@@ -36635,7 +36635,7 @@ window.CET6_DATA = {
               "id": "u10_l2_41",
               "num": "42",
               "word": "make-up",
-              "phonetic": "/'merk Ap/",
+              "phonetic": "/ˈmeɪk ʌp/",
               "pos": "n.",
               "meaning": "n.化妆品；组成，构成；性格特点",
               "highlight": "n.化妆品",
@@ -36648,7 +36648,7 @@ window.CET6_DATA = {
               "id": "u10_l2_42",
               "num": "43",
               "word": "structure",
-              "phonetic": "/'strktfa(r)/",
+              "phonetic": "/ˈstrʌktʃər/",
               "pos": "n.",
               "meaning": "n.结构，构造v.系统安排；精心组织",
               "highlight": "n.结构",
@@ -36670,7 +36670,7 @@ window.CET6_DATA = {
               "id": "u10_l2_43",
               "num": "44",
               "word": "construct",
-              "phonetic": "/kan'strakt/",
+              "phonetic": "/kənˈstrʌkt/",
               "pos": "v.",
               "meaning": "v.修建；建造",
               "highlight": "v.修建",
@@ -36680,7 +36680,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "construction",
-                  "phonetic": "/kan'strAkfn/",
+                  "phonetic": "/kənˈstrʌkʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.建筑；建造"
                 }
@@ -36690,7 +36690,7 @@ window.CET6_DATA = {
               "id": "u10_l2_44",
               "num": "45",
               "word": "instruct",
-              "phonetic": "/in'strakt/",
+              "phonetic": "/ɪnˈstrʌkt/",
               "pos": "v.",
               "meaning": "v.命令，指示；教授，传授（技能等）",
               "highlight": "v.命令",
@@ -36700,19 +36700,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "instruction",
-                  "phonetic": "/in'strakfn/",
+                  "phonetic": "/ɪnˈstrʌkʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.用法说明；命令，指示"
                 },
                 {
                   "word": "instructor",
-                  "phonetic": "/In'strAkta(r)/",
+                  "phonetic": "/ɪnˈstrʌktər/",
                   "pos": "n.",
                   "meaning": "n.教练；导师"
                 },
                 {
                   "word": "instructive",
-                  "phonetic": "/in'straktiv/",
+                  "phonetic": "/ɪnˈstrʌktɪv/",
                   "pos": "adj.",
                   "meaning": "adj.富有教益的；增长知识的"
                 }
@@ -36744,7 +36744,7 @@ window.CET6_DATA = {
               "id": "u10_l2_46",
               "num": "47",
               "word": "erect",
-              "phonetic": "/i'rekt/",
+              "phonetic": "/ɪˈrekt/",
               "pos": "adj.",
               "meaning": "adj.垂直的；直立的 v.建造；创立；竖立",
               "highlight": "adj.垂直的",
@@ -36754,7 +36754,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "erection",
-                  "phonetic": "/t'rekfn/",
+                  "phonetic": "/ɪˈrekʃn/",
                   "pos": "n.",
                   "meaning": "n.建造；竖立"
                 }
@@ -36792,7 +36792,7 @@ window.CET6_DATA = {
               "id": "u10_l2_49",
               "num": "50",
               "word": "infrastructure",
-              "phonetic": "/'ɪnfrəstrʌktʃə(r)/",
+              "phonetic": "/ˈɪnfrəstrʌktʃər/",
               "pos": "n.",
               "meaning": "n. 基础设施；基础建设",
               "highlight": "",
@@ -36807,7 +36807,7 @@ window.CET6_DATA = {
               "id": "u10_l2_50",
               "num": "51",
               "word": "tank",
-              "phonetic": "/taenk/",
+              "phonetic": "/tæŋk/",
               "pos": "n.",
               "meaning": "n.坦克；(贮放液体或气体的）箱 v.彻底失败；破产",
               "highlight": "n.坦克",
@@ -36822,7 +36822,7 @@ window.CET6_DATA = {
               "id": "u10_l2_51",
               "num": "52",
               "word": "bullet",
-              "phonetic": "/'bulnt/",
+              "phonetic": "/ˈbʊlɪt/",
               "pos": "n.",
               "meaning": "n.子弹，弹丸",
               "highlight": "n.子弹",
@@ -36837,7 +36837,7 @@ window.CET6_DATA = {
               "id": "u10_l2_52",
               "num": "53",
               "word": "navy",
-              "phonetic": "/'nervi/",
+              "phonetic": "/ˈneɪvi/",
               "pos": "n.",
               "meaning": "n.海军；海军部队",
               "highlight": "n.海军",
@@ -36865,7 +36865,7 @@ window.CET6_DATA = {
               "id": "u10_l2_54",
               "num": "55",
               "word": "military",
-              "phonetic": "/'milatri/",
+              "phonetic": "/ˈmɪləteri/",
               "pos": "n.",
               "meaning": "n.军人；军队；军方 adj.军事的；武装的",
               "highlight": "n.军人",
@@ -36880,7 +36880,7 @@ window.CET6_DATA = {
               "id": "u10_l2_55",
               "num": "56",
               "word": "militant",
-              "phonetic": "/'militant/",
+              "phonetic": "/ˈmɪlɪtənt/",
               "pos": "adj.",
               "meaning": "adj.好战的；激进的n.激进分子",
               "highlight": "adj.好战的",
@@ -36890,7 +36890,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "militancy",
-                  "phonetic": "/'mlitansi/",
+                  "phonetic": "/ˈmɪlɪtənsi/",
                   "pos": "n.",
                   "meaning": "n.战斗性，交战状态"
                 }
@@ -36928,7 +36928,7 @@ window.CET6_DATA = {
               "id": "u10_l2_58",
               "num": "59",
               "word": "attack",
-              "phonetic": "/a'taek/",
+              "phonetic": "/əˈtæk/",
               "pos": "v.",
               "meaning": "v.&n.袭击，攻击；批评",
               "highlight": "v.&n.袭击",
@@ -36943,7 +36943,7 @@ window.CET6_DATA = {
               "id": "u10_l2_59",
               "num": "09",
               "word": "tactic",
-              "phonetic": "/'taktik/",
+              "phonetic": "/ˈtæktɪk/",
               "pos": "n.",
               "meaning": "n.策略，手段；战术",
               "highlight": "n.策略",
@@ -36956,7 +36956,7 @@ window.CET6_DATA = {
               "id": "u10_l2_60",
               "num": "61",
               "word": "tact",
-              "phonetic": "/taekt/",
+              "phonetic": "/tækt/",
               "pos": "n.",
               "meaning": "n.（处事、言谈等）老练，圆通，得体； 机敏",
               "highlight": "n.（处事、言谈等）老练",
@@ -36966,7 +36966,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "tactful",
-                  "phonetic": "/'taektfl/",
+                  "phonetic": "/ˈtæktfl/",
                   "pos": "adj.",
                   "meaning": "adj.圆通的，得体的"
                 }
@@ -37008,7 +37008,7 @@ window.CET6_DATA = {
               "id": "u10_l2_63",
               "num": "64",
               "word": "assault",
-              "phonetic": "/asotlt/",
+              "phonetic": "/əˈsɔːlt/",
               "pos": "v.",
               "meaning": "v.猛烈攻击，袭击n.攻击，袭击",
               "highlight": "v.猛烈攻击",
@@ -37021,7 +37021,7 @@ window.CET6_DATA = {
               "id": "u10_l2_64",
               "num": "65",
               "word": "insult",
-              "phonetic": "/'nsslt/",
+              "phonetic": "/ɪnˈsʌlt/",
               "pos": "n.",
               "meaning": "n.辱骂；侮辱",
               "highlight": "n.辱骂",
@@ -37034,7 +37034,7 @@ window.CET6_DATA = {
               "id": "u10_l2_65",
               "num": "66",
               "word": "consult",
-              "phonetic": "/kan'sAlt/",
+              "phonetic": "/kənˈsʌlt/",
               "pos": "v.",
               "meaning": "v.咨询；请教；商议，商量；查阅",
               "highlight": "v.咨询",
@@ -37050,13 +37050,13 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "consultative",
-                  "phonetic": "/kon'saltativ/",
+                  "phonetic": "/kənˈsʌltətɪv/",
                   "pos": "adj.",
                   "meaning": "adj.咨询的；顾问的"
                 },
                 {
                   "word": "consultant",
-                  "phonetic": "/kan'saltant/",
+                  "phonetic": "/kənˈsʌltənt/",
                   "pos": "n.",
                   "meaning": "n.顾问"
                 }
@@ -37068,7 +37068,7 @@ window.CET6_DATA = {
               "id": "u10_l2_66",
               "num": "67",
               "word": "counsel",
-              "phonetic": "/'kaunsl/",
+              "phonetic": "/ˈkaʊns(ə)l/",
               "pos": "n.",
               "meaning": "n.律师；法律顾问 v.提供专业咨询；建议",
               "highlight": "n.律师",
@@ -37083,7 +37083,7 @@ window.CET6_DATA = {
               "id": "u10_l2_67",
               "num": "68",
               "word": "condolence",
-              "phonetic": "/kon'daolans/",
+              "phonetic": "/kənˈdoʊləns/",
               "pos": "n.",
               "meaning": "n.吊暗，哀悼",
               "highlight": "n.吊暗",
@@ -37098,7 +37098,7 @@ window.CET6_DATA = {
               "id": "u10_l2_68",
               "num": "69",
               "word": "convention",
-              "phonetic": "/kon'venfn/",
+              "phonetic": "/kənˈvenʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.习俗，惯例；大会",
               "highlight": "n.习俗",
@@ -37108,7 +37108,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "conventional",
-                  "phonetic": "/kan'venfonl/",
+                  "phonetic": "/kənˈvenʃən(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.墨守成规的；传统的"
                 }
@@ -37120,7 +37120,7 @@ window.CET6_DATA = {
               "id": "u10_l2_69",
               "num": "70",
               "word": "convene",
-              "phonetic": "/kan'vin/",
+              "phonetic": "/kənˈviːn/",
               "pos": "v.",
               "meaning": "v.聚集，集合；开会",
               "highlight": "v.聚集",
@@ -37153,7 +37153,7 @@ window.CET6_DATA = {
               "id": "u10_l2_71",
               "num": "72",
               "word": "survey",
-              "phonetic": "/ˈsɜːveɪ/",
+              "phonetic": "/ˈsɜːrveɪ/",
               "pos": "",
               "meaning": "n.&v. 调查；测量；审视",
               "highlight": "/sa've1/ n.调查",
@@ -37166,7 +37166,7 @@ window.CET6_DATA = {
               "id": "u10_l2_72",
               "num": "73",
               "word": "invest",
-              "phonetic": "/in'vest/",
+              "phonetic": "/ɪnˈvest/",
               "pos": "v.",
               "meaning": "v.投资，投入",
               "highlight": "v.投资",
@@ -37226,7 +37226,7 @@ window.CET6_DATA = {
               "id": "u10_l3_01",
               "num": "01",
               "word": "investor",
-              "phonetic": "/in'vesta(r)/",
+              "phonetic": "/ɪnˈvestər/",
               "pos": "n.",
               "meaning": "n.投资者；投资机构",
               "highlight": "n.投资者",
@@ -37236,7 +37236,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "investment",
-                  "phonetic": "/Imn'vestmant/",
+                  "phonetic": "/ɪnˈvestmənt/",
                   "pos": "n.",
                   "meaning": "n.投资"
                 }
@@ -37246,7 +37246,7 @@ window.CET6_DATA = {
               "id": "u10_l3_02",
               "num": "74",
               "word": "investigate",
-              "phonetic": "/in'vestigert/",
+              "phonetic": "/ɪnˈvestɪɡeɪt/",
               "pos": "",
               "meaning": "调查，侦查；研究",
               "highlight": "调查",
@@ -37256,7 +37256,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "investigation",
-                  "phonetic": "/inivestr'gerfn/",
+                  "phonetic": "/ɪnˌvestɪˈɡeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.调查"
                 }
@@ -37268,7 +37268,7 @@ window.CET6_DATA = {
               "id": "u10_l3_03",
               "num": "75",
               "word": "investigator",
-              "phonetic": "/Im'vestigerta(r)/",
+              "phonetic": "/ɪnˈvestɪɡeɪtər/",
               "pos": "n.",
               "meaning": "n.调查者，侦察员",
               "highlight": "n.调查者",
@@ -37283,7 +37283,7 @@ window.CET6_DATA = {
               "id": "u10_l3_04",
               "num": "76",
               "word": "census",
-              "phonetic": "/'sensas/",
+              "phonetic": "/ˈsensəs/",
               "pos": "n.",
               "meaning": "n.（官方的）统计，人口普查，人口 调查",
               "highlight": "n.（官方的）统计",
@@ -37298,7 +37298,7 @@ window.CET6_DATA = {
               "id": "u10_l3_05",
               "num": "77",
               "word": "consensus",
-              "phonetic": "/kan'sensas/",
+              "phonetic": "/kənˈsensəs/",
               "pos": "n.",
               "meaning": "n.共同意见，一致看法，共识",
               "highlight": "n.共同意见",
@@ -37313,7 +37313,7 @@ window.CET6_DATA = {
               "id": "u10_l3_06",
               "num": "78",
               "word": "unanimous",
-              "phonetic": "/ju'naenimas/",
+              "phonetic": "/juˈnænɪməs/",
               "pos": "adj.",
               "meaning": "adj.（决定或意见）一致的，一致同 意的",
               "highlight": "adj.（决定或意见）一致的",
@@ -37326,7 +37326,7 @@ window.CET6_DATA = {
               "id": "u10_l3_07",
               "num": "79",
               "word": "reconcile",
-              "phonetic": "/'rekansal/",
+              "phonetic": "/ˈrekənsaɪl/",
               "pos": "v.",
               "meaning": "v.使和谐一致，协调；使和解，和好； 将就，妥协",
               "highlight": "v.使和谐一致",
@@ -37336,13 +37336,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "reconciliation",
-                  "phonetic": "/rekansili'erfn/",
+                  "phonetic": "/ˌrekənsɪliˈeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.和解；协调"
                 },
                 {
                   "word": "reconciliatory",
-                  "phonetic": "/irekan'stliatari/",
+                  "phonetic": "/ˌrekənˈsɪlɪətəri/",
                   "pos": "adj.",
                   "meaning": "adj.调解的；和解的"
                 }
@@ -37354,7 +37354,7 @@ window.CET6_DATA = {
               "id": "u10_l3_08",
               "num": "80",
               "word": "retreat",
-              "phonetic": "/ri'trit/",
+              "phonetic": "/rɪˈtriːt/",
               "pos": "v.",
               "meaning": "v.&.n.撤退；退却",
               "highlight": "v.&.n.撤退",
@@ -37369,7 +37369,7 @@ window.CET6_DATA = {
               "id": "u10_l3_09",
               "num": "01",
               "word": "repel",
-              "phonetic": "/lad,u/",
+              "phonetic": "/rɪˈpel/",
               "pos": "v.",
               "meaning": "v.击退，驱逐；推开，赶走，驱除",
               "highlight": "v.击退",
@@ -37382,7 +37382,7 @@ window.CET6_DATA = {
               "id": "u10_l3_10",
               "num": "02",
               "word": "expel",
-              "phonetic": "/ik'spel/",
+              "phonetic": "/ɪkˈspel/",
               "pos": "v.",
               "meaning": "v.把.…….开除；驱逐出境；排出",
               "highlight": "v.把.…….开除",
@@ -37397,7 +37397,7 @@ window.CET6_DATA = {
               "id": "u10_l3_11",
               "num": "03",
               "word": "propel",
-              "phonetic": "/pra'pel/",
+              "phonetic": "/prəˈpel/",
               "pos": "v.",
               "meaning": "v.推动，驱动；迫使，驱使",
               "highlight": "v.推动",
@@ -37419,7 +37419,7 @@ window.CET6_DATA = {
               "id": "u10_l3_12",
               "num": "04",
               "word": "compel",
-              "phonetic": "/kam'pel/",
+              "phonetic": "/kəmˈpel/",
               "pos": "v.",
               "meaning": "v.强迫，迫使；引起（反应）",
               "highlight": "v.强迫",
@@ -37429,7 +37429,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "compelling",
-                  "phonetic": "/kom'pelin/",
+                  "phonetic": "/kəmˈpelɪŋ/",
                   "pos": "adj.",
                   "meaning": "adj.引人人胜的；令人信服的"
                 }
@@ -37439,7 +37439,7 @@ window.CET6_DATA = {
               "id": "u10_l3_13",
               "num": "05",
               "word": "squeeze",
-              "phonetic": "/skwiz/",
+              "phonetic": "/skwiːz/",
               "pos": "n.",
               "meaning": "n.&v.压，挤，捏",
               "highlight": "n.&v.压",
@@ -37478,7 +37478,7 @@ window.CET6_DATA = {
               "id": "u10_l3_15",
               "num": "08",
               "word": "connect",
-              "phonetic": "/ka'nekt/",
+              "phonetic": "/kəˈnekt/",
               "pos": "v.",
               "meaning": "v.(使)连接；联结；接通",
               "highlight": "v.(使)连接",
@@ -37488,7 +37488,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "connection",
-                  "phonetic": "/ka'nekjn/",
+                  "phonetic": "/kəˈnekʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.联系；联结"
                 }
@@ -37500,7 +37500,7 @@ window.CET6_DATA = {
               "id": "u10_l3_16",
               "num": "09",
               "word": "associate",
-              "phonetic": "/əˈsəʊʃieɪt/",
+              "phonetic": "/əˈsoʊsieɪt/",
               "pos": "",
               "meaning": "v. 联想，联系；交往 n. 同事；伙伴 adj. 副的",
               "highlight": "/a’sausiat; a'saufiat/ n.同事",
@@ -37510,7 +37510,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "association",
-                  "phonetic": "/aisaui'ein/",
+                  "phonetic": "/əˌs​oʊ​siˈeɪʃn/",
                   "pos": "",
                   "meaning": "n. 协会，社团；关联；联想，联系"
                 }
@@ -37522,7 +37522,7 @@ window.CET6_DATA = {
               "id": "u10_l3_17",
               "num": "10",
               "word": "link",
-              "phonetic": "/lingk/",
+              "phonetic": "/lɪŋk/",
               "pos": "v.",
               "meaning": "v.连接，联系n.环节",
               "highlight": "v.连接",
@@ -37574,7 +37574,7 @@ window.CET6_DATA = {
               "id": "u10_l3_20",
               "num": "13",
               "word": "mingle",
-              "phonetic": "/'mingl/",
+              "phonetic": "/ˈmɪŋɡ(ə)l/",
               "pos": "v.",
               "meaning": "v.(使)与….结合；使混合；使联结",
               "highlight": "v.(使)与….结合",
@@ -37589,7 +37589,7 @@ window.CET6_DATA = {
               "id": "u10_l3_21",
               "num": "14",
               "word": "combine",
-              "phonetic": "/kam'bain/",
+              "phonetic": "/kəmˈbaɪn/",
               "pos": "v.",
               "meaning": "v.(使）联合，(使）结合",
               "highlight": "v.(使）联合",
@@ -37599,7 +37599,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "combination",
-                  "phonetic": "/kombi'nern/",
+                  "phonetic": "/ˌkɑːmbɪˈneɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.联合(体)，结合(体）"
                 }
@@ -37622,7 +37622,7 @@ window.CET6_DATA = {
               "id": "u10_l3_23",
               "num": "16",
               "word": "relevant",
-              "phonetic": "/'relavant/",
+              "phonetic": "/ˈreləvənt/",
               "pos": "adj.",
               "meaning": "adj.紧密相关的，切题的；有意义的",
               "highlight": "adj.紧密相关的",
@@ -37632,7 +37632,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "relevance",
-                  "phonetic": "/'relavans/",
+                  "phonetic": "/ˈreləvəns/",
                   "pos": "n.",
                   "meaning": "n.相关性；意义"
                 }
@@ -37644,7 +37644,7 @@ window.CET6_DATA = {
               "id": "u10_l3_24",
               "num": "17",
               "word": "integrate",
-              "phonetic": "/'intugreit/",
+              "phonetic": "/ˈɪntɪɡreɪt/",
               "pos": "v.",
               "meaning": "v.(使）合并，（使）结合；（使）成为 一体",
               "highlight": "v.(使）合并",
@@ -37654,7 +37654,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "integration",
-                  "phonetic": "/unt'grern/",
+                  "phonetic": "/ˌɪntɪˈɡreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.结合；一体化"
                 }
@@ -37666,7 +37666,7 @@ window.CET6_DATA = {
               "id": "u10_l3_25",
               "num": "18",
               "word": "integral",
-              "phonetic": "/'ɪntɪɡrəl/",
+              "phonetic": "/ˈɪntɪɡrəl/",
               "pos": "adj.",
               "meaning": "adj. 必需的；不可或缺的；完整的",
               "highlight": "",
@@ -37679,7 +37679,7 @@ window.CET6_DATA = {
               "id": "u10_l3_26",
               "num": "19",
               "word": "integrity",
-              "phonetic": "/un'tegrati/",
+              "phonetic": "/ɪnˈteɡrəti/",
               "pos": "n.",
               "meaning": "n.诚实正直；完整，完好",
               "highlight": "n.诚实正直",
@@ -37692,7 +37692,7 @@ window.CET6_DATA = {
               "id": "u10_l3_27",
               "num": "20",
               "word": "disintegrate",
-              "phonetic": "/ds'ntigret/",
+              "phonetic": "/dɪsˈɪntɪɡreɪt/",
               "pos": "v.",
               "meaning": "v.解体；分裂；瓦解",
               "highlight": "v.解体",
@@ -37712,7 +37712,7 @@ window.CET6_DATA = {
               "id": "u10_l3_28",
               "num": "21",
               "word": "concrete",
-              "phonetic": "/'konkrit/",
+              "phonetic": "/ˈkɑːnkriːt/",
               "pos": "adj.",
               "meaning": "adj.具体的；有形的n.混凝土",
               "highlight": "adj.具体的",
@@ -37725,7 +37725,7 @@ window.CET6_DATA = {
               "id": "u10_l3_29",
               "num": "22",
               "word": "emigrate",
-              "phonetic": "/'emgret/",
+              "phonetic": "/ˈemɪɡreɪt/",
               "pos": "v.",
               "meaning": "v.移居国外；移民",
               "highlight": "v.移居国外",
@@ -37740,7 +37740,7 @@ window.CET6_DATA = {
               "id": "u10_l3_30",
               "num": "23",
               "word": "migrate",
-              "phonetic": "/mar'grert/",
+              "phonetic": "/ˈmaɪɡreɪt/",
               "pos": "v.",
               "meaning": "v.迁徙；移居，迁移",
               "highlight": "v.迁徙",
@@ -37750,7 +37750,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "migration",
-                  "phonetic": "/mar'grerfn/",
+                  "phonetic": "/maɪˈɡreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.迁徙；移居，迁移"
                 }
@@ -37760,7 +37760,7 @@ window.CET6_DATA = {
               "id": "u10_l3_31",
               "num": "24",
               "word": "immigrate",
-              "phonetic": "/'mgreit/",
+              "phonetic": "/ˈɪmɪɡreɪt/",
               "pos": "v.",
               "meaning": "v.(从外地)移居；移民",
               "highlight": "v.(从外地)移居",
@@ -37770,7 +37770,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "immigration",
-                  "phonetic": "/tm'grer/n/",
+                  "phonetic": "/ˌɪmɪˈɡreɪʃn/",
                   "pos": "n.",
                   "meaning": "n.移居（人境）；移民人数"
                 }
@@ -37782,7 +37782,7 @@ window.CET6_DATA = {
               "id": "u10_l3_32",
               "num": "25",
               "word": "immigrant",
-              "phonetic": "/'migrant/",
+              "phonetic": "/ˈɪmɪɡrənt/",
               "pos": "n.",
               "meaning": "n.(外来）移民；外侨",
               "highlight": "n.(外来）移民",
@@ -37795,7 +37795,7 @@ window.CET6_DATA = {
               "id": "u10_l3_33",
               "num": "26",
               "word": "emigrant",
-              "phonetic": "/'emigrant/",
+              "phonetic": "/ˈemɪɡrənt/",
               "pos": "n.",
               "meaning": "n.移居外国的人；移民",
               "highlight": "n.移居外国的人",
@@ -37810,7 +37810,7 @@ window.CET6_DATA = {
               "id": "u10_l3_34",
               "num": "27",
               "word": "migrant",
-              "phonetic": "/'maigront/",
+              "phonetic": "/ˈmaɪɡrənt/",
               "pos": "n.",
               "meaning": "n.移居者，移民；候鸟；迁徙动物 adj.迁移的，迁徙的",
               "highlight": "n.移居者",
@@ -37835,7 +37835,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "candidacy",
-                  "phonetic": "/'kaendidasi/",
+                  "phonetic": "/ˈkændɪdəsi/",
                   "pos": "n.",
                   "meaning": "n.候选人的资格（或身份）"
                 }
@@ -37845,7 +37845,7 @@ window.CET6_DATA = {
               "id": "u10_l3_36",
               "num": "29",
               "word": "recruit",
-              "phonetic": "/ri'krut/",
+              "phonetic": "/rɪˈkruːt/",
               "pos": "n.",
               "meaning": "n.新兵，新成员 v.招募（新兵)；吸收(新成员）",
               "highlight": "n.新兵",
@@ -37855,7 +37855,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "recruitment",
-                  "phonetic": "/rt'krutmant/",
+                  "phonetic": "/rɪˈkruːtmənt/",
                   "pos": "n.",
                   "meaning": "n.吸收（新成员)；征募（新兵）"
                 }
@@ -37865,7 +37865,7 @@ window.CET6_DATA = {
               "id": "u10_l3_37",
               "num": "30",
               "word": "enrol",
-              "phonetic": "/in'raul/",
+              "phonetic": "/ɪnˈroʊl/",
               "pos": "v.",
               "meaning": "v.招(生)，吸收（成员）；注册，登记",
               "highlight": "v.招(生)",
@@ -37887,7 +37887,7 @@ window.CET6_DATA = {
               "id": "u10_l3_38",
               "num": "31",
               "word": "roll",
-              "phonetic": "/raul/",
+              "phonetic": "/roʊl/",
               "pos": "n.",
               "meaning": "n.卷；名单v.滚动",
               "highlight": "n.卷",
@@ -37897,7 +37897,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "roller",
-                  "phonetic": "/raula(r)/",
+                  "phonetic": "/ˈroʊlər/",
                   "pos": "n.",
                   "meaning": "n.滚筒；巨浪"
                 }
@@ -37961,7 +37961,7 @@ window.CET6_DATA = {
               "id": "u10_l3_41",
               "num": "34",
               "word": "anticipate",
-              "phonetic": "/en'tisspert/",
+              "phonetic": "/ænˈtɪsɪpeɪt/",
               "pos": "v.",
               "meaning": "v.预料，预期；预见；期望",
               "highlight": "v.预料",
@@ -37971,7 +37971,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "anticipation",
-                  "phonetic": "/aenitis'pern/",
+                  "phonetic": "/ænˌtɪsɪˈpeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.预料，预计"
                 }
@@ -37994,7 +37994,7 @@ window.CET6_DATA = {
               "id": "u10_l3_43",
               "num": "36",
               "word": "ancient",
-              "phonetic": "/'einfont/",
+              "phonetic": "/ˈeɪnʃənt/",
               "pos": "adj.",
               "meaning": "adj.古代的；古老的",
               "highlight": "adj.古代的",
@@ -38007,7 +38007,7 @@ window.CET6_DATA = {
               "id": "u10_l3_44",
               "num": "37",
               "word": "explode",
-              "phonetic": "/ɪk'spləʊd/",
+              "phonetic": "/ɪkˈsploʊd/",
               "pos": "v.",
               "meaning": "v. 爆炸；激增",
               "highlight": "v.爆炸",
@@ -38045,7 +38045,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "exploration",
-                  "phonetic": "/ekspla'rerfn/",
+                  "phonetic": "/ˌekspləˈreɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.探索，勘查"
                 }
@@ -38068,7 +38068,7 @@ window.CET6_DATA = {
               "id": "u10_l3_47",
               "num": "40",
               "word": "tap",
-              "phonetic": "/taep/",
+              "phonetic": "/tæp/",
               "pos": "n.",
               "meaning": "n.水龙头；阀门；轻拍 v.轻敲，轻拍；利用；开发",
               "highlight": "n.水龙头",
@@ -38081,7 +38081,7 @@ window.CET6_DATA = {
               "id": "u10_l3_48",
               "num": "41",
               "word": "tub",
-              "phonetic": "/tab/",
+              "phonetic": "/tʌb/",
               "pos": "n.",
               "meaning": "n.盒；盆，缸；浴缸",
               "highlight": "n.盒",
@@ -38096,7 +38096,7 @@ window.CET6_DATA = {
               "id": "u10_l3_49",
               "num": "42",
               "word": "utilize",
-              "phonetic": "/'juːtəlaɪz/",
+              "phonetic": "/ˈjuːtəlaɪz/",
               "pos": "v.",
               "meaning": "v. 使用，利用",
               "highlight": "v.使用",
@@ -38109,7 +38109,7 @@ window.CET6_DATA = {
               "id": "u10_l3_50",
               "num": "43",
               "word": "utility",
-              "phonetic": "/jur'tulati/",
+              "phonetic": "/juːˈtɪləti/",
               "pos": "n.",
               "meaning": "n.公用事业；实用，效用；实用程序",
               "highlight": "n.公用事业",
@@ -38124,7 +38124,7 @@ window.CET6_DATA = {
               "id": "u10_l3_51",
               "num": "44",
               "word": "appliance",
-              "phonetic": "/aplarans/",
+              "phonetic": "/əˈplaɪəns/",
               "pos": "n.",
               "meaning": "n.家用器具；家用电器",
               "highlight": "n.家用器具",
@@ -38137,7 +38137,7 @@ window.CET6_DATA = {
               "id": "u10_l3_52",
               "num": "45",
               "word": "mechanic",
-              "phonetic": "/ma/kenik/",
+              "phonetic": "/məˈkænɪk/",
               "pos": "n.",
               "meaning": "n.机械师；机械修理工；技工",
               "highlight": "n.机械师",
@@ -38147,19 +38147,19 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "mechanical",
-                  "phonetic": "/ma/kaenikl/",
+                  "phonetic": "/məˈkænɪk(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.机动的；机械的"
                 },
                 {
                   "word": "mechanics",
-                  "phonetic": "/ma/kaeniks/",
+                  "phonetic": "/məˈkænɪks/",
                   "pos": "n.",
                   "meaning": "n.机械学"
                 },
                 {
                   "word": "mechanism",
-                  "phonetic": "/'mekanizam/",
+                  "phonetic": "/ˈmekənɪzəm/",
                   "pos": "n.",
                   "meaning": "n.机械装置；机制"
                 }
@@ -38171,7 +38171,7 @@ window.CET6_DATA = {
               "id": "u10_l3_53",
               "num": "46",
               "word": "equip",
-              "phonetic": "/r'kwp/",
+              "phonetic": "/ɪˈkwɪp/",
               "pos": "v.",
               "meaning": "v.配备；装备；使有所准备；使有能力",
               "highlight": "v.配备",
@@ -38181,7 +38181,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "equipment",
-                  "phonetic": "/t'kwipmant/",
+                  "phonetic": "/ɪˈkwɪpmənt/",
                   "pos": "n.",
                   "meaning": "n.设备，装备"
                 }
@@ -38193,7 +38193,7 @@ window.CET6_DATA = {
               "id": "u10_l3_54",
               "num": "47",
               "word": "gadget",
-              "phonetic": "/'ɡædʒɪt/",
+              "phonetic": "/ˈɡædʒɪt/",
               "pos": "n.",
               "meaning": "n. 小器具；小装置",
               "highlight": "n.小器具",
@@ -38203,7 +38203,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "gadgetry",
-                  "phonetic": "/'gedsitri/",
+                  "phonetic": "/ˈɡædʒɪtri/",
                   "pos": "n.",
                   "meaning": "n.小器具，小装置"
                 }
@@ -38213,7 +38213,7 @@ window.CET6_DATA = {
               "id": "u10_l3_55",
               "num": "48",
               "word": "instal",
-              "phonetic": "/in'storl/",
+              "phonetic": "/ɪnˈstɔːl/",
               "pos": "v.",
               "meaning": "v.安装，设置",
               "highlight": "v.安装",
@@ -38239,7 +38239,7 @@ window.CET6_DATA = {
               "id": "u10_l3_57",
               "num": "50",
               "word": "scrutiny",
-              "phonetic": "/'skrutani/",
+              "phonetic": "/ˈskruːtəni/",
               "pos": "n.",
               "meaning": "n.仔细检查；认真彻底的审查",
               "highlight": "n.仔细检查",
@@ -38252,7 +38252,7 @@ window.CET6_DATA = {
               "id": "u10_l3_58",
               "num": "51",
               "word": "employ",
-              "phonetic": "/im'plo/",
+              "phonetic": "/ɪmˈplɔɪ/",
               "pos": "v.",
               "meaning": "v.雇用；应用，运用",
               "highlight": "v.雇用",
@@ -38268,7 +38268,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "employer",
-                  "phonetic": "/Im'plora(r)/",
+                  "phonetic": "/ɪmˈplɔɪər/",
                   "pos": "n.",
                   "meaning": "n.雇主；老板"
                 },
@@ -38284,7 +38284,7 @@ window.CET6_DATA = {
               "id": "u10_l3_59",
               "num": "52",
               "word": "deploy",
-              "phonetic": "/dɪ'plɔɪ/",
+              "phonetic": "/dɪˈplɔɪ/",
               "pos": "v.",
               "meaning": "v. 部署，调度(军队或武器)；有效地利用",
               "highlight": "v.部署",
@@ -38306,7 +38306,7 @@ window.CET6_DATA = {
               "id": "u10_l3_60",
               "num": "53",
               "word": "plausible",
-              "phonetic": "/'plozabl/",
+              "phonetic": "/ˈplɔːzəb(ə)l/",
               "pos": "adj.",
               "meaning": "adj.似乎有道理的；似乎可信的",
               "highlight": "adj.似乎有道理的",
@@ -38336,7 +38336,7 @@ window.CET6_DATA = {
               "id": "u10_l3_62",
               "num": "55",
               "word": "extract",
-              "phonetic": "/ɪkˈstrækt/",
+              "phonetic": "/ˈekstrækt/",
               "pos": "",
               "meaning": "v. 提取；取出；摘录 n. 摘录；提取物",
               "highlight": "/ik'straekt/ n.提取",
@@ -38358,7 +38358,7 @@ window.CET6_DATA = {
               "id": "u10_l3_63",
               "num": "56",
               "word": "contract",
-              "phonetic": "/ˈkɒntrækt/",
+              "phonetic": "/ˈkɑːntrækt/",
               "pos": "",
               "meaning": "n. 合同，契约 v. 签订合同；收缩，缩小",
               "highlight": "/kan'traekt/ n.合同",
@@ -38380,7 +38380,7 @@ window.CET6_DATA = {
               "id": "u10_l3_64",
               "num": "57",
               "word": "subtract",
-              "phonetic": "/sab'traekt/",
+              "phonetic": "/səbˈtrækt/",
               "pos": "v.",
               "meaning": "v.减去，减掉",
               "highlight": "v.减去",
@@ -38395,7 +38395,7 @@ window.CET6_DATA = {
               "id": "u10_l3_65",
               "num": "58",
               "word": "attract",
-              "phonetic": "/a'traekt/",
+              "phonetic": "/əˈtrækt/",
               "pos": "v.",
               "meaning": "v.吸引；引起",
               "highlight": "v.吸引",
@@ -38465,7 +38465,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "attractive",
-                  "phonetic": "/a'traektv/",
+                  "phonetic": "/əˈtræktɪv/",
                   "pos": "adj.",
                   "meaning": "adj.有吸引力的"
                 }
@@ -38475,7 +38475,7 @@ window.CET6_DATA = {
               "id": "u10_l4_02",
               "num": "59",
               "word": "distract",
-              "phonetic": "/di'straekt/",
+              "phonetic": "/dɪˈstrækt/",
               "pos": "v.",
               "meaning": "v.转移(注意力)；使分心",
               "highlight": "v.转移(注意力)",
@@ -38485,7 +38485,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "distraction",
-                  "phonetic": "/di'strakfn/",
+                  "phonetic": "/dɪˈstrækʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.使人分心的事物"
                 }
@@ -38497,7 +38497,7 @@ window.CET6_DATA = {
               "id": "u10_l4_03",
               "num": "60",
               "word": "drag",
-              "phonetic": "/draeg/",
+              "phonetic": "/dræɡ/",
               "pos": "v.",
               "meaning": "v.拖，拉，拽n.累赞",
               "highlight": "v.拖",
@@ -38512,7 +38512,7 @@ window.CET6_DATA = {
               "id": "u10_l4_04",
               "num": "61",
               "word": "tow",
-              "phonetic": "/tau/",
+              "phonetic": "/toʊ/",
               "pos": "v.",
               "meaning": "v.(用绳索或链条）拖，拉，牵引 n.(车、船等的）牵引，拽",
               "highlight": "v.(用绳索或链条）拖",
@@ -38540,7 +38540,7 @@ window.CET6_DATA = {
               "id": "u10_l4_06",
               "num": "63",
               "word": "accumulate",
-              "phonetic": "/a'kjumjalert/",
+              "phonetic": "/əˈkjuːmjəleɪt/",
               "pos": "v.",
               "meaning": "v.积累，积聚；（数量）逐渐增加",
               "highlight": "v.积累",
@@ -38556,7 +38556,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "accumulative",
-                  "phonetic": "/a'kjumjlatv/",
+                  "phonetic": "/əˈkjuːmjələtɪv/",
                   "pos": "adj.",
                   "meaning": "adj.累积的"
                 }
@@ -38579,7 +38579,7 @@ window.CET6_DATA = {
               "id": "u10_l4_08",
               "num": "65",
               "word": "centralize",
-              "phonetic": "/'sentrəlaɪz/",
+              "phonetic": "/ˈsentrəlaɪz/",
               "pos": "v.",
               "meaning": "v. 使...处于中央的控制之下，集权控制",
               "highlight": "v.使….处于中央的控制之下",
@@ -38592,7 +38592,7 @@ window.CET6_DATA = {
               "id": "u10_l4_09",
               "num": "66",
               "word": "concentrate",
-              "phonetic": "/'konsntrent/",
+              "phonetic": "/ˈkɑːns(ə)ntreɪt/",
               "pos": "n.",
               "meaning": "n.浓缩物 v.集中，专心于",
               "highlight": "n.浓缩物 v.集中",
@@ -38612,7 +38612,7 @@ window.CET6_DATA = {
               "id": "u10_l4_10",
               "num": "01",
               "word": "dynamic",
-              "phonetic": "/dat'naemk/",
+              "phonetic": "/daɪˈnæmɪk/",
               "pos": "n.",
               "meaning": "n.动力 adj.精力充沛的，充满活力的",
               "highlight": "n.动力 adj.精力充沛的",
@@ -38622,7 +38622,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "dynamics",
-                  "phonetic": "/dal'naemiks/",
+                  "phonetic": "/daɪˈnæmɪks/",
                   "pos": "n.",
                   "meaning": "n.动力学；力度"
                 }
@@ -38662,7 +38662,7 @@ window.CET6_DATA = {
               "id": "u10_l4_12",
               "num": "03",
               "word": "animate",
-              "phonetic": "/ˈænɪmət/",
+              "phonetic": "/ˈænɪmeɪt/",
               "pos": "",
               "meaning": "adj. 有生命的；有生气的 v. 使具有活力，使生气勃勃",
               "highlight": "/'enimat/ adj.有生命的",
@@ -38672,13 +38672,13 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "animated",
-                  "phonetic": "/'enimertd/",
+                  "phonetic": "/ˈænɪmeɪtɪd/",
                   "pos": "adj.",
                   "meaning": "adj.兴致勃勃的；如生的"
                 },
                 {
                   "word": "animation",
-                  "phonetic": "/aent'merfn/",
+                  "phonetic": "/ˌænɪˈmeɪʃ(ə)n/",
                   "pos": "n.",
                   "meaning": "n.动画片；活力"
                 }
@@ -38688,7 +38688,7 @@ window.CET6_DATA = {
               "id": "u10_l4_13",
               "num": "04",
               "word": "activate",
-              "phonetic": "/'aektivert/",
+              "phonetic": "/ˈæktɪveɪt/",
               "pos": "v.",
               "meaning": "v.使活动；激活；使活化",
               "highlight": "v.使活动",
@@ -38703,7 +38703,7 @@ window.CET6_DATA = {
               "id": "u10_l4_14",
               "num": "05",
               "word": "battery",
-              "phonetic": "/'bætəri/",
+              "phonetic": "/ˈbætəri/",
               "pos": "n.",
               "meaning": "n. 电池；一套，一系列",
               "highlight": "",
@@ -38740,7 +38740,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "enthusiastically",
-                  "phonetic": "/mfjuziaestikli/",
+                  "phonetic": "/ɪnˌθuːziˈæstɪkli/",
                   "pos": "adv.",
                   "meaning": "adv.热心地，热情地"
                 }
@@ -38760,7 +38760,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "indifference",
-                  "phonetic": "/in'drfrans/",
+                  "phonetic": "/ɪnˈdɪfrəns/",
                   "pos": "n.",
                   "meaning": "n.冷漠，漠不关心"
                 }
@@ -38772,7 +38772,7 @@ window.CET6_DATA = {
               "id": "u10_l4_17",
               "num": "80",
               "word": "differentiate",
-              "phonetic": "/drfarenfient/",
+              "phonetic": "/ˌdɪfəˈrenʃieɪt/",
               "pos": "v.",
               "meaning": "v.区分，区别",
               "highlight": "v.区分",
@@ -38782,7 +38782,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "differentiation",
-                  "phonetic": "/dfarenfi'erfn/",
+                  "phonetic": "/ˌdɪfəˌrenʃiˈeɪʃn/",
                   "pos": "n.",
                   "meaning": "n.区分，区别"
                 }
@@ -38820,7 +38820,7 @@ window.CET6_DATA = {
               "id": "u10_l4_20",
               "num": "11",
               "word": "passion",
-              "phonetic": "/'pefn/",
+              "phonetic": "/ˈpæʃ(ə)n/",
               "pos": "n.",
               "meaning": "n.激情，热情",
               "highlight": "n.激情",
@@ -38830,7 +38830,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "passionate",
-                  "phonetic": "/'paefanat/",
+                  "phonetic": "/ˈpæʃənət/",
                   "pos": "adj.",
                   "meaning": "adj.激情的，热情的"
                 }
@@ -38840,7 +38840,7 @@ window.CET6_DATA = {
               "id": "u10_l4_21",
               "num": "12",
               "word": "compassion",
-              "phonetic": "/kom'paefn/",
+              "phonetic": "/kəmˈpæʃn/",
               "pos": "n.",
               "meaning": "n.同情；怜阀",
               "highlight": "n.同情",
@@ -38860,7 +38860,7 @@ window.CET6_DATA = {
               "id": "u10_l4_22",
               "num": "13",
               "word": "compass",
-              "phonetic": "/'kAmpas/",
+              "phonetic": "/ˈkʌmpəs/",
               "pos": "n.",
               "meaning": "n.指南针；范围",
               "highlight": "n.指南针",
@@ -38903,7 +38903,7 @@ window.CET6_DATA = {
               "id": "u10_l4_25",
               "num": "16",
               "word": "influence",
-              "phonetic": "/'influans/",
+              "phonetic": "/ˈɪnfluəns/",
               "pos": "",
               "meaning": "n. 影响(力)，作用；有影响的人(或事物) v. 影响，对...起作用",
               "highlight": "物）.影响",
@@ -38918,7 +38918,7 @@ window.CET6_DATA = {
               "id": "u10_l4_26",
               "num": "17",
               "word": "influential",
-              "phonetic": "/unflu'enl/",
+              "phonetic": "/ˌɪnfluˈenʃ(ə)l/",
               "pos": "adj.",
               "meaning": "adj.有影响力的",
               "highlight": "adj.有影响力的",
@@ -38933,7 +38933,7 @@ window.CET6_DATA = {
               "id": "u10_l4_27",
               "num": "18",
               "word": "compatible",
-              "phonetic": "/kam'paetabl/",
+              "phonetic": "/kəmˈpætəb(ə)l/",
               "pos": "",
               "meaning": "（因思想、志趣等相投而）关系好的 adj.兼容的，可共用的；可共存的",
               "highlight": "（因思想、志趣等相投而）关系好的 adj.兼容的",
@@ -38943,7 +38943,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "compatibility",
-                  "phonetic": "/kampeeta/brlati/",
+                  "phonetic": "/kəmˌpætəˈbɪləti/",
                   "pos": "n.",
                   "meaning": "n.和睦相处；并存；相容"
                 }
@@ -38968,7 +38968,7 @@ window.CET6_DATA = {
               "id": "u10_l4_29",
               "num": "20",
               "word": "dull",
-              "phonetic": "/IVP/",
+              "phonetic": "/dʌl/",
               "pos": "adj.",
               "meaning": "adj.枯燥无味的；无聊的；不明亮的 v.减轻；（使)变麻木；使不活泼",
               "highlight": "adj.枯燥无味的",
@@ -39009,7 +39009,7 @@ window.CET6_DATA = {
               "id": "u10_l4_32",
               "num": "23",
               "word": "summary",
-              "phonetic": "/etuvs/",
+              "phonetic": "/ˈsʌməri/",
               "pos": "n.",
               "meaning": "n.总结；概括，概要 adj.总结性的；概括的，概要的",
               "highlight": "n.总结",
@@ -39022,7 +39022,7 @@ window.CET6_DATA = {
               "id": "u10_l4_33",
               "num": "24",
               "word": "sum",
-              "phonetic": "/sAm/",
+              "phonetic": "/sʌm/",
               "pos": "n.",
               "meaning": "n.金额，款项；总数v.总结，概括",
               "highlight": "n.金额",
@@ -39035,7 +39035,7 @@ window.CET6_DATA = {
               "id": "u10_l4_34",
               "num": "25",
               "word": "audit",
-              "phonetic": "/'ɔːdɪt/",
+              "phonetic": "/ˈɔːdɪt/",
               "pos": "n./v.",
               "meaning": "n. 审计，稽核；审查，检查 v. 审计，稽核",
               "highlight": "n.审计",
@@ -39068,7 +39068,7 @@ window.CET6_DATA = {
               "id": "u10_l4_36",
               "num": "27",
               "word": "atlas",
-              "phonetic": "/aetlas/",
+              "phonetic": "/ˈætləs/",
               "pos": "n.",
               "meaning": "n.地图册；地图集",
               "highlight": "n.地图册",
@@ -39098,7 +39098,7 @@ window.CET6_DATA = {
               "id": "u10_l4_38",
               "num": "29",
               "word": "leaflet",
-              "phonetic": "/e/",
+              "phonetic": "/ˈliːflət/",
               "pos": "n.",
               "meaning": "n.传单；小册子",
               "highlight": "n.传单",
@@ -39127,7 +39127,7 @@ window.CET6_DATA = {
                 },
                 {
                   "word": "graphically",
-                  "phonetic": "/graefikli/",
+                  "phonetic": "/ˈɡræfɪkli/",
                   "pos": "adv.",
                   "meaning": "adv.以书画（或图表）形式；形象地， 生动地"
                 }
@@ -39137,7 +39137,7 @@ window.CET6_DATA = {
               "id": "u10_l4_40",
               "num": "31",
               "word": "career",
-              "phonetic": "/ka/ra(r)/",
+              "phonetic": "/kəˈrɪr/",
               "pos": "n.",
               "meaning": "n.生涯，职业；经历；事业",
               "highlight": "n.生涯",
@@ -39197,7 +39197,7 @@ window.CET6_DATA = {
               "id": "u10_l4_44",
               "num": "35",
               "word": "cart",
-              "phonetic": "/kat/",
+              "phonetic": "/kɑːrt/",
               "pos": "n.",
               "meaning": "n.手推车；购物车；运货马车",
               "highlight": "n.手推车",
@@ -39247,7 +39247,7 @@ window.CET6_DATA = {
               "id": "u10_l4_47",
               "num": "39",
               "word": "numerical",
-              "phonetic": "/nju'merikl/",
+              "phonetic": "/nuːˈmerɪk(ə)l/",
               "pos": "adj.",
               "meaning": "adj.数字的；用数字表示的",
               "highlight": "adj.数字的",
@@ -39260,7 +39260,7 @@ window.CET6_DATA = {
               "id": "u10_l4_48",
               "num": "40",
               "word": "numerous",
-              "phonetic": "/'njumaras/",
+              "phonetic": "/ˈnuːmərəs/",
               "pos": "adj.",
               "meaning": "adj.众多的；许多的",
               "highlight": "adj.众多的",
@@ -39299,7 +39299,7 @@ window.CET6_DATA = {
               "id": "u10_l4_51",
               "num": "43",
               "word": "antibiotic",
-              "phonetic": "/aentibai'otuk/",
+              "phonetic": "/ˌæntibaɪˈɑːtɪk/",
               "pos": "n.",
               "meaning": "n.抗生素 adj.抗生的；抗菌的",
               "highlight": "n.抗生素 adj.抗生的",
@@ -39312,7 +39312,7 @@ window.CET6_DATA = {
               "id": "u10_l4_52",
               "num": "44",
               "word": "biochemistry",
-              "phonetic": "/ˌbaɪəʊ'kemɪstri/",
+              "phonetic": "/ˌbaɪoʊˈkemɪstri/",
               "pos": "n.",
               "meaning": "n. 生物化学",
               "highlight": "",
@@ -39325,7 +39325,7 @@ window.CET6_DATA = {
               "id": "u10_l4_53",
               "num": "45",
               "word": "biotechnology",
-              "phonetic": "/ˌbaɪəʊtek'nɒlədʒi/",
+              "phonetic": "/ˌbaɪoʊtekˈnɑːlədʒi/",
               "pos": "n.",
               "meaning": "n. 生物技术，生物科技",
               "highlight": "",
@@ -39338,7 +39338,7 @@ window.CET6_DATA = {
               "id": "u10_l4_54",
               "num": "46",
               "word": "biography",
-              "phonetic": "/ye.fa,req/",
+              "phonetic": "/baɪˈɑːɡrəfi/",
               "pos": "n.",
               "meaning": "n.传记",
               "highlight": "n.传记",
@@ -39411,7 +39411,7 @@ window.CET6_DATA = {
               "id": "u10_l4_59",
               "num": "51",
               "word": "convoy",
-              "phonetic": "/'konvot/",
+              "phonetic": "/ˈkɑːnvɔɪ/",
               "pos": "n.",
               "meaning": "n.(尤指有士兵护送的)车队，船队 v.护送；护航",
               "highlight": "n.(尤指有士兵护送的)车队",
@@ -39426,7 +39426,7 @@ window.CET6_DATA = {
               "id": "u10_l4_60",
               "num": "52",
               "word": "envoy",
-              "phonetic": "/'envo/",
+              "phonetic": "/ˈenvɔɪ/",
               "pos": "n.",
               "meaning": "n.使者，使节；（谈判等的）代表",
               "highlight": "n.使者",
@@ -39439,7 +39439,7 @@ window.CET6_DATA = {
               "id": "u10_l4_61",
               "num": "53",
               "word": "tailor",
-              "phonetic": "/'teila(r)/",
+              "phonetic": "/ˈteɪlər/",
               "pos": "n.",
               "meaning": "n.裁缝v.定做；调整",
               "highlight": "n.裁缝v.定做",
@@ -39469,7 +39469,7 @@ window.CET6_DATA = {
               "id": "u10_l4_63",
               "num": "55",
               "word": "detail",
-              "phonetic": "/'diterl/",
+              "phonetic": "/ˈdiːteɪl/",
               "pos": "n.",
               "meaning": "n.细节，详情",
               "highlight": "n.细节",
@@ -39489,7 +39489,7 @@ window.CET6_DATA = {
               "id": "u10_l4_64",
               "num": "56",
               "word": "stitch",
-              "phonetic": "/stit/",
+              "phonetic": "/stɪtʃ/",
               "pos": "n.",
               "meaning": "n.（缝纫的）一针，针脚；缝 v.缝补",
               "highlight": "n.（缝纫的）一针",
@@ -39502,7 +39502,7 @@ window.CET6_DATA = {
               "id": "u10_l4_65",
               "num": "57",
               "word": "stigma",
-              "phonetic": "/eubns,/",
+              "phonetic": "/ˈstɪɡmə/",
               "pos": "n.",
               "meaning": "n.耻辱；差耻",
               "highlight": "n.耻辱",
@@ -39515,7 +39515,7 @@ window.CET6_DATA = {
               "id": "u10_l4_66",
               "num": "58",
               "word": "lipstick",
-              "phonetic": "/'lipstik/",
+              "phonetic": "/ˈlɪpstɪk/",
               "pos": "n.",
               "meaning": "n.口红；唇膏",
               "highlight": "n.口红",
@@ -39528,7 +39528,7 @@ window.CET6_DATA = {
               "id": "u10_l4_67",
               "num": "59",
               "word": "matter",
-              "phonetic": "/maeta(r)/",
+              "phonetic": "/ˈmætər/",
               "pos": "n.",
               "meaning": "n.物质；问题v.重要",
               "highlight": "n.物质",
@@ -39569,7 +39569,7 @@ window.CET6_DATA = {
               "id": "u10_l4_70",
               "num": "62",
               "word": "metaphor",
-              "phonetic": "/ˈmetəfə(r)/",
+              "phonetic": "/ˈmetəfər/",
               "pos": "",
               "meaning": "n. 暗喻，隐喻",
               "highlight": "/'metofa(r); n.暗喻",
@@ -39579,7 +39579,7 @@ window.CET6_DATA = {
               "derivations": [
                 {
                   "word": "metaphorical",
-                  "phonetic": "/meta'forikl/",
+                  "phonetic": "/ˌmetəˈfɔːrɪk(ə)l/",
                   "pos": "adj.",
                   "meaning": "adj.隐喻的；比喻性的"
                 }
