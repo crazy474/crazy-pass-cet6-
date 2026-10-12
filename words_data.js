@@ -1898,8 +1898,8 @@ window.CET6_DATA = {
               "meaning": "n.名人，名流；名望，名誉；著名",
               "highlight": "n.名人",
               "freq": 2,
-              "tip_type": "对照",
-              "tip": "这位名人（cclebrity）与妻子一起庆祝 Unit1",
+              "tip_type": "词根+派生",
+              "tip": "celeb-(=celebrate，庆祝，颂扬) + -ity(名词后缀) → 受到众人颂扬庆祝的人 → 名人，名流；名望",
               "derivations": []
             },
             {
@@ -2244,7 +2244,7 @@ window.CET6_DATA = {
               "highlight": "n.便宜货",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "bar（木条）+gain（得到）→他用木条 Unit1 “讨价还价”。 Lesson 3",
+              "tip": "bar（柜台，木条）+ gain（获得）→ 在交易柜台前极力争取更多收益 → 讨价还价；便宜货",
               "derivations": []
             },
             {
@@ -3540,8 +3540,8 @@ window.CET6_DATA = {
               "meaning": "adj.善良的，仁慈的；人道的",
               "highlight": "adj.善良的",
               "freq": 2,
-              "tip_type": "对照",
-              "tip": "human n.人→humane adj. Unit 例The elderly need humane help from society.老 2 年人需要社会给予人道帮助。",
+              "tip_type": "派生",
+              "tip": "human（人类）+ -e → 具备真正人类所应有的人性与同理心 → 善良的，仁慈的；人道的",
               "derivations": []
             },
             {
@@ -3779,9 +3779,16 @@ window.CET6_DATA = {
               "meaning": "adj.不可避免的；惯常的",
               "highlight": "adj.不可避免的",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "in-（否定前缀）+evi（音似“俺为”）+ Unit2 Lesson",
-              "derivations": []
+              "tip_type": "词根+前缀",
+              "tip": "in-（否定前缀，不）+ evit（词根：避开，回避；谐音'要避'）+ -able（能...的）→ 无法避开的、不可回避的 → 不可避免的；惯常的",
+              "derivations": [
+                {
+                  "word": "inevitably",
+                  "phonetic": "/in'evitabli/",
+                  "pos": "adv.",
+                  "meaning": "adv.不可避免地；必然地"
+                }
+              ]
             },
             {
               "id": "u2_l1_40",
@@ -3966,8 +3973,8 @@ window.CET6_DATA = {
               "meaning": "adj.有益健康的",
               "highlight": "adj.有益健康的",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "whole（完整的）+-some（形容词后 2对照",
+              "tip_type": "词根+后缀",
+              "tip": "whole（健全的，完整的）+ -some（充满...的，形容词后缀）→ 身心健全完好的 → 有益身心健康的",
               "derivations": []
             },
             {
@@ -4018,8 +4025,8 @@ window.CET6_DATA = {
               "meaning": "adj.接触传染的",
               "highlight": "adj.接触传染的",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "con-（一起）+tag（接触）+-ious（形",
+              "tip_type": "词根+前缀",
+              "tip": "con-（共同，一起）+ tag（词根：接触，碰触）+ -ious（形容词后缀）→ 人与人相互接触而传播的 → 接触传染的",
               "derivations": []
             },
             {
@@ -4064,8 +4071,8 @@ window.CET6_DATA = {
               "meaning": "adj.十分严重的；严厉的，苛刻的",
               "highlight": "adj.十分严重的",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "sever(联想seven）+e(联想e，出来）→ Unit2 七处隐患被排查出来，这是“十分严重的”问题。",
+              "tip_type": "谐音联想",
+              "tip": "sever（切断）+ e → 情势危急到必须快刀斩乱麻切断隐患 → 十分严重的；严厉的，苛刻的",
               "derivations": [
                 {
                   "word": "severity",
@@ -4900,8 +4907,8 @@ window.CET6_DATA = {
               "meaning": "v.背离，偏离；违背",
               "highlight": "v.背离",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "de（音似“弟”)+vi（形似罗马数字6）+ Lesson -ate（动词后缀）→弟弟和他的六个小伙伴走散 了，“偏离”了目的地。",
+              "tip_type": "词根+前缀",
+              "tip": "de-（偏离，脱离）+ via（道路，路途）+ -ate（动词后缀）→ 偏离原来的正道路线 → 背离，偏离；违背",
               "derivations": [
                 {
                   "word": "deviation",
@@ -5223,8 +5230,8 @@ window.CET6_DATA = {
               "meaning": "adj.最重要的，首要的；优质的n.盛 年；鼎盛时期v.使(某人)做好准备",
               "highlight": "adj.最重要的",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "pri（第一，首要）+me(我）→我是“首 要的” Unit2 Lesson 2",
+              "tip_type": "词根",
+              "tip": "prim-（词根：第一，最初）+ e → 排在第一位的、首要的核心存在 → 最重要的，首要的；鼎盛时期",
               "derivations": []
             },
             {
@@ -5654,8 +5661,8 @@ window.CET6_DATA = {
               "meaning": "n.成文法；法规；章程，条例",
               "highlight": "n.成文法",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "sta（联想state）+tute（音似“突 Some species develop a unique life pattern to",
+              "tip_type": "词根+联想",
+              "tip": "stat-（词根：站立，设立，建立）+ -ute（名词后缀）→ 由国家权力正式确立并站得住脚的法律条文 → 成文法；法规；章程",
               "derivations": [
                 {
                   "word": "statutory",
@@ -5774,7 +5781,7 @@ window.CET6_DATA = {
               "highlight": "adj.残酷的",
               "freq": 3,
               "tip_type": "联想",
-              "tip": "har（联想hard）+sh（音似“事\")→艰 Unit2 难的事→残酷的 Lesson 3",
+              "tip": "hard（艰难的）+ sharp（尖锐刺人的）→ 刺骨凛冽且难以忍受的处境 → 残酷的；严厉的；恶劣的",
               "derivations": []
             },
             {
@@ -6546,8 +6553,8 @@ window.CET6_DATA = {
               "meaning": "n.平民；老百姓adj.平民的",
               "highlight": "n.平民",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "civil（公民的；平民的）+-ian（后缀） 平民 Unit 2 Lesson4 194个单词",
+              "tip_type": "词根+后缀",
+              "tip": "civil（平民的，公民的）+ -ian（表人后缀）→ 非军警的普通公民群众 → 平民，老百姓",
               "derivations": []
             }
           ]
@@ -7091,8 +7098,8 @@ window.CET6_DATA = {
               "meaning": "adj.断断续续的，间歇的",
               "highlight": "adj.断断续续的",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "inter-（在……….之间）+mit（t)（送）+ Unit -ent（形容词后级）→在….之间来来回回地 3 送→断断续续的，间歇的 Lesson",
+              "tip_type": "词根+前缀",
+              "tip": "inter-（在...之间，间隔）+ mit（词根：投放，传送）+ -ent（形容词后缀）→ 间隔着一阵阵投放送达 → 断断续续的，间歇的",
               "derivations": []
             },
             {
@@ -7341,8 +7348,8 @@ window.CET6_DATA = {
               "meaning": "v.保持；保留",
               "highlight": "v.保持",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "re-（重复）+tain（拿）→重复地拿或 一直拿→保持；保留 Unit 3 Lesson",
+              "tip_type": "词根+前缀",
+              "tip": "re-（向后，留住）+ tain（词根：握住，拿住）→ 将某物紧紧握在手中留住不放 → 保持；保留",
               "derivations": [
                 {
                   "word": "retention",
@@ -7427,8 +7434,8 @@ window.CET6_DATA = {
               "meaning": "v.(尤指在自己家中)招待；使快乐， 娱乐",
               "highlight": "v.(尤指在自己家中)招待",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "enter（进入）+tain（拿）→一个同学 进入教室就拿着麦克风唱歌，“娱乐”大家。 Unit3 例There are more avenues for us to entertain ourselves than ever before.我们自我娱乐的途径 比以往任何时候都多。",
+              "tip_type": "词根+联想",
+              "tip": "enter-（在...之间）+ tain（握住，维系）→ 在宾客彼此之间维系愉快融洽的气氛 → 招待；使快乐，娱乐",
               "derivations": [
                 {
                   "word": "entertainment",
@@ -7972,8 +7979,8 @@ window.CET6_DATA = {
               "meaning": "n.冒险，奇遇；大胆开拓",
               "highlight": "n.冒险",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "ad-（=to，朝向）+venture（冒险）→ 冒险 Unit 3 Lesson",
+              "tip_type": "前缀+词根",
+              "tip": "ad-（去，朝向）+ vent（来临，发生）+ -ure（名词后缀）→ 朝着未知的奇遇迎面走去 → 冒险，奇遇；大胆开拓",
               "derivations": [
                 {
                   "word": "adventurer",
@@ -8044,8 +8051,8 @@ window.CET6_DATA = {
               "meaning": "v.使通风；（用呼吸机）给……供氧",
               "highlight": "v.使通风",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "vent（联想went）+i（我）+late（晚）→ 我去晚了，热得不行，需要打开窗户透透气→ Unit3 使通风",
+              "tip_type": "词根+后缀",
+              "tip": "vent（词根：风，空气）+ -il- + -ate（动词后缀）→ 让室外空气对流吹入房间 → 使通风；供氧",
               "derivations": [
                 {
                   "word": "ventilation",
@@ -8229,7 +8236,7 @@ window.CET6_DATA = {
               "highlight": "v.驾驶",
               "freq": 2,
               "tip_type": "联想",
-              "tip": "st（联想street）+ee(形似两只眼晴）+ Unit3",
+              "tip": "联想 steering wheel（汽车方向盘）→ 握紧方向盘掌控前进路线 → 驾驶；引导，把握方向",
               "derivations": [],
               "example_en": "The experienced captain skillfully steered the ship through the narrow stormy channel.",
               "example_cn": "经验丰富的老船长熟练地操纵船只穿过狭窄的风暴航道。"
@@ -8475,8 +8482,8 @@ window.CET6_DATA = {
               "meaning": "v.盛行，流行；获胜，战胜，压倒",
               "highlight": "v.盛行",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "pre-（在……之前）+vail（力量，强 Unit3 大)→盛行 Lesson",
+              "tip_type": "词根+前缀",
+              "tip": "pre-（在前，超过）+ vail（词根：强壮，力量）→ 力量占据上风并压倒其他势力 → 获胜，压倒；广泛盛行",
               "derivations": []
             },
             {
@@ -8521,8 +8528,8 @@ window.CET6_DATA = {
               "meaning": "adj.熟练的；精通的；训练有素的",
               "highlight": "adj.熟练的",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "pro-（提前）+ficient（音似“费心地”）→ 他比其他同学提前一年费心地背单词，对单词 的掌握必然是“熟练的”。 Unit3 例She'sproficient in several languages.地精通好 几种语言。",
+              "tip_type": "词根+前缀",
+              "tip": "pro-（向前，精进）+ fic（词根：做，制作）+ -ient（形容词后缀）→ 某事做得非常深入老练、向前领跑 → 熟练的；精通的",
               "derivations": [
                 {
                   "word": "proficiency",
@@ -8719,8 +8726,8 @@ window.CET6_DATA = {
               "meaning": "n.违约；拖欠；(术语）默认 v.违约；不履行义务",
               "highlight": "n.违约",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "de（音似“弟”）+fault（错误）→弟弟 的错误在于“违约”。 Unit3 Lesson",
+              "tip_type": "词根+联想",
+              "tip": "de-（缺少，失去）+ fault（过失，缺陷）→ 未能履行约定责任造成的过失缺席 → 违约；不履行义务；系统默认设置",
               "derivations": []
             },
             {
@@ -9313,8 +9320,8 @@ window.CET6_DATA = {
               "meaning": "v.引诱，诱惑；怂惠；利诱",
               "highlight": "v.引诱",
               "freq": 3,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“甜蜜扑他”→甜蜜的 回忆扑向他，企图“引诱”他安于现状。 Lesson",
+              "tip_type": "谐音联想",
+              "tip": "发音类似'甜蜜扑他' → 甜蜜糖衣炮弹迎面扑来，极力引诱动摇心智 → 引诱，诱惑；怂恿",
               "derivations": []
             },
             {
@@ -9527,8 +9534,8 @@ window.CET6_DATA = {
               "meaning": "v.驱逐，逐出；喷射，射出",
               "highlight": "v.驱逐",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "e-（出）+ject（扔，投掷）→扔出去→ 驱逐；射出 Unit3 Lesson4",
+              "tip_type": "词根+前缀",
+              "tip": "e-（向外，出去）+ ject（词根：投掷，射出）→ 用力往外面猛扔射出 → 驱逐，逐出；喷射，弹射出",
               "derivations": [
                 {
                   "word": "ejection",
@@ -9621,8 +9628,8 @@ window.CET6_DATA = {
               "meaning": "v.设想，展望",
               "highlight": "v.设想",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "en-（进入）+vis(看）+-age(后缀）→ Unit3 使进入看的状态→设想",
+              "tip_type": "词根+前缀",
+              "tip": "en-（使...，置于...中）+ vis（词根：看，目光）+ -age（动词后缀）→ 在脑海构想画面中亲眼看到未来 → 设想，展望",
               "derivations": [],
               "example_en": "Economists envisage that the consumer market will recover rapidly in the coming quarters.",
               "example_cn": "经济学家们预计，消费市场将在接下来的几个季度中迅速复苏。"
@@ -9837,8 +9844,8 @@ window.CET6_DATA = {
               "meaning": "n.班长，监督员；显示器，监视器 v.监视，监督；检查；监听",
               "highlight": "n.班长",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "monit（警告）+-or（后缓）→班长；监 督员；监视器 Unit3",
+              "tip_type": "词根+后缀",
+              "tip": "monit-（词根：提醒，警告，告诫）+ -or（工具/人后缀）→ 时刻注视异常并发出警示的人或仪器 → 班长；监视器；监督，监控",
               "derivations": []
             },
             {
@@ -10085,8 +10092,8 @@ window.CET6_DATA = {
               "meaning": "n.导师；顾问",
               "highlight": "n.导师",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "ment（联想mental）+-or（表示人的后 缀）→在思想上指导我们的人是那个“导师”。 Unit4",
+              "tip_type": "词源+联想",
+              "tip": "源自荷马史诗《奥德赛》中智慧长者Mentor（门托尔）+ -or → 在心智（mental）上指点迷津的引路人 → 导师；顾问",
               "derivations": []
             },
             {
@@ -10344,8 +10351,8 @@ window.CET6_DATA = {
               "meaning": "n.传染病；（坏事）泛滥，蔓延 adj.流行的",
               "highlight": "n.传染病",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "epi（音似“爱陪”）+demic（联想",
+              "tip_type": "词根+前缀",
+              "tip": "epi-（在...之上，在...之中）+ dem（词根：人民，民众）+ -ic（形容词/名词后缀）→ 在广大民众之间迅速传开的疾病 → 传染病；流行的",
               "derivations": [],
               "example_en": "Public health agencies reacted swiftly to prevent the epidemic from spreading across provinces.",
               "example_cn": "公共卫生机构迅速采取行动，防止该传染病跨省蔓延扩散。"
@@ -10596,8 +10603,8 @@ window.CET6_DATA = {
               "meaning": "n.青少年",
               "highlight": "n.青少年",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "ado（音似“爱逗”）+lescent（音似 37 lesson）→课后爱逗狗的是那个“青少年”。 n.耳语，低语；谣言v.耳语，低语，小声说",
+              "tip_type": "词根+联想",
+              "tip": "ad-（朝向）+ olesc-（词根：生长，成熟）+ -ent（人后缀）→ 正朝着成年期快速生长发育的群体 → 青少年",
               "derivations": [],
               "example_en": "Many industries are going out of infancy and becoming adolescents.",
               "example_cn": "许多行业正在走出婴儿期， 步入青少年时期。"
@@ -10963,8 +10970,8 @@ window.CET6_DATA = {
               "meaning": "n.(地球或大脑的)半球",
               "highlight": "n.(地球或大脑的)半球",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "hemi-（半）+sphere(球）→半球 Lesson 2",
+              "tip_type": "词根+前缀",
+              "tip": "hemi-（前缀：半）+ sphere（球体，天体）→ 切成一半的球体 → (地球或大脑的)半球",
               "derivations": []
             },
             {
@@ -11233,8 +11240,8 @@ window.CET6_DATA = {
               "meaning": "n.(非正式的)交谈，谈话",
               "highlight": "n.(非正式的)交谈",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "conver(音似“看我\"）+sa（音似 say）+ Unit4 tion（音似“什”)→请先看看我说过什么，再和 我“交谈”。 Lesson 2",
+              "tip_type": "词根+前缀",
+              "tip": "con-（共同）+ vers（词根：转动，回转）+ -ation（名词后缀）→ 两人话语轮流轮转交流 → 交谈，谈话",
               "derivations": []
             },
             {
@@ -11540,8 +11547,8 @@ window.CET6_DATA = {
               "meaning": "v.涉及；包含；需要；参与",
               "highlight": "v.涉及",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "in-（=in）+volve（转）→转入→涉 Lesson 及；包含 2",
+              "tip_type": "词根+前缀",
+              "tip": "in-（进入）+ volve（词根：卷入，旋转）→ 将某人或某事卷入其中 → 涉及；包含；参与",
               "derivations": [
                 {
                   "word": "involvement",
@@ -11614,8 +11621,8 @@ window.CET6_DATA = {
               "meaning": "n.(尤指某种艺术形式、音乐形式等 的)复兴",
               "highlight": "n.(尤指某种艺术形式、音乐形式等 的)复兴",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "re（字母音似“阿姨”）+nai（联想 （，县）ss+（， 轻时候的穿着神似，说明了中式审美的“复 兴”。",
+              "tip_type": "词根+前缀",
+              "tip": "re-（重新，再次）+ naiss-（词根：出生，诞生）+ -ance（名词后缀）→ 再次迎来新生与繁荣 → 文艺复兴；(文化艺术等)复兴",
               "derivations": [],
               "example_en": "The city experienced an astonishing cultural renaissance during the late nineteenth century.",
               "example_cn": "这座文化名城在十九世纪晚期经历了一场令人惊叹的文化复兴与繁荣。"
@@ -11869,8 +11876,8 @@ window.CET6_DATA = {
               "meaning": "v.通知，通告；了解，熟悉",
               "highlight": "v.通知",
               "freq": 3,
-              "tip_type": "对照",
-              "tip": "informationn.信息→informv. Unit4",
+              "tip_type": "词根+派生",
+              "tip": "in-（进入内里）+ form（形式，模型）→ 将具体形式内容注入听者心智中 → 通知，通告；使了解",
               "derivations": [
                 {
                   "word": "informative",
@@ -11943,8 +11950,8 @@ window.CET6_DATA = {
               "meaning": "n.检查员；视察员，巡视员；（警察） 巡官",
               "highlight": "n.检查员",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "inspect（仔细检查；视察）+-or（表示",
+              "tip_type": "词根+后缀",
+              "tip": "in-（向内）+ spect（词根：看，审视）+ -or（表人后缀）→ 深入内部仔细审视盘查的人 → 检查员；视察员；巡官",
               "derivations": [],
               "example_en": "The food safety inspector checked all equipment in the restaurant kitchen thoroughly.",
               "example_cn": "食品安全检查员对这家餐馆厨房内的所有设备进行了彻底细致的检查。"
@@ -12158,8 +12165,8 @@ window.CET6_DATA = {
               "meaning": "adj.壮观的；令人惊叹的 n.壮观的场面；精彩的表演",
               "highlight": "adj.壮观的",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "spcc（t）（看）+tacular（音似“太酷 了”)→看起来太酷了→壮观的；令人惊叹的 Lesson",
+              "tip_type": "词根+谐音",
+              "tip": "spect（词根：看）+ tacular（谐音'太酷了'）→ 让人看了一眼就惊呼太酷太震撼 → 壮观的；令人惊叹的",
               "derivations": [],
               "example_en": "The evening fireworks display above the harbor was a truly spectacular sight.",
               "example_cn": "海港上空绽放的晚间烟火表演是一场真正蔚为壮观的视觉盛宴。"
@@ -12399,8 +12406,8 @@ window.CET6_DATA = {
               "meaning": "n. 前景，展望；希望；可能性 v. 勘探；寻找",
               "highlight": "/pra'spekt/ n.前景",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "pro-（往前）+spect（看）→前景，展望 Unit4",
+              "tip_type": "词根+前缀",
+              "tip": "pro-（向前）+ spect（词根：看，望）→ 极目向前方未来眺望 → 前景，展望；希望；勘探",
               "derivations": []
             },
             {
@@ -12412,8 +12419,8 @@ window.CET6_DATA = {
               "meaning": "adj.有望的；预期的；潜在的",
               "highlight": "adj.有望的",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "prospect（展望）+-ive（形容词后缓） Lesson 有望的；潜在的 3",
+              "tip_type": "派生",
+              "tip": "prospect（前景，希望）+ -ive（形容词后缀）→ 充满未来前景与可能性的 → 有望的；预期的；潜在的",
               "derivations": []
             },
             {
@@ -12471,8 +12478,8 @@ window.CET6_DATA = {
               "meaning": "n.雕像；雕塑品",
               "highlight": "n.雕像",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "sculp（音似“思刻”）+-ture（名词后 Unit4 缀）→他思考片刻后雕刻出来一个“雕像”。",
+              "tip_type": "谐音联想",
+              "tip": "sculp（谐音'思刻'，深思雕刻）+ -ture（名词后缀）→ 雕刻艺术家静思冥想刻出的艺术杰作 → 雕像；雕塑品",
               "derivations": [],
               "example_en": "The talented artist carved a delicate marble sculpture that captivated the visitors.",
               "example_cn": "这位才华横溢的艺术家雕刻了一尊精致的大理石雕塑，吸引了所有参观者。"
@@ -13031,8 +13038,8 @@ window.CET6_DATA = {
               "meaning": "n.构思，设想；概念",
               "highlight": "n.构思",
               "freq": 3,
-              "tip_type": "对照",
-              "tip": "conceivev.设想→conceptionn. Unit4",
+              "tip_type": "词根+前缀",
+              "tip": "con-（共同，全部）+ cept（词根：拿住，抓取）+ -ion（名词后缀）→ 在大脑里彻底捕捉归纳形成的整体想法 → 构思，设想；概念",
               "derivations": []
             },
             {
@@ -13307,8 +13314,8 @@ window.CET6_DATA = {
               "meaning": "v.监禁，关押；束缚",
               "highlight": "v.监禁",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "im-（=in，入）+prison（监狱）→监 禁；关押 Unit4 Lesson4",
+              "tip_type": "前缀+词根",
+              "tip": "im-（使处于...之中，投入）+ prison（监狱）→ 投进大牢剥夺人身自由 → 监禁，关押；束缚",
               "derivations": [
                 {
                   "word": "imprisonment",
@@ -13390,8 +13397,8 @@ window.CET6_DATA = {
               "meaning": "n.（储存在计算机中的）数据库",
               "highlight": "n.（储存在计算机中的）数据库",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "data(数据）+base（基础）→数据库 Unit4 This information is combined with a map",
+              "tip_type": "合成词",
+              "tip": "data（数据，资料）+ base（基地，基础库）→ 集中存放各类业务关键数据的数字基地 → 数据库",
               "derivations": []
             },
             {
@@ -13580,8 +13587,8 @@ window.CET6_DATA = {
               "meaning": "n.批准，同意；制裁v.批准，同意",
               "highlight": "n.批准",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "sanc（音似“赛课”）+-tion（名词后 级)→学校里开展课程比赛要经过校领导的 Unit4 “批准”。 Lesson",
+              "tip_type": "词根+后缀",
+              "tip": "sanct-（词根：神圣的，神圣法律）+ -ion（名词后缀）→ 拥有神圣法律约束效力的决议：官方核准则为批准，违规惩处则为制裁",
               "derivations": []
             },
             {
@@ -14680,8 +14687,8 @@ window.CET6_DATA = {
               "meaning": "v..将…分类，将.………归人一类（一个 等级）",
               "highlight": "v..将…分类",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "class（种类，等级）+-ify（动词后级） Lesson →使分类，使等级化→将……·归入一类（一个 等级）",
+              "tip_type": "词根+后缀",
+              "tip": "class（类别，等级）+ -ify（动词后缀，使成为...）→ 按类别和档次分别整理编排 → 将...分类，归类",
               "derivations": [],
               "example_en": "He objected to classifying parenting as a personal choice.",
               "example_cn": "他反对将养育子女归为个人选择。"
@@ -17230,8 +17237,8 @@ window.CET6_DATA = {
               "meaning": "n.焦虑，紧张；负担；拉力v.拉伤；竭 力；用力推（或拉)，拉紧；使过劳",
               "highlight": "n.焦虑",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "chi（联想“吃\"）+Il（形似两支冰棍） 数九寒天，我吃了两支冰棍，“寒冷的”感觉 直冲心底。 Unit5 Lesson 3",
+              "tip_type": "词根联想",
+              "tip": "string（绳索拉紧）变体 → 绳子绷紧承受巨大拉力，人承受极限重压 → 焦虑，紧张；拉伤；拉紧，竭尽全力",
               "derivations": [],
               "example_en": "The woman may be suffering from repetitive strain injury.",
               "example_cn": "这位女士可能患有重复性劳损。"
@@ -17409,8 +17416,8 @@ window.CET6_DATA = {
               "meaning": "v.乘；（使)成倍增加；(使）大大增加； 繁殖",
               "highlight": "v.乘",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "multi-（多）+ply（音似“扑来\"）→多 多地扑来→繁殖 Unit5 Lesson",
+              "tip_type": "前缀+词根",
+              "tip": "multi-（前缀：多个，多数）+ ply（词根：折叠，重叠）→ 呈多倍数层层叠加翻番 → (使)成倍增加；乘；繁殖",
               "derivations": [
                 {
                   "word": "multiplication",
@@ -17696,8 +17703,8 @@ window.CET6_DATA = {
               "meaning": "n.零售 v.零售 adv.以零售方式",
               "highlight": "n.零售 v.零售 adv.以零售方式",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "re-（再，重复）+tail(=cut,切，割）→ Unit5 重复切割单卖→零售 Lesson",
+              "tip_type": "词根+前缀",
+              "tip": "re-（再，反复）+ tail（词根：切割，切细）→ 将批发大包裹反复细切成单件零散出售 → 零售",
               "derivations": [
                 {
                   "word": "retailer",
@@ -17991,8 +17998,8 @@ window.CET6_DATA = {
               "meaning": "v. 详细描述；精心制作 adj. 精心制作的；详尽的",
               "highlight": "/'laebarat/ v.详细描述",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "e-（出）+labor（劳动）+-ate（后缓）→ 辛苦做出（的）→精心制作（的） Lesson 我们风雨兼程，绝不空手而归。】",
+              "tip_type": "词根+前缀",
+              "tip": "e-（出，彻底）+ labor（劳动，付出心血）+ -ate（后缀）→ 付出极大心血细细打磨出来的 → 精心制作的；详尽的；详细阐述",
               "derivations": [
                 {
                   "word": "elaboration",
@@ -18297,8 +18304,8 @@ window.CET6_DATA = {
               "meaning": "n.截止日期，最后期限",
               "highlight": "n.截止日期",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "dead（死）+line（线）→死亡的线，禁 止越过→截止日期 Lesson P 本单元已学习： 16个词群 132个扩展词",
+              "tip_type": "合成词",
+              "tip": "dead（死亡）+ line（界线）→ 越过就会宣判任务死刑的绝对警戒线 → 截止日期，最后期限",
               "derivations": [],
               "example_en": "The team worked overtime throughout the weekend to meet the strict project deadline.",
               "example_cn": "研发团队在整个周末加班加点，以赶在严苛的项目截止日期前交工。"
@@ -19071,8 +19078,8 @@ window.CET6_DATA = {
               "meaning": "n.情况，状况；位置",
               "highlight": "n.情况",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "situat（e)（使位于……）+-ion（名词 后缓)→位置 Unit6",
+              "tip_type": "词根+后缀",
+              "tip": "sit-（词根：坐落，位于）+ -uation（复合名词后缀）→ 事物当前所处的位置与环境局面 → 情况，状况；形势",
               "derivations": []
             },
             {
@@ -19346,8 +19353,8 @@ window.CET6_DATA = {
               "meaning": "n.激励；刺激；动力",
               "highlight": "n.激励",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "in（里面）+cent（分）+-ive（名词后 缀）→家里穷到只剩一分钱了，这“激励”他奋 发图强。 Unit6",
+              "tip_type": "词根+谐音",
+              "tip": "in-（使进入，激发）+ cent（分钱，奖金）+ -ive → 给予丰厚绩效奖金激发内心奋斗冲劲 → 激励；刺激；动力",
               "derivations": []
             },
             {
@@ -20347,8 +20354,8 @@ window.CET6_DATA = {
               "meaning": "v.面对；对抗",
               "highlight": "v.面对",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "count（计算）+-er（名词后缓）→计 Lesson 算器",
+              "tip_type": "词根+前缀",
+              "tip": "con-（共同，相对）+ front（前额，脸面前）→ 迎面正对着彼此面庞毫无退避 → 直面，正视；面对，对抗",
               "derivations": [
                 {
                   "word": "confrontation",
@@ -20447,8 +20454,8 @@ window.CET6_DATA = {
               "meaning": "v. (使)转移；调动；转让 n. 转移；调动；换乘",
               "highlight": "/traens'fs:(r)/ v.（使）转移",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "trans-（从.…….到……….）+fer（音似 Unit6 “佛”)→唐僧师徒把佛经从西天取回了大唐→ 转移；搬迁 Lesson 2",
+              "tip_type": "词根+前缀",
+              "tip": "trans-（穿过，跨越，从一边到另一边）+ fer（词根：搬运，携带）→ 从一个地方跨区域搬运到另一处 → (使)转移；调动；换乘",
               "derivations": [
                 {
                   "word": "transference",
@@ -20847,8 +20854,8 @@ window.CET6_DATA = {
               "meaning": "v. 安慰，抚慰 n. 操纵台，控制台",
               "highlight": "/'konsaul/ v.安慰",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "con-（都）+sole（联想“馒了”)→母亲 留给我的好吃的都了，我满心愧疚地“安慰” 9 失望的母亲。 Lesson",
+              "tip_type": "词根+前缀",
+              "tip": "con-（完全，共同）+ sol-（词根：孤独，孤单；变体安抚）→ 陪伴在孤单悲伤的人身边给予温暖 → 安慰，抚慰",
               "derivations": [
                 {
                   "word": "consolation",
@@ -21076,8 +21083,8 @@ window.CET6_DATA = {
               "meaning": "v.抵制；阻挡；反抗，抵抗",
               "highlight": "v.抵制",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "re-（相反）+sist(站）→站在相反的位 置→抵制；阻挡 Unit6 Lesson",
+              "tip_type": "词根+前缀",
+              "tip": "re-（反向，对着干）+ sist（词根：站立）→ 迎头挺身立于反对面抗衡 → 抵制；阻挡；反抗，抵抗",
               "derivations": [
                 {
                   "word": "resistant",
@@ -21644,8 +21651,8 @@ window.CET6_DATA = {
               "meaning": "n.碰撞(声);肿块v.碰撞；颠簸而行",
               "highlight": "n.碰撞(声);肿块v.碰撞",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“哪”→他倒在桌子 上，发出“邮”的“碰撞声”，头上出现了一个 Unit6 “肿块”。 Lesson",
+              "tip_type": "拟声联想",
+              "tip": "拟声词发音'砰/梆' → 猛撞在硬物上发出沉闷碰撞声，撞出一个鼓包大肿块 → 碰撞(声)；肿块；颠簸",
               "derivations": []
             },
             {
@@ -21888,8 +21895,8 @@ window.CET6_DATA = {
               "meaning": "v.告终，结束",
               "highlight": "v.告终",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "cul（音似“卡了\"）+minate（联想 谐音单词发音类似“派吃”→他派人给他",
+              "tip_type": "词根+后缀",
+              "tip": "culmin-（词根：顶峰，顶点，源自拉丁语culmen）+ -ate（动词后缀）→ 发展演进到最高顶峰后迎向终局 → 达到顶点；告终，结束",
               "derivations": [],
               "example_en": "Years of persistent scientific research finally culminated in a historic medical breakthrough.",
               "example_cn": "多年坚持不懈的科研努力最终以一项具有历史意义的医学突破而告终。"
@@ -22229,8 +22236,8 @@ window.CET6_DATA = {
               "meaning": "v.抓紧，紧抱；粘住，附着；依恋",
               "highlight": "v.抓紧",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“可怜”→那个可怜的 孩子“紧抱”着母亲，一刻都不肯放开。 Unit6",
+              "tip_type": "谐音联想",
+              "tip": "发音类似'可怜/克灵' → 可怜惊慌的孩子紧紧抓住大人的衣襟不放 → 抓紧，紧抱；粘住，附着；依恋",
               "derivations": []
             },
             {
@@ -22482,8 +22489,8 @@ window.CET6_DATA = {
               "meaning": "v.使适应，使适合；改造；改编",
               "highlight": "v.使适应",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "ad（联想“阿弟\")+a（一）+pt（联想 ease when you are with strangers.你必须使自己 习惯和陌生人在一起时更加自在。",
+              "tip_type": "词根+前缀",
+              "tip": "ad-（去，朝向）+ apt（词根：适合的，适应的）→ 调整自我状态以吻合外界新环境 → 使适应，使适合；改编",
               "derivations": [
                 {
                   "word": "adaptation",
@@ -24085,8 +24092,8 @@ window.CET6_DATA = {
               "meaning": "n.引以为豪的事物，感到骄傲的事物 v.自夸，自吹自擂",
               "highlight": "n.引以为豪的事物",
               "freq": 2,
-              "tip_type": "对照",
-              "tip": "他在海岸（coast）吃烧烤（roast)，一边 和朋友干杯(toast)，一边自夸(boast)。 Lesson",
+              "tip_type": "押韵联想",
+              "tip": "押韵记忆串记：在海岸（coast）吃烤肉（roast），举杯敬酒（toast），喝高了开始自吹自擂（boast） → 自夸；引以为傲",
               "derivations": [
                 {
                   "word": "boastful",
@@ -24151,8 +24158,8 @@ window.CET6_DATA = {
               "meaning": "n.回忆，记忆；记忆力；存储器",
               "highlight": "n.回忆",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "memor(y)（记忆）+-ise/-ize（动词后 级，使….→使有记忆→记住，熟记",
+              "tip_type": "词根",
+              "tip": "memor-（词根：记忆，记住）+ -y（名词后缀）→ 大脑保存回顾过去经历的能力 → 回忆，记忆；存储器",
               "derivations": [],
               "example_en": "Each night I tried to memorise long lists of verbs.",
               "example_cn": "每天晚上我都努力把一些长串的动词记住。"
@@ -24325,8 +24332,8 @@ window.CET6_DATA = {
               "meaning": "代替，取代；以.…替换，更换",
               "highlight": "代替",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "re（字母音似“阿姨”）+place（位置） 阿姨在他的位置上，因为阿姨“取代”了他。 Unit7 Lesson",
+              "tip_type": "前缀+词根",
+              "tip": "re-（重新，再次）+ place（放置，位置）→ 重新放一个新的事物到原有位置上 → 代替，取代；更换",
               "derivations": [
                 {
                   "word": "replacement",
@@ -24921,8 +24928,8 @@ window.CET6_DATA = {
               "meaning": "v.呻吟；抱怨，发牢骚",
               "highlight": "v.呻吟",
               "freq": 3,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“割肉嗯”→被割肉时 会发出“嗯嗯”的“申吟声”。 Lesson",
+              "tip_type": "拟声谐音",
+              "tip": "发音类似'割肉嗯' → 伤口剧痛仿佛割肉般难忍，喉咙里发出痛苦的呻吟声 → 呻吟；抱怨，叹息",
               "derivations": []
             },
             {
@@ -25149,8 +25156,8 @@ window.CET6_DATA = {
               "meaning": "n.丑行，丑闻，可耻的行为",
               "highlight": "n.丑行",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“死看都”→所有人都 死死地盯着他看，因为他有一桩“丑闻”。 Unit7",
+              "tip_type": "谐音联想",
+              "tip": "发音类似'死看都' → 荒唐丑事曝光引起全城轰动，所有人都死死盯着看笑话 → 丑闻，丑行；可耻的行为",
               "derivations": [
                 {
                   "word": "scandalous",
@@ -25432,8 +25439,8 @@ window.CET6_DATA = {
               "meaning": "v.完成；实现(尤指通过努力)",
               "highlight": "v.完成",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "ac-（表强调）+complish（音似“看破 现的完成那一庞大工作的工具之一。",
+              "tip_type": "词根+前缀",
+              "tip": "ac-（加强语气）+ compl-（词根：填满，圆满完成，源自complete）+ -ish（动词后缀）→ 将既定目标全部填满做到极致 → 完成；实现(通过努力)",
               "derivations": [
                 {
                   "word": "accomplishment",
@@ -25661,8 +25668,8 @@ window.CET6_DATA = {
               "meaning": "n.人工制品，手工艺品",
               "highlight": "n.人工制品",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“杰克”→电影《泰坦尼 克号》中的船进水时，男主人公杰克赶忙把露 Unit7 丝拉到自己身边→急拉",
+              "tip_type": "词根+前缀",
+              "tip": "arti-（词根：技艺，人工，源自art）+ fact（词根：制作，制造）→ 凭借人类手艺人工打造出来的器物 → 人工制品，手工艺品，文物",
               "derivations": []
             },
             {
@@ -26294,8 +26301,8 @@ window.CET6_DATA = {
               "meaning": "v.共谋；密谋",
               "highlight": "v.共谋",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "con-(共同）+spir(呼吸）+e→同呼 吸，共存亡→共谋 Unit7",
+              "tip_type": "词根+前缀",
+              "tip": "con-（共同，一起）+ spir（词根：呼吸）+ -e → 秘密围坐凑在一起低声共呼吸通气 → 共谋，密谋",
               "derivations": []
             },
             {
@@ -26307,8 +26314,8 @@ window.CET6_DATA = {
               "meaning": "v.到期，过期，失效；（任期）届满；死亡",
               "highlight": "v.到期",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "ex-（向外）+(s)pir（呼吸）+e→向外 Lesson 呼出最后一口气→死亡 4",
+              "tip_type": "词根+前缀",
+              "tip": "ex-（向外，出）+ spir（词根：呼吸，气息）+ -e → 吐出最后一口气息，有效气数已尽 → 到期，失效；届满；死亡",
               "derivations": [
                 {
                   "word": "expiration",
@@ -26353,8 +26360,8 @@ window.CET6_DATA = {
               "meaning": "v. 悬，挂；暂停，中止",
               "highlight": "v.悬",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "sus-（往下）+pen（钢笔）+d（音似 Unit “的”)→过去有钢笔的人往往会把钢笔朝下 “挂”在口袋上。",
+              "tip_type": "词根+前缀",
+              "tip": "sus-（=sub-，在...下方）+ pend（词根：悬挂，悬垂）→ 悬吊在半空不上不下，事情暂时搁置 → 悬挂；暂停，中止",
               "derivations": [
                 {
                   "word": "suspense",
@@ -26841,8 +26848,8 @@ window.CET6_DATA = {
               "meaning": "n.布局；设计；版面编排，版面设计",
               "highlight": "n.布局",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "lay(放置）+out(出去)→布局 Unit8 Lesson",
+              "tip_type": "合成词",
+              "tip": "lay（摆放，铺开）+ out（展开，向外）→ 把全部元素在图纸版面上平铺展开规划好 → 布局；版面编排设计",
               "derivations": []
             },
             {
@@ -27116,8 +27123,8 @@ window.CET6_DATA = {
               "meaning": "n.结果，成果",
               "highlight": "n.结果",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "out（往外）+come(来）→往外出来→ Lesson 结果，成果",
+              "tip_type": "合成词",
+              "tip": "out（出来）+ come（到来）→ 经过全部过程最终演变产生出来的结局 → 结果，成果",
               "derivations": []
             },
             {
@@ -28199,8 +28206,8 @@ window.CET6_DATA = {
               "meaning": "v.当心，注意，谨防",
               "highlight": "v.当心",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "be（是）+ware（联想aware）→一 人出门在外，是应该意识到危险的→当心，注 意，谨防 Unit8",
+              "tip_type": "合成词",
+              "tip": "be（保持）+ ware（保持警觉，源自wary/aware）→ 时刻保持警惕状态戒备潜在危险 → 当心，注意，谨防",
               "derivations": []
             },
             {
@@ -28468,8 +28475,8 @@ window.CET6_DATA = {
               "meaning": "adj.字面意义的；完全按原文的；缺 乏想象力的",
               "highlight": "adj.字面意义的",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“李特弱”→李同学的 英语基础特别弱，只能按字面意思翻译→字面 意义的 Unit8 Lesson 2",
+              "tip_type": "词根+后缀",
+              "tip": "liter-（词根：文字，字母，源自letter）+ -al（形容词后缀）→ 仅拘泥于每个字面字母本身的含义 → 字面意义的；缺乏想象力的",
               "derivations": [
                 {
                   "word": "literally",
@@ -28614,8 +28621,8 @@ window.CET6_DATA = {
               "meaning": "v.镇压，压制；抑制",
               "highlight": "v.镇压",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "sup-（=sub-，往下）+prcess(压）→镇压 Lesson",
+              "tip_type": "词根+前缀",
+              "tip": "sup-（=sub-，向下）+ press（按压，压迫）→ 从上方用强力狠命往下压制不准反弹 → 镇压，压制；抑制",
               "derivations": [
                 {
                   "word": "suppression",
@@ -29097,8 +29104,8 @@ window.CET6_DATA = {
               "meaning": "n.方程式，等式；相等",
               "highlight": "n.方程式",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "equa（=equal）+-tion（名词后级）→ Lesson 相等→等式 3",
+              "tip_type": "词根+后缀",
+              "tip": "equ-（词根：平等，相同）+ -ation（名词后缀）→ 两边数值完全平衡对等的数学式子 → 方程式，等式；相等",
               "derivations": []
             },
             {
@@ -29396,8 +29403,8 @@ window.CET6_DATA = {
               "meaning": "n.儒夫，胆怯者",
               "highlight": "n.儒夫",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“靠我的”→他是个“懦 夫”，遇到事情只能靠我。 Lesson 3",
+              "tip_type": "谐音联想",
+              "tip": "发音类似'靠我的' → 遇到危难吓得缩在别人身后只能靠别人保护的胆小鬼 → 懦夫，胆怯者",
               "derivations": [
                 {
                   "word": "cowardly",
@@ -30016,8 +30023,8 @@ window.CET6_DATA = {
               "meaning": "n.火花，火星；一丁点v.引发，触发",
               "highlight": "n.火花",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "s（音似“”）+park（公园）→有人在 公园里放烟花，“火花”发出嘶嘶声。 Unit8",
+              "tip_type": "拟声联想",
+              "tip": "摩擦金属碰撞瞬间迸发出的微小星火，微小火星即可引燃燎原大火 → 火花，火星；引发，触发",
               "derivations": []
             },
             {
@@ -30568,8 +30575,8 @@ window.CET6_DATA = {
               "meaning": "v.减少，（使）减弱，降低；贬低",
               "highlight": "v.减少",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "“你”）+sh（音似“失”)→有了弟弟妹妹 的陪伴，你的烦恼“减少”，痛苦消失。 Lesson 4",
+              "tip_type": "词根+前缀",
+              "tip": "di-（加强）+ mini（词根：微小，缩小）+ -ish（动词后缀）→ 逐渐变得越来越小、规模锐减 → 减少，(使)减弱；贬低",
               "derivations": []
             },
             {
@@ -31212,8 +31219,8 @@ window.CET6_DATA = {
               "meaning": "n.名誉，声誉",
               "highlight": "n.名誉",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "re-（重复）+nown（联想known）→重 复地被知道，表明这个人很有“声誉”。 Lesson",
+              "tip_type": "前缀+词根",
+              "tip": "re-（一再，反复）+ nown（词根：名字，名号，变体自name/known）→ 其名号反复被大众口口相传赞誉 → 名誉，声誉",
               "derivations": [
                 {
                   "word": "renowned",
@@ -32863,8 +32870,8 @@ window.CET6_DATA = {
               "meaning": "v.折断，破裂 ：n.骨折，断裂",
               "highlight": "v.折断",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "fr（联想“芙蓉\"）+acture（联想",
+              "tip_type": "词根+后缀",
+              "tip": "fract-（词根：破碎，断裂，源自fraction）+ -ure（名词/动词后缀）→ 骨骼或坚硬物体受猛击碎裂折断 → 折断，破裂；骨折",
               "derivations": []
             },
             {
@@ -34360,8 +34367,8 @@ window.CET6_DATA = {
               "meaning": "v.凝结；压缩；浓缩",
               "highlight": "v.凝结",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "con-（共同，一起）+dense（稠密的）→ Lesson 压缩；浓缩",
+              "tip_type": "词根+前缀",
+              "tip": "con-（加强，聚合）+ dense（致密的，浓厚的）→ 让分散的分子紧密聚合浓缩在一块 → 凝结；压缩；浓缩",
               "derivations": [
                 {
                   "word": "condensation",
@@ -34897,8 +34904,8 @@ window.CET6_DATA = {
               "meaning": "v.操纵，控制；（熟练地）操作，使用",
               "highlight": "v.操纵",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“摸你扑了它”→工作 的时候，你一会儿摸摸这台机器，一会儿扑向 那台机器，说明你能“熟练地操作”它们。 Unit10 Lesson",
+              "tip_type": "词根+后缀",
+              "tip": "mani-（词根：手，源自manus）+ pul-（词根：握满，掌控）+ -ate（动词后缀）→ 用双手得心应手熟练掌控玩弄于股掌之间 → 操纵，控制；熟练操作",
               "derivations": [
                 {
                   "word": "manipulation",
@@ -35711,8 +35718,8 @@ window.CET6_DATA = {
               "meaning": "n.动力；推动",
               "highlight": "n.动力",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "im-（=in-，里面）+pet（宠物）+us （我们）→在家里养宠物，可以“推动”我们责任 Unit10 感的培养。 Lesson",
+              "tip_type": "词根+前缀",
+              "tip": "im-（向内，施加）+ pet-（词根：冲，追求，冲刺）+ -us（名词后缀）→ 从背后给予强劲冲击力驱使前冲 → 动力；推动，推动力",
               "derivations": []
             },
             {
@@ -36311,8 +36318,8 @@ window.CET6_DATA = {
               "meaning": "v.离开；出发，启程",
               "highlight": "v.离开",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“弟怕他”→弟弟因为 Unit10 怕他所以“离开”了。",
+              "tip_type": "词根+前缀",
+              "tip": "de-（分离，脱离）+ part（部分，分别）→ 与原有队伍分开各自上路启程 → 离开；出发，启程",
               "derivations": [
                 {
                   "word": "departure",
@@ -36500,8 +36507,8 @@ window.CET6_DATA = {
               "meaning": "n.(客车车厢内的)隔间；(家具等的） 分隔间",
               "highlight": "n.(客车车厢内的)隔间",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "com-（共同）+part（部分）+-ment （名词后级）→共同把一个整体分割成的各个 部分→隔间；分隔间 Unit10",
+              "tip_type": "词根+前缀",
+              "tip": "com-（整个）+ part（分割，分开）+ -ment（名词后缀）→ 把一节大车厢或大柜子分割独立出来的小单元 → (客车车厢的)隔间；分隔间",
               "derivations": []
             },
             {
@@ -36718,8 +36725,8 @@ window.CET6_DATA = {
               "meaning": "n.建筑学；建筑风格；结构",
               "highlight": "n.建筑学",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "ar（联想art）+chi+tecture（联想",
+              "tip_type": "词根+后缀",
+              "tip": "archi-（总头目，主要，巨匠）+ tect（词根：建造，建造者）+ -ure（名词后缀）→ 建筑巨匠所创造的雄伟艺术结构与设计体系 → 建筑学；建筑风格；结构",
               "derivations": [],
               "example_en": "The building is a prime example of the 1960s architecture.",
               "example_cn": "这座大楼是20世纪60年代的典型 建筑。"
@@ -37085,8 +37092,8 @@ window.CET6_DATA = {
               "meaning": "v.表达，传递；传送，运送",
               "highlight": "v.表达",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "con-（所有）+vey（音似way）→所有 东西都已在路上“运送”。 Lesson 2",
+              "tip_type": "词根+联想",
+              "tip": "con-（共同）+ voy/vey（词根：道路，护送途径，源自voyage）→ 在路途上承载物资或思想送到对方身边 → 表达，传递；传送，运送",
               "derivations": [
                 {
                   "word": "conveyance",
@@ -37220,8 +37227,8 @@ window.CET6_DATA = {
               "meaning": "n.调查者，侦察员",
               "highlight": "n.调查者",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "investigat（e)（调查）+-or（表示人的 后缀)→调查者 Lesson",
+              "tip_type": "派生",
+              "tip": "investigate（调查，深入侦查）+ -or（表人后缀）→ 负责深入案发现场追踪蛛丝马迹的办案人员 → 调查者，侦察员",
               "derivations": [],
               "example_en": "He was an investigator for the study.",
               "example_cn": "他是该研 究的调查者。"
@@ -37712,8 +37719,8 @@ window.CET6_DATA = {
               "meaning": "v.(从外地)移居；移民",
               "highlight": "v.(从外地)移居",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "im-（=in-，入）+migrate（移居）→ 3 （从外地)移居；移民 About 6.6 milion people immigrated to the United",
+              "tip_type": "词根+前缀",
+              "tip": "im-（=in-，向内，进入）+ migrate（迁徙，移居）→ 从本国外部迁入另一个国家长期定居 → (从外国)移居，移民",
               "derivations": [
                 {
                   "word": "immigration",
@@ -38492,8 +38499,8 @@ window.CET6_DATA = {
               "meaning": "v.积累，积聚；（数量）逐渐增加",
               "highlight": "v.积累",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "ac-（一再地）+cumu（音似“可莫”）+ late（晚）→我一再强调，六级可莫准备晚了，要 提前“积累”词汇。 Unit10",
+              "tip_type": "词根+谐音",
+              "tip": "ac-（一再，不断）+ cumu（词根：堆积，堆聚）+ -late（动词后缀）→ 像堆沙丘一样日复一日聚少成多 → 积累，积聚；逐渐增加",
               "derivations": [
                 {
                   "word": "accumulation",
@@ -38812,8 +38819,8 @@ window.CET6_DATA = {
               "meaning": "n.指南针；范围",
               "highlight": "n.指南针",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "com（联想come）+pass（通过）→通 过森林时容易迷路，需要用“指南针”才能确认 Unit10 方向。",
+              "tip_type": "词根+联想",
+              "tip": "com-（共同，完全）+ pass（步幅，转动迈步）→ 画出一圈完整闭环罗盘圆周 → 指南针，罗盘；圆规；范围",
               "derivations": [],
               "example_en": "A reliable magnetic compass helped early navigators find their way across uncharted oceans.",
               "example_cn": "一只精准可靠的磁性指南针罗盘帮助早期的航海家们顺利指引穿越了未知的茫茫大洋。"
@@ -39212,8 +39219,8 @@ window.CET6_DATA = {
               "meaning": "adj.众多的；许多的",
               "highlight": "adj.众多的",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "numer（=number）+-ous（形容词后 缀）→数量多的→许多的 Lesson",
+              "tip_type": "词根+后缀",
+              "tip": "numer-（词根：数目，数字，源自number）+ -ous（充满...的，形容词后缀）→ 数量极其庞大数不胜数的 → 众多的；许多的",
               "derivations": []
             },
             {
@@ -39441,8 +39448,8 @@ window.CET6_DATA = {
               "meaning": "n.（缝纫的）一针，针脚；缝 v.缝补",
               "highlight": "n.（缝纫的）一针",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“撕地契”→地契被撕 碎了，得“一针”一针地“缝”起来。 Lesson 4",
+              "tip_type": "谐音联想",
+              "tip": "发音类似'撕地契/死贴切' → 破布撕开了，得穿针引线一针针死死贴切缝合好 → (缝纫的)一针，针脚；缝补",
               "derivations": []
             },
             {
