@@ -1,23 +1,34 @@
 @echo off
 chcp 65001 >nul
-title 疯狂过六级 - 一键推送至 GitHub
+title 疯狂过六级 - 一键打包与推送至 GitHub
 cd /d "%~dp0"
 
 echo =======================================================
-echo          🔥 疯狂过六级 · 一键上传 GitHub 部署工具
+echo          🔥 疯狂过六级 · 一键打包与 GitHub 部署工具
 echo =======================================================
 echo.
-echo [1/3] 检查本地 Git 状态...
+
+echo [1/4] 正在检测 Node.js 环境并自动重新打包离线单文件...
+where node >nul 2>&1
+if %errorlevel% equ 0 (
+    node bundle.js
+    echo [成功] 离线单文件已打包至: 疯狂过六级.html
+) else (
+    echo [跳过] 未检测到 Node.js，跳过本地单文件打包。
+)
+echo.
+
+echo [2/4] 检查本地 Git 状态...
 git status
 echo.
 
 git remote get-url origin >nul 2>&1
 if %errorlevel% equ 0 (
-    echo [2/3] 检测到已配置远程仓库:
+    echo [3/4] 检测到已配置远程仓库:
     git remote -v
     echo.
 ) else (
-    echo [2/3] 尚未关联 GitHub 远程仓库。
+    echo [3/4] 尚未关联 GitHub 远程仓库。
     echo 请先在 GitHub (https://github.com/new) 创建一个空仓库，
     echo 然后将仓库链接粘贴在下方 (例如: https://github.com/your-name/crazy-pass-cet6.git):
     echo.
@@ -32,15 +43,16 @@ if %errorlevel% equ 0 (
     echo.
 )
 
-echo [3/3] 正在推送至 GitHub (main 分支)...
-echo (如果是首次推送，Windows 将自动弹出 GitHub 浏览器安全登录窗口，点击授权即可)
-echo.
-git push -u origin main
+echo [4/4] 正在推送至 GitHub (main 分支)...
+git add index.html style.css app.js words_data.js bundle.js README.md .gitignore 手机扫码访问_疯狂过六级.png 疯狂过六级.html 一键上传GitHub.bat
+git commit -m "update: 疯狂过六级全站资源热更新" >nul 2>&1
+git push origin main
 
 if %errorlevel% equ 0 (
     echo.
     echo =======================================================
     echo   🎉 恭喜！《疯狂过六级》项目已成功推送到 GitHub！
+    echo   🌐 线上体验地址: https://crazy474.github.io/crazy-pass-cet6-/
     echo =======================================================
 ) else (
     echo.
