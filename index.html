@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=2.6.0">
+  <link rel="stylesheet" href="style.css?v=2.7.0">
 </head>
 <body>
 
@@ -70,73 +70,97 @@
 
       <div class="header-actions">
 
-        <!-- 趣味游戏化：番茄Q酱养成状态胶囊 -->
-        <div class="tomato-pet-pill" onclick="showTomatoPetModal()" title="点击查看番茄Q酱成长手帐与进化等级">
-          <span class="pet-icon-bounce" id="headerPetIcon" onclick="onTomatoPetClick(event)">🌱</span>
-          <span style="font-size:13px; font-weight:800; color:var(--text-main);" id="headerPetBadge">LV.1 萌芽小番茄</span>
-          <div class="pet-xp-bar-wrap">
-            <div class="pet-xp-bar-fill" id="headerPetXpBar" style="width:10%;"></div>
-          </div>
+        <!-- 1. 极速全局搜索胶囊 -->
+        <div class="search-box-pill" onclick="openGlobalSearchModal()" title="全局搜索词汇/释义/巧记 (快捷键 Ctrl+K 或 /)">
+          <span class="search-box-icon">🔍</span>
+          <input type="text" id="globalSearchInput" placeholder="搜索单词 / 释义 / 巧记..." readonly>
+          <kbd>Ctrl+K</kbd>
         </div>
 
-        
-
-        <!-- 30秒极速词霸大挑战入口 -->
-        <!-- 30秒极速词霸大挑战专属图标按钮 (带有高能闪电微动效与动态纪录徽标) -->
-        <button type="button" class="blitz-hero-icon-btn" onclick="showWordBlitzModal()" title="30秒高能极速词汇反应挑战（点击开启竞技场）">
-          <div class="blitz-btn-icon-wrap">
-            <svg class="blitz-btn-svg" viewBox="0 0 24 24" width="22" height="22" fill="none">
-              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="url(#blitzBoltGrad)" stroke="#D97706" stroke-width="1.5" stroke-linejoin="round"/>
-              <defs>
-                <linearGradient id="blitzBoltGrad" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stop-color="#FBBF24"/>
-                  <stop offset="50%" stop-color="#F59E0B"/>
-                  <stop offset="100%" stop-color="#EF4444"/>
-                </linearGradient>
-              </defs>
-            </svg>
-            <span class="blitz-sparkle-dot"></span>
-          </div>
-          <div class="blitz-btn-text-col">
-            <span class="blitz-btn-title">30秒词霸战</span>
-            <span class="blitz-btn-subtag" id="headerBlitzScoreTag">⚡ 极速对决</span>
-          </div>
-        </button>
-
-        
-        <!-- 全新双轨高保真发音设置控制器 (美英音切换与语速调节) -->
-        <div class="audio-pref-pill" title="超清发音控制器：支持美音/英音切换与语速调节">
-          <button type="button" class="audio-pref-btn" id="headerAudioAccentBtn" onclick="toggleAudioAccent()">
-            <span>🇺🇸</span> 美音
+        <!-- 2. 竞技与备考状态联舱 (30秒词霸战 + 考期倒计时 + 连胜段位) -->
+        <div class="header-status-capsule">
+          <button type="button" class="blitz-hero-icon-btn" onclick="showWordBlitzModal()" title="30秒高能极速词汇反应挑战（点击开启竞技场）">
+            <div class="blitz-btn-icon-wrap">
+              <svg class="blitz-btn-svg" viewBox="0 0 24 24" width="18" height="18" fill="none">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="url(#blitzBoltGrad)" stroke="#D97706" stroke-width="1.5" stroke-linejoin="round"/>
+                <defs>
+                  <linearGradient id="blitzBoltGrad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#FBBF24"/>
+                    <stop offset="50%" stop-color="#F59E0B"/>
+                    <stop offset="100%" stop-color="#EF4444"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+              <span class="blitz-sparkle-dot"></span>
+            </div>
+            <div class="blitz-btn-text-col">
+              <span class="blitz-btn-title">30秒词霸战</span>
+              <span class="blitz-btn-subtag" id="headerBlitzScoreTag">⚡ 极速对决</span>
+            </div>
           </button>
-          <span style="color:var(--border-color); font-size:12px;">|</span>
-          <button type="button" class="audio-pref-btn" id="headerAudioRateBtn" onclick="cycleAudioRate()">
-            <span>⚡</span> 1.0x
+
+          <div class="header-metrics-pill">
+            <div class="exam-countdown-pill" title="目标时间：12月12日 15:00 大学英语六级统考">
+              <span class="metric-icon">⏳</span>
+              <span>距六级 <strong id="headerExamDays">--</strong>天</span>
+              <span id="headerExamHMS" class="exam-hms-sub">--:--:--</span>
+            </div>
+            <span class="dock-divider"></span>
+            <div class="header-streak-pill" onclick="showAchievementReportModal()" title="点击查看连胜战报与段位">
+              <span class="streak-flame-icon" id="headerFlameIcon">🔥</span>
+              <span><strong id="headerStreakDays">1</strong>天连胜</span>
+              <span class="pixel-live-tag" id="headerStreakBadge">新芽破土</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. 伴学控制中心集成坞 (发音 + 字号缩放抽屉 + 提醒 + 日夜主题) -->
+        <div class="header-control-dock">
+          <!-- 发音与倍速 -->
+          <div class="audio-pref-pill" title="超清发音控制器：支持美音/英音切换与语速调节">
+            <button type="button" class="audio-pref-btn" id="headerAudioAccentBtn" onclick="toggleAudioAccent()">
+              <span>🇺🇸</span> 美音
+            </button>
+            <span class="dock-sub-divider">|</span>
+            <button type="button" class="audio-pref-btn" id="headerAudioRateBtn" onclick="cycleAudioRate()">
+              <span>⚡</span> 1.0x
+            </button>
+          </div>
+
+          <span class="dock-divider"></span>
+
+          <!-- 字号无级缩放与预设抽屉 -->
+          <div class="font-size-widget" title="全局字体缩放 (悬浮可选择预设档位)">
+            <button type="button" class="font-step-btn" onclick="zoomFont(-0.1)" title="缩小字号">A-</button>
+            <div class="font-preset-trigger">
+              <span class="font-scale-current" id="headerFontScaleLabel">100%</span>
+              <span class="font-caret">▾</span>
+              <div class="font-presets-popover">
+                <div class="font-popover-title">🔍 选择全局字号比例</div>
+                <button type="button" class="font-btn active" data-scale="1.0" onclick="setFontScale(1.0)">标准 100%</button>
+                <button type="button" class="font-btn" data-scale="1.15" onclick="setFontScale(1.15)">舒适 115%</button>
+                <button type="button" class="font-btn" data-scale="1.30" onclick="setFontScale(1.30)">大字 130%</button>
+                <button type="button" class="font-btn" data-scale="1.45" onclick="setFontScale(1.45)">关怀 145%</button>
+              </div>
+            </div>
+            <button type="button" class="font-step-btn" onclick="zoomFont(0.1)" title="放大字号">A+</button>
+          </div>
+
+          <span class="dock-divider"></span>
+
+          <!-- 提醒与夜间模式 -->
+          <button type="button" class="dock-action-btn" onclick="openReminderModal()" title="设置备考闹钟与桌面提醒">
+            <span>🔔</span> <span class="dock-btn-text">提醒</span>
+          </button>
+          <button type="button" class="dock-action-btn" id="btnDarkMode" onclick="toggleDarkMode()" title="切换日间暖燕麦 / 夜间深黛黑模式">
+            🌙 夜间
           </button>
         </div>
 
-        <!-- 字体大小无级缩放控制器 (解决小字看花眼) -->
-        <div class="font-size-widget" title="全局字体缩放 (告别小字体眼疲劳)">
-          <span class="font-widget-label">🔍 字体大小：</span>
-          <button class="font-btn" onclick="zoomFont(-0.1)" title="按步缩小">A-</button>
-          <button class="font-btn active" data-scale="1.0" onclick="setFontScale(1.0)">标准 100%</button>
-          <button class="font-btn" data-scale="1.15" onclick="setFontScale(1.15)">舒适 115%</button>
-          <button class="font-btn" data-scale="1.30" onclick="setFontScale(1.30)">大字 130%</button>
-          <button class="font-btn" data-scale="1.45" onclick="setFontScale(1.45)">关怀 145%</button>
-          <button class="font-btn" onclick="zoomFont(0.1)" title="按步放大">A+</button>
-        </div>
-
-        
-        <!-- 12月12日 六级统考倒计时 -->
-        <div class="header-pill exam-countdown-pill" title="目标时间：12月12日 15:00 大学英语六级统考">
-          ⏳ 距六级考(12.12)：<strong id="headerExamDays">--</strong>天 <span id="headerExamHMS">--:--:--</span>
-        </div>
-                <button class="header-pill" onclick="openReminderModal()" title="设置备考闹钟与桌面提醒">🔔 提醒设置</button>
-        <button class="header-pill" id="btnDarkMode" onclick="toggleDarkMode()">🌙 夜间深黛黑</button>
-        <!-- 可爱番茄 Q 版像素人 (点击趣味互动) -->
-        <div class="pixel-tomato-widget" id="pixelTomatoWidget" onclick="petPixelTomato()" title="点击我和我互动~ 今天也要疯狂过六级！">
-          <div class="pixel-tomato-avatar">
-            <svg class="pixel-tomato-svg" viewBox="0 0 32 32" width="36" height="36" shape-rendering="crispEdges">
+        <!-- 4. 番茄Q酱伴学宠物一体舱 (融合像素互动与等级经验手帐) -->
+        <div class="pixel-tomato-widget tomato-pet-pill" id="pixelTomatoWidget" onclick="showTomatoPetModal()" title="点击查看番茄Q酱成长手帐 · 点击头像可互动">
+          <div class="pixel-tomato-avatar" onclick="event.stopPropagation(); petPixelTomato();" title="点我互动打气~ 今天也要疯狂过六级！">
+            <svg class="pixel-tomato-svg" viewBox="0 0 32 32" width="34" height="34" shape-rendering="crispEdges">
               <!-- 绿叶与叶柄 -->
               <rect x="14" y="2" width="4" height="4" fill="#2E7D32" />
               <rect x="12" y="4" width="8" height="2" fill="#43A047" />
@@ -178,22 +202,22 @@
             </svg>
           </div>
           <div class="pixel-tomato-info">
-            <div class="pixel-tomato-name">番茄Q酱 <span class="pixel-live-tag">伴学中</span></div>
-            <div class="pixel-tomato-sub">今日收获 <strong id="headerTomatoCount">0</strong> 颗番茄</div>
+            <div class="pixel-tomato-name">
+              <span class="pet-icon-bounce" id="headerPetIcon" onclick="onTomatoPetClick(event)">🌱</span>
+              <span id="headerPetBadge">LV.1 萌芽小番茄</span>
+              <span class="tomato-mini-badge" title="今日已收获番茄数">🍅<strong id="headerTomatoCount">0</strong></span>
+            </div>
+            <div class="pet-xp-row">
+              <div class="pet-xp-bar-wrap">
+                <div class="pet-xp-bar-fill" id="headerPetXpBar" style="width:10%;"></div>
+              </div>
+              <span class="pet-handbook-hint">手帐 ▸</span>
+            </div>
           </div>
           <!-- 悬浮点击鼓励对话气泡 -->
           <div class="pixel-speech-bubble" id="pixelTomatoBubble">加油！疯狂过六级！🍅</div>
         </div>
-        <div class="header-pill header-streak-pill" onclick="showAchievementReportModal()" title="点击查看连胜战报与段位">
-          <span class="streak-flame-icon" id="headerFlameIcon">🔥</span>
-          <span id="headerStreakDays">1</span> 天连胜
-          <span class="pixel-live-tag" id="headerStreakBadge" style="font-size:10px;">新芽破土</span>
-        </div>
 
-        <div class="search-box-pill" onclick="openGlobalSearchModal()" style="cursor:pointer;" title="快捷键 Ctrl+K 或 /">
-          <input type="text" id="globalSearchInput" placeholder="全局搜索词汇/释义/巧记..." readonly style="cursor:pointer;">
-          <kbd>Ctrl+K</kbd>
-        </div>
       </div>
     </div>
 
@@ -1256,8 +1280,8 @@
 
   <div class="toast-container" id="toastContainer"></div>
 
-  <script src="words_data.js?v=2.6.0"></script>
-  <script src="app.js?v=2.6.0"></script>
+  <script src="words_data.js?v=2.7.0"></script>
+  <script src="app.js?v=2.7.0"></script>
 
   <!-- 全局智能撤销悬浮胶囊中枢 (支持 Ctrl+Z 一键撤回) -->
   <div class="undo-floating-capsule" id="undoFloatingCapsule"></div>

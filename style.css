@@ -6092,3 +6092,500 @@ body.dark-mode .back-to-top-btn {
     display: none;
   }
 }
+
+
+/* =========================================================================
+   34. 顶栏右上角交互区重构 (4大流线型集成舱 · 告别拥挤 · 呼吸感美学)
+   ========================================================================= */
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 28px;
+  max-width: 1480px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.brand-section {
+  flex-shrink: 0;
+  gap: 12px;
+}
+
+.brand-info h1 {
+  font-size: 19px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.brand-info p {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* 1. 极速全局搜索胶囊 */
+.header-actions .search-box-pill {
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 0 12px;
+  gap: 7px;
+  width: 195px;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.22s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.header-actions .search-box-pill:hover {
+  border-color: var(--tomato-coral);
+  background: var(--bg-hover);
+  width: 215px;
+  box-shadow: 0 4px 12px rgba(217, 72, 52, 0.1);
+}
+
+.search-box-icon {
+  font-size: 13px;
+  opacity: 0.75;
+  flex-shrink: 0;
+}
+
+.header-actions .search-box-pill input {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-main);
+  cursor: pointer;
+}
+
+.header-actions .search-box-pill input::placeholder {
+  color: var(--text-muted);
+}
+
+.header-actions .search-box-pill kbd {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* 2. 竞技与备考状态联舱 (30秒词霸战 + 考期与连胜) */
+.header-status-capsule {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-actions .blitz-hero-icon-btn {
+  height: 38px;
+  padding: 0 13px 0 7px;
+  gap: 8px;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.16);
+}
+
+.header-actions .blitz-btn-icon-wrap {
+  width: 26px;
+  height: 26px;
+}
+
+.header-actions .blitz-btn-title {
+  font-size: 12.5px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.header-actions .blitz-btn-subtag {
+  font-size: 10px;
+  margin-top: 0;
+}
+
+.header-metrics-pill {
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 0 12px;
+  gap: 9px;
+  box-shadow: var(--shadow-sm);
+  white-space: nowrap;
+}
+
+.header-metrics-pill .exam-countdown-pill {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--harvest-gold);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.header-metrics-pill .exam-countdown-pill strong {
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--tomato-red);
+  margin: 0 1px;
+}
+
+.exam-hms-sub {
+  font-size: 11px;
+  font-family: Consolas, Monaco, monospace;
+  opacity: 0.78;
+  background: var(--harvest-soft);
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-left: 2px;
+}
+
+@media (max-width: 1420px) {
+  .exam-hms-sub {
+    display: none;
+  }
+}
+
+.header-metrics-pill .header-streak-pill {
+  background: transparent;
+  border: none;
+  padding: 3px 6px;
+  margin: -3px -4px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.header-metrics-pill .header-streak-pill:hover {
+  background: var(--tomato-soft);
+  transform: translateY(-1px);
+  box-shadow: none;
+}
+
+.dock-divider {
+  width: 1px;
+  height: 16px;
+  background: var(--border-color);
+  flex-shrink: 0;
+}
+
+.dock-sub-divider {
+  color: var(--border-color);
+  font-size: 11px;
+  margin: 0 1px;
+}
+
+/* 3. 伴学控制中心集成坞 */
+.header-control-dock {
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 0 8px;
+  gap: 6px;
+  box-shadow: var(--shadow-sm);
+  white-space: nowrap;
+}
+
+.header-control-dock .audio-pref-pill {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  gap: 2px;
+}
+
+.header-control-dock .audio-pref-btn {
+  padding: 4px 7px;
+  font-size: 12px;
+  border-radius: 999px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.header-control-dock .audio-pref-btn:hover {
+  background: var(--bg-hover);
+}
+
+/* 字号缩放带悬浮预设菜单 */
+.header-control-dock .font-size-widget {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  gap: 2px;
+  position: relative;
+}
+
+.font-step-btn {
+  background: var(--bg-subtle);
+  border: 1px solid transparent;
+  color: var(--text-main);
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  font-size: 11.5px;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.font-step-btn:hover {
+  background: var(--tomato-soft);
+  color: var(--tomato-red);
+  border-color: rgba(217, 72, 52, 0.25);
+}
+
+.font-preset-trigger {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 4px 7px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-main);
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s ease;
+}
+
+.font-preset-trigger:hover {
+  background: var(--bg-hover);
+}
+
+.font-caret {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+/* 悬浮弹出字号预设抽屉 */
+.font-presets-popover {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(6px);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 8px;
+  min-width: 136px;
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.18s cubic-bezier(0.25, 0.8, 0.25, 1);
+  z-index: 1200;
+}
+
+.font-preset-trigger:hover .font-presets-popover,
+.font-preset-trigger:focus-within .font-presets-popover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.font-presets-popover::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+
+.font-popover-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  padding: 2px 6px 4px;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.font-presets-popover .font-btn {
+  width: 100%;
+  justify-content: center;
+  padding: 6px 10px;
+  font-size: 12.5px;
+  border-radius: 8px;
+}
+
+.dock-action-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-main);
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+
+.dock-action-btn:hover {
+  background: var(--bg-hover);
+  color: var(--tomato-red);
+}
+
+/* 4. 番茄Q酱伴学宠物一体舱 */
+.header-actions .pixel-tomato-widget {
+  height: 40px;
+  padding: 3px 12px 3px 5px;
+  gap: 8px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--bg-surface) 0%, var(--tomato-soft) 160%);
+  border: 1px solid var(--border-color);
+}
+
+.header-actions .pixel-tomato-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bg-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.header-actions .pixel-tomato-avatar:hover {
+  transform: scale(1.12) rotate(-5deg);
+}
+
+.header-actions .pixel-tomato-name {
+  font-size: 12px;
+  font-weight: 800;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.tomato-mini-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--tomato-dark);
+  background: var(--tomato-soft);
+  padding: 0 6px;
+  border-radius: 999px;
+  border: 1px solid rgba(217, 72, 52, 0.2);
+}
+
+body.dark-mode .tomato-mini-badge {
+  color: var(--tomato-coral);
+}
+
+.pet-xp-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.header-actions .pet-xp-bar-wrap {
+  width: 72px;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+body.dark-mode .header-actions .pet-xp-bar-wrap {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.header-actions .pet-xp-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #43A047, #F59E0B, #E53935);
+  border-radius: 999px;
+  transition: width 0.35s ease;
+}
+
+.pet-handbook-hint {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+/* 响应式优雅降级与移动端自适应排布 */
+@media (max-width: 1200px) {
+  .header-top {
+    padding: 10px 18px;
+    gap: 12px;
+  }
+  .header-actions {
+    gap: 8px;
+  }
+  .header-actions .search-box-pill {
+    width: 165px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-top {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .brand-section {
+    justify-content: space-between;
+  }
+  .header-actions {
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .header-actions::-webkit-scrollbar {
+    display: none;
+  }
+  .header-actions > * {
+    flex-shrink: 0;
+  }
+}

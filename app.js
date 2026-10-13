@@ -144,6 +144,11 @@ function setFontScale(scale) {
   userState.fontScale = scale;
   document.documentElement.style.setProperty("--font-scale", scale);
 
+  const labelEl = document.getElementById("headerFontScaleLabel");
+  if (labelEl) {
+    labelEl.textContent = `${Math.round(scale * 100)}%`;
+  }
+
   document.querySelectorAll(".font-btn").forEach(btn => {
     const btnScale = parseFloat(btn.dataset.scale);
     btn.classList.toggle("active", Math.abs(btnScale - scale) < 0.05);
@@ -161,7 +166,7 @@ function toggleDarkMode() {
   userState.darkMode = !userState.darkMode;
   document.body.classList.toggle("dark-mode", userState.darkMode);
   const btn = document.getElementById("btnDarkMode");
-  if (btn) btn.innerHTML = userState.darkMode ? "☀️ 日间暖燕麦" : "🌙 夜间深黛黑";
+  if (btn) btn.innerHTML = userState.darkMode ? "☀️ 日间" : "🌙 夜间";
   saveState();
 }
 
@@ -2069,7 +2074,13 @@ function initExamCountdown() {
 function initApp() {
   try { loadState(); } catch (e) { console.warn("loadState warning:", e); }
   try { setFontScale(userState.fontScale || 1.0); } catch (e) { console.warn("setFontScale warning:", e); }
-  try { if (userState.darkMode && document.body && document.body.classList) document.body.classList.add("dark-mode"); } catch (e) {}
+  try {
+    if (userState.darkMode && document.body && document.body.classList) {
+      document.body.classList.add("dark-mode");
+      const dmBtn = document.getElementById("btnDarkMode");
+      if (dmBtn) dmBtn.innerHTML = "☀️ 日间";
+    }
+  } catch (e) {}
   try { switchTab(userState.currentTab || "pomodoro"); } catch (e) { console.warn("switchTab warning:", e); }
   try { updatePomoDisplay(); } catch (e) { console.warn("updatePomoDisplay warning:", e); }
   try { initExamCountdown(); } catch (e) { console.warn("initExamCountdown warning:", e); }
