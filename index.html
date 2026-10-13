@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=2.7.0">
+  <link rel="stylesheet" href="style.css?v=2.8.0">
 </head>
 <body>
 
@@ -415,6 +415,7 @@
           <button class="toggle-chip" onclick="batchCheckCurrentLesson(true)" title="一键将本课全部单词标记为初学已打卡">⚡ 整课初学一键打卡</button>
           <button class="toggle-chip" onclick="batchCheckCurrentLesson(false)" title="清空本课全部单词打卡标记" style="color:var(--tomato-red);">🔄 清空本课打卡</button>
           <button class="toggle-chip" id="btnFilterUnlearned" onclick="toggleUnlearnedFilter()">⏳ 只看未掌握</button>
+          <button class="toggle-chip jump-unmastered-chip" id="btnJumpUnmastered" onclick="jumpToFirstUnmasteredWord()" title="一键定位并滚动到第一个未掌握的核心词卡片位置">🎯 定位未掌握词</button>
         </div>
       </div>
 
@@ -782,6 +783,12 @@
   </main>
 
   
+  <!-- 一键回到未掌握核心词悬浮按钮 -->
+  <button type="button" class="jump-unmastered-float-btn" id="jumpUnmasteredFloatBtn" onclick="jumpToFirstUnmasteredWord()" title="一键回到第一个未掌握的核心词位置">
+    <span class="jump-unmastered-icon">🎯</span>
+    <span class="jump-unmastered-text">未掌握</span>
+  </button>
+
   <!-- 一键到顶悬浮按钮 (Back to Top) -->
   <button type="button" class="back-to-top-btn" id="backToTopBtn" onclick="scrollToTop()" title="一键到顶 (点击平滑回到页面最顶端)">
     <svg class="back-to-top-svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1280,8 +1287,8 @@
 
   <div class="toast-container" id="toastContainer"></div>
 
-  <script src="words_data.js?v=2.7.0"></script>
-  <script src="app.js?v=2.7.0"></script>
+  <script src="words_data.js?v=2.8.0"></script>
+  <script src="app.js?v=2.8.0"></script>
 
   <!-- 全局智能撤销悬浮胶囊中枢 (支持 Ctrl+Z 一键撤回) -->
   <div class="undo-floating-capsule" id="undoFloatingCapsule"></div>

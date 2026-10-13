@@ -4670,3 +4670,155 @@ if (typeof window !== "undefined") {
   window.scrollToTop = scrollToTop;
   window.addEventListener("scroll", updateBackToTopVisibility, { passive: true });
 }
+
+
+// --- 一键定位并滚动到第一个未掌握的核心词位置 ---
+function showQuickLocateToast(msg) {
+  let toast = document.getElementById("quickLocateToast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "quickLocateToast";
+    toast.style.cssText = "position:fixed; top:82px; left:50%; transform:translateX(-50%) translateY(-12px); z-index:2200; background:var(--bg-surface); color:var(--text-main); border:1.5px solid var(--tomato-red); border-radius:999px; padding:8px 18px; font-size:13.5px; font-weight:800; box-shadow:0 8px 24px rgba(217,72,52,0.22); opacity:0; transition:all 0.22s ease; pointer-events:none; white-space:nowrap;";
+    document.body.appendChild(toast);
+  }
+  toast.innerHTML = msg;
+  requestAnimationFrame(() => {
+    toast.style.opacity = "1";
+    toast.style.transform = "translateX(-50%) translateY(0)";
+  });
+  clearTimeout(toast._hideTimer);
+  toast._hideTimer = setTimeout(() => {
+    toast.style.opacity = "0";
+    toast.style.transform = "translateX(-50%) translateY(-12px)";
+  }, 2800);
+}
+
+function jumpToFirstUnmasteredWord() {
+  if (!window.CET6_DATA || !window.CET6_DATA.coreUnits) return;
+
+  // 1. 若当前不在核心词库板块，自动切换过去
+  const vocabSection = document.getElementById("tab-vocab");
+  if (vocabSection && !vocabSection.classList.contains("active")) {
+    if (typeof switchTab === "function") {
+      switchTab("vocab");
+    }
+  }
+
+  // 2. 若开启了星标或到期筛选导致卡片可能被隐藏，自动重置筛选以便精准定位
+  let needReRender = false;
+  if (userState.filterStarred) {
+    userState.filterStarred = false;
+    const starBtn = document.getElementById("btnFilterStarred");
+    if (starBtn) starBtn.classList.remove("active");
+    needReRender = true;
+  }
+  if (userState.filterDue) {
+    userState.filterDue = false;
+    const dueBtn = document.getElementById("btnFilterDue");
+    if (dueBtn) dueBtn.classList.remove("active");
+    needReRender = true;
+  }
+  if (userState.searchQuery) {
+    userState.searchQuery = "";
+    needReRender = true;
+  }
+
+  const units = window.CET6_DATA.coreUnits;
+  let targetUnit = null;
+  let targetLesson = null;
+  let targetWord = null;
+
+  // 辅助判定：尚未打卡任何抗遗忘节点
+  const isUnlearned = (w) => !isWordLearned(userState.learned && userState.learned[w.id]);
+  // 辅助判定：尚未完成长期抗遗忘掌握节点
+  const isNotFullyMastered = (w) => {
+    const r = userState.learned && userState.learned[w.id];
+    return !(r && r.long && (r.long[5] || r.long[4] || r.long[3]));
+  };
+
+  // 3. 优先在当前单元和当前课程查找第一个未学习/未掌握的词
+  const curU = units.find(u => u.unit === userState.currentUnit);
+  const curL = curU && (curU.lessons || []).find(l => l.lesson === userState.currentLesson);
+  if (curL && curL.words) {
+    const foundInCurrent = curL.words.find(isUnlearned);
+    if (foundInCurrent) {
+      targetUnit = curU.unit;
+      targetLesson = curL.lesson;
+      targetWord = foundInCurrent;
+    }
+  }
+
+  // 4. 若当前课已全部打卡，则按顺序从当前单元往后、再从 Unit 1 扫描全书第一个未打卡词
+  if (!targetWord) {
+    const orderedUnits = [
+      ...units.filter(u => u.unit >= userState.currentUnit),
+      ...units.filter(u => u.unit < userState.currentUnit)
+    ];
+    for (const u of orderedUnits) {
+      for (const l of (u.lessons || [])) {
+        const w = (l.words || []).find(isUnlearned);
+        if (w) {
+          targetUnit = u.unit;
+          targetLesson = l.lesson;
+          targetWord = w;
+          break;
+        }
+      }
+      if (targetWord) break;
+    }
+  }
+
+  // 5. 若全书所有词都已初学打卡，则定位到第一个尚未完成长期抗遗忘环的词
+  if (!targetWord) {
+    for (const u of units) {
+      for (const l of (u.lessons || [])) {
+        const w = (l.words || []).find(isNotFullyMastered);
+        if (w) {
+          targetUnit = u.unit;
+          targetLesson = l.lesson;
+          targetWord = w;
+          break;
+        }
+      }
+      if (targetWord) break;
+    }
+  }
+
+  if (!targetWord) {
+    showQuickLocateToast("🎉 太棒了！全书核心词汇均已完成抗遗忘掌握闭环！");
+    return;
+  }
+
+  // 6. 切换至对应单元与课程并渲染
+  if (userState.currentUnit !== targetUnit || userState.currentLesson !== targetLesson) {
+    userState.currentUnit = targetUnit;
+    userState.currentLesson = targetLesson;
+    needReRender = true;
+  }
+
+  if (needReRender || !document.getElementById(`card_${targetWord.id}`)) {
+    renderVocabSection();
+    saveState();
+  }
+
+  // 7. 平滑滚动到目标单词卡片并触发呼吸高亮脉冲
+  setTimeout(() => {
+    const cardEl = document.getElementById(`card_${targetWord.id}`);
+    if (cardEl) {
+      document.querySelectorAll(".vocab-card.unmastered-target-highlight").forEach(el => {
+        el.classList.remove("unmastered-target-highlight");
+      });
+      cardEl.scrollIntoView({ behavior: "smooth", block: "center" });
+      cardEl.classList.add("unmastered-target-highlight");
+      setTimeout(() => {
+        cardEl.classList.remove("unmastered-target-highlight");
+      }, 2500);
+    }
+    if (typeof playPixelSound === "function") playPixelSound("coin");
+    showQuickLocateToast(`🎯 已定位未掌握核心词：<span style="color:var(--tomato-red);">#${targetWord.num} ${targetWord.word}</span> (Unit ${targetUnit} · Lesson ${targetLesson})`);
+  }, 60);
+}
+
+if (typeof window !== "undefined") {
+  window.jumpToFirstUnmasteredWord = jumpToFirstUnmasteredWord;
+}

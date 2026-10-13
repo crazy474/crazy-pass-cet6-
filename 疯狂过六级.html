@@ -6110,26 +6110,26 @@ body.dark-mode .back-to-top-btn {
 
 
 /* =========================================================================
-   34. 顶栏右上角交互区重构 (4大流线型集成舱 · 告别拥挤 · 呼吸感美学)
+   34. 顶栏右上角紧凑舒适排布 & 一键定位未掌握核心词样式
    ========================================================================= */
 
 .header-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 28px;
-  max-width: 1480px;
+  padding: 10px 20px;
+  max-width: 1360px;
   margin: 0 auto;
-  gap: 20px;
+  gap: 12px;
 }
 
 .brand-section {
   flex-shrink: 0;
-  gap: 12px;
+  gap: 10px;
 }
 
 .brand-info h1 {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 800;
   display: flex;
   align-items: center;
@@ -6143,11 +6143,12 @@ body.dark-mode .back-to-top-btn {
   white-space: nowrap;
 }
 
+/* 右上角操作区：紧凑自然排列，不松散、不拥挤 */
 .header-actions {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 6px;
   flex-wrap: wrap;
 }
 
@@ -6155,27 +6156,26 @@ body.dark-mode .back-to-top-btn {
 .header-actions .search-box-pill {
   display: inline-flex;
   align-items: center;
-  height: 38px;
+  height: 36px;
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
-  border-radius: 999px;
-  padding: 0 12px;
-  gap: 7px;
-  width: 195px;
+  border-radius: var(--radius-md);
+  padding: 0 10px;
+  gap: 6px;
+  width: 176px;
   cursor: pointer;
   box-shadow: var(--shadow-sm);
-  transition: all 0.22s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.2s ease;
 }
 
 .header-actions .search-box-pill:hover {
   border-color: var(--tomato-coral);
   background: var(--bg-hover);
-  width: 215px;
-  box-shadow: 0 4px 12px rgba(217, 72, 52, 0.1);
+  width: 192px;
 }
 
 .search-box-icon {
-  font-size: 13px;
+  font-size: 12.5px;
   opacity: 0.75;
   flex-shrink: 0;
 }
@@ -6194,32 +6194,32 @@ body.dark-mode .back-to-top-btn {
 .header-actions .search-box-pill kbd {
   background: var(--bg-subtle);
   border: 1px solid var(--border-color);
-  border-radius: 6px;
-  padding: 1px 6px;
+  border-radius: 5px;
+  padding: 1px 5px;
   font-size: 10.5px;
   font-weight: 700;
   color: var(--text-muted);
   flex-shrink: 0;
 }
 
-/* 2. 竞技与备考状态联舱 (30秒词霸战 + 考期与连胜) */
+/* 2. 竞技与考期连胜组 (自然紧凑贴合) */
 .header-status-capsule {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .header-actions .blitz-hero-icon-btn {
-  height: 38px;
-  padding: 0 13px 0 7px;
-  gap: 8px;
-  border-radius: 999px;
-  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.16);
+  height: 36px;
+  padding: 0 11px 0 6px;
+  gap: 6px;
+  border-radius: var(--radius-md);
+  box-shadow: 0 2px 6px rgba(245, 158, 11, 0.15);
 }
 
 .header-actions .blitz-btn-icon-wrap {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
 }
 
 .header-actions .blitz-btn-title {
@@ -6236,12 +6236,12 @@ body.dark-mode .back-to-top-btn {
 .header-metrics-pill {
   display: inline-flex;
   align-items: center;
-  height: 38px;
+  height: 36px;
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
-  border-radius: 999px;
-  padding: 0 12px;
-  gap: 9px;
+  border-radius: var(--radius-md);
+  padding: 0 10px;
+  gap: 7px;
   box-shadow: var(--shadow-sm);
   white-space: nowrap;
 }
@@ -6255,11 +6255,11 @@ body.dark-mode .back-to-top-btn {
   color: var(--harvest-gold);
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 3px;
 }
 
 .header-metrics-pill .exam-countdown-pill strong {
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 900;
   color: var(--tomato-red);
   margin: 0 1px;
@@ -6268,14 +6268,14 @@ body.dark-mode .back-to-top-btn {
 .exam-hms-sub {
   font-size: 11px;
   font-family: Consolas, Monaco, monospace;
-  opacity: 0.78;
+  opacity: 0.8;
   background: var(--harvest-soft);
-  padding: 1px 5px;
+  padding: 1px 4px;
   border-radius: 4px;
   margin-left: 2px;
 }
 
-@media (max-width: 1420px) {
+@media (max-width: 1400px) {
   .exam-hms-sub {
     display: none;
   }
@@ -6284,28 +6284,28 @@ body.dark-mode .back-to-top-btn {
 .header-metrics-pill .header-streak-pill {
   background: transparent;
   border: none;
-  padding: 3px 6px;
-  margin: -3px -4px;
-  border-radius: 999px;
+  padding: 2px 5px;
+  margin: -2px -3px;
+  border-radius: 8px;
   font-size: 12.5px;
   font-weight: 700;
   color: var(--text-main);
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
   cursor: pointer;
-  transition: background 0.18s ease, transform 0.18s ease;
+  transition: background 0.15s ease;
 }
 
 .header-metrics-pill .header-streak-pill:hover {
   background: var(--tomato-soft);
-  transform: translateY(-1px);
+  transform: none;
   box-shadow: none;
 }
 
 .dock-divider {
   width: 1px;
-  height: 16px;
+  height: 15px;
   background: var(--border-color);
   flex-shrink: 0;
 }
@@ -6313,19 +6313,18 @@ body.dark-mode .back-to-top-btn {
 .dock-sub-divider {
   color: var(--border-color);
   font-size: 11px;
-  margin: 0 1px;
 }
 
-/* 3. 伴学控制中心集成坞 */
+/* 3. 伴学控制坞 (紧凑一体化，消除冗余间距) */
 .header-control-dock {
   display: inline-flex;
   align-items: center;
-  height: 38px;
+  height: 36px;
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
-  border-radius: 999px;
-  padding: 0 8px;
-  gap: 6px;
+  border-radius: var(--radius-md);
+  padding: 0 6px;
+  gap: 4px;
   box-shadow: var(--shadow-sm);
   white-space: nowrap;
 }
@@ -6335,13 +6334,13 @@ body.dark-mode .back-to-top-btn {
   border: none;
   box-shadow: none;
   padding: 0;
-  gap: 2px;
+  gap: 1px;
 }
 
 .header-control-dock .audio-pref-btn {
-  padding: 4px 7px;
+  padding: 4px 6px;
   font-size: 12px;
-  border-radius: 999px;
+  border-radius: 6px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -6366,9 +6365,9 @@ body.dark-mode .back-to-top-btn {
   background: var(--bg-subtle);
   border: 1px solid transparent;
   color: var(--text-main);
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
   font-size: 11.5px;
   font-weight: 800;
   cursor: pointer;
@@ -6388,9 +6387,9 @@ body.dark-mode .back-to-top-btn {
   position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 3px;
-  padding: 4px 7px;
-  border-radius: 8px;
+  gap: 2px;
+  padding: 3px 5px;
+  border-radius: 6px;
   font-size: 12px;
   font-weight: 700;
   color: var(--text-main);
@@ -6416,9 +6415,9 @@ body.dark-mode .back-to-top-btn {
   transform: translateX(-50%) translateY(6px);
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
-  border-radius: 14px;
+  border-radius: 12px;
   padding: 8px;
-  min-width: 136px;
+  min-width: 132px;
   box-shadow: var(--shadow-lg);
   display: flex;
   flex-direction: column;
@@ -6460,23 +6459,23 @@ body.dark-mode .back-to-top-btn {
 .font-presets-popover .font-btn {
   width: 100%;
   justify-content: center;
-  padding: 6px 10px;
+  padding: 5px 10px;
   font-size: 12.5px;
-  border-radius: 8px;
+  border-radius: 7px;
 }
 
 .dock-action-btn {
   background: transparent;
   border: none;
   color: var(--text-main);
-  padding: 5px 9px;
-  border-radius: 999px;
+  padding: 4px 7px;
+  border-radius: 6px;
   font-size: 12px;
   font-weight: 700;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 3px;
   transition: all 0.15s ease;
 }
 
@@ -6487,17 +6486,17 @@ body.dark-mode .back-to-top-btn {
 
 /* 4. 番茄Q酱伴学宠物一体舱 */
 .header-actions .pixel-tomato-widget {
-  height: 40px;
-  padding: 3px 12px 3px 5px;
-  gap: 8px;
-  border-radius: 999px;
+  height: 36px;
+  padding: 2px 10px 2px 4px;
+  gap: 7px;
+  border-radius: var(--radius-md);
   background: linear-gradient(135deg, var(--bg-surface) 0%, var(--tomato-soft) 160%);
   border: 1px solid var(--border-color);
 }
 
 .header-actions .pixel-tomato-avatar {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   background: var(--bg-subtle);
   display: flex;
@@ -6506,14 +6505,19 @@ body.dark-mode .back-to-top-btn {
   transition: transform 0.2s ease;
 }
 
+.header-actions .pixel-tomato-avatar .pixel-tomato-svg {
+  width: 26px;
+  height: 26px;
+}
+
 .header-actions .pixel-tomato-avatar:hover {
-  transform: scale(1.12) rotate(-5deg);
+  transform: scale(1.1) rotate(-5deg);
 }
 
 .header-actions .pixel-tomato-name {
   font-size: 12px;
   font-weight: 800;
-  gap: 5px;
+  gap: 4px;
   white-space: nowrap;
 }
 
@@ -6525,8 +6529,8 @@ body.dark-mode .back-to-top-btn {
   font-weight: 800;
   color: var(--tomato-dark);
   background: var(--tomato-soft);
-  padding: 0 6px;
-  border-radius: 999px;
+  padding: 0 5px;
+  border-radius: 6px;
   border: 1px solid rgba(217, 72, 52, 0.2);
 }
 
@@ -6537,13 +6541,13 @@ body.dark-mode .tomato-mini-badge {
 .pet-xp-row {
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin-top: 2px;
+  gap: 5px;
+  margin-top: 1px;
 }
 
 .header-actions .pet-xp-bar-wrap {
-  width: 72px;
-  height: 5px;
+  width: 68px;
+  height: 4px;
   background: rgba(0, 0, 0, 0.08);
   border-radius: 999px;
   overflow: hidden;
@@ -6566,25 +6570,122 @@ body.dark-mode .header-actions .pet-xp-bar-wrap {
   color: var(--text-muted);
 }
 
-/* 响应式优雅降级与移动端自适应排布 */
-@media (max-width: 1200px) {
-  .header-top {
-    padding: 10px 18px;
-    gap: 12px;
+/* =========================================================================
+   35. 一键回到未掌握核心词位置按钮 & 目标卡片高亮脉冲
+   ========================================================================= */
+
+/* 词库工具栏内的“🎯 定位未掌握词”高亮芯片按钮 */
+.toggle-chip.jump-unmastered-chip {
+  background: linear-gradient(135deg, var(--tomato-soft) 0%, var(--harvest-soft) 100%);
+  color: var(--tomato-dark);
+  border-color: rgba(217, 72, 52, 0.35);
+  font-weight: 800;
+  box-shadow: 0 2px 8px rgba(217, 72, 52, 0.12);
+}
+
+body.dark-mode .toggle-chip.jump-unmastered-chip {
+  background: linear-gradient(135deg, rgba(255, 102, 80, 0.18) 0%, rgba(229, 163, 56, 0.15) 100%);
+  color: var(--tomato-coral);
+  border-color: rgba(255, 102, 80, 0.4);
+}
+
+.toggle-chip.jump-unmastered-chip:hover {
+  background: var(--tomato-red);
+  color: #FFFFFF;
+  border-color: var(--tomato-red);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(217, 72, 52, 0.28);
+}
+
+/* 右下角常驻“🎯 未掌握”悬浮直达按钮 (位于“顶部”按钮正上方) */
+.jump-unmastered-float-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 144px;
+  z-index: 998;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #FFFFFF 0%, var(--tomato-soft) 100%);
+  border: 1.5px solid rgba(217, 72, 52, 0.38);
+  color: var(--tomato-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(217, 72, 52, 0.18);
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  user-select: none;
+}
+
+body.dark-mode .jump-unmastered-float-btn {
+  background: linear-gradient(135deg, #252B34 0%, #35211E 100%);
+  border-color: rgba(255, 102, 80, 0.45);
+  color: var(--tomato-coral);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+.jump-unmastered-float-btn:hover {
+  background: var(--tomato-red);
+  border-color: var(--tomato-red);
+  color: #FFFFFF;
+  transform: translateY(-3px) scale(1.07);
+  box-shadow: 0 10px 26px rgba(217, 72, 52, 0.36);
+}
+
+.jump-unmastered-float-btn:active {
+  transform: scale(0.94);
+}
+
+.jump-unmastered-icon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.jump-unmastered-text {
+  font-size: 9.5px;
+  font-weight: 800;
+  line-height: 1;
+  margin-top: 2px;
+  letter-spacing: -0.3px;
+}
+
+/* 定位到目标未掌握单词卡片时的呼吸高亮框动画 */
+@keyframes unmasteredPulseGlow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(217, 72, 52, 0.55), var(--shadow-md);
+    border-color: var(--tomato-red);
+    transform: scale(1);
   }
-  .header-actions {
-    gap: 8px;
+  30% {
+    box-shadow: 0 0 0 8px rgba(217, 72, 52, 0.18), 0 12px 32px rgba(217, 72, 52, 0.22);
+    border-color: var(--tomato-red);
+    transform: scale(1.012);
   }
-  .header-actions .search-box-pill {
-    width: 165px;
+  70% {
+    box-shadow: 0 0 0 12px rgba(217, 72, 52, 0), 0 10px 28px rgba(217, 72, 52, 0.16);
+    border-color: var(--tomato-red);
+    transform: scale(1.005);
+  }
+  100% {
+    box-shadow: var(--shadow-sm);
+    border-color: var(--border-color);
+    transform: scale(1);
   }
 }
 
+.vocab-card.unmastered-target-highlight {
+  border: 2px solid var(--tomato-red) !important;
+  animation: unmasteredPulseGlow 2.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* 响应式适配 */
 @media (max-width: 900px) {
   .header-top {
     flex-direction: column;
     align-items: stretch;
-    gap: 10px;
+    gap: 8px;
   }
   .brand-section {
     justify-content: space-between;
@@ -6602,6 +6703,18 @@ body.dark-mode .header-actions .pet-xp-bar-wrap {
   }
   .header-actions > * {
     flex-shrink: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .jump-unmastered-float-btn {
+    right: 16px;
+    bottom: 126px;
+    width: 42px;
+    height: 42px;
+  }
+  .jump-unmastered-text {
+    font-size: 8.5px;
   }
 }
 
@@ -7008,6 +7121,7 @@ body.dark-mode .header-actions .pet-xp-bar-wrap {
           <button class="toggle-chip" onclick="batchCheckCurrentLesson(true)" title="一键将本课全部单词标记为初学已打卡">⚡ 整课初学一键打卡</button>
           <button class="toggle-chip" onclick="batchCheckCurrentLesson(false)" title="清空本课全部单词打卡标记" style="color:var(--tomato-red);">🔄 清空本课打卡</button>
           <button class="toggle-chip" id="btnFilterUnlearned" onclick="toggleUnlearnedFilter()">⏳ 只看未掌握</button>
+          <button class="toggle-chip jump-unmastered-chip" id="btnJumpUnmastered" onclick="jumpToFirstUnmasteredWord()" title="一键定位并滚动到第一个未掌握的核心词卡片位置">🎯 定位未掌握词</button>
         </div>
       </div>
 
@@ -7375,6 +7489,12 @@ body.dark-mode .header-actions .pet-xp-bar-wrap {
   </main>
 
   
+  <!-- 一键回到未掌握核心词悬浮按钮 -->
+  <button type="button" class="jump-unmastered-float-btn" id="jumpUnmasteredFloatBtn" onclick="jumpToFirstUnmasteredWord()" title="一键回到第一个未掌握的核心词位置">
+    <span class="jump-unmastered-icon">🎯</span>
+    <span class="jump-unmastered-text">未掌握</span>
+  </button>
+
   <!-- 一键到顶悬浮按钮 (Back to Top) -->
   <button type="button" class="back-to-top-btn" id="backToTopBtn" onclick="scrollToTop()" title="一键到顶 (点击平滑回到页面最顶端)">
     <svg class="back-to-top-svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -141006,6 +141126,158 @@ function updateBackToTopVisibility() {
 if (typeof window !== "undefined") {
   window.scrollToTop = scrollToTop;
   window.addEventListener("scroll", updateBackToTopVisibility, { passive: true });
+}
+
+
+// --- 一键定位并滚动到第一个未掌握的核心词位置 ---
+function showQuickLocateToast(msg) {
+  let toast = document.getElementById("quickLocateToast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "quickLocateToast";
+    toast.style.cssText = "position:fixed; top:82px; left:50%; transform:translateX(-50%) translateY(-12px); z-index:2200; background:var(--bg-surface); color:var(--text-main); border:1.5px solid var(--tomato-red); border-radius:999px; padding:8px 18px; font-size:13.5px; font-weight:800; box-shadow:0 8px 24px rgba(217,72,52,0.22); opacity:0; transition:all 0.22s ease; pointer-events:none; white-space:nowrap;";
+    document.body.appendChild(toast);
+  }
+  toast.innerHTML = msg;
+  requestAnimationFrame(() => {
+    toast.style.opacity = "1";
+    toast.style.transform = "translateX(-50%) translateY(0)";
+  });
+  clearTimeout(toast._hideTimer);
+  toast._hideTimer = setTimeout(() => {
+    toast.style.opacity = "0";
+    toast.style.transform = "translateX(-50%) translateY(-12px)";
+  }, 2800);
+}
+
+function jumpToFirstUnmasteredWord() {
+  if (!window.CET6_DATA || !window.CET6_DATA.coreUnits) return;
+
+  // 1. 若当前不在核心词库板块，自动切换过去
+  const vocabSection = document.getElementById("tab-vocab");
+  if (vocabSection && !vocabSection.classList.contains("active")) {
+    if (typeof switchTab === "function") {
+      switchTab("vocab");
+    }
+  }
+
+  // 2. 若开启了星标或到期筛选导致卡片可能被隐藏，自动重置筛选以便精准定位
+  let needReRender = false;
+  if (userState.filterStarred) {
+    userState.filterStarred = false;
+    const starBtn = document.getElementById("btnFilterStarred");
+    if (starBtn) starBtn.classList.remove("active");
+    needReRender = true;
+  }
+  if (userState.filterDue) {
+    userState.filterDue = false;
+    const dueBtn = document.getElementById("btnFilterDue");
+    if (dueBtn) dueBtn.classList.remove("active");
+    needReRender = true;
+  }
+  if (userState.searchQuery) {
+    userState.searchQuery = "";
+    needReRender = true;
+  }
+
+  const units = window.CET6_DATA.coreUnits;
+  let targetUnit = null;
+  let targetLesson = null;
+  let targetWord = null;
+
+  // 辅助判定：尚未打卡任何抗遗忘节点
+  const isUnlearned = (w) => !isWordLearned(userState.learned && userState.learned[w.id]);
+  // 辅助判定：尚未完成长期抗遗忘掌握节点
+  const isNotFullyMastered = (w) => {
+    const r = userState.learned && userState.learned[w.id];
+    return !(r && r.long && (r.long[5] || r.long[4] || r.long[3]));
+  };
+
+  // 3. 优先在当前单元和当前课程查找第一个未学习/未掌握的词
+  const curU = units.find(u => u.unit === userState.currentUnit);
+  const curL = curU && (curU.lessons || []).find(l => l.lesson === userState.currentLesson);
+  if (curL && curL.words) {
+    const foundInCurrent = curL.words.find(isUnlearned);
+    if (foundInCurrent) {
+      targetUnit = curU.unit;
+      targetLesson = curL.lesson;
+      targetWord = foundInCurrent;
+    }
+  }
+
+  // 4. 若当前课已全部打卡，则按顺序从当前单元往后、再从 Unit 1 扫描全书第一个未打卡词
+  if (!targetWord) {
+    const orderedUnits = [
+      ...units.filter(u => u.unit >= userState.currentUnit),
+      ...units.filter(u => u.unit < userState.currentUnit)
+    ];
+    for (const u of orderedUnits) {
+      for (const l of (u.lessons || [])) {
+        const w = (l.words || []).find(isUnlearned);
+        if (w) {
+          targetUnit = u.unit;
+          targetLesson = l.lesson;
+          targetWord = w;
+          break;
+        }
+      }
+      if (targetWord) break;
+    }
+  }
+
+  // 5. 若全书所有词都已初学打卡，则定位到第一个尚未完成长期抗遗忘环的词
+  if (!targetWord) {
+    for (const u of units) {
+      for (const l of (u.lessons || [])) {
+        const w = (l.words || []).find(isNotFullyMastered);
+        if (w) {
+          targetUnit = u.unit;
+          targetLesson = l.lesson;
+          targetWord = w;
+          break;
+        }
+      }
+      if (targetWord) break;
+    }
+  }
+
+  if (!targetWord) {
+    showQuickLocateToast("🎉 太棒了！全书核心词汇均已完成抗遗忘掌握闭环！");
+    return;
+  }
+
+  // 6. 切换至对应单元与课程并渲染
+  if (userState.currentUnit !== targetUnit || userState.currentLesson !== targetLesson) {
+    userState.currentUnit = targetUnit;
+    userState.currentLesson = targetLesson;
+    needReRender = true;
+  }
+
+  if (needReRender || !document.getElementById(`card_${targetWord.id}`)) {
+    renderVocabSection();
+    saveState();
+  }
+
+  // 7. 平滑滚动到目标单词卡片并触发呼吸高亮脉冲
+  setTimeout(() => {
+    const cardEl = document.getElementById(`card_${targetWord.id}`);
+    if (cardEl) {
+      document.querySelectorAll(".vocab-card.unmastered-target-highlight").forEach(el => {
+        el.classList.remove("unmastered-target-highlight");
+      });
+      cardEl.scrollIntoView({ behavior: "smooth", block: "center" });
+      cardEl.classList.add("unmastered-target-highlight");
+      setTimeout(() => {
+        cardEl.classList.remove("unmastered-target-highlight");
+      }, 2500);
+    }
+    if (typeof playPixelSound === "function") playPixelSound("coin");
+    showQuickLocateToast(`🎯 已定位未掌握核心词：<span style="color:var(--tomato-red);">#${targetWord.num} ${targetWord.word}</span> (Unit ${targetUnit} · Lesson ${targetLesson})`);
+  }, 60);
+}
+
+if (typeof window !== "undefined") {
+  window.jumpToFirstUnmasteredWord = jumpToFirstUnmasteredWord;
 }
 
 </script>
