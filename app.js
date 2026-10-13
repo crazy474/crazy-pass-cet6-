@@ -106,6 +106,10 @@ function loadState() {
       userState = { ...userState, ...parsed };
       if (parsed.pomo) userState.pomo = { ...userState.pomo, ...parsed.pomo, isRunning: false };
       if (parsed.speedFlash) userState.speedFlash = { ...userState.speedFlash, ...parsed.speedFlash, isPlaying: false };
+      // 历史快照最多存放 3 份
+      if (userState.midnightSnapshots && userState.midnightSnapshots.length > 3) {
+        userState.midnightSnapshots = userState.midnightSnapshots.slice(0, 3);
+      }
     }
   } catch (e) {
     console.error("加载存档失败", e);
@@ -1858,10 +1862,10 @@ function performMidnightBackup(isCatchUp = false) {
   };
 
   if (!userState.midnightSnapshots) userState.midnightSnapshots = [];
-  // 保持最多保留 30 个每日快照
+  // 历史快照最多存放 3 份 (先进先出滚动覆盖)
   userState.midnightSnapshots.unshift(snapshot);
-  if (userState.midnightSnapshots.length > 30) {
-    userState.midnightSnapshots = userState.midnightSnapshots.slice(0, 30);
+  if (userState.midnightSnapshots.length > 3) {
+    userState.midnightSnapshots = userState.midnightSnapshots.slice(0, 3);
   }
 
   userState.lastMidnightBackup = formatted;
@@ -1922,6 +1926,10 @@ function renderMidnightSnapshotList() {
   const container = document.getElementById("midnightSnapshotList");
   if (!container) return;
 
+  if (userState.midnightSnapshots && userState.midnightSnapshots.length > 3) {
+    userState.midnightSnapshots = userState.midnightSnapshots.slice(0, 3);
+    saveState();
+  }
   const snapshots = userState.midnightSnapshots || [];
   if (snapshots.length === 0) {
     container.innerHTML = `<p style="font-size:14px; color:var(--text-muted); text-align:center; padding:20px;">历史池当前为空，系统将在今夜 00:00:00 自动生成第一份凌晨快照...</p>`;
@@ -1997,6 +2005,9 @@ function deleteMidnightSnapshot(snapId) {
     registerUndoAction(`已删除快照 [${backupSnap.timestampStr}]`, () => {
       userState.midnightSnapshots.unshift(backupSnap);
       userState.midnightSnapshots.sort((a, b) => b.id - a.id);
+      if (userState.midnightSnapshots.length > 3) {
+        userState.midnightSnapshots = userState.midnightSnapshots.slice(0, 3);
+      }
       saveState();
       renderMidnightSnapshotList();
     }, 8000);
