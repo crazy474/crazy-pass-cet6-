@@ -246,6 +246,14 @@ function setAmbientSound(type) {
 let activeSpeechUtterance = null;
 let speechWatchdogTimer = null;
 let cachedBestVoices = { us: null, uk: null };
+let fallbackAudioPlayer = null;
+let currentSpeechRequestId = 0;
+
+if (typeof window !== "undefined") {
+  if (!window.__activeSpeechUtterances) {
+    window.__activeSpeechUtterances = new Set();
+  }
+}
 
 // 音频设置偏好
 if (!userState.audioPref) {
@@ -322,9 +330,15 @@ if (typeof window !== "undefined" && "speechSynthesis" in window) {
   cacheBestVoices();
 }
 
-// 停止所有发音与动画
+// 停止所有发音与动画 (同时中止 Web Speech 与 兜底 Audio)
 function stopAllSpeech() {
-  if ("speechSynthesis" in window) {
+  if (fallbackAudioPlayer) {
+    try {
+      fallbackAudioPlayer.pause();
+      fallbackAudioPlayer.currentTime = 0;
+    } catch (e) {}
+  }
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
     try {
       window.speechSynthesis.cancel();
     } catch (e) {}
@@ -338,73 +352,181 @@ function stopAllSpeech() {
   });
 }
 
-// 【单轨极速发音核心函数】(零网络请求、零等待、毫秒级响应、连贯清晰)
-function speakWord(text, btnElement) {
-  if (!text || !("speechSynthesis" in window)) return;
-
-  // 1. 瞬时打断前一个发音，实现指哪打哪的极速切歌体验
+// 高保真真人母语音频兜底播放器 (针对部分手机/WebKit/无声设备实现首击 100% 必响)
+function playFallbackAudio(text, accent, onEndCallback) {
   try {
-    window.speechSynthesis.cancel();
-  } catch (e) {}
+    if (!fallbackAudioPlayer) {
+      fallbackAudioPlayer = new Audio();
+    }
+    fallbackAudioPlayer.pause();
+    fallbackAudioPlayer.currentTime = 0;
 
+    // type=1 为英音, type=2 为美音
+    const voiceType = accent === "uk" ? 1 : 2;
+    const cleanWord = encodeURIComponent(text);
+    fallbackAudioPlayer.src = "https://dict.youdao.com/dictvoice?audio=" + cleanWord + "&type=" + voiceType;
+
+    fallbackAudioPlayer.onended = () => {
+      if (typeof onEndCallback === "function") onEndCallback();
+    };
+    fallbackAudioPlayer.onerror = () => {
+      if (typeof onEndCallback === "function") onEndCallback();
+    };
+
+    const p = fallbackAudioPlayer.play();
+    if (p !== undefined) {
+      p.catch(err => {
+        console.warn("Fallback audio play catch:", err);
+        if (typeof onEndCallback === "function") onEndCallback();
+      });
+    }
+  } catch (e) {
+    console.warn("playFallbackAudio exception:", e);
+    if (typeof onEndCallback === "function") onEndCallback();
+  }
+}
+
+// 【单轨极速发音核心函数】(彻底解决“有时需要点击两次”问题，首击必响、零延迟切歌、超清发音)
+function speakWord(text, btnElement) {
+  if (!text) return;
+  const requestId = ++currentSpeechRequestId;
+
+  // 1. 文本净化：剥除所有词性、标点与杂音
+  const clean = cleanTextForSpeech(text);
+  if (!clean) return;
+
+  // 2. 清理之前的看门狗与兜底音频
   if (speechWatchdogTimer) {
     clearInterval(speechWatchdogTimer);
     speechWatchdogTimer = null;
   }
+  if (fallbackAudioPlayer) {
+    try {
+      fallbackAudioPlayer.pause();
+      fallbackAudioPlayer.currentTime = 0;
+    } catch (e) {}
+  }
 
-  // 2. 文本净化：剥除所有词性、标点与杂音
-  const clean = cleanTextForSpeech(text);
-  if (!clean) return;
-
-  // 3. 视觉声波高亮激活
-  let activeBtn = btnElement || (typeof window !== "undefined" && window.event && window.event.currentTarget);
+  // 3. 视觉声波高亮激活 (优先直接定位传入的按钮对象，兼容事件冒泡)
+  let activeBtn = btnElement || (typeof window !== "undefined" && window.event && (window.event.currentTarget || window.event.target));
+  if (activeBtn && activeBtn.closest) {
+    activeBtn = activeBtn.closest("button, .audio-speak-btn, .mindmap-word-pill") || activeBtn;
+  }
   if (activeBtn && activeBtn.classList) {
     document.querySelectorAll(".audio-speaking-active").forEach(el => el.classList.remove("audio-speaking-active"));
     activeBtn.classList.add("audio-speaking-active");
   }
 
   const cleanupVisual = () => {
-    if (activeBtn && activeBtn.classList) {
-      activeBtn.classList.remove("audio-speaking-active");
+    if (requestId === currentSpeechRequestId) {
+      if (activeBtn && activeBtn.classList) {
+        activeBtn.classList.remove("audio-speaking-active");
+      }
     }
   };
 
-  // 4. 构建发音实例，直读本地预热音色 (0ms 延迟)
   const accent = (userState.audioPref && userState.audioPref.accent) || "us";
   const rate = (userState.audioPref && userState.audioPref.rate) || 1.0;
 
+  // 4. 检查浏览器是否支持 Web Speech API
+  const hasSpeechSynth = typeof window !== "undefined" && ("speechSynthesis" in window) && window.speechSynthesis;
+  if (!hasSpeechSynth) {
+    playFallbackAudio(clean, accent, cleanupVisual);
+    return;
+  }
+
+  // 5. 【核心修复：彻底根治“需要点击两次”的浏览器底层竞争态 Bug】
+  // 原因：如果在未发音时无脑调用 cancel()，Chromium 与 WebKit 的底层异步 IPC 会直接将随后排队的 speak() 误判取消 (canceled)！
+  // 必须只在当前切实处于发声 (speaking) 或正在排队 (pending) 状态时，才执行切歌打断！
+  if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
+    try {
+      window.speechSynthesis.cancel();
+    } catch (e) {}
+  }
+
+  // 【核心修复：清除 Chrome 唤醒/切后台导致的 paused 僵尸挂起状态】
+  // 如果处于 paused 状态，speak() 只会无声排队，必须显式调用 resume() 唤醒！
+  if (window.speechSynthesis.paused) {
+    try {
+      window.speechSynthesis.resume();
+    } catch (e) {}
+  }
+
+  // 6. 构建发音实例并赋予最优音色
   const utter = new SpeechSynthesisUtterance(clean);
   utter.rate = rate;
   utter.pitch = 1.0;
   utter.lang = accent === "uk" ? "en-GB" : "en-US";
 
-  // 查表取出预热好的最佳母语音色
   if (!cachedBestVoices[accent]) cacheBestVoices();
   const voice = cachedBestVoices[accent];
   if (voice) utter.voice = voice;
 
+  let hasStarted = false;
   let isEnded = false;
-  utter.onend = () => {
-    if (!isEnded) {
-      isEnded = true;
-      if (speechWatchdogTimer) clearInterval(speechWatchdogTimer);
-      cleanupVisual();
-    }
-  };
 
-  utter.onerror = () => {
-    if (!isEnded) {
-      isEnded = true;
-      if (speechWatchdogTimer) clearInterval(speechWatchdogTimer);
-      cleanupVisual();
-    }
-  };
-
-  // 5. 保持活跃引用并立即触发本地发音 (完全不需要走任何网络，瞬间发声)
+  // 【核心修复：强引用 Set 绑定，杜绝 V8 垃圾回收提前销毁 utterance 导致哑音】
+  if (window.__activeSpeechUtterances) {
+    window.__activeSpeechUtterances.add(utter);
+  }
   activeSpeechUtterance = utter;
-  window.speechSynthesis.speak(utter);
 
-  // 6. 兜底看门狗（应对极长真题例句，防止 Chrome 引擎后台挂起）
+  const finishUtterance = () => {
+    if (!isEnded) {
+      isEnded = true;
+      if (window.__activeSpeechUtterances) {
+        window.__activeSpeechUtterances.delete(utter);
+      }
+      if (speechWatchdogTimer) {
+        clearInterval(speechWatchdogTimer);
+        speechWatchdogTimer = null;
+      }
+      cleanupVisual();
+    }
+  };
+
+  utter.onstart = () => {
+    hasStarted = true;
+  };
+
+  utter.onend = () => {
+    finishUtterance();
+  };
+
+  utter.onerror = (event) => {
+    // 【核心自愈机制：若因极端内核竞态在启动前被 canceled/interrupted，立即无缝转接兜底高清音频】
+    if (!hasStarted && requestId === currentSpeechRequestId && event && (event.error === "canceled" || event.error === "interrupted" || event.error === "network" || event.error === "audio-busy")) {
+      playFallbackAudio(clean, accent, cleanupVisual);
+      finishUtterance();
+      return;
+    }
+    finishUtterance();
+  };
+
+  // 7. 发送播放指令 (在用户手势事件中同步触发)
+  try {
+    window.speechSynthesis.speak(utter);
+  } catch (errSpeak) {
+    playFallbackAudio(clean, accent, cleanupVisual);
+    finishUtterance();
+    return;
+  }
+
+  // 8. 【350ms 首击发音安全哨兵】：
+  // 针对某些移动端浏览器静默吞音的异常情况，如果 350ms 内既未启动也未发声，立即自动补救
+  setTimeout(() => {
+    if (!hasStarted && !isEnded && requestId === currentSpeechRequestId) {
+      if (window.speechSynthesis.paused) {
+        try { window.speechSynthesis.resume(); } catch (e) {}
+      }
+      if (!window.speechSynthesis.speaking) {
+        playFallbackAudio(clean, accent, cleanupVisual);
+        finishUtterance();
+      }
+    }
+  }, 350);
+
+  // 9. 兜底看门狗（应对长真题例句，防止 Chrome 引擎后台挂起）
   speechWatchdogTimer = setInterval(() => {
     if (!window.speechSynthesis.speaking) {
       clearInterval(speechWatchdogTimer);
@@ -416,7 +538,6 @@ function speakWord(text, btnElement) {
   }, 10000);
 }
 
-// 切换发音口音偏好 (美音 / 英音)
 function toggleAudioAccent() {
   if (!userState.audioPref) userState.audioPref = { accent: "us", rate: 1.0 };
   userState.audioPref.accent = userState.audioPref.accent === "us" ? "uk" : "us";
@@ -955,7 +1076,7 @@ function renderVocabSection() {
             <span class="vocab-phonetic">${w.phonetic || ""}</span>
             <span class="vocab-pos-badge">${w.pos || ""}</span>
             ${getWordDueStage(w.id) ? `<span class="due-tag-badge">⏰ 到期建议复习: ${getWordDueStage(w.id)}</span>` : ""}
-            <button class="audio-speak-btn" onclick="speakWord('${w.word}')" title="发音朗读">🔊 朗读</button>
+            <button class="audio-speak-btn" onclick="speakWord('${w.word}', this)" title="发音朗读">🔊 朗读</button>
           </div>
           <button class="star-btn ${record.star ? "starred" : ""}" onclick="toggleStar('${w.id}')" title="加入生词本">★</button>
         </div>
@@ -985,7 +1106,7 @@ function renderVocabSection() {
                 <span class="derivation-phonetic">${d.phonetic || ""}</span>
                 <span class="vocab-pos-badge">${d.pos || ""}</span>
                 <span class="derivation-meaning" title="悬停透视">${d.meaning}</span>
-                <button class="audio-speak-btn" onclick="speakWord('${d.word}')" style="padding:2px 6px; font-size:12px;">🔊</button>
+                <button class="audio-speak-btn" onclick="speakWord('${d.word}', this)" style="padding:2px 6px; font-size:12px;">🔊</button>
               </div>
             `).join("")}
           </div>
@@ -1532,7 +1653,7 @@ function renderFlashDenseList() {
       <div class="flash-dense-card">
         <div style="display:flex; justify-content:space-between; align-items:center;">
           <strong style="font-size:18px; color:var(--text-main); font-family:serif;">${w.word}</strong>
-          <button type="button" class="audio-speak-btn" onclick="speakWord('${w.word}')" style="padding:2px 8px; font-size:12px;">🔊</button>
+          <button type="button" class="audio-speak-btn" onclick="speakWord('${w.word}', this)" style="padding:2px 8px; font-size:12px;">🔊</button>
         </div>
         <div class="flash-dense-meaning ${denseListMeaningsHidden ? 'hidden-mask' : ''}" style="margin-top:6px; font-size:13.5px; color:var(--text-body);">
           ${w.meaning}
