@@ -220,7 +220,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l1_09",
-              "num": "60",
+              "num": "09",
               "word": "outstanding",
               "phonetic": "/aʊtˈstændɪŋ/",
               "pos": "adj.",
@@ -742,7 +742,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l2_09",
-              "num": "60",
+              "num": "09",
               "word": "predecessor",
               "phonetic": "/ˈpredəsesər/",
               "pos": "n.",
@@ -1630,7 +1630,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l3_09",
-              "num": "60",
+              "num": "09",
               "word": "alert",
               "phonetic": "/əˈlɜːrt/",
               "pos": "n.",
@@ -2306,7 +2306,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u1_l4_01",
-              "num": "44",
+              "num": "01",
               "word": "embarrass",
               "phonetic": "/ɪmˈbærəs/",
               "pos": "v.",
@@ -2328,7 +2328,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_02",
-              "num": "45",
+              "num": "02",
               "word": "awkward",
               "phonetic": "/ˈɔːkwərd/",
               "pos": "adj.",
@@ -2343,7 +2343,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_03",
-              "num": "46",
+              "num": "03",
               "word": "barren",
               "phonetic": "/ˈbærən/",
               "pos": "adj.",
@@ -2358,7 +2358,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_04",
-              "num": "47",
+              "num": "04",
               "word": "bargain",
               "phonetic": "/ˈbɑːrɡən/",
               "pos": "n.",
@@ -2373,7 +2373,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_05",
-              "num": "48",
+              "num": "05",
               "word": "bare",
               "phonetic": "/beə(r)/",
               "pos": "v.",
@@ -2395,7 +2395,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_06",
-              "num": "49",
+              "num": "06",
               "word": "bald",
               "phonetic": "/bɔːld/",
               "pos": "adj.",
@@ -2410,7 +2410,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_07",
-              "num": "50",
+              "num": "07",
               "word": "bold",
               "phonetic": "/boʊld/",
               "pos": "adj.",
@@ -2425,7 +2425,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_08",
-              "num": "51",
+              "num": "08",
               "word": "cricket",
               "phonetic": "/ˈkrɪkɪt/",
               "pos": "n.",
@@ -2440,7 +2440,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_09",
-              "num": "01",
+              "num": "09",
               "word": "emerge",
               "phonetic": "/ɪˈmɜːrdʒ/",
               "pos": "v.",
@@ -2462,7 +2462,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_10",
-              "num": "02",
+              "num": "10",
               "word": "emergency",
               "phonetic": "/ɪˈmɜːrdʒənsi/",
               "pos": "n.",
@@ -2477,7 +2477,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_11",
-              "num": "03",
+              "num": "11",
               "word": "urgent",
               "phonetic": "/ˈɜːrdʒənt/",
               "pos": "adj.",
@@ -2499,7 +2499,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_12",
-              "num": "04",
+              "num": "12",
               "word": "haste",
               "phonetic": "/heɪst/",
               "pos": "n.",
@@ -2521,7 +2521,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_13",
-              "num": "05",
+              "num": "13",
               "word": "hasty",
               "phonetic": "/ˈheɪsti/",
               "pos": "adj.",
@@ -2536,7 +2536,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_14",
-              "num": "06",
+              "num": "14",
               "word": "submerge",
               "phonetic": "/səbˈmɜːrdʒ/",
               "pos": "v.",
@@ -2551,7 +2551,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_15",
-              "num": "07",
+              "num": "15",
               "word": "submarine",
               "phonetic": "/ˌsʌbməˈriːn/",
               "pos": "",
@@ -2566,7 +2566,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_16",
-              "num": "08",
+              "num": "16",
               "word": "marine",
               "phonetic": "/məˈriːn/",
               "pos": "adj.",
@@ -2581,7 +2581,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_17",
-              "num": "09",
+              "num": "17",
               "word": "swamp",
               "phonetic": "/swɑːmp/",
               "pos": "v.",
@@ -2596,7 +2596,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_18",
-              "num": "10",
+              "num": "18",
               "word": "overwhelm",
               "phonetic": "/ˌoʊvərˈwelm/",
               "pos": "v.",
@@ -2624,7 +2624,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_19",
-              "num": "11",
+              "num": "19",
               "word": "reel",
               "phonetic": "/riːl/",
               "pos": "n.",
@@ -2639,7 +2639,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_20",
-              "num": "12",
+              "num": "20",
               "word": "adore",
               "phonetic": "/əˈdɔːr/",
               "pos": "v.",
@@ -2661,7 +2661,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_21",
-              "num": "13",
+              "num": "21",
               "word": "admire",
               "phonetic": "/ədˈmaɪər/",
               "pos": "v.",
@@ -2683,7 +2683,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_22",
-              "num": "14",
+              "num": "22",
               "word": "eradicate",
               "phonetic": "/ɪˈrædɪkeɪt/",
               "pos": "v.",
@@ -2705,7 +2705,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_23",
-              "num": "15",
+              "num": "23",
               "word": "refrain",
               "phonetic": "/rɪˈfreɪn/",
               "pos": "v.",
@@ -2720,7 +2720,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_24",
-              "num": "16",
+              "num": "24",
               "word": "regulate",
               "phonetic": "/ˈreɡjuleɪt/",
               "pos": "v.",
@@ -2754,7 +2754,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_25",
-              "num": "17",
+              "num": "25",
               "word": "regular",
               "phonetic": "/ˈreɡjələr/",
               "pos": "adj.",
@@ -2776,7 +2776,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_26",
-              "num": "18",
+              "num": "26",
               "word": "irregular",
               "phonetic": "/ɪˈreɡjələr/",
               "pos": "adj.",
@@ -2791,7 +2791,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_27",
-              "num": "19",
+              "num": "27",
               "word": "deregulate",
               "phonetic": "/ˌdiːˈreɡjuleɪt/",
               "pos": "v.",
@@ -2813,7 +2813,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_28",
-              "num": "20",
+              "num": "28",
               "word": "relate",
               "phonetic": "/rɪˈleɪt/",
               "pos": "v.",
@@ -2841,7 +2841,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_29",
-              "num": "21",
+              "num": "29",
               "word": "relative",
               "phonetic": "/ˈrelətɪv/",
               "pos": "n.",
@@ -2863,7 +2863,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_30",
-              "num": "22",
+              "num": "30",
               "word": "correlate",
               "phonetic": "/ˈkɔːrəleɪt/",
               "pos": "v.",
@@ -2891,7 +2891,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_31",
-              "num": "23",
+              "num": "31",
               "word": "resort",
               "phonetic": "/rɪˈzɔːrt/",
               "pos": "n.",
@@ -2906,7 +2906,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_32",
-              "num": "24",
+              "num": "32",
               "word": "haunt",
               "phonetic": "/hɔːnt/",
               "pos": "v.",
@@ -2921,7 +2921,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_33",
-              "num": "25",
+              "num": "33",
               "word": "hound",
               "phonetic": "/haʊnd/",
               "pos": "n./v.",
@@ -2936,7 +2936,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_34",
-              "num": "26",
+              "num": "34",
               "word": "forth",
               "phonetic": "/fɔːrθ/",
               "pos": "adv.",
@@ -2951,7 +2951,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_35",
-              "num": "27",
+              "num": "35",
               "word": "forthcoming",
               "phonetic": "/ˌfɔːrθˈkʌmɪŋ/",
               "pos": "adj.",
@@ -2966,7 +2966,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_36",
-              "num": "28",
+              "num": "36",
               "word": "forecast",
               "phonetic": "/ˈfɔːrkæst/",
               "pos": "n.",
@@ -2981,7 +2981,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_37",
-              "num": "29",
+              "num": "37",
               "word": "cast",
               "phonetic": "/kæst/",
               "pos": "n.",
@@ -2996,7 +2996,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_38",
-              "num": "30",
+              "num": "38",
               "word": "broadcast",
               "phonetic": "/ˈbrɔːdkæst/",
               "pos": "v.",
@@ -3011,7 +3011,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_39",
-              "num": "31",
+              "num": "39",
               "word": "foretell",
               "phonetic": "/fɔːrˈtel/",
               "pos": "v.",
@@ -3026,7 +3026,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_40",
-              "num": "32",
+              "num": "40",
               "word": "foremost",
               "phonetic": "/ˈfɔːrmoʊst/",
               "pos": "adj.",
@@ -3041,7 +3041,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_41",
-              "num": "33",
+              "num": "41",
               "word": "beforehand",
               "phonetic": "/bɪˈfɔːrhænd/",
               "pos": "adv.",
@@ -3056,7 +3056,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_42",
-              "num": "34",
+              "num": "42",
               "word": "foresee",
               "phonetic": "/fɔːrˈsiː/",
               "pos": "v.",
@@ -3078,7 +3078,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_43",
-              "num": "36",
+              "num": "43",
               "word": "sight",
               "phonetic": "/saɪt/",
               "pos": "n.",
@@ -3093,7 +3093,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_44",
-              "num": "37",
+              "num": "44",
               "word": "sightseeing",
               "phonetic": "/ˈsaɪtsiːɪŋ/",
               "pos": "n.",
@@ -3108,7 +3108,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_45",
-              "num": "38",
+              "num": "45",
               "word": "oversight",
               "phonetic": "/ˈoʊvərsaɪt/",
               "pos": "n.",
@@ -3123,7 +3123,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_46",
-              "num": "39",
+              "num": "46",
               "word": "insight",
               "phonetic": "/ˈɪnsaɪt/",
               "pos": "n.",
@@ -3145,7 +3145,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_47",
-              "num": "40",
+              "num": "47",
               "word": "horizon",
               "phonetic": "/həˈraɪz(ə)n/",
               "pos": "n.",
@@ -3167,7 +3167,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_48",
-              "num": "41",
+              "num": "48",
               "word": "orient",
               "phonetic": "/ˈɔːrient/",
               "pos": "",
@@ -3195,7 +3195,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_49",
-              "num": "42",
+              "num": "49",
               "word": "scene",
               "phonetic": "/siːn/",
               "pos": "n.",
@@ -3217,7 +3217,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_50",
-              "num": "43",
+              "num": "50",
               "word": "scenario",
               "phonetic": "/səˈnærioʊ/",
               "pos": "n.",
@@ -3232,7 +3232,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u1_l4_51",
-              "num": "44",
+              "num": "51",
               "word": "landscape",
               "phonetic": "/ˈlændskeɪp/",
               "pos": "n.",
@@ -3428,7 +3428,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_09",
-              "num": "60",
+              "num": "09",
               "word": "breast",
               "phonetic": "/brest/",
               "pos": "n.",
@@ -4041,7 +4041,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_41",
-              "num": "42",
+              "num": "41",
               "word": "organism",
               "phonetic": "/ˈɔːrɡənɪzəm/",
               "pos": "n.",
@@ -4056,7 +4056,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_42",
-              "num": "43",
+              "num": "42",
               "word": "sanctuary",
               "phonetic": "/ˈsæŋktʃueri/",
               "pos": "n.",
@@ -4071,7 +4071,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_43",
-              "num": "44",
+              "num": "43",
               "word": "geology",
               "phonetic": "/dʒiˈɑːlədʒi/",
               "pos": "n.",
@@ -4099,7 +4099,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_44",
-              "num": "45",
+              "num": "44",
               "word": "zoology",
               "phonetic": "/zuˈɑːlədʒi/",
               "pos": "",
@@ -4121,7 +4121,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_45",
-              "num": "46",
+              "num": "45",
               "word": "diagnose",
               "phonetic": "/ˌdaɪəɡˈnoʊs/",
               "pos": "",
@@ -4143,7 +4143,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_46",
-              "num": "47",
+              "num": "46",
               "word": "clinic",
               "phonetic": "/ˈklɪnɪk/",
               "pos": "n.",
@@ -4158,7 +4158,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_47",
-              "num": "48",
+              "num": "47",
               "word": "chronic",
               "phonetic": "/ˈkrɑːnɪk/",
               "pos": "adj.",
@@ -4180,7 +4180,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_48",
-              "num": "49",
+              "num": "48",
               "word": "chronicle",
               "phonetic": "/ˈkrɑːnɪk(ə)l/",
               "pos": "n.",
@@ -4195,7 +4195,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_49",
-              "num": "50",
+              "num": "49",
               "word": "benign",
               "phonetic": "/bɪˈnaɪn/",
               "pos": "adj.",
@@ -4210,7 +4210,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_50",
-              "num": "51",
+              "num": "50",
               "word": "wholesome",
               "phonetic": "/ˈhoʊlsəm/",
               "pos": "adj.",
@@ -4225,7 +4225,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_51",
-              "num": "52",
+              "num": "51",
               "word": "malice",
               "phonetic": "/ˈmælɪs/",
               "pos": "n.",
@@ -4240,7 +4240,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_52",
-              "num": "53",
+              "num": "52",
               "word": "malicious",
               "phonetic": "/məˈlɪʃəs/",
               "pos": "adj.",
@@ -4255,7 +4255,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_53",
-              "num": "54",
+              "num": "53",
               "word": "malignant",
               "phonetic": "/məˈlɪɡnənt/",
               "pos": "adj.",
@@ -4270,7 +4270,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_54",
-              "num": "55",
+              "num": "54",
               "word": "contagious",
               "phonetic": "/kənˈteɪdʒəs/",
               "pos": "adj.",
@@ -4285,7 +4285,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_55",
-              "num": "56",
+              "num": "55",
               "word": "acute",
               "phonetic": "/əˈkjuːt/",
               "pos": "adj.",
@@ -4300,7 +4300,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_56",
-              "num": "57",
+              "num": "56",
               "word": "fatal",
               "phonetic": "/ˈfeɪt(ə)l/",
               "pos": "adj.",
@@ -4322,7 +4322,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_57",
-              "num": "58",
+              "num": "57",
               "word": "severe",
               "phonetic": "/sɪˈvɪr/",
               "pos": "adj.",
@@ -4344,7 +4344,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_58",
-              "num": "59",
+              "num": "58",
               "word": "terminal",
               "phonetic": "/ˈtɜːrmɪn(ə)l/",
               "pos": "adj.",
@@ -4366,7 +4366,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_59",
-              "num": "60",
+              "num": "59",
               "word": "perish",
               "phonetic": "/ˈperɪʃ/",
               "pos": "v.",
@@ -4381,7 +4381,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_60",
-              "num": "61",
+              "num": "60",
               "word": "destroy",
               "phonetic": "/dɪˈstrɔɪ/",
               "pos": "v.",
@@ -4409,7 +4409,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_61",
-              "num": "62",
+              "num": "61",
               "word": "devastate",
               "phonetic": "/ˈdevəsteɪt/",
               "pos": "v.",
@@ -4437,7 +4437,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_62",
-              "num": "63",
+              "num": "62",
               "word": "remedy",
               "phonetic": "/ˈremədi/",
               "pos": "v.",
@@ -4459,7 +4459,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_63",
-              "num": "64",
+              "num": "63",
               "word": "therapy",
               "phonetic": "/ˈθerəpi/",
               "pos": "n.",
@@ -4481,7 +4481,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_64",
-              "num": "65",
+              "num": "64",
               "word": "salvation",
               "phonetic": "/sælˈveɪʃ(ə)n/",
               "pos": "n.",
@@ -4496,7 +4496,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_65",
-              "num": "66",
+              "num": "65",
               "word": "surgery",
               "phonetic": "/ˈsɜːrdʒəri/",
               "pos": "n.",
@@ -4518,7 +4518,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_66",
-              "num": "67",
+              "num": "66",
               "word": "surgeon",
               "phonetic": "/ˈsɜːrdʒən/",
               "pos": "n.",
@@ -4533,7 +4533,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_67",
-              "num": "68",
+              "num": "67",
               "word": "physician",
               "phonetic": "/fɪˈzɪʃ(ə)n/",
               "pos": "n.",
@@ -4548,7 +4548,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_68",
-              "num": "69",
+              "num": "68",
               "word": "medication",
               "phonetic": "/ˌmedɪˈkeɪʃ(ə)n/",
               "pos": "n.",
@@ -4563,7 +4563,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_69",
-              "num": "70",
+              "num": "69",
               "word": "tablet",
               "phonetic": "/ˈtæblət/",
               "pos": "n.",
@@ -4578,7 +4578,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_70",
-              "num": "71",
+              "num": "70",
               "word": "portable",
               "phonetic": "/ˈpɔːrtəb(ə)l/",
               "pos": "adj.",
@@ -4593,7 +4593,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l1_71",
-              "num": "72",
+              "num": "71",
               "word": "rescue",
               "phonetic": "/ˈreskjuː/",
               "pos": "n.",
@@ -4655,7 +4655,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u2_l2_01",
-              "num": "73",
+              "num": "01",
               "word": "obscure",
               "phonetic": "/əbˈskjʊr/",
               "pos": "v.",
@@ -4677,7 +4677,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_02",
-              "num": "74",
+              "num": "02",
               "word": "vague",
               "phonetic": "/veɪɡ/",
               "pos": "adj.",
@@ -4692,7 +4692,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_03",
-              "num": "75",
+              "num": "03",
               "word": "secure",
               "phonetic": "/sɪˈkjʊr/",
               "pos": "v.",
@@ -4714,7 +4714,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_04",
-              "num": "76",
+              "num": "04",
               "word": "consecutive",
               "phonetic": "/kənˈsekjətɪv/",
               "pos": "adj.",
@@ -4729,7 +4729,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_05",
-              "num": "01",
+              "num": "05",
               "word": "carbohydrate",
               "phonetic": "/ˌkɑːrboʊˈhaɪdreɪt/",
               "pos": "n.",
@@ -4744,7 +4744,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_06",
-              "num": "02",
+              "num": "06",
               "word": "saturate",
               "phonetic": "/ˈsætʃəreɪt/",
               "pos": "v.",
@@ -4766,7 +4766,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_07",
-              "num": "03",
+              "num": "07",
               "word": "drain",
               "phonetic": "/dreɪn/",
               "pos": "v.",
@@ -4788,7 +4788,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_08",
-              "num": "04",
+              "num": "08",
               "word": "mud",
               "phonetic": "/mʌd/",
               "pos": "n.",
@@ -4810,7 +4810,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_09",
-              "num": "05",
+              "num": "09",
               "word": "dirt",
               "phonetic": "/dɜːrt/",
               "pos": "n.",
@@ -4832,7 +4832,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_10",
-              "num": "06",
+              "num": "10",
               "word": "trench",
               "phonetic": "/trentʃ/",
               "pos": "n.",
@@ -4847,7 +4847,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_11",
-              "num": "07",
+              "num": "11",
               "word": "renew",
               "phonetic": "/rɪˈnuː/",
               "pos": "v.",
@@ -4875,7 +4875,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_12",
-              "num": "80",
+              "num": "12",
               "word": "refresh",
               "phonetic": "/rɪˈfreʃ/",
               "pos": "v.",
@@ -4897,7 +4897,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_13",
-              "num": "09",
+              "num": "13",
               "word": "stale",
               "phonetic": "/steɪl/",
               "pos": "adj.",
@@ -4912,7 +4912,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_14",
-              "num": "10",
+              "num": "14",
               "word": "outdated",
               "phonetic": "/ˌaʊtˈdeɪtɪd/",
               "pos": "adj.",
@@ -4927,7 +4927,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_15",
-              "num": "11",
+              "num": "15",
               "word": "old-fashioned",
               "phonetic": "/ˌoʊld ˈfæʃ(ə)nd/",
               "pos": "adj.",
@@ -4942,7 +4942,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_16",
-              "num": "12",
+              "num": "16",
               "word": "update",
               "phonetic": "/ˌʌpˈdeɪt/",
               "pos": "",
@@ -4957,7 +4957,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_17",
-              "num": "13",
+              "num": "17",
               "word": "upgrade",
               "phonetic": "/ˌʌpˈɡreɪd/",
               "pos": "",
@@ -4972,7 +4972,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_18",
-              "num": "14",
+              "num": "18",
               "word": "recur",
               "phonetic": "/rɪˈkɜːr/",
               "pos": "v.",
@@ -4994,7 +4994,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_19",
-              "num": "15",
+              "num": "19",
               "word": "occur",
               "phonetic": "/əˈkɜːr/",
               "pos": "v.",
@@ -5016,7 +5016,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_20",
-              "num": "16",
+              "num": "20",
               "word": "curb",
               "phonetic": "/kɜːrb/",
               "pos": "n.",
@@ -5031,7 +5031,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_21",
-              "num": "17",
+              "num": "21",
               "word": "incur",
               "phonetic": "/ɪnˈkɜːr/",
               "pos": "v.",
@@ -5046,7 +5046,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_22",
-              "num": "18",
+              "num": "22",
               "word": "resource",
               "phonetic": "/ˈriːsɔːrs/",
               "pos": "n.",
@@ -5068,7 +5068,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_23",
-              "num": "19",
+              "num": "23",
               "word": "recycle",
               "phonetic": "/ˌriːˈsaɪk(ə)l/",
               "pos": "v.",
@@ -5083,7 +5083,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_24",
-              "num": "20",
+              "num": "24",
               "word": "recyclable",
               "phonetic": "/ˌriːˈsaɪkləbl/",
               "pos": "adj.",
@@ -5098,7 +5098,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_25",
-              "num": "21",
+              "num": "25",
               "word": "triple",
               "phonetic": "/ˈtrɪp(ə)l/",
               "pos": "v.",
@@ -5113,7 +5113,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_26",
-              "num": "22",
+              "num": "26",
               "word": "tribe",
               "phonetic": "/traɪb/",
               "pos": "n.",
@@ -5128,7 +5128,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_27",
-              "num": "23",
+              "num": "27",
               "word": "trivial",
               "phonetic": "/ˈtrɪviəl/",
               "pos": "adj.",
@@ -5143,7 +5143,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_28",
-              "num": "24",
+              "num": "28",
               "word": "via",
               "phonetic": "/ˈvaɪə/",
               "pos": "prep.",
@@ -5158,7 +5158,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_29",
-              "num": "25",
+              "num": "29",
               "word": "virtue",
               "phonetic": "/ˈvɜːrtʃuː/",
               "pos": "n.",
@@ -5180,7 +5180,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_30",
-              "num": "26",
+              "num": "30",
               "word": "navigate",
               "phonetic": "/ˈnævɪɡeɪt/",
               "pos": "v.",
@@ -5202,7 +5202,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_31",
-              "num": "27",
+              "num": "31",
               "word": "deviate",
               "phonetic": "/ˈdiːvieɪt/",
               "pos": "v.",
@@ -5224,7 +5224,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_32",
-              "num": "28",
+              "num": "32",
               "word": "indispensable",
               "phonetic": "/ˌɪndɪˈspensəb(ə)l/",
               "pos": "adj.",
@@ -5239,7 +5239,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_33",
-              "num": "29",
+              "num": "33",
               "word": "essence",
               "phonetic": "/ˈes(ə)ns/",
               "pos": "n.",
@@ -5254,7 +5254,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_34",
-              "num": "30",
+              "num": "34",
               "word": "essential",
               "phonetic": "/ɪˈsenʃ(ə)l/",
               "pos": "n.",
@@ -5269,7 +5269,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_35",
-              "num": "31",
+              "num": "35",
               "word": "fundamental",
               "phonetic": "/ˌfʌndəˈment(ə)l/",
               "pos": "adj.",
@@ -5284,7 +5284,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_36",
-              "num": "32",
+              "num": "36",
               "word": "foundation",
               "phonetic": "/faʊnˈdeɪʃ(ə)n/",
               "pos": "n.",
@@ -5299,7 +5299,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_37",
-              "num": "33",
+              "num": "37",
               "word": "cornerstone",
               "phonetic": "/ˈkɔːrnərstoʊn/",
               "pos": "n.",
@@ -5314,7 +5314,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_38",
-              "num": "34",
+              "num": "38",
               "word": "milestone",
               "phonetic": "/ˈmaɪlstoʊn/",
               "pos": "n.",
@@ -5329,7 +5329,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_39",
-              "num": "35",
+              "num": "39",
               "word": "landmark",
               "phonetic": "/ˈlændmɑːrk/",
               "pos": "n.",
@@ -5344,7 +5344,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_40",
-              "num": "36",
+              "num": "40",
               "word": "crucial",
               "phonetic": "/ˈkruːʃ(ə)l/",
               "pos": "adj.",
@@ -5359,7 +5359,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_41",
-              "num": "37",
+              "num": "41",
               "word": "cardinal",
               "phonetic": "/ˈkɑːrdɪnl/",
               "pos": "adj.",
@@ -5374,7 +5374,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_42",
-              "num": "38",
+              "num": "42",
               "word": "imperative",
               "phonetic": "/ɪmˈperətɪv/",
               "pos": "n.",
@@ -5389,7 +5389,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_43",
-              "num": "39",
+              "num": "43",
               "word": "necessary",
               "phonetic": "/ˈnesəseri/",
               "pos": "adj.",
@@ -5417,7 +5417,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_44",
-              "num": "40",
+              "num": "44",
               "word": "necessitate",
               "phonetic": "/nəˈsesɪteɪt/",
               "pos": "v.",
@@ -5432,7 +5432,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l2_45",
-              "num": "41",
+              "num": "45",
               "word": "primary",
               "phonetic": "/ˈpraɪmeri/",
               "pos": "adj.",
@@ -5509,7 +5509,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_02",
-              "num": "42",
+              "num": "02",
               "word": "secondary",
               "phonetic": "/ˈsekənderi/",
               "pos": "adj.",
@@ -5524,7 +5524,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_03",
-              "num": "43",
+              "num": "03",
               "word": "primitive",
               "phonetic": "/ˈprɪmətɪv/",
               "pos": "adj.",
@@ -5539,7 +5539,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_04",
-              "num": "44",
+              "num": "04",
               "word": "prime",
               "phonetic": "/praɪm/",
               "pos": "adj.",
@@ -5554,7 +5554,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_05",
-              "num": "45",
+              "num": "05",
               "word": "prior",
               "phonetic": "/ˈpraɪər/",
               "pos": "adj.",
@@ -5569,7 +5569,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_06",
-              "num": "46",
+              "num": "06",
               "word": "priority",
               "phonetic": "/praɪˈɔːrəti/",
               "pos": "n.",
@@ -5584,7 +5584,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_07",
-              "num": "01",
+              "num": "07",
               "word": "spot",
               "phonetic": "/spɑːt/",
               "pos": "n./v.",
@@ -5599,7 +5599,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_08",
-              "num": "02",
+              "num": "08",
               "word": "pottery",
               "phonetic": "/ˈpɑːtəri/",
               "pos": "n.",
@@ -5614,7 +5614,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_09",
-              "num": "03",
+              "num": "09",
               "word": "spotlight",
               "phonetic": "/ˈspɑːtlaɪt/",
               "pos": "n.",
@@ -5629,7 +5629,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_10",
-              "num": "04",
+              "num": "10",
               "word": "potential",
               "phonetic": "/pəˈtenʃ(ə)l/",
               "pos": "n.",
@@ -5651,7 +5651,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_11",
-              "num": "05",
+              "num": "11",
               "word": "permanent",
               "phonetic": "/ˈpɜːrmənənt/",
               "pos": "adj.",
@@ -5673,7 +5673,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_12",
-              "num": "06",
+              "num": "12",
               "word": "perpetual",
               "phonetic": "/pərˈpetʃuəl/",
               "pos": "adj.",
@@ -5695,7 +5695,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_13",
-              "num": "07",
+              "num": "13",
               "word": "eternal",
               "phonetic": "/ɪˈtɜːrn(ə)l/",
               "pos": "adj.",
@@ -5717,7 +5717,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_14",
-              "num": "08",
+              "num": "14",
               "word": "permeate",
               "phonetic": "/ˈpɜːrmieɪt/",
               "pos": "v.",
@@ -5732,7 +5732,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_15",
-              "num": "09",
+              "num": "15",
               "word": "blend",
               "phonetic": "/blend/",
               "pos": "v.",
@@ -5747,7 +5747,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_16",
-              "num": "10",
+              "num": "16",
               "word": "tangle",
               "phonetic": "/ˈtæŋɡ(ə)l/",
               "pos": "n.",
@@ -5762,7 +5762,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_17",
-              "num": "11",
+              "num": "17",
               "word": "mess",
               "phonetic": "/mes/",
               "pos": "n.",
@@ -5784,7 +5784,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_18",
-              "num": "12",
+              "num": "18",
               "word": "chaos",
               "phonetic": "/ˈkeɪɑːs/",
               "pos": "n.",
@@ -5806,7 +5806,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_19",
-              "num": "13",
+              "num": "19",
               "word": "chore",
               "phonetic": "/tʃɔːr/",
               "pos": "n.",
@@ -5821,7 +5821,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_20",
-              "num": "14",
+              "num": "20",
               "word": "disorder",
               "phonetic": "/dɪsˈɔːrdər/",
               "pos": "n.",
@@ -5836,7 +5836,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_21",
-              "num": "15",
+              "num": "21",
               "word": "joint",
               "phonetic": "/dʒɔɪnt/",
               "pos": "adj.",
@@ -5851,7 +5851,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_22",
-              "num": "16",
+              "num": "22",
               "word": "adjacent",
               "phonetic": "/əˈdʒeɪs(ə)nt/",
               "pos": "adj.",
@@ -5866,7 +5866,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_23",
-              "num": "17",
+              "num": "23",
               "word": "compound",
               "phonetic": "/ˈkɑːmpaʊnd/",
               "pos": "n./adj./v.",
@@ -5881,7 +5881,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_24",
-              "num": "18",
+              "num": "24",
               "word": "hybrid",
               "phonetic": "/ˈhaɪbrɪd/",
               "pos": "n.",
@@ -5896,7 +5896,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_25",
-              "num": "19",
+              "num": "25",
               "word": "turbulent",
               "phonetic": "/ˈtɜːrbjələnt/",
               "pos": "adj.",
@@ -5918,7 +5918,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_26",
-              "num": "20",
+              "num": "26",
               "word": "turmoil",
               "phonetic": "/ˈtɜːrmɔɪl/",
               "pos": "n.",
@@ -5933,7 +5933,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_27",
-              "num": "21",
+              "num": "27",
               "word": "fluctuate",
               "phonetic": "/ˈflʌktʃueɪt/",
               "pos": "v.",
@@ -5955,7 +5955,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_28",
-              "num": "22",
+              "num": "28",
               "word": "stationary",
               "phonetic": "/ˈsteɪʃəneri/",
               "pos": "adj.",
@@ -5977,7 +5977,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_29",
-              "num": "23",
+              "num": "29",
               "word": "static",
               "phonetic": "/ˈstætɪk/",
               "pos": "adj.",
@@ -5992,7 +5992,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l3_30",
-              "num": "24",
+              "num": "30",
               "word": "statute",
               "phonetic": "/ˈstætʃuːt/",
               "pos": "n.",
@@ -6061,7 +6061,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u2_l4_01",
-              "num": "25",
+              "num": "01",
               "word": "status",
               "phonetic": "/ˈsteɪtəs/",
               "pos": "n.",
@@ -6076,7 +6076,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_02",
-              "num": "26",
+              "num": "02",
               "word": "statistic",
               "phonetic": "/stəˈtɪstɪk/",
               "pos": "n.",
@@ -6098,7 +6098,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_03",
-              "num": "27",
+              "num": "03",
               "word": "fierce",
               "phonetic": "/fɪrs/",
               "pos": "adj.",
@@ -6113,7 +6113,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_04",
-              "num": "28",
+              "num": "04",
               "word": "harsh",
               "phonetic": "/hɑːrʃ/",
               "pos": "adj.",
@@ -6128,7 +6128,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_05",
-              "num": "29",
+              "num": "05",
               "word": "rigorous",
               "phonetic": "/ˈrɪɡərəs/",
               "pos": "adj.",
@@ -6143,7 +6143,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_06",
-              "num": "30",
+              "num": "06",
               "word": "rigour",
               "phonetic": "/ˈrɪɡər/",
               "pos": "n.",
@@ -6158,7 +6158,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_07",
-              "num": "31",
+              "num": "07",
               "word": "savage",
               "phonetic": "/ˈsævɪdʒ/",
               "pos": "",
@@ -6173,7 +6173,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_08",
-              "num": "01",
+              "num": "08",
               "word": "bureau",
               "phonetic": "/ˈbjʊroʊ/",
               "pos": "n.",
@@ -6188,7 +6188,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_09",
-              "num": "02",
+              "num": "09",
               "word": "bureaucrat",
               "phonetic": "/ˈbjʊrəkræt/",
               "pos": "n.",
@@ -6216,7 +6216,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_10",
-              "num": "03",
+              "num": "10",
               "word": "headquarters",
               "phonetic": "/ˈhedkwɔːrtərz/",
               "pos": "n.",
@@ -6231,7 +6231,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_11",
-              "num": "04",
+              "num": "11",
               "word": "council",
               "phonetic": "/ˈkaʊns(ə)l/",
               "pos": "n.",
@@ -6253,7 +6253,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_12",
-              "num": "05",
+              "num": "12",
               "word": "institute",
               "phonetic": "/ˈɪnstɪtuːt/",
               "pos": "n.",
@@ -6268,7 +6268,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_13",
-              "num": "06",
+              "num": "13",
               "word": "institution",
               "phonetic": "/ˌɪnstɪˈtuːʃ(ə)n/",
               "pos": "n.",
@@ -6290,7 +6290,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_14",
-              "num": "07",
+              "num": "14",
               "word": "agent",
               "phonetic": "/ˈeɪdʒənt/",
               "pos": "n.",
@@ -6305,7 +6305,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_15",
-              "num": "08",
+              "num": "15",
               "word": "agency",
               "phonetic": "/ˈeɪdʒənsi/",
               "pos": "n.",
@@ -6320,7 +6320,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_16",
-              "num": "60",
+              "num": "16",
               "word": "substitute",
               "phonetic": "/ˈsʌbstɪtuːt/",
               "pos": "n.",
@@ -6342,7 +6342,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_17",
-              "num": "10",
+              "num": "17",
               "word": "constitute",
               "phonetic": "/ˈkɑːnstɪtuːt/",
               "pos": "v.",
@@ -6370,7 +6370,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_18",
-              "num": "11",
+              "num": "18",
               "word": "constituent",
               "phonetic": "/kənˈstɪtʃuənt/",
               "pos": "n.",
@@ -6392,7 +6392,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_19",
-              "num": "12",
+              "num": "19",
               "word": "federal",
               "phonetic": "/ˈfedərəl/",
               "pos": "adj.",
@@ -6414,7 +6414,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_20",
-              "num": "13",
+              "num": "20",
               "word": "commonwealth",
               "phonetic": "/ˈkɑːmənwelθ/",
               "pos": "n.",
@@ -6429,7 +6429,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_21",
-              "num": "14",
+              "num": "21",
               "word": "minister",
               "phonetic": "/ˈmɪnɪstər/",
               "pos": "n.",
@@ -6451,7 +6451,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_22",
-              "num": "15",
+              "num": "22",
               "word": "administer",
               "phonetic": "/ədˈmɪnɪstər/",
               "pos": "v.",
@@ -6479,7 +6479,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_23",
-              "num": "16",
+              "num": "23",
               "word": "harness",
               "phonetic": "/ˈhɑːrnɪs/",
               "pos": "v.",
@@ -6494,7 +6494,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_24",
-              "num": "17",
+              "num": "24",
               "word": "ministry",
               "phonetic": "/ˈmɪnɪstri/",
               "pos": "n.",
@@ -6509,7 +6509,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_25",
-              "num": "18",
+              "num": "25",
               "word": "secretary",
               "phonetic": "/ˈsekrəteri/",
               "pos": "n.",
@@ -6531,7 +6531,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_26",
-              "num": "19",
+              "num": "26",
               "word": "mayor",
               "phonetic": "/ˈmeɪər/",
               "pos": "n.",
@@ -6546,7 +6546,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_27",
-              "num": "20",
+              "num": "27",
               "word": "official",
               "phonetic": "/əˈfɪʃ(ə)l/",
               "pos": "adj.",
@@ -6561,7 +6561,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_28",
-              "num": "21",
+              "num": "28",
               "word": "casual",
               "phonetic": "/ˈkæʒuəl/",
               "pos": "adj.",
@@ -6576,7 +6576,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_29",
-              "num": "22",
+              "num": "29",
               "word": "casualty",
               "phonetic": "/ˈkæʒuəlti/",
               "pos": "n.",
@@ -6598,7 +6598,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_30",
-              "num": "23",
+              "num": "30",
               "word": "knight",
               "phonetic": "/naɪt/",
               "pos": "n.",
@@ -6613,7 +6613,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_31",
-              "num": "24",
+              "num": "31",
               "word": "delegate",
               "phonetic": "/ˈdelɪɡət/",
               "pos": "",
@@ -6635,7 +6635,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_32",
-              "num": "25",
+              "num": "32",
               "word": "threshold",
               "phonetic": "/ˈθreʃhoʊld/",
               "pos": "n.",
@@ -6650,7 +6650,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_33",
-              "num": "26",
+              "num": "33",
               "word": "propagate",
               "phonetic": "/ˈprɑːpəɡeɪt/",
               "pos": "v.",
@@ -6672,7 +6672,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_34",
-              "num": "27",
+              "num": "34",
               "word": "propaganda",
               "phonetic": "/ˌprɑːpəˈɡændə/",
               "pos": "n.",
@@ -6694,7 +6694,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_35",
-              "num": "28",
+              "num": "35",
               "word": "publicize",
               "phonetic": "/ˈpʌblɪsaɪz/",
               "pos": "v.",
@@ -6728,7 +6728,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_36",
-              "num": "29",
+              "num": "36",
               "word": "vote",
               "phonetic": "/voʊt/",
               "pos": "n.",
@@ -6750,7 +6750,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_37",
-              "num": "30",
+              "num": "37",
               "word": "veto",
               "phonetic": "/ˈviːtoʊ/",
               "pos": "n.",
@@ -6765,7 +6765,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_38",
-              "num": "31",
+              "num": "38",
               "word": "regime",
               "phonetic": "/reɪˈʒiːm/",
               "pos": "n.",
@@ -6780,7 +6780,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_39",
-              "num": "32",
+              "num": "39",
               "word": "reign",
               "phonetic": "/reɪn/",
               "pos": "n.",
@@ -6802,7 +6802,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_39_loyal",
-              "num": "33",
+              "num": "40",
               "word": "loyal",
               "phonetic": "/ˈlɔɪəl/",
               "pos": "adj.",
@@ -6824,7 +6824,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_40",
-              "num": "34",
+              "num": "41",
               "word": "royal",
               "phonetic": "/ˈrɔɪəl/",
               "pos": "n.",
@@ -6846,7 +6846,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_41",
-              "num": "35",
+              "num": "42",
               "word": "salute",
               "phonetic": "/səˈluːt/",
               "pos": "v.",
@@ -6868,7 +6868,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_42",
-              "num": "36",
+              "num": "43",
               "word": "sovereign",
               "phonetic": "/ˈsɑːvrɪn/",
               "pos": "adj.",
@@ -6890,7 +6890,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_43",
-              "num": "37",
+              "num": "44",
               "word": "emperor",
               "phonetic": "/ˈempərər/",
               "pos": "n.",
@@ -6912,7 +6912,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_44",
-              "num": "38",
+              "num": "45",
               "word": "imperial",
               "phonetic": "/ɪmˈpɪriəl/",
               "pos": "adj.",
@@ -6940,7 +6940,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_45",
-              "num": "39",
+              "num": "46",
               "word": "civil",
               "phonetic": "/ˈsɪv(ə)l/",
               "pos": "adj.",
@@ -6955,7 +6955,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_46",
-              "num": "40",
+              "num": "47",
               "word": "civic",
               "phonetic": "/ˈsɪvɪk/",
               "pos": "adj.",
@@ -6970,7 +6970,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u2_l4_47",
-              "num": "41",
+              "num": "48",
               "word": "civilian",
               "phonetic": "/səˈvɪliən/",
               "pos": "n.",
@@ -7232,7 +7232,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l1_09",
-              "num": "60",
+              "num": "09",
               "word": "freight",
               "phonetic": "/freɪt/",
               "pos": "n.",
@@ -8069,7 +8069,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u3_l2_01",
-              "num": "50",
+              "num": "01",
               "word": "startle",
               "phonetic": "/ˈstɑːrt(ə)l/",
               "pos": "v.",
@@ -8084,7 +8084,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_02",
-              "num": "51",
+              "num": "02",
               "word": "obtain",
               "phonetic": "/əbˈteɪn/",
               "pos": "v.",
@@ -8106,7 +8106,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_03",
-              "num": "01",
+              "num": "03",
               "word": "disturb",
               "phonetic": "/dɪˈstɜːrb/",
               "pos": "v.",
@@ -8121,7 +8121,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_04",
-              "num": "02",
+              "num": "04",
               "word": "disturbance",
               "phonetic": "/dɪˈstɜːrbəns/",
               "pos": "n.",
@@ -8136,7 +8136,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_05",
-              "num": "03",
+              "num": "05",
               "word": "offend",
               "phonetic": "/əˈfend/",
               "pos": "v.",
@@ -8170,7 +8170,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_06",
-              "num": "04",
+              "num": "06",
               "word": "defend",
               "phonetic": "/dɪˈfend/",
               "pos": "v.",
@@ -8198,7 +8198,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_07",
-              "num": "05",
+              "num": "07",
               "word": "intrude",
               "phonetic": "/ɪnˈtruːd/",
               "pos": "v.",
@@ -8226,7 +8226,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_08",
-              "num": "06",
+              "num": "08",
               "word": "invade",
               "phonetic": "/ɪnˈveɪd/",
               "pos": "v.",
@@ -8260,7 +8260,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_09",
-              "num": "07",
+              "num": "09",
               "word": "shield",
               "phonetic": "/ʃiːld/",
               "pos": "n.",
@@ -8275,7 +8275,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_10",
-              "num": "08",
+              "num": "10",
               "word": "helmet",
               "phonetic": "/ˈhelmɪt/",
               "pos": "n.",
@@ -8290,7 +8290,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_11",
-              "num": "60",
+              "num": "11",
               "word": "safeguard",
               "phonetic": "/ˈseɪfɡɑːrd/",
               "pos": "n.",
@@ -8305,7 +8305,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_12",
-              "num": "10",
+              "num": "12",
               "word": "guard",
               "phonetic": "/ɡɑːrd/",
               "pos": "n./v.",
@@ -8327,7 +8327,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_13",
-              "num": "11",
+              "num": "13",
               "word": "regard",
               "phonetic": "/rɪˈɡɑːrd/",
               "pos": "n.",
@@ -8342,7 +8342,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_14",
-              "num": "12",
+              "num": "14",
               "word": "disregard",
               "phonetic": "/ˌdɪsrɪˈɡɑːrd/",
               "pos": "n.",
@@ -8357,7 +8357,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_15",
-              "num": "13",
+              "num": "15",
               "word": "regarding",
               "phonetic": "/rɪˈɡɑːrdɪŋ/",
               "pos": "prep.",
@@ -8372,7 +8372,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_16",
-              "num": "14",
+              "num": "16",
               "word": "regardless",
               "phonetic": "/rɪˈɡɑːrdləs/",
               "pos": "adv.",
@@ -8387,7 +8387,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_17",
-              "num": "15",
+              "num": "17",
               "word": "endanger",
               "phonetic": "/ɪnˈdeɪndʒər/",
               "pos": "v.",
@@ -8402,7 +8402,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_18",
-              "num": "16",
+              "num": "18",
               "word": "hazard",
               "phonetic": "/ˈhæzərd/",
               "pos": "n.",
@@ -8424,7 +8424,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_19",
-              "num": "17",
+              "num": "19",
               "word": "harass",
               "phonetic": "/həˈræs/",
               "pos": "v.",
@@ -8446,7 +8446,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_20",
-              "num": "18",
+              "num": "20",
               "word": "stake",
               "phonetic": "/steɪk/",
               "pos": "n.",
@@ -8461,7 +8461,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_21",
-              "num": "19",
+              "num": "21",
               "word": "venture",
               "phonetic": "/ˈventʃər/",
               "pos": "v.",
@@ -8476,7 +8476,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_22",
-              "num": "20",
+              "num": "22",
               "word": "adventure",
               "phonetic": "/ədˈventʃər/",
               "pos": "n.",
@@ -8504,7 +8504,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_23",
-              "num": "21",
+              "num": "23",
               "word": "experience",
               "phonetic": "/ɪkˈspɪriəns/",
               "pos": "n.",
@@ -8526,7 +8526,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_24",
-              "num": "22",
+              "num": "24",
               "word": "advent",
               "phonetic": "/ˈædvent/",
               "pos": "n.",
@@ -8541,7 +8541,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_25",
-              "num": "23",
+              "num": "25",
               "word": "vent",
               "phonetic": "/vent/",
               "pos": "n.",
@@ -8556,7 +8556,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_26",
-              "num": "24",
+              "num": "26",
               "word": "ventilate",
               "phonetic": "/ˈventɪleɪt/",
               "pos": "v.",
@@ -8578,7 +8578,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_27",
-              "num": "25",
+              "num": "27",
               "word": "circulate",
               "phonetic": "/ˈsɜːrkjəleɪt/",
               "pos": "v.",
@@ -8600,7 +8600,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_28",
-              "num": "26",
+              "num": "28",
               "word": "circuit",
               "phonetic": "/ˈsɜːrkɪt/",
               "pos": "n.",
@@ -8615,7 +8615,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_29",
-              "num": "27",
+              "num": "29",
               "word": "whirl",
               "phonetic": "/wɜːrl/",
               "pos": "n.",
@@ -8630,7 +8630,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_30",
-              "num": "28",
+              "num": "30",
               "word": "gamble",
               "phonetic": "/ˈɡæmb(ə)l/",
               "pos": "n.",
@@ -8645,7 +8645,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_31",
-              "num": "29",
+              "num": "31",
               "word": "jeopardy",
               "phonetic": "/ˈdʒepərdi/",
               "pos": "n.",
@@ -8667,7 +8667,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_32",
-              "num": "30",
+              "num": "32",
               "word": "peril",
               "phonetic": "/ˈperəl/",
               "pos": "n.",
@@ -8689,7 +8689,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_33",
-              "num": "31",
+              "num": "33",
               "word": "fortune",
               "phonetic": "/ˈfɔːrtʃən/",
               "pos": "n.",
@@ -8711,7 +8711,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_34",
-              "num": "32",
+              "num": "34",
               "word": "misfortune",
               "phonetic": "/ˌmɪsˈfɔːrtʃən/",
               "pos": "n.",
@@ -8726,7 +8726,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_35",
-              "num": "33",
+              "num": "35",
               "word": "mislead",
               "phonetic": "/ˌmɪsˈliːd/",
               "pos": "v.",
@@ -8748,7 +8748,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l2_36",
-              "num": "34",
+              "num": "36",
               "word": "steer",
               "phonetic": "/stɪr/",
               "pos": "v.",
@@ -8951,7 +8951,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l3_09",
-              "num": "60",
+              "num": "09",
               "word": "previous",
               "phonetic": "/ˈpriːviəs/",
               "pos": "adj.",
@@ -9901,7 +9901,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u3_l4_01",
-              "num": "57",
+              "num": "01",
               "word": "tempt",
               "phonetic": "/tempt/",
               "pos": "v.",
@@ -9916,7 +9916,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_02",
-              "num": "58",
+              "num": "02",
               "word": "attempt",
               "phonetic": "/əˈtempt/",
               "pos": "n.",
@@ -9931,7 +9931,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_03",
-              "num": "59",
+              "num": "03",
               "word": "temptation",
               "phonetic": "/tempˈteɪʃ(ə)n/",
               "pos": "n.",
@@ -9946,7 +9946,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_04",
-              "num": "01",
+              "num": "04",
               "word": "inject",
               "phonetic": "/ɪnˈdʒekt/",
               "pos": "v.",
@@ -9968,7 +9968,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_05",
-              "num": "02",
+              "num": "05",
               "word": "project",
               "phonetic": "/ˈprɑːdʒekt/",
               "pos": "",
@@ -9983,7 +9983,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_06",
-              "num": "03",
+              "num": "06",
               "word": "reject",
               "phonetic": "/rɪˈdʒekt/",
               "pos": "",
@@ -10005,7 +10005,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_07",
-              "num": "04",
+              "num": "07",
               "word": "refusal",
               "phonetic": "/rɪˈfjuːz(ə)l/",
               "pos": "n.",
@@ -10027,7 +10027,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_08",
-              "num": "05",
+              "num": "08",
               "word": "object",
               "phonetic": "/ˈɑːbdʒekt/",
               "pos": "",
@@ -10049,7 +10049,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_09",
-              "num": "06",
+              "num": "09",
               "word": "stuff",
               "phonetic": "/stʌf/",
               "pos": "n.",
@@ -10077,7 +10077,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_10",
-              "num": "07",
+              "num": "10",
               "word": "staff",
               "phonetic": "/stæf/",
               "pos": "n.",
@@ -10092,7 +10092,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_11",
-              "num": "08",
+              "num": "11",
               "word": "personnel",
               "phonetic": "/ˌpɜːrsəˈnel/",
               "pos": "n.",
@@ -10107,7 +10107,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_12",
-              "num": "09",
+              "num": "12",
               "word": "subject",
               "phonetic": "/ˈsʌbdʒekt/",
               "pos": "",
@@ -10129,7 +10129,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_13",
-              "num": "10",
+              "num": "13",
               "word": "eject",
               "phonetic": "/ɪˈdʒekt/",
               "pos": "v.",
@@ -10151,7 +10151,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_14",
-              "num": "11",
+              "num": "14",
               "word": "visual",
               "phonetic": "/ˈvɪʒuəl/",
               "pos": "adj.",
@@ -10166,7 +10166,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_15",
-              "num": "12",
+              "num": "15",
               "word": "devise",
               "phonetic": "/dɪˈvaɪz/",
               "pos": "v.",
@@ -10181,7 +10181,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_16",
-              "num": "13",
+              "num": "16",
               "word": "device",
               "phonetic": "/dɪˈvaɪs/",
               "pos": "n.",
@@ -10196,7 +10196,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_17",
-              "num": "14",
+              "num": "17",
               "word": "revise",
               "phonetic": "/rɪˈvaɪz/",
               "pos": "v.",
@@ -10218,7 +10218,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_18",
-              "num": "15",
+              "num": "18",
               "word": "visualize",
               "phonetic": "/ˈvɪʒuəlaɪz/",
               "pos": "v.",
@@ -10233,7 +10233,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_19",
-              "num": "16",
+              "num": "19",
               "word": "envisage",
               "phonetic": "/ɪnˈvɪzɪdʒ/",
               "pos": "v.",
@@ -10248,7 +10248,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_20",
-              "num": "17",
+              "num": "20",
               "word": "vision",
               "phonetic": "/ˈvɪʒ(ə)n/",
               "pos": "n.",
@@ -10270,7 +10270,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_21",
-              "num": "18",
+              "num": "21",
               "word": "visible",
               "phonetic": "/ˈvɪzəb(ə)l/",
               "pos": "adj.",
@@ -10298,7 +10298,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_22",
-              "num": "19",
+              "num": "22",
               "word": "interview",
               "phonetic": "/ˈɪntərvjuː/",
               "pos": "n.",
@@ -10326,7 +10326,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_23",
-              "num": "20",
+              "num": "23",
               "word": "preview",
               "phonetic": "/ˈpriːvjuː/",
               "pos": "v.",
@@ -10341,7 +10341,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_24",
-              "num": "21",
+              "num": "24",
               "word": "interfere",
               "phonetic": "/ˌɪntərˈfɪr/",
               "pos": "v.",
@@ -10363,7 +10363,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_25",
-              "num": "22",
+              "num": "25",
               "word": "intervene",
               "phonetic": "/ˌɪntərˈviːn/",
               "pos": "v.",
@@ -10385,7 +10385,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_26",
-              "num": "23",
+              "num": "26",
               "word": "interact",
               "phonetic": "/ˌɪntərˈækt/",
               "pos": "v.",
@@ -10407,7 +10407,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_27",
-              "num": "24",
+              "num": "27",
               "word": "interaction",
               "phonetic": "/ˌɪntərˈækʃ(ə)n/",
               "pos": "n.",
@@ -10422,7 +10422,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_28",
-              "num": "25",
+              "num": "28",
               "word": "supervise",
               "phonetic": "/ˈsuːpərvaɪz/",
               "pos": "v.",
@@ -10444,7 +10444,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_29",
-              "num": "26",
+              "num": "29",
               "word": "supervisor",
               "phonetic": "/ˈsuːpərvaɪzər/",
               "pos": "n.",
@@ -10459,7 +10459,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_30",
-              "num": "27",
+              "num": "30",
               "word": "monitor",
               "phonetic": "/ˈmɑːnɪtər/",
               "pos": "n.",
@@ -10474,7 +10474,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_31",
-              "num": "28",
+              "num": "31",
               "word": "superior",
               "phonetic": "/suːˈpɪriər/",
               "pos": "n.",
@@ -10496,7 +10496,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_32",
-              "num": "29",
+              "num": "32",
               "word": "inferior",
               "phonetic": "/ɪnˈfɪriər/",
               "pos": "adj.",
@@ -10518,7 +10518,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_33",
-              "num": "30",
+              "num": "33",
               "word": "superb",
               "phonetic": "/suːˈpɜːrb/",
               "pos": "adj.",
@@ -10533,7 +10533,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_34",
-              "num": "31",
+              "num": "34",
               "word": "supreme",
               "phonetic": "/suˈpriːm/",
               "pos": "adj.",
@@ -10555,7 +10555,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_35",
-              "num": "32",
+              "num": "35",
               "word": "superstition",
               "phonetic": "/ˌsuːpərˈstɪʃ(ə)n/",
               "pos": "n.",
@@ -10577,7 +10577,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u3_l4_36",
-              "num": "33",
+              "num": "36",
               "word": "religion",
               "phonetic": "/rɪˈlɪdʒən/",
               "pos": "n.",
@@ -10806,7 +10806,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l1_09",
-              "num": "60",
+              "num": "09",
               "word": "colleague",
               "phonetic": "/ˈkɑːliːɡ/",
               "pos": "n.",
@@ -11470,7 +11470,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u4_l2_01",
-              "num": "42",
+              "num": "01",
               "word": "premature",
               "phonetic": "/ˌpriːməˈtʃʊr/",
               "pos": "adj.",
@@ -11485,7 +11485,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_02",
-              "num": "43",
+              "num": "02",
               "word": "moral",
               "phonetic": "/ˈmɔːrəl/",
               "pos": "n.",
@@ -11507,7 +11507,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_03",
-              "num": "44",
+              "num": "03",
               "word": "mortal",
               "phonetic": "/ˈmɔːrt(ə)l/",
               "pos": "adj.",
@@ -11529,7 +11529,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_04",
-              "num": "45",
+              "num": "04",
               "word": "campus",
               "phonetic": "/ˈkæmpəs/",
               "pos": "n.",
@@ -11544,7 +11544,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_05",
-              "num": "46",
+              "num": "05",
               "word": "campaign",
               "phonetic": "/kæmˈpeɪn/",
               "pos": "n.",
@@ -11559,7 +11559,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_06",
-              "num": "01",
+              "num": "06",
               "word": "scope",
               "phonetic": "/skoʊp/",
               "pos": "n.",
@@ -11574,7 +11574,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_07",
-              "num": "02",
+              "num": "07",
               "word": "terrain",
               "phonetic": "/təˈreɪn/",
               "pos": "n.",
@@ -11589,7 +11589,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_08",
-              "num": "03",
+              "num": "08",
               "word": "realm",
               "phonetic": "/relm/",
               "pos": "n.",
@@ -11604,7 +11604,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_09",
-              "num": "04",
+              "num": "09",
               "word": "sphere",
               "phonetic": "/sfɪr/",
               "pos": "n.",
@@ -11626,7 +11626,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_10",
-              "num": "05",
+              "num": "10",
               "word": "domain",
               "phonetic": "/doʊˈmeɪn/",
               "pos": "",
@@ -11641,7 +11641,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_11",
-              "num": "06",
+              "num": "11",
               "word": "hemisphere",
               "phonetic": "/ˈhemɪsfɪr/",
               "pos": "n.",
@@ -11656,7 +11656,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_12",
-              "num": "07",
+              "num": "12",
               "word": "atmosphere",
               "phonetic": "/ˈætməsfɪr/",
               "pos": "n.",
@@ -11678,7 +11678,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_13",
-              "num": "08",
+              "num": "13",
               "word": "circumstance",
               "phonetic": "/ˈsɜːrkəmstæns/",
               "pos": "n.",
@@ -11693,7 +11693,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_14",
-              "num": "60",
+              "num": "14",
               "word": "surround",
               "phonetic": "/səˈraʊnd/",
               "pos": "v.",
@@ -11715,7 +11715,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_15",
-              "num": "10",
+              "num": "15",
               "word": "mood",
               "phonetic": "/muːd/",
               "pos": "n.",
@@ -11737,7 +11737,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_16",
-              "num": "11",
+              "num": "16",
               "word": "climate",
               "phonetic": "/ˈklaɪmət/",
               "pos": "n.",
@@ -11759,7 +11759,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_17",
-              "num": "12",
+              "num": "17",
               "word": "universe",
               "phonetic": "/ˈjuːnɪvɜːrs/",
               "pos": "n.",
@@ -11774,7 +11774,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_18",
-              "num": "13",
+              "num": "18",
               "word": "universal",
               "phonetic": "/ˌjuːnɪˈvɜːrs(ə)l/",
               "pos": "adj.",
@@ -11789,7 +11789,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_19",
-              "num": "14",
+              "num": "19",
               "word": "widespread",
               "phonetic": "/ˈwaɪdspred/",
               "pos": "adj.",
@@ -11804,7 +11804,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_20",
-              "num": "15",
+              "num": "20",
               "word": "anniversary",
               "phonetic": "/ˌænəˈvɜːrsəri/",
               "pos": "n.",
@@ -11819,7 +11819,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_21",
-              "num": "16",
+              "num": "21",
               "word": "annual",
               "phonetic": "/ˈænjuəl/",
               "pos": "adj.",
@@ -11834,7 +11834,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_22",
-              "num": "17",
+              "num": "22",
               "word": "diverse",
               "phonetic": "/daɪˈvɜːrs/",
               "pos": "adj.",
@@ -11862,7 +11862,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_23",
-              "num": "18",
+              "num": "23",
               "word": "divert",
               "phonetic": "/daɪˈvɜːrt/",
               "pos": "",
@@ -11877,7 +11877,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_24",
-              "num": "19",
+              "num": "24",
               "word": "diversion",
               "phonetic": "/daɪˈvɜːrʒ(ə)n/",
               "pos": "",
@@ -11892,7 +11892,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_25",
-              "num": "20",
+              "num": "25",
               "word": "converse",
               "phonetic": "/kənˈvɜːrs/",
               "pos": "",
@@ -11907,7 +11907,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_26",
-              "num": "21",
+              "num": "26",
               "word": "controversy",
               "phonetic": "/ˈkɑːntrəvɜːrsi/",
               "pos": "",
@@ -11929,7 +11929,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_27",
-              "num": "22",
+              "num": "27",
               "word": "conversation",
               "phonetic": "/ˌkɑːnvərˈseɪʃ(ə)n/",
               "pos": "n.",
@@ -11944,7 +11944,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_28",
-              "num": "23",
+              "num": "28",
               "word": "convert",
               "phonetic": "/kənˈvɜːrt/",
               "pos": "",
@@ -11972,7 +11972,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_29",
-              "num": "24",
+              "num": "29",
               "word": "avert",
               "phonetic": "/əˈvɜːrt/",
               "pos": "v.",
@@ -11994,7 +11994,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_30",
-              "num": "25",
+              "num": "30",
               "word": "invert",
               "phonetic": "/ɪnˈvɜːrt/",
               "pos": "v.",
@@ -12016,7 +12016,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_31",
-              "num": "26",
+              "num": "31",
               "word": "reverse",
               "phonetic": "/rɪˈvɜːrs/",
               "pos": "n.",
@@ -12038,7 +12038,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_32",
-              "num": "27",
+              "num": "32",
               "word": "reversible",
               "phonetic": "/rɪˈvɜːrsəb(ə)l/",
               "pos": "adj.",
@@ -12053,7 +12053,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_33",
-              "num": "28",
+              "num": "33",
               "word": "adverse",
               "phonetic": "/ədˈvɜːrs/",
               "pos": "adj.",
@@ -12075,7 +12075,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_34",
-              "num": "29",
+              "num": "34",
               "word": "adversary",
               "phonetic": "/ˈædvərseri/",
               "pos": "n.",
@@ -12090,7 +12090,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_35",
-              "num": "30",
+              "num": "35",
               "word": "versatile",
               "phonetic": "/ˈvɜːrsət(ə)l/",
               "pos": "adj.",
@@ -12105,7 +12105,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_36",
-              "num": "31",
+              "num": "36",
               "word": "verse",
               "phonetic": "/vɜːrs/",
               "pos": "n.",
@@ -12120,7 +12120,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_37",
-              "num": "32",
+              "num": "37",
               "word": "verbal",
               "phonetic": "/ˈvɜːrb(ə)l/",
               "pos": "adj.",
@@ -12135,7 +12135,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_38",
-              "num": "33",
+              "num": "38",
               "word": "vocal",
               "phonetic": "/ˈvoʊk(ə)l/",
               "pos": "adj.",
@@ -12150,7 +12150,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_39",
-              "num": "34",
+              "num": "39",
               "word": "innovate",
               "phonetic": "/ˈɪnəveɪt/",
               "pos": "v.",
@@ -12178,7 +12178,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_40",
-              "num": "35",
+              "num": "40",
               "word": "legend",
               "phonetic": "/ˈledʒənd/",
               "pos": "n.",
@@ -12200,7 +12200,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_41",
-              "num": "36",
+              "num": "41",
               "word": "renovate",
               "phonetic": "/ˈrenəveɪt/",
               "pos": "v.",
@@ -12222,7 +12222,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_42",
-              "num": "37",
+              "num": "42",
               "word": "evolve",
               "phonetic": "/ɪˈvɑːlv/",
               "pos": "v.",
@@ -12250,7 +12250,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_43",
-              "num": "38",
+              "num": "43",
               "word": "involve",
               "phonetic": "/ɪnˈvɑːlv/",
               "pos": "v.",
@@ -12278,7 +12278,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_44",
-              "num": "39",
+              "num": "44",
               "word": "revolve",
               "phonetic": "/rɪˈvɑːlv/",
               "pos": "v.",
@@ -12293,7 +12293,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_45",
-              "num": "40",
+              "num": "45",
               "word": "revolution",
               "phonetic": "/ˌrevəˈluːʃ(ə)n/",
               "pos": "n.",
@@ -12315,7 +12315,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_46",
-              "num": "41",
+              "num": "46",
               "word": "revolt",
               "phonetic": "/rɪˈvoʊlt/",
               "pos": "n.",
@@ -12330,7 +12330,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_47",
-              "num": "42",
+              "num": "47",
               "word": "renaissance",
               "phonetic": "/ˈrenəsɑːns/",
               "pos": "n.",
@@ -12345,7 +12345,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_48",
-              "num": "43",
+              "num": "48",
               "word": "revive",
               "phonetic": "/rɪˈvaɪv/",
               "pos": "v.",
@@ -12367,7 +12367,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_49",
-              "num": "44",
+              "num": "49",
               "word": "vivid",
               "phonetic": "/ˈvɪvɪd/",
               "pos": "adj.",
@@ -12382,7 +12382,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_50",
-              "num": "45",
+              "num": "50",
               "word": "survive",
               "phonetic": "/sərˈvaɪv/",
               "pos": "v.",
@@ -12410,7 +12410,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_51",
-              "num": "46",
+              "num": "51",
               "word": "reform",
               "phonetic": "/rɪˈfɔːrm/",
               "pos": "n.",
@@ -12438,7 +12438,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_52",
-              "num": "47",
+              "num": "52",
               "word": "conform",
               "phonetic": "/kənˈfɔːrm/",
               "pos": "v.",
@@ -12460,7 +12460,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l2_53",
-              "num": "48",
+              "num": "53",
               "word": "uniform",
               "phonetic": "/ˈjuːnɪfɔːrm/",
               "pos": "n.",
@@ -12529,7 +12529,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u4_l3_01",
-              "num": "49",
+              "num": "01",
               "word": "platform",
               "phonetic": "/ˈplætfɔːrm/",
               "pos": "n.",
@@ -12544,7 +12544,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_02",
-              "num": "50",
+              "num": "02",
               "word": "formula",
               "phonetic": "/ˈfɔːrmjələ/",
               "pos": "n.",
@@ -12559,7 +12559,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_03",
-              "num": "51",
+              "num": "03",
               "word": "formulate",
               "phonetic": "/ˈfɔːrmjuleɪt/",
               "pos": "v.",
@@ -12581,7 +12581,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_04",
-              "num": "52",
+              "num": "04",
               "word": "formal",
               "phonetic": "/ˈfɔːrm(ə)l/",
               "pos": "adj.",
@@ -12603,7 +12603,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_05",
-              "num": "53",
+              "num": "05",
               "word": "inform",
               "phonetic": "/ɪnˈfɔːrm/",
               "pos": "v.",
@@ -12631,7 +12631,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_06",
-              "num": "54",
+              "num": "06",
               "word": "perform",
               "phonetic": "/pərˈfɔːrm/",
               "pos": "v.",
@@ -12659,7 +12659,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_07",
-              "num": "01",
+              "num": "07",
               "word": "inspect",
               "phonetic": "/ɪnˈspekt/",
               "pos": "v.",
@@ -12681,7 +12681,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_08",
-              "num": "02",
+              "num": "08",
               "word": "inspector",
               "phonetic": "/ɪnˈspektər/",
               "pos": "n.",
@@ -12696,7 +12696,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_09",
-              "num": "03",
+              "num": "09",
               "word": "expect",
               "phonetic": "/ɪkˈspekt/",
               "pos": "v.",
@@ -12718,7 +12718,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_10",
-              "num": "04",
+              "num": "10",
               "word": "expectancy",
               "phonetic": "/ɪkˈspektənsi/",
               "pos": "n.",
@@ -12740,7 +12740,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_11",
-              "num": "05",
+              "num": "11",
               "word": "longevity",
               "phonetic": "/lɔːnˈdʒevəti/",
               "pos": "n.",
@@ -12755,7 +12755,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_12",
-              "num": "06",
+              "num": "12",
               "word": "prolong",
               "phonetic": "/prəˈlɔːŋ/",
               "pos": "v.",
@@ -12770,7 +12770,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_13",
-              "num": "07",
+              "num": "13",
               "word": "lengthy",
               "phonetic": "/ˈleŋθi/",
               "pos": "adj.",
@@ -12785,7 +12785,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_14",
-              "num": "08",
+              "num": "14",
               "word": "aspect",
               "phonetic": "/ˈæspekt/",
               "pos": "n.",
@@ -12800,7 +12800,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_15",
-              "num": "09",
+              "num": "15",
               "word": "suspect",
               "phonetic": "/səˈspekt/",
               "pos": "n./adj./v.",
@@ -12815,7 +12815,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_16",
-              "num": "10",
+              "num": "16",
               "word": "suspicion",
               "phonetic": "/səˈspɪʃ(ə)n/",
               "pos": "n.",
@@ -12830,7 +12830,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_17",
-              "num": "11",
+              "num": "17",
               "word": "susceptible",
               "phonetic": "/səˈseptəb(ə)l/",
               "pos": "adj.",
@@ -12845,7 +12845,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_18",
-              "num": "12",
+              "num": "18",
               "word": "spectator",
               "phonetic": "/ˈspekteɪtər/",
               "pos": "n.",
@@ -12860,7 +12860,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_19",
-              "num": "13",
+              "num": "19",
               "word": "respect",
               "phonetic": "/rɪˈspekt/",
               "pos": "n.",
@@ -12888,7 +12888,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_20",
-              "num": "14",
+              "num": "20",
               "word": "respective",
               "phonetic": "/rɪˈspektɪv/",
               "pos": "adj.",
@@ -12910,7 +12910,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_21",
-              "num": "15",
+              "num": "21",
               "word": "spectacular",
               "phonetic": "/spekˈtækjələr/",
               "pos": "adj.",
@@ -12925,7 +12925,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_22",
-              "num": "16",
+              "num": "22",
               "word": "spectacle",
               "phonetic": "/ˈspektək(ə)l/",
               "pos": "n.",
@@ -12940,7 +12940,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_23",
-              "num": "17",
+              "num": "23",
               "word": "prosperity",
               "phonetic": "/prɑːˈsperəti/",
               "pos": "n.",
@@ -12968,7 +12968,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_24",
-              "num": "18",
+              "num": "24",
               "word": "spectrum",
               "phonetic": "/ˈspektrəm/",
               "pos": "",
@@ -12983,7 +12983,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_25",
-              "num": "19",
+              "num": "25",
               "word": "conspicuous",
               "phonetic": "/kənˈspɪkjuəs/",
               "pos": "adj.",
@@ -12998,7 +12998,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_26",
-              "num": "21",
+              "num": "26",
               "word": "scorn",
               "phonetic": "/skɔːrn/",
               "pos": "n.",
@@ -13020,7 +13020,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_27",
-              "num": "22",
+              "num": "27",
               "word": "perspective",
               "phonetic": "/pərˈspektɪv/",
               "pos": "n.",
@@ -13035,7 +13035,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_28",
-              "num": "23",
+              "num": "28",
               "word": "stance",
               "phonetic": "/stæns/",
               "pos": "n.",
@@ -13050,7 +13050,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_29",
-              "num": "24",
+              "num": "29",
               "word": "standpoint",
               "phonetic": "/ˈstændpɔɪnt/",
               "pos": "n.",
@@ -13065,7 +13065,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_30",
-              "num": "25",
+              "num": "30",
               "word": "substance",
               "phonetic": "/ˈsʌbstəns/",
               "pos": "n.",
@@ -13087,7 +13087,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_31",
-              "num": "26",
+              "num": "31",
               "word": "stereotype",
               "phonetic": "/ˈsteriətaɪp/",
               "pos": "n.",
@@ -13102,7 +13102,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_32",
-              "num": "27",
+              "num": "32",
               "word": "prototype",
               "phonetic": "/ˈproʊtətaɪp/",
               "pos": "n.",
@@ -13117,7 +13117,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_33",
-              "num": "28",
+              "num": "33",
               "word": "speculate",
               "phonetic": "/ˈspekjuleɪt/",
               "pos": "v.",
@@ -13145,7 +13145,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_34",
-              "num": "29",
+              "num": "34",
               "word": "articulate",
               "phonetic": "/ɑːrˈtɪkjuleɪt/",
               "pos": "",
@@ -13167,7 +13167,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_35",
-              "num": "30",
+              "num": "35",
               "word": "prospect",
               "phonetic": "/ˈprɑːspekt/",
               "pos": "",
@@ -13182,7 +13182,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_36",
-              "num": "31",
+              "num": "36",
               "word": "prospective",
               "phonetic": "/prəˈspektɪv/",
               "pos": "adj.",
@@ -13197,7 +13197,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_37",
-              "num": "32",
+              "num": "37",
               "word": "retrospect",
               "phonetic": "/ˈretrəspekt/",
               "pos": "n.",
@@ -13219,7 +13219,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_38",
-              "num": "33",
+              "num": "38",
               "word": "portray",
               "phonetic": "/pɔːrˈtreɪ/",
               "pos": "",
@@ -13247,7 +13247,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_39",
-              "num": "34",
+              "num": "39",
               "word": "sculpture",
               "phonetic": "/ˈskʌlptʃər/",
               "pos": "n.",
@@ -13262,7 +13262,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_40",
-              "num": "35",
+              "num": "40",
               "word": "carve",
               "phonetic": "/kɑːrv/",
               "pos": "v.",
@@ -13284,7 +13284,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_41",
-              "num": "36",
+              "num": "41",
               "word": "describe",
               "phonetic": "/dɪˈskraɪb/",
               "pos": "v.",
@@ -13312,7 +13312,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_42",
-              "num": "37",
+              "num": "42",
               "word": "depict",
               "phonetic": "/dɪˈpɪkt/",
               "pos": "v.",
@@ -13327,7 +13327,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_43",
-              "num": "38",
+              "num": "43",
               "word": "ascribe",
               "phonetic": "/əˈskraɪb/",
               "pos": "v.",
@@ -13342,7 +13342,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_44",
-              "num": "39",
+              "num": "44",
               "word": "prescribe",
               "phonetic": "/prɪˈskraɪb/",
               "pos": "v.",
@@ -13364,7 +13364,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_45",
-              "num": "40",
+              "num": "45",
               "word": "subscribe",
               "phonetic": "/səbˈskraɪb/",
               "pos": "v.",
@@ -13386,7 +13386,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_46",
-              "num": "41",
+              "num": "46",
               "word": "subscription",
               "phonetic": "/səbˈskrɪpʃ(ə)n/",
               "pos": "n.",
@@ -13401,7 +13401,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_47",
-              "num": "42",
+              "num": "47",
               "word": "script",
               "phonetic": "/skrɪpt/",
               "pos": "n.",
@@ -13423,7 +13423,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_48",
-              "num": "43",
+              "num": "48",
               "word": "manuscript",
               "phonetic": "/ˈmænjuskrɪpt/",
               "pos": "n.",
@@ -13438,7 +13438,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_49",
-              "num": "44",
+              "num": "49",
               "word": "transcript",
               "phonetic": "/ˈtrænskrɪpt/",
               "pos": "n.",
@@ -13453,7 +13453,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_50",
-              "num": "45",
+              "num": "50",
               "word": "manual",
               "phonetic": "/ˈmænjuəl/",
               "pos": "n.",
@@ -13468,7 +13468,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_51",
-              "num": "46",
+              "num": "51",
               "word": "manufacture",
               "phonetic": "/ˌmænjuˈfæktʃər/",
               "pos": "v.",
@@ -13483,7 +13483,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_52",
-              "num": "47",
+              "num": "52",
               "word": "manufacturer",
               "phonetic": "/ˌmænjuˈfæktʃərər/",
               "pos": "n.",
@@ -13498,7 +13498,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l3_53",
-              "num": "48",
+              "num": "53",
               "word": "mandate",
               "phonetic": "/ˈmændeɪt/",
               "pos": "v.",
@@ -13567,7 +13567,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u4_l4_01",
-              "num": "49",
+              "num": "01",
               "word": "emancipate",
               "phonetic": "/ɪˈmænsɪpeɪt/",
               "pos": "v.",
@@ -13589,7 +13589,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_02",
-              "num": "50",
+              "num": "02",
               "word": "maneuver",
               "phonetic": "/məˈnuːvər/",
               "pos": "n./v.",
@@ -13604,7 +13604,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_03",
-              "num": "51",
+              "num": "03",
               "word": "affection",
               "phonetic": "/əˈfekʃ(ə)n/",
               "pos": "n.",
@@ -13626,7 +13626,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_04",
-              "num": "52",
+              "num": "04",
               "word": "facility",
               "phonetic": "/fəˈsɪləti/",
               "pos": "n.",
@@ -13654,7 +13654,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_05",
-              "num": "53",
+              "num": "05",
               "word": "infect",
               "phonetic": "/ɪnˈfekt/",
               "pos": "v.",
@@ -13682,7 +13682,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_06",
-              "num": "54",
+              "num": "06",
               "word": "defect",
               "phonetic": "/ˈdiːfekt/",
               "pos": "n.",
@@ -13704,7 +13704,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_07",
-              "num": "55",
+              "num": "07",
               "word": "effect",
               "phonetic": "/ɪˈfekt/",
               "pos": "n.",
@@ -13726,7 +13726,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_08",
-              "num": "56",
+              "num": "08",
               "word": "void",
               "phonetic": "/vɔɪd/",
               "pos": "adj.",
@@ -13741,7 +13741,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_09",
-              "num": "01",
+              "num": "09",
               "word": "fake",
               "phonetic": "/feɪk/",
               "pos": "n.",
@@ -13756,7 +13756,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_10",
-              "num": "02",
+              "num": "10",
               "word": "deceive",
               "phonetic": "/dɪˈsiːv/",
               "pos": "v.",
@@ -13790,7 +13790,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_11",
-              "num": "03",
+              "num": "11",
               "word": "perceive",
               "phonetic": "/pərˈsiːv/",
               "pos": "v.",
@@ -13818,7 +13818,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_12",
-              "num": "04",
+              "num": "12",
               "word": "conceive",
               "phonetic": "/kənˈsiːv/",
               "pos": "v.",
@@ -13833,7 +13833,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_13",
-              "num": "05",
+              "num": "13",
               "word": "conception",
               "phonetic": "/kənˈsepʃ(ə)n/",
               "pos": "n.",
@@ -13848,7 +13848,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_14",
-              "num": "06",
+              "num": "14",
               "word": "detect",
               "phonetic": "/dɪˈtekt/",
               "pos": "v.",
@@ -13876,7 +13876,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_15",
-              "num": "07",
+              "num": "15",
               "word": "scout",
               "phonetic": "/skaʊt/",
               "pos": "n.",
@@ -13891,7 +13891,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_16",
-              "num": "08",
+              "num": "16",
               "word": "appeal",
               "phonetic": "/əˈpiːl/",
               "pos": "n./v.",
@@ -13913,7 +13913,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_17",
-              "num": "09",
+              "num": "17",
               "word": "appal",
               "phonetic": "/əˈpɔːl/",
               "pos": "v.",
@@ -13935,7 +13935,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_18",
-              "num": "10",
+              "num": "18",
               "word": "accuse",
               "phonetic": "/əˈkjuːz/",
               "pos": "v.",
@@ -13957,7 +13957,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_19",
-              "num": "11",
+              "num": "19",
               "word": "blame",
               "phonetic": "/bleɪm/",
               "pos": "n.",
@@ -13972,7 +13972,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_20",
-              "num": "12",
+              "num": "20",
               "word": "verdict",
               "phonetic": "/ˈvɜːrdɪkt/",
               "pos": "n.",
@@ -13987,7 +13987,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_21",
-              "num": "13",
+              "num": "21",
               "word": "convict",
               "phonetic": "/kənˈvɪkt/",
               "pos": "",
@@ -14009,7 +14009,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_22",
-              "num": "14",
+              "num": "22",
               "word": "indict",
               "phonetic": "/ɪnˈdaɪt/",
               "pos": "v.",
@@ -14031,7 +14031,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_23",
-              "num": "15",
+              "num": "23",
               "word": "guilt",
               "phonetic": "/ɡɪlt/",
               "pos": "n.",
@@ -14053,7 +14053,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_24",
-              "num": "16",
+              "num": "24",
               "word": "crime",
               "phonetic": "/kraɪm/",
               "pos": "n.",
@@ -14075,7 +14075,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_25",
-              "num": "17",
+              "num": "25",
               "word": "discriminate",
               "phonetic": "/dɪˈskrɪmɪneɪt/",
               "pos": "v.",
@@ -14103,7 +14103,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_26",
-              "num": "18",
+              "num": "26",
               "word": "prison",
               "phonetic": "/ˈprɪzn/",
               "pos": "n.",
@@ -14125,7 +14125,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_27",
-              "num": "19",
+              "num": "27",
               "word": "imprison",
               "phonetic": "/ɪmˈprɪzn/",
               "pos": "v.",
@@ -14147,7 +14147,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_28",
-              "num": "20",
+              "num": "28",
               "word": "blackmail",
               "phonetic": "/ˈblækmeɪl/",
               "pos": "n.",
@@ -14162,7 +14162,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_29",
-              "num": "21",
+              "num": "29",
               "word": "kidnap",
               "phonetic": "/ˈkɪdnæp/",
               "pos": "v.",
@@ -14177,7 +14177,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_30",
-              "num": "22",
+              "num": "30",
               "word": "hijack",
               "phonetic": "/ˈhaɪdʒæk/",
               "pos": "v.",
@@ -14192,7 +14192,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_31",
-              "num": "23",
+              "num": "31",
               "word": "hack",
               "phonetic": "/hæk/",
               "pos": "n.",
@@ -14214,7 +14214,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_32",
-              "num": "24",
+              "num": "32",
               "word": "database",
               "phonetic": "/ˈdeɪtəbeɪs/",
               "pos": "n.",
@@ -14229,7 +14229,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_33",
-              "num": "25",
+              "num": "33",
               "word": "smuggle",
               "phonetic": "/ˈsmʌɡ(ə)l/",
               "pos": "v.",
@@ -14257,7 +14257,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_34",
-              "num": "27",
+              "num": "34",
               "word": "grab",
               "phonetic": "/ɡræb/",
               "pos": "n.",
@@ -14272,7 +14272,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_35",
-              "num": "28",
+              "num": "35",
               "word": "snatch",
               "phonetic": "/snætʃ/",
               "pos": "n.",
@@ -14287,7 +14287,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_36",
-              "num": "29",
+              "num": "36",
               "word": "snap",
               "phonetic": "/snæp/",
               "pos": "n.",
@@ -14302,7 +14302,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_37",
-              "num": "30",
+              "num": "37",
               "word": "penalty",
               "phonetic": "/ˈpenəlti/",
               "pos": "n.",
@@ -14317,7 +14317,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_38",
-              "num": "31",
+              "num": "38",
               "word": "sue",
               "phonetic": "/suː/",
               "pos": "v.",
@@ -14332,7 +14332,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_39",
-              "num": "32",
+              "num": "39",
               "word": "ensue",
               "phonetic": "/ɪnˈsuː/",
               "pos": "v.",
@@ -14347,7 +14347,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_40",
-              "num": "33",
+              "num": "40",
               "word": "lawsuit",
               "phonetic": "/ˈlɔːsuːt/",
               "pos": "n.",
@@ -14362,7 +14362,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_41",
-              "num": "34",
+              "num": "41",
               "word": "prove",
               "phonetic": "/pruːv/",
               "pos": "v.",
@@ -14377,7 +14377,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_42",
-              "num": "35",
+              "num": "42",
               "word": "proof",
               "phonetic": "/pruːf/",
               "pos": "n.",
@@ -14392,7 +14392,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_43",
-              "num": "36",
+              "num": "43",
               "word": "approve",
               "phonetic": "/əˈpruːv/",
               "pos": "v.",
@@ -14414,7 +14414,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_44",
-              "num": "37",
+              "num": "44",
               "word": "sanction",
               "phonetic": "/ˈsæŋkʃ(ə)n/",
               "pos": "n.",
@@ -14429,7 +14429,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_45",
-              "num": "38",
+              "num": "45",
               "word": "testimony",
               "phonetic": "/ˈtestɪmoʊni/",
               "pos": "n.",
@@ -14444,7 +14444,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_46",
-              "num": "39",
+              "num": "46",
               "word": "testify",
               "phonetic": "/ˈtestɪfaɪ/",
               "pos": "v.",
@@ -14459,7 +14459,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_47",
-              "num": "40",
+              "num": "47",
               "word": "witness",
               "phonetic": "/ˈwɪtnəs/",
               "pos": "n.",
@@ -14474,7 +14474,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_48",
-              "num": "41",
+              "num": "48",
               "word": "evidence",
               "phonetic": "/ˈevɪdəns/",
               "pos": "n.",
@@ -14496,7 +14496,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_49",
-              "num": "42",
+              "num": "49",
               "word": "rebel",
               "phonetic": "/ˈreb(ə)l/",
               "pos": "n.",
@@ -14524,7 +14524,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_50",
-              "num": "43",
+              "num": "50",
               "word": "valid",
               "phonetic": "/'vaelid/",
               "pos": "adj.",
@@ -14552,7 +14552,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_51",
-              "num": "44",
+              "num": "51",
               "word": "invalid",
               "phonetic": "/ɪnˈvælɪd/",
               "pos": "",
@@ -14567,7 +14567,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_52",
-              "num": "45",
+              "num": "52",
               "word": "legal",
               "phonetic": "/ˈliːɡ(ə)l/",
               "pos": "adj.",
@@ -14589,7 +14589,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_53",
-              "num": "46",
+              "num": "53",
               "word": "illegal",
               "phonetic": "/ɪˈliːɡ(ə)l/",
               "pos": "adj.",
@@ -14604,7 +14604,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_54",
-              "num": "47",
+              "num": "54",
               "word": "legitimate",
               "phonetic": "/lɪˈdʒɪtɪmət/",
               "pos": "adj.",
@@ -14626,7 +14626,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_55",
-              "num": "48",
+              "num": "55",
               "word": "legislate",
               "phonetic": "/ˈledʒɪsleɪt/",
               "pos": "v.",
@@ -14660,7 +14660,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_56",
-              "num": "49",
+              "num": "56",
               "word": "enact",
               "phonetic": "/ɪˈnækt/",
               "pos": "v.",
@@ -14682,7 +14682,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_57",
-              "num": "50",
+              "num": "57",
               "word": "execute",
               "phonetic": "/ˈeksɪkjuːt/",
               "pos": "v.",
@@ -14704,7 +14704,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_58",
-              "num": "51",
+              "num": "58",
               "word": "executive",
               "phonetic": "/ɪɡˈzekjətɪv/",
               "pos": "n.",
@@ -14719,7 +14719,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_59",
-              "num": "52",
+              "num": "59",
               "word": "persecute",
               "phonetic": "/ˈpɜːrsɪkjuːt/",
               "pos": "v.",
@@ -14741,7 +14741,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_60",
-              "num": "53",
+              "num": "60",
               "word": "prosecute",
               "phonetic": "/ˈprɑːsɪkjuːt/",
               "pos": "v.",
@@ -14763,7 +14763,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_61",
-              "num": "54",
+              "num": "61",
               "word": "sequence",
               "phonetic": "/ˈsiːkwəns/",
               "pos": "n.",
@@ -14785,7 +14785,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_62",
-              "num": "55",
+              "num": "62",
               "word": "consequence",
               "phonetic": "/ˈkɑːnsɪkwens/",
               "pos": "n.",
@@ -14813,7 +14813,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_63",
-              "num": "56",
+              "num": "63",
               "word": "subsequent",
               "phonetic": "/ˈsʌbsɪkwənt/",
               "pos": "adj.",
@@ -14828,7 +14828,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_64",
-              "num": "57",
+              "num": "64",
               "word": "judge",
               "phonetic": "/dʒʌdʒ/",
               "pos": "n.",
@@ -14850,7 +14850,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_65",
-              "num": "58",
+              "num": "65",
               "word": "judicial",
               "phonetic": "/dʒuːˈdɪʃəl/",
               "pos": "adj.",
@@ -14865,7 +14865,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_66",
-              "num": "59",
+              "num": "66",
               "word": "justice",
               "phonetic": "/ˈdʒʌstɪs/",
               "pos": "n.",
@@ -14880,7 +14880,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_67",
-              "num": "60",
+              "num": "67",
               "word": "justify",
               "phonetic": "/ˈdʒʌstɪfaɪ/",
               "pos": "v.",
@@ -14902,7 +14902,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_68",
-              "num": "61",
+              "num": "68",
               "word": "adjust",
               "phonetic": "/əˈdʒʌst/",
               "pos": "v.",
@@ -14924,7 +14924,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_69",
-              "num": "62",
+              "num": "69",
               "word": "court",
               "phonetic": "/kɔːrt/",
               "pos": "v.",
@@ -14939,7 +14939,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_70",
-              "num": "63",
+              "num": "70",
               "word": "courtesy",
               "phonetic": "/ˈkɜːrtəsi/",
               "pos": "n.",
@@ -14954,7 +14954,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_71",
-              "num": "64",
+              "num": "71",
               "word": "jury",
               "phonetic": "/ˈdʒʊri/",
               "pos": "n.",
@@ -14976,7 +14976,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_72",
-              "num": "65",
+              "num": "72",
               "word": "judiciary",
               "phonetic": "/dʒuˈdɪʃieri/",
               "pos": "n.",
@@ -14991,7 +14991,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_73",
-              "num": "66",
+              "num": "73",
               "word": "jurisdiction",
               "phonetic": "/ˌdʒʊrɪsˈdɪkʃ(ə)n/",
               "pos": "n.",
@@ -15006,7 +15006,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_74",
-              "num": "67",
+              "num": "74",
               "word": "outlaw",
               "phonetic": "/ˈaʊtlɔː/",
               "pos": "v.",
@@ -15021,7 +15021,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_75",
-              "num": "68",
+              "num": "75",
               "word": "attorney",
               "phonetic": "/əˈtɜːrni/",
               "pos": "n.",
@@ -15036,7 +15036,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_76",
-              "num": "69",
+              "num": "76",
               "word": "entrust",
               "phonetic": "/ɪnˈtrʌst/",
               "pos": "v.",
@@ -15051,7 +15051,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_77",
-              "num": "71",
+              "num": "77",
               "word": "condemn",
               "phonetic": "/kənˈdem/",
               "pos": "v.",
@@ -15073,7 +15073,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_78",
-              "num": "72",
+              "num": "78",
               "word": "warrant",
               "phonetic": "/ˈwɔːrənt/",
               "pos": "n.",
@@ -15088,7 +15088,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_79",
-              "num": "73",
+              "num": "79",
               "word": "warranty",
               "phonetic": "/ˈwɔːrənti/",
               "pos": "n.",
@@ -15103,7 +15103,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_80",
-              "num": "74",
+              "num": "80",
               "word": "tenant",
               "phonetic": "/ˈtenənt/",
               "pos": "n.",
@@ -15118,7 +15118,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_81",
-              "num": "75",
+              "num": "81",
               "word": "abundant",
               "phonetic": "/əˈbʌndənt/",
               "pos": "adj.",
@@ -15133,7 +15133,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_82",
-              "num": "76",
+              "num": "82",
               "word": "abundance",
               "phonetic": "/əˈbʌndəns/",
               "pos": "n.",
@@ -15148,7 +15148,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_83",
-              "num": "77",
+              "num": "83",
               "word": "ample",
               "phonetic": "/ˈæmp(ə)l/",
               "pos": "adj.",
@@ -15163,7 +15163,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_84",
-              "num": "78",
+              "num": "84",
               "word": "sample",
               "phonetic": "/ˈsæmp(ə)l/",
               "pos": "n.",
@@ -15178,7 +15178,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_85",
-              "num": "79",
+              "num": "85",
               "word": "scarce",
               "phonetic": "/skeəs/",
               "pos": "adj.",
@@ -15200,7 +15200,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_86",
-              "num": "80",
+              "num": "86",
               "word": "scarcity",
               "phonetic": "/ˈskersəti/",
               "pos": "n.",
@@ -15215,7 +15215,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_87",
-              "num": "81",
+              "num": "87",
               "word": "carton",
               "phonetic": "/ˈkɑːrtn/",
               "pos": "n.",
@@ -15230,7 +15230,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_88",
-              "num": "82",
+              "num": "88",
               "word": "scar",
               "phonetic": "/skɑːr/",
               "pos": "n.",
@@ -15245,7 +15245,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_89",
-              "num": "8",
+              "num": "89",
               "word": "quantity",
               "phonetic": "/ˈkwɑːntəti/",
               "pos": "n.",
@@ -15267,7 +15267,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u4_l4_90",
-              "num": "84",
+              "num": "90",
               "word": "quality",
               "phonetic": "/ˈkwɑːləti/",
               "pos": "n.",
@@ -15481,7 +15481,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_08",
-              "num": "09",
+              "num": "08",
               "word": "simplify",
               "phonetic": "/ˈsɪmplɪfaɪ/",
               "pos": "v.",
@@ -15509,7 +15509,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_09",
-              "num": "10",
+              "num": "09",
               "word": "purify",
               "phonetic": "/ˈpjʊrɪfaɪ/",
               "pos": "v.",
@@ -15537,7 +15537,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_10",
-              "num": "11",
+              "num": "10",
               "word": "crystal",
               "phonetic": "/ˈkrɪst(ə)l/",
               "pos": "n.",
@@ -15552,7 +15552,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_11",
-              "num": "12",
+              "num": "11",
               "word": "clarify",
               "phonetic": "/ˈklærəfaɪ/",
               "pos": "v.",
@@ -15580,7 +15580,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_12",
-              "num": "13",
+              "num": "12",
               "word": "classify",
               "phonetic": "/ˈklæsɪfaɪ/",
               "pos": "v.",
@@ -15595,7 +15595,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_13",
-              "num": "14",
+              "num": "13",
               "word": "classified",
               "phonetic": "/ˈklæsɪfaɪd/",
               "pos": "adj.",
@@ -15610,7 +15610,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_14",
-              "num": "15",
+              "num": "14",
               "word": "classic",
               "phonetic": "/ˈklæsɪk/",
               "pos": "n.",
@@ -15632,7 +15632,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_15",
-              "num": "16",
+              "num": "15",
               "word": "grade",
               "phonetic": "/ɡreɪd/",
               "pos": "n.",
@@ -15647,7 +15647,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_16",
-              "num": "17",
+              "num": "16",
               "word": "ratify",
               "phonetic": "/ˈrætɪfaɪ/",
               "pos": "v.",
@@ -15669,7 +15669,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_17",
-              "num": "18",
+              "num": "17",
               "word": "rating",
               "phonetic": "/ˈreɪtɪŋ/",
               "pos": "n.",
@@ -15684,7 +15684,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_18",
-              "num": "19",
+              "num": "18",
               "word": "ratio",
               "phonetic": "/ˈreɪʃioʊ/",
               "pos": "n.",
@@ -15699,7 +15699,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_19",
-              "num": "20",
+              "num": "19",
               "word": "ration",
               "phonetic": "/ˈræʃ(ə)n/",
               "pos": "n.",
@@ -15714,7 +15714,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_20",
-              "num": "21",
+              "num": "20",
               "word": "modify",
               "phonetic": "/ˈmɑːdɪfaɪ/",
               "pos": "v.",
@@ -15736,7 +15736,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_21",
-              "num": "22",
+              "num": "21",
               "word": "alter",
               "phonetic": "/ˈɔːltər/",
               "pos": "v.",
@@ -15758,7 +15758,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_22",
-              "num": "23",
+              "num": "22",
               "word": "alternate",
               "phonetic": "/ˈɔːltərnət/",
               "pos": "",
@@ -15798,7 +15798,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_23",
-              "num": "24",
+              "num": "23",
               "word": "vary",
               "phonetic": "/ˈveri/",
               "pos": "v.",
@@ -15826,7 +15826,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_24",
-              "num": "25",
+              "num": "24",
               "word": "variation",
               "phonetic": "/ˌveriˈeɪʃ(ə)n/",
               "pos": "n.",
@@ -15841,7 +15841,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_25",
-              "num": "26",
+              "num": "25",
               "word": "shift",
               "phonetic": "/ʃɪft/",
               "pos": "v.",
@@ -15856,7 +15856,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_26",
-              "num": "27",
+              "num": "26",
               "word": "draft",
               "phonetic": "/dræft/",
               "pos": "n.",
@@ -15871,7 +15871,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_27",
-              "num": "28",
+              "num": "27",
               "word": "bill",
               "phonetic": "/bɪl/",
               "pos": "n.",
@@ -15886,7 +15886,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_28",
-              "num": "29",
+              "num": "28",
               "word": "mend",
               "phonetic": "/mend/",
               "pos": "v.",
@@ -15901,7 +15901,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_29",
-              "num": "30",
+              "num": "29",
               "word": "amend",
               "phonetic": "/əˈmend/",
               "pos": "v.",
@@ -15923,7 +15923,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_30",
-              "num": "31",
+              "num": "30",
               "word": "commend",
               "phonetic": "/kəˈmend/",
               "pos": "v.",
@@ -15945,7 +15945,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_31",
-              "num": "32",
+              "num": "31",
               "word": "recommend",
               "phonetic": "/ˌrekəˈmend/",
               "pos": "v.",
@@ -15967,7 +15967,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_32",
-              "num": "33",
+              "num": "32",
               "word": "amplify",
               "phonetic": "/ˈæmplɪfaɪ/",
               "pos": "v.",
@@ -15989,7 +15989,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_33",
-              "num": "34",
+              "num": "33",
               "word": "qualify",
               "phonetic": "/ˈkwɑːlɪfaɪ/",
               "pos": "v.",
@@ -16011,7 +16011,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_34",
-              "num": "35",
+              "num": "34",
               "word": "quantify",
               "phonetic": "/ˈkwɑːntɪfaɪ/",
               "pos": "v.",
@@ -16033,7 +16033,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_35",
-              "num": "36",
+              "num": "35",
               "word": "unify",
               "phonetic": "/ˈjuːnɪfaɪ/",
               "pos": "v.",
@@ -16055,7 +16055,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_36",
-              "num": "37",
+              "num": "36",
               "word": "unite",
               "phonetic": "/juˈnaɪt/",
               "pos": "v.",
@@ -16077,7 +16077,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_37",
-              "num": "38",
+              "num": "37",
               "word": "reunite",
               "phonetic": "/ˌriːjuˈnaɪt/",
               "pos": "v.",
@@ -16105,7 +16105,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_38",
-              "num": "39",
+              "num": "38",
               "word": "specify",
               "phonetic": "/ˈspesɪfaɪ/",
               "pos": "v.",
@@ -16127,7 +16127,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_39",
-              "num": "40",
+              "num": "39",
               "word": "specific",
               "phonetic": "/spəˈsɪfɪk/",
               "pos": "adj.",
@@ -16149,7 +16149,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_40",
-              "num": "41",
+              "num": "40",
               "word": "special",
               "phonetic": "/ˈspeʃ(ə)l/",
               "pos": "adj.",
@@ -16183,7 +16183,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_41",
-              "num": "42",
+              "num": "41",
               "word": "speciality",
               "phonetic": "/ˌspeʃiˈæləti/",
               "pos": "n.",
@@ -16198,7 +16198,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_42",
-              "num": "43",
+              "num": "42",
               "word": "especially",
               "phonetic": "/ɪˈspeʃəli/",
               "pos": "adv.",
@@ -16213,7 +16213,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_43",
-              "num": "44",
+              "num": "43",
               "word": "specimen",
               "phonetic": "/ˈspesɪmən/",
               "pos": "n.",
@@ -16228,7 +16228,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_44",
-              "num": "45",
+              "num": "44",
               "word": "bust",
               "phonetic": "/bʌst/",
               "pos": "n.",
@@ -16243,7 +16243,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_45",
-              "num": "46",
+              "num": "45",
               "word": "burst",
               "phonetic": "/bɜːrst/",
               "pos": "v.",
@@ -16258,7 +16258,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_46",
-              "num": "47",
+              "num": "46",
               "word": "robust",
               "phonetic": "/roʊˈbʌst/",
               "pos": "adj.",
@@ -16273,7 +16273,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_47",
-              "num": "48",
+              "num": "47",
               "word": "blast",
               "phonetic": "/blæst/",
               "pos": "n.",
@@ -16288,7 +16288,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_48",
-              "num": "49",
+              "num": "48",
               "word": "plastic",
               "phonetic": "/ˈplæstɪk/",
               "pos": "n.",
@@ -16303,7 +16303,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l1_49",
-              "num": "50",
+              "num": "49",
               "word": "elastic",
               "phonetic": "/ɪˈlæstɪk/",
               "pos": "adj.",
@@ -16372,7 +16372,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u5_l2_01",
-              "num": "51",
+              "num": "01",
               "word": "flexible",
               "phonetic": "/ˈfleksəb(ə)l/",
               "pos": "adj.",
@@ -16394,7 +16394,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_02",
-              "num": "52",
+              "num": "02",
               "word": "reflect",
               "phonetic": "/rɪˈflekt/",
               "pos": "v.",
@@ -16422,7 +16422,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_03",
-              "num": "53",
+              "num": "03",
               "word": "distort",
               "phonetic": "/dɪˈstɔːrt/",
               "pos": "v.",
@@ -16450,7 +16450,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_04",
-              "num": "54",
+              "num": "04",
               "word": "retort",
               "phonetic": "/rɪˈtɔːrt/",
               "pos": "v.",
@@ -16465,7 +16465,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_05",
-              "num": "55",
+              "num": "05",
               "word": "torture",
               "phonetic": "/ˈtɔːrtʃər/",
               "pos": "n.",
@@ -16480,7 +16480,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_06",
-              "num": "01",
+              "num": "06",
               "word": "breakdown",
               "phonetic": "/ˈbreɪkdaʊn/",
               "pos": "n.",
@@ -16495,7 +16495,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_07",
-              "num": "02",
+              "num": "07",
               "word": "bankrupt",
               "phonetic": "/ˈbæŋkrʌpt/",
               "pos": "n.",
@@ -16517,7 +16517,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_08",
-              "num": "03",
+              "num": "08",
               "word": "deficit",
               "phonetic": "/ˈdefɪsɪt/",
               "pos": "n.",
@@ -16532,7 +16532,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_09",
-              "num": "04",
+              "num": "09",
               "word": "interrupt",
               "phonetic": "/ˌɪntəˈrʌpt/",
               "pos": "v.",
@@ -16554,7 +16554,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_10",
-              "num": "05",
+              "num": "10",
               "word": "erupt",
               "phonetic": "/ɪˈrʌpt/",
               "pos": "v.",
@@ -16576,7 +16576,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_11",
-              "num": "06",
+              "num": "11",
               "word": "disrupt",
               "phonetic": "/dɪsˈrʌpt/",
               "pos": "v.",
@@ -16604,7 +16604,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_12",
-              "num": "07",
+              "num": "12",
               "word": "abrupt",
               "phonetic": "/əˈbrʌpt/",
               "pos": "adj.",
@@ -16619,7 +16619,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_13",
-              "num": "08",
+              "num": "13",
               "word": "corrupt",
               "phonetic": "/kəˈrʌpt/",
               "pos": "v.",
@@ -16641,7 +16641,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_14",
-              "num": "09",
+              "num": "14",
               "word": "rot",
               "phonetic": "/rɑːt/",
               "pos": "n.",
@@ -16663,7 +16663,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_15",
-              "num": "10",
+              "num": "15",
               "word": "rotate",
               "phonetic": "/ˈroʊteɪt/",
               "pos": "v.",
@@ -16685,7 +16685,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_16",
-              "num": "11",
+              "num": "16",
               "word": "erode",
               "phonetic": "/ɪˈroʊd/",
               "pos": "v.",
@@ -16700,7 +16700,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_17",
-              "num": "12",
+              "num": "17",
               "word": "decay",
               "phonetic": "/dɪˈkeɪ/",
               "pos": "v.",
@@ -16715,7 +16715,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_18",
-              "num": "13",
+              "num": "18",
               "word": "bribe",
               "phonetic": "/braɪb/",
               "pos": "n.",
@@ -16737,7 +16737,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_19",
-              "num": "14",
+              "num": "19",
               "word": "debt",
               "phonetic": "/det/",
               "pos": "n.",
@@ -16759,7 +16759,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_20",
-              "num": "15",
+              "num": "20",
               "word": "indebted",
               "phonetic": "/ɪnˈdetɪd/",
               "pos": "adj.",
@@ -16774,7 +16774,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_21",
-              "num": "16",
+              "num": "21",
               "word": "levy",
               "phonetic": "/ˈlevi/",
               "pos": "n.",
@@ -16789,7 +16789,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_22",
-              "num": "17",
+              "num": "22",
               "word": "lever",
               "phonetic": "/ˈlevər/",
               "pos": "n.",
@@ -16811,7 +16811,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_23",
-              "num": "18",
+              "num": "23",
               "word": "inflate",
               "phonetic": "/ɪnˈfleɪt/",
               "pos": "v.",
@@ -16833,7 +16833,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_24",
-              "num": "19",
+              "num": "24",
               "word": "shrink",
               "phonetic": "/ʃrɪŋk/",
               "pos": "v.",
@@ -16848,7 +16848,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_25",
-              "num": "20",
+              "num": "25",
               "word": "fade",
               "phonetic": "/feɪd/",
               "pos": "v.",
@@ -16863,7 +16863,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_26",
-              "num": "21",
+              "num": "26",
               "word": "shred",
               "phonetic": "/ʃred/",
               "pos": "n.",
@@ -16878,7 +16878,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_27",
-              "num": "22",
+              "num": "27",
               "word": "sheet",
               "phonetic": "/ʃiːt/",
               "pos": "n.",
@@ -16893,7 +16893,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_28",
-              "num": "23",
+              "num": "28",
               "word": "shell",
               "phonetic": "/ʃel/",
               "pos": "n.",
@@ -16908,7 +16908,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_29",
-              "num": "24",
+              "num": "29",
               "word": "coast",
               "phonetic": "/koʊst/",
               "pos": "n.",
@@ -16930,7 +16930,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_30",
-              "num": "25",
+              "num": "30",
               "word": "deposit",
               "phonetic": "/dɪˈpɑːzɪt/",
               "pos": "n.",
@@ -16945,7 +16945,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_31",
-              "num": "26",
+              "num": "31",
               "word": "compose",
               "phonetic": "/kəmˈpoʊz/",
               "pos": "v.",
@@ -16973,7 +16973,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_32",
-              "num": "27",
+              "num": "32",
               "word": "composite",
               "phonetic": "/kəmˈpɑːzət/",
               "pos": "n.",
@@ -16988,7 +16988,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_33",
-              "num": "28",
+              "num": "33",
               "word": "compile",
               "phonetic": "/kəmˈpaɪl/",
               "pos": "v.",
@@ -17010,7 +17010,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_34",
-              "num": "29",
+              "num": "34",
               "word": "pile",
               "phonetic": "/paɪl/",
               "pos": "n.",
@@ -17025,7 +17025,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_35",
-              "num": "30",
+              "num": "35",
               "word": "file",
               "phonetic": "/faɪl/",
               "pos": "n.",
@@ -17040,7 +17040,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_36",
-              "num": "31",
+              "num": "36",
               "word": "posture",
               "phonetic": "/ˈpɑːstʃər/",
               "pos": "n.",
@@ -17062,7 +17062,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_37",
-              "num": "32",
+              "num": "37",
               "word": "propose",
               "phonetic": "/prəˈpoʊz/",
               "pos": "v.",
@@ -17084,7 +17084,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_38",
-              "num": "33",
+              "num": "38",
               "word": "proposition",
               "phonetic": "/ˌprɑːpəˈzɪʃ(ə)n/",
               "pos": "n.",
@@ -17099,7 +17099,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_39",
-              "num": "34",
+              "num": "39",
               "word": "position",
               "phonetic": "/pəˈzɪʃ(ə)n/",
               "pos": "n.",
@@ -17114,7 +17114,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_40",
-              "num": "35",
+              "num": "40",
               "word": "expose",
               "phonetic": "/ɪkˈspoʊz/",
               "pos": "v.",
@@ -17136,7 +17136,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_41",
-              "num": "36",
+              "num": "41",
               "word": "exposition",
               "phonetic": "/ˌekspəˈzɪʃ(ə)n/",
               "pos": "n.",
@@ -17151,7 +17151,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_42",
-              "num": "37",
+              "num": "42",
               "word": "dispose",
               "phonetic": "/dɪˈspoʊz/",
               "pos": "v.",
@@ -17179,7 +17179,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_43",
-              "num": "38",
+              "num": "43",
               "word": "impose",
               "phonetic": "/ɪmˈpoʊz/",
               "pos": "v.",
@@ -17207,7 +17207,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_44",
-              "num": "39",
+              "num": "44",
               "word": "oppose",
               "phonetic": "/əˈpoʊz/",
               "pos": "v.",
@@ -17229,7 +17229,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_45",
-              "num": "40",
+              "num": "45",
               "word": "opposite",
               "phonetic": "/ˈɑːpəzɪt/",
               "pos": "adj.",
@@ -17244,7 +17244,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_46",
-              "num": "41",
+              "num": "46",
               "word": "opponent",
               "phonetic": "/əˈpoʊnənt/",
               "pos": "n.",
@@ -17259,7 +17259,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_47",
-              "num": "42",
+              "num": "47",
               "word": "component",
               "phonetic": "/kəmˈpoʊnənt/",
               "pos": "n.",
@@ -17274,7 +17274,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_48",
-              "num": "43",
+              "num": "48",
               "word": "exponent",
               "phonetic": "/ɪkˈspoʊnənt/",
               "pos": "n.",
@@ -17289,7 +17289,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_49",
-              "num": "44",
+              "num": "49",
               "word": "rival",
               "phonetic": "/ˈraɪv(ə)l/",
               "pos": "n.",
@@ -17311,7 +17311,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_50",
-              "num": "45",
+              "num": "50",
               "word": "positive",
               "phonetic": "/ˈpɑːzətɪv/",
               "pos": "adj.",
@@ -17326,7 +17326,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_51",
-              "num": "46",
+              "num": "51",
               "word": "negative",
               "phonetic": "/ˈneɡətɪv/",
               "pos": "adj.",
@@ -17341,7 +17341,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_52",
-              "num": "47",
+              "num": "52",
               "word": "optimistic",
               "phonetic": "/ˌɑːptɪˈmɪstɪk/",
               "pos": "adj.",
@@ -17369,7 +17369,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l2_53",
-              "num": "48",
+              "num": "53",
               "word": "passive",
               "phonetic": "/ˈpæsɪv/",
               "pos": "adj.",
@@ -17431,7 +17431,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u5_l3_01",
-              "num": "49",
+              "num": "01",
               "word": "reluctant",
               "phonetic": "/rɪˈlʌktənt/",
               "pos": "adj.",
@@ -17453,7 +17453,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_02",
-              "num": "50",
+              "num": "02",
               "word": "attitude",
               "phonetic": "/ˈætɪtuːd/",
               "pos": "n.",
@@ -17468,7 +17468,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_03",
-              "num": "51",
+              "num": "03",
               "word": "latitude",
               "phonetic": "/ˈlætɪtuːd/",
               "pos": "n.",
@@ -17483,7 +17483,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_04",
-              "num": "52",
+              "num": "04",
               "word": "aptitude",
               "phonetic": "/ˈæptɪtuːd/",
               "pos": "n.",
@@ -17498,7 +17498,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_05",
-              "num": "01",
+              "num": "05",
               "word": "export",
               "phonetic": "/ɪkˈspɔːrt/",
               "pos": "n./v.",
@@ -17520,7 +17520,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_06",
-              "num": "02",
+              "num": "06",
               "word": "import",
               "phonetic": "/ˈɪmpɔːrt/",
               "pos": "",
@@ -17542,7 +17542,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_07",
-              "num": "03",
+              "num": "07",
               "word": "porter",
               "phonetic": "/ˈpɔːrtər/",
               "pos": "n.",
@@ -17557,7 +17557,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_08",
-              "num": "04",
+              "num": "08",
               "word": "deport",
               "phonetic": "/dɪˈpɔːrt/",
               "pos": "v.",
@@ -17579,7 +17579,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_09",
-              "num": "05",
+              "num": "09",
               "word": "support",
               "phonetic": "/səˈpɔːrt/",
               "pos": "n./v.",
@@ -17601,7 +17601,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_10",
-              "num": "06",
+              "num": "10",
               "word": "endorse",
               "phonetic": "/ɪnˈdɔːrs/",
               "pos": "v.",
@@ -17623,7 +17623,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_11",
-              "num": "07",
+              "num": "11",
               "word": "transport",
               "phonetic": "/ˈtrænspɔːrt/",
               "pos": "",
@@ -17645,7 +17645,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_12",
-              "num": "08",
+              "num": "12",
               "word": "portion",
               "phonetic": "/ˈpɔːrʃ(ə)n/",
               "pos": "n.",
@@ -17660,7 +17660,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_13",
-              "num": "60",
+              "num": "13",
               "word": "proportion",
               "phonetic": "/prəˈpɔːrʃ(ə)n/",
               "pos": "n.",
@@ -17682,7 +17682,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_14",
-              "num": "10",
+              "num": "14",
               "word": "opportunity",
               "phonetic": "/ˌɑːpərˈtuːnəti/",
               "pos": "n.",
@@ -17697,7 +17697,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_15",
-              "num": "11",
+              "num": "15",
               "word": "porch",
               "phonetic": "/pɔːrtʃ/",
               "pos": "n.",
@@ -17712,7 +17712,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_16",
-              "num": "12",
+              "num": "16",
               "word": "portfolio",
               "phonetic": "/pɔːrtˈfoʊlioʊ/",
               "pos": "n.",
@@ -17727,7 +17727,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_17",
-              "num": "13",
+              "num": "17",
               "word": "deem",
               "phonetic": "/diːm/",
               "pos": "v.",
@@ -17742,7 +17742,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_18",
-              "num": "14",
+              "num": "18",
               "word": "assert",
               "phonetic": "/əˈsɜːrt/",
               "pos": "v.",
@@ -17770,7 +17770,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_19",
-              "num": "15",
+              "num": "19",
               "word": "insert",
               "phonetic": "/ɪnˈsɜːrt/",
               "pos": "",
@@ -17792,7 +17792,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_20",
-              "num": "16",
+              "num": "20",
               "word": "claim",
               "phonetic": "/kleɪm/",
               "pos": "n.",
@@ -17807,7 +17807,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_21",
-              "num": "17",
+              "num": "21",
               "word": "exclaim",
               "phonetic": "/ɪkˈskleɪm/",
               "pos": "v.",
@@ -17835,7 +17835,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_22",
-              "num": "18",
+              "num": "22",
               "word": "acclaim",
               "phonetic": "/əˈkleɪm/",
               "pos": "v.",
@@ -17850,7 +17850,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_23",
-              "num": "19",
+              "num": "23",
               "word": "proclaim",
               "phonetic": "/prəˈkleɪm/",
               "pos": "v.",
@@ -17865,7 +17865,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_24",
-              "num": "20",
+              "num": "24",
               "word": "proclamation",
               "phonetic": "/ˌprɑːkləˈmeɪʃ(ə)n/",
               "pos": "n.",
@@ -17880,7 +17880,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_25",
-              "num": "21",
+              "num": "25",
               "word": "declare",
               "phonetic": "/dɪˈkler/",
               "pos": "v.",
@@ -17908,7 +17908,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_26",
-              "num": "22",
+              "num": "26",
               "word": "allege",
               "phonetic": "/əˈledʒ/",
               "pos": "v.",
@@ -17942,7 +17942,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_27",
-              "num": "23",
+              "num": "27",
               "word": "pledge",
               "phonetic": "/pledʒ/",
               "pos": "v.",
@@ -17957,7 +17957,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_28",
-              "num": "24",
+              "num": "28",
               "word": "swear",
               "phonetic": "/sweə(r)/",
               "pos": "v.",
@@ -17972,7 +17972,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_29",
-              "num": "25",
+              "num": "29",
               "word": "vow",
               "phonetic": "/vau/",
               "pos": "n.",
@@ -17987,7 +17987,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_30",
-              "num": "26",
+              "num": "30",
               "word": "assure",
               "phonetic": "/əˈʃʊr/",
               "pos": "v.",
@@ -18009,7 +18009,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_31",
-              "num": "27",
+              "num": "31",
               "word": "reassure",
               "phonetic": "/ˌriːəˈʃʊr/",
               "pos": "",
@@ -18031,7 +18031,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_32",
-              "num": "28",
+              "num": "32",
               "word": "ensure",
               "phonetic": "/ɪnˈʃʊr/",
               "pos": "",
@@ -18046,7 +18046,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_33",
-              "num": "29",
+              "num": "33",
               "word": "insure",
               "phonetic": "/ɪnˈʃʊr/",
               "pos": "",
@@ -18068,7 +18068,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_34",
-              "num": "30",
+              "num": "34",
               "word": "guarantee",
               "phonetic": "/ˌɡærənˈtiː/",
               "pos": "n.",
@@ -18083,7 +18083,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_35",
-              "num": "31",
+              "num": "35",
               "word": "persuade",
               "phonetic": "/pərˈsweɪd/",
               "pos": "v.",
@@ -18111,7 +18111,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_36",
-              "num": "32",
+              "num": "36",
               "word": "promise",
               "phonetic": "/ˈprɑːmɪs/",
               "pos": "n.",
@@ -18126,7 +18126,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_37",
-              "num": "33",
+              "num": "37",
               "word": "promising",
               "phonetic": "/ˈprɑːmɪsɪŋ/",
               "pos": "adj.",
@@ -18141,7 +18141,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_38",
-              "num": "34",
+              "num": "38",
               "word": "premise",
               "phonetic": "/ˈpremɪs/",
               "pos": "n.",
@@ -18156,7 +18156,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_39",
-              "num": "35",
+              "num": "39",
               "word": "compromise",
               "phonetic": "/ˈkɑːmprəmaɪz/",
               "pos": "n.",
@@ -18171,7 +18171,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_40",
-              "num": "36",
+              "num": "40",
               "word": "infinite",
               "phonetic": "/ˈɪnfɪnət/",
               "pos": "adj.",
@@ -18199,7 +18199,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_41",
-              "num": "37",
+              "num": "41",
               "word": "finite",
               "phonetic": "/ˈfaɪnaɪt/",
               "pos": "adj.",
@@ -18214,7 +18214,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_42",
-              "num": "38",
+              "num": "42",
               "word": "define",
               "phonetic": "/dɪˈfaɪn/",
               "pos": "v.",
@@ -18229,7 +18229,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_43",
-              "num": "39",
+              "num": "43",
               "word": "definite",
               "phonetic": "/ˈdefɪnət/",
               "pos": "adj.",
@@ -18251,7 +18251,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_44",
-              "num": "40",
+              "num": "44",
               "word": "definition",
               "phonetic": "/ˌdefɪˈnɪʃn/",
               "pos": "n.",
@@ -18266,7 +18266,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_45",
-              "num": "41",
+              "num": "45",
               "word": "indefinite",
               "phonetic": "/ɪnˈdefɪnət/",
               "pos": "adj.",
@@ -18281,7 +18281,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_46",
-              "num": "42",
+              "num": "46",
               "word": "refine",
               "phonetic": "/rɪˈfaɪn/",
               "pos": "v.",
@@ -18303,7 +18303,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_47",
-              "num": "43",
+              "num": "47",
               "word": "refinery",
               "phonetic": "/rɪˈfaɪnəri/",
               "pos": "n.",
@@ -18318,7 +18318,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_48",
-              "num": "44",
+              "num": "48",
               "word": "distil",
               "phonetic": "/dɪˈstɪl/",
               "pos": "v.",
@@ -18333,7 +18333,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_49",
-              "num": "45",
+              "num": "49",
               "word": "confine",
               "phonetic": "/kənˈfaɪn/",
               "pos": "v.",
@@ -18355,7 +18355,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_50",
-              "num": "46",
+              "num": "50",
               "word": "restrain",
               "phonetic": "/rɪˈstreɪn/",
               "pos": "v.",
@@ -18377,7 +18377,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_51",
-              "num": "47",
+              "num": "51",
               "word": "constrain",
               "phonetic": "/kənˈstreɪn/",
               "pos": "v.",
@@ -18399,7 +18399,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_52",
-              "num": "48",
+              "num": "52",
               "word": "stifle",
               "phonetic": "/ˈstaɪf(ə)l/",
               "pos": "v.",
@@ -18414,7 +18414,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l3_53",
-              "num": "49",
+              "num": "53",
               "word": "strain",
               "phonetic": "/streɪn/",
               "pos": "n.",
@@ -18491,7 +18491,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_02",
-              "num": "51",
+              "num": "02",
               "word": "thermal",
               "phonetic": "/ˈθɜːrm(ə)l/",
               "pos": "adj.",
@@ -18506,7 +18506,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_03",
-              "num": "52",
+              "num": "03",
               "word": "cozy",
               "phonetic": "/ˈkoʊzi/",
               "pos": "adj.",
@@ -18521,7 +18521,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_04",
-              "num": "01",
+              "num": "04",
               "word": "block",
               "phonetic": "/blɑːk/",
               "pos": "n.",
@@ -18536,7 +18536,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_05",
-              "num": "02",
+              "num": "05",
               "word": "bloc",
               "phonetic": "/blɑːk/",
               "pos": "n.",
@@ -18551,7 +18551,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_06",
-              "num": "03",
+              "num": "06",
               "word": "company",
               "phonetic": "/'kAmpani/",
               "pos": "n.",
@@ -18566,7 +18566,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_07",
-              "num": "04",
+              "num": "07",
               "word": "accompany",
               "phonetic": "/əˈkʌmpəni/",
               "pos": "v.",
@@ -18581,7 +18581,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_08",
-              "num": "05",
+              "num": "08",
               "word": "companion",
               "phonetic": "/kəmˈpænjən/",
               "pos": "n.",
@@ -18603,7 +18603,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_09",
-              "num": "06",
+              "num": "09",
               "word": "multiply",
               "phonetic": "/ˈmʌltɪplaɪ/",
               "pos": "v.",
@@ -18625,7 +18625,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_10",
-              "num": "07",
+              "num": "10",
               "word": "multiple",
               "phonetic": "/ˈmʌltɪp(ə)l/",
               "pos": "adj.",
@@ -18640,7 +18640,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_11",
-              "num": "08",
+              "num": "11",
               "word": "multitude",
               "phonetic": "/ˈmʌltɪtuːd/",
               "pos": "n.",
@@ -18655,7 +18655,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_12",
-              "num": "60",
+              "num": "12",
               "word": "affiliate",
               "phonetic": "/əˈfɪlieɪt/",
               "pos": "",
@@ -18677,7 +18677,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_13",
-              "num": "10",
+              "num": "13",
               "word": "auxiliary",
               "phonetic": "/ɔːɡˈzɪliəri/",
               "pos": "adj.",
@@ -18692,7 +18692,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_14",
-              "num": "11",
+              "num": "14",
               "word": "affix",
               "phonetic": "/əˈfɪks/",
               "pos": "n./v.",
@@ -18714,7 +18714,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_15",
-              "num": "12",
+              "num": "15",
               "word": "firm",
               "phonetic": "/fɜːrm/",
               "pos": "n.",
@@ -18729,7 +18729,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_16",
-              "num": "13",
+              "num": "16",
               "word": "affirm",
               "phonetic": "/əˈfɜːrm/",
               "pos": "v.",
@@ -18757,7 +18757,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_17",
-              "num": "14",
+              "num": "17",
               "word": "enterprise",
               "phonetic": "/ˈentərpraɪz/",
               "pos": "n.",
@@ -18779,7 +18779,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_18",
-              "num": "15",
+              "num": "18",
               "word": "entrepreneur",
               "phonetic": "/ˌɑːntrəprəˈnɜːr/",
               "pos": "n.",
@@ -18801,7 +18801,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_19",
-              "num": "16",
+              "num": "19",
               "word": "commerce",
               "phonetic": "/ˈkɑːmɜːrs/",
               "pos": "n.",
@@ -18829,7 +18829,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_20",
-              "num": "17",
+              "num": "20",
               "word": "commodity",
               "phonetic": "/kəˈmɑːdəti/",
               "pos": "n.",
@@ -18844,7 +18844,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_21",
-              "num": "18",
+              "num": "21",
               "word": "merchant",
               "phonetic": "/ˈmɜːrtʃənt/",
               "pos": "n.",
@@ -18859,7 +18859,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_22",
-              "num": "19",
+              "num": "22",
               "word": "merchandise",
               "phonetic": "/ˈmɜːrtʃəndaɪs/",
               "pos": "",
@@ -18874,7 +18874,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_23",
-              "num": "20",
+              "num": "23",
               "word": "sale",
               "phonetic": "/seɪl/",
               "pos": "n.",
@@ -18889,7 +18889,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_24",
-              "num": "21",
+              "num": "24",
               "word": "wholesale",
               "phonetic": "/ˈhoʊlseɪl/",
               "pos": "adv.",
@@ -18904,7 +18904,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_25",
-              "num": "22",
+              "num": "25",
               "word": "retail",
               "phonetic": "/ˈriːteɪl/",
               "pos": "n.",
@@ -18926,7 +18926,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_26",
-              "num": "23",
+              "num": "26",
               "word": "entail",
               "phonetic": "/ɪnˈteɪl/",
               "pos": "v.",
@@ -18941,7 +18941,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_27",
-              "num": "24",
+              "num": "27",
               "word": "afford",
               "phonetic": "/əˈfɔːrd/",
               "pos": "v.",
@@ -18969,7 +18969,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_28",
-              "num": "25",
+              "num": "28",
               "word": "purchase",
               "phonetic": "/ˈpɜːrtʃəs/",
               "pos": "n.",
@@ -18984,7 +18984,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_29",
-              "num": "26",
+              "num": "29",
               "word": "board",
               "phonetic": "/bɔːrd/",
               "pos": "n.",
@@ -18999,7 +18999,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_30",
-              "num": "27",
+              "num": "30",
               "word": "corporation",
               "phonetic": "/ˌkɔːrpəˈreɪʃ(ə)n/",
               "pos": "n.",
@@ -19021,7 +19021,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_31",
-              "num": "28",
+              "num": "31",
               "word": "incorporate",
               "phonetic": "/ɪnˈkɔːrpəreɪt/",
               "pos": "v.",
@@ -19043,7 +19043,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_32",
-              "num": "29",
+              "num": "32",
               "word": "compete",
               "phonetic": "/kəmˈpiːt/",
               "pos": "v.",
@@ -19077,7 +19077,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_33",
-              "num": "30",
+              "num": "33",
               "word": "competent",
               "phonetic": "/ˈkɑːmpɪtənt/",
               "pos": "adj.",
@@ -19092,7 +19092,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_34",
-              "num": "31",
+              "num": "34",
               "word": "competence",
               "phonetic": "/ˈkɑːmpɪtəns/",
               "pos": "n.",
@@ -19107,7 +19107,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_35",
-              "num": "32",
+              "num": "35",
               "word": "versus",
               "phonetic": "/ˈvɜːrsəs/",
               "pos": "prep.",
@@ -19122,7 +19122,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_36",
-              "num": "33",
+              "num": "36",
               "word": "operate",
               "phonetic": "/ˈɑːpəreɪt/",
               "pos": "v.",
@@ -19162,7 +19162,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_37",
-              "num": "34",
+              "num": "37",
               "word": "cooperate",
               "phonetic": "/koʊˈɑːpəreɪt/",
               "pos": "v.",
@@ -19184,7 +19184,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_38",
-              "num": "35",
+              "num": "38",
               "word": "cooperative",
               "phonetic": "/koʊˈɑːpərətɪv/",
               "pos": "n.",
@@ -19199,7 +19199,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_39",
-              "num": "36",
+              "num": "39",
               "word": "collaborate",
               "phonetic": "/kəˈlæbəreɪt/",
               "pos": "v.",
@@ -19221,7 +19221,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_40",
-              "num": "37",
+              "num": "40",
               "word": "elaborate",
               "phonetic": "/ɪˈlæbərət/",
               "pos": "",
@@ -19243,7 +19243,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_41",
-              "num": "38",
+              "num": "41",
               "word": "subsidy",
               "phonetic": "/ˈsʌbsədi/",
               "pos": "n.",
@@ -19265,7 +19265,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_42",
-              "num": "39",
+              "num": "42",
               "word": "allowance",
               "phonetic": "/əˈlaʊəns/",
               "pos": "n.",
@@ -19280,7 +19280,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_43",
-              "num": "40",
+              "num": "43",
               "word": "bonus",
               "phonetic": "/ˈboʊnəs/",
               "pos": "n.",
@@ -19295,7 +19295,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_44",
-              "num": "41",
+              "num": "44",
               "word": "dole",
               "phonetic": "/doʊl/",
               "pos": "n.",
@@ -19310,7 +19310,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_45",
-              "num": "42",
+              "num": "45",
               "word": "dividend",
               "phonetic": "/ˈdɪvɪdend/",
               "pos": "n.",
@@ -19325,7 +19325,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_46",
-              "num": "43",
+              "num": "46",
               "word": "privilege",
               "phonetic": "/ˈprɪvəlɪdʒ/",
               "pos": "n.",
@@ -19340,7 +19340,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_47",
-              "num": "44",
+              "num": "47",
               "word": "privileged",
               "phonetic": "/ˈprɪvəlɪdʒd/",
               "pos": "adj.",
@@ -19355,7 +19355,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_48",
-              "num": "45",
+              "num": "48",
               "word": "avenue",
               "phonetic": "/ˈævənuː/",
               "pos": "n.",
@@ -19370,7 +19370,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_49",
-              "num": "46",
+              "num": "49",
               "word": "revenue",
               "phonetic": "/ˈrevənuː/",
               "pos": "n.",
@@ -19385,7 +19385,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_50",
-              "num": "47",
+              "num": "50",
               "word": "inventory",
               "phonetic": "/ˈɪnvəntɔːri/",
               "pos": "n.",
@@ -19400,7 +19400,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_51",
-              "num": "48",
+              "num": "51",
               "word": "revenge",
               "phonetic": "/rɪˈvendʒ/",
               "pos": "n.",
@@ -19422,7 +19422,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_52",
-              "num": "49",
+              "num": "52",
               "word": "bypass",
               "phonetic": "/ˈbaɪpæs/",
               "pos": "n.",
@@ -19437,7 +19437,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_53",
-              "num": "50",
+              "num": "53",
               "word": "whereby",
               "phonetic": "/werˈbaɪ/",
               "pos": "adv.",
@@ -19452,7 +19452,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_54",
-              "num": "51",
+              "num": "54",
               "word": "freeway",
               "phonetic": "/ˈfriːweɪ/",
               "pos": "n.",
@@ -19467,7 +19467,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_55",
-              "num": "52",
+              "num": "55",
               "word": "aisle",
               "phonetic": "/aɪl/",
               "pos": "n.",
@@ -19489,7 +19489,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_56",
-              "num": "54",
+              "num": "56",
               "word": "underline",
               "phonetic": "/ˌʌndərˈlaɪn/",
               "pos": "v.",
@@ -19504,7 +19504,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_57",
-              "num": "55",
+              "num": "57",
               "word": "undermine",
               "phonetic": "/ˌʌndərˈmaɪn/",
               "pos": "v.",
@@ -19519,7 +19519,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_58",
-              "num": "56",
+              "num": "58",
               "word": "undergo",
               "phonetic": "/ˌʌndərˈɡoʊ/",
               "pos": "v.",
@@ -19534,7 +19534,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_59",
-              "num": "57",
+              "num": "59",
               "word": "undertake",
               "phonetic": "/ˌʌndərˈteɪk/",
               "pos": "v.",
@@ -19549,7 +19549,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_60",
-              "num": "58",
+              "num": "60",
               "word": "deadline",
               "phonetic": "/ˈdedlaɪn/",
               "pos": "n.",
@@ -19564,7 +19564,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_61",
-              "num": "59",
+              "num": "61",
               "word": "guideline",
               "phonetic": "/ˈɡaɪdlaɪn/",
               "pos": "n.",
@@ -19579,7 +19579,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_62",
-              "num": "60",
+              "num": "62",
               "word": "skyline",
               "phonetic": "/ˈskaɪlaɪn/",
               "pos": "n.",
@@ -19594,7 +19594,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_63",
-              "num": "61",
+              "num": "63",
               "word": "streamline",
               "phonetic": "/ˈstriːmlaɪn/",
               "pos": "",
@@ -19609,7 +19609,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u5_l4_64",
-              "num": "62",
+              "num": "64",
               "word": "align",
               "phonetic": "/əˈlaɪn/",
               "pos": "",
@@ -19812,7 +19812,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l1_09",
-              "num": "60",
+              "num": "09",
               "word": "vitamin",
               "phonetic": "/'vitomin/",
               "pos": "n.",
@@ -21511,7 +21511,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l2_09",
-              "num": "60",
+              "num": "09",
               "word": "calculate",
               "phonetic": "/ˈkælkjuleɪt/",
               "pos": "v.",
@@ -22105,7 +22105,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u6_l3_01",
-              "num": "36",
+              "num": "01",
               "word": "assemble",
               "phonetic": "/əˈsemb(ə)l/",
               "pos": "v.",
@@ -22127,7 +22127,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_02",
-              "num": "37",
+              "num": "02",
               "word": "similar",
               "phonetic": "/ˈsɪmələr/",
               "pos": "adj.",
@@ -22142,7 +22142,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_03",
-              "num": "38",
+              "num": "03",
               "word": "similarity",
               "phonetic": "/ˌsɪməˈlærəti/",
               "pos": "n.",
@@ -22157,7 +22157,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_04",
-              "num": "39",
+              "num": "04",
               "word": "assimilate",
               "phonetic": "/əˈsɪməleɪt/",
               "pos": "v.",
@@ -22179,7 +22179,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_05",
-              "num": "40",
+              "num": "05",
               "word": "absorb",
               "phonetic": "/əbˈzɔːrb/",
               "pos": "v.",
@@ -22201,7 +22201,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_06",
-              "num": "41",
+              "num": "06",
               "word": "absurd",
               "phonetic": "/əbˈsɜːrd/",
               "pos": "adj.",
@@ -22223,7 +22223,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_07",
-              "num": "01",
+              "num": "07",
               "word": "appease",
               "phonetic": "/əˈpiːz/",
               "pos": "v.",
@@ -22245,7 +22245,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_08",
-              "num": "02",
+              "num": "08",
               "word": "console",
               "phonetic": "/kənˈsoʊl/",
               "pos": "",
@@ -22267,7 +22267,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_09",
-              "num": "03",
+              "num": "09",
               "word": "sole",
               "phonetic": "/soʊl/",
               "pos": "adj.",
@@ -22289,7 +22289,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_10",
-              "num": "04",
+              "num": "10",
               "word": "solemn",
               "phonetic": "/ˈsɑːləm/",
               "pos": "adj.",
@@ -22311,7 +22311,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_11",
-              "num": "05",
+              "num": "11",
               "word": "solitary",
               "phonetic": "/ˈsɑːləteri/",
               "pos": "adj.",
@@ -22333,7 +22333,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_12",
-              "num": "06",
+              "num": "12",
               "word": "solo",
               "phonetic": "/ˈsoʊloʊ/",
               "pos": "n.",
@@ -22348,7 +22348,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_13",
-              "num": "07",
+              "num": "13",
               "word": "silence",
               "phonetic": "/ˈsaɪləns/",
               "pos": "n.",
@@ -22370,7 +22370,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_14",
-              "num": "08",
+              "num": "14",
               "word": "mute",
               "phonetic": "/mjuːt/",
               "pos": "v.",
@@ -22385,7 +22385,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_15",
-              "num": "60",
+              "num": "15",
               "word": "assist",
               "phonetic": "/əˈsɪst/",
               "pos": "n.",
@@ -22413,7 +22413,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_16",
-              "num": "10",
+              "num": "16",
               "word": "persist",
               "phonetic": "/pərˈsɪst/",
               "pos": "v.",
@@ -22441,7 +22441,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_17",
-              "num": "11",
+              "num": "17",
               "word": "insist",
               "phonetic": "/ɪnˈsɪst/",
               "pos": "v.",
@@ -22469,7 +22469,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_18",
-              "num": "12",
+              "num": "18",
               "word": "consist",
               "phonetic": "/kənˈsɪst/",
               "pos": "v.",
@@ -22484,7 +22484,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_19",
-              "num": "13",
+              "num": "19",
               "word": "resist",
               "phonetic": "/rɪˈzɪst/",
               "pos": "v.",
@@ -22512,7 +22512,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_20",
-              "num": "14",
+              "num": "20",
               "word": "consistent",
               "phonetic": "/kənˈsɪstənt/",
               "pos": "adj.",
@@ -22534,7 +22534,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_21",
-              "num": "15",
+              "num": "21",
               "word": "subsistence",
               "phonetic": "/səbˈsɪstəns/",
               "pos": "n.",
@@ -22549,7 +22549,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_22",
-              "num": "17",
+              "num": "22",
               "word": "constant",
               "phonetic": "/ˈkɑːnstənt/",
               "pos": "adj.",
@@ -22564,7 +22564,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_23",
-              "num": "18",
+              "num": "23",
               "word": "instant",
               "phonetic": "/ˈɪnstənt/",
               "pos": "adj.",
@@ -22579,7 +22579,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_24",
-              "num": "19",
+              "num": "24",
               "word": "instantaneous",
               "phonetic": "/ˌɪnstənˈteɪniəs/",
               "pos": "adj.",
@@ -22594,7 +22594,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_25",
-              "num": "20",
+              "num": "25",
               "word": "immediate",
               "phonetic": "/ɪˈmiːdiət/",
               "pos": "adj.",
@@ -22616,7 +22616,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_26",
-              "num": "21",
+              "num": "26",
               "word": "mediate",
               "phonetic": "/ˈmiːdieɪt/",
               "pos": "v.",
@@ -22644,7 +22644,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_27",
-              "num": "22",
+              "num": "27",
               "word": "medium",
               "phonetic": "/ˈmiːdiəm/",
               "pos": "adj.",
@@ -22659,7 +22659,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_28",
-              "num": "23",
+              "num": "28",
               "word": "amid",
               "phonetic": "/əˈmɪd/",
               "pos": "prep.",
@@ -22674,7 +22674,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_29",
-              "num": "24",
+              "num": "29",
               "word": "midst",
               "phonetic": "/mɪdst/",
               "pos": "n.",
@@ -22689,7 +22689,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_30",
-              "num": "25",
+              "num": "30",
               "word": "medieval",
               "phonetic": "/ˌmiːdˈiːv(ə)l/",
               "pos": "adj.",
@@ -22704,7 +22704,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_31",
-              "num": "26",
+              "num": "31",
               "word": "middle-class",
               "phonetic": "/ˌmɪdl ˈklæs/",
               "pos": "adj.",
@@ -22719,7 +22719,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_32",
-              "num": "27",
+              "num": "32",
               "word": "midday",
               "phonetic": "/ˌmɪdˈdeɪ/",
               "pos": "n.",
@@ -22734,7 +22734,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_33",
-              "num": "28",
+              "num": "33",
               "word": "midwife",
               "phonetic": "/ˈmɪdwaɪf/",
               "pos": "n.",
@@ -22749,7 +22749,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_34",
-              "num": "29",
+              "num": "34",
               "word": "intermediate",
               "phonetic": "/ˌɪntərˈmiːdiət/",
               "pos": "adj.",
@@ -22764,7 +22764,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_35",
-              "num": "30",
+              "num": "35",
               "word": "intermediary",
               "phonetic": "/ˌɪntərˈmiːdieri/",
               "pos": "n.",
@@ -22779,7 +22779,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_36",
-              "num": "31",
+              "num": "36",
               "word": "overtime",
               "phonetic": "/ˈoʊvərtaɪm/",
               "pos": "n.",
@@ -22794,7 +22794,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_37",
-              "num": "32",
+              "num": "37",
               "word": "overtake",
               "phonetic": "/ˌoʊvərˈteɪk/",
               "pos": "v.",
@@ -22809,7 +22809,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_38",
-              "num": "33",
+              "num": "38",
               "word": "overthrow",
               "phonetic": "/ˌoʊvərˈθroʊ/",
               "pos": "",
@@ -22824,7 +22824,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_39",
-              "num": "34",
+              "num": "39",
               "word": "overflow",
               "phonetic": "/ˌoʊvərˈfloʊ/",
               "pos": "v.",
@@ -22839,7 +22839,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_40",
-              "num": "35",
+              "num": "40",
               "word": "overall",
               "phonetic": "/ˌoʊvərˈɔːl/",
               "pos": "adj.",
@@ -22854,7 +22854,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_41",
-              "num": "36",
+              "num": "41",
               "word": "oversee",
               "phonetic": "/ˌoʊvərˈsiː/",
               "pos": "v.",
@@ -22869,7 +22869,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_42",
-              "num": "37",
+              "num": "42",
               "word": "overhaul",
               "phonetic": "/ˌoʊvərˈhɔːl/",
               "pos": "",
@@ -22884,7 +22884,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_43",
-              "num": "38",
+              "num": "43",
               "word": "overcome",
               "phonetic": "/ˌoʊvərˈkʌm/",
               "pos": "v.",
@@ -22899,7 +22899,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_44",
-              "num": "39",
+              "num": "44",
               "word": "overhear",
               "phonetic": "/ˌoʊvərˈhɪr/",
               "pos": "v.",
@@ -22914,7 +22914,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_45",
-              "num": "40",
+              "num": "45",
               "word": "overseas",
               "phonetic": "/ˌoʊvərˈsiːz/",
               "pos": "adj.",
@@ -22929,7 +22929,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_46",
-              "num": "41",
+              "num": "46",
               "word": "override",
               "phonetic": "/ˌoʊvərˈraɪd/",
               "pos": "v.",
@@ -22944,7 +22944,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_47",
-              "num": "42",
+              "num": "47",
               "word": "overdue",
               "phonetic": "/ˌoʊvərˈduː/",
               "pos": "adj.",
@@ -22959,7 +22959,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_48",
-              "num": "43",
+              "num": "48",
               "word": "comprehension",
               "phonetic": "/ˌkɑːmprɪˈhenʃ(ə)n/",
               "pos": "n.",
@@ -22981,7 +22981,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_49",
-              "num": "44",
+              "num": "49",
               "word": "comprehensive",
               "phonetic": "/ˌkɑːmprɪˈhensɪv/",
               "pos": "adj.",
@@ -22996,7 +22996,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_50",
-              "num": "45",
+              "num": "50",
               "word": "overnight",
               "phonetic": "/ˌoʊvərˈnaɪt/",
               "pos": "",
@@ -23011,7 +23011,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_51",
-              "num": "46",
+              "num": "51",
               "word": "overturn",
               "phonetic": "/ˌoʊvərˈtɜːrn/",
               "pos": "v.",
@@ -23026,7 +23026,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_52",
-              "num": "47",
+              "num": "52",
               "word": "turnover",
               "phonetic": "/ˈtɜːrnoʊvər/",
               "pos": "n.",
@@ -23041,7 +23041,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_53",
-              "num": "48",
+              "num": "53",
               "word": "plunge",
               "phonetic": "/plʌndʒ/",
               "pos": "v.",
@@ -23056,7 +23056,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_54",
-              "num": "49",
+              "num": "54",
               "word": "slump",
               "phonetic": "/slʌmp/",
               "pos": "n.",
@@ -23071,7 +23071,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_55",
-              "num": "50",
+              "num": "55",
               "word": "lump",
               "phonetic": "/lʌmp/",
               "pos": "n.",
@@ -23086,7 +23086,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_56",
-              "num": "51",
+              "num": "56",
               "word": "bump",
               "phonetic": "/bʌmp/",
               "pos": "n.",
@@ -23101,7 +23101,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_57",
-              "num": "52",
+              "num": "57",
               "word": "dump",
               "phonetic": "/dʌmp/",
               "pos": "n.",
@@ -23116,7 +23116,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l3_58",
-              "num": "53",
+              "num": "58",
               "word": "slash",
               "phonetic": "/slæʃ/",
               "pos": "v.",
@@ -23331,7 +23331,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u6_l4_08",
-              "num": "80",
+              "num": "08",
               "word": "nominal",
               "phonetic": "/ˈnɑːmɪn(ə)l/",
               "pos": "adj.",
@@ -24010,7 +24010,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l1_03",
-              "num": "0",
+              "num": "03",
               "word": "dope",
               "phonetic": "/doʊp/",
               "pos": "v.",
@@ -24114,7 +24114,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l1_09",
-              "num": "60",
+              "num": "09",
               "word": "patron",
               "phonetic": "/ˈpeɪtrən/",
               "pos": "n.",
@@ -25272,7 +25272,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_02",
-              "num": "01",
+              "num": "02",
               "word": "acquire",
               "phonetic": "/əˈkwaɪər/",
               "pos": "v.",
@@ -25287,7 +25287,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_03",
-              "num": "02",
+              "num": "03",
               "word": "acquisition",
               "phonetic": "/ˌækwɪˈzɪʃ(ə)n/",
               "pos": "n.",
@@ -25302,7 +25302,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_04",
-              "num": "03",
+              "num": "04",
               "word": "enquire",
               "phonetic": "/ɪnˈkwaɪə(r)/",
               "pos": "",
@@ -25324,7 +25324,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_05",
-              "num": "04",
+              "num": "05",
               "word": "require",
               "phonetic": "/rɪˈkwaɪər/",
               "pos": "v.",
@@ -25352,7 +25352,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_06",
-              "num": "05",
+              "num": "06",
               "word": "prerequisite",
               "phonetic": "/ˌpriːˈrekwəzɪt/",
               "pos": "n.",
@@ -25367,7 +25367,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_07",
-              "num": "06",
+              "num": "07",
               "word": "plea",
               "phonetic": "/pliː/",
               "pos": "n.",
@@ -25389,7 +25389,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_08",
-              "num": "07",
+              "num": "08",
               "word": "request",
               "phonetic": "/rɪˈkwest/",
               "pos": "v.",
@@ -25404,7 +25404,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_09",
-              "num": "08",
+              "num": "09",
               "word": "quest",
               "phonetic": "/kwest/",
               "pos": "n.",
@@ -25419,7 +25419,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_10",
-              "num": "60",
+              "num": "10",
               "word": "questionnaire",
               "phonetic": "/ˌkwestʃəˈner/",
               "pos": "n.",
@@ -25434,7 +25434,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_11",
-              "num": "10",
+              "num": "11",
               "word": "pursue",
               "phonetic": "/pərˈsuː/",
               "pos": "v.",
@@ -25456,7 +25456,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_12",
-              "num": "11",
+              "num": "12",
               "word": "power",
               "phonetic": "/ˈpaʊər/",
               "pos": "n.",
@@ -25478,7 +25478,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_13",
-              "num": "12",
+              "num": "13",
               "word": "willpower",
               "phonetic": "/ˈwɪlpaʊər/",
               "pos": "n.",
@@ -25493,7 +25493,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_14",
-              "num": "13",
+              "num": "14",
               "word": "force",
               "phonetic": "/fɔːrs/",
               "pos": "n.",
@@ -25515,7 +25515,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_15",
-              "num": "14",
+              "num": "15",
               "word": "enforce",
               "phonetic": "/in'fors/",
               "pos": "v.",
@@ -25537,7 +25537,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_16",
-              "num": "15",
+              "num": "16",
               "word": "oblige",
               "phonetic": "/əˈblaɪdʒ/",
               "pos": "v.",
@@ -25571,7 +25571,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_17",
-              "num": "16",
+              "num": "17",
               "word": "reinforce",
               "phonetic": "/ˌriːɪnˈfɔːrs/",
               "pos": "v.",
@@ -25593,7 +25593,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_18",
-              "num": "17",
+              "num": "18",
               "word": "enhance",
               "phonetic": "/ɪnˈhæns/",
               "pos": "v.",
@@ -25615,7 +25615,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_19",
-              "num": "18",
+              "num": "19",
               "word": "advance",
               "phonetic": "/ədˈvæns/",
               "pos": "n.",
@@ -25643,7 +25643,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_20",
-              "num": "19",
+              "num": "20",
               "word": "underdeveloped",
               "phonetic": "/ndadi'velapt/",
               "pos": "adj.",
@@ -25658,7 +25658,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_21",
-              "num": "20",
+              "num": "21",
               "word": "boost",
               "phonetic": "/buːst/",
               "pos": "n.",
@@ -25673,7 +25673,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_22",
-              "num": "21",
+              "num": "22",
               "word": "boast",
               "phonetic": "/boʊst/",
               "pos": "n.",
@@ -25695,7 +25695,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_23",
-              "num": "22",
+              "num": "23",
               "word": "exaggerate",
               "phonetic": "/ɪɡˈzædʒəreɪt/",
               "pos": "v.",
@@ -25710,7 +25710,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_24",
-              "num": "23",
+              "num": "24",
               "word": "overstate",
               "phonetic": "/ˌoʊvərˈsteɪt/",
               "pos": "v.",
@@ -25725,7 +25725,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_25",
-              "num": "24",
+              "num": "25",
               "word": "state",
               "phonetic": "/steɪt/",
               "pos": "n.",
@@ -25747,7 +25747,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_26",
-              "num": "25",
+              "num": "26",
               "word": "memory",
               "phonetic": "/ˈmeməri/",
               "pos": "n.",
@@ -25762,7 +25762,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_27",
-              "num": "26",
+              "num": "27",
               "word": "memorize",
               "phonetic": "/ˈmeməraɪz/",
               "pos": "v.",
@@ -25777,7 +25777,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_28",
-              "num": "27",
+              "num": "28",
               "word": "memo",
               "phonetic": "/ˈmemoʊ/",
               "pos": "n.",
@@ -25792,7 +25792,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_29",
-              "num": "28",
+              "num": "29",
               "word": "commemorate",
               "phonetic": "/kəˈmeməreɪt/",
               "pos": "v.",
@@ -25814,7 +25814,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_30",
-              "num": "29",
+              "num": "30",
               "word": "memorial",
               "phonetic": "/məˈmɔːriəl/",
               "pos": "adj.",
@@ -25829,7 +25829,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_31",
-              "num": "30",
+              "num": "31",
               "word": "monument",
               "phonetic": "/ˈmɑːnjumənt/",
               "pos": "n.",
@@ -25851,7 +25851,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_32",
-              "num": "31",
+              "num": "32",
               "word": "recall",
               "phonetic": "/rɪˈkɔːl/",
               "pos": "n.",
@@ -25866,7 +25866,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_33",
-              "num": "32",
+              "num": "33",
               "word": "remind",
               "phonetic": "/rɪˈmaɪnd/",
               "pos": "v.",
@@ -25881,7 +25881,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_34",
-              "num": "33",
+              "num": "34",
               "word": "reminder",
               "phonetic": "/rɪˈmaɪndər/",
               "pos": "n.",
@@ -25896,7 +25896,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_35",
-              "num": "34",
+              "num": "35",
               "word": "mindset",
               "phonetic": "/ˈmaɪndset/",
               "pos": "n.",
@@ -25911,7 +25911,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_36",
-              "num": "35",
+              "num": "36",
               "word": "represent",
               "phonetic": "/ˌreprɪˈzent/",
               "pos": "v.",
@@ -25933,7 +25933,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_37",
-              "num": "36",
+              "num": "37",
               "word": "replace",
               "phonetic": "/rɪˈpleɪs/",
               "pos": "v.",
@@ -25961,7 +25961,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_38",
-              "num": "37",
+              "num": "38",
               "word": "displace",
               "phonetic": "/dɪsˈpleɪs/",
               "pos": "v.",
@@ -25983,7 +25983,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_39",
-              "num": "38",
+              "num": "39",
               "word": "servant",
               "phonetic": "/ˈsɜːrvənt/",
               "pos": "n.",
@@ -25998,7 +25998,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_40",
-              "num": "39",
+              "num": "40",
               "word": "observe",
               "phonetic": "/əbˈzɜːrv/",
               "pos": "v.",
@@ -26032,7 +26032,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_41",
-              "num": "40",
+              "num": "41",
               "word": "reserve",
               "phonetic": "/rɪˈzɜːrv/",
               "pos": "n.",
@@ -26066,7 +26066,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_42",
-              "num": "41",
+              "num": "42",
               "word": "conserve",
               "phonetic": "/kənˈsɜːrv/",
               "pos": "",
@@ -26088,7 +26088,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_43",
-              "num": "42",
+              "num": "43",
               "word": "conservative",
               "phonetic": "/kənˈsɜːrvətɪv/",
               "pos": "n.",
@@ -26103,7 +26103,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_44",
-              "num": "43",
+              "num": "44",
               "word": "deserve",
               "phonetic": "/dɪˈzɜːrv/",
               "pos": "v.",
@@ -26118,7 +26118,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_45",
-              "num": "44",
+              "num": "45",
               "word": "preserve",
               "phonetic": "/prɪˈzɜːrv/",
               "pos": "n.",
@@ -26146,7 +26146,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_46",
-              "num": "45",
+              "num": "46",
               "word": "partner",
               "phonetic": "/ˈpɑːrtnər/",
               "pos": "n.",
@@ -26174,7 +26174,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_47",
-              "num": "46",
+              "num": "47",
               "word": "estimate",
               "phonetic": "/ˈestɪmət/",
               "pos": "n.",
@@ -26196,7 +26196,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_48",
-              "num": "47",
+              "num": "48",
               "word": "underestimate",
               "phonetic": "/ˌʌndərˈestɪmeɪt/",
               "pos": "",
@@ -26211,7 +26211,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_49",
-              "num": "48",
+              "num": "49",
               "word": "reckon",
               "phonetic": "/ˈrekən/",
               "pos": "v.",
@@ -26226,7 +26226,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_50",
-              "num": "49",
+              "num": "50",
               "word": "reckless",
               "phonetic": "/ˈrekləs/",
               "pos": "adj.",
@@ -26241,7 +26241,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_51",
-              "num": "50",
+              "num": "51",
               "word": "intimate",
               "phonetic": "/ˈɪntɪmət/",
               "pos": "",
@@ -26263,7 +26263,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_52",
-              "num": "51",
+              "num": "52",
               "word": "inmate",
               "phonetic": "/ˈɪnmeɪt/",
               "pos": "n.",
@@ -26278,7 +26278,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_53",
-              "num": "52",
+              "num": "53",
               "word": "approximate",
               "phonetic": "/əˈprɑːksɪmət/",
               "pos": "",
@@ -26306,7 +26306,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_54",
-              "num": "53",
+              "num": "54",
               "word": "proximity",
               "phonetic": "/prɑːkˈsɪməti/",
               "pos": "n.",
@@ -26328,7 +26328,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_55",
-              "num": "54",
+              "num": "55",
               "word": "ultimate",
               "phonetic": "/ˈʌltɪmət/",
               "pos": "n.",
@@ -26350,7 +26350,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_56",
-              "num": "55",
+              "num": "56",
               "word": "imitate",
               "phonetic": "/ˈɪmɪteɪt/",
               "pos": "v.",
@@ -26378,7 +26378,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_57",
-              "num": "56",
+              "num": "57",
               "word": "simulate",
               "phonetic": "/ˈsɪmjuleɪt/",
               "pos": "v.",
@@ -26400,7 +26400,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_58",
-              "num": "57",
+              "num": "58",
               "word": "stimulate",
               "phonetic": "/ˈstɪmjuleɪt/",
               "pos": "v.",
@@ -26415,7 +26415,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l2_59",
-              "num": "58",
+              "num": "59",
               "word": "simultaneous",
               "phonetic": "/ˌsaɪm(ə)lˈteɪniəs/",
               "pos": "adj.",
@@ -26589,7 +26589,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l3_08",
-              "num": "80",
+              "num": "08",
               "word": "complain",
               "phonetic": "/kəmˈpleɪn/",
               "pos": "v.",
@@ -26611,7 +26611,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l3_09",
-              "num": "60",
+              "num": "09",
               "word": "glance",
               "phonetic": "/ɡlæns/",
               "pos": "n.",
@@ -27639,7 +27639,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_09",
-              "num": "60",
+              "num": "09",
               "word": "tackle",
               "phonetic": "/ˈtæk(ə)l/",
               "pos": "v.",
@@ -27740,7 +27740,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_14",
-              "num": "15",
+              "num": "14",
               "word": "trace",
               "phonetic": "/treɪs/",
               "pos": "n.",
@@ -27755,7 +27755,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_15",
-              "num": "17",
+              "num": "15",
               "word": "rail",
               "phonetic": "/reɪl/",
               "pos": "n.",
@@ -27770,7 +27770,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_16",
-              "num": "18",
+              "num": "16",
               "word": "trail",
               "phonetic": "/treɪl/",
               "pos": "v.",
@@ -27792,7 +27792,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_17",
-              "num": "19",
+              "num": "17",
               "word": "derail",
               "phonetic": "/diːˈreɪl/",
               "pos": "v.",
@@ -27814,7 +27814,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_18",
-              "num": "20",
+              "num": "18",
               "word": "logic",
               "phonetic": "/ˈlɑːdʒɪk/",
               "pos": "n.",
@@ -27836,7 +27836,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_19",
-              "num": "21",
+              "num": "19",
               "word": "analogy",
               "phonetic": "/əˈnælədʒi/",
               "pos": "n.",
@@ -27864,7 +27864,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_20",
-              "num": "22",
+              "num": "20",
               "word": "analyze",
               "phonetic": "/ˈænəlaɪz/",
               "pos": "v.",
@@ -27898,7 +27898,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_21",
-              "num": "23",
+              "num": "21",
               "word": "dialogue",
               "phonetic": "/ˈdaɪəlɔːɡ/",
               "pos": "n.",
@@ -27913,7 +27913,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_22",
-              "num": "24",
+              "num": "22",
               "word": "ideology",
               "phonetic": "/ˌaɪdiˈɑːlədʒi/",
               "pos": "n.",
@@ -27935,7 +27935,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_23",
-              "num": "25",
+              "num": "23",
               "word": "spirit",
               "phonetic": "/ˈspɪrɪt/",
               "pos": "n.",
@@ -27957,7 +27957,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_24",
-              "num": "26",
+              "num": "24",
               "word": "inspire",
               "phonetic": "/ɪnˈspaɪər/",
               "pos": "v.",
@@ -27972,7 +27972,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_25",
-              "num": "27",
+              "num": "25",
               "word": "inspiration",
               "phonetic": "/ˌɪnspəˈreɪʃ(ə)n/",
               "pos": "n.",
@@ -27994,7 +27994,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_26",
-              "num": "28",
+              "num": "26",
               "word": "aspire",
               "phonetic": "/əˈspaɪər/",
               "pos": "v.",
@@ -28016,7 +28016,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_27",
-              "num": "29",
+              "num": "27",
               "word": "conspire",
               "phonetic": "/kənˈspaɪər/",
               "pos": "v.",
@@ -28031,7 +28031,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_28",
-              "num": "30",
+              "num": "28",
               "word": "expire",
               "phonetic": "/ɪkˈspaɪər/",
               "pos": "v.",
@@ -28053,7 +28053,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_29",
-              "num": "31",
+              "num": "29",
               "word": "gasp",
               "phonetic": "/ɡæsp/",
               "pos": "n.",
@@ -28068,7 +28068,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_30",
-              "num": "32",
+              "num": "30",
               "word": "cease",
               "phonetic": "/siːs/",
               "pos": "v.",
@@ -28083,7 +28083,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_31",
-              "num": "33",
+              "num": "31",
               "word": "suspend",
               "phonetic": "/səˈspend/",
               "pos": "v.",
@@ -28111,7 +28111,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_32",
-              "num": "34",
+              "num": "32",
               "word": "pendulum",
               "phonetic": "/ˈpendʒələm/",
               "pos": "n.",
@@ -28126,7 +28126,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_33",
-              "num": "35",
+              "num": "33",
               "word": "appendix",
               "phonetic": "/əˈpendɪks/",
               "pos": "n.",
@@ -28141,7 +28141,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_34",
-              "num": "36",
+              "num": "34",
               "word": "postpone",
               "phonetic": "/poʊˈspoʊn/",
               "pos": "v.",
@@ -28156,7 +28156,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_35",
-              "num": "37",
+              "num": "35",
               "word": "symphony",
               "phonetic": "/ˈsɪmfəni/",
               "pos": "n.",
@@ -28171,7 +28171,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_36",
-              "num": "38",
+              "num": "36",
               "word": "melody",
               "phonetic": "/ˈmelədi/",
               "pos": "n.",
@@ -28193,7 +28193,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_37",
-              "num": "39",
+              "num": "37",
               "word": "symptom",
               "phonetic": "/ˈsɪmptəm/",
               "pos": "n.",
@@ -28208,7 +28208,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_38",
-              "num": "40",
+              "num": "38",
               "word": "symposium",
               "phonetic": "/sɪmˈpoʊziəm/",
               "pos": "n.",
@@ -28223,7 +28223,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_39",
-              "num": "41",
+              "num": "39",
               "word": "sympathy",
               "phonetic": "/ˈsɪmpəθi/",
               "pos": "n.",
@@ -28245,7 +28245,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_40",
-              "num": "42",
+              "num": "40",
               "word": "sympathetic",
               "phonetic": "/ˌsɪmpəˈθetɪk/",
               "pos": "adj.",
@@ -28260,7 +28260,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_41",
-              "num": "43",
+              "num": "41",
               "word": "mercy",
               "phonetic": "/ˈmɜːrsi/",
               "pos": "n.",
@@ -28282,7 +28282,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_42",
-              "num": "44",
+              "num": "42",
               "word": "pathetic",
               "phonetic": "/pəˈθetɪk/",
               "pos": "adj.",
@@ -28297,7 +28297,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_43",
-              "num": "45",
+              "num": "43",
               "word": "naive",
               "phonetic": "/naɪˈiːv/",
               "pos": "adj.",
@@ -28319,7 +28319,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u7_l4_44",
-              "num": "46",
+              "num": "44",
               "word": "innocent",
               "phonetic": "/ˈɪnəs(ə)nt/",
               "pos": "adj.",
@@ -28515,7 +28515,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l1_09",
-              "num": "60",
+              "num": "09",
               "word": "layer",
               "phonetic": "/ˈleɪər/",
               "pos": "n.",
@@ -29353,7 +29353,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u8_l2_01",
-              "num": "58",
+              "num": "01",
               "word": "crawl",
               "phonetic": "/krɔːl/",
               "pos": "n.",
@@ -29368,7 +29368,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_02",
-              "num": "59",
+              "num": "02",
               "word": "creep",
               "phonetic": "/kriːp/",
               "pos": "v.",
@@ -29383,7 +29383,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_03",
-              "num": "60",
+              "num": "03",
               "word": "cripple",
               "phonetic": "/ˈkrɪp(ə)l/",
               "pos": "v.",
@@ -29398,7 +29398,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_04",
-              "num": "61",
+              "num": "04",
               "word": "climb",
               "phonetic": "/klaɪm/",
               "pos": "v.",
@@ -29413,7 +29413,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_05",
-              "num": "62",
+              "num": "05",
               "word": "chase",
               "phonetic": "/tʃeɪs/",
               "pos": "v.",
@@ -29428,7 +29428,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_06",
-              "num": "63",
+              "num": "06",
               "word": "prey",
               "phonetic": "/preɪ/",
               "pos": "n.",
@@ -29443,7 +29443,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_07",
-              "num": "64",
+              "num": "07",
               "word": "predator",
               "phonetic": "/ˈpredətər/",
               "pos": "n.",
@@ -29465,7 +29465,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_08",
-              "num": "65",
+              "num": "08",
               "word": "stumble",
               "phonetic": "/ˈstʌmb(ə)l/",
               "pos": "v.",
@@ -29480,7 +29480,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_09",
-              "num": "66",
+              "num": "09",
               "word": "stump",
               "phonetic": "/stʌmp/",
               "pos": "n.",
@@ -29495,7 +29495,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_10",
-              "num": "67",
+              "num": "10",
               "word": "stun",
               "phonetic": "/stʌn/",
               "pos": "v.",
@@ -29510,7 +29510,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_11",
-              "num": "01",
+              "num": "11",
               "word": "supply",
               "phonetic": "/səˈplaɪ/",
               "pos": "n.",
@@ -29532,7 +29532,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_12",
-              "num": "02",
+              "num": "12",
               "word": "supplement",
               "phonetic": "/ˈsʌplɪmənt/",
               "pos": "",
@@ -29554,7 +29554,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_13",
-              "num": "03",
+              "num": "13",
               "word": "complement",
               "phonetic": "/ˈkɑːmplɪment/",
               "pos": "",
@@ -29576,7 +29576,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_14",
-              "num": "04",
+              "num": "14",
               "word": "implement",
               "phonetic": "/ˈɪmplɪment/",
               "pos": "",
@@ -29598,7 +29598,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_15",
-              "num": "05",
+              "num": "15",
               "word": "compensate",
               "phonetic": "/ˈkɑːmpenseɪt/",
               "pos": "v.",
@@ -29626,7 +29626,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_16",
-              "num": "06",
+              "num": "16",
               "word": "addict",
               "phonetic": "/ˈædɪkt/",
               "pos": "n.",
@@ -29654,7 +29654,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_17",
-              "num": "07",
+              "num": "17",
               "word": "indulge",
               "phonetic": "/ɪnˈdʌldʒ/",
               "pos": "v.",
@@ -29682,7 +29682,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_18",
-              "num": "08",
+              "num": "18",
               "word": "obsess",
               "phonetic": "/əbˈses/",
               "pos": "v.",
@@ -29710,7 +29710,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_19",
-              "num": "09",
+              "num": "19",
               "word": "predict",
               "phonetic": "/prɪˈdɪkt/",
               "pos": "v.",
@@ -29738,7 +29738,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_20",
-              "num": "10",
+              "num": "20",
               "word": "dictate",
               "phonetic": "/ˈdɪkteɪt/",
               "pos": "",
@@ -29760,7 +29760,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_21",
-              "num": "11",
+              "num": "21",
               "word": "dictator",
               "phonetic": "/ˈdɪkteɪtər/",
               "pos": "n.",
@@ -29775,7 +29775,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_22",
-              "num": "12",
+              "num": "22",
               "word": "contradict",
               "phonetic": "/ˌkɑːntrəˈdɪkt/",
               "pos": "v.",
@@ -29790,7 +29790,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_23",
-              "num": "13",
+              "num": "23",
               "word": "contradiction",
               "phonetic": "/ˌkɑːntrəˈdɪkʃn/",
               "pos": "n.",
@@ -29812,7 +29812,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_24",
-              "num": "14",
+              "num": "24",
               "word": "contrary",
               "phonetic": "/ˈkɑːntreri/",
               "pos": "n.",
@@ -29827,7 +29827,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_25",
-              "num": "15",
+              "num": "25",
               "word": "contrast",
               "phonetic": "/ˈkɑːntræst/",
               "pos": "",
@@ -29842,7 +29842,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_26",
-              "num": "16",
+              "num": "26",
               "word": "deny",
               "phonetic": "/dɪˈnaɪ/",
               "pos": "v.",
@@ -29864,7 +29864,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_27",
-              "num": "17",
+              "num": "27",
               "word": "defy",
               "phonetic": "/dɪˈfaɪ/",
               "pos": "v.",
@@ -29892,7 +29892,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_28",
-              "num": "18",
+              "num": "28",
               "word": "envy",
               "phonetic": "/'envi/",
               "pos": "v.",
@@ -29914,7 +29914,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_29",
-              "num": "19",
+              "num": "29",
               "word": "jealous",
               "phonetic": "/ˈdʒeləs/",
               "pos": "adj.",
@@ -29936,7 +29936,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_30",
-              "num": "20",
+              "num": "30",
               "word": "resent",
               "phonetic": "/rɪˈzent/",
               "pos": "v.",
@@ -29958,7 +29958,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_31",
-              "num": "21",
+              "num": "31",
               "word": "consent",
               "phonetic": "/kənˈsent/",
               "pos": "v.",
@@ -29973,7 +29973,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_32",
-              "num": "22",
+              "num": "32",
               "word": "recognize",
               "phonetic": "/ˈrekəɡnaɪz/",
               "pos": "v.",
@@ -29995,7 +29995,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_33",
-              "num": "23",
+              "num": "33",
               "word": "cognitive",
               "phonetic": "/ˈkɑːɡnətɪv/",
               "pos": "adj.",
@@ -30017,7 +30017,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_34",
-              "num": "24",
+              "num": "34",
               "word": "aware",
               "phonetic": "/əˈwer/",
               "pos": "adj.",
@@ -30039,7 +30039,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_35",
-              "num": "25",
+              "num": "35",
               "word": "beware",
               "phonetic": "/bɪˈwer/",
               "pos": "v.",
@@ -30054,7 +30054,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_36",
-              "num": "26",
+              "num": "36",
               "word": "conscious",
               "phonetic": "/ˈkɑːnʃəs/",
               "pos": "adj.",
@@ -30076,7 +30076,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_37",
-              "num": "27",
+              "num": "37",
               "word": "identify",
               "phonetic": "/aɪˈdentɪfaɪ/",
               "pos": "v.",
@@ -30098,7 +30098,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_38",
-              "num": "28",
+              "num": "38",
               "word": "identity",
               "phonetic": "/aɪˈdentəti/",
               "pos": "n.",
@@ -30113,7 +30113,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_39",
-              "num": "29",
+              "num": "39",
               "word": "identical",
               "phonetic": "/aɪˈdentɪk(ə)l/",
               "pos": "adj.",
@@ -30128,7 +30128,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_40",
-              "num": "30",
+              "num": "40",
               "word": "journal",
               "phonetic": "/ˈdʒɜːrn(ə)l/",
               "pos": "n.",
@@ -30150,7 +30150,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_41",
-              "num": "31",
+              "num": "41",
               "word": "journalism",
               "phonetic": "/ˈdʒɜːrnəlɪz(ə)m/",
               "pos": "n.",
@@ -30165,7 +30165,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_42",
-              "num": "32",
+              "num": "42",
               "word": "coverage",
               "phonetic": "/ˈkʌvərɪdʒ/",
               "pos": "n.",
@@ -30180,7 +30180,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_43",
-              "num": "33",
+              "num": "43",
               "word": "edit",
               "phonetic": "/ˈedɪt/",
               "pos": "n.",
@@ -30214,7 +30214,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_44",
-              "num": "34",
+              "num": "44",
               "word": "version",
               "phonetic": "/ˈvɜːrʒ(ə)n/",
               "pos": "n.",
@@ -30229,7 +30229,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_45",
-              "num": "35",
+              "num": "45",
               "word": "novel",
               "phonetic": "/ˈnɑːv(ə)l/",
               "pos": "adj.",
@@ -30257,7 +30257,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_46",
-              "num": "36",
+              "num": "46",
               "word": "fiction",
               "phonetic": "/ˈfɪkʃ(ə)n/",
               "pos": "n.",
@@ -30279,7 +30279,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_47",
-              "num": "37",
+              "num": "47",
               "word": "episode",
               "phonetic": "/ˈepɪsoʊd/",
               "pos": "n.",
@@ -30294,7 +30294,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_48",
-              "num": "38",
+              "num": "48",
               "word": "literary",
               "phonetic": "/ˈlɪtəreri/",
               "pos": "adj.",
@@ -30328,7 +30328,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_49",
-              "num": "39",
+              "num": "49",
               "word": "literal",
               "phonetic": "/ˈlɪtərəl/",
               "pos": "adj.",
@@ -30350,7 +30350,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_50",
-              "num": "40",
+              "num": "50",
               "word": "press",
               "phonetic": "/pres/",
               "pos": "n.",
@@ -30378,7 +30378,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_51",
-              "num": "41",
+              "num": "51",
               "word": "oppress",
               "phonetic": "/əˈpres/",
               "pos": "v.",
@@ -30406,7 +30406,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_52",
-              "num": "42",
+              "num": "52",
               "word": "impress",
               "phonetic": "/ɪmˈpres/",
               "pos": "v.",
@@ -30434,7 +30434,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_53",
-              "num": "43",
+              "num": "53",
               "word": "repress",
               "phonetic": "/rɪˈpres/",
               "pos": "v.",
@@ -30462,7 +30462,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_54",
-              "num": "44",
+              "num": "54",
               "word": "depress",
               "phonetic": "/dɪˈpres/",
               "pos": "v.",
@@ -30484,7 +30484,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_55",
-              "num": "45",
+              "num": "55",
               "word": "suppress",
               "phonetic": "/səˈpres/",
               "pos": "v.",
@@ -30512,7 +30512,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l2_56",
-              "num": "46",
+              "num": "56",
               "word": "distress",
               "phonetic": "/dɪˈstres/",
               "pos": "n.",
@@ -30581,7 +30581,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u8_l3_01",
-              "num": "47",
+              "num": "01",
               "word": "agony",
               "phonetic": "/ˈæɡəni/",
               "pos": "n.",
@@ -30596,7 +30596,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_02",
-              "num": "48",
+              "num": "02",
               "word": "misery",
               "phonetic": "/ˈmɪzəri/",
               "pos": "n.",
@@ -30618,7 +30618,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_03",
-              "num": "49",
+              "num": "03",
               "word": "withstand",
               "phonetic": "/wɪðˈstænd/",
               "pos": "v.",
@@ -30633,7 +30633,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_04",
-              "num": "50",
+              "num": "04",
               "word": "notwithstanding",
               "phonetic": "/ˌnɑːtwɪθˈstændɪŋ/",
               "pos": "prep.",
@@ -30648,7 +30648,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_05",
-              "num": "51",
+              "num": "05",
               "word": "withdraw",
               "phonetic": "/wɪðˈdrɔː/",
               "pos": "v.",
@@ -30670,7 +30670,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_06",
-              "num": "52",
+              "num": "06",
               "word": "withhold",
               "phonetic": "/wɪðˈhoʊld/",
               "pos": "v.",
@@ -30685,7 +30685,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_07",
-              "num": "02",
+              "num": "07",
               "word": "grim",
               "phonetic": "/ɡrɪm/",
               "pos": "adj.",
@@ -30700,7 +30700,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_08",
-              "num": "03",
+              "num": "08",
               "word": "trim",
               "phonetic": "/trɪm/",
               "pos": "adj.",
@@ -30715,7 +30715,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_09",
-              "num": "04",
+              "num": "09",
               "word": "mow",
               "phonetic": "/moʊ/",
               "pos": "v.",
@@ -30730,7 +30730,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_10",
-              "num": "05",
+              "num": "10",
               "word": "clip",
               "phonetic": "/klɪp/",
               "pos": "n.",
@@ -30745,7 +30745,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_11",
-              "num": "06",
+              "num": "11",
               "word": "chop",
               "phonetic": "/tʃɑːp/",
               "pos": "v.",
@@ -30760,7 +30760,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_12",
-              "num": "07",
+              "num": "12",
               "word": "boundary",
               "phonetic": "/ˈbaʊndri/",
               "pos": "n.",
@@ -30775,7 +30775,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_13",
-              "num": "08",
+              "num": "13",
               "word": "margin",
               "phonetic": "/ˈmɑːrdʒɪn/",
               "pos": "n.",
@@ -30797,7 +30797,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_14",
-              "num": "60",
+              "num": "14",
               "word": "edge",
               "phonetic": "/edʒ/",
               "pos": "n.",
@@ -30812,7 +30812,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_15",
-              "num": "10",
+              "num": "15",
               "word": "verge",
               "phonetic": "/vɜːrdʒ/",
               "pos": "n.",
@@ -30827,7 +30827,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_16",
-              "num": "11",
+              "num": "16",
               "word": "average",
               "phonetic": "/ˈævərɪdʒ/",
               "pos": "n.",
@@ -30842,7 +30842,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_17",
-              "num": "12",
+              "num": "17",
               "word": "bound",
               "phonetic": "/baʊnd/",
               "pos": "n.",
@@ -30857,7 +30857,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_18",
-              "num": "13",
+              "num": "18",
               "word": "prejudice",
               "phonetic": "/ˈpredʒədɪs/",
               "pos": "n.",
@@ -30872,7 +30872,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_19",
-              "num": "14",
+              "num": "19",
               "word": "bias",
               "phonetic": "/ˈbaɪəs/",
               "pos": "n.",
@@ -30887,7 +30887,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_20",
-              "num": "15",
+              "num": "20",
               "word": "ambiguous",
               "phonetic": "/æmˈbɪɡjuəs/",
               "pos": "adj.",
@@ -30909,7 +30909,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_21",
-              "num": "16",
+              "num": "21",
               "word": "equity",
               "phonetic": "/ˈekwəti/",
               "pos": "n.",
@@ -30931,7 +30931,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_22",
-              "num": "17",
+              "num": "22",
               "word": "equate",
               "phonetic": "/ɪˈkweɪt/",
               "pos": "v.",
@@ -30946,7 +30946,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_23",
-              "num": "18",
+              "num": "23",
               "word": "adequate",
               "phonetic": "/ˈædɪkwət/",
               "pos": "adj.",
@@ -30968,7 +30968,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_24",
-              "num": "19",
+              "num": "24",
               "word": "equivalent",
               "phonetic": "/ɪˈkwɪvələnt/",
               "pos": "adj.",
@@ -30983,7 +30983,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_25",
-              "num": "20",
+              "num": "25",
               "word": "equation",
               "phonetic": "/ɪˈkweɪʒ(ə)n/",
               "pos": "n.",
@@ -30998,7 +30998,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_26",
-              "num": "21",
+              "num": "26",
               "word": "arrogant",
               "phonetic": "/ˈærəɡənt/",
               "pos": "adj.",
@@ -31020,7 +31020,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_27",
-              "num": "22",
+              "num": "27",
               "word": "eloquent",
               "phonetic": "/ˈeləkwənt/",
               "pos": "adj.",
@@ -31042,7 +31042,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_28",
-              "num": "23",
+              "num": "28",
               "word": "hostile",
               "phonetic": "/ˈhɑːst(ə)l/",
               "pos": "adj.",
@@ -31064,7 +31064,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_29",
-              "num": "24",
+              "num": "29",
               "word": "anxious",
               "phonetic": "/ˈæŋkʃəs/",
               "pos": "adj.",
@@ -31086,7 +31086,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_30",
-              "num": "25",
+              "num": "30",
               "word": "dreadful",
               "phonetic": "/ˈdredf(ə)l/",
               "pos": "adj.",
@@ -31101,7 +31101,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_31",
-              "num": "26",
+              "num": "31",
               "word": "dread",
               "phonetic": "/dred/",
               "pos": "v.",
@@ -31116,7 +31116,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_32",
-              "num": "27",
+              "num": "32",
               "word": "shrewd",
               "phonetic": "/ʃruːd/",
               "pos": "adj.",
@@ -31131,7 +31131,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_33",
-              "num": "28",
+              "num": "33",
               "word": "critic",
               "phonetic": "/ˈkrɪtɪk/",
               "pos": "n.",
@@ -31159,7 +31159,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_34",
-              "num": "29",
+              "num": "34",
               "word": "criterion",
               "phonetic": "/kraɪˈtɪriən/",
               "pos": "n.",
@@ -31174,7 +31174,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_35",
-              "num": "30",
+              "num": "35",
               "word": "confident",
               "phonetic": "/ˈkɑːnfɪdənt/",
               "pos": "adj.",
@@ -31196,7 +31196,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_36",
-              "num": "31",
+              "num": "36",
               "word": "cynical",
               "phonetic": "/ˈsɪnɪk(ə)l/",
               "pos": "adj.",
@@ -31218,7 +31218,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_37",
-              "num": "32",
+              "num": "37",
               "word": "confidential",
               "phonetic": "/ˌkɑːnfɪˈdenʃ(ə)l/",
               "pos": "adj.",
@@ -31233,7 +31233,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_38",
-              "num": "33",
+              "num": "38",
               "word": "courageous",
               "phonetic": "/kəˈreɪdʒəs/",
               "pos": "adj.",
@@ -31248,7 +31248,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_39",
-              "num": "34",
+              "num": "39",
               "word": "encourage",
               "phonetic": "/ɪnˈkɜːrɪdʒ/",
               "pos": "v.",
@@ -31276,7 +31276,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_40",
-              "num": "35",
+              "num": "40",
               "word": "discourage",
               "phonetic": "/dɪsˈkɜːrɪdʒ/",
               "pos": "v.",
@@ -31298,7 +31298,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_41",
-              "num": "36",
+              "num": "41",
               "word": "coward",
               "phonetic": "/ˈkaʊərd/",
               "pos": "n.",
@@ -31326,7 +31326,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_42",
-              "num": "37",
+              "num": "42",
               "word": "timid",
               "phonetic": "/ˈtɪmɪd/",
               "pos": "adj.",
@@ -31341,7 +31341,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_43",
-              "num": "38",
+              "num": "43",
               "word": "intimidate",
               "phonetic": "/ɪnˈtɪmɪdeɪt/",
               "pos": "v.",
@@ -31363,7 +31363,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_44",
-              "num": "39",
+              "num": "44",
               "word": "threat",
               "phonetic": "/θret/",
               "pos": "n.",
@@ -31385,7 +31385,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_45",
-              "num": "40",
+              "num": "45",
               "word": "elegant",
               "phonetic": "/ˈelɪɡənt/",
               "pos": "adj.",
@@ -31407,7 +31407,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_46",
-              "num": "41",
+              "num": "46",
               "word": "grace",
               "phonetic": "/ɡreɪs/",
               "pos": "n.",
@@ -31435,7 +31435,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_47",
-              "num": "42",
+              "num": "47",
               "word": "luxury",
               "phonetic": "/ˈlʌkʃəri/",
               "pos": "n.",
@@ -31457,7 +31457,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_48",
-              "num": "43",
+              "num": "48",
               "word": "extravagant",
               "phonetic": "/ɪkˈstrævəɡənt/",
               "pos": "adj.",
@@ -31479,7 +31479,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_49",
-              "num": "44",
+              "num": "49",
               "word": "reliable",
               "phonetic": "/rɪˈlaɪəb(ə)l/",
               "pos": "adj.",
@@ -31501,7 +31501,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_50",
-              "num": "45",
+              "num": "50",
               "word": "liable",
               "phonetic": "/ˈlaɪəb(ə)l/",
               "pos": "adj.",
@@ -31523,7 +31523,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_51",
-              "num": "46",
+              "num": "51",
               "word": "credible",
               "phonetic": "/ˈkredəb(ə)l/",
               "pos": "adj.",
@@ -31551,7 +31551,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_52",
-              "num": "47",
+              "num": "52",
               "word": "skeptical",
               "phonetic": "/ˈskeptɪk(ə)l/",
               "pos": "adj.",
@@ -31573,7 +31573,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_53",
-              "num": "48",
+              "num": "53",
               "word": "dubious",
               "phonetic": "/ˈduːbiəs/",
               "pos": "adj.",
@@ -31588,7 +31588,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_54",
-              "num": "49",
+              "num": "54",
               "word": "decide",
               "phonetic": "/dɪˈsaɪd/",
               "pos": "v.",
@@ -31616,7 +31616,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_55",
-              "num": "50",
+              "num": "55",
               "word": "vain",
               "phonetic": "/vein/",
               "pos": "adj.",
@@ -31638,7 +31638,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_56",
-              "num": "51",
+              "num": "56",
               "word": "vicious",
               "phonetic": "/vifas/",
               "pos": "adj.",
@@ -31653,7 +31653,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_57",
-              "num": "52",
+              "num": "57",
               "word": "coarse",
               "phonetic": "/kɔːrs/",
               "pos": "adj.",
@@ -31668,7 +31668,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_58",
-              "num": "53",
+              "num": "58",
               "word": "slip",
               "phonetic": "/slɪp/",
               "pos": "v.",
@@ -31696,7 +31696,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_59",
-              "num": "54",
+              "num": "59",
               "word": "rough",
               "phonetic": "/rʌf/",
               "pos": "adj.",
@@ -31718,7 +31718,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_60",
-              "num": "55",
+              "num": "60",
               "word": "tough",
               "phonetic": "/tʌf/",
               "pos": "adj.",
@@ -31733,7 +31733,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_61",
-              "num": "56",
+              "num": "61",
               "word": "ordeal",
               "phonetic": "/ɔːrˈdiːl/",
               "pos": "",
@@ -31748,7 +31748,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_62",
-              "num": "57",
+              "num": "62",
               "word": "ridiculous",
               "phonetic": "/rɪˈdɪkjələs/",
               "pos": "adj.",
@@ -31763,7 +31763,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_63",
-              "num": "58",
+              "num": "63",
               "word": "restless",
               "phonetic": "/ˈrestləs/",
               "pos": "adj.",
@@ -31778,7 +31778,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_64",
-              "num": "59",
+              "num": "64",
               "word": "outgoing",
               "phonetic": "/ˈaʊtɡoʊɪŋ/",
               "pos": "adj.",
@@ -31793,7 +31793,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_65",
-              "num": "60",
+              "num": "65",
               "word": "wary",
               "phonetic": "/'weari/",
               "pos": "adj.",
@@ -31808,7 +31808,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l3_66",
-              "num": "61",
+              "num": "66",
               "word": "daring",
               "phonetic": "/ˈderɪŋ/",
               "pos": "adj.",
@@ -32090,7 +32090,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_13",
-              "num": "14",
+              "num": "13",
               "word": "strap",
               "phonetic": "/stræp/",
               "pos": "n.",
@@ -32105,7 +32105,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_14",
-              "num": "16",
+              "num": "14",
               "word": "stripe",
               "phonetic": "/straɪp/",
               "pos": "n.",
@@ -32120,7 +32120,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_15",
-              "num": "17",
+              "num": "15",
               "word": "ignite",
               "phonetic": "/ɪɡˈnaɪt/",
               "pos": "v.",
@@ -32142,7 +32142,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_16",
-              "num": "18",
+              "num": "16",
               "word": "illuminate",
               "phonetic": "/ɪˈluːmɪneɪt/",
               "pos": "v.",
@@ -32164,7 +32164,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_17",
-              "num": "19",
+              "num": "17",
               "word": "illusion",
               "phonetic": "/ɪˈluːʒ(ə)n/",
               "pos": "n.",
@@ -32186,7 +32186,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_18",
-              "num": "20",
+              "num": "18",
               "word": "fantasy",
               "phonetic": "/ˈfæntəsi/",
               "pos": "n.",
@@ -32201,7 +32201,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_19",
-              "num": "21",
+              "num": "19",
               "word": "fantastic",
               "phonetic": "/fænˈtæstɪk/",
               "pos": "adj.",
@@ -32216,7 +32216,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_20",
-              "num": "22",
+              "num": "20",
               "word": "fancy",
               "phonetic": "/ˈfænsi/",
               "pos": "",
@@ -32231,7 +32231,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_21",
-              "num": "23",
+              "num": "21",
               "word": "consider",
               "phonetic": "/kənˈsɪdər/",
               "pos": "v.",
@@ -32259,7 +32259,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_22",
-              "num": "24",
+              "num": "22",
               "word": "considerate",
               "phonetic": "/kənˈsɪdərət/",
               "pos": "adj.",
@@ -32274,7 +32274,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_23",
-              "num": "25",
+              "num": "23",
               "word": "considerable",
               "phonetic": "/kənˈsɪdərəb(ə)l/",
               "pos": "adj.",
@@ -32289,7 +32289,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_24",
-              "num": "26",
+              "num": "24",
               "word": "negotiate",
               "phonetic": "/nɪˈɡoʊʃieɪt/",
               "pos": "v.",
@@ -32317,7 +32317,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_25",
-              "num": "27",
+              "num": "25",
               "word": "hesitate",
               "phonetic": "/ˈhezɪteɪt/",
               "pos": "v.",
@@ -32345,7 +32345,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_26",
-              "num": "28",
+              "num": "26",
               "word": "tentative",
               "phonetic": "/ˈtentətɪv/",
               "pos": "adj.",
@@ -32360,7 +32360,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_27",
-              "num": "29",
+              "num": "27",
               "word": "raw",
               "phonetic": "/rɔː/",
               "pos": "",
@@ -32375,7 +32375,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_28",
-              "num": "30",
+              "num": "28",
               "word": "crude",
               "phonetic": "/kruːd/",
               "pos": "adj.",
@@ -32390,7 +32390,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_29",
-              "num": "31",
+              "num": "29",
               "word": "virgin",
               "phonetic": "/ˈvɜːrdʒɪn/",
               "pos": "adj.",
@@ -32412,7 +32412,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_30",
-              "num": "32",
+              "num": "30",
               "word": "desire",
               "phonetic": "/dɪˈzaɪər/",
               "pos": "n.",
@@ -32434,7 +32434,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_31",
-              "num": "33",
+              "num": "31",
               "word": "desirable",
               "phonetic": "/dɪˈzaɪərəb(ə)l/",
               "pos": "adj.",
@@ -32456,7 +32456,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_32",
-              "num": "34",
+              "num": "32",
               "word": "radical",
               "phonetic": "/ˈrædɪk(ə)l/",
               "pos": "n.",
@@ -32471,7 +32471,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_33",
-              "num": "35",
+              "num": "33",
               "word": "extreme",
               "phonetic": "/ɪkˈstriːm/",
               "pos": "adj.",
@@ -32493,7 +32493,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_34",
-              "num": "36",
+              "num": "34",
               "word": "despair",
               "phonetic": "/dɪˈsper/",
               "pos": "n.",
@@ -32508,7 +32508,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_35",
-              "num": "37",
+              "num": "35",
               "word": "impair",
               "phonetic": "/ɪmˈper/",
               "pos": "v.",
@@ -32523,7 +32523,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_36",
-              "num": "38",
+              "num": "36",
               "word": "dismay",
               "phonetic": "/dɪsˈmeɪ/",
               "pos": "n.",
@@ -32538,7 +32538,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_37",
-              "num": "39",
+              "num": "37",
               "word": "diminish",
               "phonetic": "/dɪˈmɪnɪʃ/",
               "pos": "v.",
@@ -32553,7 +32553,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_38",
-              "num": "40",
+              "num": "38",
               "word": "desperate",
               "phonetic": "/ˈdespərət/",
               "pos": "adj.",
@@ -32568,7 +32568,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_39",
-              "num": "41",
+              "num": "39",
               "word": "discrepancy",
               "phonetic": "/dɪˈskrepənsi/",
               "pos": "n.",
@@ -32583,7 +32583,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_40",
-              "num": "42",
+              "num": "40",
               "word": "destiny",
               "phonetic": "/ˈdestəni/",
               "pos": "n.",
@@ -32598,7 +32598,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_41",
-              "num": "43",
+              "num": "41",
               "word": "destined",
               "phonetic": "/ˈdestɪnd/",
               "pos": "adj.",
@@ -32613,7 +32613,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_42",
-              "num": "44",
+              "num": "42",
               "word": "deliberate",
               "phonetic": "/dɪˈlɪbərət/",
               "pos": "",
@@ -32635,7 +32635,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_43",
-              "num": "45",
+              "num": "43",
               "word": "liberate",
               "phonetic": "/ˈlɪbəreɪt/",
               "pos": "v.",
@@ -32669,7 +32669,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_44",
-              "num": "46",
+              "num": "44",
               "word": "statue",
               "phonetic": "/ˈstætʃuː/",
               "pos": "n.",
@@ -32684,7 +32684,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_45",
-              "num": "47",
+              "num": "45",
               "word": "contemplate",
               "phonetic": "/ˈkɑːntəmpleɪt/",
               "pos": "v.",
@@ -32712,7 +32712,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u8_l4_46",
-              "num": "48",
+              "num": "46",
               "word": "digest",
               "phonetic": "/daɪˈdʒest/",
               "pos": "",
@@ -34570,7 +34570,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l2_38",
-              "num": "88",
+              "num": "38",
               "word": "nuisance",
               "phonetic": "/ˈnuːs(ə)ns/",
               "pos": "n.",
@@ -34729,7 +34729,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u9_l3_01",
-              "num": "45",
+              "num": "01",
               "word": "blunder",
               "phonetic": "/ˈblʌndər/",
               "pos": "n.",
@@ -34744,7 +34744,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_02",
-              "num": "46",
+              "num": "02",
               "word": "straightforward",
               "phonetic": "/ˌstreɪtˈfɔːrwərd/",
               "pos": "adj.",
@@ -34759,7 +34759,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_03",
-              "num": "47",
+              "num": "03",
               "word": "giant",
               "phonetic": "/ˈdʒaɪənt/",
               "pos": "adj.",
@@ -34774,7 +34774,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_04",
-              "num": "48",
+              "num": "04",
               "word": "gigantic",
               "phonetic": "/dʒaɪˈɡæntɪk/",
               "pos": "adj.",
@@ -34789,7 +34789,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_05",
-              "num": "49",
+              "num": "05",
               "word": "immense",
               "phonetic": "/ɪˈmens/",
               "pos": "adj.",
@@ -34817,7 +34817,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_06",
-              "num": "50",
+              "num": "06",
               "word": "immerse",
               "phonetic": "/ɪˈmɜːrs/",
               "pos": "v.",
@@ -34832,7 +34832,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_07",
-              "num": "51",
+              "num": "07",
               "word": "commence",
               "phonetic": "/kəˈmens/",
               "pos": "v.",
@@ -34854,7 +34854,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_08",
-              "num": "52",
+              "num": "08",
               "word": "enormous",
               "phonetic": "/ɪˈnɔːrməs/",
               "pos": "adj.",
@@ -34869,7 +34869,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_09",
-              "num": "53",
+              "num": "09",
               "word": "mighty",
               "phonetic": "/ˈmaɪti/",
               "pos": "adj.",
@@ -34884,7 +34884,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_10",
-              "num": "54",
+              "num": "10",
               "word": "almighty",
               "phonetic": "/ɔːlˈmaɪti/",
               "pos": "adj.",
@@ -34899,7 +34899,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_11",
-              "num": "55",
+              "num": "11",
               "word": "lofty",
               "phonetic": "/ˈlɔːfti/",
               "pos": "adj.",
@@ -34914,7 +34914,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_12",
-              "num": "01",
+              "num": "12",
               "word": "fragment",
               "phonetic": "/ˈfræɡmənt/",
               "pos": "",
@@ -34942,7 +34942,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_13",
-              "num": "03",
+              "num": "13",
               "word": "frantic",
               "phonetic": "/ˈfræntɪk/",
               "pos": "adj.",
@@ -34964,7 +34964,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_14",
-              "num": "04",
+              "num": "14",
               "word": "fraction",
               "phonetic": "/ˈfrækʃ(ə)n/",
               "pos": "n.",
@@ -34979,7 +34979,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_15",
-              "num": "05",
+              "num": "15",
               "word": "fracture",
               "phonetic": "/ˈfræktʃər/",
               "pos": "v.",
@@ -34994,7 +34994,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_16",
-              "num": "06",
+              "num": "16",
               "word": "frame",
               "phonetic": "/freɪm/",
               "pos": "n.",
@@ -35009,7 +35009,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_17",
-              "num": "07",
+              "num": "17",
               "word": "framework",
               "phonetic": "/ˈfreɪmwɜːrk/",
               "pos": "n.",
@@ -35024,7 +35024,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_18",
-              "num": "80",
+              "num": "18",
               "word": "flame",
               "phonetic": "/fleɪm/",
               "pos": "n.",
@@ -35039,7 +35039,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_19",
-              "num": "09",
+              "num": "19",
               "word": "flare",
               "phonetic": "/fleə(r)/",
               "pos": "n.",
@@ -35054,7 +35054,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_20",
-              "num": "10",
+              "num": "20",
               "word": "pin",
               "phonetic": "/pɪn/",
               "pos": "n.",
@@ -35069,7 +35069,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_21",
-              "num": "11",
+              "num": "21",
               "word": "solid",
               "phonetic": "/ˈsɑːlɪd/",
               "pos": "adj./n.",
@@ -35097,7 +35097,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_22",
-              "num": "12",
+              "num": "22",
               "word": "watertight",
               "phonetic": "/ˈwɔːtərtaɪt/",
               "pos": "adj.",
@@ -35112,7 +35112,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_23",
-              "num": "13",
+              "num": "23",
               "word": "consolidate",
               "phonetic": "/kənˈsɑːlɪdeɪt/",
               "pos": "v.",
@@ -35134,7 +35134,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_24",
-              "num": "14",
+              "num": "24",
               "word": "solidarity",
               "phonetic": "/ˌsɑːlɪˈdærəti/",
               "pos": "n.",
@@ -35149,7 +35149,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_25",
-              "num": "15",
+              "num": "25",
               "word": "flatter",
               "phonetic": "/ˈflætər/",
               "pos": "v.",
@@ -35171,7 +35171,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_26",
-              "num": "16",
+              "num": "26",
               "word": "flutter",
               "phonetic": "/ˈflʌtər/",
               "pos": "v.",
@@ -35186,7 +35186,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_27",
-              "num": "17",
+              "num": "27",
               "word": "fluent",
               "phonetic": "/ˈfluːənt/",
               "pos": "adj.",
@@ -35208,7 +35208,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_28",
-              "num": "18",
+              "num": "28",
               "word": "affluent",
               "phonetic": "/ˈæfluənt/",
               "pos": "adj.",
@@ -35230,7 +35230,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_29",
-              "num": "19",
+              "num": "29",
               "word": "original",
               "phonetic": "/əˈrɪdʒən(ə)l/",
               "pos": "adj.",
@@ -35252,7 +35252,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_30",
-              "num": "20",
+              "num": "30",
               "word": "originate",
               "phonetic": "/əˈrɪdʒɪneɪt/",
               "pos": "v.",
@@ -35267,7 +35267,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_31",
-              "num": "21",
+              "num": "31",
               "word": "region",
               "phonetic": "/ˈriːdʒən/",
               "pos": "n.",
@@ -35289,7 +35289,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_32",
-              "num": "22",
+              "num": "32",
               "word": "sacred",
               "phonetic": "/ˈseɪkrɪd/",
               "pos": "adj.",
@@ -35304,7 +35304,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_33",
-              "num": "23",
+              "num": "33",
               "word": "worship",
               "phonetic": "/ˈwɜːrʃɪp/",
               "pos": "n.",
@@ -35319,7 +35319,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_34",
-              "num": "24",
+              "num": "34",
               "word": "cult",
               "phonetic": "/kʌlt/",
               "pos": "n.",
@@ -35334,7 +35334,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_35",
-              "num": "25",
+              "num": "35",
               "word": "idol",
               "phonetic": "/ˈaɪdl/",
               "pos": "n.",
@@ -35349,7 +35349,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_36",
-              "num": "26",
+              "num": "36",
               "word": "athlete",
               "phonetic": "/ˈæθliːt/",
               "pos": "n.",
@@ -35371,7 +35371,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_37",
-              "num": "27",
+              "num": "37",
               "word": "derive",
               "phonetic": "/dɪˈraɪv/",
               "pos": "v.",
@@ -35399,7 +35399,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_38",
-              "num": "28",
+              "num": "38",
               "word": "deprive",
               "phonetic": "/dɪˈpraɪv/",
               "pos": "v.",
@@ -35414,7 +35414,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_39",
-              "num": "29",
+              "num": "39",
               "word": "strive",
               "phonetic": "/straɪv/",
               "pos": "v.",
@@ -35429,7 +35429,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_40",
-              "num": "30",
+              "num": "40",
               "word": "thrive",
               "phonetic": "/θraɪv/",
               "pos": "v.",
@@ -35444,7 +35444,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_41",
-              "num": "31",
+              "num": "41",
               "word": "contrive",
               "phonetic": "/kənˈtraɪv/",
               "pos": "v.",
@@ -35459,7 +35459,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_42",
-              "num": "32",
+              "num": "42",
               "word": "retrieve",
               "phonetic": "/rɪˈtriːv/",
               "pos": "v.",
@@ -35481,7 +35481,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_43",
-              "num": "33",
+              "num": "43",
               "word": "peculiar",
               "phonetic": "/pɪˈkjuːliər/",
               "pos": "adj.",
@@ -35503,7 +35503,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_44",
-              "num": "34",
+              "num": "44",
               "word": "exotic",
               "phonetic": "/ɪɡˈzɑːtɪk/",
               "pos": "adj.",
@@ -35518,7 +35518,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_45",
-              "num": "35",
+              "num": "45",
               "word": "weird",
               "phonetic": "/wiad/",
               "pos": "adj.",
@@ -35533,7 +35533,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_46",
-              "num": "36",
+              "num": "46",
               "word": "acquaint",
               "phonetic": "/əˈkweɪnt/",
               "pos": "v.",
@@ -35555,7 +35555,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_47",
-              "num": "37",
+              "num": "47",
               "word": "alien",
               "phonetic": "/ˈeɪliən/",
               "pos": "n.",
@@ -35583,7 +35583,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_48",
-              "num": "38",
+              "num": "48",
               "word": "isolate",
               "phonetic": "/ˈaɪsəleɪt/",
               "pos": "v.",
@@ -35605,7 +35605,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_49",
-              "num": "39",
+              "num": "49",
               "word": "drama",
               "phonetic": "/ˈdrɑːmə/",
               "pos": "n.",
@@ -35633,7 +35633,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_50",
-              "num": "40",
+              "num": "50",
               "word": "comedy",
               "phonetic": "/ˈkɑːmədi/",
               "pos": "n.",
@@ -35648,7 +35648,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_51",
-              "num": "41",
+              "num": "51",
               "word": "tragedy",
               "phonetic": "/ˈtrædʒədi/",
               "pos": "n.",
@@ -35676,7 +35676,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_52",
-              "num": "42",
+              "num": "52",
               "word": "disaster",
               "phonetic": "/dɪˈzæstər/",
               "pos": "n.",
@@ -35698,7 +35698,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_53",
-              "num": "43",
+              "num": "53",
               "word": "feeble",
               "phonetic": "/ˈfiːb(ə)l/",
               "pos": "adj.",
@@ -35713,7 +35713,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_54",
-              "num": "44",
+              "num": "54",
               "word": "lean",
               "phonetic": "/liːn/",
               "pos": "v.",
@@ -35728,7 +35728,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l3_55",
-              "num": "45",
+              "num": "55",
               "word": "shiver",
               "phonetic": "/ˈʃɪvər/",
               "pos": "v.",
@@ -35790,7 +35790,7 @@ window.CET6_DATA = {
           "words": [
             {
               "id": "u9_l4_01",
-              "num": "46",
+              "num": "01",
               "word": "tremble",
               "phonetic": "/ˈtremb(ə)l/",
               "pos": "v.",
@@ -35805,7 +35805,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_02",
-              "num": "47",
+              "num": "02",
               "word": "tender",
               "phonetic": "/ˈtendər/",
               "pos": "adj.",
@@ -35820,7 +35820,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_03",
-              "num": "48",
+              "num": "03",
               "word": "vulnerable",
               "phonetic": "/ˈvʌlnərəb(ə)l/",
               "pos": "adj.",
@@ -35842,7 +35842,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_04",
-              "num": "49",
+              "num": "04",
               "word": "feature",
               "phonetic": "/ˈfiːtʃər/",
               "pos": "n.",
@@ -35857,7 +35857,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_05",
-              "num": "01",
+              "num": "05",
               "word": "bacteria",
               "phonetic": "/bækˈtɪriə/",
               "pos": "n.",
@@ -35872,7 +35872,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_06",
-              "num": "02",
+              "num": "06",
               "word": "virus",
               "phonetic": "/'vairas/",
               "pos": "n.",
@@ -35887,7 +35887,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_07",
-              "num": "03",
+              "num": "07",
               "word": "germ",
               "phonetic": "/dʒɜːrm/",
               "pos": "n.",
@@ -35902,7 +35902,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_08",
-              "num": "04",
+              "num": "08",
               "word": "allergic",
               "phonetic": "/əˈlɜːrdʒɪk/",
               "pos": "adj.",
@@ -35924,7 +35924,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_09",
-              "num": "05",
+              "num": "09",
               "word": "chemical",
               "phonetic": "/ˈkemɪk(ə)l/",
               "pos": "n.",
@@ -35952,7 +35952,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_10",
-              "num": "06",
+              "num": "10",
               "word": "initiate",
               "phonetic": "/ɪˈnɪʃieɪt/",
               "pos": "v.",
@@ -35974,7 +35974,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_11",
-              "num": "07",
+              "num": "11",
               "word": "initiative",
               "phonetic": "/ɪˈnɪʃətɪv/",
               "pos": "n.",
@@ -35989,7 +35989,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_12",
-              "num": "08",
+              "num": "12",
               "word": "initial",
               "phonetic": "/ɪˈnɪʃ(ə)l/",
               "pos": "adj.",
@@ -36004,7 +36004,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_13",
-              "num": "09",
+              "num": "13",
               "word": "embark",
               "phonetic": "/ɪmˈbɑːrk/",
               "pos": "v.",
@@ -36019,7 +36019,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_14",
-              "num": "10",
+              "num": "14",
               "word": "launch",
               "phonetic": "/lɔːntʃ/",
               "pos": "v.",
@@ -36034,7 +36034,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_15",
-              "num": "11",
+              "num": "15",
               "word": "minimum",
               "phonetic": "/ˈmɪnɪməm/",
               "pos": "n.",
@@ -36049,7 +36049,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_16",
-              "num": "12",
+              "num": "16",
               "word": "maximum",
               "phonetic": "/ˈmæksɪməm/",
               "pos": "n.",
@@ -36071,7 +36071,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_17",
-              "num": "13",
+              "num": "17",
               "word": "minimal",
               "phonetic": "/ˈmɪnɪm(ə)l/",
               "pos": "adj.",
@@ -36086,7 +36086,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_18",
-              "num": "14",
+              "num": "18",
               "word": "miniature",
               "phonetic": "/ˈmɪnətʃər/",
               "pos": "adj.",
@@ -36101,7 +36101,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_19",
-              "num": "16",
+              "num": "19",
               "word": "minimize",
               "phonetic": "/ˈmɪnɪmaɪz/",
               "pos": "v.",
@@ -36116,7 +36116,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_20",
-              "num": "17",
+              "num": "20",
               "word": "maximize",
               "phonetic": "/ˈmæksɪmaɪz/",
               "pos": "v.",
@@ -36131,7 +36131,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_21",
-              "num": "18",
+              "num": "21",
               "word": "major",
               "phonetic": "/ˈmeɪdʒər/",
               "pos": "adj.",
@@ -36153,7 +36153,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_22",
-              "num": "19",
+              "num": "22",
               "word": "mass",
               "phonetic": "/mæs/",
               "pos": "n.",
@@ -36168,7 +36168,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_23",
-              "num": "20",
+              "num": "23",
               "word": "massive",
               "phonetic": "/ˈmæsɪv/",
               "pos": "adj.",
@@ -36183,7 +36183,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_24",
-              "num": "22",
+              "num": "24",
               "word": "parameter",
               "phonetic": "/pəˈræmɪtər/",
               "pos": "n.",
@@ -36198,7 +36198,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_25",
-              "num": "23",
+              "num": "25",
               "word": "metric",
               "phonetic": "/ˈmetrɪk/",
               "pos": "n.",
@@ -36213,7 +36213,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_26",
-              "num": "24",
+              "num": "26",
               "word": "geometry",
               "phonetic": "/dʒiˈɑːmətri/",
               "pos": "n.",
@@ -36241,7 +36241,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_27",
-              "num": "25",
+              "num": "27",
               "word": "symmetry",
               "phonetic": "/ˈsɪmətri/",
               "pos": "n.",
@@ -36256,7 +36256,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_28",
-              "num": "26",
+              "num": "28",
               "word": "cemetery",
               "phonetic": "/ˈseməteri/",
               "pos": "n.",
@@ -36271,7 +36271,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_29",
-              "num": "27",
+              "num": "29",
               "word": "diameter",
               "phonetic": "/daɪˈæmɪtər/",
               "pos": "n.",
@@ -36286,7 +36286,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_30",
-              "num": "28",
+              "num": "30",
               "word": "thermometer",
               "phonetic": "/θərˈmɑːmɪtər/",
               "pos": "n.",
@@ -36301,7 +36301,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_31",
-              "num": "29",
+              "num": "31",
               "word": "paradise",
               "phonetic": "/ˈpærədaɪs/",
               "pos": "n.",
@@ -36316,7 +36316,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_32",
-              "num": "30",
+              "num": "32",
               "word": "paradox",
               "phonetic": "/ˈpærədɑːks/",
               "pos": "n.",
@@ -36338,7 +36338,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_33",
-              "num": "31",
+              "num": "33",
               "word": "orthodox",
               "phonetic": "/ˈɔːrθədɑːks/",
               "pos": "adj.",
@@ -36353,7 +36353,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_34",
-              "num": "32",
+              "num": "34",
               "word": "parade",
               "phonetic": "/pəˈreɪd/",
               "pos": "n.",
@@ -36368,7 +36368,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_35",
-              "num": "33",
+              "num": "35",
               "word": "patrol",
               "phonetic": "/pəˈtroʊl/",
               "pos": "n.",
@@ -36383,7 +36383,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_36",
-              "num": "34",
+              "num": "36",
               "word": "cruise",
               "phonetic": "/kruːz/",
               "pos": "v.",
@@ -36405,7 +36405,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_37",
-              "num": "35",
+              "num": "37",
               "word": "patriot",
               "phonetic": "/ˈpeɪtriət/",
               "pos": "n.",
@@ -36427,7 +36427,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_38",
-              "num": "36",
+              "num": "38",
               "word": "patriotic",
               "phonetic": "/ˌpeɪtriˈɑːtɪk/",
               "pos": "adj.",
@@ -36442,7 +36442,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_39",
-              "num": "37",
+              "num": "39",
               "word": "parasite",
               "phonetic": "/ˈpærəsaɪt/",
               "pos": "n.",
@@ -36457,7 +36457,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_40",
-              "num": "38",
+              "num": "40",
               "word": "paradigm",
               "phonetic": "/ˈpærədaɪm/",
               "pos": "n.",
@@ -36472,7 +36472,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_41",
-              "num": "39",
+              "num": "41",
               "word": "sense",
               "phonetic": "/sens/",
               "pos": "n.",
@@ -36487,7 +36487,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_42",
-              "num": "40",
+              "num": "42",
               "word": "sensible",
               "phonetic": "/ˈsensəb(ə)l/",
               "pos": "adj.",
@@ -36502,7 +36502,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_43",
-              "num": "41",
+              "num": "43",
               "word": "sensitive",
               "phonetic": "/ˈsensətɪv/",
               "pos": "adj.",
@@ -36524,7 +36524,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_44",
-              "num": "42",
+              "num": "44",
               "word": "sensation",
               "phonetic": "/senˈseɪʃ(ə)n/",
               "pos": "n.",
@@ -36546,7 +36546,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_45",
-              "num": "43",
+              "num": "45",
               "word": "sentiment",
               "phonetic": "/ˈsentɪmənt/",
               "pos": "n.",
@@ -36568,7 +36568,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_46",
-              "num": "44",
+              "num": "46",
               "word": "nonsense",
               "phonetic": "/ˈnɑːnsens/",
               "pos": "n.",
@@ -36583,7 +36583,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_47",
-              "num": "45",
+              "num": "47",
               "word": "intensive",
               "phonetic": "/ɪnˈtensɪv/",
               "pos": "",
@@ -36598,7 +36598,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_48",
-              "num": "46",
+              "num": "48",
               "word": "intense",
               "phonetic": "/ɪnˈtens/",
               "pos": "adj.",
@@ -36626,7 +36626,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_49",
-              "num": "47",
+              "num": "49",
               "word": "dense",
               "phonetic": "/dens/",
               "pos": "adj.",
@@ -36648,7 +36648,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_50",
-              "num": "48",
+              "num": "50",
               "word": "condense",
               "phonetic": "/kənˈdens/",
               "pos": "v.",
@@ -36670,7 +36670,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_51",
-              "num": "49",
+              "num": "51",
               "word": "capital",
               "phonetic": "/ˈkæpɪt(ə)l/",
               "pos": "n.",
@@ -36698,7 +36698,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_52",
-              "num": "50",
+              "num": "52",
               "word": "capacity",
               "phonetic": "/kəˈpæsəti/",
               "pos": "n.",
@@ -36713,7 +36713,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_53",
-              "num": "51",
+              "num": "53",
               "word": "capable",
               "phonetic": "/ˈkeɪpəb(ə)l/",
               "pos": "adj.",
@@ -36735,7 +36735,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_54",
-              "num": "52",
+              "num": "54",
               "word": "capture",
               "phonetic": "/ˈkæptʃər/",
               "pos": "v.",
@@ -36750,7 +36750,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_55",
-              "num": "53",
+              "num": "55",
               "word": "captive",
               "phonetic": "/ˈkæptɪv/",
               "pos": "adj.",
@@ -36765,7 +36765,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_56",
-              "num": "54",
+              "num": "56",
               "word": "capsule",
               "phonetic": "/ˈkæps(ə)l/",
               "pos": "n.",
@@ -36780,7 +36780,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_57",
-              "num": "55",
+              "num": "57",
               "word": "caption",
               "phonetic": "/ˈkæpʃ(ə)n/",
               "pos": "n.",
@@ -36795,7 +36795,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_58",
-              "num": "56",
+              "num": "58",
               "word": "clutch",
               "phonetic": "/klʌtʃ/",
               "pos": "v.",
@@ -36810,7 +36810,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_59",
-              "num": "57",
+              "num": "59",
               "word": "cape",
               "phonetic": "/keɪp/",
               "pos": "n.",
@@ -36825,7 +36825,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_60",
-              "num": "58",
+              "num": "60",
               "word": "escape",
               "phonetic": "/ɪˈskeɪp/",
               "pos": "v.",
@@ -36840,7 +36840,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_61",
-              "num": "59",
+              "num": "61",
               "word": "cabin",
               "phonetic": "/ˈkæbɪn/",
               "pos": "n.",
@@ -36855,7 +36855,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_62",
-              "num": "60",
+              "num": "62",
               "word": "cabinet",
               "phonetic": "/ˈkæbɪnət/",
               "pos": "n.",
@@ -36870,7 +36870,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u9_l4_63",
-              "num": "61",
+              "num": "63",
               "word": "cable",
               "phonetic": "/ˈkeɪb(ə)l/",
               "pos": "n.",
@@ -38327,7 +38327,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_02",
-              "num": "01",
+              "num": "02",
               "word": "elect",
               "phonetic": "/ɪˈlekt/",
               "pos": "v.",
@@ -38355,7 +38355,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_03",
-              "num": "02",
+              "num": "03",
               "word": "select",
               "phonetic": "/sɪˈlekt/",
               "pos": "v.",
@@ -38383,7 +38383,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_04",
-              "num": "03",
+              "num": "04",
               "word": "collective",
               "phonetic": "/kəˈlektɪv/",
               "pos": "adj.",
@@ -38398,7 +38398,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_05",
-              "num": "04",
+              "num": "05",
               "word": "neglect",
               "phonetic": "/nɪˈɡlekt/",
               "pos": "v.",
@@ -38420,7 +38420,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_06",
-              "num": "05",
+              "num": "06",
               "word": "negligible",
               "phonetic": "/ˈneɡlɪdʒəb(ə)l/",
               "pos": "adj.",
@@ -38435,7 +38435,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_07",
-              "num": "06",
+              "num": "07",
               "word": "negligent",
               "phonetic": "/ˈneɡlɪdʒənt/",
               "pos": "adj.",
@@ -38450,7 +38450,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_08",
-              "num": "07",
+              "num": "08",
               "word": "ignore",
               "phonetic": "/ɪɡˈnɔːr/",
               "pos": "v.",
@@ -38465,7 +38465,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_09",
-              "num": "08",
+              "num": "09",
               "word": "ignorant",
               "phonetic": "/ˈɪɡnərənt/",
               "pos": "adj.",
@@ -38487,7 +38487,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_10",
-              "num": "60",
+              "num": "10",
               "word": "annoy",
               "phonetic": "/əˈnɔɪ/",
               "pos": "v.",
@@ -38502,7 +38502,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_11",
-              "num": "10",
+              "num": "11",
               "word": "notion",
               "phonetic": "/ˈnoʊʃ(ə)n/",
               "pos": "n.",
@@ -38524,7 +38524,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_12",
-              "num": "11",
+              "num": "12",
               "word": "lecture",
               "phonetic": "/ˈlektʃər/",
               "pos": "n.",
@@ -38546,7 +38546,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_13",
-              "num": "12",
+              "num": "13",
               "word": "dialect",
               "phonetic": "/ˈdaɪəlekt/",
               "pos": "n.",
@@ -38561,7 +38561,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_14",
-              "num": "13",
+              "num": "14",
               "word": "dispute",
               "phonetic": "/dɪˈspjuːt/",
               "pos": "n./v.",
@@ -38583,7 +38583,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_15",
-              "num": "14",
+              "num": "15",
               "word": "debate",
               "phonetic": "/dɪˈbeɪt/",
               "pos": "n.",
@@ -38598,7 +38598,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_16",
-              "num": "15",
+              "num": "16",
               "word": "beat",
               "phonetic": "/biːt/",
               "pos": "n.",
@@ -38613,7 +38613,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_17",
-              "num": "16",
+              "num": "17",
               "word": "whip",
               "phonetic": "/wɪp/",
               "pos": "n.",
@@ -38628,7 +38628,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_18",
-              "num": "17",
+              "num": "18",
               "word": "bat",
               "phonetic": "/bæt/",
               "pos": "n.",
@@ -38643,7 +38643,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_19",
-              "num": "18",
+              "num": "19",
               "word": "combat",
               "phonetic": "/ˈkɑːmbæt/",
               "pos": "n.",
@@ -38665,7 +38665,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_20",
-              "num": "19",
+              "num": "20",
               "word": "battle",
               "phonetic": "/ˈbæt(ə)l/",
               "pos": "n.",
@@ -38680,7 +38680,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_21",
-              "num": "20",
+              "num": "21",
               "word": "conflict",
               "phonetic": "/ˈkɑːnflɪkt/",
               "pos": "",
@@ -38695,7 +38695,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_22",
-              "num": "21",
+              "num": "22",
               "word": "impart",
               "phonetic": "/ɪmˈpɑːrt/",
               "pos": "v.",
@@ -38710,7 +38710,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_23",
-              "num": "22",
+              "num": "23",
               "word": "tuition",
               "phonetic": "/tuˈɪʃ(ə)n/",
               "pos": "n.",
@@ -38725,7 +38725,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_24",
-              "num": "23",
+              "num": "24",
               "word": "intuition",
               "phonetic": "/ˌɪntuˈɪʃ(ə)n/",
               "pos": "n.",
@@ -38747,7 +38747,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_25",
-              "num": "24",
+              "num": "25",
               "word": "depart",
               "phonetic": "/dɪˈpɑːrt/",
               "pos": "v.",
@@ -38769,7 +38769,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_26",
-              "num": "25",
+              "num": "26",
               "word": "quit",
               "phonetic": "/kwɪt/",
               "pos": "v.",
@@ -38784,7 +38784,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_27",
-              "num": "26",
+              "num": "27",
               "word": "partial",
               "phonetic": "/ˈpɑːrʃ(ə)l/",
               "pos": "adj.",
@@ -38812,7 +38812,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_28",
-              "num": "27",
+              "num": "28",
               "word": "department",
               "phonetic": "/dɪˈpɑːrtmənt/",
               "pos": "n.",
@@ -38827,7 +38827,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_29",
-              "num": "28",
+              "num": "29",
               "word": "apartment",
               "phonetic": "/əˈpɑːrtmənt/",
               "pos": "n.",
@@ -38842,7 +38842,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_30",
-              "num": "29",
+              "num": "30",
               "word": "flat",
               "phonetic": "/flæt/",
               "pos": "adj.",
@@ -38857,7 +38857,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_31",
-              "num": "30",
+              "num": "31",
               "word": "terrace",
               "phonetic": "/ˈterəs/",
               "pos": "n.",
@@ -38872,7 +38872,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_32",
-              "num": "31",
+              "num": "32",
               "word": "pasture",
               "phonetic": "/ˈpæstʃər/",
               "pos": "n.",
@@ -38887,7 +38887,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_33",
-              "num": "32",
+              "num": "33",
               "word": "ranch",
               "phonetic": "/ræntʃ/",
               "pos": "n.",
@@ -39041,7 +39041,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_41",
-              "num": "42",
+              "num": "41",
               "word": "make-up",
               "phonetic": "/ˈmeɪk ʌp/",
               "pos": "n.",
@@ -39056,7 +39056,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_42",
-              "num": "43",
+              "num": "42",
               "word": "structure",
               "phonetic": "/ˈstrʌktʃər/",
               "pos": "n.",
@@ -39078,7 +39078,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_43",
-              "num": "44",
+              "num": "43",
               "word": "construct",
               "phonetic": "/kənˈstrʌkt/",
               "pos": "v.",
@@ -39100,7 +39100,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_44",
-              "num": "45",
+              "num": "44",
               "word": "instruct",
               "phonetic": "/ɪnˈstrʌkt/",
               "pos": "v.",
@@ -39134,7 +39134,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_45",
-              "num": "46",
+              "num": "45",
               "word": "establish",
               "phonetic": "/ɪˈstæblɪʃ/",
               "pos": "v.",
@@ -39156,7 +39156,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_46",
-              "num": "47",
+              "num": "46",
               "word": "erect",
               "phonetic": "/ɪˈrekt/",
               "pos": "adj.",
@@ -39178,7 +39178,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_47",
-              "num": "48",
+              "num": "47",
               "word": "architecture",
               "phonetic": "/ˈɑːrkɪtektʃər/",
               "pos": "n.",
@@ -39193,7 +39193,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_48",
-              "num": "49",
+              "num": "48",
               "word": "architect",
               "phonetic": "/ˈɑːrkɪtekt/",
               "pos": "n.",
@@ -39208,7 +39208,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_49",
-              "num": "50",
+              "num": "49",
               "word": "infrastructure",
               "phonetic": "/ˈɪnfrəstrʌktʃər/",
               "pos": "n.",
@@ -39223,7 +39223,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_50",
-              "num": "51",
+              "num": "50",
               "word": "tank",
               "phonetic": "/tæŋk/",
               "pos": "n.",
@@ -39238,7 +39238,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_51",
-              "num": "52",
+              "num": "51",
               "word": "bullet",
               "phonetic": "/ˈbʊlɪt/",
               "pos": "n.",
@@ -39253,7 +39253,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_52",
-              "num": "53",
+              "num": "52",
               "word": "navy",
               "phonetic": "/ˈneɪvi/",
               "pos": "n.",
@@ -39268,7 +39268,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_53",
-              "num": "54",
+              "num": "53",
               "word": "corps",
               "phonetic": "/kɔːr/",
               "pos": "n.",
@@ -39283,7 +39283,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_54",
-              "num": "55",
+              "num": "54",
               "word": "military",
               "phonetic": "/ˈmɪləteri/",
               "pos": "n.",
@@ -39298,7 +39298,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_55",
-              "num": "56",
+              "num": "55",
               "word": "militant",
               "phonetic": "/ˈmɪlɪtənt/",
               "pos": "adj.",
@@ -39320,7 +39320,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_56",
-              "num": "57",
+              "num": "56",
               "word": "siege",
               "phonetic": "/siːdʒ/",
               "pos": "n.",
@@ -39335,7 +39335,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_57",
-              "num": "58",
+              "num": "57",
               "word": "besiege",
               "phonetic": "/bɪˈsiːdʒ/",
               "pos": "v.",
@@ -39350,7 +39350,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_58",
-              "num": "59",
+              "num": "58",
               "word": "attack",
               "phonetic": "/əˈtæk/",
               "pos": "v.",
@@ -39365,7 +39365,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_59",
-              "num": "09",
+              "num": "59",
               "word": "tactic",
               "phonetic": "/ˈtæktɪk/",
               "pos": "n.",
@@ -39380,7 +39380,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_60",
-              "num": "61",
+              "num": "60",
               "word": "tact",
               "phonetic": "/tækt/",
               "pos": "n.",
@@ -39402,7 +39402,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_61",
-              "num": "62",
+              "num": "61",
               "word": "contact",
               "phonetic": "/ˈkɑːntækt/",
               "pos": "v.",
@@ -39417,7 +39417,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_62",
-              "num": "63",
+              "num": "62",
               "word": "intact",
               "phonetic": "/in'taekt/",
               "pos": "adj.",
@@ -39432,7 +39432,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_63",
-              "num": "64",
+              "num": "63",
               "word": "assault",
               "phonetic": "/əˈsɔːlt/",
               "pos": "v.",
@@ -39447,7 +39447,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_64",
-              "num": "65",
+              "num": "64",
               "word": "insult",
               "phonetic": "/ɪnˈsʌlt/",
               "pos": "n.",
@@ -39462,7 +39462,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_65",
-              "num": "66",
+              "num": "65",
               "word": "consult",
               "phonetic": "/kənˈsʌlt/",
               "pos": "v.",
@@ -39496,7 +39496,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_66",
-              "num": "67",
+              "num": "66",
               "word": "counsel",
               "phonetic": "/ˈkaʊns(ə)l/",
               "pos": "n.",
@@ -39511,7 +39511,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_67",
-              "num": "68",
+              "num": "67",
               "word": "condolence",
               "phonetic": "/kənˈdoʊləns/",
               "pos": "n.",
@@ -39526,7 +39526,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_68",
-              "num": "69",
+              "num": "68",
               "word": "convention",
               "phonetic": "/kənˈvenʃ(ə)n/",
               "pos": "n.",
@@ -39548,7 +39548,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_69",
-              "num": "70",
+              "num": "69",
               "word": "convene",
               "phonetic": "/kənˈviːn/",
               "pos": "v.",
@@ -39563,7 +39563,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_70",
-              "num": "71",
+              "num": "70",
               "word": "convey",
               "phonetic": "/kənˈveɪ/",
               "pos": "v.",
@@ -39585,7 +39585,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_71",
-              "num": "72",
+              "num": "71",
               "word": "survey",
               "phonetic": "/ˈsɜːrveɪ/",
               "pos": "",
@@ -39600,7 +39600,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l2_72",
-              "num": "73",
+              "num": "72",
               "word": "invest",
               "phonetic": "/ɪnˈvest/",
               "pos": "v.",
@@ -39684,7 +39684,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_02",
-              "num": "74",
+              "num": "02",
               "word": "investigate",
               "phonetic": "/ɪnˈvestɪɡeɪt/",
               "pos": "v.",
@@ -39706,7 +39706,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_03",
-              "num": "75",
+              "num": "03",
               "word": "investigator",
               "phonetic": "/ɪnˈvestɪɡeɪtər/",
               "pos": "n.",
@@ -39721,7 +39721,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_04",
-              "num": "76",
+              "num": "04",
               "word": "census",
               "phonetic": "/ˈsensəs/",
               "pos": "n.",
@@ -39736,7 +39736,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_05",
-              "num": "77",
+              "num": "05",
               "word": "consensus",
               "phonetic": "/kənˈsensəs/",
               "pos": "n.",
@@ -39751,7 +39751,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_06",
-              "num": "78",
+              "num": "06",
               "word": "unanimous",
               "phonetic": "/juˈnænɪməs/",
               "pos": "adj.",
@@ -39766,7 +39766,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_07",
-              "num": "79",
+              "num": "07",
               "word": "reconcile",
               "phonetic": "/ˈrekənsaɪl/",
               "pos": "v.",
@@ -39794,7 +39794,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_08",
-              "num": "80",
+              "num": "08",
               "word": "retreat",
               "phonetic": "/rɪˈtriːt/",
               "pos": "v.",
@@ -39809,7 +39809,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_09",
-              "num": "01",
+              "num": "09",
               "word": "repel",
               "phonetic": "/rɪˈpel/",
               "pos": "v.",
@@ -39824,7 +39824,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_10",
-              "num": "02",
+              "num": "10",
               "word": "expel",
               "phonetic": "/ɪkˈspel/",
               "pos": "v.",
@@ -39839,7 +39839,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_11",
-              "num": "03",
+              "num": "11",
               "word": "propel",
               "phonetic": "/prəˈpel/",
               "pos": "v.",
@@ -39861,7 +39861,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_12",
-              "num": "04",
+              "num": "12",
               "word": "compel",
               "phonetic": "/kəmˈpel/",
               "pos": "v.",
@@ -39883,7 +39883,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_13",
-              "num": "05",
+              "num": "13",
               "word": "squeeze",
               "phonetic": "/skwiːz/",
               "pos": "n.",
@@ -39911,7 +39911,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_14",
-              "num": "07",
+              "num": "14",
               "word": "directory",
               "phonetic": "/dəˈrektəri/",
               "pos": "",
@@ -39926,7 +39926,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_15",
-              "num": "08",
+              "num": "15",
               "word": "connect",
               "phonetic": "/kəˈnekt/",
               "pos": "v.",
@@ -39948,7 +39948,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_16",
-              "num": "09",
+              "num": "16",
               "word": "associate",
               "phonetic": "/əˈsoʊsieɪt/",
               "pos": "",
@@ -39970,7 +39970,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_17",
-              "num": "10",
+              "num": "17",
               "word": "link",
               "phonetic": "/lɪŋk/",
               "pos": "v.",
@@ -39992,7 +39992,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_18",
-              "num": "11",
+              "num": "18",
               "word": "junction",
               "phonetic": "/ˈdʒʌŋkʃ(ə)n/",
               "pos": "n.",
@@ -40007,7 +40007,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_19",
-              "num": "12",
+              "num": "19",
               "word": "conjunction",
               "phonetic": "/kənˈdʒʌŋkʃ(ə)n/",
               "pos": "n.",
@@ -40022,7 +40022,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_20",
-              "num": "13",
+              "num": "20",
               "word": "mingle",
               "phonetic": "/ˈmɪŋɡ(ə)l/",
               "pos": "v.",
@@ -40037,7 +40037,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_21",
-              "num": "14",
+              "num": "21",
               "word": "combine",
               "phonetic": "/kəmˈbaɪn/",
               "pos": "v.",
@@ -40059,7 +40059,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_22",
-              "num": "15",
+              "num": "22",
               "word": "tie",
               "phonetic": "/taɪ/",
               "pos": "n.",
@@ -40074,7 +40074,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_23",
-              "num": "16",
+              "num": "23",
               "word": "relevant",
               "phonetic": "/ˈreləvənt/",
               "pos": "adj.",
@@ -40096,7 +40096,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_24",
-              "num": "17",
+              "num": "24",
               "word": "integrate",
               "phonetic": "/ˈɪntɪɡreɪt/",
               "pos": "v.",
@@ -40118,7 +40118,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_25",
-              "num": "18",
+              "num": "25",
               "word": "integral",
               "phonetic": "/ˈɪntɪɡrəl/",
               "pos": "adj.",
@@ -40133,7 +40133,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_26",
-              "num": "19",
+              "num": "26",
               "word": "integrity",
               "phonetic": "/ɪnˈteɡrəti/",
               "pos": "n.",
@@ -40148,7 +40148,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_27",
-              "num": "20",
+              "num": "27",
               "word": "disintegrate",
               "phonetic": "/dɪsˈɪntɪɡreɪt/",
               "pos": "v.",
@@ -40170,7 +40170,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_28",
-              "num": "21",
+              "num": "28",
               "word": "concrete",
               "phonetic": "/ˈkɑːnkriːt/",
               "pos": "adj.",
@@ -40185,7 +40185,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_29",
-              "num": "22",
+              "num": "29",
               "word": "emigrate",
               "phonetic": "/ˈemɪɡreɪt/",
               "pos": "v.",
@@ -40200,7 +40200,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_30",
-              "num": "23",
+              "num": "30",
               "word": "migrate",
               "phonetic": "/ˈmaɪɡreɪt/",
               "pos": "v.",
@@ -40222,7 +40222,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_31",
-              "num": "24",
+              "num": "31",
               "word": "immigrate",
               "phonetic": "/ˈɪmɪɡreɪt/",
               "pos": "v.",
@@ -40244,7 +40244,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_32",
-              "num": "25",
+              "num": "32",
               "word": "immigrant",
               "phonetic": "/ˈɪmɪɡrənt/",
               "pos": "n.",
@@ -40259,7 +40259,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_33",
-              "num": "26",
+              "num": "33",
               "word": "emigrant",
               "phonetic": "/ˈemɪɡrənt/",
               "pos": "n.",
@@ -40274,7 +40274,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_34",
-              "num": "27",
+              "num": "34",
               "word": "migrant",
               "phonetic": "/ˈmaɪɡrənt/",
               "pos": "n.",
@@ -40289,7 +40289,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_35",
-              "num": "28",
+              "num": "35",
               "word": "candidate",
               "phonetic": "/ˈkændɪdət/",
               "pos": "",
@@ -40311,7 +40311,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_36",
-              "num": "29",
+              "num": "36",
               "word": "recruit",
               "phonetic": "/rɪˈkruːt/",
               "pos": "n.",
@@ -40333,7 +40333,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_37",
-              "num": "30",
+              "num": "37",
               "word": "enrol",
               "phonetic": "/ɪnˈroʊl/",
               "pos": "v.",
@@ -40355,7 +40355,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_38",
-              "num": "31",
+              "num": "38",
               "word": "roll",
               "phonetic": "/roʊl/",
               "pos": "n.",
@@ -40377,7 +40377,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_39",
-              "num": "32",
+              "num": "39",
               "word": "register",
               "phonetic": "/ˈredʒɪstər/",
               "pos": "n.",
@@ -40405,7 +40405,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_40",
-              "num": "33",
+              "num": "40",
               "word": "participate",
               "phonetic": "/pɑːrˈtɪsɪpeɪt/",
               "pos": "v.",
@@ -40433,7 +40433,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_41",
-              "num": "34",
+              "num": "41",
               "word": "anticipate",
               "phonetic": "/ænˈtɪsɪpeɪt/",
               "pos": "v.",
@@ -40455,7 +40455,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_42",
-              "num": "35",
+              "num": "42",
               "word": "antique",
               "phonetic": "/ænˈtiːk/",
               "pos": "n.",
@@ -40470,7 +40470,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_43",
-              "num": "36",
+              "num": "43",
               "word": "ancient",
               "phonetic": "/ˈeɪnʃənt/",
               "pos": "adj.",
@@ -40485,7 +40485,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_44",
-              "num": "37",
+              "num": "44",
               "word": "explode",
               "phonetic": "/ɪkˈsploʊd/",
               "pos": "v.",
@@ -40513,7 +40513,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_45",
-              "num": "38",
+              "num": "45",
               "word": "explore",
               "phonetic": "/ɪkˈsplɔːr/",
               "pos": "v.",
@@ -40535,7 +40535,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_46",
-              "num": "39",
+              "num": "46",
               "word": "exploit",
               "phonetic": "/ɪkˈsplɔɪt/",
               "pos": "",
@@ -40550,7 +40550,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_47",
-              "num": "40",
+              "num": "47",
               "word": "tap",
               "phonetic": "/tæp/",
               "pos": "n.",
@@ -40565,7 +40565,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_48",
-              "num": "41",
+              "num": "48",
               "word": "tub",
               "phonetic": "/tʌb/",
               "pos": "n.",
@@ -40580,7 +40580,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_49",
-              "num": "42",
+              "num": "49",
               "word": "utilize",
               "phonetic": "/ˈjuːtəlaɪz/",
               "pos": "v.",
@@ -40595,7 +40595,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_50",
-              "num": "43",
+              "num": "50",
               "word": "utility",
               "phonetic": "/juːˈtɪləti/",
               "pos": "n.",
@@ -40610,7 +40610,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_51",
-              "num": "44",
+              "num": "51",
               "word": "appliance",
               "phonetic": "/əˈplaɪəns/",
               "pos": "n.",
@@ -40625,7 +40625,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_52",
-              "num": "45",
+              "num": "52",
               "word": "mechanic",
               "phonetic": "/məˈkænɪk/",
               "pos": "n.",
@@ -40659,7 +40659,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_53",
-              "num": "46",
+              "num": "53",
               "word": "equip",
               "phonetic": "/ɪˈkwɪp/",
               "pos": "v.",
@@ -40681,7 +40681,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_54",
-              "num": "47",
+              "num": "54",
               "word": "gadget",
               "phonetic": "/ˈɡædʒɪt/",
               "pos": "n.",
@@ -40703,7 +40703,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_55",
-              "num": "48",
+              "num": "55",
               "word": "instal",
               "phonetic": "/ɪnˈstɔːl/",
               "pos": "v.",
@@ -40718,7 +40718,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_56",
-              "num": "49",
+              "num": "56",
               "word": "screw",
               "phonetic": "/skruː/",
               "pos": "n.",
@@ -40733,7 +40733,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_57",
-              "num": "50",
+              "num": "57",
               "word": "scrutiny",
               "phonetic": "/ˈskruːtəni/",
               "pos": "n.",
@@ -40748,7 +40748,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_58",
-              "num": "51",
+              "num": "58",
               "word": "employ",
               "phonetic": "/ɪmˈplɔɪ/",
               "pos": "v.",
@@ -40782,7 +40782,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_59",
-              "num": "52",
+              "num": "59",
               "word": "deploy",
               "phonetic": "/dɪˈplɔɪ/",
               "pos": "v.",
@@ -40804,7 +40804,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_60",
-              "num": "53",
+              "num": "60",
               "word": "plausible",
               "phonetic": "/ˈplɔːzəb(ə)l/",
               "pos": "adj.",
@@ -40819,7 +40819,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_61",
-              "num": "54",
+              "num": "61",
               "word": "abstract",
               "phonetic": "/ˈæbstrækt/",
               "pos": "",
@@ -40834,7 +40834,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_62",
-              "num": "55",
+              "num": "62",
               "word": "extract",
               "phonetic": "/ˈekstrækt/",
               "pos": "",
@@ -40856,7 +40856,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_63",
-              "num": "56",
+              "num": "63",
               "word": "contract",
               "phonetic": "/ˈkɑːntrækt/",
               "pos": "",
@@ -40878,7 +40878,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_64",
-              "num": "57",
+              "num": "64",
               "word": "subtract",
               "phonetic": "/səbˈtrækt/",
               "pos": "v.",
@@ -40893,7 +40893,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l3_65",
-              "num": "58",
+              "num": "65",
               "word": "attract",
               "phonetic": "/əˈtrækt/",
               "pos": "v.",
@@ -40977,7 +40977,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_02",
-              "num": "59",
+              "num": "02",
               "word": "distract",
               "phonetic": "/dɪˈstrækt/",
               "pos": "v.",
@@ -40999,7 +40999,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_03",
-              "num": "60",
+              "num": "03",
               "word": "drag",
               "phonetic": "/dræɡ/",
               "pos": "v.",
@@ -41014,7 +41014,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_04",
-              "num": "61",
+              "num": "04",
               "word": "tow",
               "phonetic": "/toʊ/",
               "pos": "v.",
@@ -41029,7 +41029,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_05",
-              "num": "62",
+              "num": "05",
               "word": "haul",
               "phonetic": "/hɔːl/",
               "pos": "n.",
@@ -41044,7 +41044,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_06",
-              "num": "63",
+              "num": "06",
               "word": "accumulate",
               "phonetic": "/əˈkjuːmjəleɪt/",
               "pos": "v.",
@@ -41072,7 +41072,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_07",
-              "num": "64",
+              "num": "07",
               "word": "cumulative",
               "phonetic": "/ˈkjuːmjəleɪtɪv/",
               "pos": "adj.",
@@ -41087,7 +41087,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_08",
-              "num": "65",
+              "num": "08",
               "word": "centralize",
               "phonetic": "/ˈsentrəlaɪz/",
               "pos": "v.",
@@ -41102,7 +41102,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_09",
-              "num": "66",
+              "num": "09",
               "word": "concentrate",
               "phonetic": "/ˈkɑːns(ə)ntreɪt/",
               "pos": "n.",
@@ -41124,7 +41124,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_10",
-              "num": "01",
+              "num": "10",
               "word": "dynamic",
               "phonetic": "/daɪˈnæmɪk/",
               "pos": "n.",
@@ -41146,7 +41146,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_11",
-              "num": "02",
+              "num": "11",
               "word": "energy",
               "phonetic": "/ˈenərdʒi/",
               "pos": "n.",
@@ -41174,7 +41174,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_12",
-              "num": "03",
+              "num": "12",
               "word": "animate",
               "phonetic": "/ˈænɪmeɪt/",
               "pos": "",
@@ -41202,7 +41202,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_13",
-              "num": "04",
+              "num": "13",
               "word": "activate",
               "phonetic": "/ˈæktɪveɪt/",
               "pos": "v.",
@@ -41217,7 +41217,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_14",
-              "num": "05",
+              "num": "14",
               "word": "battery",
               "phonetic": "/ˈbætəri/",
               "pos": "n.",
@@ -41232,7 +41232,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_15",
-              "num": "06",
+              "num": "15",
               "word": "enthusiastic",
               "phonetic": "/ɪnˌθuːziˈæstɪk/",
               "pos": "adj.",
@@ -41266,7 +41266,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_16",
-              "num": "07",
+              "num": "16",
               "word": "indifferent",
               "phonetic": "/ɪnˈdɪfrənt/",
               "pos": "adj.",
@@ -41288,7 +41288,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_17",
-              "num": "80",
+              "num": "17",
               "word": "differentiate",
               "phonetic": "/ˌdɪfəˈrenʃieɪt/",
               "pos": "v.",
@@ -41310,7 +41310,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_18",
-              "num": "60",
+              "num": "18",
               "word": "sober",
               "phonetic": "/ˈsoʊbər/",
               "pos": "adj.",
@@ -41325,7 +41325,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_19",
-              "num": "10",
+              "num": "19",
               "word": "soda",
               "phonetic": "/ˈsoʊdə/",
               "pos": "n.",
@@ -41340,7 +41340,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_20",
-              "num": "11",
+              "num": "20",
               "word": "passion",
               "phonetic": "/ˈpæʃ(ə)n/",
               "pos": "n.",
@@ -41362,7 +41362,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_21",
-              "num": "12",
+              "num": "21",
               "word": "compassion",
               "phonetic": "/kəmˈpæʃn/",
               "pos": "n.",
@@ -41384,7 +41384,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_22",
-              "num": "13",
+              "num": "22",
               "word": "compass",
               "phonetic": "/ˈkʌmpəs/",
               "pos": "n.",
@@ -41399,7 +41399,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_23",
-              "num": "14",
+              "num": "23",
               "word": "compact",
               "phonetic": "/kəmˈpækt/",
               "pos": "",
@@ -41414,7 +41414,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_24",
-              "num": "15",
+              "num": "24",
               "word": "impact",
               "phonetic": "/ˈɪmpækt/",
               "pos": "",
@@ -41429,7 +41429,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_25",
-              "num": "16",
+              "num": "25",
               "word": "influence",
               "phonetic": "/ˈɪnfluəns/",
               "pos": "",
@@ -41444,7 +41444,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_26",
-              "num": "17",
+              "num": "26",
               "word": "influential",
               "phonetic": "/ˌɪnfluˈenʃ(ə)l/",
               "pos": "adj.",
@@ -41459,7 +41459,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_27",
-              "num": "18",
+              "num": "27",
               "word": "compatible",
               "phonetic": "/kəmˈpætəb(ə)l/",
               "pos": "",
@@ -41481,7 +41481,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_28",
-              "num": "19",
+              "num": "28",
               "word": "tedious",
               "phonetic": "/ˈtiːdiəs/",
               "pos": "adj.",
@@ -41496,7 +41496,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_29",
-              "num": "20",
+              "num": "29",
               "word": "dull",
               "phonetic": "/dʌl/",
               "pos": "adj.",
@@ -41511,7 +41511,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_30",
-              "num": "21",
+              "num": "30",
               "word": "routine",
               "phonetic": "/ruːˈtiːn/",
               "pos": "n.",
@@ -41526,7 +41526,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_31",
-              "num": "22",
+              "num": "31",
               "word": "agenda",
               "phonetic": "/əˈdʒendə/",
               "pos": "n.",
@@ -41541,7 +41541,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_32",
-              "num": "23",
+              "num": "32",
               "word": "summary",
               "phonetic": "/ˈsʌməri/",
               "pos": "n.",
@@ -41556,7 +41556,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_33",
-              "num": "24",
+              "num": "33",
               "word": "sum",
               "phonetic": "/sʌm/",
               "pos": "n.",
@@ -41571,7 +41571,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_34",
-              "num": "25",
+              "num": "34",
               "word": "audit",
               "phonetic": "/ˈɔːdɪt/",
               "pos": "n./v.",
@@ -41593,7 +41593,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_35",
-              "num": "26",
+              "num": "35",
               "word": "arithmetic",
               "phonetic": "/əˈrɪθmətɪk/",
               "pos": "n.",
@@ -41608,7 +41608,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_36",
-              "num": "27",
+              "num": "36",
               "word": "atlas",
               "phonetic": "/ˈætləs/",
               "pos": "n.",
@@ -41623,7 +41623,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_37",
-              "num": "28",
+              "num": "37",
               "word": "brochure",
               "phonetic": "/broʊˈʃʊr/",
               "pos": "n.",
@@ -41638,7 +41638,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_38",
-              "num": "29",
+              "num": "38",
               "word": "leaflet",
               "phonetic": "/ˈliːflət/",
               "pos": "n.",
@@ -41653,7 +41653,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_39",
-              "num": "30",
+              "num": "39",
               "word": "graph",
               "phonetic": "/ɡræf/",
               "pos": "n.",
@@ -41681,7 +41681,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_40",
-              "num": "31",
+              "num": "40",
               "word": "career",
               "phonetic": "/kəˈrɪr/",
               "pos": "n.",
@@ -41696,7 +41696,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_41",
-              "num": "32",
+              "num": "41",
               "word": "carpenter",
               "phonetic": "/ˈkɑːrpəntər/",
               "pos": "n.",
@@ -41711,7 +41711,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_42",
-              "num": "33",
+              "num": "42",
               "word": "carriage",
               "phonetic": "/ˈkærɪdʒ/",
               "pos": "n.",
@@ -41726,7 +41726,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_43",
-              "num": "34",
+              "num": "43",
               "word": "carrier",
               "phonetic": "/ˈkæriər/",
               "pos": "n.",
@@ -41741,7 +41741,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_44",
-              "num": "35",
+              "num": "44",
               "word": "cart",
               "phonetic": "/kɑːrt/",
               "pos": "n.",
@@ -41756,7 +41756,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_45",
-              "num": "36",
+              "num": "45",
               "word": "caravan",
               "phonetic": "/ˈkærəvæn/",
               "pos": "n.",
@@ -41771,7 +41771,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_46",
-              "num": "37",
+              "num": "46",
               "word": "cargo",
               "phonetic": "/ˈkɑːrɡoʊ/",
               "pos": "n.",
@@ -41793,7 +41793,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_47",
-              "num": "39",
+              "num": "47",
               "word": "numerical",
               "phonetic": "/nuːˈmerɪk(ə)l/",
               "pos": "adj.",
@@ -41808,7 +41808,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_48",
-              "num": "40",
+              "num": "48",
               "word": "numerous",
               "phonetic": "/ˈnuːmərəs/",
               "pos": "adj.",
@@ -41823,7 +41823,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_49",
-              "num": "41",
+              "num": "49",
               "word": "innumerable",
               "phonetic": "/ɪˈnuːmərəb(ə)l/",
               "pos": "adj.",
@@ -41838,7 +41838,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_50",
-              "num": "42",
+              "num": "50",
               "word": "biology",
               "phonetic": "/baɪˈɑːlədʒi/",
               "pos": "n.",
@@ -41853,7 +41853,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_51",
-              "num": "43",
+              "num": "51",
               "word": "antibiotic",
               "phonetic": "/ˌæntibaɪˈɑːtɪk/",
               "pos": "n.",
@@ -41868,7 +41868,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_52",
-              "num": "44",
+              "num": "52",
               "word": "biochemistry",
               "phonetic": "/ˌbaɪoʊˈkemɪstri/",
               "pos": "n.",
@@ -41883,7 +41883,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_53",
-              "num": "45",
+              "num": "53",
               "word": "biotechnology",
               "phonetic": "/ˌbaɪoʊtekˈnɑːlədʒi/",
               "pos": "n.",
@@ -41898,7 +41898,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_54",
-              "num": "46",
+              "num": "54",
               "word": "biography",
               "phonetic": "/baɪˈɑːɡrəfi/",
               "pos": "n.",
@@ -41913,7 +41913,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_55",
-              "num": "47",
+              "num": "55",
               "word": "autobiography",
               "phonetic": "/ˌɔːtəbaɪˈɑːɡrəfi/",
               "pos": "n.",
@@ -41928,7 +41928,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_56",
-              "num": "48",
+              "num": "56",
               "word": "expressway",
               "phonetic": "/ɪkˈspresweɪ/",
               "pos": "n.",
@@ -41943,7 +41943,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_57",
-              "num": "49",
+              "num": "57",
               "word": "halfway",
               "phonetic": "/ˌhæfˈweɪ/",
               "pos": "adv.",
@@ -41958,7 +41958,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_58",
-              "num": "50",
+              "num": "58",
               "word": "subway",
               "phonetic": "/ˈsʌbweɪ/",
               "pos": "n.",
@@ -41973,7 +41973,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_59",
-              "num": "51",
+              "num": "59",
               "word": "convoy",
               "phonetic": "/ˈkɑːnvɔɪ/",
               "pos": "n.",
@@ -41988,7 +41988,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_60",
-              "num": "52",
+              "num": "60",
               "word": "envoy",
               "phonetic": "/ˈenvɔɪ/",
               "pos": "n.",
@@ -42003,7 +42003,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_61",
-              "num": "53",
+              "num": "61",
               "word": "tailor",
               "phonetic": "/ˈteɪlər/",
               "pos": "n.",
@@ -42018,7 +42018,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_62",
-              "num": "54",
+              "num": "62",
               "word": "curtail",
               "phonetic": "/kɜːrˈteɪl/",
               "pos": "v.",
@@ -42033,7 +42033,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_63",
-              "num": "55",
+              "num": "63",
               "word": "detail",
               "phonetic": "/ˈdiːteɪl/",
               "pos": "n.",
@@ -42055,7 +42055,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_64",
-              "num": "56",
+              "num": "64",
               "word": "stitch",
               "phonetic": "/stɪtʃ/",
               "pos": "n.",
@@ -42070,7 +42070,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_65",
-              "num": "57",
+              "num": "65",
               "word": "stigma",
               "phonetic": "/ˈstɪɡmə/",
               "pos": "n.",
@@ -42085,7 +42085,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_66",
-              "num": "58",
+              "num": "66",
               "word": "lipstick",
               "phonetic": "/ˈlɪpstɪk/",
               "pos": "n.",
@@ -42100,7 +42100,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_67",
-              "num": "59",
+              "num": "67",
               "word": "matter",
               "phonetic": "/ˈmætər/",
               "pos": "n.",
@@ -42115,7 +42115,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_68",
-              "num": "60",
+              "num": "68",
               "word": "maternal",
               "phonetic": "/məˈtɜːrn(ə)l/",
               "pos": "adj.",
@@ -42130,7 +42130,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_69",
-              "num": "61",
+              "num": "69",
               "word": "maternity",
               "phonetic": "/məˈtɜːrnəti/",
               "pos": "n.",
@@ -42145,7 +42145,7 @@ window.CET6_DATA = {
             },
             {
               "id": "u10_l4_70",
-              "num": "62",
+              "num": "70",
               "word": "metaphor",
               "phonetic": "/ˈmetəfər/",
               "pos": "",
@@ -71917,6 +71917,78 @@ window.CET6_DATA = {
         {
           "word": "decline",
           "meaning": "n.下降；衰落，衰退 v.下降；衰落， 开小差衰退；谢绝"
+        },
+        {
+          "word": "inherent",
+          "meaning": "adj. 内在的，固有的；生来就有的"
+        },
+        {
+          "word": "inevitably",
+          "meaning": "adv.不可避免地；必然地"
+        },
+        {
+          "word": "zoology",
+          "meaning": "n. 动物学"
+        },
+        {
+          "word": "dirt",
+          "meaning": "n. 泥土；污物；灰尘；丑闻"
+        },
+        {
+          "word": "casualties",
+          "meaning": "n. 伤亡人数，伤亡者总数"
+        },
+        {
+          "word": "propagandist",
+          "meaning": "n.宣传者；鼓吹者"
+        },
+        {
+          "word": "reigning",
+          "meaning": "adj.在位的；卫冕的，本届的"
+        },
+        {
+          "word": "mature",
+          "meaning": "adj. 成熟的；理智的，明白事理的 v. 成熟"
+        },
+        {
+          "word": "domain",
+          "meaning": "n. (知识、活动的)领域，范围；领土，势力范围"
+        },
+        {
+          "word": "controversy",
+          "meaning": "n. 争议，公开辩论；论战"
+        },
+        {
+          "word": "insure",
+          "meaning": "v. 投保，给...保险；接受投保，承保"
+        },
+        {
+          "word": "accountability",
+          "meaning": "n.负有责任"
+        },
+        {
+          "word": "dimension",
+          "meaning": "n. 维(构成空间的因素)；尺寸；规模；范围；方面"
+        },
+        {
+          "word": "hospitable",
+          "meaning": "adj.好客的，热情的"
+        },
+        {
+          "word": "glitter",
+          "meaning": "v.闪烁，闪光n.闪烁，闪耀"
+        },
+        {
+          "word": "excursion",
+          "meaning": "n.（尤指集体度假时的）远足，短途旅行"
+        },
+        {
+          "word": "ordeal",
+          "meaning": "n. 磨难，折磨；严酷的考验，煎熬"
+        },
+        {
+          "word": "metaphor",
+          "meaning": "n. 暗喻，隐喻"
         }
       ]
     },
@@ -101443,6 +101515,62 @@ window.CET6_DATA = {
         {
           "word": "multiple",
           "meaning": "adj.数量多的；多种的n.倍数"
+        },
+        {
+          "word": "inherent",
+          "meaning": "adj. 内在的，固有的；生来就有的"
+        },
+        {
+          "word": "inevitably",
+          "meaning": "adv.不可避免地；必然地"
+        },
+        {
+          "word": "zoology",
+          "meaning": "n. 动物学"
+        },
+        {
+          "word": "dirt",
+          "meaning": "n. 泥土；污物；灰尘；丑闻"
+        },
+        {
+          "word": "casualties",
+          "meaning": "n. 伤亡人数，伤亡者总数"
+        },
+        {
+          "word": "propagandist",
+          "meaning": "n.宣传者；鼓吹者"
+        },
+        {
+          "word": "reigning",
+          "meaning": "adj.在位的；卫冕的，本届的"
+        },
+        {
+          "word": "mature",
+          "meaning": "adj. 成熟的；理智的，明白事理的 v. 成熟"
+        },
+        {
+          "word": "domain",
+          "meaning": "n. (知识、活动的)领域，范围；领土，势力范围"
+        },
+        {
+          "word": "controversy",
+          "meaning": "n. 争议，公开辩论；论战"
+        },
+        {
+          "word": "insure",
+          "meaning": "v. 投保，给...保险；接受投保，承保"
+        },
+        {
+          "word": "dimension",
+          "meaning": "n. 维(构成空间的因素)；尺寸；规模；范围；方面"
+        },
+        {
+          "word": "ordeal",
+          "meaning": "n. 磨难，折磨；严酷的考验，煎熬"
+        },
+        {
+          "word": "metaphor",
+          "meaning": "n. 暗喻，隐喻"
         }
       ]
     },
@@ -102428,6 +102556,10 @@ window.CET6_DATA = {
         {
           "word": "conquest",
           "meaning": "[派生] n.征服；占领；占领的地区"
+        },
+        {
+          "word": "inherent",
+          "meaning": "adj. 内在的，固有的；生来就有的"
         }
       ]
     },
@@ -103557,6 +103689,30 @@ window.CET6_DATA = {
         {
           "word": "statistical",
           "meaning": "[派生] adj.统计的"
+        },
+        {
+          "word": "inevitably",
+          "meaning": "adv.不可避免地；必然地"
+        },
+        {
+          "word": "zoology",
+          "meaning": "n. 动物学"
+        },
+        {
+          "word": "dirt",
+          "meaning": "n. 泥土；污物；灰尘；丑闻"
+        },
+        {
+          "word": "casualties",
+          "meaning": "n. 伤亡人数，伤亡者总数"
+        },
+        {
+          "word": "propagandist",
+          "meaning": "n.宣传者；鼓吹者"
+        },
+        {
+          "word": "reigning",
+          "meaning": "adj.在位的；卫冕的，本届的"
         }
       ]
     },
@@ -106219,6 +106375,18 @@ window.CET6_DATA = {
         {
           "word": "sector",
           "meaning": "n.(尤指商业、贸易等的）部门；行业； 区域"
+        },
+        {
+          "word": "mature",
+          "meaning": "adj. 成熟的；理智的，明白事理的 v. 成熟"
+        },
+        {
+          "word": "domain",
+          "meaning": "n. (知识、活动的)领域，范围；领土，势力范围"
+        },
+        {
+          "word": "controversy",
+          "meaning": "n. 争议，公开辩论；论战"
         }
       ]
     },
@@ -107608,6 +107776,10 @@ window.CET6_DATA = {
         {
           "word": "porter",
           "meaning": "n.行李员，搬运工；护工；门卫"
+        },
+        {
+          "word": "insure",
+          "meaning": "v. 投保，给...保险；接受投保，承保"
         }
       ]
     },
@@ -110366,6 +110538,10 @@ window.CET6_DATA = {
         {
           "word": "response",
           "meaning": "n.回答，答复；反应，响应"
+        },
+        {
+          "word": "dimension",
+          "meaning": "n. 维(构成空间的因素)；尺寸；规模；范围；方面"
         }
       ]
     },
@@ -111759,6 +111935,10 @@ window.CET6_DATA = {
         {
           "word": "skepticism",
           "meaning": "[派生] n. 怀疑态度；怀疑主义"
+        },
+        {
+          "word": "ordeal",
+          "meaning": "n. 磨难，折磨；严酷的考验，煎熬"
         }
       ]
     },
@@ -114665,6 +114845,10 @@ window.CET6_DATA = {
         {
           "word": "impart",
           "meaning": "v.传授；告知"
+        },
+        {
+          "word": "metaphor",
+          "meaning": "n. 暗喻，隐喻"
         }
       ]
     },
