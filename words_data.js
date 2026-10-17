@@ -9439,8 +9439,8 @@ window.CET6_DATA = {
               "meaning": "v.意指；表示，代表",
               "highlight": "v.意指",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“弟阔他”→他“代表” 闹情绪的弟弟去与人交涉。",
+              "tip_type": "词根+对照",
+              "tip": "① 词根构词：de-（加强语气，向下）+ note（记号，标记，注释，同源 notable 显著的）→ 在下方做出明确标记以指示含义 → v. 意指；表示，代表；② 六级核心对照：denote 直指字面外延（名词 denotation 外延/指称） ↔ connote 隐射深层内涵（名词 connotation 内涵/暗示）",
               "derivations": [
                 {
                   "word": "denotation",
