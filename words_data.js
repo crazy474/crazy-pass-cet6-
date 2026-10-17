@@ -801,8 +801,8 @@ window.CET6_DATA = {
               "meaning": "n.继承者，接任者；接替的事物",
               "highlight": "n.继承者",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "success(成功) + -or(表示人的后缀) → 成功接班继承的人 → 继承人，继任者",
+              "tip_type": "词根+派生",
+              "tip": "leg-（词根：法律，委派，源自拉丁语 legare，同源 legal）+ -acy（名词后缀）→ 遵照法律遗嘱正式移交后人的财物或悬而未决的事务 → n. 遗产；遗留问题，后遗症",
               "derivations": [],
               "example_en": "The program has just come to an end, with no 2 successor.",
               "example_cn": "这个计划刚结束，没有接替的计划。"
@@ -1778,8 +1778,8 @@ window.CET6_DATA = {
               "meaning": "n.&v.称赞，赞美，表扬",
               "highlight": "n.&v.称赞",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "谐音“陪死” → 为了赞美英雄哪怕陪死也在所不惜 → n.&v.称赞，赞美，表扬",
+              "tip_type": "词根+联想",
+              "tip": "prais-（词根：价值，估价，同源 price 价格/appraise 评估，源自拉丁语 pretium）→ 给予极高的评价与赞美 → n.&v. 称赞，赞美，表扬",
               "derivations": [],
               "example_en": "He heaped praise on his team.",
               "example_cn": "他高度赞扬了他的队。"
@@ -1882,8 +1882,8 @@ window.CET6_DATA = {
               "meaning": "n.奖励；回报；报酬 v.奖赏；给以报酬",
               "highlight": "n.奖励",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "re-（回）+ward（音似word）→作为 “回报”，学生也给老师讲了个单词。",
+              "tip_type": "词源+联想",
+              "tip": "源自希腊语 tropaion（在敌军溃退之处竖起的纪念碑，同源 trop- 旋转转向）→ 战场缴获带回炫耀的敌军战甲徽章 → n. 奖品；奖杯；战利品",
               "derivations": [
                 {
                   "word": "rewarding",
@@ -2132,8 +2132,8 @@ window.CET6_DATA = {
               "meaning": "n.元素；因素，要素",
               "highlight": "n.元素",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "elemen（音似“爱丽妹”)+t→爱丽的妹妹知道，成功需要很多“因素”。",
+              "tip_type": "词根+联想",
+              "tip": "ele-（初级，根本）+ -ment（名词后缀，同源 elementary 初级的基础的）→ 构成万事万物最基本不可或缺的基质与关键因素 → n. 元素；要素，因素",
               "derivations": [
                 {
                   "word": "elementary",
@@ -2380,8 +2380,8 @@ window.CET6_DATA = {
               "meaning": "v.揭开；脱掉 adj.赤裸的，裸露的；光秃秃的",
               "highlight": "v.揭开",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "bar（木条）+e(字母音似“姨”)→木条划破了阿姨的衣袖，使她露出了胳膊→裸露的",
+              "tip_type": "词族联想",
+              "tip": "核心词族联想：barefoot（赤脚的）/ barely（仅仅，几乎不）/ bare hands（赤手空拳）→ 没有任何衣物或枝叶遮盖遮挡的状态 → adj. 赤裸的，裸露的；光秃秃的 v. 揭开，脱掉",
               "derivations": [
                 {
                   "word": "barely",
@@ -2484,8 +2484,8 @@ window.CET6_DATA = {
               "meaning": "adj.紧急的，急切的",
               "highlight": "adj.紧急的",
               "freq": 3,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“饿紧它”→他太饿了， 急切地需要食物→紧急的，急切的",
+              "tip_type": "词源+联想",
+              "tip": "源自 home（故土，老家）变体 → 幽灵旧魂常年徘徊流连于生前居所，引申为往事心结在心头久久挥之不去 → v. 萦绕于心头，使难以忘怀；常去",
               "derivations": [
                 {
                   "word": "urgency",
@@ -3224,8 +3224,8 @@ window.CET6_DATA = {
               "meaning": "n.设想；方案；场景",
               "highlight": "n.设想",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "sce（联想scene）+nario（音似“哪里”)→去哪里看风景要先有个“设想”。",
+              "tip_type": "词根+联想",
+              "tip": "scene（舞台场景，布景）+ -ario（名词后缀，表一整套情节构想）→ 将未来可能发生的每一个阶段场景推演规划好的成套方案 → n. 设想；预案，方案；剧情梗概",
               "derivations": [],
               "example_en": "Emergency services have prepared contingency plans for the worst-case scenario.",
               "example_cn": "应急部门已经针对最坏的情况制定了应急预案。"
@@ -3839,8 +3839,8 @@ window.CET6_DATA = {
               "meaning": "n.饥荒，饥饿",
               "highlight": "n.饥荒",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "fam（联想farm）+in（里面）+e（字母音似“姨”)→农场里的阿姨“饥饿”了。",
+              "tip_type": "词根+谐音",
+              "tip": "① 词根构词：fam-（词根：饥饿，源自拉丁语 fames，同源 famished 极饥饿的）+ -ine → 大地赤地千里庄稼颗粒无收的极端饥馑 → n. 饥荒，饥饿；② 谐音助记：“发闷”→ 闹大饥荒没饭吃，愁得心头发闷",
               "derivations": [],
               "example_en": "The government has to make sure people don't die offamine.",
               "example_cn": "政府必须确保人们不会死于饥饿。"
@@ -5636,8 +5636,8 @@ window.CET6_DATA = {
               "meaning": "n.潜能，潜力 adj.潜在的，可能的",
               "highlight": "n.潜能",
               "freq": 3,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“陪他瘦”→陪他一起瘦，我有这个“潜能”。",
+              "tip_type": "词根+联想",
+              "tip": "char-（词根：清扫，杂务，同源 charwoman 女清洁工）的变体 → 日复一日枯燥琐碎却不得不做的清扫洗涮家务活 → n. 日常事务；乏味无聊的家务杂事",
               "derivations": [
                 {
                   "word": "potentiality",
@@ -5843,8 +5843,8 @@ window.CET6_DATA = {
               "meaning": "adj.联合的，共同的 n.关节；接头；接合处",
               "highlight": "adj.联合的",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "join（连接，结合）+ -t → 两根骨头相互连接咬合的地方就是“关节”，多方联合起来就是“共同的” → 关节；接合处；联合的，共同的",
+              "tip_type": "词根+前缀",
+              "tip": "com-（共同，全部）+ pound/pon（词根：放置，摆放，同源 component 组件/post 岗位）→ 把多种化学物质放置在一起调和而成的物质 → n. 混合物；化合物 adj. 复合的 v. 使恶化，加重",
               "derivations": [],
               "example_en": "(joint)。 MT6 adjacent/a'd3eisnt/ This occurs almost exclusively between classes The report was a joint effort.",
               "example_cn": "这个报告是大家3共同努力的成果。"
@@ -8001,8 +8001,8 @@ window.CET6_DATA = {
               "meaning": "v.使惊奇；使惊",
               "highlight": "v.使惊奇",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“啊妹子”→啊，妹子上大学后变化好大啊→使惊奇",
+              "tip_type": "词族联想",
+              "tip": "a-（使...）+ maze（迷宫）→ 令人仿佛突然置身于光怪陆离的巨大迷宫之中般惊诧震撼 → v. 使惊奇，使大为吃惊",
               "derivations": [
                 {
                   "word": "amazing",
@@ -8637,8 +8637,8 @@ window.CET6_DATA = {
               "meaning": "n.冒险v.冒险；赌博",
               "highlight": "n.冒险v.冒险",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“干部”→这部电影讲述了一个干部“冒险”实施禁毒行动的故事。",
+              "tip_type": "词源+联想",
+              "tip": "源自古法语 jeu parti（输赢各半、悬于一线的生死赌局）→ 局面凶险万分稍有不慎即遭灭顶之灾 → n. 危险，风险；危急存亡之险境",
               "derivations": [],
               "example_en": "So if you have a long-term goal in mind, it may be worth takinga gamble.",
               "example_cn": "所以，如果你心中有一个长期目标，那么也许值得冒险。"
@@ -8891,8 +8891,8 @@ window.CET6_DATA = {
               "meaning": "v.引起，唤起（感情、记忆或形象）",
               "highlight": "v.引起",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "e（字母音似“姨”）+voke（联想“我刺”)→姨和我都出去刺（打）他，“引起”了他的愤怒。",
+              "tip_type": "词根+前缀",
+              "tip": "e-（出，向外）+ vok/voke（词根：呼喊，发出声音，同源 vocal 声音/provoke 激怒）→ 将潜藏心底深处的情感与回忆高声呼唤出来 → v. 唤起，引起（感情、记忆或形象）",
               "derivations": [],
               "example_en": "The music evoked memories of her youth.",
               "example_cn": "这乐曲勾起了她对青年时代的回忆。"
@@ -9047,8 +9047,8 @@ window.CET6_DATA = {
               "meaning": "n.可用性；实用性",
               "highlight": "n.可用性",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "avail(有用，可用) + -ability(名词后缀) → 随时能够被获取利用的属性与便利程度 → n.可用性；实用性；可得性",
+              "tip_type": "词根+前缀",
+              "tip": "de-（向下，离开）+ fic（词根：做，制造，同源 defect 缺陷/perfect 完美的）+ -ient（形容词后缀）→ 做得不够、未达到合格标准的 → adj. 缺乏的；有缺陷的，不足的",
               "derivations": [],
               "example_en": "What do you do to ensure availability?",
               "example_cn": "你用什么办法来保证可用性呢？"
@@ -9573,8 +9573,8 @@ window.CET6_DATA = {
               "meaning": "v.表明，显示；指出；指示",
               "highlight": "v.表明",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“硬递给他”→妈妈把书硬递给他，“指示”他今天要看完。",
+              "tip_type": "词根+前缀",
+              "tip": "in-（向内）+ dic（词根：说话，宣告，指示，同源 dictate 口述/dictionary 字典）+ -ate（动词后缀）→ 用言语手势清晰指给对方看 → v. 表明，显示；指出，指示",
               "derivations": [
                 {
                   "word": "indication",
@@ -10584,8 +10584,8 @@ window.CET6_DATA = {
               "meaning": "n.宗教，宗教信仰",
               "highlight": "n.宗教",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "re（字母音似“阿姨”）+ligion（音似 “历尽”)→阿姨历尽沧桑之后，开始研究“宗教”。",
+              "tip_type": "词根+前缀",
+              "tip": "re-（再，重新）+ lig（词根：绑定，结合，同源 rely 依靠/ligament 韧带/oblige）+ -ion（名词后缀）→ 将人的心灵信仰与神明法则重新紧紧系结在一起的体系 → n. 宗教，宗教信仰",
               "derivations": [
                 {
                   "word": "religious",
@@ -11135,8 +11135,8 @@ window.CET6_DATA = {
               "meaning": "n. 部分；瓣；段 v. 分割；划分",
               "highlight": "/'segmant/ n.部分",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "seg-（词根：切，割，同源sect）+ -ment（名词后缀）→ 用刀切分出来的一小段或柑橘的一瓣 → 部分，段，瓣；分割，划分",
+              "tip_type": "文化+联想",
+              "tip": "中世纪大学传统：顺利学成手捧月桂树枝冠冕（laurel）但尚未成家立业的年轻学士（bachelor），往往还是独来独往的单身汉 → n. 单身汉；学士",
               "derivations": [
                 {
                   "word": "segmental",
@@ -11371,8 +11371,8 @@ window.CET6_DATA = {
               "meaning": "n.嘀咕；低语声 v.嘀咕；（私下）抱怨，发牢骚",
               "highlight": "n.嘀咕",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“妈特”→妈妈年龄大了，特别喜欢“嘀咕”。",
+              "tip_type": "拟声+联想",
+              "tip": "拟声词 mut-（模仿嘴巴紧闭在嗓子眼里咕噜含糊之声，同源 mute 静音/muffled 低沉的）→ 闭着嘴私下不满地碎碎念 → n.&v. 嘀咕，喃喃自语；抱怨，发牢骚",
               "derivations": [],
               "example_en": "The old man, still pacing back and forth, ceased to speak aloud, and began to mutter.",
               "example_cn": "老人仍在来回踱步，不再大声说话，开始喃喃自语起来。"
@@ -11386,8 +11386,8 @@ window.CET6_DATA = {
               "meaning": "n.图像，影像；形象，声誉",
               "highlight": "n.图像",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "i（我）+ m（联想“妈”）+ age（年龄，岁月）→ 岁月流逝，但我对妈妈年轻时在灯下缝补衣服的慈爱“形象、影像”依然记忆犹新 → 图像，影像；形象，声誉",
+              "tip_type": "词根+联想",
+              "tip": "imag-（词根：模仿，肖像，塑造，同源 imagine 想象/imitate 模仿）+ -e → 投射在视网膜上或印刻在公众心智中的鲜活形态 → n. 图像，影像；形象，声誉",
               "derivations": [
                 {
                   "word": "imaging",
@@ -11408,8 +11408,8 @@ window.CET6_DATA = {
               "meaning": "adj. 成熟的；理智的，明白事理的 v. 成熟",
               "highlight": "/mo'tua(r); 年的",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "ma（联想“妈”）+ture（联想true）- 做了妈妈以后，她才真的成熟了→成熟的",
+              "tip_type": "词根+联想",
+              "tip": "matur-（词根：成熟的时机，源自拉丁语 maturus）→ 果实完全成熟可采摘，心智处事练达沉稳 → adj. 成熟的；理智的，明白事理的 v. 成熟",
               "derivations": [
                 {
                   "word": "maturity",
@@ -11492,8 +11492,8 @@ window.CET6_DATA = {
               "meaning": "n.道德准则（标准）；寓意；教育意义 adj.道德（上）的；品行端正的",
               "highlight": "n.道德准则（标准）",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "m（联想“妈”）+oral（口头的）→妈妈口头上教育我们要遵守“道德准则”。",
+              "tip_type": "词根+联想",
+              "tip": "mor-（词根：风俗，社会规矩品行，源自拉丁语 mos/moris，同源 morality 道德）+ -al（形容词后缀）→ 符合社会公序良俗的品行标准 → n. 道德准则；寓意 adj. 道德上的；品行端正的",
               "derivations": [
                 {
                   "word": "morality",
@@ -11663,8 +11663,8 @@ window.CET6_DATA = {
               "meaning": "n.大气层；气氛，氛围；气体",
               "highlight": "n.大气层",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "atmo-（词根：蒸汽，气体）+ sphere（球体，圈层）→ 包裹在整个地球外围的气体球层，以及场所营造出的环境氛围 → 大气层；空气；气氛，氛围",
+              "tip_type": "词根+后缀",
+              "tip": "verb（词根：词语，言词，话语，同源 proverb 谚语/adverb 副词）+ -al（形容词后缀）→ 仅停留在口头言辞表述而不诉诸书面行动的 → adj. 口头的，言语的",
               "derivations": [
                 {
                   "word": "atmospheric",
@@ -13689,8 +13689,8 @@ window.CET6_DATA = {
               "meaning": "n.缺点，缺陷",
               "highlight": "n.缺点",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "de（音似“弟”）+fect（做）→弟弟年轻，做事不周到，有“缺陷”。",
+              "tip_type": "词根+前缀",
+              "tip": "de-（坏，脱落，缺少）+ fect（词根：做，制造，同源 perfect 完美/confection 制作）→ 制作过程出现疏漏偷工减料做坏了 → n. 缺点，缺陷，瑕疵",
               "derivations": [
                 {
                   "word": "defective",
@@ -15207,8 +15207,8 @@ window.CET6_DATA = {
               "meaning": "n.缺乏，稀少",
               "highlight": "n.缺乏",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "scarc(e)（缺乏的，稀少的）+-ity（名下疤痕？ 词后缀）→缺乏，稀少",
+              "tip_type": "谐音+联想",
+              "tip": "① 谐音助记：“死瞒过”→ 千方百计死死瞒过缉私海关检查人员；② 词根联想：smug（自鸣得意私藏）+ -le → 偷运私货出入境 → v. 走私，偷运",
               "derivations": [],
               "example_en": "This scarcity is inevitable in less developed countries.",
               "example_cn": "在欠发达国家这种匮乏是不可避免的。"
@@ -15721,8 +15721,8 @@ window.CET6_DATA = {
               "meaning": "v.更改，改进；修改",
               "highlight": "v.更改",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "mod(尺度，方式) + -ify(使动后缀) → 依据新尺度将方案稍加改进修饰 → v.更改，改进；修改，修饰",
+              "tip_type": "词根+联想",
+              "tip": "mend-（词根：瑕疵，错误，同源 amend 修正/fault）→ 查出器物上的瑕疵缝隙并将其修补完好 → v. 修理，缝补；好转",
               "derivations": [
                 {
                   "word": "modification",
@@ -18948,8 +18948,8 @@ window.CET6_DATA = {
               "meaning": "v. 买得起；（有时间）做；承担得起（后果）",
               "highlight": "v.买得起",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "af-(=ad-，给予) + ford(推进，向前) → 钱包厚实足够支付得起买得起，或抽得出精力承受 → v.买得起；做得到；承担得起",
+              "tip_type": "词根+前缀",
+              "tip": "sub-（在底下，底层支撑）+ sid（词根：坐下，沉淀，同源 president 坐席首位）+ -y（名词后缀）→ 在底层垫底支撑经济命脉的扶持资金 → n. 补贴，补助金，津贴",
               "derivations": [
                 {
                   "word": "affordable",
@@ -19834,8 +19834,8 @@ window.CET6_DATA = {
               "meaning": "n.健康，舒适，幸福；（国家的）繁荣",
               "highlight": "n.健康",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "well（健康的，良好的）+ being（存在，生活状态）→ 身心处于良好、安康的生活状态 → 健康，舒适，幸福；（国家的）繁荣",
+              "tip_type": "词根+后缀",
+              "tip": "nutri-（词根：哺育，滋养，供给食物，同源 nurse 护士/保姆）+ -tion（名词后缀）→ 滋养机体健康所不可或缺的全面养分 → n. 营养，滋养；营养学",
               "derivations": [],
               "example_en": "Regular exercise and mindful meditation contribute immensely to your psychological well-being.",
               "example_cn": "适量规律的运动与正念冥想对维护身心健康有着极大的促进作用。"
@@ -20190,8 +20190,8 @@ window.CET6_DATA = {
               "meaning": "n.集体宿舍；学生宿舍",
               "highlight": "n.集体宿舍",
               "freq": 2,
-              "tip_type": "词根",
-              "tip": "dorm（睡眠，休息）+ -it + -ory（表示场所的后缀）→ 供学生或员工集中睡眠休息的场所 → 集体宿舍；学生宿舍",
+              "tip_type": "词族联想",
+              "tip": "同源 food（食物）与 feed（喂养）的古英语派生形式 → 用充足的养分精心抚育幼苗成长，引申为鼓励推动事物茁壮发展 → v. 抚育，照料；促进，培养",
               "derivations": [],
               "example_en": "She lived in a college dormitory.",
               "example_cn": "她住在一幢大学宿舍楼里。"
@@ -20257,8 +20257,8 @@ window.CET6_DATA = {
               "meaning": "n.风景，景色；舞台布景",
               "highlight": "n.风景",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "scene（场景，景色，舞台）+ -ry（集合名词后缀）→ 放眼望去的一整片自然风光或舞台上的全套背景 → 风景，景色；舞台布景",
+              "tip_type": "词根+后缀",
+              "tip": "fragr-（词根：散发芬芳，源自拉丁语 fragrare，同源 flair 天资气味）+ -ant（形容词后缀）→ 散发出沁人心脾幽香的 → adj. 香的，芳香的",
               "derivations": [],
               "example_en": "He declined a job offer from the gallery.",
               "example_cn": "他拒绝了画廊的工作邀请。"
@@ -20944,8 +20944,8 @@ window.CET6_DATA = {
               "meaning": "n.按揭（由银行等提供房产抵押借款）； 按揭贷款v.(向银行等)抵押(房产）",
               "highlight": "n.按揭（由银行等提供房产抵押借款）",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "mortga（音似“摩给”）+ge（联想 “哥”)→我把最爱的摩托给哥哥，当作“抵押”。",
+              "tip_type": "词根+词源",
+              "tip": "mort-（词根：死亡，同源 mortal 终有一死的）+ gage（古法语：押金，抵押契约）→ 直至借款彻底清偿或债务人死亡契约才告终结的终身大额借款 → n. 房屋按揭抵押贷款 v. 抵押（房产）",
               "derivations": [],
               "example_en": "We paid off our mortgage after fifteen years.",
               "example_cn": "我们历经十五年的时间还清了抵押借款。"
@@ -21474,8 +21474,8 @@ window.CET6_DATA = {
               "meaning": "v.减轻，缓和（不快或痛苦）",
               "highlight": "v.减轻",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "re（音似“阿姨”）+ li（音似“立”）+ eve（联想Eve，“夏娃”）→ 阿姨看到夏娃很难过，就站立在夏娃身边温柔安慰她，“减轻，缓和（不快或痛苦）” → 减轻，缓和（不快或痛苦）",
+              "tip_type": "词根+前缀",
+              "tip": "re-（再，重新）+ liev/lev（词根：轻，举起，同源 elevator 电梯/levitate 悬浮）→ 重新将压在心口沉重的大石举起挪走 → v. 减轻，缓和（痛苦或负担）",
               "derivations": [
                 {
                   "word": "relief",
@@ -21583,8 +21583,8 @@ window.CET6_DATA = {
               "meaning": "n.会计，会计师",
               "highlight": "n.会计",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "account(账目) + -ant(表示人的职业后缀) → 专职在企业对账查账编制财务报表的专业会计人员 → n.会计，会计师",
+              "tip_type": "词根+前缀",
+              "tip": "re-（再，重新）+ liev/lev（词根：轻，举起，同源 elevator 电梯/levitate 悬浮）→ 重新将压在心口沉重的大石举起挪走 → v. 减轻，缓和（痛苦或负担）",
               "derivations": [
                 {
                   "word": "accountancy",
@@ -21605,8 +21605,8 @@ window.CET6_DATA = {
               "meaning": "adj.负有责任的",
               "highlight": "adj.负有责任的",
               "freq": 3,
-              "tip_type": "对照",
-              "tip": "account(算账，交代原委) + -able(应当...的) → 面对失职行为必须出面向公众交代清楚负有不可推卸责任的 → adj. 负有责任的；可解释的",
+              "tip_type": "词根+前缀",
+              "tip": "ad-（加强语气，使成为）+ levi/lev（词根：轻，减轻，同源 relieve 缓和）+ -ate（动词后缀）→ 采取果断措施让沉重负担与剧烈痛楚大幅减轻 → v. 减轻，缓解",
               "derivations": [
                 {
                   "word": "accountability",
@@ -21950,8 +21950,8 @@ window.CET6_DATA = {
               "meaning": "v.重新开始；继续",
               "highlight": "v.重新开始",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "re（字母音似“阿姨”）+sume（音似 “输me”）→阿姨输给了我，然后她“重新开始” 向我发起挑战。",
+              "tip_type": "词根+前缀",
+              "tip": "re-（重新，再次）+ sume（词根：拿起，拾取，同源 assume 承担/consume 消费）→ 在中途停顿之后重新拾起未完工作继续推进 → v. 重新开始，继续",
               "derivations": [
                 {
                   "word": "resumption",
@@ -23967,8 +23967,8 @@ window.CET6_DATA = {
               "meaning": "v.为(某人)提供住宿；容纳；适应",
               "highlight": "v.为(某人)提供住宿",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "ac-（加强）+ com-（共同）+ mod-（词根：合适，尺度，规矩）+ -ate → 调整规矩使宾客各得其所住下 → 容纳，提供住宿；顺应，使适应",
+              "tip_type": "词根+对照",
+              "tip": "ac-（去，达到）+ com-（共同）+ mod（规矩，容纳空间）+ -ate → 调整安排好整齐的空间与设施供宾客落脚 → v. 顺应，适应；容纳，提供住宿",
               "derivations": [
                 {
                   "word": "accommodation",
@@ -24143,8 +24143,8 @@ window.CET6_DATA = {
               "meaning": "v.赞助，资助；提交（法案等） n.赞助者，赞助商；倡议者",
               "highlight": "v.赞助",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "spon（音似“死帮”）+sor(音似sir)→ 作为先生的“赞助者”，他努力帮助先生。",
+              "tip_type": "词根+谐音",
+              "tip": "① 谐音助记：“累吧”→ 日复一日从事繁重的体力劳动，你说累不累；② 词根构词：labor-（劳动，心血，同源 elaborate 精心制作）→ 付出体能或脑力汗水辛勤工作 → n. 劳动；劳动力",
               "derivations": [
                 {
                   "word": "sponsorship",
@@ -24187,8 +24187,8 @@ window.CET6_DATA = {
               "meaning": "v.使筋疲力尽；用完，耗尽",
               "highlight": "v.使筋疲力尽",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "谐音“一狗死特”/ex-(向外) + haust(抽干，汲水) → 体内最后一滴汗水被抽干，累得像狗一样精疲力竭 → v.使筋疲力尽；耗尽，用完",
+              "tip_type": "词根+前缀",
+              "tip": "re-（回，反向）+ spons（词根：承诺，庄严起誓，同源 sponsor 发起人/responsible 负责的）+ -e → 针对外界提问或刺激所作出的郑重承诺与反馈 → n. 回答，答复；反应，响应",
               "derivations": [
                 {
                   "word": "exhaustion",
@@ -24363,8 +24363,8 @@ window.CET6_DATA = {
               "meaning": "n.回答，答复；反应，响应",
               "highlight": "n.回答",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "re（字母音似“阿姨”）+spon（音似“是棒”）+se→阿姨“反应”很快，是很棒的→回答，答复；反应，响应",
+              "tip_type": "词根+前缀",
+              "tip": "re-（回，反向）+ spons（词根：承诺，庄严起誓，同源 sponsor 赞助人/responsible 负责的）+ -e → 针对外界提问或刺激所作出的郑重承诺与回馈 → n. 回答，答复；反应，响应",
               "derivations": [
                 {
                   "word": "respond",
@@ -24677,8 +24677,8 @@ window.CET6_DATA = {
               "meaning": "n.打算；意图，目的",
               "highlight": "n.打算",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "intend（打算）+-tion（名词后缀）→脑海里早早规划好想要达成的事情打算与意图初衷→打算；意图，目的",
+              "tip_type": "拟声+联想",
+              "tip": "谐音“浪之”/“揽之”→ 卸下一身疲惫，闲适懒洋洋地斜倚在宽大沙发上漫度时光的地方 → n. 等候室，休息室 v. 懒洋洋地靠着或闲逛",
               "derivations": [
                 {
                   "word": "intentional",
@@ -26566,8 +26566,8 @@ window.CET6_DATA = {
               "meaning": "v.呻吟；抱怨，发牢骚",
               "highlight": "v.呻吟",
               "freq": 3,
-              "tip_type": "拟声谐音",
-              "tip": "发音类似'割肉嗯' → 伤口剧痛仿佛割肉般难忍，喉咙里发出痛苦的呻吟声 → 呻吟；抱怨，叹息",
+              "tip_type": "拟声+联想",
+              "tip": "拟声词 gr-（模仿深沉粗重的喉音呻吟声，同源 moan 呻吟/grunt 呼噜声）→ 遭遇极度痛苦或挫败时从喉咙里发出的低沉呻吟与抱怨 → v. 呻吟；叹息，抱怨",
               "derivations": [],
               "example_en": "Dorothea let out a histrionic groan.",
               "example_cn": "多罗西亚发出了一声做作的呻吟。"
@@ -26618,8 +26618,8 @@ window.CET6_DATA = {
               "meaning": "n.一警；扫视v.臀一眼；扫视；浏览",
               "highlight": "n.一警",
               "freq": 3,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“哥懒死”→哥哥很懒， 无论让他看什么，他都是“一警”了事。",
+              "tip_type": "词族联想",
+              "tip": "同源 glint（光斑闪现）/ glass（玻璃晶莹）→ 视线如晶亮火星闪烁般极速掠过目标 → n.&v. 一瞥，扫视；飞快地看一眼",
               "derivations": [],
               "example_en": "She glanced ather watch.",
               "example_cn": "她臀了一眼表。"
@@ -26633,8 +26633,8 @@ window.CET6_DATA = {
               "meaning": "n.偷偷一警 v.窥视，偷看",
               "highlight": "n.偷偷一警 v.窥视",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "p（音似“趴”）+ee（形似两只眼睛）+p（音似“瞥”）→他趴在门缝，瞪着两只眼睛“偷看”→偷偷一瞥；窥视，偷看",
+              "tip_type": "词族联想",
+              "tip": "gl-（表示明亮闪烁的经典词族：glow 炽热发光/gleam 微光/glimmer 闪烁/glamor 魅力）+ -itter（反复小动作）→ 细碎晶亮金光连绵不断地闪动 → v.&n. 闪烁，闪耀，闪光",
               "derivations": [],
               "example_en": "The shy child took a quick peep through the curtains at the guests outside.",
               "example_cn": "那个害羞的孩子透过窗帘悄悄向外偷看了一眼外面的客人们。"
@@ -26715,8 +26715,8 @@ window.CET6_DATA = {
               "meaning": "v.发红；脸红；冲洗 n.脸红；潮红；冲(抽水马桶）",
               "highlight": "v.发红",
               "freq": 3,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“服了师”→他上课乱说话，被老师批评了一顿，服了老师，并且羞愧得“脸红”了。",
+              "tip_type": "词族联想",
+              "tip": "st-（表示固定、站立站定不动的词根：stand 站立/statue 雕像/static 静止）+ -are → 目光犹如石化钉死在对方身上一动不动 → n.&v. 盯，凝视，注视",
               "derivations": [],
               "example_en": "His face flushed as he came in after running all thewayfrom school.",
               "example_cn": "他从学校一路跑回来，脸都红了。"
@@ -26775,8 +26775,8 @@ window.CET6_DATA = {
               "meaning": "n.&.v.盯着看；凝视；注视",
               "highlight": "n.&.v.盯着看",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "st（联想street）+a（一）+re（字母音似“阿姨”)→她在街上盯着一个阿姨看→盯着看 I was dazzled by the car's headlights.我被汽车",
+              "tip_type": "词族联想",
+              "tip": "st-（表示固定、站立站定不动的词根：stand 站立/statue 雕像/static 静止）+ -are → 目光犹如石化钉死在对方身上一动不动 → n.&v. 盯，凝视，注视",
               "derivations": [],
               "example_en": "He fixed her with an angry stare.",
               "example_cn": "他生气地盯着她。"
@@ -26812,8 +26812,8 @@ window.CET6_DATA = {
               "meaning": "n.丑行，丑闻，可耻的行为",
               "highlight": "n.丑行",
               "freq": 2,
-              "tip_type": "谐音联想",
-              "tip": "发音类似'死看都' → 荒唐丑事曝光引起全城轰动，所有人都死死盯着看笑话 → 丑闻，丑行；可耻的行为",
+              "tip_type": "词源+联想",
+              "tip": "源自希腊语 skandalon（绊脚石，陷阱，引申为使道德名誉崩塌的丑恶陷阱）→ 败坏社会公德与名望的丑恶丑行 → n. 丑行，丑闻，可耻的行为",
               "derivations": [
                 {
                   "word": "scandalous",
@@ -27137,8 +27137,8 @@ window.CET6_DATA = {
               "meaning": "v.(凭长期努力)达到（某目标、地位、 标准）；成功；完成",
               "highlight": "v.(凭长期努力)达到（某目标、地位、 标准）",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "a-(向着) + chieve(=chief，头领，首要目标) → 克服重重困难终于登上荣誉顶峰达成目标 → v.(凭努力)达到(目标)；成功；完成",
+              "tip_type": "词根+前缀",
+              "tip": "de-（完全，公开）+ dic（词根：宣告，宣誓，同源 indicate 指出/dictate 听写）+ -ate（动词后缀）→ 庄严宣誓将毕生时间与热情全盘奉献给崇高事业 → v. 致力于，献身于；题献给",
               "derivations": [
                 {
                   "word": "achievement",
@@ -27501,8 +27501,8 @@ window.CET6_DATA = {
               "meaning": "v.居住，定居",
               "highlight": "v.居住",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "re(字母音似“阿姨”）+side（面）→阿姨“居住”在马路对面。",
+              "tip_type": "词根+前缀",
+              "tip": "re-（向后，留下来）+ sid/sede（词根：坐下，安坐，定居，同源 president 总统/坐前面的人/residence 住宅）→ 在特定地域安坐下来长期居住 → v. 居住，定居",
               "derivations": [
                 {
                   "word": "resident",
@@ -29253,8 +29253,8 @@ window.CET6_DATA = {
               "meaning": "v.继续存留；逗留，徘徊；拖延，磨蹭",
               "highlight": "v.继续存留",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "lin（联想line，队伍）+ger（音似“哥”）→队伍早就解散了，哥哥却还“逗留，徘徊”在原地磨蹭不走→继续存留；逗留，徘徊；拖延，磨蹭",
+              "tip_type": "词根+联想",
+              "tip": "同源 long（漫长，拉长时间）→ 依依不舍将离别的时间刻意拉得很长，久久不愿离去 → v. 继续存留；逗留，徘徊；拖延，磨蹭",
               "derivations": [],
               "example_en": "Some would linger along the sidewalks selling piles of rotten old vegetables.",
               "example_cn": "有些人会在人行道边逗留，售卖成堆的腐烂老旧蔬菜。"
@@ -29539,8 +29539,8 @@ window.CET6_DATA = {
               "meaning": "n. 增补物，补充物；附录；增刊 v. 增补，补充",
               "highlight": "/'saplimont/ n.增补物",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "supple(联想supply）+-ment（后缀） →这是我们提供给他的“补充物”。",
+              "tip_type": "词根+前缀",
+              "tip": "in-（进入，在内）+ dulg-（词根：宽容，放任，满足，源自拉丁语 indulgere）→ 纵容内心的放纵与享乐欲望而不加节制约束 → v. （使）沉溺于，放纵；容许",
               "derivations": [
                 {
                   "word": "supplementary",
@@ -29797,8 +29797,8 @@ window.CET6_DATA = {
               "meaning": "n.矛盾，不一致；反驳",
               "highlight": "n.矛盾",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "contradict（与……矛盾；反驳）+-ion（名词后缀）→前后说法不一致或当面反驳的状态→矛盾，不一致；反驳",
+              "tip_type": "词源+对照",
+              "tip": "源自希腊语 zelos（狂热，同源 zeal 热心/zealous 狂热的）→ 对别人所拥有的人事物怀有不理性的狂热眼红情绪 → adj. 妒忌的，眼红的；珍惜的",
               "derivations": [
                 {
                   "word": "contradictory",
@@ -30221,8 +30221,8 @@ window.CET6_DATA = {
               "meaning": "n.样式；版本；说法",
               "highlight": "n.样式",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "vers(翻转，改变，同源reverse) + -ion → 从不同角度陈述出来的不同说法故事，或软件升级版本 → n.样式；版本；说法",
+              "tip_type": "词根+后缀",
+              "tip": "cogn-（词根：知道，了解，感知，同源 recognize 认出/cognition 认知）+ -itive（形容词后缀）→ 属于人类大脑感知、理解和获取知识过程的 → adj. 认知的；感知的",
               "derivations": [],
               "example_en": "Could you fax me the latest version?",
               "example_cn": "你可不可以把最新版本传真给我？"
@@ -31108,8 +31108,8 @@ window.CET6_DATA = {
               "meaning": "v.非常害怕；极为担心n.恐惧 adj.可怕的",
               "highlight": "v.非常害怕",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "d（音似“弟”）+read（读书）→弟弟不爱学习，“非常害怕”被老师叫起来读书→非常害怕；极为担心；恐惧；可怕的",
+              "tip_type": "词根+联想",
+              "tip": "同源 drop（心猛烈下沉）与 tremble（颤抖，源自古英语 ondrædan）→ 惊骇得心直往下沉、浑身发冷战栗的可怕感受 → v. 非常害怕，极为担心 n. 恐惧，惧怕",
               "derivations": [],
               "example_en": "My greatest dread is that my parents will find out.",
               "example_cn": "我最担心的就是父母会察觉出来。"
@@ -31225,8 +31225,8 @@ window.CET6_DATA = {
               "meaning": "adj.机密的，保密的；神秘的，隐秘的",
               "highlight": "adj.机密的",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "confident（信任的，信赖的）+ -ial（形容词后缀）→ 唯有获得绝对信赖之人才能知晓的绝密情报 → 机密的，保密的；隐秘的",
+              "tip_type": "词根+联想",
+              "tip": "同源 drop（心猛烈下沉）与 tremble（颤抖）→ 惊骇得心直往下沉、浑身发冷战栗的可怕感受 → v. 非常害怕，极为担心 n. 恐惧，惧怕",
               "derivations": [],
               "example_en": "Companies need to impose restrictions on confidentialinformation.",
               "example_cn": "公司需要对机密信息施加限制。"
@@ -31414,8 +31414,8 @@ window.CET6_DATA = {
               "meaning": "n.优雅，体面；宽限期；恩宠 v.为.……增色，美化",
               "highlight": "n.优雅",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "g（联想“哥”）+race（比赛）→哥哥比赛时的动作真“优雅”。",
+              "tip_type": "词根+联想",
+              "tip": "grac/grat-（词根：喜悦，感恩，优美，同源 grateful 感激的/congratulate 祝贺）→ 令人赏心悦目、落落大方的从容风度与文雅举止 → n. 优雅，体面；恩典",
               "derivations": [
                 {
                   "word": "graceful",
@@ -31800,8 +31800,8 @@ window.CET6_DATA = {
               "meaning": "adj.小心的，谨慎的",
               "highlight": "adj.小心的",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "war（战争）+y（联想“姨”)→战争中的阿姨一直是很“小心的”。",
+              "tip_type": "词族联想",
+              "tip": "同源 ware / aware（警惕警觉的，同源 beware 当心/hardware 硬件）→ 处于时刻警惕防范潜在危险状态的 → adj. 小心的，谨慎的，机警的",
               "derivations": [],
               "example_en": "Be wary of strangers who offer you a ride.",
               "example_cn": "提防那些主动让你搭车的陌生人。"
@@ -32045,8 +32045,8 @@ window.CET6_DATA = {
               "meaning": "n.高兴v.使高兴；使愉快",
               "highlight": "n.高兴v.使高兴",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "de-(加强语气) + light(光亮，喜悦) → 听到录取捷报整个人容光焕发满心欢喜与高兴 → n.高兴，愉悦 v.使高兴；使愉快",
+              "tip_type": "词根+前缀",
+              "tip": "di-（两个，双向）+ lemma（词根：命题，前提，同源 theme 主题）→ 面临两个同样棘手难以抉择的前提，抓哪个都不对劲 → n. （进退两难的）窘境，困境",
               "derivations": [
                 {
                   "word": "delightful",
@@ -32171,8 +32171,8 @@ window.CET6_DATA = {
               "meaning": "n.幻想，错觉",
               "highlight": "n.幻想",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“一路引”→想要人生一直有人引路，只能是不切实际的“幻想，错觉”→幻想，错觉",
+              "tip_type": "词源+联想",
+              "tip": "源自拉丁语 desiderare（仰望星空 sider- 祈愿达成心愿）→ 抬头仰望群星渴望心愿实现的强烈企盼 → n. 愿望；渴望，欲望 v. 渴望，期望",
               "derivations": [
                 {
                   "word": "illusory",
@@ -32193,8 +32193,8 @@ window.CET6_DATA = {
               "meaning": "n.幻想，想象",
               "highlight": "n.幻想",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“范特西”→周杰伦经典专辑《范特西》的名字就源于这个词，意为天马行空的“幻想，想象”→幻想，想象",
+              "tip_type": "词根+前缀",
+              "tip": "de-（无，失去）+ spair/sper（词根：希望，同源 prosper 繁荣/desperate 拼命的）→ 丧失了一切可能获救的渺茫希望 → n.&v. 绝望，感到无望",
               "derivations": [],
               "example_en": "He retreated into a world of fantasy.",
               "example_cn": "他遁入了幻想世界。"
@@ -32281,8 +32281,8 @@ window.CET6_DATA = {
               "meaning": "adj.相当大(或多、重要等）的",
               "highlight": "adj.相当大(或多、重要等）的",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "consider（考虑）+able（能够）→当回报足够多时，条件也是能够考虑的→相当大 （或多、重要等）的",
+              "tip_type": "词根+前缀",
+              "tip": "im-（使处于...境地）+ pair/pejor（词根：更坏，恶化，源自拉丁语 pejor）→ 使完好的机能遭受损伤或恶化下降 → v. 损害；削弱，损伤",
               "derivations": [],
               "example_en": "Damage to the building was considerable.",
               "example_cn": "对这栋建筑物的损坏相当严重。"
@@ -32419,8 +32419,8 @@ window.CET6_DATA = {
               "meaning": "n.愿望；欲望；渴望v.渴望，期望",
               "highlight": "n.愿望",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "de（音似“弟”）+sir（先生）+e（联想“鹅”）→弟弟“渴望”先生讲鹅的故事→愿望；欲望；渴望；期望",
+              "tip_type": "词源+联想",
+              "tip": "源自拉丁语 desiderare（仰望群星 sider- 祈愿达成心愿）→ 抬头仰望群星渴望心愿实现的强烈企盼 → n. 愿望；渴望，欲望 v. 渴望，期望",
               "derivations": [
                 {
                   "word": "desirous",
@@ -32500,8 +32500,8 @@ window.CET6_DATA = {
               "meaning": "n.绝望v.绝望，感到无望",
               "highlight": "n.绝望v.绝望",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "de（音似“弟”）+s（联想“失”）+pair（一双）→弟弟丢失了一双限量款鞋子，他快“绝望”了→绝望；感到无望",
+              "tip_type": "词根+前缀",
+              "tip": "de-（无，失去）+ spair/sper（词根：希望，同源 prosper 繁荣/desperate 拼命的）→ 丧失了一切可能获救的渺茫希望 → n.&v. 绝望，感到无望",
               "derivations": [],
               "example_en": "Ilooked at myboss in despair.",
               "example_cn": "我绝望地看着我的老板。"
@@ -32620,8 +32620,8 @@ window.CET6_DATA = {
               "meaning": "adj. 故意的，蓄意的；深思熟虑的 v. 仔细考虑，深思熟虑",
               "highlight": "/di'libareit/ adj.故意的",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "de（音似“弟”）+liberate（解放，使自由)→弟弟能不能零食自由需要妈妈“仔细考虑”。",
+              "tip_type": "词根+前缀",
+              "tip": "de-（完全，深入）+ liber（词根：天秤，称重权衡，源自天秤座 Libra）+ -ate（形容词/动词后缀）→ 如同在天平上精准称量过各方得失后才深思熟虑采取的决定 → adj. 深思熟虑的；蓄意的，故意的 v. 仔细考虑",
               "derivations": [
                 {
                   "word": "deliberation",
@@ -32719,8 +32719,8 @@ window.CET6_DATA = {
               "meaning": "v. 消化；领悟，理解 n. 文摘，摘要",
               "highlight": "/dai'd3est/ n.文摘",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "di-（两个）+ge（联想“哥”）+st（联想 street)→两个哥哥吃了太多，要去街上散步， “消化”一下。",
+              "tip_type": "词根+前缀",
+              "tip": "di-（分开）+ gest（词根：携带，运送，同源 congest 拥堵/suggest 建议）→ 将吞下的食物或庞杂知识分解吸收运送到全身 → v. 消化；领悟，理解 n. 文摘，摘要",
               "derivations": [
                 {
                   "word": "digestion",
@@ -32831,8 +32831,8 @@ window.CET6_DATA = {
               "meaning": "n.荣誉；赞美；辉煌",
               "highlight": "n.荣誉",
               "freq": 3,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“哥捞日”→哥哥要是能把太阳打捞上来，那可是无上的“荣誉”。",
+              "tip_type": "词族联想",
+              "tip": "同源 glow（炽热发光）/ glass（琉璃光彩）→ 宛如旭日东升普照大地般宏伟闪耀的伟大成就与名声 → n. 光荣，荣誉；壮丽，辉煌",
               "derivations": [],
               "example_en": "The brave soldiers fought bravely to defend their country and achieve national glory.",
               "example_cn": "英勇的士兵们英勇无畏地保卫祖国，为国家赢得了无上的光荣荣耀。"
@@ -33067,8 +33067,8 @@ window.CET6_DATA = {
               "meaning": "n.&v.离婚；分离",
               "highlight": "n.&v.离婚",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "di-（分开）+vorce（音似voice）→夫妻双方经常表达两种声音，这可能会导致“离婚”。",
+              "tip_type": "词源+联想",
+              "tip": "源自拉丁语 calumnia（当面质疑挑战，古法语 chalenge）→ 当众向对手下战书提出质疑并一决胜负 → n.&v. 挑战；质疑，对...表示怀疑",
               "derivations": [],
               "example_en": "Financial stress is a chief reason for divorce.",
               "example_cn": "经济压力是离婚的一个首要原因。"
@@ -33082,8 +33082,8 @@ window.CET6_DATA = {
               "meaning": "adj.单一的；单人的，单身的 n.单程票；单身者；单曲",
               "highlight": "adj.单一的",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "sing（唱）+le（联想“了”）→只有他一个人独唱了→单一的；单人的，单身的；单程票；单身者；单曲",
+              "tip_type": "词族联想",
+              "tip": "trick（巧妙机关）的古诺尔斯语变体 → 轻轻扣动精准触发整个系统运转的微小机械开关或扳机 → n. 扳机；诱因 v. 引发，引起，触发",
               "derivations": [],
               "example_en": "Not a single word of complaint was uttered by the exhausted mountaineers.",
               "example_cn": "疲惫不堪的登山队员们口中没有吐露出哪怕一句单一的抱怨或牢骚。"
@@ -33134,8 +33134,8 @@ window.CET6_DATA = {
               "meaning": "v.复制；再生产；再现；繁殖",
               "highlight": "v.复制",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "re-(再次) + produce(生产，制造) → 打印机复印文件；生物自然繁衍产生后代 → v.复制；再生产；再现；繁殖",
+              "tip_type": "词族联想",
+              "tip": "同源 lack（缺少速度）与 slow（迟缓拖后腿）→ 步伐沉重远远落在了大部队的身后 → v. 发展缓慢；滞后，落后于",
               "derivations": [
                 {
                   "word": "reproduction",
@@ -33251,8 +33251,8 @@ window.CET6_DATA = {
               "meaning": "adj.值得注意的；显著的，显要的",
               "highlight": "adj.值得注意的",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "not(e)（注意）+-able(形容词后缀)→ 值得注意的；显著的，显要的",
+              "tip_type": "词根+前缀",
+              "tip": "pre-（在前方，首位）+ stig（词根：刺，光亮炫目，同源 prestige）→ 在众人前沿令人肃然起敬、光彩夺目的崇高威信 → n. 威望，声望；威信",
               "derivations": [
                 {
                   "word": "notation",
@@ -33577,8 +33577,8 @@ window.CET6_DATA = {
               "meaning": "v.伪装，掩饰n.伪装物",
               "highlight": "v.伪装",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "dis-（音似“弟似”）+gui（拼音“鬼”）+se（拼音“色”）→万圣节晚上，弟弟把自己装扮成鬼的神色→伪装，掩饰",
+              "tip_type": "词根+前缀",
+              "tip": "dis-（离开，改变）+ guise（外表，风貌装扮，同源 guide 指导）→ 彻底改变日常装扮风貌使人无法辨认出真实身份 → v. 伪装，掩饰 n. 伪装物",
               "derivations": [],
               "example_en": "He tried to disguise his accent.",
               "example_cn": "他竭力掩饰自己的口音。"
@@ -34006,8 +34006,8 @@ window.CET6_DATA = {
               "meaning": "adj.固有的，内在的，本质的",
               "highlight": "adj.固有的",
               "freq": 3,
-              "tip_type": "构词",
-              "tip": "in-(在内) + trin(=intra-，内部) + sec(遵循) → 从生命内核与生俱来固有的本质特性 → adj.固有的，内在的，本质的",
+              "tip_type": "词根+后缀",
+              "tip": "gen-（词根：出生，天生血统，同源 generate 产生/genius 天才）+ -uine（形容词后缀）→ 天生纯正血统绝无人工掺假的真品 → adj. 真正的，名副其实的；真诚的",
               "derivations": [
                 {
                   "word": "intrinsically",
@@ -34028,8 +34028,8 @@ window.CET6_DATA = {
               "meaning": "n.本能，天性；直觉",
               "highlight": "n.本能",
               "freq": 3,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“鹰死盯着它”→老鹰死死盯着猎物是与生俱来的“本能，天性；直觉”。",
+              "tip_type": "词根+后缀",
+              "tip": "gen-（词根：天生，天资禀赋，源自罗马神话中的天生守护神 Genius）→ 天赋异禀、具备超凡创造力与智慧的人 → n. 天才；天资，天赋",
               "derivations": [],
               "example_en": "Their instincts warned them something was wrong.",
               "example_cn": "他们的本能提醒他们有些事情不对劲。"
@@ -34971,8 +34971,8 @@ window.CET6_DATA = {
               "meaning": "n.小部分，少量",
               "highlight": "n.小部分",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "fr(联想“芙蓉”）+action（行为）→芙蓉的行为只有“小部分”人可以接受。",
+              "tip_type": "词根+后缀",
+              "tip": "frag-（词根：破碎，断裂，同源 fraction 分数/fracture 骨折）+ -ment（名词后缀）→ 整体器物猛烈破裂飞散后的一小片碎片 → n. 碎片；片段 v. （使）碎裂",
               "derivations": [],
               "example_en": "The fraction was then multiplied by 100 and rounded to the nearest half or whole number.",
               "example_cn": "该分数然后被乘以100，再四舍五入成半数或者整数。"
@@ -35378,8 +35378,8 @@ window.CET6_DATA = {
               "meaning": "v.起源于；来自",
               "highlight": "v.起源于",
               "freq": 2,
-              "tip_type": "构词",
-              "tip": "de-(向下，从...) + riv(溪流，河源，同源river) → 从上游溪流源头一路流淌衍生而来 → v.起源于；来自；获得",
+              "tip_type": "词族联想",
+              "tip": "str-（表示紧绷发力、拉直肌肉的强力词族：strain 拉伤/strict 严格/stride 大步走）+ -ive → 绷紧全身力气为了理想顽强拼搏搏击到底 → v. 努力，奋斗；力求",
               "derivations": [
                 {
                   "word": "derivative",
@@ -36553,8 +36553,8 @@ window.CET6_DATA = {
               "meaning": "n.(基于情感的）观点，看法；情绪",
               "highlight": "n.(基于情感的）观点",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "sent（send的过去式，送）+i（我）+m（拼音“妹”）+ent→假如你把我妹妹送走，我是会闹“情绪”并发表反对“观点，看法”的。",
+              "tip_type": "词根+后缀",
+              "tip": "sent-（词根：感觉，知觉，同源 sense 感觉/sensitive 敏感的）+ -i- + -ment（名词后缀）→ 触景生情所萌生的深层情绪感受与看法态度 → n. 情绪，情感；（基于情感的）观点",
               "derivations": [
                 {
                   "word": "sentimental",
@@ -37088,8 +37088,8 @@ window.CET6_DATA = {
               "meaning": "v.(时间）消逝，流逝",
               "highlight": "v.(时间）消逝",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "e（字母音似“姨”）+lap（音似“来扑”)+se→时光“流逝”，阿姨也长出了皱纹， 原来谁也扑(留)不住时间。",
+              "tip_type": "词根+前缀",
+              "tip": "e-（出，向外）+ lapse（词根：滑落，流走，同源 collapse 倒塌/time-lapse 延时摄影）→ 时光如同沙漏中的细沙悄无声息地滑落飞逝 → v. （时间）消逝，流逝",
               "derivations": [],
               "example_en": "Manyyears had elapsed before theyreturned to dominance their original urban areas.",
               "example_cn": "多年以后，他们才回到原来的市区。"
@@ -37394,8 +37394,8 @@ window.CET6_DATA = {
               "meaning": "n.任期，任职",
               "highlight": "n.任期",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "ten（十）+u（字母音同you）+re（字母音似“阿姨”)→你的阿姨在这一岗位的“任期”是十年。",
+              "tip_type": "词根+后缀",
+              "tip": "ten-（词根：握住，持有，占有，同源 tenant 承租人/retain 保持）+ -ure（名词后缀）→ 合法持续占有并持有某个公职或学术岗位的年限 → n. 任期，终身职位",
               "derivations": [],
               "example_en": "During his ten-year tenure as university president, research funding doubled significantly.",
               "example_cn": "在他担任大学校长的十年任期任职期间，全校科研经费翻了一番。"
@@ -37461,8 +37461,8 @@ window.CET6_DATA = {
               "meaning": "v.妨碍，阻碍",
               "highlight": "v.妨碍",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“恨得”→她恨这个人恨得牙痒痒，千方百计想要“妨碍，阻碍”他继续行事。",
+              "tip_type": "词根+前缀",
+              "tip": "e-（出，向外）+ lapse（词根：滑落，流走，同源 collapse 倒塌/time-lapse 延时摄影）→ 时光如同沙漏中的细沙悄无声息地滑落飞逝 → v. （时间）消逝，流逝",
               "derivations": [
                 {
                   "word": "hindrance",
@@ -37671,8 +37671,8 @@ window.CET6_DATA = {
               "meaning": "v.使自动化",
               "highlight": "v.使自动化",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "auto-（自动的）+m（联想move）+ -ate（动词后缀）→使自动化",
+              "tip_type": "词根+后缀",
+              "tip": "ten-（词根：握住，持有，占有，同源 tenant 承租人/retain 保持）+ -ure（名词后缀）→ 合法持续占有并持有某个公职或学术岗位的年限 → n. 任期，终身职位",
               "derivations": [
                 {
                   "word": "automation",
@@ -37783,8 +37783,8 @@ window.CET6_DATA = {
               "meaning": "n.陈列，展览；展示，表演 v.陈列，展出，展示；显露，显示",
               "highlight": "n.陈列",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "dis（音似“弟死”）+play（玩，表演）→弟弟死活要拿玩具出来玩，只为在客人面前“陈列，展览；展示，表演”一番。",
+              "tip_type": "词根+前缀",
+              "tip": "dis-（分开，展开）+ play/ply（词根：折叠，源自拉丁语 plicare，同源 apply 应用/comply 顺从）→ 把原先折叠收藏的物品全盘在众人眼前展开摊平 → n.&v. 陈列，展出；展示，表现",
               "derivations": [],
               "example_en": "These statistics display a definite trend.",
               "example_cn": "这些统计数据表现出一种明显的趋势。"
@@ -38242,8 +38242,8 @@ window.CET6_DATA = {
               "meaning": "v.开花；兴旺n.花朵",
               "highlight": "v.开花",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "bloo（形似数字六千一百）+m（拼音“妹”）→花园里的六千一百朵“花朵”在妹妹的精心照料下全都“开花；兴旺”起来。",
+              "tip_type": "词族联想",
+              "tip": "同源 blow（吹拂盛开）与 blossom（百花繁盛）→ 春风吹拂大地，花骨朵破苞怒放争奇斗艳的鼎盛景象 → v. 开花；繁荣，兴旺 n. 花朵，盛开期",
               "derivations": [],
               "example_en": "With the development in science and technology， man can make various flowers bloom before their time.",
               "example_cn": "随着科学技术的发展，人们可以使各种各样的花提前绽放。"
@@ -38983,8 +38983,8 @@ window.CET6_DATA = {
               "meaning": "v.装饰，装修",
               "highlight": "v.装饰",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "de（音似“弟”）+cor（联想core，核心）+-ate（动词后缀）→弟弟目前的核心任务就是把新房子“装饰，装修”得漂漂亮亮的。",
+              "tip_type": "词根+后缀",
+              "tip": "decor-（词根：美观，体面，高雅，源自拉丁语 decus，同源 decorum 端庄礼貌）+ -ate（动词后缀）→ 精心粉刷搭配使建筑物与环境优雅美观 → v. 装饰，装潢，装修",
               "derivations": [
                 {
                   "word": "decoration",
@@ -39026,8 +39026,8 @@ window.CET6_DATA = {
               "meaning": "n.装饰；装饰品v.装饰，点缀",
               "highlight": "n.装饰",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“哦那美特”→哦，那座房子真美，“装饰”得特别豪华。",
+              "tip_type": "词根+后缀",
+              "tip": "decor-（词根：美观，体面，高雅，源自拉丁语 decus，同源 decorum 端庄礼貌）+ -ate（动词后缀）→ 精心粉刷搭配使建筑物与环境优雅美观 → v. 装饰，装潢，装修",
               "derivations": [
                 {
                   "word": "ornamental",
@@ -39758,8 +39758,8 @@ window.CET6_DATA = {
               "meaning": "adj.（决定或意见）一致的，一致同意的",
               "highlight": "adj.（决定或意见）一致的",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "un（音似“由你”）+anim（音似“啊你妹”）+-ous（形容词后缀）→由你和你妹妹商定的方案，大家的意见是“一致的，一致同意的”。",
+              "tip_type": "词根+前缀",
+              "tip": "un-（唯一，单一，源自 unus 一，同源 unite 团结）+ anim（词根：心智，灵魂，生命，同源 animal 动物/animate 赋予活力）+ -ous → 全体成员心意合一没有任何异见的分歧 → adj. （决定或意见）一致同意的，全体一致的",
               "derivations": [],
               "example_en": "The decision was not unanimous.",
               "example_cn": "这项决定没有得到一致通过。"
@@ -39773,8 +39773,8 @@ window.CET6_DATA = {
               "meaning": "v.使和谐一致，协调；使和解，和好； 将就，妥协",
               "highlight": "v.使和谐一致",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "re（音似“阿姨”）+con（所有的）+cile（音似“吃了”）→阿姨把所有的饭菜都吃了，一家人便冰释前嫌→使和谐一致，协调；使和解，和好",
+              "tip_type": "词根+前缀",
+              "tip": "re-（重新，再次）+ con-（共同）+ cil-（词根：召集，促成商议，同源 council 理事会/委员会）→ 再次将产生冲突的双方共同召集到圆桌前达成和解 → v. 使和解，使和好；协调，调和",
               "derivations": [
                 {
                   "word": "reconciliation",
@@ -39933,8 +39933,8 @@ window.CET6_DATA = {
               "meaning": "v.(使)连接；联结；接通",
               "highlight": "v.(使)连接",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "con-（所有）+ne（音似“奶”）+ct（音似“刺他”)→所有的奶奶都“联结”起来去刺 （打）他。",
+              "tip_type": "词根+前缀",
+              "tip": "con-（共同）+ nect（词根：绑，系结，连接，同源 nexus 枢纽结节/annex 兼并附加）→ 用坚固的绳索或线路把两物紧紧捆绑在一起 → v. （使）连接，联结；接通",
               "derivations": [
                 {
                   "word": "connection",
@@ -40029,8 +40029,8 @@ window.CET6_DATA = {
               "meaning": "v.(使)与….结合；使混合；使联结",
               "highlight": "v.(使)与….结合",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "min（音似“敏”）+g（拼音“哥”）+le（拼音“了”）→阿敏和邻家哥哥喜结连理了→使混合；使联结；结合",
+              "tip_type": "词族联想",
+              "tip": "同源 among（在...之中）与 mix（混合）→ 自然从容地步入密集人群之中与大家打成一片融为一体 → v. 混入；（使）混合，相互交融",
               "derivations": [],
               "example_en": "If we mingle with the crowd, we shall not be noticed.",
               "example_cn": "如果我们混入密集的人群中，就不会引起任何人的注意。"
@@ -40384,8 +40384,8 @@ window.CET6_DATA = {
               "meaning": "n.名册，登记簿 1v.登记，注册",
               "highlight": "n.名册",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "re-（再次）+g（拼音“哥”）+ister（联想sister，姐姐）→那个哥哥和那个姐姐再次到民政局的“名册，登记簿”上“登记，注册”结婚了。",
+              "tip_type": "词根+前缀",
+              "tip": "re-（向后，留存）+ gist/gest（词根：带来，运送，载入，同源 digest 文摘/suggest 提出）→ 将姓名与关键资料正式记录在案卷名册中以备永久查考 → n. 登记簿，名册 v. 登记，注册",
               "derivations": [
                 {
                   "word": "registration",
@@ -40789,8 +40789,8 @@ window.CET6_DATA = {
               "meaning": "v. 部署，调度(军队或武器)；有效地利用",
               "highlight": "v.部署",
               "freq": 2,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“弟捕捞一”→弟弟要去大海里捕捞，一定要好好“部署”。",
+              "tip_type": "词根+前缀",
+              "tip": "de-（反向，分开）+ ploy/ply（词根：折叠，同源 employ 雇佣/apply 应用）→ 把原来收缩折叠的军队或重要资源在广阔阵线上排开布局 → v. 部署，调度（军队或武器）；有效利用",
               "derivations": [
                 {
                   "word": "deployment",
@@ -41406,8 +41406,8 @@ window.CET6_DATA = {
               "meaning": "adj. 紧密的；小巧的 v. 压实，压紧 n. 协定；小型车",
               "highlight": "/kam'peekt/v./adj. adj.紧密的",
               "freq": 2,
-              "tip_type": "联想",
-              "tip": "com-（所有，都）+pact（音似“拍个它”)→做年糕时，所有人都过来拍它，把它 “压紧”。",
+              "tip_type": "词根+前缀",
+              "tip": "en-（在内，充满）+ erg-（词根：功，工作，做功出力，同源 synergy 协同效应/ergonomics 工效学）+ -y（名词后缀）→ 积蓄在机体内部能爆发出来做功的强劲力量 → n. 精力，活力；能量，干劲",
               "derivations": [],
               "example_en": "Compact digital cameras are convenient for travelers because of their small lightweight size.",
               "example_cn": "紧凑型轻便数码相机因其体积小巧轻便而极受广大旅行者的青睐欢迎。"
