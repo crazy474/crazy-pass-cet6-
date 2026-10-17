@@ -9389,8 +9389,8 @@ window.CET6_DATA = {
               "meaning": "adj.肥沃的；能结果的",
               "highlight": "adj.肥沃的",
               "freq": 2,
-              "tip_type": "谐音+词根",
-              "tip": "① 经典谐音：发音类似“佛头”→《西游记》中的五庄观仙树扎根于“肥沃的”土地中，是一棵“能结果的”人参果树，果子长得酷似佛头；② 词根构词：fert-（词根：带来，结出，产出，源自 bear）+ -ile（易于...的形容词后缀）→ 土地极其容易结出丰硕作物的 → adj. 肥沃的；能结果的，富饶的",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：fert-（词根：结出，产出果实，源自 bear）+ -ile（易于...的）/ 谐音“佛头”→ 怪异脑洞：孙悟空把一壶仙泉浇在五庄观那片仙气蒸腾的“肥沃”土壤里，地面轰隆隆裂开，瞬间破土钻出一整片茂盛仙树，上面挂满了一个个长着慈祥笑脸酷似佛头的神奇人参果！ → adj. 肥沃的；能结果的，富饶的",
               "derivations": [
                 {
                   "word": "fertilizer",
@@ -9439,8 +9439,8 @@ window.CET6_DATA = {
               "meaning": "v.意指；表示，代表",
               "highlight": "v.意指",
               "freq": 2,
-              "tip_type": "词根+对照",
-              "tip": "① 词根构词：de-（加强语气，向下）+ note（记号，标记，注释，同源 notable 显著的）→ 在下方做出明确标记以指示含义 → v. 意指；表示，代表；② 六级核心对照：denote 直指字面外延（名词 denotation 外延/指称） ↔ connote 隐射深层内涵（名词 connotation 内涵/暗示）",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：de-（向下，明确）+ note（记号，便签，标记）→ 怪异脑洞：大侦探拿着放大镜，在死者身下的绝密羊皮卷最下方用荧光血笔画了一个大大的三眼乌鸦记号（note），宣布：“这个记号明确代表刺客家族的暗号！” → v. 意指；表示，代表",
               "derivations": [
                 {
                   "word": "denotation",
@@ -10584,8 +10584,8 @@ window.CET6_DATA = {
               "meaning": "n.宗教，宗教信仰",
               "highlight": "n.宗教",
               "freq": 2,
-              "tip_type": "词根+前缀",
-              "tip": "re-（再，重新）+ lig（词根：绑定，结合，同源 rely 依靠/ligament 韧带/oblige）+ -ion（名词后缀）→ 将人的心灵信仰与神明法则重新紧紧系结在一起的体系 → n. 宗教，宗教信仰",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：re-（反复，重新）+ lig（词根：绑紧，系结，同源 ligament 韧带 / rely 依靠）+ -ion → 怪异脑洞：狂热的部落信徒为了向神明表忠心，每天清晨把自己的长头发重新（re-）死死绑（lig）在巨型石像的脚趾上祈祷，这就是他们深信不疑的狂热“宗教”！ → n. 宗教，宗教信仰",
               "derivations": [
                 {
                   "word": "religious",
@@ -21474,8 +21474,8 @@ window.CET6_DATA = {
               "meaning": "v.减轻，缓和（不快或痛苦）",
               "highlight": "v.减轻",
               "freq": 3,
-              "tip_type": "词根+前缀",
-              "tip": "re-（再，重新）+ liev/lev（词根：轻，举起，同源 elevator 电梯/levitate 悬浮）→ 重新将压在心口沉重的大石举起挪走 → v. 减轻，缓和（痛苦或负担）",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：re-（重新）+ liev/lev（词根：轻，举起，同源 elevator 电梯 / levitate 悬浮）→ 怪异脑洞：倒霉蛋胸口被压了一块千斤巨石快憋死了，绿巨人走过来一把将巨石重新举（lev）起扔进太平洋，倒霉蛋瞬间大松一口气，剧痛和憋屈瞬间“减轻缓和”！ → v. 减轻，缓和（不快或痛苦）",
               "derivations": [
                 {
                   "word": "relief",
@@ -21950,8 +21950,8 @@ window.CET6_DATA = {
               "meaning": "v.重新开始；继续",
               "highlight": "v.重新开始",
               "freq": 2,
-              "tip_type": "词根+前缀",
-              "tip": "re-（重新，再次）+ sume（词根：拿起，拾取，同源 assume 承担/consume 消费）→ 在中途停顿之后重新拾起未完工作继续推进 → v. 重新开始，继续",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：re-（重新）+ sume（词根：拿取，抓起，同源 assume 承担 / consume 消费）→ 怪异脑洞：在擂台上被打得吐血趴地的奥特曼，听到胸前红灯狂响，突然原地复活猛地重新抓起（sume）大宝剑，“重新开始”向怪兽发起猛攻！ → v. 重新开始；继续",
               "derivations": [
                 {
                   "word": "resumption",
@@ -26648,8 +26648,8 @@ window.CET6_DATA = {
               "meaning": "v.闪烁，闪光n.闪烁，闪耀",
               "highlight": "v.闪烁",
               "freq": 3,
-              "tip_type": "联想",
-              "tip": "g（联想“哥”）+litter（垃圾）→哥哥看见垃圾就想进行分类，两眼“闪光”。",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：gl-（表示金色、发光耀眼的经典词族：glow 炽热 / gleam 微光）+ litter（垃圾堆）→ 怪异脑洞：乞丐半夜翻发臭的垃圾桶（litter），手一伸居然从烂菜叶堆里扒拉出一尊纯金镶钻的金佛，在手电筒照射下爆发出极其刺眼的耀眼“闪烁金光”！ → v. 闪烁，闪光 n. 闪烁，闪耀",
               "derivations": [
                 {
                   "word": "glittering",
@@ -26775,8 +26775,8 @@ window.CET6_DATA = {
               "meaning": "n.&.v.盯着看；凝视；注视",
               "highlight": "n.&.v.盯着看",
               "freq": 2,
-              "tip_type": "词族联想",
-              "tip": "st-（表示固定、站立站定不动的词根：stand 站立/statue 雕像/static 静止）+ -are → 目光犹如石化钉死在对方身上一动不动 → n.&v. 盯，凝视，注视",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：st-（词根：站立，固定不动，同源 stand 站立 / statue 雕像 / static 静止）+ -are → 怪异脑洞：冷酷保镖的双眼瞬间石化变成两颗死鱼眼，目光像两枚淬火钢钉一样死死钉（st-）在嫌疑人的眉心整整十分钟连眼皮都不眨一下地“凝视、死死盯着看”！ → n.&.v. 盯着看；凝视；注视",
               "derivations": [],
               "example_en": "He fixed her with an angry stare.",
               "example_cn": "他生气地盯着她。"
@@ -27501,8 +27501,8 @@ window.CET6_DATA = {
               "meaning": "v.居住，定居",
               "highlight": "v.居住",
               "freq": 3,
-              "tip_type": "词根+前缀",
-              "tip": "re-（向后，留下来）+ sid/sede（词根：坐下，安坐，定居，同源 president 总统/坐前面的人/residence 住宅）→ 在特定地域安坐下来长期居住 → v. 居住，定居",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：re-（反复，留下来）+ sid/sede（词根：坐下，定居，同源 president 坐席首脑 / sedentary 久坐的）→ 怪异脑洞：吸血鬼伯爵嫌城堡太吵，偏偏用超强万能胶水把自己的屁股死死坐下（sid）固定在万丈悬崖外的倒吊棺材里常年“居住定居”！ → v. 居住，定居",
               "derivations": [
                 {
                   "word": "resident",
@@ -31108,8 +31108,8 @@ window.CET6_DATA = {
               "meaning": "v.非常害怕；极为担心n.恐惧 adj.可怕的",
               "highlight": "v.非常害怕",
               "freq": 2,
-              "tip_type": "词根+联想",
-              "tip": "同源 drop（心猛烈下沉）与 tremble（颤抖，源自古英语 ondrædan）→ 惊骇得心直往下沉、浑身发冷战栗的可怕感受 → v. 非常害怕，极为担心 n. 恐惧，惧怕",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：d（音似“死/大”）+ read（读，阅读，源自古英语 ondrædan 战栗畏缩）→ 怪异脑洞：学渣做噩梦，梦见阎王爷手里拿着一把四十米大砍刀，逼他当场把一万页的六级真题全部读（read）完，吓得他浑身冷汗直冒牙齿打战，对读书产生了深入骨髓的“极度恐惧、害怕”！ → v. 非常害怕；极为担心 n. 恐惧 adj. 可怕的",
               "derivations": [],
               "example_en": "My greatest dread is that my parents will find out.",
               "example_cn": "我最担心的就是父母会察觉出来。"
@@ -32500,8 +32500,8 @@ window.CET6_DATA = {
               "meaning": "n.绝望v.绝望，感到无望",
               "highlight": "n.绝望v.绝望",
               "freq": 2,
-              "tip_type": "词根+前缀",
-              "tip": "de-（无，失去）+ spair/sper（词根：希望，同源 prosper 繁荣/desperate 拼命的）→ 丧失了一切可能获救的渺茫希望 → n.&v. 绝望，感到无望",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：de-（向下，剥夺殆尽）+ spair/sper（词根：希望，同源 prosper 繁荣 / desperate 拼命的）→ 怪异脑洞：深海潜水员被困在沉船铁笼里，氧气表瞬间归零，唯一的逃生浮标也被大乌贼剥夺（de-）拖入无底深渊，眼睁睁看着最后一丝希望（spair）彻底破灭，陷入无尽的“绝望”！ → n.&v. 绝望，感到无望",
               "derivations": [],
               "example_en": "Ilooked at myboss in despair.",
               "example_cn": "我绝望地看着我的老板。"
@@ -32620,8 +32620,8 @@ window.CET6_DATA = {
               "meaning": "adj. 故意的，蓄意的；深思熟虑的 v. 仔细考虑，深思熟虑",
               "highlight": "/di'libareit/ adj.故意的",
               "freq": 2,
-              "tip_type": "词根+前缀",
-              "tip": "de-（完全，深入）+ liber（词根：天秤，称重权衡，源自天秤座 Libra）+ -ate（形容词/动词后缀）→ 如同在天平上精准称量过各方得失后才深思熟虑采取的决定 → adj. 深思熟虑的；蓄意的，故意的 v. 仔细考虑",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：de-（完全，深入）+ liber（词根：天秤，称重权衡，源自天秤座 Libra）+ -ate → 怪异脑洞：神秘杀手在作案前，戴着白手套坐在地下室里，用微克级黄金天平（liber）足足花了三天三夜精密称量每一粒毒药的重量，这绝对是一场早有预谋、极其“深思熟虑、蓄意故意的”谋杀！ → adj. 故意的，蓄意的；深思熟虑的 v. 仔细考虑",
               "derivations": [
                 {
                   "word": "deliberation",
@@ -37088,8 +37088,8 @@ window.CET6_DATA = {
               "meaning": "v.(时间）消逝，流逝",
               "highlight": "v.(时间）消逝",
               "freq": 3,
-              "tip_type": "词根+前缀",
-              "tip": "e-（出，向外）+ lapse（词根：滑落，流走，同源 collapse 倒塌/time-lapse 延时摄影）→ 时光如同沙漏中的细沙悄无声息地滑落飞逝 → v. （时间）消逝，流逝",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：e-（向外，溜出）+ lapse（词根：滑落，失误，同源 collapse 倒塌 / time-lapse 延时摄影）→ 怪异脑洞：时间大盗打翻了魔法沙漏，金色的时光沙子顺着桌缝如瀑布般疯狂向外（e-）滑落（lapse），主人公一眨眼就变成了白胡子老爷爷，惊呼时间怎么流逝得这么快！ → v. (时间）消逝，流逝",
               "derivations": [],
               "example_en": "Manyyears had elapsed before theyreturned to dominance their original urban areas.",
               "example_cn": "多年以后，他们才回到原来的市区。"
@@ -37394,8 +37394,8 @@ window.CET6_DATA = {
               "meaning": "n.任期，任职",
               "highlight": "n.任期",
               "freq": 2,
-              "tip_type": "词根+后缀",
-              "tip": "ten-（词根：握住，持有，占有，同源 tenant 承租人/retain 保持）+ -ure（名词后缀）→ 合法持续占有并持有某个公职或学术岗位的年限 → n. 任期，终身职位",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：ten-（词根：紧紧握住，持有，同源 tenant 承租人 / maintain 维持）+ -ure（名词后缀）→ 怪异脑洞：老教授抱着他的黄金铁饭碗，双手用强力胶水紧紧握住（ten）校长的办公桌死活不撒手，大喊“我这辈子的终身教授任期谁也别想抢走！” → n. 任期，任职；终身职位",
               "derivations": [],
               "example_en": "During his ten-year tenure as university president, research funding doubled significantly.",
               "example_cn": "在他担任大学校长的十年任期任职期间，全校科研经费翻了一番。"
@@ -38983,8 +38983,8 @@ window.CET6_DATA = {
               "meaning": "v.装饰，装修",
               "highlight": "v.装饰",
               "freq": 2,
-              "tip_type": "词根+后缀",
-              "tip": "decor-（词根：美观，体面，高雅，源自拉丁语 decus，同源 decorum 端庄礼貌）+ -ate（动词后缀）→ 精心粉刷搭配使建筑物与环境优雅美观 → v. 装饰，装潢，装修",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：decor-（词根：美观，体面，同源 decorum 端庄大方）+ -ate → 怪异脑洞：肌肉猛男为了参加圣诞狂欢，嫌普通西装不够抢眼，竟然在自己八块腹肌上缠满了会爆闪发光的七彩霓虹灯带和旋转小风车来疯狂“装饰”自己！ → v. 装饰，装修",
               "derivations": [
                 {
                   "word": "decoration",
@@ -39758,8 +39758,8 @@ window.CET6_DATA = {
               "meaning": "adj.（决定或意见）一致的，一致同意的",
               "highlight": "adj.（决定或意见）一致的",
               "freq": 3,
-              "tip_type": "词根+前缀",
-              "tip": "un-（唯一，单一，源自 unus 一，同源 unite 团结）+ anim（词根：心智，灵魂，生命，同源 animal 动物/animate 赋予活力）+ -ous → 全体成员心意合一没有任何异见的分歧 → adj. （决定或意见）一致同意的，全体一致的",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：un-（一个，统一）+ anim（词根：心智，灵魂，同源 animal 动物 / animate 赋予生命）+ -ous → 怪异脑洞：动物庄园里成千上万只动物（anim）仿佛共用了一个（un-）大脑回路，投票时所有动物瞪大眼睛、异口同声咆哮举手“一致同意”！ → adj. （决定或意见）一致的，一致同意的",
               "derivations": [],
               "example_en": "The decision was not unanimous.",
               "example_cn": "这项决定没有得到一致通过。"
@@ -39933,8 +39933,8 @@ window.CET6_DATA = {
               "meaning": "v.(使)连接；联结；接通",
               "highlight": "v.(使)连接",
               "freq": 3,
-              "tip_type": "词根+前缀",
-              "tip": "con-（共同）+ nect（词根：绑，系结，连接，同源 nexus 枢纽结节/annex 兼并附加）→ 用坚固的绳索或线路把两物紧紧捆绑在一起 → v. （使）连接，联结；接通",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：con-（共同，全部）+ nect（词根：系结，同源 neck 脖子 / nexus 枢纽）→ 怪异脑洞：外星大魔王为了防止小怪兽逃跑，用一根高压闪电铁链把所有小怪兽的脖子（neck）共同（con-）牢牢“连接”串成一大串！ → v. (使)连接；联结；接通",
               "derivations": [
                 {
                   "word": "connection",
@@ -40789,8 +40789,8 @@ window.CET6_DATA = {
               "meaning": "v. 部署，调度(军队或武器)；有效地利用",
               "highlight": "v.部署",
               "freq": 2,
-              "tip_type": "词根+前缀",
-              "tip": "de-（反向，分开）+ ploy/ply（词根：折叠，同源 employ 雇佣/apply 应用）→ 把原来收缩折叠的军队或重要资源在广阔阵线上排开布局 → v. 部署，调度（军队或武器）；有效利用",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：de-（散开，反向）+ ploy/ply（词根：折叠，同源 apply / employ）→ 怪异脑洞：星际舰队原本折叠（ploy）成一个个不起眼的小铁盒，指挥官一声令下，铁盒瞬间在战场上散开（de-）变成千军万马的钢铁高达火速“部署”到位！ → v. 部署，调度(军队或武器)；有效地利用",
               "derivations": [
                 {
                   "word": "deployment",
@@ -41153,8 +41153,8 @@ window.CET6_DATA = {
               "meaning": "n.精力；活力；干劲；力量；能量",
               "highlight": "n.精力",
               "freq": 3,
-              "tip_type": "谐音",
-              "tip": "单词发音类似“俺奶鸡”→俺奶奶还抓鸡呢，“精力”特别旺盛。",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：en-（在内部）+ erg（词根：功，工作，做功出力，谐音“二哥”）→ 怪异脑洞：二哥（erg）身体内部（en-）仿佛被天雷劈中装了一台超光速永动机，大半夜两眼发绿光倒立狂做一万个俯卧撑，浑身都是使不完的狂暴“精力、能量”！ → n. 精力，活力；干劲；能量",
               "derivations": [
                 {
                   "word": "energetic",
@@ -41406,8 +41406,8 @@ window.CET6_DATA = {
               "meaning": "adj. 紧密的；小巧的 v. 压实，压紧 n. 协定；小型车",
               "highlight": "/kam'peekt/v./adj. adj.紧密的",
               "freq": 2,
-              "tip_type": "词根+前缀",
-              "tip": "en-（在内，充满）+ erg-（词根：功，工作，做功出力，同源 synergy 协同效应/ergonomics 工效学）+ -y（名词后缀）→ 积蓄在机体内部能爆发出来做功的强劲力量 → n. 精力，活力；能量，干劲",
+              "tip_type": "词根+怪异脑洞",
+              "tip": "词根：com-（共同，挤到一块）+ pact（词根：压紧，紧实，同源 impact 冲击 / package）→ 怪异脑洞：宇宙机械巨兽把十头巨大无比的霸王龙狠狠拍（pact）压到一块（com-），居然瞬间压缩成了一个只有巴掌大小、能放进衬衫口袋里的“紧密小巧的”金属方块！ → adj. 紧密的；小巧的 v. 压实，压紧 n. 协定；小型车",
               "derivations": [],
               "example_en": "Compact digital cameras are convenient for travelers because of their small lightweight size.",
               "example_cn": "紧凑型轻便数码相机因其体积小巧轻便而极受广大旅行者的青睐欢迎。"
