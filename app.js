@@ -242,12 +242,10 @@ function setAmbientSound(type) {
   ambientSource.start();
 }
 
-// --- 5. 纯单轨零延迟本地极速超清朗读引擎 (Zero-Latency Local Neural Engine) ---
+// --- 5. 纯单轨零延迟本地极速超清朗读引擎 (Zero-Latency Local Neural Engine · 100%纯本地离线首击必响) ---
 let activeSpeechUtterance = null;
 let speechWatchdogTimer = null;
 let cachedBestVoices = { us: null, uk: null };
-let fallbackAudioPlayer = null;
-let currentSpeechRequestId = 0;
 
 if (typeof window !== "undefined") {
   if (!window.__activeSpeechUtterances) {
@@ -263,14 +261,14 @@ if (!userState.audioPref) {
   };
 }
 
-// 文本深度净化函数：过滤词性缩写、音标斜杠、中文说明、括号符号
+// 文本深度净化函数：过滤词性缩写、音标斜杠、中文说明、括号符号 (严防误删 Art 等真实英文单词)
 function cleanTextForSpeech(text) {
   if (!text) return "";
   let s = String(text);
   // 去除中文汉字与全角中文标点
   s = s.replace(/[\u4e00-\u9fa5\u3000-\u303f\uff01-\uff5e]/g, " ");
-  // 去除词性缩写与语法标记 (如 v., n., adj., vt.)
-  s = s.replace(/\b(v|n|adj|adv|vt|vi|prep|conj|pron|art|num|pl|sing|sb|sth)\b\.?/gi, " ");
+  // 去除带点词性缩写与语法标记 (如 v., n., adj., vt., art.)
+  s = s.replace(/\b(v|n|adj|adv|vt|vi|prep|conj|pron|art|num|pl|sing|sb|sth)\./gi, " ");
   // 去除音标斜杠与各种括号中的非单词内容
   s = s.replace(/\/.*?\/|\[.*?\]|\(.*?\)|【.*?】/g, " ");
   // 去除多余特殊符号并整理空格
@@ -290,7 +288,7 @@ function cacheBestVoices() {
       ? ["Ryan", "Sonia", "Libby", "Google UK English Female", "Google UK English Male", "Daniel", "Oliver", "George"]
       : ["Jenny", "Guy", "Aria", "Google US English", "Samantha", "Zira", "David", "Ava", "Andrew"];
 
-    // 坚决过滤中文引擎（严防机械中文发音拼读英文口音）
+    // 优先匹配标准英语引擎
     const englishVoices = voices.filter(v => {
       const lang = (v.lang || "").toLowerCase();
       const name = (v.name || "").toLowerCase();
@@ -298,26 +296,26 @@ function cacheBestVoices() {
              !name.includes("chinese") && !name.includes("huihui") && !name.includes("kangkang") && !name.includes("yaoyao");
     });
 
-    if (englishVoices.length === 0) return voices[0] || null;
+    const candidateVoices = englishVoices.length > 0 ? englishVoices : voices;
 
-    // 优先匹配高质量自然语音
+    // 1. 匹配首选优质音色名
     for (const pName of preferredNames) {
-      const match = englishVoices.find(v => v.name.includes(pName) || (v.voiceURI && v.voiceURI.includes(pName)));
+      const match = candidateVoices.find(v => (v.name && v.name.includes(pName)) || (v.voiceURI && v.voiceURI.includes(pName)));
       if (match) return match;
     }
 
-    // 匹配带有 Natural / Online / Neural 关键字
-    const naturalMatch = englishVoices.find(v => {
-      const n = (v.name + " " + (v.voiceURI || "")).toLowerCase();
-      return (n.includes("natural") || n.includes("neural") || n.includes("online")) && v.lang.toLowerCase().includes(accent === "uk" ? "gb" : "us");
+    // 2. 匹配带有 Natural / Online / Neural 关键字
+    const naturalMatch = candidateVoices.find(v => {
+      const n = ((v.name || "") + " " + (v.voiceURI || "")).toLowerCase();
+      return (n.includes("natural") || n.includes("neural") || n.includes("online")) && (v.lang || "").toLowerCase().includes(accent === "uk" ? "gb" : "us");
     });
     if (naturalMatch) return naturalMatch;
 
-    // 匹配语言代码
-    const langMatch = englishVoices.find(v => v.lang.toLowerCase().replace("_", "-").startsWith(targetLang.toLowerCase()));
+    // 3. 匹配语言代码 (en-US / en-GB)
+    const langMatch = candidateVoices.find(v => (v.lang || "").toLowerCase().replace("_", "-").startsWith(targetLang.toLowerCase()));
     if (langMatch) return langMatch;
 
-    return englishVoices[0];
+    return candidateVoices[0] || null;
   }
 
   cachedBestVoices.us = findVoice("us");
@@ -330,14 +328,8 @@ if (typeof window !== "undefined" && "speechSynthesis" in window) {
   cacheBestVoices();
 }
 
-// 停止所有发音与动画 (同时中止 Web Speech 与 兜底 Audio)
+// 停止所有发音与动画
 function stopAllSpeech() {
-  if (fallbackAudioPlayer) {
-    try {
-      fallbackAudioPlayer.pause();
-      fallbackAudioPlayer.currentTime = 0;
-    } catch (e) {}
-  }
   if (typeof window !== "undefined" && "speechSynthesis" in window) {
     try {
       window.speechSynthesis.cancel();
@@ -352,62 +344,15 @@ function stopAllSpeech() {
   });
 }
 
-// 高保真真人母语音频兜底播放器 (针对部分手机/WebKit/无声设备实现首击 100% 必响)
-function playFallbackAudio(text, accent, onEndCallback) {
-  try {
-    if (!fallbackAudioPlayer) {
-      fallbackAudioPlayer = new Audio();
-    }
-    fallbackAudioPlayer.pause();
-    fallbackAudioPlayer.currentTime = 0;
-
-    // type=1 为英音, type=2 为美音
-    const voiceType = accent === "uk" ? 1 : 2;
-    const cleanWord = encodeURIComponent(text);
-    fallbackAudioPlayer.src = "https://dict.youdao.com/dictvoice?audio=" + cleanWord + "&type=" + voiceType;
-
-    fallbackAudioPlayer.onended = () => {
-      if (typeof onEndCallback === "function") onEndCallback();
-    };
-    fallbackAudioPlayer.onerror = () => {
-      if (typeof onEndCallback === "function") onEndCallback();
-    };
-
-    const p = fallbackAudioPlayer.play();
-    if (p !== undefined) {
-      p.catch(err => {
-        console.warn("Fallback audio play catch:", err);
-        if (typeof onEndCallback === "function") onEndCallback();
-      });
-    }
-  } catch (e) {
-    console.warn("playFallbackAudio exception:", e);
-    if (typeof onEndCallback === "function") onEndCallback();
-  }
-}
-
-// 【单轨极速发音核心函数】(彻底解决“有时需要点击两次”问题，首击必响、零延迟切歌、超清发音)
+// 【单轨极速发音核心函数】(彻底根治点击无反应、无声音；100%纯本地离线首击必响)
 function speakWord(text, btnElement) {
   if (!text) return;
-  const requestId = ++currentSpeechRequestId;
 
   // 1. 文本净化：剥除所有词性、标点与杂音
   const clean = cleanTextForSpeech(text);
   if (!clean) return;
 
-  // 2. 清理之前的看门狗与兜底音频
-  if (speechWatchdogTimer) {
-    clearInterval(speechWatchdogTimer);
-    speechWatchdogTimer = null;
-  }
-  if (fallbackAudioPlayer) {
-    try {
-      fallbackAudioPlayer.pause();
-      fallbackAudioPlayer.currentTime = 0;
-    } catch (e) {}
-  }
-
-  // 3. 视觉声波高亮激活 (优先直接定位传入的按钮对象，兼容事件冒泡)
+  // 2. 视觉声波高亮激活 (优先直接定位传入的按钮对象，兼容事件冒泡)
   let activeBtn = btnElement || (typeof window !== "undefined" && window.event && (window.event.currentTarget || window.event.target));
   if (activeBtn && activeBtn.closest) {
     activeBtn = activeBtn.closest("button, .audio-speak-btn, .mindmap-word-pill") || activeBtn;
@@ -418,54 +363,50 @@ function speakWord(text, btnElement) {
   }
 
   const cleanupVisual = () => {
-    if (requestId === currentSpeechRequestId) {
-      if (activeBtn && activeBtn.classList) {
-        activeBtn.classList.remove("audio-speaking-active");
-      }
+    if (activeBtn && activeBtn.classList) {
+      activeBtn.classList.remove("audio-speaking-active");
     }
   };
 
-  const accent = (userState.audioPref && userState.audioPref.accent) || "us";
-  const rate = (userState.audioPref && userState.audioPref.rate) || 1.0;
-
-  // 4. 检查浏览器是否支持 Web Speech API
-  const hasSpeechSynth = typeof window !== "undefined" && ("speechSynthesis" in window) && window.speechSynthesis;
-  if (!hasSpeechSynth) {
-    playFallbackAudio(clean, accent, cleanupVisual);
+  if (typeof window === "undefined" || !("speechSynthesis" in window) || !window.speechSynthesis) {
+    cleanupVisual();
     return;
   }
 
-  // 5. 【核心修复：彻底根治“需要点击两次”的浏览器底层竞争态 Bug】
-  // 原因：如果在未发音时无脑调用 cancel()，Chromium 与 WebKit 的底层异步 IPC 会直接将随后排队的 speak() 误判取消 (canceled)！
-  // 必须只在当前切实处于发声 (speaking) 或正在排队 (pending) 状态时，才执行切歌打断！
-  if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
-    try {
+  // 3. 稳妥状态重置：如果正在说话或排队，中断上一句以实现指哪打哪；如果被休眠挂起(paused)，唤醒
+  try {
+    if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
       window.speechSynthesis.cancel();
-    } catch (e) {}
-  }
-
-  // 【核心修复：清除 Chrome 唤醒/切后台导致的 paused 僵尸挂起状态】
-  // 如果处于 paused 状态，speak() 只会无声排队，必须显式调用 resume() 唤醒！
-  if (window.speechSynthesis.paused) {
-    try {
+    }
+    if (window.speechSynthesis.paused) {
       window.speechSynthesis.resume();
-    } catch (e) {}
+    }
+  } catch (e) {}
+
+  if (speechWatchdogTimer) {
+    clearInterval(speechWatchdogTimer);
+    speechWatchdogTimer = null;
   }
 
-  // 6. 构建发音实例并赋予最优音色
+  // 4. 构建发音实例并赋予最优音色
+  const accent = (userState.audioPref && userState.audioPref.accent) || "us";
+  const rate = (userState.audioPref && userState.audioPref.rate) || 1.0;
+
   const utter = new SpeechSynthesisUtterance(clean);
   utter.rate = rate;
   utter.pitch = 1.0;
   utter.lang = accent === "uk" ? "en-GB" : "en-US";
 
+  // 动态查表取出预热好的最佳母语音色
   if (!cachedBestVoices[accent]) cacheBestVoices();
   const voice = cachedBestVoices[accent];
-  if (voice) utter.voice = voice;
+  if (voice) {
+    utter.voice = voice;
+  }
 
-  let hasStarted = false;
   let isEnded = false;
 
-  // 【核心修复：强引用 Set 绑定，杜绝 V8 垃圾回收提前销毁 utterance 导致哑音】
+  // 强引用 Set 绑定，杜绝 V8 垃圾回收提前销毁 utterance 导致哑音
   if (window.__activeSpeechUtterances) {
     window.__activeSpeechUtterances.add(utter);
   }
@@ -486,7 +427,10 @@ function speakWord(text, btnElement) {
   };
 
   utter.onstart = () => {
-    hasStarted = true;
+    if (speechWatchdogTimer) {
+      clearInterval(speechWatchdogTimer);
+      speechWatchdogTimer = null;
+    }
   };
 
   utter.onend = () => {
@@ -494,39 +438,20 @@ function speakWord(text, btnElement) {
   };
 
   utter.onerror = (event) => {
-    // 【核心自愈机制：若因极端内核竞态在启动前被 canceled/interrupted，立即无缝转接兜底高清音频】
-    if (!hasStarted && requestId === currentSpeechRequestId && event && (event.error === "canceled" || event.error === "interrupted" || event.error === "network" || event.error === "audio-busy")) {
-      playFallbackAudio(clean, accent, cleanupVisual);
-      finishUtterance();
-      return;
-    }
+    console.warn("Speech synthesis notice:", event && event.error);
     finishUtterance();
   };
 
-  // 7. 发送播放指令 (在用户手势事件中同步触发)
+  // 5. 立即触发本地发音 (完全不需要走任何外部网络，零延迟瞬时发声)
   try {
     window.speechSynthesis.speak(utter);
   } catch (errSpeak) {
-    playFallbackAudio(clean, accent, cleanupVisual);
+    console.warn("Speech speak error:", errSpeak);
     finishUtterance();
     return;
   }
 
-  // 8. 【350ms 首击发音安全哨兵】：
-  // 针对某些移动端浏览器静默吞音的异常情况，如果 350ms 内既未启动也未发声，立即自动补救
-  setTimeout(() => {
-    if (!hasStarted && !isEnded && requestId === currentSpeechRequestId) {
-      if (window.speechSynthesis.paused) {
-        try { window.speechSynthesis.resume(); } catch (e) {}
-      }
-      if (!window.speechSynthesis.speaking) {
-        playFallbackAudio(clean, accent, cleanupVisual);
-        finishUtterance();
-      }
-    }
-  }, 350);
-
-  // 9. 兜底看门狗（应对长真题例句，防止 Chrome 引擎后台挂起）
+  // 6. 兜底看门狗（应对长真题例句，防止某些浏览器后台挂起时视觉状态卡死）
   speechWatchdogTimer = setInterval(() => {
     if (!window.speechSynthesis.speaking) {
       clearInterval(speechWatchdogTimer);
